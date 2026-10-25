@@ -849,6 +849,12 @@ input, select, textarea { font-size: max(16px, 1em); }
 .tipRow i { width: 8px; height: 8px; border-radius: 50%; }
 .tipRow span { margin-left: auto; font-weight: 700; padding-left: 10px; }
 #v-apuracao.apGovMode .govOne { display: none; }
+/* aviso oficial na apura\E7 \E3 o */
+.apAviso { max-width: 760px; margin: 18px auto 0; padding: 14px 18px; border-radius: 18px; background: color-mix(in srgb, var(--live) 9%, var(--bg)); border: 1px solid color-mix(in srgb, var(--live) 35%, transparent); text-align: left; }
+.apAviso p { margin: 0; font-size: 0.92rem; line-height: 1.5; }
+.apAvisoT { display: flex; align-items: center; gap: 8px; font-weight: 700; font-size: 1rem !important; margin-bottom: 4px !important; }
+.apAvisoT i { width: 8px; height: 8px; border-radius: 50%; background: var(--live); animation: awPing 2s infinite; flex: none; }
+.apAvisoF { margin-top: 6px !important; font-size: 0.8rem !important; color: var(--muted); }
 </style>
 
 <header class="nav">
@@ -886,6 +892,7 @@ input, select, textarea { font-size: max(16px, 1em); }
         <button type="button" data-turno="1" aria-pressed="false">1&#186; turno</button>
       </div>
     </div>
+    <div class="apAviso" id="apAviso" role="status" hidden></div>
     <div class="cargoBar" id="cargoBar"><div class="seg" role="group" aria-label="Cargo" id="cargoSeg">
       <button type="button" data-cargo="pres" aria-pressed="true">Presidente</button>
       <button type="button" data-cargo="gov" aria-pressed="false">Governador &#183; 6 estados</button>
@@ -3332,6 +3339,18 @@ input, select, textarea { font-size: max(16px, 1em); }
       setInterval(function () { if (!document.hidden && govMode() && !$("v-apuracao").hidden) poll(false); }, 10000);
       return { render: render };
     })();
+
+    /* ---- aviso oficial (ex.: prorroga\u00e7\u00e3o do hor\u00e1rio), lido de aviso.json a cada minuto ---- */
+    function pullAviso() {
+      fetch("aviso.json?t=" + Math.floor(Date.now() / 30000), { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (a) {
+        var box = $("apAviso"); if (!box) return;
+        if (!a || !a.ativo) { box.hidden = true; return; }
+        box.hidden = false;
+        box.innerHTML = '<p class="apAvisoT"><i></i>' + esc(a.titulo || "Aviso") + '</p><p>' + esc(a.texto || "") + "</p>" +
+          (a.fontes && a.fontes.length ? '<p class="apAvisoF">Fontes: ' + a.fontes.map(function (f) { return '<a href="' + esc(f.url) + '" target="_blank" rel="noopener">' + esc(f.nome) + "</a>"; }).join(" \u00b7 ") + "</p>" : "");
+      }).catch(function () {});
+    }
+    pullAviso(); setInterval(function () { if (!document.hidden) pullAviso(); }, 60000);
 
     /* ---- eventos e atualiza\u00e7\u00e3o ---- */
     $("apTabs").addEventListener("click", function (ev) { var b = ev.target.closest("[data-aptab]"); if (b) setTab(b.dataset.aptab); });
