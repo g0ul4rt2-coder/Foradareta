@@ -972,10 +972,6 @@ input, select, textarea { font-size: max(16px, 1em); }
     <section class="tlMain" id="tlMain" hidden>
       <div class="tlHead">
         <div><p class="eyebrow">Ao longo da noite</p><h2 class="h3">Como a apura&#231;&#227;o andou</h2></div>
-        <div class="seg" role="group" aria-label="Eixo do gr&#225;fico" id="tlAxis">
-          <button type="button" data-tlx="s" aria-pressed="true"><span class="tlLong">Por se&#231;&#245;es apuradas</span><span class="tlShort">Se&#231;&#245;es</span></button>
-          <button type="button" data-tlx="h" aria-pressed="false"><span class="tlLong">Por hor&#225;rio</span><span class="tlShort">Hor&#225;rio</span></button>
-        </div>
       </div>
       <div class="tlWrap"><svg id="tlSvg" viewBox="0 0 760 320" role="img" aria-label="Evolu&#231;&#227;o do percentual de votos v&#225;lidos de cada candidato durante a apura&#231;&#227;o"></svg><div class="tlTip" id="tlTip" hidden></div></div>
       <p class="small muted tlNote" id="tlNote">Percentual de votos v&#225;lidos de cada candidato a cada boletim do TSE. &#201; comum a vantagem oscilar no come&#231;o, porque estados e cidades terminam a contagem em ritmos diferentes.</p>
@@ -3118,7 +3114,6 @@ input, select, textarea { font-size: max(16px, 1em); }
       var sec = $("tlMain"), svg = $("tlSvg"); if (!sec) return;
       var hs = histAll(), show = A.turno === "2" && !govMode() && hs.length >= 2;
       sec.hidden = !show; if (!show) return;
-      segSet($("tlAxis"), "tlx", A.tlx);
       var o = order1T(), W = 760, H = 320, L = 46, Rr = 54, T = 16, B = 36, byTime = A.tlx === "h";
       if (byTime) hs = hs.slice().sort(function (a, b) { return hsec(a.h) - hsec(b.h); });
       var vals = []; hs.forEach(function (p) { o.forEach(function (n) { if (p.c[n] != null) vals.push(p.c[n]); }); });
@@ -3178,7 +3173,6 @@ input, select, textarea { font-size: max(16px, 1em); }
     $("tlSvg").addEventListener("pointermove", tlPointer);
     $("tlSvg").addEventListener("pointerdown", tlPointer);
     $("tlSvg").addEventListener("pointerleave", function () { $("tlTip").hidden = true; var cr = $("tlCross"); if (cr) cr.setAttribute("visibility", "hidden"); });
-    $("tlAxis").addEventListener("click", function (ev) { var b = ev.target.closest("[data-tlx]"); if (b) { A.tlx = b.dataset.tlx; renderTimelineMain(); } });
     // o hist\u00f3rico publicado pelo rob\u00f4 (mais completo) \u00e9 relido a cada 2 minutos
     setInterval(function () { if (!document.hidden && A.turno === "2") pullFile().then(function (j) { if (j && j.hist && j.hist.length) { A.fileHist = j.hist; renderTimelineMain(); renderTimeline(); } }).catch(function () {}); }, 120000);
 
