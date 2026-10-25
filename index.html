@@ -2544,16 +2544,25 @@ input, select, textarea { font-size: max(16px, 1em); }
       function size() {
         var r = $("brMap").getBoundingClientRect(), dpr = Math.min(2, window.devicePixelRatio || 1);
         cv.style.width = r.width + "px"; cv.style.height = r.height + "px";
+        // posiciona a tela exatamente sobre o SVG (medindo na tela, sem depender de margens do layout)
+        var op = cv.offsetParent || document.body, pr = op.getBoundingClientRect();
+        cv.style.left = (r.left - pr.left - op.clientLeft) + "px"; cv.style.top = (r.top - pr.top - op.clientTop) + "px";
         cv.width = Math.round(r.width * dpr); cv.height = Math.round(r.height * dpr);
-        M.scale = cv.width / 613; M.dpr = dpr;
+        // mesma conta do SVG (preserveAspectRatio "meet", centralizado): a tela e o contorno ficam sempre alinhados
+        var vb = svgBox(), sc = Math.min(r.width / vb[2], r.height / vb[3]);
+        M.scale = sc * dpr; M.dpr = dpr;
+        M.ox = ((r.width - vb[2] * sc) / 2 - vb[0] * sc) * dpr; M.oy = ((r.height - vb[3] * sc) / 2 - vb[1] * sc) * dpr;
+        M.sizedW = r.width; M.sizedH = r.height;
       }
+      function svgBox() { var v = ($("brMap").getAttribute("viewBox") || "0 0 613 639").split(/[\s,]+/).map(Number); return v.length === 4 && v[2] ? v : [0, 0, 613, 639]; }
       size(); window.addEventListener("resize", size);
+      if (window.ResizeObserver) new ResizeObserver(function () { size(); }).observe($("brMap"));
       function frame(t) {
         requestAnimationFrame(frame);
         if (document.hidden || $("v-apuracao").hidden || !cv.offsetParent) return;
         if (t - last < (reduce ? 1000 : 33)) return; // ~30 quadros por segundo
         last = t;
-        if (cv.width === 0) size();
+        if (cv.width === 0) size(); else { var rb = $("brMap").getBoundingClientRect(); var rc = cv.getBoundingClientRect(); if (Math.abs(rb.width - M.sizedW) > 0.5 || Math.abs(rb.height - M.sizedH) > 0.5 || Math.abs(rb.top - rc.top) > 0.5 || Math.abs(rb.left - rc.left) > 0.5) size(); }
         var s = M.scale, n = M.n, rad = Math.max(0.55, M.sp * 0.28 * s), amp = reduce ? 0 : M.sp * 0.12 * s, tt = t / 1000, el = t - M.t0;
         ctx.clearRect(0, 0, cv.width, cv.height);
         var hov = M.hover, sel = A.uf, byUf = {}, ufList = [];
@@ -2576,13 +2585,13 @@ input, select, textarea { font-size: max(16px, 1em); }
         for (var e = 0; e < ufList.length; e++) {
           var ufe = ufList[e], ub2 = byUf[ufe], cp = M.clip[ufe];
           ctx.save();
-          if (cp) { ctx.setTransform(s, 0, 0, s, 0, 0); ctx.clip(cp); ctx.setTransform(1, 0, 0, 1, 0, 0); }
+          if (cp) { ctx.setTransform(s, 0, 0, s, M.ox, M.oy); ctx.clip(cp); ctx.setTransform(1, 0, 0, 1, 0, 0); }
           for (var q = 0; q < ub2.k.length; q++) {
             var key2 = ub2.k[q], list = ub2.b[key2], last1 = key2.charAt(key2.length - 1), at = key2.indexOf("@"), rr = rad * (last1 === "h" ? 1.25 : last1 === "m" ? 0.86 : 1) * parseInt(key2.slice(at + 1), 10) / 10;
             ctx.fillStyle = key2.slice(0, at);
             ctx.beginPath();
             for (var z = 0; z < list.length; z++) {
-              var w = list[z], x = M.x[w] * s + amp * Math.sin(tt * M.f1[w] + M.ph1[w]), y = M.y[w] * s + amp * Math.cos(tt * M.f2[w] + M.ph2[w]);
+              var w = list[z], x = M.ox + M.x[w] * s + amp * Math.sin(tt * M.f1[w] + M.ph1[w]), y = M.oy + M.y[w] * s + amp * Math.cos(tt * M.f2[w] + M.ph2[w]);
               ctx.moveTo(x + rr, y); ctx.arc(x, y, rr, 0, 6.2832);
             }
             ctx.fill();
@@ -2594,7 +2603,7 @@ input, select, textarea { font-size: max(16px, 1em); }
           var fl = M.flash[fu], age = t - fl.t;
           if (age > 1800 || !M.clip[fu]) { delete M.flash[fu]; continue; }
           var al = 0.85 * (1 - age / 1800);
-          ctx.save(); ctx.setTransform(s, 0, 0, s, 0, 0);
+          ctx.save(); ctx.setTransform(s, 0, 0, s, M.ox, M.oy);
           ctx.strokeStyle = "rgba(" + (fl.c[0] | 0) + "," + (fl.c[1] | 0) + "," + (fl.c[2] | 0) + "," + al.toFixed(3) + ")";
           ctx.lineWidth = (1.2 + 2.2 * (1 - age / 1800)) * M.dpr / s; ctx.lineJoin = "round";
           ctx.stroke(M.clip[fu]); ctx.restore();
