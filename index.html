@@ -2576,8 +2576,7 @@ input, select, textarea { font-size: max(16px, 1em); }
         last = t;
         if (cv.width === 0) size(); else { var rb = $("brMap").getBoundingClientRect(); var rc = cv.getBoundingClientRect(); if (Math.abs(rb.width - M.sizedW) > 0.5 || Math.abs(rb.height - M.sizedH) > 0.5 || Math.abs(rb.top - rc.top) > 0.5 || Math.abs(rb.left - rc.left) > 0.5) size(); }
         var s = M.scale, n = M.n, rad = Math.max(0.55, M.sp * 0.28 * s), amp = 0, tt = t / 1000, el = t - M.t0;
-        // faixa de luz diagonal que atravessa o mapa devagar (a cada ~9 s), como uma varredura
-        var band = ((t / 9000) % 1) * 1.5 - 0.25, pings = [];
+        var pings = [];
         for (var pu in M.flash) if (t - M.flash[pu].t < 1100) pings.push(pu);
         ctx.clearRect(0, 0, cv.width, cv.height);
         var hov = M.hover, sel = A.uf, byUf = {}, ufList = [];
@@ -2589,8 +2588,6 @@ input, select, textarea { font-size: max(16px, 1em); }
             if (tq < 0) k = 0; else { var qq = Math.min(1, tq / 620) - 1; k = 1; sc = 0.2 + 0.8 * (1 + 3.2 * qq * qq * qq + 2.2 * qq * qq); }
           }
           if (!reduce) {
-            var bd = (M.dg[i] - band) / 0.055, lift = Math.exp(-bd * bd);
-            sc *= 1 + 0.55 * lift;
             if (pings.length && M.flash[M.uf[i]] && t - M.flash[M.uf[i]].t < 1100) {
               // onda que sai do centro do estado quando chegam votos novos
               var ag = t - M.flash[M.uf[i]].t, dd = Math.abs(M.dn[i] - ag / 950);
@@ -2601,7 +2598,7 @@ input, select, textarea { font-size: max(16px, 1em); }
           M.cur[j] = r; M.cur[j + 1] = g; M.cur[j + 2] = b; M.cur[j + 3] = a;
           var u = M.uf[i], dim = ((hov && u !== hov) || (sel && sel !== "zz" && u !== sel && !hov) ? 0.35 : 1) * (M.minor[i] ? 0.78 : 1);
           // cores agrupadas (levemente arredondadas): um \u00fanico preenchimento por cor deixa o mapa leve mesmo com milhares de pontos
-          var key = "rgba(" + ((r / 6 | 0) * 6) + "," + ((g / 6 | 0) * 6) + "," + ((b / 6 | 0) * 6) + "," + (Math.round(Math.min(1, a * (a < 0.6 && !reduce ? 1 + 1.6 * lift : 1)) * dim * 20) / 20) + ")" + "@" + Math.round(sc * 10) + (u === hov ? "h" : M.minor[i] ? "m" : "");
+          var key = "rgba(" + ((r / 6 | 0) * 6) + "," + ((g / 6 | 0) * 6) + "," + ((b / 6 | 0) * 6) + "," + (Math.round(Math.min(1, a) * dim * 20) / 20) + ")" + "@" + Math.round(sc * 10) + (u === hov ? "h" : M.minor[i] ? "m" : "");
           var ub = byUf[u]; if (!ub) { ub = byUf[u] = { b: {}, k: [] }; ufList.push(u); }
           var bk = ub.b[key]; if (!bk) { bk = ub.b[key] = []; ub.k.push(key); }
           bk.push(i);
