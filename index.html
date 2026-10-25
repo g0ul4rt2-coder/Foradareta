@@ -855,6 +855,28 @@ input, select, textarea { font-size: max(16px, 1em); }
 .apAvisoT { display: flex; align-items: center; gap: 8px; font-weight: 700; font-size: 1rem !important; margin-bottom: 4px !important; }
 .apAvisoT i { width: 8px; height: 8px; border-radius: 50%; background: var(--live); animation: awPing 2s infinite; flex: none; }
 .apAvisoF { margin-top: 6px !important; font-size: 0.8rem !important; color: var(--muted); }
+
+/* ===== gr\E1 fico da evolu\E7 \E3 o na tela principal ===== */
+.tlMain { margin-top: 30px; background: var(--bg-alt); border-radius: 24px; padding: 20px 20px 14px; }
+.tlHead { display: flex; justify-content: space-between; align-items: flex-end; gap: 14px; flex-wrap: wrap; }
+.tlHead .h3 { margin-top: 2px; }
+.tlWrap { position: relative; margin-top: 12px; }
+#tlSvg { width: 100%; height: auto; display: block; touch-action: pan-y; }
+#tlSvg text { font-size: 12px; fill: var(--muted); font-variant-numeric: tabular-nums; }
+#tlSvg .tlGrid line { stroke: var(--hair); }
+#tlSvg .tl50 { stroke: var(--muted); stroke-dasharray: 4 5; }
+#tlSvg .tlArea { fill: var(--ink); opacity: .06; }
+#tlSvg .tlLine { fill: none; stroke-width: 2.6; stroke-linejoin: round; stroke-linecap: round; }
+#tlSvg .tlVal { font-size: 13px; font-weight: 700; }
+#tlSvg .tlCross { stroke: var(--ink); stroke-opacity: .35; stroke-dasharray: 3 4; }
+.tlTip { position: absolute; top: 0; left: 0; background: var(--bg); border: 1px solid var(--hair); border-radius: 12px; padding: 8px 12px; font-size: 0.82rem; box-shadow: 0 8px 24px rgba(0,0,0,.1); pointer-events: none; min-width: 170px; }
+.tlNote { margin-top: 8px; }
+@media (max-width: 620px) { .tlMain { padding: 16px 12px 12px; } #tlSvg text { font-size: 15px; } #tlSvg .tlVal { font-size: 16px; } }
+#v-apuracao.apWaiting #tlMain, #v-apuracao.apGovMode #tlMain { display: none !important; }
+#tlSvg .tlGap { fill: var(--ink); opacity: .035; }
+#tlSvg .tlGapT { font-size: 11px; }
+.tlShort { display: none; }
+@media (max-width: 620px) { .tlLong { display: none; } .tlShort { display: inline; } .tlHead { align-items: center; } }
 </style>
 
 <header class="nav">
@@ -947,6 +969,17 @@ input, select, textarea { font-size: max(16px, 1em); }
     <div class="splitMeta" id="splitMeta"></div>
     <div class="apStats" id="apStats"></div>
     <div class="needBox" id="needBox" hidden></div>
+    <section class="tlMain" id="tlMain" hidden>
+      <div class="tlHead">
+        <div><p class="eyebrow">Ao longo da noite</p><h2 class="h3">Como a apura&#231;&#227;o andou</h2></div>
+        <div class="seg" role="group" aria-label="Eixo do gr&#225;fico" id="tlAxis">
+          <button type="button" data-tlx="s" aria-pressed="true"><span class="tlLong">Por se&#231;&#245;es apuradas</span><span class="tlShort">Se&#231;&#245;es</span></button>
+          <button type="button" data-tlx="h" aria-pressed="false"><span class="tlLong">Por hor&#225;rio</span><span class="tlShort">Hor&#225;rio</span></button>
+        </div>
+      </div>
+      <div class="tlWrap"><svg id="tlSvg" viewBox="0 0 760 320" role="img" aria-label="Evolu&#231;&#227;o do percentual de votos v&#225;lidos de cada candidato durante a apura&#231;&#227;o"></svg><div class="tlTip" id="tlTip" hidden></div></div>
+      <p class="small muted tlNote" id="tlNote">Percentual de votos v&#225;lidos de cada candidato a cada boletim do TSE. &#201; comum a vantagem oscilar no come&#231;o, porque estados e cidades terminam a contagem em ritmos diferentes.</p>
+    </section>
     <aside class="apNews" id="apNews" hidden aria-live="polite">
       <div class="apNewsHead"><span class="nwLive"><i></i>Agora nas reda&#231;&#245;es</span><a href="#noticias" data-go="noticias">Ver todas &#8250;</a></div>
       <ol class="nwList nwCompact" id="apNewsList"></ol>
@@ -3072,11 +3105,88 @@ input, select, textarea { font-size: max(16px, 1em); }
           '<div class="nums"><span>' + esc(displayName({ n: o[0], nm: "" })) + " " + pc(a, 1) + "</span><span>" + esc(displayName({ n: o[1], nm: "" })) + " " + pc(b, 1) + "</span></div></div>";
       }).join("");
     }
+    /* ---- gr\u00e1fico da evolu\u00e7\u00e3o na tela principal ---- */
+    A.tlx = "s";
+    function histAll() {
+      // junta o hist\u00f3rico desta sess\u00e3o com o publicado pelo rob\u00f4 (mais completo), sem repetir boletins
+      var by = {};
+      [(A.fileHist || []), ((A.live && A.live.hist) || [])].forEach(function (hs) { hs.forEach(function (p) { if (p && p.c && p.s > 0) by[p.h + "|" + p.s.toFixed(3)] = p; }); });
+      return Object.keys(by).map(function (k) { return by[k]; }).sort(function (a, b) { return a.s - b.s || (a.h < b.h ? -1 : 1); });
+    }
+    function hsec(h) { var m = /^(\d+):(\d+):?(\d+)?/.exec(h || ""); return m ? (+m[1]) * 3600 + (+m[2]) * 60 + (+(m[3] || 0)) : 0; }
+    function renderTimelineMain() {
+      var sec = $("tlMain"), svg = $("tlSvg"); if (!sec) return;
+      var hs = histAll(), show = A.turno === "2" && !govMode() && hs.length >= 2;
+      sec.hidden = !show; if (!show) return;
+      segSet($("tlAxis"), "tlx", A.tlx);
+      var o = order1T(), W = 760, H = 320, L = 46, Rr = 54, T = 16, B = 36, byTime = A.tlx === "h";
+      if (byTime) hs = hs.slice().sort(function (a, b) { return hsec(a.h) - hsec(b.h); });
+      var vals = []; hs.forEach(function (p) { o.forEach(function (n) { if (p.c[n] != null) vals.push(p.c[n]); }); });
+      var mn = Math.min.apply(null, vals), mx = Math.max.apply(null, vals);
+      var lo = Math.floor(Math.min(47, mn - 1)), hi = Math.ceil(Math.max(53, mx + 1));
+      var t0 = hsec(hs[0].h), t1 = Math.max(t0 + 600, hsec(hs[hs.length - 1].h));
+      function X(p) { return byTime ? L + (hsec(p.h) - t0) / (t1 - t0) * (W - L - Rr) : L + p.s / 100 * (W - L - Rr); }
+      function Y(v) { return T + (hi - v) / (hi - lo) * (H - T - B); }
+      function Ys(v) { return T + (100 - v) / 100 * (H - T - B); }
+      var g = ['<g class="tlGrid">'];
+      if (byTime) {
+        for (var t = Math.ceil(t0 / 1800) * 1800; t <= t1; t += 1800) { var x = L + (t - t0) / (t1 - t0) * (W - L - Rr); g.push('<line x1="' + x + '" y1="' + T + '" x2="' + x + '" y2="' + (H - B) + '"/><text x="' + x + '" y="' + (H - B + 20) + '" text-anchor="middle">' + Math.floor(t / 3600) + "h" + String(Math.floor(t % 3600 / 60)).padStart(2, "0") + "</text>"); }
+        // se\u00e7\u00f5es apuradas ao longo do tempo (\u00e1rea clara, eixo da direita)
+        g.push('<path class="tlArea" d="M' + X(hs[0]).toFixed(1) + "," + Ys(0) + hs.map(function (p) { return "L" + X(p).toFixed(1) + "," + Ys(p.s).toFixed(1); }).join("") + "L" + X(hs[hs.length - 1]).toFixed(1) + "," + Ys(0) + 'Z"/>');
+        for (var q = 0; q <= 100; q += 100) g.push('<text class="tlR" x="' + (W - Rr + 8) + '" y="' + (Ys(q) + 4) + '">' + q + "%</text>");
+      } else {
+        for (var sx = 0; sx <= 100; sx += 25) { var xx = L + sx / 100 * (W - L - Rr); g.push('<line x1="' + xx + '" y1="' + T + '" x2="' + xx + '" y2="' + (H - B) + '"/><text x="' + xx + '" y="' + (H - B + 20) + '" text-anchor="middle">' + sx + "%</text>"); }
+      }
+      var step = hi - lo > 16 ? 5 : hi - lo > 8 ? 2 : 1;
+      for (var v = Math.ceil(lo / step) * step; v <= hi; v += step) g.push('<text x="' + (L - 8) + '" y="' + (Y(v) + 4) + '" text-anchor="end">' + v + "%</text>");
+      g.push('<line class="tl50" x1="' + L + '" y1="' + Y(50) + '" x2="' + (W - Rr) + '" y2="' + Y(50) + '"/>');
+      g.push('<text x="' + (W - Rr) + '" y="' + (H - 4) + '" text-anchor="end">' + (byTime ? "hor\u00e1rio de Bras\u00edlia \u00b7 \u00e1rea cinza: se\u00e7\u00f5es apuradas" : "se\u00e7\u00f5es apuradas") + "</text></g>");
+      var last = hs[hs.length - 1];
+      // no eixo de hor\u00e1rio, intervalos longos sem boletim (ex.: contagem suspensa) n\u00e3o s\u00e3o ligados por linha
+      var gaps = [];
+      if (byTime) for (var k = 1; k < hs.length; k++) if (hsec(hs[k].h) - hsec(hs[k - 1].h) > 900) gaps.push(k);
+      gaps.forEach(function (k) { var x0 = X(hs[k - 1]), x1 = X(hs[k]); g.push('<rect class="tlGap" x="' + x0.toFixed(1) + '" y="' + T + '" width="' + (x1 - x0).toFixed(1) + '" height="' + (H - T - B) + '"/><text class="tlGapT" x="' + ((x0 + x1) / 2).toFixed(1) + '" y="' + (T + 16) + '" text-anchor="middle">sem boletins</text>'); });
+      var labs = [];
+      o.forEach(function (n) {
+        var col = colorOf(n), segs = [[]];
+        hs.forEach(function (p, k) { if (gaps.indexOf(k) >= 0) segs.push([]); if (p.c[n] != null) segs[segs.length - 1].push(X(p).toFixed(1) + "," + Y(p.c[n]).toFixed(1)); });
+        segs.forEach(function (pts) { if (pts.length) g.push('<polyline class="tlLine" points="' + pts.join(" ") + '" stroke="' + col + '"/>'); });
+        if (last.c[n] != null) { g.push('<circle cx="' + X(last).toFixed(1) + '" cy="' + Y(last.c[n]).toFixed(1) + '" r="5" fill="' + col + '" class="tlDot"/>'); labs.push({ y: Y(last.c[n]), v: last.c[n], col: col }); }
+      });
+      // r\u00f3tulos finais afastados para n\u00e3o se sobreporem
+      labs.sort(function (a, b) { return a.y - b.y; });
+      for (var li = 1; li < labs.length; li++) if (labs[li].y - labs[li - 1].y < 16) { var mid = (labs[li].y + labs[li - 1].y) / 2; labs[li - 1].y = mid - 8; labs[li].y = mid + 8; }
+      labs.forEach(function (lb) { g.push('<text class="tlVal" x="' + Math.min(X(last) + 9, W - Rr + 4) + '" y="' + (lb.y + 4).toFixed(1) + '" fill="' + lb.col + '">' + lb.v.toFixed(1).replace(".", ",") + "%</text>"); });
+      g.push('<line class="tlCross" id="tlCross" x1="0" y1="' + T + '" x2="0" y2="' + (H - B) + '" visibility="hidden"/>');
+      svg.innerHTML = g.join("");
+      svg._tl = { hs: hs, X: X, Y: Y, o: o, W: W };
+    }
+    function tlPointer(ev) {
+      var svg = $("tlSvg"), st = svg._tl, tip = $("tlTip"); if (!st) return;
+      var r = svg.getBoundingClientRect(), x = (ev.clientX - r.left) / r.width * st.W, best = null, bd = 1e9;
+      st.hs.forEach(function (p) { var d = Math.abs(st.X(p) - x); if (d < bd) { bd = d; best = p; } });
+      if (!best) return;
+      var cr = $("tlCross"); cr.setAttribute("x1", st.X(best)); cr.setAttribute("x2", st.X(best)); cr.setAttribute("visibility", "visible");
+      tip.innerHTML = "<b>" + esc(best.h) + '</b> \u00b7 <span class="muted">' + pc(best.s, 1) + " apurado</span>" + st.o.map(function (n) {
+        var c = (A.live.br.c.filter(function (y) { return y.n === n; })[0]) || { n: n };
+        return best.c[n] == null ? "" : '<div class="tipRow"><i style="background:' + colorOf(n) + '"></i>' + esc(displayName(c)) + "<span>" + pc(best.c[n]) + "</span></div>";
+      }).join("");
+      tip.hidden = false;
+      var px = st.X(best) / st.W * r.width, w = tip.offsetWidth || 180;
+      tip.style.transform = "translate(" + Math.max(0, Math.min(r.width - w, px - w / 2)) + "px,0)";
+    }
+    $("tlSvg").addEventListener("pointermove", tlPointer);
+    $("tlSvg").addEventListener("pointerdown", tlPointer);
+    $("tlSvg").addEventListener("pointerleave", function () { $("tlTip").hidden = true; var cr = $("tlCross"); if (cr) cr.setAttribute("visibility", "hidden"); });
+    $("tlAxis").addEventListener("click", function (ev) { var b = ev.target.closest("[data-tlx]"); if (b) { A.tlx = b.dataset.tlx; renderTimelineMain(); } });
+    // o hist\u00f3rico publicado pelo rob\u00f4 (mais completo) \u00e9 relido a cada 2 minutos
+    setInterval(function () { if (!document.hidden && A.turno === "2") pullFile().then(function (j) { if (j && j.hist && j.hist.length) { A.fileHist = j.hist; renderTimelineMain(); renderTimeline(); } }).catch(function () {}); }, 120000);
+
     function renderTimeline() {
       var sec = $("timelineSec"), svg = $("timeline");
       sec.hidden = A.turno !== "2";
       if (A.turno !== "2") return;
-      var hs = (A.live && A.live.hist) || [], o = order1T();
+      var hs = histAll(), o = order1T();
       var W = 720, H = 300, L = 44, R = 16, T = 14, B = 34;
       if (hs.length < 2) { svg.innerHTML = '<text x="' + W / 2 + '" y="' + H / 2 + '" text-anchor="middle" style="font-size:14px">O gr\u00e1fico aparece quando os primeiros votos forem apurados.</text>'; return; }
       var vals = []; hs.forEach(function (p) { o.forEach(function (n) { if (p.c[n] != null) vals.push(p.c[n]); }); });
@@ -3196,7 +3306,7 @@ input, select, textarea { font-size: max(16px, 1em); }
       v.classList.toggle("apWaiting", waiting); $("apWait").hidden = !waiting;
       if (was && !waiting) { v.classList.remove("apGoLive"); void v.offsetWidth; v.classList.add("apGoLive"); }
       if (waiting) renderWait();
-      renderHeader(); renderDuel(); renderStats(); renderNeed(); renderMap(); renderPanel(); renderRegions(); renderTimeline(); renderTable(); renderGov(); renderChecks();
+      renderHeader(); renderDuel(); renderStats(); renderNeed(); renderMap(); renderPanel(); renderRegions(); renderTimeline(); renderTimelineMain(); renderTable(); renderGov(); renderChecks();
     }
     $("awCal").addEventListener("click", function () {
       var url = "https://foradareta.com.br/";
