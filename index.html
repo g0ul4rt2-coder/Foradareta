@@ -818,6 +818,37 @@ input, select, textarea { font-size: max(16px, 1em); }
 .awGovList li { cursor: pointer; transition: border-color .2s, background .2s; }
 .awGovList li:hover, .awGovList li:focus-visible { border-color: var(--line); background: var(--bg-alt); outline: none; }
 #v-apuracao.apGovMode #apNews { display: none !important; }
+
+/* ===== governador: tela da disputa com mapa municipal ===== */
+.gvDuel { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 22px; }
+@media (max-width: 620px) { .gvDuel { grid-template-columns: 1fr; } .gvDuel .duelCard.right { grid-template-columns: auto 1fr; text-align: left; } .gvDuel .duelCard.right .ph { order: 0; } }
+#govGrid .splitBar { margin-top: 18px; }
+.gvStats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; margin-top: 18px; }
+.gvStats > div { background: var(--bg-alt); border-radius: 18px; padding: 14px 16px; min-width: 0; }
+.gvStats .k { font-size: 0.78rem; color: var(--muted); font-weight: 600; } .gvStats .v { font-size: 1.35rem; font-weight: 700; letter-spacing: -0.03em; margin-top: 2px; } .gvStats .s { font-size: 0.78rem; color: var(--muted); }
+@media (max-width: 620px) { .gvStats { grid-template-columns: 1fr 1fr; } }
+.gvMain { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); gap: 22px; margin-top: 30px; align-items: start; }
+@media (max-width: 900px) { .gvMain { grid-template-columns: 1fr; } }
+.gvMapBox { background: var(--bg-alt); border-radius: 24px; padding: 18px; min-width: 0; }
+.gvMapWrap { position: relative; margin-top: 10px; }
+#gvMap { width: 100%; height: auto; max-height: 70vh; display: block; }
+#gvMap path { fill: var(--dotOff); stroke: var(--bg); stroke-width: 0.8px; vector-effect: non-scaling-stroke; cursor: pointer; transition: fill .6s ease, fill-opacity .6s ease; }
+#gvMap path:hover { stroke: var(--ink); stroke-width: 1.2px; }
+#gvMap path.sel { stroke: var(--ink); stroke-width: 2px; }
+.gvSide { display: grid; gap: 14px; min-width: 0; }
+.gvMunPanel, .gvCount { background: var(--bg-alt); border-radius: 24px; padding: 18px; }
+.gvCountRow { display: flex; align-items: center; gap: 10px; margin-top: 10px; font-size: 0.92rem; }
+.gvCountRow i { width: 10px; height: 10px; border-radius: 50%; flex: none; }
+.gvCountRow span { margin-left: auto; color: var(--muted); font-variant-numeric: tabular-nums; }
+.gvTools { display: flex; gap: 10px; margin: 12px 0 4px; flex-wrap: wrap; }
+.gvTools input, .gvTools select { flex: 1 1 180px; padding: 10px 14px; border-radius: 12px; border: 1px solid var(--hair); background: var(--bg); color: var(--ink); font: inherit; font-size: max(16px, 1em); }
+#gvTable tbody tr { cursor: pointer; }
+#gvTable tbody tr.sel { background: var(--bg-alt); }
+#gvTable td, #gvTable th { white-space: nowrap; }
+.tipRow { display: flex; align-items: center; gap: 6px; font-size: 0.82rem; margin-top: 4px; }
+.tipRow i { width: 8px; height: 8px; border-radius: 50%; }
+.tipRow span { margin-left: auto; font-weight: 700; padding-left: 10px; }
+#v-apuracao.apGovMode .govOne { display: none; }
 </style>
 
 <header class="nav">
@@ -3082,6 +3113,7 @@ input, select, textarea { font-size: max(16px, 1em); }
       if (!A.gov || ufs.indexOf(A.gov) < 0) A.gov = ufs.indexOf(A.uf) >= 0 ? A.uf : ufs[0];
       $("govChips").innerHTML = ufs.map(function (uf) { return '<button type="button" data-gov="' + uf + '" aria-pressed="' + (uf === A.gov) + '">' + UFN[uf] + "</button>"; }).join("");
       var g = A.live.gov[A.gov], gc = g.c.slice().sort(function (x, y) { return Number(x.n) - Number(y.n); });
+      if (govMode()) { GV.render(A.gov, g); return; }
       if (g.s.a > 0) gc.sort(function (x, y) { return y.v - x.v; });
       var extra = g.s.a > 0 && g.pcomp != null ? '<p class="small muted govStats">Comparecimento ' + pc(g.pcomp) + (g.pvb != null ? " \u00b7 brancos " + pc(g.pvb) : "") + (g.pvn != null ? " \u00b7 nulos " + pc(g.pvn) : "") + "</p>" : "";
       $("govGrid").innerHTML = '<div class="govCard govOne"><p class="eyebrow">' + esc(UFN[A.gov]) + '</p><p class="small muted">' + (g.s.a > 0 ? pc(g.s.p, 1) + " das se\u00e7\u00f5es apuradas" + (g.ht ? " \u00b7 TSE \u00e0s " + esc(g.ht) : "") : "Nenhuma se\u00e7\u00e3o apurada ainda. Os n\u00fameros aparecem aqui assim que o TSE publicar.") + '</p><div class="progRing"><i style="width:' + g.s.p + '%"></i></div>' +
@@ -3174,6 +3206,132 @@ input, select, textarea { font-size: max(16px, 1em); }
       (navigator.clipboard ? navigator.clipboard.writeText(url) : Promise.reject()).then(function () { b.textContent = "Link copiado"; setTimeout(function () { b.textContent = "Compartilhar"; }, 2200); }, function () { prompt("Copie o link:", url); });
     });
     setInterval(function () { if (!$("v-apuracao").hidden) tickWait(); }, 1000);
+
+    /* ---- governador: tela detalhada do estado, com mapa e vota\u00e7\u00e3o por munic\u00edpio ---- */
+    var GV = (function () {
+      var S = { uf: null, maps: {}, mun: null, res: {}, st: {}, sel: null, q: "", sort: "lead", busy: false, last: 0 };
+      function jget(u) { return fetch(u, { cache: "no-store" }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }); }
+      function munList(uf) { var m = S.mun && S.mun.abr.filter(function (a) { return a.cd === uf; })[0]; return m ? m.mu : []; }
+      function nome(mu) { var mp = S.maps[S.uf]; return (mp && mp.mun[mu.cdi] && mp.mun[mu.cdi].n) || titleCase(mu.nm); }
+      function ensure(uf) {
+        var ps = [];
+        if (!S.mun) ps.push(jget("mun_gov.json").then(function (j) { S.mun = j; }));
+        if (!S.maps[uf]) ps.push(jget("mapas/gov-" + uf + ".json").then(function (j) { S.maps[uf] = j; }));
+        return Promise.all(ps);
+      }
+      // l\u00ea o resumo do estado (andamento por munic\u00edpio) e s\u00f3 baixa de novo os munic\u00edpios que mudaram
+      function poll(force) {
+        var uf = S.uf; if (!uf || S.busy || !A.live || !A.live.direto && A.direct === false) return;
+        if (!force && Date.now() - S.last < 9000) return;
+        S.busy = true; S.last = Date.now();
+        var t = "?t=" + Math.floor(Date.now() / 5000);
+        jget(TSE + "6260/dados/" + uf + "/" + uf + "-e006260-ab.json" + t).then(function (ab) {
+          var need = [], st = S.st[uf] = S.st[uf] || {}, res = S.res[uf] = S.res[uf] || {};
+          (ab.abr || []).forEach(function (a) { var k = a.cdabr, n = Number(a.s && a.s.st || 0); if (n > 0 && (st[k] !== n || !res[k])) need.push([k, n]); });
+          var i = 0;
+          function worker() {
+            if (i >= need.length) return Promise.resolve();
+            var it = need[i++];
+            return jget(TSE + "6260/dados/" + uf + "/" + uf + it[0] + "-c0003-e006260-u.json" + t).then(function (j) { res[it[0]] = compactTSE(j); st[it[0]] = it[1]; }, function () {}).then(worker);
+          }
+          return Promise.all([worker(), worker(), worker(), worker(), worker(), worker()]).then(function () { if (need.length && S.uf === uf) paint(); });
+        }).catch(function () {}).then(function () { S.busy = false; });
+      }
+      function cands(g) { return g.c.slice().sort(function (x, y) { return Number(x.n) - Number(y.n); }); }
+      function shell(uf, g) {
+        var mp = S.maps[uf], box = $("govGrid");
+        var paths = mp ? Object.keys(mp.mun).map(function (id) { return '<path d="' + mp.mun[id].d + '" data-mi="' + id + '"></path>'; }).join("") : "";
+        box.innerHTML = '<div class="gvDuel" id="gvDuel"></div><div class="splitBar" id="gvBar" aria-hidden="true"></div><div class="splitMeta" id="gvMeta"></div><div class="gvStats" id="gvStats"></div>' +
+          '<div class="gvMain"><div class="gvMapBox"><p class="eyebrow">Mapa por munic\u00edpio</p><p class="small muted" id="gvLegend"></p>' +
+          '<div class="gvMapWrap"><svg id="gvMap" viewBox="' + (mp ? mp.vb : "0 0 600 400") + '" role="img" aria-label="Mapa de ' + esc(UFN[uf]) + ' por munic\u00edpio">' + paths + '</svg><div class="mapTip" id="gvTip" hidden></div></div>' +
+          '<p class="small muted" style="margin-top:8px">Cor de quem lidera em cada munic\u00edpio; quanto mais forte, maior a vantagem. Cinza: ainda sem votos apurados.</p></div>' +
+          '<div class="gvSide"><div class="gvMunPanel" id="gvMunPanel"></div><div class="gvCount" id="gvCount"></div></div></div>' +
+          '<div class="sec" style="padding-top:36px"><p class="eyebrow">Munic\u00edpio por munic\u00edpio</p><div class="gvTools"><input type="search" id="gvSearch" placeholder="Buscar munic\u00edpio" aria-label="Buscar munic\u00edpio"><select id="gvSort" aria-label="Ordenar"><option value="lead">Maior vantagem</option><option value="nome">Nome</option><option value="ap">Mais apurados</option><option value="el">Mais eleitores</option></select></div>' +
+          '<div class="scroll"><table class="ptable ufTable" id="gvTable"></table></div></div>';
+        var svg = $("gvMap"), tip = $("gvTip");
+        svg.addEventListener("pointermove", function (ev) {
+          var p = ev.target.closest("path[data-mi]"); if (!p) { tip.hidden = true; return; }
+          var r = svg.parentNode.getBoundingClientRect(); tip.innerHTML = tipMun(p.dataset.mi); tip.hidden = false;
+          var x = ev.clientX - r.left + 14, y = ev.clientY - r.top + 14; if (x + 220 > r.width) x = ev.clientX - r.left - 234;
+          tip.style.transform = "translate(" + x + "px," + y + "px)";
+        });
+        svg.addEventListener("pointerleave", function () { tip.hidden = true; });
+        svg.addEventListener("click", function (ev) { var p = ev.target.closest("path[data-mi]"); if (p) { S.sel = S.sel === p.dataset.mi ? null : p.dataset.mi; paint(); } });
+        $("gvSearch").addEventListener("input", function (ev) { S.q = ev.target.value; table(); });
+        $("gvSort").addEventListener("change", function (ev) { S.sort = ev.target.value; table(); });
+        $("gvTable").addEventListener("click", function (ev) { var tr = ev.target.closest("[data-mi]"); if (tr) { S.sel = tr.dataset.mi; paint(); $("gvMap").scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "center" }); } });
+      }
+      function byIbge(id) { var mu = munList(S.uf).filter(function (m) { return m.cdi === id; })[0]; return mu; }
+      function resOf(mu) { return mu && S.res[S.uf] && S.res[S.uf][mu.cd]; }
+      function tipMun(id) {
+        var mu = byIbge(id), r = resOf(mu), h = "<b>" + esc(mu ? nome(mu) : id) + "</b>";
+        if (!r || !r.s.a) return h + '<div class="small muted">Ainda sem votos apurados</div>';
+        return h + '<div class="small muted">' + pc(r.s.p, 1) + " das se\u00e7\u00f5es</div>" + cands(r).sort(function (a, b) { return b.v - a.v; }).map(function (c) { return '<div class="tipRow"><i style="background:' + sgColor(c.sg) + '"></i>' + esc(displayName(c, true)) + "<span>" + pc(c.p, 1) + "</span></div>"; }).join("");
+      }
+      function lead(r) { if (!r || !r.s.a) return null; var cs = r.c.slice().sort(function (a, b) { return b.v - a.v; }); return { c: cs[0], m: cs.length > 1 ? cs[0].p - cs[1].p : 100 }; }
+      function paint() {
+        var uf = S.uf, g = A.live && A.live.gov && A.live.gov[uf]; if (!g || !$("gvMap")) return;
+        var cs = cands(g), count = {}, sem = 0;
+        $("gvMap").querySelectorAll("path[data-mi]").forEach(function (p) {
+          var mu = byIbge(p.dataset.mi), L = lead(resOf(mu));
+          if (!L) { p.style.fill = ""; p.style.fillOpacity = ""; sem++; }
+          else { p.style.fill = sgColor(L.c.sg); p.style.fillOpacity = (0.28 + 0.72 * Math.min(1, L.m / 40)).toFixed(2); count[L.c.n] = (count[L.c.n] || 0) + 1; }
+          p.classList.toggle("sel", p.dataset.mi === S.sel);
+        });
+        $("gvCount").innerHTML = '<p class="eyebrow">Onde cada um lidera</p>' + cs.map(function (c) { return '<div class="gvCountRow"><i style="background:' + sgColor(c.sg) + '"></i><b>' + esc(displayName(c, true)) + "</b><span>" + (count[c.n] || 0) + " munic\u00edpios</span></div>"; }).join("") +
+          (sem ? '<div class="gvCountRow"><i style="background:var(--dotOff)"></i><b>Sem votos apurados</b><span>' + sem + "</span></div>" : "");
+        $("gvLegend").textContent = UFN[uf] + " \u00b7 " + Object.keys(S.maps[uf] ? S.maps[uf].mun : {}).length + " munic\u00edpios";
+        panel(); table();
+      }
+      function panel() {
+        var box = $("gvMunPanel"); if (!box) return;
+        if (!S.sel) { box.innerHTML = '<p class="small muted">Toque em um munic\u00edpio no mapa ou na lista para ver o resultado dele.</p>'; return; }
+        var mu = byIbge(S.sel), r = resOf(mu);
+        box.innerHTML = '<p class="eyebrow">' + esc(mu ? nome(mu) : "") + '</p>' + (!r || !r.s.a ? '<p class="small muted">Ainda sem votos apurados neste munic\u00edpio.</p>' :
+          '<p class="small muted">' + pc(r.s.p, 1) + " das se\u00e7\u00f5es apuradas" + (r.pcomp != null ? " \u00b7 comparecimento " + pc(r.pcomp, 1) : "") + "</p>" + cRows(r.c.slice().sort(function (a, b) { return b.v - a.v; }), function (c) { return sgColor(c.sg); }, 0, true));
+      }
+      function table() {
+        var t = $("gvTable"); if (!t) return;
+        var q = S.q.trim().toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+        var rows = munList(S.uf).map(function (mu) { var r = resOf(mu), L = lead(r); return { mu: mu, r: r, L: L, nm: nome(mu) }; })
+          .filter(function (x) { return !q || x.nm.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").indexOf(q) >= 0; });
+        rows.sort(function (a, b) {
+          if (S.sort === "nome") return a.nm.localeCompare(b.nm);
+          if (S.sort === "ap") return ((b.r && b.r.s.p) || 0) - ((a.r && a.r.s.p) || 0);
+          if (S.sort === "el") return ((b.r && b.r.el) || 0) - ((a.r && a.r.el) || 0);
+          return ((b.L && b.L.m) || -1) - ((a.L && a.L.m) || -1);
+        });
+        var g = A.live.gov[S.uf], cs = cands(g);
+        t.innerHTML = "<thead><tr><th>Munic\u00edpio</th>" + cs.map(function (c) { return "<th>" + esc(displayName(c, true)) + "</th>"; }).join("") + "<th>Apurado</th></tr></thead><tbody>" +
+          rows.map(function (x) {
+            return '<tr data-mi="' + x.mu.cdi + '"' + (x.mu.cdi === S.sel ? ' class="sel"' : "") + "><td><b>" + esc(x.nm) + "</b></td>" + cs.map(function (c) {
+              var v = x.r && x.r.c.filter(function (y) { return y.n === c.n; })[0], isL = x.L && x.L.c.n === c.n;
+              return "<td" + (isL ? ' style="font-weight:700;color:' + sgColor(c.sg) + '"' : "") + ">" + (v && x.r.s.a ? pc(v.p, 1) : "\u2013") + "</td>";
+            }).join("") + "<td>" + (x.r ? pc(x.r.s.p, 0) : "0%") + "</td></tr>";
+          }).join("") + "</tbody>";
+      }
+      function head(g) {
+        var cs = cands(g); if (g.s.a > 0) cs.sort(function (a, b) { return b.v - a.v; });
+        $("gvDuel").innerHTML = cs.map(function (c, i) {
+          return '<div class="duelCard' + (i ? " right" : "") + '" style="--c:' + sgColor(c.sg) + '">' + photo(c.sq) + '<div style="min-width:0"><p class="nm">' + esc(displayName(c, true)) + ' <span class="num">' + esc(c.n) + '</span></p><p class="small muted">' + esc(c.sg || "") + '</p><p class="pc">' + pc(c.p) + '</p><p class="vt">' + n2(c.v) + " votos</p></div></div>";
+        }).join("");
+        $("gvBar").innerHTML = cs.map(function (c) { return '<span style="width:' + (g.s.a ? c.p : 50) + "%;background:" + sgColor(c.sg) + (g.s.a ? "" : ";opacity:.25") + '"></span>'; }).join("");
+        $("gvMeta").innerHTML = "<span>" + (g.s.a && cs.length > 1 ? "Diferen\u00e7a: " + n2(Math.abs(cs[0].v - cs[1].v)) + " votos (" + pc(Math.abs(cs[0].p - cs[1].p)) + ")" : "Ainda sem votos apurados") + "</span><span>A linha marca 50% dos votos v\u00e1lidos</span>";
+        $("gvStats").innerHTML = stat("Se\u00e7\u00f5es apuradas", pc(g.s.p), n2(g.s.a) + " de " + n2(g.s.t), g.s.p) +
+          (g.s.a ? stat("Comparecimento", pc(g.pcomp), n2(g.comp) + " eleitores") + stat("Brancos", pc(g.pvb), n2(g.vb) + " votos") + stat("Nulos", pc(g.pvn), n2(g.vn) + " votos") : stat("Eleitores", n2(g.el), "aptos a votar"));
+      }
+      function render(uf, g) {
+        if (S.uf !== uf || !$("gvMap")) {
+          S.uf = uf; S.sel = null; S.q = "";
+          $("govGrid").innerHTML = '<p class="small muted" style="text-align:center;margin-top:24px">Carregando o mapa de ' + esc(UFN[uf]) + "\u2026</p>";
+          ensure(uf).then(function () { if (S.uf !== uf) return; shell(uf, g); head(A.live.gov[uf]); paint(); poll(true); });
+          return;
+        }
+        head(g); paint(); poll(false);
+      }
+      setInterval(function () { if (!document.hidden && govMode() && !$("v-apuracao").hidden) poll(false); }, 10000);
+      return { render: render };
+    })();
 
     /* ---- eventos e atualiza\u00e7\u00e3o ---- */
     $("apTabs").addEventListener("click", function (ev) { var b = ev.target.closest("[data-aptab]"); if (b) setTab(b.dataset.aptab); });
