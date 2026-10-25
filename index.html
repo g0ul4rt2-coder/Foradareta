@@ -891,7 +891,7 @@ input, select, textarea { font-size: max(16px, 1em); }
         <p class="eyebrow">Como vai ser a noite</p>
         <ol class="awSteps">
           <li><b>17h</b><span>As urnas fecham em todo o pa&#237;s no mesmo hor&#225;rio. Come&#231;a a contagem.</span></li>
-          <li><b>Em seguida</b><span>O TSE publica os boletins das urnas. Este site l&#234; os arquivos oficiais a cada 20 segundos, sem intermedi&#225;rios.</span></li>
+          <li><b>Em seguida</b><span>O TSE publica os boletins das urnas. Este site l&#234; os arquivos oficiais a cada poucos segundos, sem intermedi&#225;rios.</span></li>
           <li><b>Durante a noite</b><span>Cada estado se acende no mapa conforme as se&#231;&#245;es s&#227;o apuradas. Em 2022, o 2&#186; turno ficou matematicamente definido &#224;s 19h57, menos de tr&#234;s horas depois do fechamento.</span></li>
         </ol>
       </div>
@@ -2688,7 +2688,7 @@ input, select, textarea { font-size: max(16px, 1em); }
       pill.classList.toggle("idle", !live);
       pill.innerHTML = "<i></i><span>" + esc(t) + "</span>";
       var note = "";
-      if (A.turno === "2" && A.live && A.live.coletado) note = (A.live.direto ? "Seu navegador leu os arquivos oficiais do TSE \u00e0s " : "Lido do TSE \u00e0s ") + A.live.coletado.slice(11, 19) + " (hor\u00e1rio de Bras\u00edlia)." + (A.live.direto ? " Atualiza sozinho a cada 20 segundos." : "");
+      if (A.turno === "2" && A.live && A.live.coletado) note = (A.live.direto ? "Seu navegador leu os arquivos oficiais do TSE \u00e0s " : "Lido do TSE \u00e0s ") + A.live.coletado.slice(11, 19) + " (hor\u00e1rio de Bras\u00edlia)." + (A.live.direto ? " Atualiza sozinho a cada poucos segundos." : "");
       if (A.turno === "1" && A.live && A.live.br.s.a === 0) note = "Ainda n\u00e3o h\u00e1 votos apurados no 2\u00ba turno; enquanto isso, veja como foi o 1\u00ba turno.";
       $("apNote").textContent = note;
       $("cargoBar").hidden = !(A.turno === "2" && A.live && A.live.gov && Object.keys(A.live.gov).length);
@@ -3118,12 +3118,10 @@ input, select, textarea { font-size: max(16px, 1em); }
         var sec = Math.floor(left / 1000);
         digits($("awH"), Math.floor(sec / 3600)); digits($("awM"), Math.floor(sec / 60) % 60); digits($("awS"), sec % 60);
       } else {
-        $("awWaitTxt").textContent = A.lastCheck ? "\u00daltima verifica\u00e7\u00e3o \u00e0s " + new Date(A.lastCheck).toLocaleTimeString("pt-BR", { timeZone: "America/Sao_Paulo" }) + " \u00b7 verifica a cada 10 segundos" : "";
+        $("awWaitTxt").textContent = A.lastCheck ? "\u00daltima verifica\u00e7\u00e3o \u00e0s " + new Date(A.lastCheck).toLocaleTimeString("pt-BR", { timeZone: "America/Sao_Paulo" }) + " \u00b7 verifica a cada 5 segundos" : "";
       }
       var f = Math.max(0, Math.min(1, (now - OPEN) / (START - OPEN)));
       $("awFill").style.width = (f * 100).toFixed(2) + "%"; $("awNow").style.left = (f * 100).toFixed(2) + "%";
-      // perto do fechamento e depois dele, verifica o TSE com mais frequ\u00eancia
-      if (left < 90000 && now - (A.lastCheck || 0) > 10000) pull();
     }
     function renderWait() {
       var t1 = A.t1 && A.t1.br; if (!t1) return;
@@ -3230,7 +3228,7 @@ input, select, textarea { font-size: max(16px, 1em); }
         { ok: Object.keys(ufs).every(function (k) { return ufs[k].s.a <= ufs[k].s.t; }), txt: "Nenhum estado com mais se\u00e7\u00f5es apuradas do que existem" }
       ];
     }
-    function getJ(url) { return fetch(url + "?t=" + Math.floor(Date.now() / 15000), { cache: "no-store" }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }); }
+    function getJ(url) { return fetch(url + "?t=" + Math.floor(Date.now() / 5000), { cache: "no-store" }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }); }
     function pullDirect() {
       var prev = A.live && A.live.direto ? A.live : null;
       var files = UFL.concat(["br"]).map(function (uf) {
@@ -3251,6 +3249,18 @@ input, select, textarea { font-size: max(16px, 1em); }
         var now = new Date(), coll = now.toISOString();
         return { ele: "6258", coletado: coll.slice(0, 11) + now.toLocaleTimeString("pt-BR", { timeZone: "America/Sao_Paulo", hour12: false }), br: br, ufs: ufs, gov: gv, hist: hist, checks: checksJS(br, ufs), direto: true };
       });
+    }
+    var fastBusy = false;
+    function fastCheck() {
+      if (fastBusy || A.direct === false || !A.started || Date.now() < START - 60000) return;
+      fastBusy = true;
+      // no modo governador, confere tamb\u00e9m o arquivo do estado escolhido
+      var gUf = govMode() ? A.gov : null;
+      Promise.all([getJ(TSE + "6258/dados/br/br-c0001-e006258-u.json"), gUf ? getJ(TSE + "6260/dados/" + gUf + "/" + gUf + "-c0003-e006260-u.json").catch(function () { return null; }) : null]).then(function (r) {
+        var b = compactTSE(r[0]), cur = A.live && A.live.br;
+        var g = r[1] && compactTSE(r[1]), gc = gUf && A.live && A.live.gov && A.live.gov[gUf];
+        if (!cur || b.s.a !== cur.s.a || b.ht !== cur.ht || (g && gc && (g.s.a !== gc.s.a || g.ht !== gc.ht))) return pull();
+      }).catch(function () {}).then(function () { fastBusy = false; });
     }
     function pullFile() { return fetch("apuracao.json?t=" + Date.now(), { cache: "no-store" }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }); }
     function pull() {
@@ -3276,7 +3286,11 @@ input, select, textarea { font-size: max(16px, 1em); }
         fetch("turno1.json").then(function (r) { return r.json(); }).then(function (t) { A.t1 = t; }).catch(function () {})
         , pullFile().then(function (j) { A.fileHist = j.hist; }).catch(function () {})
       ]).then(pull).then(render);
-      setInterval(pull, 20000);
+      // atualiza\u00e7\u00e3o r\u00e1pida: a cada 5 s l\u00ea s\u00f3 o resumo nacional (um arquivo pequeno); se o TSE publicou algo novo,
+      // busca na hora todos os estados e os governadores. Mesmo sem mudan\u00e7a, faz a leitura completa a cada 15 s.
+      setInterval(function () { if (!document.hidden) fastCheck(); }, 5000);
+      setInterval(function () { if (!document.hidden) pull(); }, 15000);
+      document.addEventListener("visibilitychange", function () { if (!document.hidden) pull(); });
       setInterval(renderHeader, 30000);
     }
     return { init: function (h) { init(h); setTab(A.tab); }, render: render, state: function () { return { turno: A.turnoAuto ? null : A.turno, mode: A.mode, uf: A.uf, aptab: A.tab, gov: A.gov }; } };
