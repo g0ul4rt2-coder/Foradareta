@@ -757,6 +757,12 @@ input, select, textarea { font-size: max(16px, 1em); }
 @media (max-width: 520px) { #apTitle .apDate { display: none; } }
 /* o gr\E1 fico do teste fica parado no lugar dele: rola junto com a p\E1 gina, sem acompanhar a tela */
 .miniBox { position: static !important; top: auto !important; }
+/* marcar pergunta como importante */
+.impBtn { display: inline-flex; align-items: center; gap: 7px; margin: 6px auto 0; font-size: 0.85rem; font-weight: 600; color: var(--muted); padding: 7px 14px; border-radius: 999px; border: 1px solid var(--hair); background: transparent; transition: color .2s, background .2s, border-color .2s; }
+.impBtn:hover { color: var(--ink); border-color: var(--line); }
+.impBtn[aria-pressed="true"] { color: var(--you); border-color: color-mix(in srgb, var(--you) 45%, transparent); background: var(--you-soft); }
+.impBtn[aria-pressed="true"] path { fill: currentColor; }
+.scale5 .impBtn { display: flex; width: fit-content; margin: 6px auto 0; }
 </style>
 
 <header class="nav">
@@ -1092,6 +1098,7 @@ input, select, textarea { font-size: max(16px, 1em); }
             </div>
             <div class="scaleLbl"><span>Discordo</span><span>Neutro</span><span>Concordo</span></div>
             <p class="chosen" id="chosen"></p>
+            <button type="button" class="impBtn" id="impBtn" aria-pressed="false" title="Perguntas marcadas contam em dobro na afinidade com candidatos e partidos"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M12 3.2l2.6 5.6 6.1.7-4.5 4.2 1.2 6-5.4-3-5.4 3 1.2-6L3.3 9.5l6.1-.7z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg><span>Isso pesa muito para mim</span></button>
           </div>
           <details class="args" id="qArgs">
             <summary>Os argumentos dos dois lados</summary>
@@ -1192,7 +1199,7 @@ input, select, textarea { font-size: max(16px, 1em); }
     <div class="sec">
       <p class="eyebrow">Candidatos a presidente</p>
       <h2 class="h2">Com quem voc&#234; mais concorda.</h2>
-      <p class="lede">Afinidade &#233; o quanto suas respostas coincidem com as posi&#231;&#245;es de cada candidato, pauta por pauta. Escolha se a compara&#231;&#227;o usa o que eles fazem ou o que eles dizem.</p>
+      <p class="lede">Afinidade &#233; o quanto suas respostas coincidem com as posi&#231;&#245;es de cada candidato, pauta por pauta. Escolha se a compara&#231;&#227;o usa o que eles fazem ou o que eles dizem. As pautas que voc&#234; marcou com a estrela (&#8220;pesa muito para mim&#8221;) contam em dobro.</p>
       <div class="modeSeg"><div class="seg" role="group" aria-label="Base da compara&#231;&#227;o">
         <button type="button" data-mode="real" aria-pressed="true">O que fazem</button>
         <button type="button" data-mode="disc" aria-pressed="false">O que dizem</button>
@@ -1473,7 +1480,7 @@ input, select, textarea { font-size: max(16px, 1em); }
 <script>
 (function () {
   "use strict";
-  var D = null, Q = [], answers = {}, cur = 0, busy = false;
+  var D = null, Q = [], answers = {}, imp = {}, cur = 0, busy = false;
   var SHARE_BASE = /foradareta\.com\.br$|github\.io$/.test(location.hostname) ? location.origin + location.pathname : "https://foradareta.com.br/";
   var VIEWS = ["apuracao", "congresso", "poder", "fenomenos", "glossario", "inicio", "teste", "resultado", "candidatos", "partidos", "conceitos", "estudo", "checagem"];
   var CONF_W = { alta: 1, media: 0.75, "m\u00e9dia": 0.75, baixa: 0.5 };
@@ -1619,6 +1626,8 @@ input, select, textarea { font-size: max(16px, 1em); }
       else if (p.p != null) { v = p.p; w = CONF_W[p.conf_p] || 0.75; }
       else { v = p.v; w = (CONF_W[p.conf] || 0.6) * 0.7; }
       if (v == null) return;
+      // o que a pessoa marcou como importante pesa o dobro
+      if (imp[q.id]) w *= 2;
       var ag = 1 - Math.abs(u - v) / 4;
       sw += w; sa += w * ag;
       rows.push({ q: q, u: u, c: v, diff: Math.abs(u - v), strength: Math.abs(u) + Math.abs(v), fromP: mode !== "disc" && p.p != null });
@@ -1689,7 +1698,8 @@ input, select, textarea { font-size: max(16px, 1em); }
   function renderQ(dir) {
     if (!Q.length) return;
     var q = Q[cur], a = answers[q.id];
-    $("qCounter").textContent = (cur + 1) + " de " + Q.length;
+    var left = Q.length - nAnswered();
+    $("qCounter").textContent = (cur + 1) + " de " + Q.length + (left > 0 ? " \u00b7 cerca de " + Math.max(1, Math.round(left * 9 / 60)) + " min" : "");
     $("qAnswered").textContent = nAnswered() + " respondidas";
     $("qBar").style.width = (nAnswered() / Q.length * 100) + "%";
     $("qTema").textContent = q.tema;
@@ -1702,6 +1712,7 @@ input, select, textarea { font-size: max(16px, 1em); }
     $("qExp").open = !!load("fdr.explica");
     $("qArgs").open = false;
     $("chosen").textContent = a == null ? "" : "Sua resposta: " + LIKERT_EU[a].toLowerCase();
+    $("impBtn").setAttribute("aria-pressed", String(!!imp[q.id]));
     document.querySelectorAll("#answers button").forEach(function (b) { b.setAttribute("aria-pressed", String(a === Number(b.dataset.v))); });
     $("prevBtn").disabled = cur === 0;
     $("finishBtn").disabled = nAnswered() < 5;
@@ -1744,17 +1755,33 @@ input, select, textarea { font-size: max(16px, 1em); }
   });
 
   /* ---------------- compartilhar ---------------- */
-  function encode() { return "r" + D.perguntas.map(function (q) { var a = answers[q.id]; return a == null ? "0" : String(a + 3); }).join(""); }
+  // link de resultado: "s" + um caractere por pergunta (0 = sem resposta, 1-5 = resposta, a-e = resposta marcada como importante).
+  // Links antigos ("r", 45 perguntas) continuam abrindo.
+  var LEGACY_R = ["E01", "E02", "E03", "E04", "E05", "E06", "E07", "E08", "E09", "E10", "E11", "E12", "E13", "E14", "E15", "E16", "E17", "E18", "V01", "V02", "V03", "V04", "V05", "V06", "V07", "V08", "V09", "V10", "V11", "V12", "V13", "V14", "V15", "V16", "V17", "V18", "V19", "Z01", "Z02", "Z03", "Z04", "Z05", "Z06", "Z07", "Z08"];
+  function encode() { return "s" + D.perguntas.map(function (q) { var a = answers[q.id]; return a == null ? "0" : imp[q.id] ? "abcde".charAt(a + 2) : String(a + 3); }).join(""); }
   function decode(code) {
-    if (!/^r[0-5]+$/.test(code) || code.length !== D.perguntas.length + 1) return null;
-    var o = {}; D.perguntas.forEach(function (q, i) { var d = Number(code[i + 1]); if (d) o[q.id] = d - 3; }); return o;
+    var o = {}, im = {}, ids;
+    if (/^r[0-5]+$/.test(code) && code.length === LEGACY_R.length + 1) ids = LEGACY_R;
+    else if (/^s[0-5a-e]+$/.test(code) && code.length === D.perguntas.length + 1) ids = D.perguntas.map(function (q) { return q.id; });
+    else return null;
+    ids.forEach(function (id, i) {
+      var ch = code.charAt(i + 1), k = "abcde".indexOf(ch);
+      if (k >= 0) { o[id] = k - 2; im[id] = 1; } else if (Number(ch)) o[id] = Number(ch) - 3;
+    });
+    decode.imp = im;
+    return o;
   }
   $("shareBtn").addEventListener("click", function () {
     var url = (SHARE_BASE || location.href.split("#")[0]) + "#" + encode(), f = $("shareField");
     function fallback() { f.hidden = false; f.value = url; f.focus(); f.select(); toast("Copie o link no campo abaixo"); }
     try { navigator.clipboard.writeText(url).then(function () { toast("Link copiado"); }, fallback); } catch (e) { fallback(); }
   });
-  $("resetBtn").addEventListener("click", function () { answers = {}; cur = 0; store("fdr.answers", answers); show("teste"); });
+  $("impBtn").addEventListener("click", function () {
+    var q = Q[cur]; if (!q) return;
+    if (imp[q.id]) delete imp[q.id]; else imp[q.id] = 1;
+    store("fdr.peso", imp); $("impBtn").setAttribute("aria-pressed", String(!!imp[q.id]));
+  });
+  $("resetBtn").addEventListener("click", function () { answers = {}; imp = {}; store("fdr.peso", imp); cur = 0; store("fdr.answers", answers); show("teste"); });
 
   /* ---------------- gr\u00e1ficos ---------------- */
   var S = 560, PAD = 30, PL = S - 2 * PAD;
@@ -2601,7 +2628,8 @@ input, select, textarea { font-size: max(16px, 1em); }
       var tip = $("mapTip"), box = svg.parentNode;
       svg.addEventListener("pointermove", function (ev) {
         var p = ev.target.closest("path[data-uf]");
-        if (!p) { tip.hidden = true; M.hover = null; return; }
+        if (!p) { tip.hidden = true; if (M.hover) M.dirty = true; M.hover = null; return; }
+        if (M.hover !== p.dataset.uf) M.dirty = true;
         M.hover = p.dataset.uf;
         var r = box.getBoundingClientRect();
         tip.innerHTML = tipHTML(p.dataset.uf); tip.hidden = false;
@@ -2609,7 +2637,7 @@ input, select, textarea { font-size: max(16px, 1em); }
         if (x + 220 > r.width) x = ev.clientX - r.left - 234;
         tip.style.transform = "translate(" + x + "px," + y + "px)";
       });
-      svg.addEventListener("pointerleave", function () { tip.hidden = true; M.hover = null; });
+      svg.addEventListener("pointerleave", function () { tip.hidden = true; M.hover = null; M.dirty = true; });
       svg.addEventListener("click", function (ev) { var p = ev.target.closest("path[data-uf]"); if (p) select(p.dataset.uf); });
       svg.addEventListener("keydown", function (ev) { if ((ev.key === "Enter" || ev.key === " ") && ev.target.dataset && ev.target.dataset.uf) { ev.preventDefault(); select(ev.target.dataset.uf); } });
       if (window.matchMedia) matchMedia("(prefers-color-scheme: dark)").addEventListener("change", function () { M.colors = {}; renderMap(); });
@@ -2672,6 +2700,10 @@ input, select, textarea { font-size: max(16px, 1em); }
         if (A.painted && o2.lit > before + 0.0005) M.flash[uf] = { t: now, c: o2.lead || (o2.cum.length ? o2.cum[0][1] : INK) };
         M.ufLit[uf] = o2.lit;
       });
+      // o mapa s\u00f3 \u00e9 redesenhado enquanto h\u00e1 algo se mexendo; parado, n\u00e3o gasta nada do aparelho
+      var endT = now;
+      for (var q2 = 0; q2 < n; q2++) if (M.delay[q2] > endT) endT = M.delay[q2];
+      M.animUntil = Math.max(M.animUntil || 0, endT + 800, Object.keys(M.flash).length ? now + 1900 : 0); M.dirty = true;
       M.t0 = now; A.painted = true;
     }
     function startLoop() {
@@ -2687,7 +2719,7 @@ input, select, textarea { font-size: max(16px, 1em); }
         var vb = svgBox(), sc = Math.min(r.width / vb[2], r.height / vb[3]);
         M.scale = sc * dpr; M.dpr = dpr;
         M.ox = ((r.width - vb[2] * sc) / 2 - vb[0] * sc) * dpr; M.oy = ((r.height - vb[3] * sc) / 2 - vb[1] * sc) * dpr;
-        M.sizedW = r.width; M.sizedH = r.height;
+        M.sizedW = r.width; M.sizedH = r.height; M.dirty = true;
       }
       function svgBox() { var v = ($("brMap").getAttribute("viewBox") || "0 0 613 639").split(/[\s,]+/).map(Number); return v.length === 4 && v[2] ? v : [0, 0, 613, 639]; }
       size(); window.addEventListener("resize", size);
@@ -2698,6 +2730,8 @@ input, select, textarea { font-size: max(16px, 1em); }
         if (t - last < (reduce ? 1000 : 33)) return; // ~30 quadros por segundo
         last = t;
         if (cv.width === 0) size(); else { var rb = $("brMap").getBoundingClientRect(); var rc = cv.getBoundingClientRect(); if (Math.abs(rb.width - M.sizedW) > 0.5 || Math.abs(rb.height - M.sizedH) > 0.5 || Math.abs(rb.top - rc.top) > 0.5 || Math.abs(rb.left - rc.left) > 0.5) size(); }
+        if (!M.dirty && t > (M.animUntil || 0)) return;
+        M.dirty = false;
         var s = M.scale, n = M.n, rad = Math.max(0.55, M.sp * 0.28 * s), amp = 0, tt = t / 1000, el = t - M.t0;
         var pings = [];
         for (var pu in M.flash) if (t - M.flash[pu].t < 1100) pings.push(pu);
@@ -3071,16 +3105,16 @@ input, select, textarea { font-size: max(16px, 1em); }
     var argMap = D.argumentos || {};
     D.perguntas.forEach(function (q) { var a = argMap[q.id]; if (a) { q.favor = a.favor; q.contra = a.contra; } q.explica = (D.explicacoes || {})[q.id]; });
     Q = orderQuestions();
-    var saved = load("fdr.answers");
+    var saved = load("fdr.answers"); imp = load("fdr.peso") || {};
     if (saved && typeof saved === "object") Object.keys(saved).forEach(function (k) { if (D.perguntas.some(function (q) { return q.id === k; })) answers[k] = saved[k]; });
-    var h = (location.hash || "").slice(1), shared = h.charAt(0) === "r" ? decode(h) : null;
+    var h = (location.hash || "").slice(1), shared = /^[rs]/.test(h) ? decode(h) : null;
     renderStatic();
     // abas de conte\u00fado s\u00f3 aparecem quando o conte\u00fado existe
     loadConteudo().then(function (d) {
       var has = { poder: !!(d.poder && d.poder.conexoes), fenomenos: !!(d.fenomenos && d.fenomenos.length), glossario: !!(d.glossario && d.glossario.length) };
       document.querySelectorAll('[data-go="poder"],[data-go="fenomenos"],[data-go="glossario"]').forEach(function (a) { a.hidden = !has[a.dataset.go]; });
     });
-    if (shared) { answers = shared; store("fdr.answers", answers); show("resultado"); return; }
+    if (shared) { answers = shared; imp = decode.imp || {}; store("fdr.answers", answers); store("fdr.peso", imp); show("resultado"); return; }
     cur = 0; for (var i = 0; i < Q.length; i++) { if (answers[Q[i].id] == null) { cur = i; break; } cur = Q.length - 1; }
     var first = HOT.view || (VIEWS.indexOf(h) >= 0 ? h : (D.eleicao && D.eleicao.destaque_apuracao ? "apuracao" : "inicio"));
     show(first, true);
