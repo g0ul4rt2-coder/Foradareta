@@ -1,4 +1,4 @@
-<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="description" content="Apuração ao vivo do 2º turno com mapa interativo, teste político em três eixos e informação apartidária sobre candidatos, Congresso e poder."><meta property="og:title" content="Fora da Reta"><meta property="og:description" content="Política não é uma reta. Apuração ao vivo, teste político e informação com fonte, sem idolatria."><meta property="og:url" content="https://foradareta.com.br/"><meta property="og:type" content="website"><meta name="theme-color" content="#ffffff"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 20 20%22%3E%3Cline x1=%221%22 y1=%2210%22 x2=%2219%22 y2=%2210%22 stroke=%22%231d1d1f%22 stroke-width=%222%22 stroke-linecap=%22round%22/%3E%3Ccircle cx=%2214.5%22 cy=%225.5%22 r=%223.2%22 fill=%22%235146e0%22/%3E%3C/svg%3E"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style></head><body><meta charset="utf-8">
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="description" content="Apuração ao vivo do 2º turno com mapa interativo, teste político em três eixos e informação apartidária sobre candidatos, Congresso e poder."><meta property="og:title" content="Fora da Reta"><meta property="og:description" content="Política não é uma reta. Apuração ao vivo, teste político e informação com fonte, sem idolatria."><meta property="og:url" content="https://foradareta.com.br/"><meta property="og:type" content="website"><meta property="og:image" content="https://foradareta.com.br/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="theme-color" content="#ffffff"><link rel="apple-touch-icon" href="apple-touch-icon.png"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cdefs%3E%3ClinearGradient id='fdrBg' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23303036'/%3E%3Cstop offset='1' stop-color='%230a0a0d'/%3E%3C/linearGradient%3E%3CradialGradient id='fdrDot' cx='.34' cy='.3' r='.85'%3E%3Cstop offset='0' stop-color='%23cdc8ff'/%3E%3Cstop offset='.5' stop-color='%237466ff'/%3E%3Cstop offset='1' stop-color='%233f2fd6'/%3E%3C/radialGradient%3E%3CradialGradient id='fdrGlow'%3E%3Cstop offset='0' stop-color='%237466ff' stop-opacity='.55'/%3E%3Cstop offset='1' stop-color='%237466ff' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect width='40' height='40' rx='9.2' fill='url%28%23fdrBg%29'/%3E%3Cg fill='%23fff'%3E%3Ccircle cx='8' cy='28' r='3' opacity='.55'/%3E%3Ccircle cx='17' cy='28' r='3' opacity='.85'/%3E%3Ccircle cx='35' cy='28' r='3' opacity='.85'/%3E%3C/g%3E%3Ccircle cx='26' cy='28' r='2.3' fill='none' stroke='%23fff' stroke-opacity='.5' stroke-width='1.2'/%3E%3Ccircle cx='27.5' cy='12.5' r='7' fill='url%28%23fdrDot%29'/%3E%3C/svg%3E"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style></head><body><meta charset="utf-8">
 <title>Fora da Reta</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -628,13 +628,35 @@ details.args, .qnav { max-width: 640px; }
 .govChips button[aria-pressed="true"] { background: var(--pill); color: var(--pill-ink); }
 .govOne { max-width: 560px; margin: 18px auto 0; padding: 24px; }
 @media (max-width: 560px) { .apTabs { gap: 0; padding: 3px; } .apTabs button { padding: 7px 10px; font-size: 0.8rem; } }
+
+/* ===== mapa popula\E7 \E3 o (canvas) ===== */
+.mapWrap { position: relative; }
+#mapCanvas { position: absolute; left: 0; top: 0; pointer-events: none; display: block; }
+#brMap { position: relative; z-index: 1; }
+#colorProbe { position: absolute; }
+#brMap #mapHits path { stroke: var(--line); stroke-width: 0.7; stroke-opacity: .7; }
+#brMap #mapHits path:hover { stroke: var(--ink); stroke-opacity: .5; }
+#brMap #mapHits path.sel { stroke: var(--ink); stroke-width: 1.4; stroke-opacity: 1; stroke-dasharray: none; }
+/* marca */
+.brand { gap: 10px; }
+.fdrMark { flex: none; border-radius: 7px; box-shadow: 0 1px 2px rgba(0,0,0,.18), 0 4px 14px -6px rgba(81,70,224,.55); overflow: visible; }
+.fdrWord { font-size: 19px; letter-spacing: -0.035em; line-height: 1; }
+.fdrA { font-weight: 600; color: var(--muted); }
+.fdrB { font-weight: 800; color: var(--ink); }
+.fdrJump { transform-box: view-box; transform-origin: 26.5px 28.5px; animation: fdrJump 1.25s cubic-bezier(.34,1.45,.5,1) .25s both; }
+.fdrTrail { animation: fdrFade .6s ease-out 1s both; }
+.brand:hover .fdrJump { animation: fdrFloat 1.6s ease-in-out infinite; }
+@keyframes fdrJump { 0% { transform: translate(-2.5px, 16px) scale(.34); } 100% { transform: none; } }
+@keyframes fdrFade { from { opacity: 0; } }
+@keyframes fdrFloat { 0%, 100% { transform: none; } 50% { transform: translateY(-1.6px); } }
+@media (prefers-reduced-motion: reduce) { .fdrJump, .fdrTrail, .brand:hover .fdrJump { animation: none; } }
 </style>
 
 <header class="nav">
   <div class="wrap">
-    <a class="brand" href="#inicio" data-go="inicio">
-      <svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><line x1="1" y1="10" x2="19" y2="10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="10" y1="1" x2="10" y2="19" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity=".3"/><circle cx="14.5" cy="5.5" r="3.2" fill="var(--you)"/></svg>
-      Fora da Reta
+    <a class="brand" href="#inicio" data-go="inicio" aria-label="Fora da Reta, in&#237;cio">
+      <svg class="fdrMark" width="30" height="30" viewBox="0 0 40 40" aria-hidden="true"><defs><linearGradient id="fdrBg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#303036"/><stop offset="1" stop-color="#0a0a0d"/></linearGradient><radialGradient id="fdrDot" cx=".34" cy=".3" r=".85"><stop offset="0" stop-color="#cdc8ff"/><stop offset=".5" stop-color="#7466ff"/><stop offset="1" stop-color="#3f2fd6"/></radialGradient><radialGradient id="fdrGlow"><stop offset="0" stop-color="#7466ff" stop-opacity=".55"/><stop offset="1" stop-color="#7466ff" stop-opacity="0"/></radialGradient></defs><rect width="40" height="40" rx="9.2" fill="url(#fdrBg)"/><rect x=".5" y=".5" width="39" height="39" rx="8.7" fill="none" stroke="#fff" stroke-opacity=".14"/><g fill="#fff"><circle cx="7" cy="28.5" r="2.3" opacity=".4"/><circle cx="13.5" cy="28.5" r="2.3" opacity=".62"/><circle cx="20" cy="28.5" r="2.3" opacity=".85"/><circle cx="33" cy="28.5" r="2.3" opacity=".85"/></g><circle cx="26.5" cy="28.5" r="1.85" fill="none" stroke="#fff" stroke-opacity=".4" stroke-width=".9"/><g class="fdrTrail"><circle cx="27" cy="23.6" r="1.05" fill="#8f84ff" opacity=".35"/><circle cx="27.9" cy="20.2" r="1.45" fill="#8f84ff" opacity=".6"/></g><g class="fdrJump"><circle cx="29" cy="12.4" r="10.5" fill="url(#fdrGlow)"/><circle cx="29" cy="12.4" r="5.5" fill="url(#fdrDot)"/></g></svg>
+      <span class="fdrWord"><span class="fdrA">Fora da</span> <span class="fdrB">Reta</span></span>
     </a>
     <nav class="tabs" aria-label="Se&#231;&#245;es">
       <a href="#apuracao" data-go="apuracao">Apura&#231;&#227;o</a>
@@ -685,13 +707,13 @@ details.args, .qnav { max-width: 640px; }
     <div class="mapGrid" style="margin-top:22px">
       <div class="mapBox">
         <div class="mapModes" role="group" aria-label="O que o mapa mostra" id="mapModes">
-          <button type="button" data-mode="lider" aria-pressed="true">L&#237;der</button>
-          <button type="button" data-mode="prop" aria-pressed="false">Propor&#231;&#227;o</button>
+          <button type="button" data-mode="votos" aria-pressed="true">Votos</button>
+          <button type="button" data-mode="lider" aria-pressed="false">L&#237;der</button>
           <button type="button" data-mode="apurado" aria-pressed="false">Apurado</button>
           <button type="button" data-mode="comp" aria-pressed="false">Comparecimento</button>
           <button type="button" data-mode="mud" aria-pressed="false">Mudan&#231;a</button>
         </div>
-        <div class="mapWrap"><svg id="brMap" viewBox="0 0 613 639" role="img" aria-label="Mapa do Brasil por estado. Toque em um estado para ver os n&#250;meros."></svg><div class="mapTip" id="mapTip" hidden></div></div>
+        <div class="mapWrap"><canvas id="mapCanvas" aria-hidden="true"></canvas><span id="colorProbe" hidden></span><svg id="brMap" viewBox="0 0 613 639" role="img" aria-label="Mapa do Brasil por estado. Toque em um estado para ver os n&#250;meros."></svg><div class="mapTip" id="mapTip" hidden></div></div>
         <div class="mapFoot">
           <div class="mapLegend" id="mapLegend"></div>
           <button type="button" class="zzBtn" id="zzBtn" aria-pressed="false">Exterior</button>
@@ -2273,7 +2295,7 @@ details.args, .qnav { max-width: 640px; }
     var UFN = { ac: "Acre", al: "Alagoas", ap: "Amap\u00e1", am: "Amazonas", ba: "Bahia", ce: "Cear\u00e1", df: "Distrito Federal", es: "Esp\u00edrito Santo", go: "Goi\u00e1s", ma: "Maranh\u00e3o", mt: "Mato Grosso", ms: "Mato Grosso do Sul", mg: "Minas Gerais", pa: "Par\u00e1", pb: "Para\u00edba", pr: "Paran\u00e1", pe: "Pernambuco", pi: "Piau\u00ed", rj: "Rio de Janeiro", rn: "Rio Grande do Norte", rs: "Rio Grande do Sul", ro: "Rond\u00f4nia", rr: "Roraima", sc: "Santa Catarina", sp: "S\u00e3o Paulo", se: "Sergipe", to: "Tocantins", zz: "Exterior", br: "Brasil" };
     var REG = [["Norte", ["ac", "am", "ap", "pa", "ro", "rr", "to"]], ["Nordeste", ["al", "ba", "ce", "ma", "pb", "pe", "pi", "rn", "se"]], ["Centro-Oeste", ["df", "go", "ms", "mt"]], ["Sudeste", ["es", "mg", "rj", "sp"]], ["Sul", ["pr", "rs", "sc"]], ["Exterior", ["zz"]]];
     var START = Date.UTC(2026, 9, 25, 20, 0, 0); // 17h em Bras\u00edlia
-    var A = { tab: "mapa", gov: null, live: null, t1: null, map: null, turno: "2", turnoAuto: true, mode: "lider", uf: null, lastColl: null, sort: "uf", sortDir: 1, built: false, started: false };
+    var A = { tab: "mapa", gov: null, painted: false, live: null, t1: null, map: null, turno: "2", turnoAuto: true, mode: "votos", uf: null, lastColl: null, sort: "uf", sortDir: 1, built: false, started: false };
 
     function n2(v) { return Number(v || 0).toLocaleString("pt-BR"); }
     function pc(v, d) { return (v || 0).toFixed(d == null ? 2 : d).replace(".", ",") + "%"; }
@@ -2365,42 +2387,53 @@ details.args, .qnav { max-width: 640px; }
     }
 
     /* ---- mapa ---- */
+    /* ---- mapa "popula\u00e7\u00e3o": microbolinhas em canvas que se mexem devagar ----
+       Cada estado \u00e9 uma malha de pontos. Os pontos acendem conforme as se\u00e7\u00f5es s\u00e3o apuradas e assumem a cor
+       do partido na propor\u00e7\u00e3o dos votos (modo Votos). As cores mudam com transi\u00e7\u00e3o suave; os pontos oscilam
+       levemente, como uma multid\u00e3o. O SVG por cima guarda s\u00f3 as \u00e1reas clic\u00e1veis dos estados. */
+    var M = null;
+    function rgba(css) {
+      var el = $("colorProbe"); el.style.color = ""; el.style.color = css;
+      var c = getComputedStyle(el).color, m = c.match(/-?[\d.]+/g) || ["128", "128", "128"];
+      if (/^color\(/.test(c)) return [m[0] * 255, m[1] * 255, m[2] * 255, m[3] != null ? +m[3] : 1];
+      return [+m[0], +m[1], +m[2], m[3] != null ? +m[3] : 1];
+    }
     function buildMap() {
       if (A.built || !A.map || !A.dots) return;
       var svg = $("brMap"), h = ['<g id="mapHits">'];
       Object.keys(A.map.uf).forEach(function (uf) {
         h.push('<path d="' + A.map.uf[uf].d + '" data-uf="' + uf + '" tabindex="0" role="button" aria-label="' + esc(UFN[uf] || uf) + '"></path>');
       });
-      h.push('</g><g id="mapDots">');
-      var by = {}; A.dots.dots.forEach(function (d) { var uf = A.dots.ufs[d[2]]; (by[uf] = by[uf] || []).push(d); });
-      Object.keys(by).forEach(function (uf) {
-        var ds = by[uf].sort(function (p, q) { return q[3] - p[3]; }), n = ds.length;
-        h.push('<g data-uf="' + uf + '">' + ds.map(function (d, k) { return '<circle cx="' + d[0] + '" cy="' + d[1] + '" r="' + (A.dots.sp * 0.36).toFixed(2) + '" style="transition-delay:' + Math.round(k / n * 700) + 'ms"></circle>'; }).join("") + "</g>");
-      });
-      h.push("</g>");
-      svg.innerHTML = h.join("");
-      A.dotG = {}; svg.querySelectorAll("#mapDots g").forEach(function (g) { A.dotG[g.dataset.uf] = g.querySelectorAll("circle"); });
+      svg.innerHTML = h.join("") + "</g>";
+      var ds = A.dots.dots, n = ds.length, seed = 7;
+      function rnd() { seed = (seed * 16807) % 2147483647; return seed / 2147483647; }
+      M = { n: n, sp: A.dots.sp, x: new Float32Array(n), y: new Float32Array(n), uf: [], r1: new Float32Array(n), r2: new Float32Array(n),
+        ph1: new Float32Array(n), ph2: new Float32Array(n), f1: new Float32Array(n), f2: new Float32Array(n), delay: new Float32Array(n),
+        cur: new Float32Array(n * 4), minor: new Uint8Array(n), from: new Float32Array(n * 4), to: new Float32Array(n * 4), t0: 0, hover: null, colors: {}, running: false };
+      for (var i = 0; i < n; i++) {
+        M.x[i] = ds[i][0]; M.y[i] = ds[i][1]; M.uf[i] = A.dots.ufs[ds[i][2]];
+        M.r1[i] = rnd(); M.r2[i] = rnd(); M.ph1[i] = rnd() * 6.283; M.ph2[i] = rnd() * 6.283;
+        M.f1[i] = 0.35 + rnd() * 0.55; M.f2[i] = 0.3 + rnd() * 0.5; M.delay[i] = rnd() * 900;
+      }
       var tip = $("mapTip"), box = svg.parentNode;
       svg.addEventListener("pointermove", function (ev) {
         var p = ev.target.closest("path[data-uf]");
-        if (!p) { tip.hidden = true; svg.classList.remove("hovering"); hover(null); return; }
-        hover(p.dataset.uf);
+        if (!p) { tip.hidden = true; M.hover = null; return; }
+        M.hover = p.dataset.uf;
         var r = box.getBoundingClientRect();
         tip.innerHTML = tipHTML(p.dataset.uf); tip.hidden = false;
         var x = ev.clientX - r.left + 14, y = ev.clientY - r.top + 14;
         if (x + 220 > r.width) x = ev.clientX - r.left - 234;
         tip.style.transform = "translate(" + x + "px," + y + "px)";
       });
-      svg.addEventListener("pointerleave", function () { tip.hidden = true; hover(null); });
+      svg.addEventListener("pointerleave", function () { tip.hidden = true; M.hover = null; });
       svg.addEventListener("click", function (ev) { var p = ev.target.closest("path[data-uf]"); if (p) select(p.dataset.uf); });
       svg.addEventListener("keydown", function (ev) { if ((ev.key === "Enter" || ev.key === " ") && ev.target.dataset && ev.target.dataset.uf) { ev.preventDefault(); select(ev.target.dataset.uf); } });
+      if (window.matchMedia) matchMedia("(prefers-color-scheme: dark)").addEventListener("change", function () { M.colors = {}; renderMap(); });
       A.built = true;
+      startLoop();
     }
-    function hover(uf) {
-      var svg = $("brMap");
-      svg.classList.toggle("hovering", !!uf);
-      svg.querySelectorAll("#mapDots g").forEach(function (g) { g.classList.toggle("hover", g.dataset.uf === uf); });
-    }
+    function col(css) { if (!M.colors[css]) M.colors[css] = rgba(css); return M.colors[css]; }
     function tipHTML(uf) {
       var d = dataT(), r = d && d.ufs[uf]; if (!r) return "<b>" + esc(UFN[uf]) + "</b>";
       var cs = A.turno === "2" ? sorted2T(r.c) : r.c.slice(0, 3);
@@ -2409,45 +2442,85 @@ details.args, .qnav { max-width: 640px; }
       }).join("") : '<span class="tipSub">Sem votos apurados</span>');
     }
     function share2(cs, n) { var a = 0, t = 0; cs.forEach(function (c) { var o = order1T(); if (c.n === o[0] || c.n === o[1]) { t += c.v; if (c.n === n) a = c.v; } }); return t ? a / t * 100 : null; }
-    // cor de cada ponto de um estado conforme o modo do mapa
-    function paintState(uf) {
-      var dots = A.dotG[uf]; if (!dots) return;
-      var d = dataT(), r = d && d.ufs[uf], n = dots.length, cols = [], OFF = "var(--dotOff)";
-      var lit = r ? Math.round(n * r.s.p / 100) : 0;
-      if (r && r.s.p > 0 && lit === 0) lit = 1;
-      if (!r) { for (var i = 0; i < n; i++) cols.push(OFF); }
-      else if (A.mode === "apurado") { for (i = 0; i < n; i++) cols.push(i < lit ? "var(--ink)" : OFF); }
-      else if (A.mode === "comp") { var op = Math.max(0.12, Math.min(1, (r.pcomp - 60) / 30)); for (i = 0; i < n; i++) cols.push(r.s.a ? "color-mix(in srgb, var(--ink) " + Math.round(op * 100) + "%, transparent)" : OFF); }
-      else if (A.mode === "mud") {
-        var o = order1T(), t1 = A.t1 && A.t1.ufs[uf], dl = t1 && r.s.a ? share2(r.c, o[0]) - share2(t1.c, o[0]) : 0;
-        var colr = dl >= 0 ? colorOf(o[0]) : colorOf(o[1]), k = Math.round(n * Math.min(1, Math.abs(dl) / 10));
-        for (i = 0; i < n; i++) cols.push(r.s.a && i < k ? colr : OFF);
-      } else if (A.mode === "prop") {
-        // pontos acesos divididos na propor\u00e7\u00e3o dos votos de cada candidato
-        var cs = r.c.slice(0, A.turno === "2" ? 2 : 4), acc = 0, bounds = [];
-        cs.forEach(function (c) { acc += c.p; bounds.push([Math.round(lit * acc / 100), colorOf(c.n, c.sg)]); });
-        for (i = 0; i < n; i++) { var col = OFF; if (i < lit) { col = "var(--cO)"; for (var b = 0; b < bounds.length; b++) if (i < bounds[b][0]) { col = bounds[b][1]; break; } } cols.push(col); }
-      } else {
-        var lead = r.c[0], col2 = lead ? colorOf(lead.n, lead.sg) : OFF;
-        for (i = 0; i < n; i++) cols.push(r.s.a && i < lit ? col2 : OFF);
+    // cor-alvo de cada ponto conforme o modo do mapa
+    function targetsFor() {
+      var d = dataT(), OFF = col("var(--dotOff)"), INK = col("var(--ink)"), n = M.n, now = performance.now();
+      var cache = {};
+      function info(uf) {
+        if (cache[uf]) return cache[uf];
+        var r = d && d.ufs[uf], o = { r: r, lit: r ? r.s.p / 100 : 0, cum: [] };
+        if (r && r.s.a) {
+          if (A.mode === "votos") { var cs = r.c.slice(0, A.turno === "2" ? 2 : 4), acc = 0, tot = cs.reduce(function (s, c) { return s + c.p; }, 0) || 1; cs.forEach(function (c) { acc += c.p / tot; o.cum.push([acc, col(colorOf(c.n, c.sg))]); }); o.lead = col(colorOf(r.c[0].n, r.c[0].sg)); }
+          else if (A.mode === "lider") o.cum.push([1, col(colorOf(r.c[0].n, r.c[0].sg))]);
+          else if (A.mode === "comp") { o.lit = r.pcomp / 100; o.cum.push([1, INK]); }
+          else if (A.mode === "mud") { var p1 = A.t1 && A.t1.ufs[uf], oo = order1T(); var dl = p1 ? share2(r.c, oo[0]) - share2(p1.c, oo[0]) : 0; o.lit = Math.min(1, Math.abs(dl) / 10); o.cum.push([1, col(colorOf(dl >= 0 ? oo[0] : oo[1]))]); }
+          else o.cum.push([1, INK]);
+        }
+        if (A.mode === "apurado" && r) o.cum = [[1, INK]];
+        return (cache[uf] = o);
       }
-      for (i = 0; i < n; i++) dots[i].style.fill = cols[i];
+      for (var i = 0; i < n; i++) {
+        var o = info(M.uf[i]), c = OFF;
+        M.minor[i] = 0;
+        if (o.cum.length && M.r1[i] < o.lit) {
+          c = o.cum[o.cum.length - 1][1];
+          for (var k = 0; k < o.cum.length; k++) if (M.r2[i] <= o.cum[k][0]) { c = o.cum[k][1]; break; }
+          // quem n\u00e3o lidera no estado aparece em pontos menores e mais suaves; o l\u00edder salta aos olhos
+          if (A.mode === "votos" && o.lead && c !== o.lead) M.minor[i] = 1;
+        }
+        var j = i * 4;
+        if (!A.painted) { M.cur[j] = OFF[0]; M.cur[j + 1] = OFF[1]; M.cur[j + 2] = OFF[2]; M.cur[j + 3] = OFF[3]; }
+        M.from[j] = M.cur[j]; M.from[j + 1] = M.cur[j + 1]; M.from[j + 2] = M.cur[j + 2]; M.from[j + 3] = M.cur[j + 3];
+        M.to[j] = c[0]; M.to[j + 1] = c[1]; M.to[j + 2] = c[2]; M.to[j + 3] = c[3];
+      }
+      M.t0 = now; A.painted = true;
+    }
+    function startLoop() {
+      var cv = $("mapCanvas"), ctx = cv.getContext("2d"), last = 0;
+      function size() {
+        var r = $("brMap").getBoundingClientRect(), dpr = Math.min(2, window.devicePixelRatio || 1);
+        cv.style.width = r.width + "px"; cv.style.height = r.height + "px";
+        cv.width = Math.round(r.width * dpr); cv.height = Math.round(r.height * dpr);
+        M.scale = cv.width / 613; M.dpr = dpr;
+      }
+      size(); window.addEventListener("resize", size);
+      function frame(t) {
+        requestAnimationFrame(frame);
+        if (document.hidden || $("v-apuracao").hidden || !cv.offsetParent) return;
+        if (t - last < (reduce ? 1000 : 33)) return; // ~30 quadros por segundo
+        last = t;
+        if (cv.width === 0) size();
+        var s = M.scale, n = M.n, rad = M.sp * 0.36 * s, amp = reduce ? 0 : M.sp * 0.22 * s, tt = t / 1000, el = t - M.t0;
+        ctx.clearRect(0, 0, cv.width, cv.height);
+        var hov = M.hover, sel = A.uf;
+        for (var i = 0; i < n; i++) {
+          var j = i * 4, k = reduce ? 1 : Math.max(0, Math.min(1, (el - M.delay[i]) / 700));
+          k = k * k * (3 - 2 * k);
+          var r = M.from[j] + (M.to[j] - M.from[j]) * k, g = M.from[j + 1] + (M.to[j + 1] - M.from[j + 1]) * k, b = M.from[j + 2] + (M.to[j + 2] - M.from[j + 2]) * k, a = M.from[j + 3] + (M.to[j + 3] - M.from[j + 3]) * k;
+          M.cur[j] = r; M.cur[j + 1] = g; M.cur[j + 2] = b; M.cur[j + 3] = a;
+          var u = M.uf[i], dim = ((hov && u !== hov) || (sel && sel !== "zz" && u !== sel && !hov) ? 0.35 : 1) * (M.minor[i] ? 0.62 : 1);
+          ctx.fillStyle = "rgba(" + (r | 0) + "," + (g | 0) + "," + (b | 0) + "," + (a * dim).toFixed(3) + ")";
+          var x = M.x[i] * s + amp * Math.sin(tt * M.f1[i] + M.ph1[i]), y = M.y[i] * s + amp * Math.cos(tt * M.f2[i] + M.ph2[i]);
+          ctx.beginPath(); ctx.arc(x, y, (u === hov ? rad * 1.18 : rad) * (M.minor[i] ? 0.8 : 1), 0, 6.2832); ctx.fill();
+        }
+      }
+      requestAnimationFrame(frame);
     }
     function renderMap() {
       buildMap(); if (!A.built) return;
-      var d = dataT();
       $("mapModes").querySelector('[data-mode="mud"]').hidden = A.turno !== "2";
-      if (A.turno !== "2" && A.mode === "mud") A.mode = "lider";
+      if (A.turno !== "2" && A.mode === "mud") A.mode = "votos";
       segSet($("mapModes"), "mode", A.mode);
-      Object.keys(A.dotG).forEach(paintState);
+      targetsFor();
       $("brMap").querySelectorAll("#mapHits path").forEach(function (p) { p.classList.toggle("sel", A.uf === p.dataset.uf); });
       $("zzBtn").setAttribute("aria-pressed", String(A.uf === "zz"));
       var o = order1T(), lg = "";
       function nm(n) { var c = (A.t1.br.c.filter(function (x) { return x.n === n; })[0]) || { n: n, nm: "" }; return esc(displayName(c)); }
-      if (A.mode === "lider") lg = [o[0], o[1]].map(function (n) { return '<span><span class="sw" style="background:' + colorOf(n) + '"></span>' + nm(n) + "</span>"; }).join("") + "<span>Cada estado se preenche conforme as urnas s\u00e3o apuradas, na cor de quem lidera.</span>";
-      else if (A.mode === "prop") lg = [o[0], o[1]].map(function (n) { return '<span><span class="sw" style="background:' + colorOf(n) + '"></span>' + nm(n) + "</span>"; }).join("") + "<span>Os pontos acesos se dividem na propor\u00e7\u00e3o dos votos.</span>";
+      var two = [o[0], o[1]].map(function (n) { return '<span><span class="sw" style="background:' + colorOf(n) + '"></span>' + nm(n) + "</span>"; }).join("");
+      if (A.mode === "votos") lg = two + "<span>Cada ponto \u00e9 um peda\u00e7o da popula\u00e7\u00e3o. Eles acendem conforme as urnas s\u00e3o apuradas, na propor\u00e7\u00e3o dos votos.</span>";
+      else if (A.mode === "lider") lg = two + "<span>Os pontos acesos ficam na cor de quem lidera no estado.</span>";
       else if (A.mode === "apurado") lg = "<span>Pontos acesos = propor\u00e7\u00e3o das se\u00e7\u00f5es j\u00e1 apuradas em cada estado.</span>";
-      else if (A.mode === "comp") lg = "<span>Quanto mais escuro, maior o comparecimento (de 60% a 90%).</span>";
+      else if (A.mode === "comp") lg = "<span>Pontos acesos = propor\u00e7\u00e3o dos eleitores que foram votar.</span>";
       else lg = '<span><span class="sw" style="background:' + colorOf(o[0]) + '"></span>Melhorou para ' + nm(o[0]) + '</span><span><span class="sw" style="background:' + colorOf(o[1]) + '"></span>Melhorou para ' + nm(o[1]) + "</span><span>Mais pontos acesos, maior a mudan\u00e7a desde o 1\u00ba turno.</span>";
       $("mapLegend").innerHTML = lg;
     }
