@@ -805,6 +805,19 @@ input, select, textarea { font-size: max(16px, 1em); }
 .awGovList em { font-style: normal; color: var(--muted); margin: 0 4px; }
 @media (max-width: 600px) { .awGovList { grid-template-columns: 1fr; } }
 .awGovList .gc { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; }
+/* escolha de cargo: presidente ou governador */
+.cargoBar { display: flex; justify-content: center; margin-top: 14px; }
+.cargoBar[hidden] { display: none; }
+#v-apuracao.apGovMode #duel, #v-apuracao.apGovMode #splitBar, #v-apuracao.apGovMode #splitMeta, #v-apuracao.apGovMode #apStats,
+#v-apuracao.apGovMode #needBox, #v-apuracao.apGovMode #apTabs, #v-apuracao.apGovMode #apWait, #v-apuracao.apGovMode #apNote,
+#v-apuracao.apGovMode .apPanel:not([data-panel="governadores"]) { display: none !important; }
+#v-apuracao.apGovMode .apPanel[data-panel="governadores"] { display: block !important; }
+#v-apuracao.apGovMode #govSec > .eyebrow, #v-apuracao.apGovMode #govSec > .h3 { display: none; }
+#v-apuracao.apGovMode #govSec { padding-top: 8px; }
+.govStats { margin-top: 14px; text-align: center; }
+.awGovList li { cursor: pointer; transition: border-color .2s, background .2s; }
+.awGovList li:hover, .awGovList li:focus-visible { border-color: var(--line); background: var(--bg-alt); outline: none; }
+#v-apuracao.apGovMode #apNews { display: none !important; }
 </style>
 
 <header class="nav">
@@ -842,6 +855,10 @@ input, select, textarea { font-size: max(16px, 1em); }
         <button type="button" data-turno="1" aria-pressed="false">1&#186; turno</button>
       </div>
     </div>
+    <div class="cargoBar" id="cargoBar"><div class="seg" role="group" aria-label="Cargo" id="cargoSeg">
+      <button type="button" data-cargo="pres" aria-pressed="true">Presidente</button>
+      <button type="button" data-cargo="gov" aria-pressed="false">Governador &#183; 6 estados</button>
+    </div></div>
     <p class="livePill idle" id="livePill"><i></i><span>Carregando dados do TSE&#8230;</span></p>
     <p class="small muted" id="apNote" style="margin-top:10px"></p>
 
@@ -867,6 +884,7 @@ input, select, textarea { font-size: max(16px, 1em); }
         <p class="eyebrow">Tamb&#233;m hoje: governador</p>
         <p class="small muted">Seis estados t&#234;m 2&#186; turno para governador. Quando a apura&#231;&#227;o come&#231;ar, cada disputa aparece ao vivo na aba &#8220;Governadores&#8221;.</p>
         <ul class="awGovList" id="awGovList"></ul>
+        <p class="small muted" style="margin-top:12px">Toque em um estado para acompanhar a apura&#231;&#227;o de governador.</p>
       </div>
 
       <div class="awNight">
@@ -2629,7 +2647,7 @@ input, select, textarea { font-size: max(16px, 1em); }
     var UFN = { ac: "Acre", al: "Alagoas", ap: "Amap\u00e1", am: "Amazonas", ba: "Bahia", ce: "Cear\u00e1", df: "Distrito Federal", es: "Esp\u00edrito Santo", go: "Goi\u00e1s", ma: "Maranh\u00e3o", mt: "Mato Grosso", ms: "Mato Grosso do Sul", mg: "Minas Gerais", pa: "Par\u00e1", pb: "Para\u00edba", pr: "Paran\u00e1", pe: "Pernambuco", pi: "Piau\u00ed", rj: "Rio de Janeiro", rn: "Rio Grande do Norte", rs: "Rio Grande do Sul", ro: "Rond\u00f4nia", rr: "Roraima", sc: "Santa Catarina", sp: "S\u00e3o Paulo", se: "Sergipe", to: "Tocantins", zz: "Exterior", br: "Brasil" };
     var REG = [["Norte", ["ac", "am", "ap", "pa", "ro", "rr", "to"]], ["Nordeste", ["al", "ba", "ce", "ma", "pb", "pe", "pi", "rn", "se"]], ["Centro-Oeste", ["df", "go", "ms", "mt"]], ["Sudeste", ["es", "mg", "rj", "sp"]], ["Sul", ["pr", "rs", "sc"]], ["Exterior", ["zz"]]];
     var START = Date.UTC(2026, 9, 25, 20, 0, 0); // 17h em Bras\u00edlia
-    var A = { tab: "mapa", gov: null, painted: false, live: null, t1: null, map: null, turno: "2", turnoAuto: true, mode: "votos", uf: null, lastColl: null, sort: "uf", sortDir: 1, built: false, started: false };
+    var A = { tab: "mapa", gov: null, painted: false, live: null, t1: null, map: null, turno: "2", turnoAuto: true, cargo: "pres", mode: "votos", uf: null, lastColl: null, sort: "uf", sortDir: 1, built: false, started: false };
 
     function n2(v) { return Number(v || 0).toLocaleString("pt-BR"); }
     function pc(v, d) { return (v || 0).toFixed(d == null ? 2 : d).replace(".", ",") + "%"; }
@@ -2673,7 +2691,18 @@ input, select, textarea { font-size: max(16px, 1em); }
       if (A.turno === "2" && A.live && A.live.coletado) note = (A.live.direto ? "Seu navegador leu os arquivos oficiais do TSE \u00e0s " : "Lido do TSE \u00e0s ") + A.live.coletado.slice(11, 19) + " (hor\u00e1rio de Bras\u00edlia)." + (A.live.direto ? " Atualiza sozinho a cada 20 segundos." : "");
       if (A.turno === "1" && A.live && A.live.br.s.a === 0) note = "Ainda n\u00e3o h\u00e1 votos apurados no 2\u00ba turno; enquanto isso, veja como foi o 1\u00ba turno.";
       $("apNote").textContent = note;
+      $("cargoBar").hidden = !(A.turno === "2" && A.live && A.live.gov && Object.keys(A.live.gov).length);
+      segSet($("cargoSeg"), "cargo", govMode() ? "gov" : "pres");
+      $("apEyebrow").textContent = govMode() ? "Apura\u00e7\u00e3o \u00b7 Governador" : "Apura\u00e7\u00e3o \u00b7 Presidente da Rep\u00fablica";
+      if (govMode()) {
+        var g = A.live.gov[A.gov] || A.live.gov[Object.keys(A.live.gov)[0]];
+        $("apTitle").innerHTML = "2\u00ba turno" + '<span class="apDate"> \u00b7 governador</span>';
+        var gl = g && g.s.a > 0;
+        pill.classList.toggle("idle", !gl || g.s.p >= 100);
+        pill.innerHTML = "<i></i><span>" + esc(!g ? "Carregando\u2026" : !g.s.a ? (Date.now() < START ? "A apura\u00e7\u00e3o come\u00e7a \u00e0s 17h (Bras\u00edlia)" : "Urnas fechadas. Aguardando os primeiros n\u00fameros do TSE.") : g.s.p >= 100 ? "Apura\u00e7\u00e3o encerrada \u00b7 100% das se\u00e7\u00f5es" : "Ao vivo \u00b7 " + pc(g.s.p) + " das se\u00e7\u00f5es apuradas \u00b7 TSE \u00e0s " + g.ht) + "</span>";
+      }
     }
+    function govMode() { return A.cargo === "gov" && A.turno === "2" && A.live && A.live.gov && Object.keys(A.live.gov).length > 0; }
     function renderDuel() {
       var d = dataT(); if (!d) return;
       var br = d.br, cs = A.turno === "2" ? sorted2T(br.c) : br.c.slice(0, 2);
@@ -3053,8 +3082,10 @@ input, select, textarea { font-size: max(16px, 1em); }
       if (!A.gov || ufs.indexOf(A.gov) < 0) A.gov = ufs.indexOf(A.uf) >= 0 ? A.uf : ufs[0];
       $("govChips").innerHTML = ufs.map(function (uf) { return '<button type="button" data-gov="' + uf + '" aria-pressed="' + (uf === A.gov) + '">' + UFN[uf] + "</button>"; }).join("");
       var g = A.live.gov[A.gov], gc = g.c.slice().sort(function (x, y) { return Number(x.n) - Number(y.n); });
-      $("govGrid").innerHTML = '<div class="govCard govOne"><p class="eyebrow">' + esc(UFN[A.gov]) + '</p><p class="small muted">' + pc(g.s.p, 1) + " das se\u00e7\u00f5es apuradas" + (g.ht ? " \u00b7 TSE \u00e0s " + esc(g.ht) : "") + '</p><div class="progRing"><i style="width:' + g.s.p + '%"></i></div>' +
-        cRows(gc, function (c) { return sgColor(c.sg); }, 0, true) + "</div>";
+      if (g.s.a > 0) gc.sort(function (x, y) { return y.v - x.v; });
+      var extra = g.s.a > 0 && g.pcomp != null ? '<p class="small muted govStats">Comparecimento ' + pc(g.pcomp) + (g.pvb != null ? " \u00b7 brancos " + pc(g.pvb) : "") + (g.pvn != null ? " \u00b7 nulos " + pc(g.pvn) : "") + "</p>" : "";
+      $("govGrid").innerHTML = '<div class="govCard govOne"><p class="eyebrow">' + esc(UFN[A.gov]) + '</p><p class="small muted">' + (g.s.a > 0 ? pc(g.s.p, 1) + " das se\u00e7\u00f5es apuradas" + (g.ht ? " \u00b7 TSE \u00e0s " + esc(g.ht) : "") : "Nenhuma se\u00e7\u00e3o apurada ainda. Os n\u00fameros aparecem aqui assim que o TSE publicar.") + '</p><div class="progRing"><i style="width:' + g.s.p + '%"></i></div>' +
+        cRows(gc, function (c) { return sgColor(c.sg); }, 0, true) + extra + "</div>";
     }
     function renderChecks() {
       var d = dataT(); if (!d) return;
@@ -3113,14 +3144,18 @@ input, select, textarea { font-size: max(16px, 1em); }
       $("awGov").hidden = !gl.length;
       $("awGovList").innerHTML = gl.map(function (uf) {
         var cs = A.live.gov[uf].c.slice().sort(function (x, y) { return Number(x.n) - Number(y.n); });
-        return "<li><b>" + esc(UFN[uf]) + "</b><span>" + cs.map(function (c) { return '<span class="gc"><i style="--c:' + sgColor(c.sg) + '"></i>' + esc(displayName(c, true)) + ' <small>' + esc(c.n) + "</small></span>"; }).join('<em>\u00d7</em>') + "</span></li>";
+        return '<li data-govgo="' + uf + '" role="button" tabindex="0"><b>' + esc(UFN[uf]) + "</b><span>" + cs.map(function (c) { return '<span class="gc"><i style="--c:' + sgColor(c.sg) + '"></i>' + esc(displayName(c, true)) + ' <small>' + esc(c.n) + "</small></span>"; }).join('<em>\u00d7</em>') + "</span></li>";
       }).join("");
       tickWait();
     }
     function render() {
       if (!A.live && !A.t1) return;
       if (!A.t1) { A.t1 = A.live; }
-      var waiting = isWaiting(), v = $("v-apuracao"), was = v.classList.contains("apWaiting");
+      var gm = govMode(), waiting = !gm && isWaiting(), v = $("v-apuracao"), was = v.classList.contains("apWaiting");
+      v.classList.toggle("apGovMode", gm);
+      if (gm && A.tab !== "governadores") setTab("governadores");
+      if (!gm && A.tab === "governadores" && A.cargoWas === "gov") setTab("mapa");
+      A.cargoWas = A.cargo;
       v.classList.toggle("apWaiting", waiting); $("apWait").hidden = !waiting;
       if (was && !waiting) { v.classList.remove("apGoLive"); void v.offsetWidth; v.classList.add("apGoLive"); }
       if (waiting) renderWait();
@@ -3144,7 +3179,16 @@ input, select, textarea { font-size: max(16px, 1em); }
 
     /* ---- eventos e atualiza\u00e7\u00e3o ---- */
     $("apTabs").addEventListener("click", function (ev) { var b = ev.target.closest("[data-aptab]"); if (b) setTab(b.dataset.aptab); });
-    $("govGrid").parentNode.addEventListener("click", function (ev) { var b = ev.target.closest("[data-gov]"); if (b) { A.gov = b.dataset.gov; renderGov(); } });
+    $("govGrid").parentNode.addEventListener("click", function (ev) { var b = ev.target.closest("[data-gov]"); if (b) { A.gov = b.dataset.gov; renderGov(); renderHeader(); } });
+    $("cargoSeg").addEventListener("click", function (ev) {
+      var b = ev.target.closest("[data-cargo]"); if (!b) return;
+      A.cargo = b.dataset.cargo; render();
+    });
+    $("awGovList").addEventListener("click", function (ev) {
+      var li = ev.target.closest("[data-govgo]"); if (!li) return;
+      A.cargo = "gov"; A.gov = li.dataset.govgo; render();
+      window.scrollTo({ top: 0, behavior: reduce ? "auto" : "smooth" });
+    });
     $("turnoSeg").addEventListener("click", function (ev) { var b = ev.target.closest("[data-turno]"); if (!b) return; A.turno = b.dataset.turno; A.turnoAuto = false; render(); });
     $("mapModes").addEventListener("click", function (ev) { var b = ev.target.closest("[data-mode]"); if (!b) return; A.mode = b.dataset.mode; renderMap(); });
     $("zzBtn").addEventListener("click", function () { select("zz"); });
