@@ -670,6 +670,91 @@ html { overflow-x: hidden; touch-action: manipulation; }
 @supports (overflow: clip) { html, body { overflow-x: clip; } }
 input, select, textarea { font-size: max(16px, 1em); }
 @media (max-width: 520px) { .coords.three { flex-direction: column; align-items: center; gap: 16px; } }
+
+/* ===== tela de espera da apura\E7 \E3 o ===== */
+.apWait { max-width: 860px; margin: 0 auto; text-align: center; padding-top: clamp(18px, 4vw, 40px); }
+.awStatus { display: inline-flex; align-items: center; gap: 8px; font-size: 0.82rem; font-weight: 600; letter-spacing: 0.02em; color: var(--muted); border: 1px solid var(--hair); border-radius: 999px; padding: 6px 14px 6px 12px; }
+.awStatus i { width: 7px; height: 7px; border-radius: 50%; background: var(--live); box-shadow: 0 0 0 0 color-mix(in srgb, var(--live) 55%, transparent); animation: awPing 2s infinite; }
+.awStatus.closed i { background: var(--ink); animation: none; box-shadow: none; }
+@keyframes awPing { 0% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--live) 50%, transparent); } 80%, 100% { box-shadow: 0 0 0 9px color-mix(in srgb, var(--live) 0%, transparent); } }
+.awLead { margin-top: clamp(26px, 5vw, 44px); font-size: clamp(1rem, 2.2vw, 1.25rem); color: var(--muted); font-weight: 500; letter-spacing: -0.01em; }
+.awClock { display: flex; justify-content: center; align-items: flex-start; gap: clamp(4px, 1.6vw, 14px); margin-top: 8px; font-variant-numeric: tabular-nums; }
+.awUnit { display: flex; flex-direction: column; align-items: center; min-width: 1.15em; font-size: clamp(64px, 17vw, 152px); }
+.awUnit b { display: flex; font-weight: 700; letter-spacing: -0.055em; line-height: 1; color: var(--ink); }
+.awUnit b span { display: inline-block; width: 0.6em; text-align: center; }
+.awUnit b span.in { animation: awDigit .55s cubic-bezier(.2, .9, .25, 1) both; }
+@keyframes awDigit { from { transform: translateY(-0.28em); opacity: 0; filter: blur(6px); } to { transform: none; opacity: 1; filter: none; } }
+.awUnit > span { font-size: 0.76rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-top: 10px; }
+.awSep { font-style: normal; font-weight: 300; color: var(--line); font-size: clamp(54px, 14vw, 128px); line-height: 1.02; }
+.awWaiting { margin-top: 26px; display: inline-flex; align-items: center; gap: 12px; font-size: clamp(1.25rem, 3vw, 1.8rem); font-weight: 600; letter-spacing: -0.02em; }
+.awDots { display: inline-flex; gap: 5px; }
+.awDots i { width: 8px; height: 8px; border-radius: 50%; background: var(--ink); animation: awDot 1.2s infinite ease-in-out both; }
+.awDots i:nth-child(2) { animation-delay: .15s; } .awDots i:nth-child(3) { animation-delay: .3s; }
+@keyframes awDot { 0%, 80%, 100% { transform: scale(.55); opacity: .35; } 40% { transform: none; opacity: 1; } }
+.awSub { max-width: 34em; margin: 26px auto 0; color: var(--muted); font-size: 0.98rem; line-height: 1.55; }
+.awDay { max-width: 520px; margin: 30px auto 0; }
+.awTrack { position: relative; height: 4px; border-radius: 4px; background: var(--hair); }
+.awTrack i { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 4px; background: var(--ink); transition: width 1s linear; }
+.awTrack b { position: absolute; top: 50%; width: 12px; height: 12px; margin: -6px 0 0 -6px; border-radius: 50%; background: var(--bg); border: 2px solid var(--ink); transition: left 1s linear; }
+.awTicks { display: flex; justify-content: space-between; margin-top: 10px; font-size: 0.8rem; font-weight: 600; }
+.awTicks small { display: block; font-weight: 500; color: var(--muted); font-size: 0.74rem; }
+.awTicks span:last-child { text-align: right; }
+
+.awDuel { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: clamp(10px, 3vw, 28px); margin-top: clamp(48px, 8vw, 80px); }
+.awCand { display: flex; flex-direction: column; align-items: center; gap: 10px; }
+.awCand .awPh { width: clamp(84px, 16vw, 120px); aspect-ratio: 1; border-radius: 50%; overflow: hidden; background: var(--bg-alt); box-shadow: 0 0 0 3px var(--bg), 0 0 0 5px var(--c); }
+.awCand .awPh img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 18%; display: block; }
+.awCand h3 { font-size: clamp(1.1rem, 2.6vw, 1.45rem); letter-spacing: -0.025em; margin-top: 6px; }
+.awCand .awParty { font-size: 0.82rem; font-weight: 600; color: var(--c); }
+.awCand .awT1 { font-size: 0.82rem; color: var(--muted); }
+.awVs { font-size: 0.9rem; font-weight: 600; color: var(--muted); width: 40px; height: 40px; border-radius: 50%; border: 1px solid var(--hair); display: grid; place-items: center; }
+
+.awFacts { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1px; margin-top: clamp(40px, 7vw, 64px); background: var(--hair); border: 1px solid var(--hair); border-radius: 20px; overflow: hidden; }
+.awFact { background: var(--bg); padding: 18px 14px; display: flex; flex-direction: column; gap: 4px; }
+.awFact b { font-size: clamp(1.1rem, 2.4vw, 1.4rem); letter-spacing: -0.03em; font-variant-numeric: tabular-nums; }
+.awFact span { font-size: 0.78rem; color: var(--muted); }
+@media (max-width: 680px) { .awFacts { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+.awNight { margin-top: clamp(48px, 8vw, 72px); text-align: left; max-width: 620px; margin-left: auto; margin-right: auto; }
+.awNight .eyebrow { text-align: center; }
+.awSteps { list-style: none; padding: 0; margin: 18px 0 0; position: relative; }
+.awSteps::before { content: ""; position: absolute; left: 5px; top: 10px; bottom: 10px; width: 1px; background: var(--hair); }
+.awSteps li { position: relative; padding: 0 0 22px 30px; display: grid; gap: 3px; }
+.awSteps li::before { content: ""; position: absolute; left: 0; top: 5px; width: 11px; height: 11px; border-radius: 50%; background: var(--bg); border: 2px solid var(--ink); box-sizing: border-box; }
+.awSteps li:last-child { padding-bottom: 0; }
+.awSteps b { font-size: 0.95rem; }
+.awSteps span { color: var(--muted); font-size: 0.95rem; line-height: 1.5; }
+
+.awActions { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-top: clamp(36px, 6vw, 56px); }
+.awMapCap { margin: clamp(56px, 9vw, 88px) auto 0; max-width: 32em; color: var(--muted); line-height: 1.55; }
+.awMapCap .eyebrow { display: block; margin-bottom: 8px; }
+.awMapCap b { color: var(--ink); }
+
+/* enquanto espera: s\F3  a tela de espera e o mapa ainda apagado */
+#v-apuracao.apWaiting #livePill, #v-apuracao.apWaiting #apNote, #v-apuracao.apWaiting #duel, #v-apuracao.apWaiting #splitBar,
+#v-apuracao.apWaiting #splitMeta, #v-apuracao.apWaiting #apStats, #v-apuracao.apWaiting #needBox, #v-apuracao.apWaiting #apTabs,
+#v-apuracao.apWaiting .statePanel, #v-apuracao.apWaiting #mapModes, #v-apuracao.apWaiting .mapFoot, #v-apuracao.apWaiting [data-panel="mapa"] .sec { display: none !important; }
+#v-apuracao.apWaiting .apPanel[data-panel="mapa"] { display: block !important; }
+#v-apuracao.apWaiting .apPanel:not([data-panel="mapa"]) { display: none !important; }
+#v-apuracao.apWaiting .mapGrid { grid-template-columns: 1fr; max-width: 640px; margin-left: auto; margin-right: auto; }
+#v-apuracao.apWaiting .mapBox { background: transparent; }
+/* quando a apura\E7 \E3 o come\E7 a, o placar entra suavemente */
+#v-apuracao.apGoLive #duel, #v-apuracao.apGoLive #apStats, #v-apuracao.apGoLive #splitBar { animation: awIn .8s cubic-bezier(.2, .8, .2, 1) both; }
+@keyframes awIn { from { opacity: 0; transform: translateY(14px); } }
+@media (prefers-reduced-motion: reduce) { .awUnit b span.in, .awStatus i, .awDots i, #v-apuracao.apGoLive #duel { animation: none; } }
+.awDuel { align-items: start; }
+.awVs { margin-top: calc(clamp(84px, 16vw, 120px) / 2 - 20px); }
+@media (max-width: 520px) {
+  .awActions { flex-direction: column; align-items: stretch; max-width: 320px; margin-left: auto; margin-right: auto; }
+  .awActions .pill { justify-content: center; text-align: center; }
+  #v-apuracao .apHead .h2 { font-size: clamp(1.9rem, 8.6vw, 2.4rem); }
+}
+.awCand h3 { white-space: nowrap; font-size: clamp(0.98rem, 4.4vw, 1.45rem); }
+.awWaiting { flex-direction: column; gap: 14px; }
+.awWaiting:not([hidden]) { display: flex; }
+.awWaiting b { font-size: clamp(1.35rem, 4.4vw, 2rem); letter-spacing: -0.025em; line-height: 1.2; max-width: 16em; }
+.awWaiting small { font-size: 0.82rem; font-weight: 500; color: var(--muted); letter-spacing: 0; }
+@media (max-width: 520px) { #apTitle .apDate { display: none; } }
 </style>
 
 <header class="nav">
@@ -708,6 +793,42 @@ input, select, textarea { font-size: max(16px, 1em); }
     </div>
     <p class="livePill idle" id="livePill"><i></i><span>Carregando dados do TSE&#8230;</span></p>
     <p class="small muted" id="apNote" style="margin-top:10px"></p>
+
+    <!-- tela de espera: aparece no 2&#186; turno enquanto n&#227;o h&#225; nenhuma se&#231;&#227;o apurada -->
+    <div class="apWait" id="apWait" hidden>
+      <p class="awStatus" id="awStatus"><i></i><span>Vota&#231;&#227;o em andamento</span></p>
+      <p class="awLead" id="awLead">A apura&#231;&#227;o come&#231;a em</p>
+      <div class="awClock" id="awClock" role="timer" aria-live="off" aria-label="Tempo at&#233; o in&#237;cio da apura&#231;&#227;o">
+        <div class="awUnit"><b id="awH"></b><span>horas</span></div><i class="awSep">:</i>
+        <div class="awUnit"><b id="awM"></b><span>minutos</span></div><i class="awSep">:</i>
+        <div class="awUnit"><b id="awS"></b><span>segundos</span></div>
+      </div>
+      <div class="awWaiting" id="awWaiting" hidden><span class="awDots" aria-hidden="true"><i></i><i></i><i></i></span><b>Aguardando os primeiros n&#250;meros do TSE</b><small id="awWaitTxt"></small></div>
+      <p class="awSub" id="awSub">Todas as urnas do pa&#237;s fecham &#224;s 17h, hor&#225;rio de Bras&#237;lia. Os n&#250;meros come&#231;am a chegar logo depois, direto dos arquivos oficiais do TSE.</p>
+      <div class="awDay" id="awDay" aria-hidden="true">
+        <div class="awTrack"><i id="awFill"></i><b id="awNow"></b></div>
+        <div class="awTicks"><span>8h<small>urnas abrem</small></span><span>17h<small>urnas fecham</small></span></div>
+      </div>
+
+      <div class="awDuel" id="awDuel"></div>
+      <div class="awFacts" id="awFacts"></div>
+
+      <div class="awNight">
+        <p class="eyebrow">Como vai ser a noite</p>
+        <ol class="awSteps">
+          <li><b>17h</b><span>As urnas fecham em todo o pa&#237;s no mesmo hor&#225;rio. Come&#231;a a contagem.</span></li>
+          <li><b>Em seguida</b><span>O TSE publica os boletins das urnas. Este site l&#234; os arquivos oficiais a cada 20 segundos, sem intermedi&#225;rios.</span></li>
+          <li><b>Durante a noite</b><span>Cada estado se acende no mapa conforme as se&#231;&#245;es s&#227;o apuradas. Em 2022, o 2&#186; turno ficou matematicamente definido &#224;s 19h57, menos de tr&#234;s horas depois do fechamento.</span></li>
+        </ol>
+      </div>
+
+      <div class="awActions">
+        <a class="pill" href="#teste" data-go="teste">Fazer o teste enquanto espera</a>
+        <button type="button" class="pill soft" id="awCal">Lembrete na agenda</button>
+        <button type="button" class="pill soft" id="awShare">Compartilhar</button>
+      </div>
+      <p class="awMapCap"><span class="eyebrow">O mapa</span><b>Pronto para acender.</b> Cada ponto &#233; um peda&#231;o da popula&#231;&#227;o; os estados v&#227;o se preenchendo do centro para as bordas, na propor&#231;&#227;o dos votos.</p>
+    </div>
 
     <div class="duel" id="duel"></div>
     <div class="splitBar" id="splitBar" aria-hidden="true"></div>
@@ -1351,7 +1472,7 @@ input, select, textarea { font-size: max(16px, 1em); }
 (function () {
   "use strict";
   var D = null, Q = [], answers = {}, cur = 0, busy = false;
-  var SHARE_BASE = /foradareta\.com\.br$|github\.io$/.test(location.hostname) ? location.origin + location.pathname : "https://claude.ai/artifact/7bMHM6PimPzJJgQQYNNHwT";
+  var SHARE_BASE = /foradareta\.com\.br$|github\.io$/.test(location.hostname) ? location.origin + location.pathname : "https://foradareta.com.br/";
   var VIEWS = ["apuracao", "congresso", "poder", "fenomenos", "glossario", "inicio", "teste", "resultado", "candidatos", "partidos", "conceitos", "estudo", "checagem"];
   var CONF_W = { alta: 1, media: 0.75, "m\u00e9dia": 0.75, baixa: 0.5 };
   var LIKERT = { "-2": "Discorda totalmente", "-1": "Discorda", "0": "Neutro", "1": "Concorda", "2": "Concorda totalmente" };
@@ -2359,7 +2480,7 @@ input, select, textarea { font-size: max(16px, 1em); }
     /* ---- cabe\u00e7alho, duelo e n\u00fameros gerais ---- */
     function renderHeader() {
       var d = dataT(), br = d && d.br, pill = $("livePill"), now = Date.now(), t = "", live = false;
-      $("apTitle").textContent = A.turno === "2" ? "2\u00ba turno \u00b7 25 de outubro" : "1\u00ba turno \u00b7 4 de outubro";
+      $("apTitle").innerHTML = A.turno === "2" ? '2\u00ba turno<span class="apDate"> \u00b7 25 de outubro</span>' : '1\u00ba turno<span class="apDate"> \u00b7 4 de outubro</span>';
       segSet($("turnoSeg"), "turno", A.turno);
       if (!br) t = "Carregando dados do TSE\u2026";
       else if (A.turno === "1") t = "Resultado final do 1\u00ba turno, totalizado pelo TSE";
@@ -2760,11 +2881,76 @@ input, select, textarea { font-size: max(16px, 1em); }
       $("apTabs").querySelectorAll("[data-aptab]").forEach(function (b) { b.setAttribute("aria-selected", String(b.dataset.aptab === t)); });
       document.querySelectorAll("#v-apuracao .apPanel").forEach(function (p) { p.hidden = p.dataset.panel !== t; });
     }
+    /* ---- tela de espera (2\u00ba turno antes da primeira se\u00e7\u00e3o apurada) ---- */
+    var OPEN = Date.UTC(2026, 9, 25, 11, 0, 0); // 8h em Bras\u00edlia
+    function isWaiting() { return A.turno === "2" && (!A.live || !A.live.br || !A.live.br.s.a); }
+    function digits(el, v) {
+      var str = String(v).padStart(2, "0");
+      if (el.dataset.v === str) return;
+      var old = el.dataset.v || "", h = "";
+      for (var i = 0; i < str.length; i++) h += '<span' + (old && old.charAt(i) !== str.charAt(i) ? ' class="in"' : "") + ">" + str.charAt(i) + "</span>";
+      el.innerHTML = h; el.dataset.v = str;
+    }
+    function tickWait() {
+      if (!isWaiting()) return;
+      var now = Date.now(), left = Math.max(0, START - now), closed = left <= 0;
+      $("awClock").hidden = closed; $("awLead").textContent = closed ? "Urnas fechadas" : "A apura\u00e7\u00e3o come\u00e7a em";
+      $("awWaiting").hidden = !closed;
+      $("awSub").textContent = closed ? "Assim que o TSE publicar o primeiro boletim, o placar e o mapa aparecem aqui sozinhos. N\u00e3o precisa recarregar a p\u00e1gina." : "Todas as urnas do pa\u00eds fecham \u00e0s 17h, hor\u00e1rio de Bras\u00edlia. Os n\u00fameros come\u00e7am a chegar logo depois, direto dos arquivos oficiais do TSE.";
+      var st = $("awStatus"); st.classList.toggle("closed", closed);
+      st.lastChild.textContent = closed ? "Vota\u00e7\u00e3o encerrada \u00e0s 17h" : now < OPEN ? "As urnas abrem \u00e0s 8h" : "Vota\u00e7\u00e3o em andamento";
+      if (!closed) {
+        var sec = Math.floor(left / 1000);
+        digits($("awH"), Math.floor(sec / 3600)); digits($("awM"), Math.floor(sec / 60) % 60); digits($("awS"), sec % 60);
+      } else {
+        $("awWaitTxt").textContent = A.lastCheck ? "\u00daltima verifica\u00e7\u00e3o \u00e0s " + new Date(A.lastCheck).toLocaleTimeString("pt-BR", { timeZone: "America/Sao_Paulo" }) + " \u00b7 verifica a cada 10 segundos" : "";
+      }
+      var f = Math.max(0, Math.min(1, (now - OPEN) / (START - OPEN)));
+      $("awFill").style.width = (f * 100).toFixed(2) + "%"; $("awNow").style.left = (f * 100).toFixed(2) + "%";
+      // perto do fechamento e depois dele, verifica o TSE com mais frequ\u00eancia
+      if (left < 90000 && now - (A.lastCheck || 0) > 10000) pull();
+    }
+    function renderWait() {
+      var t1 = A.t1 && A.t1.br; if (!t1) return;
+      var o = order1T(), cs = o.map(function (n) { return t1.c.filter(function (c) { return c.n === n; })[0]; }).filter(Boolean);
+      function card(c) {
+        var info = candInfo(c.n), sg = c.sg || (info && info.partido) || "";
+        return '<div class="awCand" style="--c:' + colorOf(c.n, c.sg) + '"><span class="awPh"><img src="fotos/' + esc(c.sq) + '.jpeg" alt="" onerror="this.remove()"></span>' +
+          "<h3>" + esc(displayName(c)) + '</h3><span class="awParty">' + esc((sg ? sg + " \u00b7 " : "") + c.n) + '</span><span class="awT1">1\u00ba turno: ' + pc(c.p) + "</span></div>";
+      }
+      if (cs.length >= 2) $("awDuel").innerHTML = card(cs[0]) + '<span class="awVs" aria-label="contra">\u00d7</span>' + card(cs[1]);
+      var gov = A.live && A.live.gov ? Object.keys(A.live.gov) : [];
+      var dif = cs.length >= 2 ? Math.abs(cs[0].p - cs[1].p) : 0;
+      function fact(b, sp) { return '<div class="awFact"><b>' + b + "</b><span>" + sp + "</span></div>"; }
+      $("awFacts").innerHTML = fact(n2(t1.el), "eleitores aptos a votar") + fact(n2(t1.s.t), "se\u00e7\u00f5es eleitorais") +
+        fact(String(dif.toFixed(2)).replace(".", ",") + " pontos", "de diferen\u00e7a no 1\u00ba turno") +
+        fact(gov.length + " estados", "tamb\u00e9m escolhem governador: " + gov.map(function (u) { return u.toUpperCase(); }).join(" \u00b7 "));
+      tickWait();
+    }
     function render() {
       if (!A.live && !A.t1) return;
       if (!A.t1) { A.t1 = A.live; }
+      var waiting = isWaiting(), v = $("v-apuracao"), was = v.classList.contains("apWaiting");
+      v.classList.toggle("apWaiting", waiting); $("apWait").hidden = !waiting;
+      if (was && !waiting) { v.classList.remove("apGoLive"); void v.offsetWidth; v.classList.add("apGoLive"); }
+      if (waiting) renderWait();
       renderHeader(); renderDuel(); renderStats(); renderNeed(); renderMap(); renderPanel(); renderRegions(); renderTimeline(); renderTable(); renderGov(); renderChecks();
     }
+    $("awCal").addEventListener("click", function () {
+      var url = "https://foradareta.com.br/";
+      var ics = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Fora da Reta//PT-BR", "BEGIN:VEVENT", "UID:apuracao-2t-2026@foradareta.com.br", "DTSTAMP:20261025T120000Z",
+        "DTSTART:20261025T200000Z", "DTEND:20261025T230000Z", "SUMMARY:Apura\u00e7\u00e3o do 2\u00ba turno (Fora da Reta)", "DESCRIPTION:Acompanhe a apura\u00e7\u00e3o ao vivo: " + url, "URL:" + url,
+        "BEGIN:VALARM", "TRIGGER:-PT10M", "ACTION:DISPLAY", "DESCRIPTION:A apura\u00e7\u00e3o come\u00e7a em 10 minutos", "END:VALARM", "END:VEVENT", "END:VCALENDAR"].join("\r\n");
+      var a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([ics], { type: "text/calendar;charset=utf-8" })); a.download = "apuracao-2-turno.ics";
+      document.body.appendChild(a); a.click(); setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 1000);
+    });
+    $("awShare").addEventListener("click", function () {
+      var url = "https://foradareta.com.br/", b = $("awShare");
+      var data = { title: "Fora da Reta \u00b7 Apura\u00e7\u00e3o ao vivo", text: "Apura\u00e7\u00e3o do 2\u00ba turno ao vivo, com mapa e dados oficiais do TSE.", url: url };
+      if (navigator.share) { navigator.share(data).catch(function () {}); return; }
+      (navigator.clipboard ? navigator.clipboard.writeText(url) : Promise.reject()).then(function () { b.textContent = "Link copiado"; setTimeout(function () { b.textContent = "Compartilhar"; }, 2200); }, function () { prompt("Copie o link:", url); });
+    });
+    setInterval(function () { if (!$("v-apuracao").hidden) tickWait(); }, 1000);
 
     /* ---- eventos e atualiza\u00e7\u00e3o ---- */
     $("apTabs").addEventListener("click", function (ev) { var b = ev.target.closest("[data-aptab]"); if (b) setTab(b.dataset.aptab); });
@@ -2835,13 +3021,14 @@ input, select, textarea { font-size: max(16px, 1em); }
     function pullFile() { return fetch("apuracao.json?t=" + Date.now(), { cache: "no-store" }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }); }
     function pull() {
       var src = A.direct === false ? pullFile() : pullDirect().then(function (j) { A.direct = true; return j; }, function () { A.direct = false; return pullFile(); });
+      A.lastCheck = Date.now();
       return src.then(function (j) {
         // o hist\u00f3rico publicado junto do site (mais completo) prevalece quando existir
         if (j.direto && A.fileHist && A.fileHist.length > j.hist.length) j.hist = A.fileHist;
         if (j.coletado === A.lastColl && !j.direto) return;
         if (A.live && A.live.br && j.br.s.a < A.live.br.s.a) return; // nunca volta atr\u00e1s
         A.lastColl = j.coletado; A.live = j;
-        if (A.turnoAuto) A.turno = j.br.s.a > 0 ? "2" : "1";
+        if (A.turnoAuto) A.turno = "2"; // sem votos ainda, o 2\u00ba turno mostra a tela de espera
         render();
       }).catch(function () {});
     }
