@@ -793,6 +793,18 @@ input, select, textarea { font-size: max(16px, 1em); }
 .nwCompact .nwItem:first-child { border-top: 0; }
 #v-apuracao.apWaiting #apNews { margin-top: 30px; }
 @media (prefers-reduced-motion: reduce) { .nwItem { animation: none; } }
+/* governadores na tela de espera */
+.awGov { margin: clamp(40px, 7vw, 64px) auto 0; max-width: 720px; }
+.awGov .small { margin-top: 6px; }
+.awGovList { list-style: none; padding: 0; margin: 18px 0 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; text-align: left; }
+.awGovList li { border: 1px solid var(--hair); border-radius: 16px; padding: 12px 14px; display: grid; gap: 6px; }
+.awGovList b { font-size: 0.82rem; color: var(--muted); font-weight: 600; }
+.awGovList span { font-size: 0.95rem; font-weight: 600; display: flex; flex-wrap: wrap; align-items: center; gap: 4px 6px; }
+.awGovList i { width: 8px; height: 8px; border-radius: 50%; background: var(--c); display: inline-block; }
+.awGovList small { color: var(--muted); font-weight: 500; }
+.awGovList em { font-style: normal; color: var(--muted); margin: 0 4px; }
+@media (max-width: 600px) { .awGovList { grid-template-columns: 1fr; } }
+.awGovList .gc { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; }
 </style>
 
 <header class="nav">
@@ -851,6 +863,11 @@ input, select, textarea { font-size: max(16px, 1em); }
 
       <div class="awDuel" id="awDuel"></div>
       <div class="awFacts" id="awFacts"></div>
+      <div class="awGov" id="awGov" hidden>
+        <p class="eyebrow">Tamb&#233;m hoje: governador</p>
+        <p class="small muted">Seis estados t&#234;m 2&#186; turno para governador. Quando a apura&#231;&#227;o come&#231;ar, cada disputa aparece ao vivo na aba &#8220;Governadores&#8221;.</p>
+        <ul class="awGovList" id="awGovList"></ul>
+      </div>
 
       <div class="awNight">
         <p class="eyebrow">Como vai ser a noite</p>
@@ -3092,6 +3109,12 @@ input, select, textarea { font-size: max(16px, 1em); }
       $("awFacts").innerHTML = fact(n2(t1.el), "eleitores aptos a votar") + fact(n2(t1.s.t), "se\u00e7\u00f5es eleitorais") +
         fact(String(dif.toFixed(2)).replace(".", ",") + " pontos", "de diferen\u00e7a no 1\u00ba turno") +
         fact(gov.length + " estados", "tamb\u00e9m escolhem governador: " + gov.map(function (u) { return u.toUpperCase(); }).join(" \u00b7 "));
+      var gl = A.live && A.live.gov ? Object.keys(A.live.gov).sort(function (a, b) { return UFN[a].localeCompare(UFN[b]); }) : [];
+      $("awGov").hidden = !gl.length;
+      $("awGovList").innerHTML = gl.map(function (uf) {
+        var cs = A.live.gov[uf].c.slice().sort(function (x, y) { return Number(x.n) - Number(y.n); });
+        return "<li><b>" + esc(UFN[uf]) + "</b><span>" + cs.map(function (c) { return '<span class="gc"><i style="--c:' + sgColor(c.sg) + '"></i>' + esc(displayName(c, true)) + ' <small>' + esc(c.n) + "</small></span>"; }).join('<em>\u00d7</em>') + "</span></li>";
+      }).join("");
       tickWait();
     }
     function render() {
