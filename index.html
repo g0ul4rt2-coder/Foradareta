@@ -2434,6 +2434,7 @@ input, select, textarea { font-size: max(16px, 1em); }
       if (/^color\(/.test(c)) return [m[0] * 255, m[1] * 255, m[2] * 255, m[3] != null ? +m[3] : 1];
       return [+m[0], +m[1], +m[2], m[3] != null ? +m[3] : 1];
     }
+    var BAYER = (function () { var m = [0, 32, 8, 40, 2, 34, 10, 42, 48, 16, 56, 24, 50, 18, 58, 26, 12, 44, 4, 36, 14, 46, 6, 38, 60, 28, 52, 20, 62, 30, 54, 22, 3, 35, 11, 43, 1, 33, 9, 41, 51, 19, 59, 27, 49, 17, 57, 25, 15, 47, 7, 39, 13, 45, 5, 37, 63, 31, 55, 23, 61, 29, 53, 21]; return m; })();
     function buildMap() {
       if (A.built || !A.map || !A.dots) return;
       var svg = $("brMap"), h = ['<g id="mapHits">'];
@@ -2445,7 +2446,7 @@ input, select, textarea { font-size: max(16px, 1em); }
       function rnd() { seed = (seed * 16807) % 2147483647; return seed / 2147483647; }
       M = { n: n, sp: A.dots.sp, x: new Float32Array(n), y: new Float32Array(n), uf: [], r1: new Float32Array(n), r2: new Float32Array(n),
         ph1: new Float32Array(n), ph2: new Float32Array(n), f1: new Float32Array(n), f2: new Float32Array(n), delay: new Float64Array(n),
-        cur: new Float32Array(n * 4), minor: new Uint8Array(n), lit: new Uint8Array(n), pop: new Uint8Array(n), ufLit: {}, flash: {}, from: new Float32Array(n * 4), to: new Float32Array(n * 4), t0: 0, hover: null, colors: {}, running: false, clip: {} };
+        cur: new Float32Array(n * 4), minor: new Uint8Array(n), lit: new Uint8Array(n), pop: new Uint8Array(n), dn: new Float32Array(n), ra: new Float32Array(n), dg: new Float32Array(n), ufLit: {}, flash: {}, from: new Float32Array(n * 4), to: new Float32Array(n * 4), t0: 0, hover: null, colors: {}, running: false, clip: {} };
       // cada estado vira uma m\u00e1scara: nenhum ponto atravessa a divisa nem sai do mapa
       if (window.Path2D) Object.keys(A.map.uf).forEach(function (uf) { M.clip[uf] = new Path2D(A.map.uf[uf].d); });
       for (var i = 0; i < n; i++) {
@@ -2454,16 +2455,26 @@ input, select, textarea { font-size: max(16px, 1em); }
         M.f1[i] = 0.35 + rnd() * 0.55; M.f2[i] = 0.3 + rnd() * 0.5; M.delay[i] = rnd() * 900;
       }
       // ordem de preenchimento de cada estado: do centro para as bordas, com um pouco de acaso,
-      // como tinta se espalhando. r1 vira a posi\u00e7\u00e3o do ponto nessa fila (0 a 1), ent\u00e3o "lit" = fra\u00e7\u00e3o exata acesa
+      // como uma gota de tinta se espalhando. r1 vira a posi\u00e7\u00e3o do ponto nessa fila (0 a 1), ent\u00e3o "lit" = fra\u00e7\u00e3o exata acesa
       var byUf = {};
       for (i = 0; i < n; i++) (byUf[M.uf[i]] = byUf[M.uf[i]] || []).push(i);
       Object.keys(byUf).forEach(function (uf) {
         var ids = byUf[uf], cx = 0, cy = 0, md = 0;
         ids.forEach(function (k) { cx += M.x[k]; cy += M.y[k]; }); cx /= ids.length; cy /= ids.length;
         var dist = ids.map(function (k) { var d = Math.hypot(M.x[k] - cx, M.y[k] - cy); if (d > md) md = d; return d; });
-        var key = ids.map(function (k, q) { return [k, 0.72 * dist[q] / (md || 1) + 0.28 * rnd()]; }).sort(function (a, b) { return a[1] - b[1]; });
+        // frente de preenchimento limpa e org\u00e2nica: dist\u00e2ncia ao centro + uma ondula\u00e7\u00e3o suave + quase nada de acaso
+        var ph = rnd() * 6.283;
+        var key = ids.map(function (k, q) { var an = Math.atan2(M.y[k] - cy, M.x[k] - cx); return [k, dist[q] / (md || 1) + 0.07 * Math.sin(3 * an + ph) + 0.04 * Math.sin(5 * an - ph) + 0.035 * rnd()]; }).sort(function (a, b) { return a[1] - b[1]; });
         key.forEach(function (kv, q) { M.r1[kv[0]] = (q + 0.5) / ids.length; });
+        ids.forEach(function (k, q) { M.dn[k] = dist[q] / (md || 1); });
+        // ret\u00edcula (dither ordenado 8x8, como impress\u00e3o em meio-tom): as cores se misturam de forma uniforme,
+        // sem manchas ao acaso e sem sugerir onde, dentro do estado, cada um teve voto. Depois vira posi\u00e7\u00e3o na fila (0 a 1)
+        // para a fra\u00e7\u00e3o de pontos de cada candidato ser exata.
+        ids.map(function (k) { var cx8 = Math.round(M.x[k] / M.sp) & 7, cy8 = Math.round(M.y[k] / M.sp) & 7; return [k, BAYER[cy8 * 8 + cx8] + rnd() * 0.5]; })
+          .sort(function (a, b) { return a[1] - b[1]; }).forEach(function (kv, q) { M.ra[kv[0]] = (q + 0.5) / ids.length; });
       });
+      // coordenada diagonal (para a luz que atravessa o mapa)
+      for (i = 0; i < n; i++) M.dg[i] = (M.x[i] * 0.8 + M.y[i] * 0.6) / (613 * 0.8 + 639 * 0.6);
       var tip = $("mapTip"), box = svg.parentNode;
       svg.addEventListener("pointermove", function (ev) {
         var p = ev.target.closest("path[data-uf]");
@@ -2499,7 +2510,7 @@ input, select, textarea { font-size: max(16px, 1em); }
         if (cache[uf]) return cache[uf];
         var r = d && d.ufs[uf], o = { r: r, lit: r ? r.s.p / 100 : 0, cum: [] };
         if (r && r.s.a) {
-          if (A.mode === "votos") { var cs = r.c.slice(0, A.turno === "2" ? 2 : 4), acc = 0, tot = cs.reduce(function (s, c) { return s + c.p; }, 0) || 1; cs.forEach(function (c) { acc += c.p / tot; o.cum.push([acc, col(colorOf(c.n, c.sg))]); }); o.lead = col(colorOf(r.c[0].n, r.c[0].sg)); }
+          if (A.mode === "votos") { var nat = (d.br && d.br.c) || r.c, cs = nat.slice(0, A.turno === "2" ? 2 : 4).map(function (cn) { return r.c.filter(function (x) { return x.n === cn.n; })[0] || { n: cn.n, sg: cn.sg, p: 0 }; }), acc = 0, tot = cs.reduce(function (s, c) { return s + c.p; }, 0) || 1; cs.forEach(function (c) { acc += c.p / tot; o.cum.push([acc, col(colorOf(c.n, c.sg))]); }); o.lead = col(colorOf(r.c[0].n, r.c[0].sg)); }
           else if (A.mode === "lider") o.cum.push([1, col(colorOf(r.c[0].n, r.c[0].sg))]);
           else if (A.mode === "comp") { o.lit = r.pcomp / 100; o.cum.push([1, INK]); }
           else if (A.mode === "mud") { var p1 = A.t1 && A.t1.ufs[uf], oo = order1T(); var dl = p1 ? share2(r.c, oo[0]) - share2(p1.c, oo[0]) : 0; o.lit = Math.min(1, Math.abs(dl) / 10); o.cum.push([1, col(colorOf(dl >= 0 ? oo[0] : oo[1]))]); }
@@ -2513,8 +2524,9 @@ input, select, textarea { font-size: max(16px, 1em); }
         M.minor[i] = 0;
         if (o.cum.length && M.r1[i] < o.lit) {
           c = o.cum[o.cum.length - 1][1];
-          for (var k = 0; k < o.cum.length; k++) if (M.r2[i] <= o.cum[k][0]) { c = o.cum[k][1]; break; }
-          // quem n\u00e3o lidera no estado aparece em pontos menores e mais suaves; o l\u00edder salta aos olhos
+          var rk = M.ra[i];
+          for (var k = 0; k < o.cum.length; k++) if (rk <= o.cum[k][0]) { c = o.cum[k][1]; break; }
+          // quem n\u00e3o lidera no estado aparece em pontos um pouco menores e mais suaves; o l\u00edder salta aos olhos
           if (A.mode === "votos" && o.lead && c !== o.lead) M.minor[i] = 1;
         }
         var j = i * 4, on = c !== OFF ? 1 : 0, u0 = M.uf[i], prev = M.ufLit[u0] || 0;
@@ -2563,7 +2575,10 @@ input, select, textarea { font-size: max(16px, 1em); }
         if (t - last < (reduce ? 1000 : 33)) return; // ~30 quadros por segundo
         last = t;
         if (cv.width === 0) size(); else { var rb = $("brMap").getBoundingClientRect(); var rc = cv.getBoundingClientRect(); if (Math.abs(rb.width - M.sizedW) > 0.5 || Math.abs(rb.height - M.sizedH) > 0.5 || Math.abs(rb.top - rc.top) > 0.5 || Math.abs(rb.left - rc.left) > 0.5) size(); }
-        var s = M.scale, n = M.n, rad = Math.max(0.55, M.sp * 0.28 * s), amp = reduce ? 0 : M.sp * 0.12 * s, tt = t / 1000, el = t - M.t0;
+        var s = M.scale, n = M.n, rad = Math.max(0.55, M.sp * 0.28 * s), amp = 0, tt = t / 1000, el = t - M.t0;
+        // faixa de luz diagonal que atravessa o mapa devagar (a cada ~9 s), como uma varredura
+        var band = ((t / 9000) % 1) * 1.5 - 0.25, pings = [];
+        for (var pu in M.flash) if (t - M.flash[pu].t < 1100) pings.push(pu);
         ctx.clearRect(0, 0, cv.width, cv.height);
         var hov = M.hover, sel = A.uf, byUf = {}, ufList = [];
         for (var i = 0; i < n; i++) {
@@ -2573,11 +2588,20 @@ input, select, textarea { font-size: max(16px, 1em); }
             // nasce pequeno, passa um pouco do tamanho e assenta (easeOutBack)
             if (tq < 0) k = 0; else { var qq = Math.min(1, tq / 620) - 1; k = 1; sc = 0.2 + 0.8 * (1 + 3.2 * qq * qq * qq + 2.2 * qq * qq); }
           }
+          if (!reduce) {
+            var bd = (M.dg[i] - band) / 0.055, lift = Math.exp(-bd * bd);
+            sc *= 1 + 0.55 * lift;
+            if (pings.length && M.flash[M.uf[i]] && t - M.flash[M.uf[i]].t < 1100) {
+              // onda que sai do centro do estado quando chegam votos novos
+              var ag = t - M.flash[M.uf[i]].t, dd = Math.abs(M.dn[i] - ag / 950);
+              if (dd < 0.1) sc *= 1 + 1.1 * (1 - dd / 0.1) * (1 - ag / 1100);
+            }
+          }
           var r = M.from[j] + (M.to[j] - M.from[j]) * k, g = M.from[j + 1] + (M.to[j + 1] - M.from[j + 1]) * k, b = M.from[j + 2] + (M.to[j + 2] - M.from[j + 2]) * k, a = M.from[j + 3] + (M.to[j + 3] - M.from[j + 3]) * k;
           M.cur[j] = r; M.cur[j + 1] = g; M.cur[j + 2] = b; M.cur[j + 3] = a;
           var u = M.uf[i], dim = ((hov && u !== hov) || (sel && sel !== "zz" && u !== sel && !hov) ? 0.35 : 1) * (M.minor[i] ? 0.78 : 1);
           // cores agrupadas (levemente arredondadas): um \u00fanico preenchimento por cor deixa o mapa leve mesmo com milhares de pontos
-          var key = "rgba(" + ((r / 6 | 0) * 6) + "," + ((g / 6 | 0) * 6) + "," + ((b / 6 | 0) * 6) + "," + (Math.round(a * dim * 20) / 20) + ")" + "@" + (sc === 1 ? 10 : Math.round(sc * 10)) + (u === hov ? "h" : M.minor[i] ? "m" : "");
+          var key = "rgba(" + ((r / 6 | 0) * 6) + "," + ((g / 6 | 0) * 6) + "," + ((b / 6 | 0) * 6) + "," + (Math.round(Math.min(1, a * (a < 0.6 && !reduce ? 1 + 1.6 * lift : 1)) * dim * 20) / 20) + ")" + "@" + Math.round(sc * 10) + (u === hov ? "h" : M.minor[i] ? "m" : "");
           var ub = byUf[u]; if (!ub) { ub = byUf[u] = { b: {}, k: [] }; ufList.push(u); }
           var bk = ub.b[key]; if (!bk) { bk = ub.b[key] = []; ub.k.push(key); }
           bk.push(i);
@@ -2622,7 +2646,7 @@ input, select, textarea { font-size: max(16px, 1em); }
       var o = order1T(), lg = "";
       function nm(n) { var c = (A.t1.br.c.filter(function (x) { return x.n === n; })[0]) || { n: n, nm: "" }; return esc(displayName(c)); }
       var two = [o[0], o[1]].map(function (n) { return '<span><span class="sw" style="background:' + colorOf(n) + '"></span>' + nm(n) + "</span>"; }).join("");
-      if (A.mode === "votos") lg = two + "<span>Cada ponto \u00e9 um peda\u00e7o da popula\u00e7\u00e3o. Eles acendem conforme as urnas s\u00e3o apuradas, na propor\u00e7\u00e3o dos votos.</span>";
+      if (A.mode === "votos") lg = two + "<span>Cada ponto \u00e9 um peda\u00e7o da popula\u00e7\u00e3o. Cada estado se acende do centro para as bordas conforme as urnas s\u00e3o apuradas, e as cores se misturam na propor\u00e7\u00e3o exata dos votos de cada candidato ali.</span>";
       else if (A.mode === "lider") lg = two + "<span>Os pontos acesos ficam na cor de quem lidera no estado.</span>";
       else if (A.mode === "apurado") lg = "<span>Pontos acesos = propor\u00e7\u00e3o das se\u00e7\u00f5es j\u00e1 apuradas em cada estado.</span>";
       else if (A.mode === "comp") lg = "<span>Pontos acesos = propor\u00e7\u00e3o dos eleitores que foram votar.</span>";
