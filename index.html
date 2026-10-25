@@ -3386,17 +3386,29 @@ input, select, textarea { font-size: max(16px, 1em); }
         { ok: Object.keys(ufs).every(function (k) { return ufs[k].s.a <= ufs[k].s.t; }), txt: "Nenhum estado com mais se\u00e7\u00f5es apuradas do que existem" }
       ];
     }
-    function getJ(url) { return fetch(url + "?t=" + Math.floor(Date.now() / 5000), { cache: "no-store" }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }); }
+    function getJ(url) { return fetch(url + "?t=" + Math.floor(Date.now() / 5000), { cache: "no-store" }).then(function (r) { if (r.status === 429) A.backoff = Date.now() + 45000; if (!r.ok) throw new Error(r.status); return r.json(); }); }
     function pullDirect() {
       var prev = A.live && A.live.direto ? A.live : null;
-      var files = UFL.concat(["br"]).map(function (uf) {
-        return getJ(TSE + "6258/dados/" + uf + "/" + uf + "-c0001-e006258-u.json").then(function (j) { return [uf, compactTSE(j)]; }, function (e) {
-          // um estado que falhar nesta leitura mant\u00e9m o \u00faltimo dado bom; o Brasil n\u00e3o pode faltar
-          var old = prev && (uf === "br" ? null : prev.ufs[uf]); if (old) return [uf, old]; throw e;
+      // poucas leituras ao mesmo tempo (o TSE limita consultas por endere\u00e7o); o Brasil primeiro
+      var q = [["br", 0]].concat(UFL.map(function (u) { return [u, 0]; })).concat(GOVL.map(function (u) { return [u, 1]; }));
+      var outP = {}, outG = {}, fail = null;
+      function one(it) {
+        var uf = it[0], g = it[1];
+        var url = g ? TSE + "6260/dados/" + uf + "/" + uf + "-c0003-e006260-u.json" : TSE + "6258/dados/" + uf + "/" + uf + "-c0001-e006258-u.json";
+        return getJ(url).then(function (j) { (g ? outG : outP)[uf] = compactTSE(j); }, function (e) {
+          // quem falhar nesta leitura mant\u00e9m o \u00faltimo dado bom
+          var old = prev && (g ? prev.gov && prev.gov[uf] : uf === "br" ? prev.br : prev.ufs[uf]);
+          if (old) (g ? outG : outP)[uf] = old; else if (!g && uf === "br") fail = e;
         });
+      }
+      var idx = 0;
+      function worker() { if (idx >= q.length) return Promise.resolve(); var it = q[idx++]; return one(it).then(worker); }
+      var files = Promise.all([worker(), worker(), worker(), worker(), worker(), worker()]).then(function () {
+        if (fail || !outP.br) throw fail || new Error("sem Brasil");
+        return Object.keys(outP).map(function (k) { return [k, outP[k]]; });
       });
-      var gov = GOVL.map(function (uf) { return getJ(TSE + "6260/dados/" + uf + "/" + uf + "-c0003-e006260-u.json").then(function (j) { return [uf, compactTSE(j)]; }).catch(function () { return null; }); });
-      return Promise.all([Promise.all(files), Promise.all(gov)]).then(function (r) {
+      var gov = files.then(function () { return Object.keys(outG).map(function (k) { return [k, outG[k]]; }); });
+      return Promise.all([files, gov]).then(function (r) {
         var ufs = {}, br = null, gv = {};
         r[0].forEach(function (x) { if (x[0] === "br") br = x[1]; else ufs[x[0]] = x[1]; });
         r[1].forEach(function (x) { if (x) gv[x[0]] = x[1]; });
@@ -3410,7 +3422,7 @@ input, select, textarea { font-size: max(16px, 1em); }
     }
     var fastBusy = false;
     function fastCheck() {
-      if (fastBusy || A.direct === false || !A.started || Date.now() < START - 60000) return;
+      if (fastBusy || A.direct === false || !A.started || Date.now() < START - 60000 || Date.now() < (A.backoff || 0)) return;
       fastBusy = true;
       // no modo governador, confere tamb\u00e9m o arquivo do estado escolhido
       var gUf = govMode() ? A.gov : null;
@@ -3422,7 +3434,10 @@ input, select, textarea { font-size: max(16px, 1em); }
     }
     function pullFile() { return fetch("apuracao.json?t=" + Date.now(), { cache: "no-store" }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }); }
     function pull() {
-      var src = A.direct === false ? pullFile() : pullDirect().then(function (j) { A.direct = true; return j; }, function () { A.direct = false; return pullFile(); });
+      // se a leitura direta falhou, tenta de novo depois de 1 min (n\u00e3o fica preso no arquivo de reserva)
+      if (A.direct === false && Date.now() - (A.directFail || 0) > 60000 && Date.now() >= (A.backoff || 0)) A.direct = undefined;
+      if (Date.now() < (A.backoff || 0) && A.live && A.live.direto) return Promise.resolve();
+      var src = A.direct === false ? pullFile() : pullDirect().then(function (j) { A.direct = true; return j; }, function () { A.direct = false; A.directFail = Date.now(); return pullFile(); });
       A.lastCheck = Date.now();
       return src.then(function (j) {
         // o hist\u00f3rico publicado junto do site (mais completo) prevalece quando existir
@@ -3445,9 +3460,10 @@ input, select, textarea { font-size: max(16px, 1em); }
         , pullFile().then(function (j) { A.fileHist = j.hist; }).catch(function () {})
       ]).then(pull).then(render);
       // atualiza\u00e7\u00e3o r\u00e1pida: a cada 5 s l\u00ea s\u00f3 o resumo nacional (um arquivo pequeno); se o TSE publicou algo novo,
-      // busca na hora todos os estados e os governadores. Mesmo sem mudan\u00e7a, faz a leitura completa a cada 15 s.
+      // busca na hora todos os estados e os governadores. Mesmo sem mudan\u00e7a, faz a leitura completa a cada 60 s.
+      // Se o TSE pedir calma (erro 429), espera 45 s antes de voltar a consultar.
       setInterval(function () { if (!document.hidden) fastCheck(); }, 5000);
-      setInterval(function () { if (!document.hidden) pull(); }, 15000);
+      setInterval(function () { if (!document.hidden) pull(); }, 60000);
       document.addEventListener("visibilitychange", function () { if (!document.hidden) pull(); });
       setInterval(renderHeader, 30000);
     }
