@@ -763,6 +763,36 @@ input, select, textarea { font-size: max(16px, 1em); }
 .impBtn[aria-pressed="true"] { color: var(--you); border-color: color-mix(in srgb, var(--you) 45%, transparent); background: var(--you-soft); }
 .impBtn[aria-pressed="true"] path { fill: currentColor; }
 .scale5 .impBtn { display: flex; width: fit-content; margin: 6px auto 0; }
+
+/* ===== not\ED cias em tempo real ===== */
+.nwStatus { display: flex; align-items: center; justify-content: center; gap: 8px; margin: 18px auto 0; width: fit-content; font-size: 0.82rem; font-weight: 600; color: var(--muted); border: 1px solid var(--hair); border-radius: 999px; padding: 6px 14px; }
+.nwStatus i, .nwLive i { width: 7px; height: 7px; border-radius: 50%; background: var(--live); animation: awPing 2s infinite; flex: none; }
+.nwStatus.off i { background: var(--muted); animation: none; }
+.nwFilters { display: flex; flex-direction: column; align-items: center; gap: 14px; margin-top: 26px; }
+.nwSources { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; max-width: 760px; }
+.nwSources button { font-size: 0.8rem; font-weight: 600; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--hair); color: var(--muted); background: transparent; }
+.nwSources button[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.nwList { list-style: none; padding: 0; margin: 26px auto 0; max-width: 760px; }
+.nwItem { border-top: 1px solid var(--hair); animation: nwIn .5s cubic-bezier(.2, .8, .2, 1) both; }
+.nwItem a { display: grid; gap: 5px; padding: 16px 4px; color: var(--ink); text-decoration: none; border-radius: 12px; transition: background .2s; }
+.nwItem a:hover { background: var(--bg-alt); }
+.nwMeta { display: flex; align-items: center; gap: 10px; font-size: 0.78rem; color: var(--muted); }
+.nwMeta b { color: var(--ink); font-weight: 700; }
+.nwNew { font-style: normal; font-weight: 700; font-size: 0.68rem; letter-spacing: .04em; text-transform: uppercase; color: var(--live); }
+.nwTitle { font-size: 1.05rem; font-weight: 650; letter-spacing: -0.015em; line-height: 1.35; }
+.nwSum { font-size: 0.9rem; color: var(--muted); line-height: 1.5; }
+.nwItem.isNew .nwTitle::before { content: ""; display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: var(--live); margin: 0 8px 2px 0; vertical-align: middle; }
+@keyframes nwIn { from { opacity: 0; transform: translateY(6px); } }
+/* bloco compacto na apura\E7 \E3 o */
+.apNews { max-width: 760px; margin: 22px auto 0; border: 1px solid var(--hair); border-radius: 20px; padding: 14px 18px 6px; text-align: left; }
+.apNewsHead { display: flex; justify-content: space-between; align-items: center; font-size: 0.8rem; font-weight: 700; }
+.nwLive { display: inline-flex; align-items: center; gap: 8px; letter-spacing: .02em; text-transform: uppercase; font-size: 0.72rem; color: var(--muted); }
+.nwCompact { margin-top: 6px; }
+.nwCompact .nwItem a { padding: 11px 2px; }
+.nwCompact .nwTitle { font-size: 0.95rem; }
+.nwCompact .nwItem:first-child { border-top: 0; }
+#v-apuracao.apWaiting #apNews { margin-top: 30px; }
+@media (prefers-reduced-motion: reduce) { .nwItem { animation: none; } }
 </style>
 
 <header class="nav">
@@ -773,6 +803,7 @@ input, select, textarea { font-size: max(16px, 1em); }
     </a>
     <nav class="tabs" aria-label="Se&#231;&#245;es">
       <a href="#apuracao" data-go="apuracao">Apura&#231;&#227;o</a>
+      <a href="#noticias" data-go="noticias">Not&#237;cias</a>
       <a href="#teste" data-go="teste">Teste</a>
       <a href="#resultado" data-go="resultado">Resultado</a>
       <a href="#candidatos" data-go="candidatos">Candidatos</a>
@@ -843,6 +874,10 @@ input, select, textarea { font-size: max(16px, 1em); }
     <div class="splitMeta" id="splitMeta"></div>
     <div class="apStats" id="apStats"></div>
     <div class="needBox" id="needBox" hidden></div>
+    <aside class="apNews" id="apNews" hidden aria-live="polite">
+      <div class="apNewsHead"><span class="nwLive"><i></i>Agora nas reda&#231;&#245;es</span><a href="#noticias" data-go="noticias">Ver todas &#8250;</a></div>
+      <ol class="nwList nwCompact" id="apNewsList"></ol>
+    </aside>
 
     <nav class="apTabs" id="apTabs" role="tablist" aria-label="Se&#231;&#245;es da apura&#231;&#227;o">
       <button type="button" role="tab" data-aptab="mapa" aria-selected="true">Mapa</button>
@@ -1078,6 +1113,26 @@ input, select, textarea { font-size: max(16px, 1em); }
 </section>
 
 <!-- ================= TESTE ================= -->
+<section class="view" id="v-noticias" hidden>
+  <div class="wrap" style="padding-bottom:96px">
+    <div class="pageHead">
+      <p class="eyebrow">Not&#237;cias</p>
+      <h1 class="h2">O que est&#225; acontecendo agora</h1>
+      <p class="lede">Manchetes de ag&#234;ncias p&#250;blicas e dos principais ve&#237;culos, na ordem em que s&#227;o publicadas. Os t&#237;tulos s&#227;o dos pr&#243;prios ve&#237;culos; o Fora da Reta n&#227;o os edita. Clique para ler a mat&#233;ria completa no site de origem.</p>
+    </div>
+    <p class="nwStatus" id="nwStatus"><i></i><span>Carregando&#8230;</span></p>
+    <div class="nwFilters">
+      <div class="seg" role="group" aria-label="Assunto" id="nwTopic">
+        <button type="button" data-nwt="e" aria-pressed="true">Elei&#231;&#245;es</button>
+        <button type="button" data-nwt="p" aria-pressed="false">Toda a pol&#237;tica</button>
+      </div>
+      <div class="nwSources" id="nwSources" role="group" aria-label="Ve&#237;culo"></div>
+    </div>
+    <ol class="nwList" id="nwList"></ol>
+    <p class="small muted" style="margin-top:28px;text-align:center">Fontes: Ag&#234;ncia Brasil, Ag&#234;ncia C&#226;mara, Ag&#234;ncia Senado, g1, Folha, Estad&#227;o, Valor, CNN Brasil, BBC News Brasil, Poder360, Metr&#243;poles e Correio Braziliense. Atualiza sozinho a cada poucos minutos.</p>
+  </div>
+</section>
+
 <section class="view" id="v-teste" hidden>
   <div class="wrap">
     <div class="quizWrap">
@@ -1482,7 +1537,7 @@ input, select, textarea { font-size: max(16px, 1em); }
   "use strict";
   var D = null, Q = [], answers = {}, imp = {}, cur = 0, busy = false;
   var SHARE_BASE = /foradareta\.com\.br$|github\.io$/.test(location.hostname) ? location.origin + location.pathname : "https://foradareta.com.br/";
-  var VIEWS = ["apuracao", "congresso", "poder", "fenomenos", "glossario", "inicio", "teste", "resultado", "candidatos", "partidos", "conceitos", "estudo", "checagem"];
+  var VIEWS = ["apuracao", "noticias", "congresso", "poder", "fenomenos", "glossario", "inicio", "teste", "resultado", "candidatos", "partidos", "conceitos", "estudo", "checagem"];
   var CONF_W = { alta: 1, media: 0.75, "m\u00e9dia": 0.75, baixa: 0.5 };
   var LIKERT = { "-2": "Discorda totalmente", "-1": "Discorda", "0": "Neutro", "1": "Concorda", "2": "Concorda totalmente" };
   var LIKERT_EU = { "-2": "Discordo totalmente", "-1": "Discordo", "0": "Neutro", "1": "Concordo", "2": "Concordo totalmente" };
@@ -1671,6 +1726,7 @@ input, select, textarea { font-size: max(16px, 1em); }
     if (view === "partidos") renderParties();
     if (view === "inicio") drawGapChart();
     if (view === "apuracao") { AP.init(HOT); AP.render(); }
+    if (view === "noticias") NW.show();
     if (view === "congresso") renderCongresso();
     if (view === "poder") renderPoder();
     if (view === "fenomenos") renderFenomenos();
@@ -2475,6 +2531,81 @@ input, select, textarea { font-size: max(16px, 1em); }
   /* zoom travado no celular: sem pin\u00e7a (iOS) e sem toque duplo */
   ["gesturestart", "gesturechange"].forEach(function (t) { document.addEventListener(t, function (e) { e.preventDefault(); }, { passive: false }); });
   document.addEventListener("touchmove", function (e) { if (e.touches && e.touches.length > 1) e.preventDefault(); }, { passive: false });
+
+  /* ---------- not\u00edcias em tempo real (manchetes coletadas dos feeds p\u00fablicos a cada poucos minutos) ---------- */
+  var NW = (function () {
+    var S = { data: null, topic: "e", src: null, seen: null, timer: null, shownAt: 0 };
+    try { S.seen = localStorage.getItem("fdr.nwSeen"); } catch (e) {}
+    function quando(iso) {
+      var d = new Date(iso), m = Math.round((Date.now() - d.getTime()) / 60000);
+      if (m < 1) return "agora";
+      if (m < 60) return "h\u00e1 " + m + " min";
+      if (m < 360) return "h\u00e1 " + Math.floor(m / 60) + " h" + (m % 60 ? " " + (m % 60) + " min" : "");
+      return d.toLocaleString("pt-BR", { timeZone: "America/Sao_Paulo", day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" }).replace(",", " \u00b7");
+    }
+    function itens() {
+      var d = S.data; if (!d) return [];
+      return d.itens.filter(function (x) { return (S.topic === "p" || x.e) && (!S.src || x.f === S.src); });
+    }
+    function li(x, compact) {
+      var novo = S.seen && x.d > S.seen;
+      return '<li class="nwItem' + (novo ? " isNew" : "") + '"><a href="' + esc(x.u) + '" target="_blank" rel="noopener">' +
+        '<span class="nwMeta"><b>' + esc(x.f) + '</b><time datetime="' + esc(x.d) + '">' + quando(x.d) + "</time>" + (novo ? '<em class="nwNew">novo</em>' : "") + "</span>" +
+        '<span class="nwTitle">' + esc(x.t) + "</span>" + (!compact && x.r ? '<span class="nwSum">' + esc(x.r) + "</span>" : "") + "</a></li>";
+    }
+    function renderStatus(err) {
+      var st = $("nwStatus"); if (!st) return;
+      if (err && !S.data) { st.className = "nwStatus off"; st.lastChild.textContent = "N\u00e3o foi poss\u00edvel carregar as not\u00edcias agora. Tentando de novo em instantes."; return; }
+      if (!S.data) return;
+      st.className = "nwStatus";
+      st.lastChild.textContent = "Ao vivo \u00b7 \u00faltima coleta " + quando(S.data.atualizado) + " \u00b7 " + S.data.itens.length + " manchetes de " + S.data.fontes.length + " fontes";
+    }
+    function renderSources() {
+      var box = $("nwSources"); if (!box || !S.data) return;
+      var c = {}; S.data.itens.forEach(function (x) { if (S.topic === "p" || x.e) c[x.f] = (c[x.f] || 0) + 1; });
+      var fs = Object.keys(c).sort(function (a, b) { return c[b] - c[a]; });
+      box.innerHTML = '<button type="button" data-nws="" aria-pressed="' + !S.src + '">Todos</button>' + fs.map(function (f) { return '<button type="button" data-nws="' + esc(f) + '" aria-pressed="' + (S.src === f) + '">' + esc(f) + "</button>"; }).join("");
+    }
+    function renderList() {
+      var box = $("nwList"); if (!box) return;
+      var xs = itens().slice(0, 120);
+      box.innerHTML = xs.length ? xs.map(function (x) { return li(x); }).join("") : '<li class="muted" style="padding:20px 0">Nenhuma manchete neste filtro agora.</li>';
+    }
+    function renderAp() {
+      var box = $("apNews"), list = $("apNewsList"); if (!box || !S.data) return;
+      var xs = S.data.itens.filter(function (x) { return x.e; }).slice(0, 5);
+      box.hidden = !xs.length;
+      list.innerHTML = xs.map(function (x) { return li(x, true); }).join("");
+    }
+    function renderAll() { renderStatus(); renderSources(); renderList(); renderAp(); }
+    function refreshTimes() { document.querySelectorAll(".nwItem time").forEach(function (t) { t.textContent = quando(t.getAttribute("datetime")); }); renderStatus(); }
+    function pull() {
+      return fetch("noticias.json?t=" + Date.now(), { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (d) {
+        if (!d || !d.itens) { renderStatus(true); return; }
+        var mudou = !S.data || d.atualizado !== S.data.atualizado;
+        S.data = d;
+        if (mudou) renderAll();
+      }).catch(function () { renderStatus(true); });
+    }
+    function start() {
+      if (S.timer) return;
+      pull();
+      S.timer = setInterval(function () { if (!document.hidden) pull(); }, 60000);
+      setInterval(refreshTimes, 30000);
+    }
+    function marcarVistas() {
+      if (!S.data || !S.data.itens.length) return;
+      var top = S.data.itens[0].d;
+      try { localStorage.setItem("fdr.nwSeen", top); } catch (e) {}
+    }
+    function show() { start(); renderAll(); clearTimeout(S.shownAt); S.shownAt = setTimeout(marcarVistas, 5000); }
+    document.addEventListener("click", function (ev) {
+      var t = ev.target.closest("[data-nwt]"); if (t) { S.topic = t.dataset.nwt; segSet($("nwTopic"), "nwt", S.topic); S.src = null; renderSources(); renderList(); return; }
+      var f = ev.target.closest("[data-nws]"); if (f) { S.src = f.dataset.nws || null; renderSources(); renderList(); }
+    });
+    return { show: show, start: start };
+  })();
+  NW.start();
 
   /* ---------------- apura\u00e7\u00e3o ao vivo ---------------- */
   var AP = (function () {
