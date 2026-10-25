@@ -615,6 +615,19 @@ details.args { max-width: 760px; margin-left: auto; margin-right: auto; text-ali
   .miniBox { top: 104px; }
 }
 details.args, .qnav { max-width: 640px; }
+
+/* ===== apura\E7 \E3 o em abas ===== */
+.apTabs { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 53px); z-index: 6; display: flex; gap: 4px; justify-content: safe center; margin: 36px auto 0; padding: 4px; width: fit-content; max-width: 100%; overflow-x: auto; scrollbar-width: none; background: var(--glass); -webkit-backdrop-filter: saturate(180%) blur(20px); backdrop-filter: saturate(180%) blur(20px); border-radius: 999px; box-shadow: inset 0 0 0 1px var(--hair); }
+.apTabs::-webkit-scrollbar { display: none; }
+.apTabs button { padding: 8px 16px; border-radius: 999px; font-size: 0.9rem; font-weight: 600; color: var(--muted); white-space: nowrap; transition: background .25s, color .25s; }
+.apTabs button[aria-selected="true"] { background: var(--pill); color: var(--pill-ink); }
+@media (max-width: 1100px) { .apTabs { top: calc(env(safe-area-inset-top, 0px) + 84px); } }
+.apPanel { animation: viewIn .4s var(--ease); }
+.govChips { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; margin-top: 16px; }
+.govChips button { padding: 7px 14px; border-radius: 999px; font-size: 0.88rem; font-weight: 600; background: var(--bg-alt); color: var(--muted); }
+.govChips button[aria-pressed="true"] { background: var(--pill); color: var(--pill-ink); }
+.govOne { max-width: 560px; margin: 18px auto 0; padding: 24px; }
+@media (max-width: 560px) { .apTabs { gap: 0; padding: 3px; } .apTabs button { padding: 7px 10px; font-size: 0.8rem; } }
 </style>
 
 <header class="nav">
@@ -660,7 +673,16 @@ details.args, .qnav { max-width: 640px; }
     <div class="apStats" id="apStats"></div>
     <div class="needBox" id="needBox" hidden></div>
 
-    <div class="mapGrid">
+    <nav class="apTabs" id="apTabs" role="tablist" aria-label="Se&#231;&#245;es da apura&#231;&#227;o">
+      <button type="button" role="tab" data-aptab="mapa" aria-selected="true">Mapa</button>
+      <button type="button" role="tab" data-aptab="estados" aria-selected="false">Estados</button>
+      <button type="button" role="tab" data-aptab="evolucao" aria-selected="false">Evolu&#231;&#227;o</button>
+      <button type="button" role="tab" data-aptab="governadores" aria-selected="false">Governadores</button>
+      <button type="button" role="tab" data-aptab="checagem" aria-selected="false">Checagem</button>
+    </nav>
+
+    <div class="apPanel" data-panel="mapa">
+    <div class="mapGrid" style="margin-top:22px">
       <div class="mapBox">
         <div class="mapModes" role="group" aria-label="O que o mapa mostra" id="mapModes">
           <button type="button" data-mode="lider" aria-pressed="true">L&#237;der</button>
@@ -677,38 +699,48 @@ details.args, .qnav { max-width: 640px; }
       </div>
       <aside class="statePanel" id="statePanel" aria-live="polite"></aside>
     </div>
-
     <div class="sec" style="padding-top:64px">
       <p class="eyebrow">Por regi&#227;o</p>
       <h2 class="h3">Onde cada um ganha votos</h2>
       <div class="regions" id="regions"></div>
     </div>
+    </div>
 
-    <div class="sec" style="padding-top:64px" id="timelineSec">
+    <div class="apPanel" data-panel="estados" hidden>
+    <div class="sec" style="padding-top:28px">
+      <p class="eyebrow">Estado por estado</p>
+      <h2 class="h3">Todos os estados</h2>
+      <div class="scroll" style="margin-top:16px"><table class="ptable ufTable" id="ufTable"></table></div>
+    </div>
+    </div>
+
+    <div class="apPanel" data-panel="evolucao" hidden>
+    <div class="sec" style="padding-top:28px" id="timelineSec">
       <p class="eyebrow">Evolu&#231;&#227;o</p>
       <h2 class="h3">Como a apura&#231;&#227;o andou</h2>
       <p class="small muted" style="margin-top:6px">Percentual de votos v&#225;lidos de cada candidato conforme as urnas foram apuradas. &#201; comum a vantagem oscilar no come&#231;o, porque estados e cidades terminam a contagem em ritmos diferentes.</p>
       <svg id="timeline" viewBox="0 0 720 300" role="img" aria-label="Evolu&#231;&#227;o do percentual de cada candidato durante a apura&#231;&#227;o"></svg>
     </div>
-
-    <div class="sec" style="padding-top:64px">
-      <p class="eyebrow">Estado por estado</p>
-      <h2 class="h3">Todos os estados</h2>
-      <div class="scroll" style="margin-top:16px"><table class="ptable ufTable" id="ufTable"></table></div>
     </div>
 
-    <div class="sec" style="padding-top:64px" id="govSec">
-      <p class="eyebrow">Governadores</p>
-      <h2 class="h3">2&#186; turno para governador em seis estados</h2>
-      <div class="govGrid" id="govGrid"></div>
+    <div class="apPanel" data-panel="governadores" hidden>
+      <div class="sec" style="padding-top:28px" id="govSec">
+        <p class="eyebrow">Governadores</p>
+        <h2 class="h3">2&#186; turno para governador em seis estados</h2>
+        <p class="small muted">Escolha o estado.</p>
+        <div class="govChips" id="govChips" role="group" aria-label="Estado"></div>
+        <div id="govGrid"></div>
+      </div>
     </div>
 
-    <div class="sec" style="padding-top:64px">
+    <div class="apPanel" data-panel="checagem" hidden>
+    <div class="sec" style="padding-top:28px">
       <p class="eyebrow">Checagem dos n&#250;meros</p>
       <h2 class="h3">Os totais batem?</h2>
       <p class="small muted" style="margin-top:6px">A cada leitura, o site confere se os n&#250;meros do TSE fecham entre si. Se algo n&#227;o bater, aparece aqui em vermelho.</p>
       <ul class="checks" id="checksList"></ul>
       <p class="small muted" style="margin-top:22px" id="apSource">Fonte: Tribunal Superior Eleitoral, arquivos p&#250;blicos de resultados em resultados.tse.jus.br. Este site l&#234; os arquivos oficiais a cada 15 segundos e se atualiza em seguida; pode haver atraso de um a dois minutos. O resultado oficial &#233; sempre o do TSE.</p>
+    </div>
     </div>
   </div>
 </section>
@@ -2241,7 +2273,7 @@ details.args, .qnav { max-width: 640px; }
     var UFN = { ac: "Acre", al: "Alagoas", ap: "Amap\u00e1", am: "Amazonas", ba: "Bahia", ce: "Cear\u00e1", df: "Distrito Federal", es: "Esp\u00edrito Santo", go: "Goi\u00e1s", ma: "Maranh\u00e3o", mt: "Mato Grosso", ms: "Mato Grosso do Sul", mg: "Minas Gerais", pa: "Par\u00e1", pb: "Para\u00edba", pr: "Paran\u00e1", pe: "Pernambuco", pi: "Piau\u00ed", rj: "Rio de Janeiro", rn: "Rio Grande do Norte", rs: "Rio Grande do Sul", ro: "Rond\u00f4nia", rr: "Roraima", sc: "Santa Catarina", sp: "S\u00e3o Paulo", se: "Sergipe", to: "Tocantins", zz: "Exterior", br: "Brasil" };
     var REG = [["Norte", ["ac", "am", "ap", "pa", "ro", "rr", "to"]], ["Nordeste", ["al", "ba", "ce", "ma", "pb", "pe", "pi", "rn", "se"]], ["Centro-Oeste", ["df", "go", "ms", "mt"]], ["Sudeste", ["es", "mg", "rj", "sp"]], ["Sul", ["pr", "rs", "sc"]], ["Exterior", ["zz"]]];
     var START = Date.UTC(2026, 9, 25, 20, 0, 0); // 17h em Bras\u00edlia
-    var A = { live: null, t1: null, map: null, turno: "2", turnoAuto: true, mode: "lider", uf: null, lastColl: null, sort: "uf", sortDir: 1, built: false, started: false };
+    var A = { tab: "mapa", gov: null, live: null, t1: null, map: null, turno: "2", turnoAuto: true, mode: "lider", uf: null, lastColl: null, sort: "uf", sortDir: 1, built: false, started: false };
 
     function n2(v) { return Number(v || 0).toLocaleString("pt-BR"); }
     function pc(v, d) { return (v || 0).toFixed(d == null ? 2 : d).replace(".", ",") + "%"; }
@@ -2453,7 +2485,7 @@ details.args, .qnav { max-width: 640px; }
       }
       if (A.turno === "2" && A.live && A.live.gov && A.live.gov[uf]) {
         var g = A.live.gov[uf], gc = g.c.slice().sort(function (x, y) { return Number(x.n) - Number(y.n); });
-        h += '<h4 style="margin-top:22px">Governador \u00b7 2\u00ba turno</h4><p class="small muted">' + pc(g.s.p) + " apurado</p>" + cRows(gc, function (c) { return sgColor(c.sg); }, 0, true);
+        h += '<p style="margin-top:18px"><button type="button" class="linkbtn" data-gotogov="' + uf + '">Ver o 2\u00ba turno para governador \u203a</button></p>';
       }
       $("statePanel").innerHTML = h;
     }
@@ -2510,16 +2542,24 @@ details.args, .qnav { max-width: 640px; }
         }).join("") + "</tbody>";
     }
     function renderGov() {
-      var sec = $("govSec"); sec.hidden = A.turno !== "2" || !A.live || !A.live.gov;
-      if (sec.hidden) return;
-      $("govGrid").innerHTML = Object.keys(A.live.gov).map(function (uf) {
-        var g = A.live.gov[uf], gc = g.c.slice().sort(function (x, y) { return Number(x.n) - Number(y.n); });
-        return '<div class="govCard"><b>' + esc(UFN[uf]) + '</b><span class="small muted"> \u00b7 ' + pc(g.s.p, 1) + " apurado</span>" + cRows(gc, function (c) { return sgColor(c.sg); }, 0, true) + "</div>";
-      }).join("");
+      var sec = $("govSec"), ok = A.turno === "2" && A.live && A.live.gov && Object.keys(A.live.gov).length;
+      $("apTabs").querySelector('[data-aptab="governadores"]').hidden = !ok;
+      if (!ok) { if (A.tab === "governadores") setTab("mapa"); return; }
+      var ufs = Object.keys(A.live.gov).sort(function (a, b) { return UFN[a].localeCompare(UFN[b]); });
+      if (!A.gov || ufs.indexOf(A.gov) < 0) A.gov = ufs.indexOf(A.uf) >= 0 ? A.uf : ufs[0];
+      $("govChips").innerHTML = ufs.map(function (uf) { return '<button type="button" data-gov="' + uf + '" aria-pressed="' + (uf === A.gov) + '">' + UFN[uf] + "</button>"; }).join("");
+      var g = A.live.gov[A.gov], gc = g.c.slice().sort(function (x, y) { return Number(x.n) - Number(y.n); });
+      $("govGrid").innerHTML = '<div class="govCard govOne"><p class="eyebrow">' + esc(UFN[A.gov]) + '</p><p class="small muted">' + pc(g.s.p, 1) + " das se\u00e7\u00f5es apuradas" + (g.ht ? " \u00b7 TSE \u00e0s " + esc(g.ht) : "") + '</p><div class="progRing"><i style="width:' + g.s.p + '%"></i></div>' +
+        cRows(gc, function (c) { return sgColor(c.sg); }, 0, true) + "</div>";
     }
     function renderChecks() {
       var d = dataT(); if (!d) return;
       $("checksList").innerHTML = (d.checks || []).map(function (c) { return "<li><span class=\"" + (c.ok ? "ok" : "no") + '">' + (c.ok ? "\u2713" : "\u2717") + "</span><span>" + esc(c.txt) + "</span></li>"; }).join("") || '<li class="muted">Sem dados.</li>';
+    }
+    function setTab(t) {
+      A.tab = t;
+      $("apTabs").querySelectorAll("[data-aptab]").forEach(function (b) { b.setAttribute("aria-selected", String(b.dataset.aptab === t)); });
+      document.querySelectorAll("#v-apuracao .apPanel").forEach(function (p) { p.hidden = p.dataset.panel !== t; });
     }
     function render() {
       if (!A.live && !A.t1) return;
@@ -2528,10 +2568,13 @@ details.args, .qnav { max-width: 640px; }
     }
 
     /* ---- eventos e atualiza\u00e7\u00e3o ---- */
+    $("apTabs").addEventListener("click", function (ev) { var b = ev.target.closest("[data-aptab]"); if (b) setTab(b.dataset.aptab); });
+    $("govGrid").parentNode.addEventListener("click", function (ev) { var b = ev.target.closest("[data-gov]"); if (b) { A.gov = b.dataset.gov; renderGov(); } });
     $("turnoSeg").addEventListener("click", function (ev) { var b = ev.target.closest("[data-turno]"); if (!b) return; A.turno = b.dataset.turno; A.turnoAuto = false; render(); });
     $("mapModes").addEventListener("click", function (ev) { var b = ev.target.closest("[data-mode]"); if (!b) return; A.mode = b.dataset.mode; renderMap(); });
     $("zzBtn").addEventListener("click", function () { select("zz"); });
     $("statePanel").addEventListener("click", function (ev) {
+      var gg = ev.target.closest("[data-gotogov]"); if (gg) { A.gov = gg.dataset.gotogov; setTab("governadores"); renderGov(); $("apTabs").scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "start" }); return; }
       var b = ev.target.closest("[data-mine]"); if (!b) return;
       var cur = load("fdr.uf"); store("fdr.uf", cur === b.dataset.mine ? null : b.dataset.mine);
       toast(cur === b.dataset.mine ? "Estado desafixado" : "Este estado vai abrir selecionado"); renderPanel();
@@ -2539,7 +2582,7 @@ details.args, .qnav { max-width: 640px; }
     $("ufTable").addEventListener("click", function (ev) {
       var s = ev.target.closest("[data-sort]");
       if (s) { if (A.sort === s.dataset.sort) A.sortDir *= -1; else { A.sort = s.dataset.sort; A.sortDir = s.dataset.sort === "nome" ? 1 : -1; } renderTable(); return; }
-      var tr = ev.target.closest("tr[data-uf]"); if (tr) { A.uf = null; select(tr.dataset.uf); $("brMap").scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "center" }); }
+      var tr = ev.target.closest("tr[data-uf]"); if (tr) { A.uf = null; setTab("mapa"); select(tr.dataset.uf); $("brMap").scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "center" }); }
     });
     /* leitura direta dos arquivos do TSE (funciona quando o site est\u00e1 no dom\u00ednio pr\u00f3prio; dentro do artifact o
        navegador bloqueia e o site usa o apuracao.json publicado junto da p\u00e1gina) */
@@ -2606,7 +2649,7 @@ details.args, .qnav { max-width: 640px; }
     function init(hot) {
       if (A.started) return; A.started = true;
       var mine = load("fdr.uf"); if (mine) A.uf = mine;
-      if (hot) { if (hot.turno) { A.turno = hot.turno; A.turnoAuto = false; } if (hot.mode) A.mode = hot.mode; if (hot.uf) A.uf = hot.uf; }
+      if (hot) { if (hot.turno) { A.turno = hot.turno; A.turnoAuto = false; } if (hot.mode) A.mode = hot.mode; if (hot.uf) A.uf = hot.uf; if (hot.aptab) A.tab = hot.aptab; if (hot.gov) A.gov = hot.gov; }
       Promise.all([
         fetch("mapa.json").then(function (r) { return r.json(); }).then(function (m) { A.map = m; }).catch(function () {}),
         fetch("pontos.json").then(function (r) { return r.json(); }).then(function (m) { A.dots = m; }).catch(function () {}),
@@ -2616,7 +2659,7 @@ details.args, .qnav { max-width: 640px; }
       setInterval(pull, 20000);
       setInterval(renderHeader, 30000);
     }
-    return { init: init, render: render, state: function () { return { turno: A.turnoAuto ? null : A.turno, mode: A.mode, uf: A.uf }; } };
+    return { init: function (h) { init(h); setTab(A.tab); }, render: render, state: function () { return { turno: A.turnoAuto ? null : A.turno, mode: A.mode, uf: A.uf, aptab: A.tab, gov: A.gov }; } };
   })();
 
   /* ---------------- checagens, estudo, status ---------------- */
@@ -2656,7 +2699,7 @@ details.args, .qnav { max-width: 640px; }
   }
   // atualiza\u00e7\u00f5es publicadas chegam com a p\u00e1gina recarregada; preserva a aba e o estado escolhido
   var hot = window.claude && window.claude.hot;
-  if (hot && hot.snapshot) { try { hot.snapshot(function () { var s = AP.state(); return { view: curView, turno: s.turno, mode: s.mode, uf: s.uf }; }); } catch (e) {} }
+  if (hot && hot.snapshot) { try { hot.snapshot(function () { var s = AP.state(); return { view: curView, turno: s.turno, mode: s.mode, uf: s.uf, aptab: s.aptab, gov: s.gov }; }); } catch (e) {} }
   function start(data) {
     HOT = data || {};
     fetch("dados.json", { cache: "no-cache" }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }).then(boot).catch(function () {
