@@ -1630,7 +1630,7 @@ input, select, textarea { font-size: max(16px, 1em); }
 <footer>
   <div class="wrap">
     <p id="footUpdated">Dados atualizados em &#8212;</p>
-    <p>Fora da Reta n&#227;o tem v&#237;nculo com partidos, candidatos ou campanhas. As posi&#231;&#245;es atribu&#237;das a candidatos e partidos s&#227;o leituras de fontes p&#250;blicas indicadas em cada item e podem conter erros. Suas respostas ficam apenas no seu navegador.</p>
+    <p>Fora da Reta n&#227;o tem v&#237;nculo com partidos, candidatos ou campanhas. As posi&#231;&#245;es atribu&#237;das a candidatos e partidos s&#227;o leituras de fontes p&#250;blicas indicadas em cada item e podem conter erros. Suas respostas ficam apenas no seu navegador. O site conta visitas de forma an&#244;nima, sem cookies e sem identificar ningu&#233;m.</p>
   </div>
 </footer>
 
@@ -1834,6 +1834,7 @@ input, select, textarea { font-size: max(16px, 1em); }
     if (view === "fenomenos") renderFenomenos();
     if (view === "glossario") renderGlossario();
     curView = view;
+    GC.view(view);
     if (!keepScroll) window.scrollTo(0, 0);
     try { history.replaceState(null, "", "#" + view); } catch (e) {}
   }
@@ -2708,6 +2709,21 @@ input, select, textarea { font-size: max(16px, 1em); }
     return { show: show, start: start };
   })();
   NW.start();
+
+  /* ---------------- contagem an\u00f4nima de visitas (GoatCounter: sem cookies, sem identificar ningu\u00e9m) ---------------- */
+  var GC = (function () {
+    var on = /^(www\.)?foradareta\.com\.br$/.test(location.hostname), ready = false, queue = [], last = null;
+    function send(p) { try { window.goatcounter.count({ path: p }); } catch (e) {} }
+    if (on) {
+      window.goatcounter = { no_onload: true };
+      var s = document.createElement("script");
+      s.async = true; s.src = "https://gc.zgo.at/count.js";
+      s.setAttribute("data-goatcounter", "https://foradareta.goatcounter.com/count");
+      s.onload = function () { ready = true; queue.splice(0).forEach(send); };
+      document.head.appendChild(s);
+    }
+    return { view: function (v) { if (!on || v === last) return; last = v; if (ready) send("/" + v); else queue.push("/" + v); } };
+  })();
 
   /* ---------------- apura\u00e7\u00e3o ao vivo ---------------- */
   var AP = (function () {
