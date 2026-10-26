@@ -1,0 +1,1340 @@
+{
+ "fichas": [
+  {
+   "id": "c2236186-60",
+   "casa": "camara",
+   "data": "2026-10-14",
+   "proposicao": "PLP 281/2019",
+   "url": "https://www.camara.leg.br/propostas-legislativas/2236186",
+   "titulo": "Novas regras para socorrer ou liquidar bancos em crise (texto rejeitado)",
+   "manchete": {
+    "texto": "Câmara rejeita criação de novo regime para socorrer ou liquidar bancos",
+    "fonte": "https://www.camara.leg.br/noticias/1311331-camara-rejeita-criacao-de-novo-regime-para-socorrer-ou-liquidar-bancos"
+   },
+   "o_que_faz": [
+    {
+     "texto": "O substitutivo rejeitado criaria dois regimes de resolução aplicados por Banco Central, CVM ou Susep, conforme o setor: o 'regime de estabilização', para preservar instituições sistêmicas, e a 'liquidação compulsória'. Eles substituiriam a intervenção, a liquidação extrajudicial e o RAET da lei de 1974.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/83057"
+    },
+    {
+     "texto": "Atribuiria prejuízos primeiro a acionistas (redução do capital social até R$ 1) e a credores (conversão de créditos em ações) e criaria um fundo de resolução com recursos privados, que poderia ser administrado pela mesma entidade do FGC.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/83057"
+    },
+    {
+     "texto": "Em última instância, permitiria empréstimo ou capitalização temporária com recursos da União, autorizados pelo Conselho Monetário Nacional e comunicados ao Senado em 5 dias úteis; o Senado poderia suspender novos desembolsos. Críticos apontam que hoje esse socorro exige lei aprovada pelo Congresso.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/83057"
+    },
+    {
+     "texto": "Ex-administradores e controladores responderiam por prejuízos causados por culpa ou dolo, com culpa presumida (inversão do ônus da prova). Críticos dizem que isso põe fim à responsabilização objetiva hoje aplicada.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/83057"
+    },
+    {
+     "texto": "A garantia do FGC (até R$ 250 mil por CPF/CNPJ e por instituição) não seria alterada e continua valendo.",
+     "fonte": "https://soubrasilia.com/camara-rejeita-resolucao-bancaria-fgc-garantia-250-mil-o-que-muda/"
+    }
+   ],
+   "custo_nota": "Não há estimativa de órgão técnico. O parecer da Comissão Especial concluiu pela 'não implicação financeira ou orçamentária' do projeto. O possível custo de um socorro futuro com recursos da União não foi quantificado: críticos (Tadeu Veneri, PT-PR) dizem que o valor é imprevisível. Fonte: notas taquigráficas — https://escriba.camara.leg.br/escriba-servicosweb/html/83057",
+   "atencao": "Placar de 252 a 176 resultou em rejeição porque lei complementar exige 257 votos 'sim'. O projeto, enviado pelo governo Bolsonaro e elaborado pelo Banco Central, teve orientação contrária do governo Lula e favorável do PL.",
+   "favor": [
+    {
+     "texto": "O país ainda usa 'uma lei da ditadura militar, uma lei de 1974' e, quando um banco quebra, edita medida provisória; houve 17 liquidações de instituições em 2026; o projeto segue padrão do G20 e cria 'sete travas' antes de usar dinheiro público.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/83057",
+     "quem": "Marcelo Queiroz (PSDB-RJ), relator"
+    },
+    {
+     "texto": "Planos de recuperação obrigatórios, perdas atribuídas a acionistas e credores e um fundo privado de resolução são 'barreiras muito mais efetivas à utilização de recursos públicos' do que o modelo atual.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/83057",
+     "quem": "Marcelo Queiroz (PSDB-RJ), relator (parecer)"
+    },
+    {
+     "texto": "É preciso um marco unificado e alinhado a padrões internacionais, porque hoje a quebra de bancos é tratada 'de forma açodada' e 'é sempre o Tesouro que paga a conta'; o partido apoiou o texto com destaque contra dois parágrafos.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/83057",
+     "quem": "Adriana Ventura (NOVO-SP)"
+    },
+    {
+     "texto": "Sobre o projeto da resolução bancária após o caso Banco Master: 'É uma resposta prática que a Câmara dá para evitar que problemas como esse voltem a acontecer' (entrevista à Folha reproduzida pelo Poder360, 02/03/2026).",
+     "fonte": "https://www.poder360.com.br/poder-congresso/votacao-de-projeto-e-resposta-a-liquidacao-do-master-diz-motta/",
+     "quem": "Hugo Motta (Republicanos-PB), presidente da Câmara"
+    }
+   ],
+   "contra": [
+    {
+     "texto": "O texto seria 'um Proer 2.0' e daria 'um cheque em branco' para socorro a bancos com recursos do Tesouro, sem saber o valor envolvido.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/83057",
+     "quem": "Tadeu Veneri (PT-PR)"
+    },
+    {
+     "texto": "Com o novo texto, 'não será necessária uma lei': o CMN iniciaria o socorro e o Senado só se manifestaria depois; e a exigência de culpa ou dolo beneficiaria gestores de bancos que quebraram.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/83057",
+     "quem": "Kim Kataguiri (Missão-SP)"
+    },
+    {
+     "texto": "'Estão querendo arrumar uma forma de colocar dinheiro público dentro de banco falido.'",
+     "fonte": "https://www.camara.leg.br/noticias/1255305-adiada-votacao-de-projeto-que-cria-novo-regime-para-socorrer-ou-liquidar-bancos",
+     "quem": "Mauro Benevides Filho (PDT-CE), vice-líder do governo"
+    },
+    {
+     "texto": "O CMN poderia salvar banco 'sem lei, sem regra, sem autorização', e o Senado fiscalizaria só depois do pagamento.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/83057",
+     "quem": "Pompeo de Mattos (PDT-RS)"
+    }
+   ],
+   "orientacoes": [
+    {
+     "partido": "Bloco UNIÃO/PP/PSD/REPUBLICANOS/MDB/PSDB-CIDADANIA/PODE",
+     "orientacao": "Sim",
+     "justificativa": null,
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/83057"
+    },
+    {
+     "partido": "PL",
+     "orientacao": "Sim",
+     "justificativa": null,
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2236186-60/orientacoes"
+    },
+    {
+     "partido": "NOVO",
+     "orientacao": "Sim",
+     "justificativa": "Adriana Ventura (NOVO-SP): o projeto 'avança' na padronização de regras para quebra de bancos, apesar da 'grande preocupação em dois parágrafos', alvo de destaque do partido.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/83057"
+    },
+    {
+     "partido": "Federação PT-PCdoB-PV",
+     "orientacao": "Não",
+     "justificativa": "Tadeu Veneri (PT-PR): risco de usar recursos públicos para socorrer bancos ('Proer 2.0') sem limite conhecido.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/83057"
+    },
+    {
+     "partido": "Federação PSOL-REDE",
+     "orientacao": "Não",
+     "justificativa": "Fernanda Melchionna (PSOL-RS): projeto do governo Bolsonaro 'para usar dinheiro público para salvar bancos sem nenhum controle público'.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/83057"
+    },
+    {
+     "partido": "PDT",
+     "orientacao": "Não",
+     "justificativa": "Pompeo de Mattos (PDT-RS): o texto permitiria pôr dinheiro do Tesouro em bancos quebrados antes de controle do Congresso.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/83057"
+    },
+    {
+     "partido": "MISSÃO",
+     "orientacao": "Não",
+     "justificativa": "Kim Kataguiri (Missão-SP): o texto favoreceria controladores de bancos em crise; 'não vou fazer parte disso'.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/83057"
+    },
+    {
+     "partido": "Governo",
+     "orientacao": "Não",
+     "justificativa": "Alencar Santana (PT-SP): projeto enviado em 2019 pelo governo Bolsonaro; o governo 'não concorda com ele, não tem compromisso de sanção'.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/83057"
+    },
+    {
+     "partido": "Maioria",
+     "orientacao": "Sem orientação registrada",
+     "justificativa": null,
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2236186-60/orientacoes"
+    },
+    {
+     "partido": "Minoria",
+     "orientacao": "Sem orientação registrada",
+     "justificativa": null,
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2236186-60/orientacoes"
+    },
+    {
+     "partido": "Oposição",
+     "orientacao": "Sem orientação registrada",
+     "justificativa": null,
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2236186-60/orientacoes"
+    },
+    {
+     "partido": "PSB",
+     "orientacao": "Sem orientação registrada",
+     "justificativa": null,
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2236186-60/orientacoes"
+    }
+   ],
+   "aprovada": false,
+   "placar": {
+    "S": 252,
+    "N": 176,
+    "A": 0,
+    "O": 0
+   },
+   "secreta": false,
+   "proximos": [
+    {
+     "texto": "Foi rejeitada a subemenda substitutiva do relator, e a continuação da votação foi adiada pelo encerramento da Ordem do Dia. A proposta continua em tramitação (situação na API: 'Aguardando Deliberação'). As fontes consultadas não confirmam se outro texto será votado. Se algum texto for aprovado, segue para o Senado.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2236186/tramitacoes"
+    }
+   ],
+   "criterio": "Projeto de lei complementar sobre o Estado e o sistema financeiro, com urgência aprovada e repercussão após a liquidação do Banco Master. Placar apertado: rejeitado por 5 votos abaixo do quórum."
+  },
+  {
+   "id": "s7107",
+   "casa": "senado",
+   "data": "2026-10-14",
+   "proposicao": "PEC 221/2019",
+   "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/174386",
+   "titulo": "Fim da escala 6x1: jornada cai de 44 para 40 horas, com 2 folgas semanais",
+   "manchete": {
+    "texto": "Senado aprova fim da escala 6x1 e redução da jornada de trabalho",
+    "fonte": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/senado-aprova-fim-da-escala-6x1-e-reducao-da-jornada-de-trabalho"
+   },
+   "o_que_faz": [
+    {
+     "texto": "Muda o art. 7º da Constituição: a jornada normal passa a ter no máximo 8 horas por dia e 40 por semana (antes, 44), e o repouso semanal remunerado passa a ser de 2 dias, \"um dos quais preferencialmente aos domingos\". Não pode haver redução salarial nominal nem proporcional, e a regra vale também para os pisos salariais.",
+     "fonte": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc141.htm"
+    },
+    {
+     "texto": "A transição é gradual: 42 horas semanais dois meses após a publicação (DOU de 16/10/2026) e 40 horas um ano depois disso. Quem já trabalha 40 horas ou menos não tem redução proporcional automática.",
+     "fonte": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc141.htm"
+    },
+    {
+     "texto": "Ao contrário do que a manchete sugere, a semana de 6 dias não desaparece em todos os casos. Convenção ou acordo coletivo pode criar regime compensatório que garanta, \"na média\", 2 dias de repouso por semana dentro do mês, com pelo menos 1 folga a cada semana. A lei também pode prever regimes diferenciados.",
+     "fonte": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc141.htm"
+    },
+    {
+     "texto": "Exceções e transições: empregado com diploma de nível superior e remuneração igual ou maior que 2,5 vezes o teto do RGPS fica fora das regras de duração e controle de jornada, salvo se houver acordo, mas mantém os 2 dias de repouso. Contratos públicos com mão de obra só aplicam a redução depois de aditamento para reequilíbrio, em até 1 ano. Lei complementar pode criar medidas transitórias para MEI, micro e pequenas empresas, condicionadas à manutenção do emprego.",
+     "fonte": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc141.htm"
+    },
+    {
+     "texto": "O Senado aprovou o texto da Câmara sem alterações para que não voltasse à Câmara. O relator rejeitou as 37 emendas, inclusive a de Oriovisto Guimarães (PSDB-PR) sobre jornadas já menores que 40 horas, cujo destaque foi retirado. Ele reconheceu que alguns setores (plataformas de petróleo, aviação etc.) vão precisar de ajustes por nova legislação.",
+     "fonte": "https://legis.senado.leg.br/dadosabertos/taquigrafia/notas/sessao/591267"
+    }
+   ],
+   "custo": {
+    "texto": "Não há estimativa oficial única de custo para o setor público ou privado. O Texto para Discussão nº 365 da Consultoria Legislativa do Senado (jun/2026) reúne estudos divergentes. Pelo Ipea (fev/2026), o custo médio do trabalho celetista sobe 7,84%, mas o impacto fica abaixo de 1% do custo operacional em grandes setores como indústria e comércio. Pela CNI, até R$ 267,2 bilhões por ano em custos com empregados formais (até 7% da folha). A CNC estima R$ 122,4 bilhões por ano para o comércio e +21% na folha do setor, e a FecomercioSP, R$ 158 bilhões. A Consultoria ressalva que os estudos de entidades empresariais \"devem ser utilizados com cautela\" e aponta risco de pressão orçamentária em contratos públicos de prestação continuada, como vigilância e limpeza, e nos municípios.",
+    "fonte": "https://www12.senado.leg.br/publicacoes/estudos-legislativos/tipos-de-estudos/textos-para-discussao/td365"
+   },
+   "favor": [
+    {
+     "texto": "Trata-se de dignidade e tempo com a família, sobretudo para mães e trabalhadoras de baixa renda: \"não é uma bondade, é dignidade\". Mudanças anteriores (13º salário, de 48 para 44 horas em 1988) também foram acusadas de \"quebrar o Brasil\", e isso não aconteceu.",
+     "fonte": "https://legis.senado.leg.br/dadosabertos/taquigrafia/notas/sessao/591267",
+     "quem": "Senador Omar Aziz (PSD-AM), relator"
+    },
+    {
+     "texto": "O custo seria absorvível: impacto inferior a 1% do custo operacional em indústria e comércio, comparável ao de reajustes históricos do salário mínimo.",
+     "fonte": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-02/ipea-diz-que-mercado-de-trabalho-pode-absorver-fim-da-escala-de-trabalho-6x1",
+     "quem": "Ipea (nota técnica, fev/2026)"
+    },
+    {
+     "texto": "O alcance é grande e concentrado na baixa renda: 36,2 milhões de vínculos formais têm jornada contratada acima de 40 horas (MTE/IBGE). Pelo Ipea, 80% dos vínculos acima de 40 horas ganham até 2 salários mínimos.",
+     "fonte": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/senado-aprova-fim-da-escala-6x1-e-reducao-da-jornada-de-trabalho",
+     "quem": "Senadora Leany Lemos (PSB-DF); Ipea"
+    },
+    {
+     "texto": "Seria possível ganhar produtividade e atrair mão de obra: um senador empresário relatou ter acabado com a 6x1 em suas empresas e, segundo a Agência Brasil, ganhou em oferta de mão de obra e em produtividade.",
+     "fonte": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/senado-aprova-fim-da-escala-6x1-e-reducao-da-jornada-de-trabalho",
+     "quem": "Senador Vanderlan Cardoso (PSD-GO)"
+    }
+   ],
+   "contra": [
+    {
+     "texto": "A PEC elevaria o custo do trabalho de forma relevante, com risco para o emprego formal e para os preços. A CNI estima até R$ 267,2 bilhões por ano, e a CNC, +21% na folha do comércio e repasse de até 13% aos preços (a Consultoria do Senado pede cautela com esses números).",
+     "fonte": "https://www12.senado.leg.br/publicacoes/estudos-legislativos/tipos-de-estudos/textos-para-discussao/td365",
+     "quem": "CNI e CNC (citadas pela Consultoria Legislativa do Senado)"
+    },
+    {
+     "texto": "O risco é maior para micro e pequenas empresas, que empregam boa parte de quem trabalha em 6x1: \"Não podemos permitir que essa conquista se torne, a médio e longo prazos, em prejuízo para quem queremos proteger\".",
+     "fonte": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/senado-aprova-fim-da-escala-6x1-e-reducao-da-jornada-de-trabalho",
+     "quem": "Senador Astronauta Marcos Pontes (PL-SP), que votou a favor com ressalvas"
+    },
+    {
+     "texto": "O texto rígido aprovado sem ajustes \"vai criar problemas para inúmeros setores\" (bancos, rádio e TV, escolas particulares, radiologia, telemarketing, petroleiros). O próprio relator admitiu que será preciso legislar com rapidez para casos como plataformas de petróleo e aviação.",
+     "fonte": "https://legis.senado.leg.br/dadosabertos/taquigrafia/notas/sessao/591267",
+     "quem": "Senador Oriovisto Guimarães (PSDB-PR); relator Omar Aziz"
+    },
+    {
+     "texto": "Seria preferível mais flexibilidade negociada, como uma jornada flexível paga por hora \"por escolha do trabalhador\", proposta em emenda e na PEC 12/2026, do líder da oposição Rogerio Marinho. Também há preocupação com o aumento de despesas das prefeituras.",
+     "fonte": "https://www12.senado.leg.br/noticias/materias/2026/10/14/senado-aprova-fim-da-escala-6x1-1",
+     "quem": "Senadores Vanderlan Cardoso (PSD-GO) e Nelsinho Trad (PSD-MS)"
+    }
+   ],
+   "argumentos_nota": "Nenhum senador discursou contra a PEC em Plenário. O único voto \"não\", de Hamilton Mourão (Republicanos-RS), não foi justificado na sessão (Agência Senado). Os argumentos contrários vêm de quem votou \"sim\" com ressalvas e de estudos de entidades empresariais.",
+   "orientacoes": [
+    {
+     "partido": "PT",
+     "orientacao": "Sim",
+     "justificativa": "Líder Camilo Santana (CE): \"Pelo trabalhador e pela trabalhadora brasileiros, o PT vota 'sim'!\"",
+     "fonte": "https://legis.senado.leg.br/dadosabertos/taquigrafia/notas/sessao/591267"
+    },
+    {
+     "partido": "PSD",
+     "orientacao": "Sim",
+     "justificativa": "Líder Otto Alencar (BA): \"em favor do trabalhador brasileiro, o PSD, por unanimidade, vota 'sim'\".",
+     "fonte": "https://legis.senado.leg.br/dadosabertos/taquigrafia/notas/sessao/591267"
+    },
+    {
+     "partido": "MDB",
+     "orientacao": "Sim",
+     "justificativa": "Líder Eduardo Braga (AM): \"pela justiça ao trabalhador brasileiro, pela dignidade à vida, o MDB vota 'sim'\".",
+     "fonte": "https://legis.senado.leg.br/dadosabertos/taquigrafia/notas/sessao/591267"
+    },
+    {
+     "partido": "PL",
+     "orientacao": "Liberada",
+     "justificativa": "Líder Carlos Portinho (RJ): \"eu como Líder do Partido Liberal votarei 'sim', junto com o Senador Flávio Bolsonaro [...] e libero a bancada a eventual divergência\". Segundo a Agência Brasil, o PL foi contrário à proposta durante o debate, mas liberou a bancada na votação.",
+     "fonte": "https://legis.senado.leg.br/dadosabertos/taquigrafia/notas/sessao/591267"
+    },
+    {
+     "partido": "PP (Progressistas)",
+     "orientacao": "Liberada",
+     "justificativa": "Líder Tereza Cristina (MS) votou \"sim\", mas disse que \"muitos setores terão que sofrer ajustes\" e que, com \"um pouquinho mais de paciência\", a PEC seria melhor.",
+     "fonte": "https://legis.senado.leg.br/dadosabertos/taquigrafia/notas/sessao/591267"
+    },
+    {
+     "partido": "PSB",
+     "orientacao": "Sim",
+     "justificativa": "Líder Cid Gomes (CE), por videoconferência, atribuiu a aprovação ao presidente Lula, criticou o PL e concluiu: \"O PSB vota 'sim'\".",
+     "fonte": "https://legis.senado.leg.br/dadosabertos/taquigrafia/notas/sessao/591267"
+    },
+    {
+     "partido": "Republicanos",
+     "orientacao": "Sim",
+     "justificativa": "Senadora Damares Alves (DF): \"um partido conservador, orienta 'sim' especialmente pelas trabalhadoras mães atípicas que serão as mais beneficiadas\".",
+     "fonte": "https://legis.senado.leg.br/dadosabertos/taquigrafia/notas/sessao/591267"
+    },
+    {
+     "partido": "PSDB",
+     "orientacao": "Sim",
+     "justificativa": "Senadora Dra. Eudócia (AL): \"orienta 'sim' ao fim da escala 6x1, em nome de todas as trabalhadoras e trabalhadores\".",
+     "fonte": "https://legis.senado.leg.br/dadosabertos/taquigrafia/notas/sessao/591267"
+    },
+    {
+     "partido": "União Brasil",
+     "orientacao": "Sim",
+     "justificativa": null,
+     "fonte": "https://legis.senado.leg.br/dadosabertos/plenario/votacao/orientacaoBancada/20261014"
+    },
+    {
+     "partido": "Governo",
+     "orientacao": "Sim",
+     "justificativa": "Líder do governo Teresa Leitão (PE): \"O Brasil está pronto para mais e a PEC faz parte desse processo\". Também avisou que alguns votos favoráveis poderiam \"mudar de posição em uma nova PEC\".",
+     "fonte": "https://legis.senado.leg.br/dadosabertos/taquigrafia/notas/sessao/591267"
+    },
+    {
+     "partido": "Maioria",
+     "orientacao": "Sim",
+     "justificativa": "Senador Veneziano Vital do Rêgo (MDB-PB) chamou a PEC de marco \"só comparável\" à CLT e à Constituinte de 1988.",
+     "fonte": "https://legis.senado.leg.br/dadosabertos/taquigrafia/notas/sessao/591267"
+    },
+    {
+     "partido": "Oposição",
+     "orientacao": "Liberada",
+     "justificativa": "Líder Carlos Portinho (PL-RJ): \"a Oposição vai liberar a bancada porque há pouca divergência, mas nós votaremos favorável\".",
+     "fonte": "https://legis.senado.leg.br/dadosabertos/taquigrafia/notas/sessao/591267"
+    },
+    {
+     "partido": "Bancada Feminina",
+     "orientacao": "Sim",
+     "justificativa": "Senadora Eliziane Gama (PSD-MA): a PEC \"vai incidir diretamente nas mulheres trabalhadoras deste país que têm dupla, que têm tripla jornada\".",
+     "fonte": "https://legis.senado.leg.br/dadosabertos/taquigrafia/notas/sessao/591267"
+    },
+    {
+     "partido": "PDT",
+     "orientacao": "Sem orientação registrada",
+     "justificativa": null,
+     "fonte": "https://legis.senado.leg.br/dadosabertos/plenario/votacao/orientacaoBancada/20261014"
+    },
+    {
+     "partido": "Podemos / Avante / Minoria",
+     "orientacao": "Sem orientação registrada",
+     "justificativa": null,
+     "fonte": "https://legis.senado.leg.br/dadosabertos/plenario/votacao/orientacaoBancada/20261014"
+    }
+   ],
+   "orientacoes_nota": "Orientações registradas no painel no 1º turno (API orientacaoBancada/20261014) e repetidas no 2º turno a pedido do presidente da sessão. Justificativas transcritas das notas taquigráficas.",
+   "aprovada": true,
+   "placar": {
+    "S": 75,
+    "N": 1,
+    "A": 0,
+    "O": 0
+   },
+   "secreta": false,
+   "proximos": [
+    {
+     "texto": "Promulgada como Emenda Constitucional nº 141, de 16/10/2026 (DOU, edição extra, 16/10/2026).",
+     "fonte": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc141.htm"
+    },
+    {
+     "texto": "O limite de 42 horas semanais entra em vigor dois meses após a publicação; a Agência Senado noticiou a data de 15 de dezembro de 2026. O limite de 40 horas vem um ano depois. Cláusulas de acordos coletivos incompatíveis perdem efeito em 2 meses.",
+     "fonte": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc141.htm"
+    },
+    {
+     "texto": "Pendências: lei sobre regimes diferenciados por setor, eventual lei complementar de transição para MEI, micro e pequenas empresas, e aditamento dos contratos públicos em até 1 ano. Tramita no Senado a PEC 12/2026 (Rogerio Marinho, PL-RN), que prevê regime flexível pago por hora.",
+     "fonte": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc141.htm"
+    }
+   ],
+   "relacionadas": [
+    {
+     "id": "s7106",
+     "descricao": "1º turno, mesmo dia, mesmo placar (75 sim x 1 não)"
+    },
+    {
+     "id": "c2233802-424",
+     "descricao": "Votação no plenário da Câmara, 27/05/2026"
+    }
+   ],
+   "criterio": "Única PEC de grande alcance social votada pelo Plenário em 2026: altera um direito fundamental (art. 7º), foi promulgada como EC 141 e afeta dezenas de milhões de vínculos formais. O placar foi largo (75 a 1), mas a votação mostrou a mudança de posição da oposição, que liberou a bancada."
+  },
+  {
+   "id": "c2618177-71",
+   "casa": "camara",
+   "data": "2026-08-12",
+   "proposicao": "PLP 114/2026",
+   "url": "https://www.camara.leg.br/propostas-legislativas/2618177",
+   "titulo": "'PLP dos combustíveis': libera corte de tributos e inclui etanol, fertilizantes e Fifa",
+   "manchete": {
+    "texto": "Câmara aprova redução de tributos sobre combustíveis e medidas para biocombustíveis",
+    "fonte": "https://www.camara.leg.br/noticias/1296917-camara-aprova-reducao-de-tributos-sobre-combustiveis-e-medidas-para-biocombustiveis"
+   },
+   "o_que_faz": [
+    {
+     "texto": "Em 2026, permite que o Executivo reduza tributos federais sobre diesel, biodiesel, gasolina, etanol e querosene de aviação e compense a perda com a receita extra da União causada pelo choque do petróleo (royalties, participação especial, tributos e dividendos do setor de óleo e gás). A compensação passa a contar como cumprimento do art. 14 da Lei de Responsabilidade Fiscal.",
+     "fonte": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3171520"
+    },
+    {
+     "texto": "Para 2026, afasta regras da LRF, da LC 224/2025 e da LDO sobre concessão de benefícios fiscais, tanto para as medidas da lei quanto para futuros benefícios a minerais críticos, à indústria de fertilizantes e à Copa do Mundo Feminina da Fifa de 2027.",
+     "fonte": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3171520"
+    },
+    {
+     "texto": "Preserva a vantagem tributária do etanol sobre a gasolina, com alíquota zero se a tributação da gasolina cair 30% ou mais, e concede subvenção de até R$ 1,2 bilhão a produtores de etanol hidratado. Também permite compensar até R$ 750 milhões em créditos de PIS/Cofins.",
+     "fonte": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3171520"
+    },
+    {
+     "texto": "Autoriza crédito fiscal para produção nacional de fertilizantes de 2027 a 2031 (até R$ 1 bilhão por ano) e isenção de AFRMM (até R$ 200 milhões por ano). Antecipa até R$ 3 bilhões do Fundo Social para 2026 e exclui da meta fiscal parte dos gastos com projetos de defesa.",
+     "fonte": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3171520"
+    },
+    {
+     "texto": "Cria um gatilho: a partir de 2026, se houver previsão de déficit primário, ficam vedados no ano seguinte aumentos de despesas vinculadas por lei (não constitucionais) acima do limite do arcabouço fiscal.",
+     "fonte": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3171520"
+    }
+   ],
+   "custo": {
+    "texto": "Ministério do Planejamento (nota de 14/08/2026): custo de R$ 1,95 bilhão em 2026 com as medidas para o etanol; antecipações (R$ 3 bi do Fundo Social e R$ 2,5 bi em defesa) são apenas autorizativas; o impacto das renúncias tributárias (fertilizantes, minerais críticos etc.) 'será estimado posteriormente', na regulamentação. O ministério estimou que os gatilhos economizam ao menos R$ 10 bilhões por ano de 2027 a 2031 em caso de déficit. A IFI do Senado considerou 'consistente e factível' a expectativa de cerca de R$ 10 bilhões de espaço orçamentário, mas disse que 'não se trata de corte de despesas e sim de uma folga orçamentária'. O ministério havia divulgado antes R$ 7,45 bilhões para 2026 e depois corrigiu.",
+    "fonte": "https://www.dgabc.com.br/Noticia/4341294/mpo-esclarece-plp-dos-combustiveis-tem-custo-de-r-1-95-bi-em-2026-e-economia-de-r-10-bi-ano"
+   },
+   "atencao": "Apresentado como medida para conter o preço dos combustíveis, o texto final tem 17 artigos e trata também de fertilizantes, minerais críticos, benefício à Fifa, hospitais, gastos de defesa fora da meta e um gatilho de contenção de despesas.",
+   "favor": [
+    {
+     "texto": "'Não faz sentido reduzir a carga do combustível fóssil e destruir, por consequência, a competitividade de uma cadeia' (a do etanol).",
+     "fonte": "https://www.camara.leg.br/noticias/1296917-camara-aprova-reducao-de-tributos-sobre-combustiveis-e-medidas-para-biocombustiveis",
+     "quem": "Marussa Boldrin (Republicanos-GO), relatora"
+    },
+    {
+     "texto": "'O cidadão brasileiro não terá aumento de combustível ou da inflação no período.'",
+     "fonte": "https://www.camara.leg.br/noticias/1296917-camara-aprova-reducao-de-tributos-sobre-combustiveis-e-medidas-para-biocombustiveis",
+     "quem": "Hugo Motta (Republicanos-PB), presidente da Câmara"
+    },
+    {
+     "texto": "O projeto mantém o preço dos combustíveis, preserva a diferença em favor do etanol e permite investimentos em fertilizantes, terras raras e minerais críticos; o ajuste no art. 14 evitou retirar recursos de saúde e educação.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/82876",
+     "quem": "Jandira Feghali (PCdoB-RJ), pelo Governo"
+    },
+    {
+     "texto": "O texto 'preserva a agenda fiscal do País' e protege o setor sucroenergético, afetado pela crise internacional.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/82876",
+     "quem": "Silvio Costa Filho (Republicanos-PE), pela Maioria"
+    }
+   ],
+   "contra": [
+    {
+     "texto": "O governo é 'perdulário' e, 'às vésperas da eleição, vem colocando uma série de coisas dentro desse PLP para tentar resolver o que não resolveu em 4 anos'.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/82876",
+     "quem": "Sóstenes Cavalcante (PL-RJ), líder do PL"
+    },
+    {
+     "texto": "Com rombo nas contas públicas, a medida é 'uma irresponsabilidade' e um projeto 'Frankenstein'; criticou a retirada da proteção do incentivo ao esporte contra corte linear.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/82876",
+     "quem": "Luiz Lima (NOVO-RJ)"
+    },
+    {
+     "texto": "Questionou o incentivo fiscal à Fifa: recursos que 'poderiam ser utilizados na saúde e na educação pública'.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/82876",
+     "quem": "Glauber Braga (PSOL-RJ)"
+    },
+    {
+     "texto": "Após a correção do art. 14 (mínimos de saúde e educação), o partido ainda se opôs às 'características de ajuste fiscal antecipado' e aos benefícios para fertilizantes, por razões ambientais.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/82876",
+     "quem": "Tarcísio Motta (PSOL-RJ), pela Federação PSOL-Rede"
+    }
+   ],
+   "orientacoes": [
+    {
+     "partido": "Bloco UNIÃO/PP/PSD/REPUBLICANOS/MDB/PSDB-CIDADANIA/PODE",
+     "orientacao": "Sim",
+     "justificativa": "Silvio Costa Filho (Republicanos-PE), pelo bloco e pela Maioria: fortalecimento do setor sucroenergético com preservação da agenda fiscal.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/82876"
+    },
+    {
+     "partido": "PL",
+     "orientacao": "Não",
+     "justificativa": "Sóstenes Cavalcante (PL-RJ): governo 'perdulário'; inclusão de vários temas no PLP às vésperas da eleição.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/82876"
+    },
+    {
+     "partido": "Federação PT-PCdoB-PV",
+     "orientacao": "Sim",
+     "justificativa": "Tadeu Veneri (PT-PR): será gasto o 'excedente' da arrecadação do petróleo, sem mexer nos percentuais constitucionais de saúde e educação.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/82876"
+    },
+    {
+     "partido": "Federação PSOL-REDE",
+     "orientacao": "Não",
+     "justificativa": "Tarcísio Motta (PSOL-RJ): o problema do art. 14 foi resolvido, mas o texto mantém 'características de ajuste fiscal antecipado' e benefícios a fertilizantes.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/82876"
+    },
+    {
+     "partido": "NOVO",
+     "orientacao": "Não",
+     "justificativa": "Luiz Lima (NOVO-RJ): 'o cartão de crédito do Governo estourou há muito tempo'; projeto 'eleitoreiro'.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/82876"
+    },
+    {
+     "partido": "Maioria",
+     "orientacao": "Sim",
+     "justificativa": "Silvio Costa Filho (Republicanos-PE): ver justificativa do bloco.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/82876"
+    },
+    {
+     "partido": "Governo",
+     "orientacao": "Sim",
+     "justificativa": "Jandira Feghali (PCdoB-RJ): 'este projeto foi construído pelo e com o Governo'; mantém o preço dos combustíveis e a diferença em favor do etanol.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/82876"
+    },
+    {
+     "partido": "PSB",
+     "orientacao": "Sem orientação registrada",
+     "justificativa": null,
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2618177-71/orientacoes"
+    },
+    {
+     "partido": "PDT",
+     "orientacao": "Sem orientação registrada",
+     "justificativa": null,
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2618177-71/orientacoes"
+    },
+    {
+     "partido": "Minoria",
+     "orientacao": "Sem orientação registrada",
+     "justificativa": null,
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2618177-71/orientacoes"
+    },
+    {
+     "partido": "Oposição",
+     "orientacao": "Sem orientação registrada",
+     "justificativa": null,
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2618177-71/orientacoes"
+    }
+   ],
+   "aprovada": true,
+   "placar": {
+    "S": 318,
+    "N": 113,
+    "A": 1,
+    "O": 0
+   },
+   "secreta": false,
+   "proximos": [
+    {
+     "texto": "Concluída. O Senado aprovou o texto em agosto de 2026, com ajuste de redação, e o presidente Lula sancionou sem vetos a Lei Complementar 235/2026 (DOU de 28/08/2026). Os benefícios tributários autorizados (fertilizantes, minerais críticos, Copa Feminina) ainda dependem de regulamentação, quando o impacto fiscal será estimado.",
+     "fonte": "https://www.camara.leg.br/noticias/1301020-nova-lei-reduz-tributos-sobre-combustiveis-e-preve-incentivos-para-fertilizantes"
+    }
+   ],
+   "criterio": "Projeto de lei complementar sobre economia e política fiscal (preço dos combustíveis após o choque do petróleo), com divisão entre governo e oposição (PL e NOVO contra) e placar de 318 a 113. Já é lei.",
+   "relacionadas": [
+    {
+     "id": "s7102",
+     "descricao": "Votação no Senado, 12/08/2026"
+    }
+   ]
+  },
+  {
+   "id": "s7102",
+   "casa": "senado",
+   "data": "2026-08-12",
+   "proposicao": "PLP 114/2026",
+   "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/175446",
+   "titulo": "\"PLP dos combustíveis\": corte de tributos por receita do petróleo e travas fiscais",
+   "manchete": {
+    "texto": "Senado aprova alívio de imposto sobre combustíveis; texto vai à sanção",
+    "fonte": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-08/senado-aprova-alivio-de-imposto-sobre-combustiveis-texto-vai-sancao"
+   },
+   "o_que_faz": [
+    {
+     "texto": "A lei não reduz por si só o imposto na bomba. Ela autoriza, em 2026, que cortes de tributos federais sobre diesel, biodiesel, gasolina, etanol e querosene de aviação, feitos por atos do Executivo, sejam compensados com o \"aumento extraordinário de receita\" do petróleo (royalties, participação especial, tributos e dividendos do setor). Também dispensa, nesses casos, exigências da LRF e da LDO 2026.",
+     "fonte": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp235.htm"
+    },
+    {
+     "texto": "Protege o etanol: qualquer corte sobre combustível fóssil deve manter a vantagem tributária do biocombustível, e um corte de 30% ou mais na tributação da gasolina zera as alíquotas do etanol. Cria subvenção de até R$ 1,2 bilhão ao etanol hidratado e permite compensar até R$ 750 milhões em créditos de PIS/Cofins em 2026.",
+     "fonte": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp235.htm"
+    },
+    {
+     "texto": "Inclui temas fora do tema dos combustíveis: crédito fiscal para fertilizantes de até R$ 1 bilhão por ano entre 2027 e 2031 (ampliável), isenção de AFRMM para esses projetos (até R$ 200 milhões por ano), exceção fiscal para futuros benefícios a minerais críticos e à Copa Feminina de 2027, gasto extra de Defesa fora da meta de 2026 e redução de 50% para 30% da exigência de exportação para suspender IBS/CBS.",
+     "fonte": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp235.htm"
+    },
+    {
+     "texto": "Art. 13, alvo da votação separada: autoriza antecipar para 2026 até R$ 3 bilhões da parcela do Fundo Social (pré-sal) destinada a saúde e educação em 2027, afastando nesse caso a regra da LC 200 que impedia contar esse dinheiro dentro dos pisos. Pela IFI, isso reduz o teto utilizável em 2027 para R$ 555,2 milhões.",
+     "fonte": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp235.htm"
+    },
+    {
+     "texto": "Art. 14 cria uma trava fiscal permanente. Se houver projeção de déficit primário, ficam proibidos crescimento de despesas vinculadas por lei acima do limite do arcabouço e o uso da receita do petróleo na base de cálculo dessas vinculações. Segundo a IFI, isso reduz a base do piso da saúde, com economia de R$ 8,9 bilhões em 2027 pelas projeções do Executivo.",
+     "fonte": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp235.htm"
+    }
+   ],
+   "custo": {
+    "texto": "Os valores fixados na lei somam subvenção ao etanol de até R$ 1,2 bilhão (2026), compensação de créditos de etanol de até R$ 750 milhões (2026), crédito para fertilizantes de até R$ 1 bilhão por ano em 2027-2031 (ampliável em mais R$ 1 bilhão por ano) e renúncia de AFRMM de até R$ 200 milhões por ano (R$ 1 bilhão no total). As renúncias sobre combustíveis não têm valor fixo: dependem de atos do Executivo e devem ser cobertas por receita extra do petróleo, que foi de R$ 28 bilhões no 1º trimestre de 2026 contra R$ 9 bilhões no mesmo período de 2025, segundo o Executivo. No sentido oposto, a IFI registra que o art. 14 gera economia de R$ 8,9 bilhões em 2027 no piso da saúde (projeção do Executivo) e que o art. 13 antecipa R$ 3,0 bilhões do Fundo Social de 2027 para 2026.",
+    "fonte": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp235.htm"
+   },
+   "favor": [
+    {
+     "texto": "É preciso amortecer o choque do petróleo causado pela guerra: o Brent passou de cerca de US$ 72 em fevereiro para US$ 126 em abril. As medidas já adotadas seguraram a alta da gasolina e do GLP abaixo de 5%, e a lei permite que continuem.",
+     "fonte": "https://legis.senado.leg.br/dadosabertos/taquigrafia/notas/sessao/581816",
+     "quem": "Senadora Teresa Leitão (PT-PE), relatora e líder do governo"
+    },
+    {
+     "texto": "Haveria neutralidade fiscal: as renúncias são temporárias e cobertas pela receita extraordinária do petróleo, com demonstração em relatório bimestral. A arrecadação com petróleo e gás foi de R$ 28 bilhões no 1º trimestre de 2026, contra R$ 9 bilhões em 2025.",
+     "fonte": "https://www12.senado.leg.br/noticias/materias/2026/08/12/apos-acordo-reducao-de-tributos-sobre-combustiveis-vai-a-sancao",
+     "quem": "Relatora Teresa Leitão; Poder Executivo"
+    },
+    {
+     "texto": "O art. 13 seria só uma \"antecipação financeira, não é orçamentária\", que dá liquidez e previsibilidade ao gasto em saúde; suprimi-lo seria \"imobilizar o país\".",
+     "fonte": "https://legis.senado.leg.br/dadosabertos/taquigrafia/notas/sessao/581816",
+     "quem": "Senador Eduardo Braga (MDB-AM), líder do MDB; relatora Teresa Leitão"
+    },
+    {
+     "texto": "Fertilizantes e minerais críticos são estratégicos: de 20% a 30% do comércio mundial de fertilizantes passa por Ormuz, e quase 50% do enxofre por via marítima. Retirar a receita volátil do petróleo dos pisos evita assumir despesas permanentes sem fonte estável.",
+     "fonte": "https://www.poder360.com.br/poder-economia/lula-tira-ate-r-166-bilhoes-da-saude-e-da-educacao-em-2027/",
+     "quem": "Relatora Teresa Leitão; ministro da Fazenda Dario Durigan (citado pelo Poder360)"
+    }
+   ],
+   "contra": [
+    {
+     "texto": "O art. 13 enfraquece o controle fiscal ao trazer para 2026 recursos do Orçamento de 2027, o do próximo governo, num quadro de dívida em alta, o que pressionaria juros e Selic.",
+     "fonte": "https://legis.senado.leg.br/dadosabertos/taquigrafia/notas/sessao/581816",
+     "quem": "Senador Astronauta Marcos Pontes (PL-SP), defendendo o destaque do PL"
+    },
+    {
+     "texto": "O projeto foi ampliado com temas alheios ao objetivo original. O próprio autor, Paulo Pimenta (PT-RS), disse na véspera que o relatório estava \"cheio de jabutis\" e com temas que \"fogem um pouco do escopo\".",
+     "fonte": "https://www.metropoles.com/brasil/senado-aprova-plp-dos-combustiveis-com-pacote-de-beneficios-fiscais",
+     "quem": "Deputado Paulo Pimenta (PT-RS), autor"
+    },
+    {
+     "texto": "Os arts. 13 e 14 reduzem na prática os recursos de saúde e educação: verba que era adicional passa a contar no piso, e a base de cálculo do piso da saúde encolhe. A CNTE pediu o veto desses artigos, e o texto passou nas duas Casas no mesmo dia, sem audiência pública.",
+     "fonte": "https://www.poder360.com.br/poder-economia/lula-tira-ate-r-166-bilhoes-da-saude-e-da-educacao-em-2027/",
+     "quem": "Análise de Marcio Aith (especial para o Poder360); CNTE"
+    }
+   ],
+   "orientacoes": [
+    {
+     "partido": "PL",
+     "orientacao": "Não (pela supressão do art. 13)",
+     "justificativa": "O destaque do PL (RQS 588/2026, apresentado por Efraim Filho \"por delegação do Líder Rogerio Marinho\") foi defendido por Marcos Pontes por \"controle fiscal deste ano\", \"sem prejudicar o próximo Governo\".",
+     "fonte": "https://legis.senado.leg.br/dadosabertos/taquigrafia/notas/sessao/581816"
+    },
+    {
+     "partido": "MDB",
+     "orientacao": "Sim (manter o art. 13), declarada oralmente",
+     "justificativa": "Eduardo Braga: \"eu apelo a todos os Senadores do MDB [...] votar 'sim' com o projeto\". Segundo ele, o recurso \"é apenas antecipação financeira, não é orçamentária\".",
+     "fonte": "https://legis.senado.leg.br/dadosabertos/taquigrafia/notas/sessao/581816"
+    },
+    {
+     "partido": "Governo",
+     "orientacao": "Sim, declarada oralmente pela relatora e líder do governo",
+     "justificativa": "Teresa Leitão: \"Os efeitos fiscais são neutros [...] Nós queremos um trem andando [...] para que tudo que é previsto de direito da saúde [...] possa continuar no próximo Governo\".",
+     "fonte": "https://legis.senado.leg.br/dadosabertos/taquigrafia/notas/sessao/581816"
+    },
+    {
+     "partido": "Demais partidos",
+     "orientacao": null,
+     "justificativa": null,
+     "fonte": "https://legis.senado.leg.br/dadosabertos/plenario/votacao/orientacaoBancada/20260812"
+    }
+   ],
+   "orientacoes_nota": "O painel não tem orientação registrada para nenhuma das duas votações (a API orientacaoBancada/20260812 retorna listas vazias) e não houve rodada de \"como vota\". As posições listadas foram declaradas oralmente em Plenário. Nenhum dos 2 votos \"não\" no texto-base (Cleitinho, Republicanos-MG; Sargento Reginauro, PSDB-CE) foi justificado na sessão.",
+   "aprovada": true,
+   "placar": {
+    "S": 61,
+    "N": 2,
+    "A": 0,
+    "O": 0
+   },
+   "secreta": false,
+   "proximos": [
+    {
+     "texto": "Sancionada sem vetos: Lei Complementar nº 235, de 27/08/2026 (DOU de 28/08/2026).",
+     "fonte": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp235.htm"
+    },
+    {
+     "texto": "Regulamentações pendentes: a Receita Federal devia regulamentar em 15 dias a compensação de créditos de etanol, e o Executivo deve regulamentar a subvenção ao etanol e o crédito para fertilizantes, que terá procedimento concorrencial.",
+     "fonte": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp235.htm"
+    },
+    {
+     "texto": "Efeitos no Orçamento de 2027: o PLOA 2027 já incorpora a trava do art. 14, com economia de R$ 8,9 bilhões no piso da saúde pelas projeções do Executivo. A IFI diz que esses efeitos ainda não estão nas próprias projeções dela (RAF 113).",
+     "fonte": "https://www12.senado.leg.br/ifi/pdf/raf116_set2026.pdf"
+    }
+   ],
+   "relacionadas": [
+    {
+     "id": "s7103",
+     "descricao": "Votação nominal do art. 13 do PLP 114/2026, destacado (destaque supressivo do PL)"
+    },
+    {
+     "id": "c2618177-71",
+     "descricao": "Votação no plenário da Câmara, 12/08/2026"
+    }
+   ],
+   "criterio": "Projeto de lei complementar com o placar substantivo mais dividido do ano entre projetos de lei: no destaque do art. 13, 43 a 20 (31% \"não\"), com só 2 votos acima do quórum de 41. O tema é fiscal e econômico (combustíveis, saúde e educação, arcabouço), virou a LC 235/2026 e completa a diversidade (Judiciário, trabalho, finanças públicas)."
+  },
+  {
+   "id": "c2351506-104",
+   "casa": "camara",
+   "data": "2026-05-28",
+   "proposicao": "PEC 5/2023",
+   "url": "https://www.camara.leg.br/propostas-legislativas/2351506",
+   "titulo": "Amplia a imunidade de igrejas a tributos sobre compras de bens e serviços",
+   "manchete": {
+    "texto": "Câmara aprova PEC que garante imunidade tributária às igrejas",
+    "fonte": "https://www.congressoemfoco.com.br/noticia/119271/camara-aprova-pec-que-garante-imunidade-tributaria-as-igrejas"
+   },
+   "o_que_faz": [
+    {
+     "texto": "Acrescenta o § 4º-A ao art. 150 da Constituição: a imunidade dos templos de qualquer culto passa a abranger a aquisição de bens ou serviços necessários à implantação, manutenção e funcionamento das entidades religiosas.",
+     "fonte": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3140361"
+    },
+    {
+     "texto": "Estende o benefício a creches, comunidades terapêuticas, monastérios, seminários, conventos, serviços de acolhimento institucional, atividades socioassistenciais 'e demais atividades sem fins lucrativos' ligadas às entidades.",
+     "fonte": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3140361"
+    },
+    {
+     "texto": "Na prática, alcança os tributos sobre consumo embutidos no preço das compras, com referência aos novos IBS e CBS da reforma tributária.",
+     "fonte": "https://www.camara.leg.br/noticias/1277383-camara-aprova-pec-que-amplia-imunidade-tributaria-para-entidades-religiosas/"
+    },
+    {
+     "texto": "Não tem efeito imediato: depende de lei complementar com 'condições e critérios de habilitação nacionalmente uniformes'. A ementa original citava também a alínea 'c' (partidos, sindicatos, entidades educacionais e assistenciais), mas o texto final trata só da alínea 'b' (templos). Destaques do PT para retirar comunidades terapêuticas e 'demais atividades sem fins lucrativos' foram rejeitados.",
+     "fonte": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3140361"
+    }
+   ],
+   "custo": {
+    "texto": "Ministério da Fazenda: impacto de R$ 5,5 bilhões a R$ 7 bilhões por ano para União, estados e municípios, número divulgado pelo colunista Fabio Graner. Segundo o ministro Dario Durigan, a PEC elevaria em 1 ponto percentual a alíquota-base do IVA (de 27,5% para 28,5%). Em 2024, o relator havia divulgado renúncia estimada em R$ 1 bilhão. As estimativas divergem e dependem da futura lei complementar.",
+    "fonte": "https://www.folhape.com.br/noticia/amp/492771/pec-das-igrejas-aprovada-pela-camara-vai-elevar-aliquota-da-reforma/"
+   },
+   "atencao": "A manchete fala em 'igrejas', mas o texto alcança também creches, comunidades terapêuticas, serviços de acolhimento e 'demais atividades sem fins lucrativos'. O efeito depende de lei complementar ainda inexistente.",
+   "favor": [
+    {
+     "texto": "Uma 'distorção interpretativa' faz entidades beneficentes pagarem tributo embutido nos preços; devolver esse valor é 'ato de justiça fiscal'.",
+     "fonte": "https://www.camara.leg.br/noticias/1277383-camara-aprova-pec-que-amplia-imunidade-tributaria-para-entidades-religiosas/",
+     "quem": "Dr. Fernando Máximo (PL-RO), relator"
+    },
+    {
+     "texto": "O objetivo é 'que a imunidade prevista na Constituição aconteça na prática'.",
+     "fonte": "https://www.camara.leg.br/noticias/1277383-camara-aprova-pec-que-amplia-imunidade-tributaria-para-entidades-religiosas/",
+     "quem": "Marcelo Crivella (Republicanos-RJ), autor"
+    },
+    {
+     "texto": "A medida teria custo 'praticamente zero para o erário público' (afirmação sem estimativa oficial citada) e as igrejas atendem milhões de pessoas; chamou a cobrança de 'bitributação'.",
+     "fonte": "https://www.camara.leg.br/noticias/1277383-camara-aprova-pec-que-amplia-imunidade-tributaria-para-entidades-religiosas/",
+     "quem": "Eli Borges (Republicanos-TO)"
+    },
+    {
+     "texto": "'Não se trata de privilégio, mas de um reconhecimento'; 'Aonde o Estado não chega as igrejas chegam', o que reduziria gastos públicos com segurança, saúde e assistência.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/82342",
+     "quem": "Sargento Gonçalves (PL-RN), pela Minoria"
+    }
+   ],
+   "contra": [
+    {
+     "texto": "A PEC 'não tem nenhuma relação com liberdade religiosa'; o termo 'bens' é amplo, há risco de mau uso dos créditos e a perda de arrecadação elevaria em cerca de 0,5 ponto a alíquota paga pelos demais consumidores (estimativa do próprio deputado).",
+     "fonte": "https://www.camara.leg.br/noticias/1277383-camara-aprova-pec-que-amplia-imunidade-tributaria-para-entidades-religiosas/",
+     "quem": "Pedro Uczai (PT-SC), líder do PT"
+    },
+    {
+     "texto": "O debate é se a ampliação da imunidade é correta; comunidades terapêuticas não são atividade-fim de entidade religiosa.",
+     "fonte": "https://www.camara.leg.br/noticias/1277383-camara-aprova-pec-que-amplia-imunidade-tributaria-para-entidades-religiosas/",
+     "quem": "Tarcísio Motta (PSOL-RJ)"
+    },
+    {
+     "texto": "As igrejas 'já têm imunidade garantida na Constituição. Este projeto é uma demasia'; haveria 'isenção dentro da isenção'.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/82342",
+     "quem": "Chico Alencar (PSOL-RJ), pela Federação PSOL-Rede"
+    },
+    {
+     "texto": "A PEC elevaria a alíquota da reforma tributária para todos e faz parte de medidas que podem 'tornar o país ingovernável'.",
+     "fonte": "https://www.folhape.com.br/noticia/amp/492771/pec-das-igrejas-aprovada-pela-camara-vai-elevar-aliquota-da-reforma/",
+     "quem": "Dario Durigan, ministro da Fazenda"
+    }
+   ],
+   "orientacoes": [
+    {
+     "partido": "Bloco UNIÃO/PP/PSD/REPUBLICANOS/MDB/PSDB-CIDADANIA/PODE",
+     "orientacao": "Sim",
+     "justificativa": "Eli Borges (Republicanos-TO): 'quando a igreja tem mais condição, ela atende mais gente'. Antonio Brito (PSD-BA): 'um ato de justiça às instituições religiosas e às instituições sociais'.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/82342"
+    },
+    {
+     "partido": "PL",
+     "orientacao": "Sim",
+     "justificativa": null,
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/82342"
+    },
+    {
+     "partido": "Federação PT-PCdoB-PV",
+     "orientacao": "Não",
+     "justificativa": "Pedro Uczai (PT-SC): 'esta PEC não tem nenhuma relação com liberdade religiosa'; citou o impacto tributário, a falta de fiscalização e de consulta a governadores e prefeitos e um efeito de 0,5 ponto na alíquota.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/82342"
+    },
+    {
+     "partido": "Federação PSOL-REDE",
+     "orientacao": "Não",
+     "justificativa": "Chico Alencar (PSOL-RJ): o trabalho social das igrejas 'é meritório, mas já têm amparo'; o texto cria 'vantagens que caracterizam (...) privilégios'.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/82342"
+    },
+    {
+     "partido": "Minoria",
+     "orientacao": "Sim",
+     "justificativa": "Sargento Gonçalves (PL-RN): reconhecimento ao serviço social prestado pelas entidades religiosas.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/82342"
+    },
+    {
+     "partido": "Oposição",
+     "orientacao": "Sim",
+     "justificativa": "Eli Borges (Republicanos-TO): a imunidade dos templos deve se estender às instituições ligadas a eles; a cobrança seria 'bitributação'.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/82342"
+    },
+    {
+     "partido": "Governo",
+     "orientacao": "Sem orientação registrada",
+     "justificativa": null,
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2351506-104/orientacoes"
+    },
+    {
+     "partido": "Maioria",
+     "orientacao": "Sem orientação registrada",
+     "justificativa": null,
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2351506-104/orientacoes"
+    },
+    {
+     "partido": "PSB",
+     "orientacao": "Sem orientação registrada",
+     "justificativa": null,
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2351506-104/orientacoes"
+    },
+    {
+     "partido": "PDT",
+     "orientacao": "Sem orientação registrada",
+     "justificativa": null,
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2351506-104/orientacoes"
+    },
+    {
+     "partido": "NOVO",
+     "orientacao": "Sem orientação registrada",
+     "justificativa": null,
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2351506-104/orientacoes"
+    }
+   ],
+   "aprovada": true,
+   "placar": {
+    "S": 385,
+    "N": 93,
+    "A": 7,
+    "O": 0
+   },
+   "secreta": false,
+   "proximos": [
+    {
+     "texto": "Enviada ao Senado em 01/06/2026 (PEC 5-C/2023). Precisa de 49 votos em dois turnos. Situação na API em 26/10/2026: 'Aguardando Apreciação pelo Senado Federal'. Mesmo promulgada, só terá efeito após a lei complementar que definir os critérios de habilitação.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2351506"
+    }
+   ],
+   "criterio": "PEC com tema de costumes, religião e tributação, ligada à reforma tributária. Placar menos folgado que as demais PECs (93 votos contra) e orientações divididas: PT e PSOL contra, PL e Centrão a favor, governo sem orientação."
+  },
+  {
+   "id": "c2233802-424",
+   "casa": "camara",
+   "data": "2026-05-27",
+   "proposicao": "PEC 221/2019",
+   "url": "https://www.camara.leg.br/propostas-legislativas/2233802",
+   "titulo": "Fim da escala 6x1: jornada máxima cai de 44 para 40 horas, com 2 folgas por semana",
+   "manchete": {
+    "texto": "Em vitória do governo Lula, Câmara aprova PEC do fim da escala 6x1 em dois turnos",
+    "fonte": "https://www.metropoles.com/brasil/camara-aprova-pec-fim-escala-6x1"
+   },
+   "o_que_faz": [
+    {
+     "texto": "Reduz a jornada máxima dos celetistas de 44 para 40 horas semanais, em cinco dias, com dois dias de descanso remunerado (um preferencialmente no domingo), sem redução de salário nem de pisos salariais. A ementa original falava em 36 horas em 10 anos; o texto aprovado (emenda aglutinativa com base no substitutivo do relator Leo Prates) fixou 40 horas.",
+     "fonte": "https://www.camara.leg.br/noticias/1277141-camara-aprova-em-dois-turnos-fim-da-escala-6x1-com-jornada-maxima-de-40-horas-semanais"
+    },
+    {
+     "texto": "Transição: dois meses após a publicação, valem os dois dias de folga e a jornada de 42 horas; 40 horas um ano depois (14 meses após a promulgação). Nesse período, acordo ou convenção coletiva pode ampliar a jornada diária acima de 8 horas.",
+     "fonte": "https://www.camara.leg.br/noticias/1277141-camara-aprova-em-dois-turnos-fim-da-escala-6x1-com-jornada-maxima-de-40-horas-semanais"
+    },
+    {
+     "texto": "Exceção: empregados com diploma de nível superior e salário acima de 2,5 vezes o teto do INSS (R$ 21.188,87) podem ficar fora das regras de jornada e controle de ponto, por liberalidade do empregador ou acordo coletivo, mantidos os dois dias de descanso. Escalas como 12x36 e atividades essenciais podem compensar folgas na média do mês.",
+     "fonte": "https://www.camara.leg.br/noticias/1277141-camara-aprova-em-dois-turnos-fim-da-escala-6x1-com-jornada-maxima-de-40-horas-semanais"
+    },
+    {
+     "texto": "Micro e pequenas empresas terão regras de transição em lei complementar; contratos de terceirização com o poder público devem ser aditados em um ano, com reequilíbrio econômico-financeiro (a redução vale mesmo sem aditamento). Cláusulas de acordos coletivos incompatíveis perdem validade após dois meses.",
+     "fonte": "https://www.camara.leg.br/noticias/1277141-camara-aprova-em-dois-turnos-fim-da-escala-6x1-com-jornada-maxima-de-40-horas-semanais"
+    }
+   ],
+   "custo": {
+    "texto": "Não há estimativa de impacto fiscal direto de órgão técnico. Estudo técnico do Ministério do Trabalho e Emprego (dados do eSocial), apresentado na CCJ da Câmara em 10/03/2026, estimou impacto médio de 4,7% na folha de pagamento das empresas: 5,9% em micro e pequenas, 1,6% em serviços, de 7,8% a 8,6% em agropecuária, construção e comércio e 10,5% em transporte aquaviário e alimentos. O estudo trata de custo privado com trabalho, não de despesa pública, e se refere à proposta de 40 horas em discussão naquele momento.",
+    "fonte": "https://www.poder360.com.br/poder-congresso/economia-consegue-suportar-40h-semanais-diz-ministro/"
+   },
+   "atencao": "A ementa oficial ainda diz '36 horas semanais em 10 anos', mas o texto aprovado fixa 40 horas, com transição de 14 meses. 'Fim da 6x1' tem exceções: empregados de alta renda com diploma e escalas com compensação na média do mês.",
+   "favor": [
+    {
+     "texto": "'Vamos votar sim para ter dois dias de descanso, para a família, para a juventude estudar.'",
+     "fonte": "https://www.camara.leg.br/noticias/1277067-camara-aprova-fim-da-escala-6x1-com-jornada-maxima-de-40-horas-semanais",
+     "quem": "Pedro Uczai (PT-SC), líder do PT"
+    },
+    {
+     "texto": "Mais de 38 milhões de trabalhadores com carteira trabalham acima de 44 horas semanais (dado citado pela deputada).",
+     "fonte": "https://www.camara.leg.br/noticias/1277067-camara-aprova-fim-da-escala-6x1-com-jornada-maxima-de-40-horas-semanais",
+     "quem": "Jandira Feghali (PCdoB-RJ)"
+    },
+    {
+     "texto": "Dois de cada três trabalhadores já estão na escala 5x2; citou estudo do Ipea segundo o qual o impacto seria 'semelhante ao impacto do aumento do salário mínimo'.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/82310",
+     "quem": "Arlindo Chinaglia (PT-SP), líder da Maioria"
+    },
+    {
+     "texto": "Haverá 'aumento da produtividade', trabalhadores mais satisfeitos, melhor saúde mental e 'menos gastos com o Sistema Único de Saúde'.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/82310",
+     "quem": "Rodrigo Rollemberg (PSB-DF)"
+    }
+   ],
+   "contra": [
+    {
+     "texto": "A PEC cria uma proibição, não um direito: 'Proibição do trabalho formal no 6º dia'. Disse que o custo recairá sobre o trabalhador ('vai ter que pagar tudo mais caro e vai ser demitido') e que a exceção beneficia quem ganha mais.",
+     "fonte": "https://www.camara.leg.br/noticias/1277067-camara-aprova-fim-da-escala-6x1-com-jornada-maxima-de-40-horas-semanais",
+     "quem": "Gilson Marques (NOVO-SC), líder do NOVO"
+    },
+    {
+     "texto": "'Eu não vou mentir para o trabalhador, dizendo que é porque está escrito na Constituição que a escala vai ser 5 por 2'; defendeu que reduzir tributos faria mais sentido para o trabalhador.",
+     "fonte": "https://www.camara.leg.br/noticias/1277067-camara-aprova-fim-da-escala-6x1-com-jornada-maxima-de-40-horas-semanais",
+     "quem": "Kim Kataguiri (Missão-SP)"
+    },
+    {
+     "texto": "'Não existe no mundo quem trabalhe menos e ganhe a mesma coisa.'",
+     "fonte": "https://www.camara.leg.br/noticias/1277067-camara-aprova-fim-da-escala-6x1-com-jornada-maxima-de-40-horas-semanais",
+     "quem": "Bibo Nunes (PL-RS)"
+    },
+    {
+     "texto": "O debate deveria ser sobre produtividade, não sobre 'uma canetada'; a oposição propôs a escala 4x3 (PEC 40/25) e alertou para risco de demissões e alta de preços.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/82310",
+     "quem": "Nikolas Ferreira (PL-MG), pela Minoria (votou \"sim\", com críticas)"
+    }
+   ],
+   "orientacoes": [
+    {
+     "partido": "Bloco UNIÃO/PP/PSD/REPUBLICANOS/MDB/PSDB-CIDADANIA/PODE",
+     "orientacao": "Sim",
+     "justificativa": "Os partidos do bloco orientaram um a um. Paulo Azi (União-BA) falou em 'pauta histórica para as trabalhadoras e os trabalhadores'; Isnaldo Bulhões Jr. (MDB-AL) disse que a emenda aglutinativa 'é fruto de todo esse debate'; Túlio Gadêlha (PSD-PE) defendeu 'uma jornada semanal justa'.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/82310"
+    },
+    {
+     "partido": "PL",
+     "orientacao": "Sim",
+     "justificativa": null,
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/82310"
+    },
+    {
+     "partido": "Federação PT-PCdoB-PV",
+     "orientacao": "Sim",
+     "justificativa": "Rogério Correia (PT-MG): 'Nós queremos (...) a jornada de 40 horas semanais, 5 por 2, sem redução de salário.'",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/82310"
+    },
+    {
+     "partido": "Federação PSOL-REDE",
+     "orientacao": "Sim",
+     "justificativa": "Erika Hilton (PSOL-SP): fim de uma 'escala de trabalho desumana'; Heloísa Helena (Rede-RJ) registrou que a federação defendia 36 horas.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/82310"
+    },
+    {
+     "partido": "PSB",
+     "orientacao": "Sim",
+     "justificativa": "Rodrigo Rollemberg (PSB-DF): mais tempo com a família, ganho de produtividade e de saúde mental.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/82310"
+    },
+    {
+     "partido": "PDT",
+     "orientacao": "Sim",
+     "justificativa": "Dorinaldo Malafaia (PDT-AP): elogiou o consenso construído e chamou a aprovação de conquista do trabalhador.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/82310"
+    },
+    {
+     "partido": "SOLIDARIEDADE",
+     "orientacao": "Sim",
+     "justificativa": "Aureo Ribeiro (Solidariedade-RJ): a medida é 'fundamental para que um pai trabalhador possa ter o direito de conversar com o seu filho'.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/82310"
+    },
+    {
+     "partido": "AVANTE",
+     "orientacao": "Sim",
+     "justificativa": "Pastor Sargento Isidório (Avante-BA): 'Os trabalhadores precisam ser respeitados.'",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/82310"
+    },
+    {
+     "partido": "NOVO",
+     "orientacao": "Não",
+     "justificativa": "Gilson Marques (NOVO-SC): chamou a proposta de 'populista' e afirmou que o custo recairá sobre o trabalhador, com preços maiores e demissões.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/82310"
+    },
+    {
+     "partido": "MISSÃO",
+     "orientacao": "Não",
+     "justificativa": "Kim Kataguiri (Missão-SP): voto 'contra o populismo'; acusou a base de manobra para evitar a votação da escala 4x3.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/82310"
+    },
+    {
+     "partido": "Maioria",
+     "orientacao": "Sim",
+     "justificativa": "Arlindo Chinaglia (PT-SP): dois terços dos trabalhadores já fazem 5x2; citou estudo do Ipea sobre impacto comparável ao de reajustes do salário mínimo.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/82310"
+    },
+    {
+     "partido": "Minoria",
+     "orientacao": "Sim",
+     "justificativa": "Nikolas Ferreira (PL-MG): votou 'sim', mas defendeu a escala 4x3 e o foco em produtividade e disse que responsabilizará o governo por eventuais demissões.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/82310"
+    },
+    {
+     "partido": "Oposição",
+     "orientacao": "Liberado",
+     "justificativa": null,
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2233802-424/orientacoes"
+    },
+    {
+     "partido": "Governo",
+     "orientacao": "Sim",
+     "justificativa": "Paulo Pimenta (PT-RS): 'Estamos aprovando a 5 por 2 sem redução de salário.'",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/82310"
+    },
+    {
+     "partido": "PRD",
+     "orientacao": "Sem orientação registrada",
+     "justificativa": null,
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2233802-424/orientacoes"
+    }
+   ],
+   "aprovada": true,
+   "placar": {
+    "S": 472,
+    "N": 22,
+    "A": 0,
+    "O": 1
+   },
+   "secreta": false,
+   "proximos": [
+    {
+     "texto": "Concluída. O Senado aprovou o mesmo texto em 14/10/2026, por 75 a 1 nos dois turnos, e o Congresso promulgou em 16/10/2026 a Emenda Constitucional 141/2026 (DOU de 16/10/2026, edição extra). Pelas regras de transição, a jornada de 42 horas e as duas folgas valem dois meses após a publicação, e as 40 horas 14 meses após a promulgação. Ainda falta a lei complementar com regras de transição para micro e pequenas empresas.",
+     "fonte": "https://www.gazetadopovo.com.br/economia/senado-aprova-pec-do-fim-da-escala-6x1/"
+    }
+   ],
+   "criterio": "PEC de grande repercussão nacional (economia e trabalho), já promulgada como Emenda Constitucional 141/2026. Orientações divergentes: NOVO e Missão contra, Oposição liberada, PL a favor com críticas.",
+   "relacionadas": [
+    {
+     "id": "s7107",
+     "descricao": "Votação no Senado, 14/10/2026"
+    }
+   ]
+  },
+  {
+   "id": "s7081",
+   "casa": "senado",
+   "data": "2026-04-29",
+   "proposicao": "MSF 7/2026",
+   "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/173452",
+   "titulo": "Senado rejeita Jorge Messias para o STF, 1ª recusa de indicado à Corte desde 1894",
+   "manchete": {
+    "texto": "Senado rejeita Messias no STF e impõe derrota a Lula",
+    "fonte": "https://www.poder360.com.br/poder-justica/senado-rejeita-messias-no-stf-e-impoe-derrota-a-lula/"
+   },
+   "o_que_faz": [
+    {
+     "texto": "A votação decidia se o advogado-geral da União, Jorge Rodrigo Araújo Messias, indicado pelo presidente Lula, seria aprovado para ministro do STF na vaga aberta pela aposentadoria antecipada de Luís Roberto Barroso (art. 52, III, \"a\", e art. 101 da Constituição).",
+     "fonte": "https://www25.senado.leg.br/web/atividade/materias/-/materia/173452"
+    },
+    {
+     "texto": "A aprovação exigia maioria absoluta da Casa (pelo menos 41 votos \"sim\"), em votação secreta no painel; por isso a API registra apenas \"Votou\" para cada senador, sem o sentido do voto.",
+     "fonte": "https://legis.senado.leg.br/dadosabertos/taquigrafia/notas/sessao/550751"
+    },
+    {
+     "texto": "Resultado: 34 sim, 42 não e 1 abstenção. A indicação foi rejeitada e arquivada, e o Senado comunicou a decisão à Presidência da República (MPSF 86/2026) e ao STF (MPSF 87/2026). A cadeira continua vaga até uma nova indicação, que teria de passar outra vez por sabatina na CCJ e votação em Plenário.",
+     "fonte": "https://www25.senado.leg.br/web/atividade/materias/-/materia/173452"
+    },
+    {
+     "texto": "Primeira rejeição de um indicado ao STF em 132 anos. Antes, o Senado só tinha recusado cinco nomes, todos em 1894, no governo Floriano Peixoto.",
+     "fonte": "https://www12.senado.leg.br/noticias/materias/2026/04/29/indicacao-de-jorge-messias-ao-stf-e-rejeitada-pelo-senado"
+    },
+    {
+     "texto": "No mesmo dia, depois da sabatina, a CCJ havia aprovado o nome por 16 votos a 11. O relator foi o senador Weverton (PDT-MA).",
+     "fonte": "https://www12.senado.leg.br/noticias/materias/2026/04/29/indicacao-de-jorge-messias-ao-stf-e-rejeitada-pelo-senado"
+    }
+   ],
+   "custo_nota": "Não se aplica: é uma deliberação sobre autoridade e não tem impacto orçamentário estimado por órgão técnico.",
+   "favor": [
+    {
+     "texto": "Messias teria qualificação técnica para o cargo, e a derrota não se deveu ao mérito jurídico. Lula: \"ele não foi derrotado por incompetência jurídica, porque é um dos melhores advogados desse país. Ele foi derrotado por uma questão simplesmente política\".",
+     "fonte": "https://www.itatiaia.com.br/politica/lula-diz-que-vai-indicar-jorge-messias-novamente-para-o-stf",
+     "quem": "Presidente Luiz Inácio Lula da Silva (PT)"
+    },
+    {
+     "texto": "O indicado foi descrito como \"profissional sério e qualificado\" mesmo por um senador que não é da base governista e que critica o STF.",
+     "fonte": "https://www.agazeta.com.br/mundo/-oposicao-celebra-rejeicao-de-messias-ao-stf-enquanto-governo-atribuiu-derrota-a-chantagem-politica-0426",
+     "quem": "Senador Alessandro Vieira (MDB-SE)"
+    },
+    {
+     "texto": "A rejeição teria sido movida pelo calendário eleitoral e não pela avaliação do indicado: \"É uma votação que foi pressionada pela circunstância das eleições\".",
+     "fonte": "https://www.gazetadopovo.com.br/republica/eleicoes-lula-em-baixa-e-stf-em-crise-explicam-derrota-de-messias-no-senado/",
+     "quem": "Senador Randolfe Rodrigues (PT-AP)"
+    },
+    {
+     "texto": "O nome cumpriu o rito e foi aprovado na comissão técnica (CCJ, 16 a 11), com relatório favorável.",
+     "fonte": "https://www12.senado.leg.br/noticias/materias/2026/04/29/indicacao-de-jorge-messias-ao-stf-e-rejeitada-pelo-senado",
+     "quem": "Relatório do senador Weverton (PDT-MA), aprovado na CCJ"
+    }
+   ],
+   "contra": [
+    {
+     "texto": "A indicação premiaria a lealdade pessoal ao presidente em vez da independência. A senadora leu em Plenário o editorial do Estadão \"Senado tem o dever de rejeitar Messias\", que diz que Lula fez da prerrogativa \"um meio de premiar lealdades pessoais\".",
+     "fonte": "https://legis.senado.leg.br/dadosabertos/taquigrafia/notas/sessao/550751",
+     "quem": "Senadora Mara Gabrilli (PSD-SP)"
+    },
+    {
+     "texto": "A vaga deveria ser preenchida só depois das eleições gerais, para que a população \"possa opinar\"; defende-se um STF \"independente de Lula e do Poder Executivo\".",
+     "fonte": "https://www.gazetadopovo.com.br/republica/eleicoes-lula-em-baixa-e-stf-em-crise-explicam-derrota-de-messias-no-senado/",
+     "quem": "Senador Sergio Moro (PL-PR)"
+    },
+    {
+     "texto": "Críticas à atuação dele como AGU: o pedido de prisão de manifestantes do 8 de janeiro e as ações do governo levadas ao STF para reverter decisões do Congresso, como a desoneração da folha.",
+     "fonte": "https://www.gazetadopovo.com.br/republica/eleicoes-lula-em-baixa-e-stf-em-crise-explicam-derrota-de-messias-no-senado/",
+     "quem": "Senadores de oposição na sabatina da CCJ (relato da Gazeta do Povo)"
+    },
+    {
+     "texto": "A rejeição seria um \"recado\" ao STF contra o que esses senadores veem como excessos da Corte.",
+     "fonte": "https://www.gazetadopovo.com.br/republica/eleicoes-lula-em-baixa-e-stf-em-crise-explicam-derrota-de-messias-no-senado/",
+     "quem": "Senador Flávio Bolsonaro (PL-RJ)"
+    }
+   ],
+   "orientacoes_nota": "Votação secreta: não houve orientação de bancada no painel. O serviço orientacaoBancada/20260429 retorna a lista vazia para esta votação, e as notas taquigráficas não registram encaminhamento de líderes. Os posicionamentos abaixo são declarações públicas, não orientações formais.",
+   "posicionamentos": [
+    {
+     "partido": "Governo (indicação do presidente)",
+     "orientacao": "Favorável",
+     "justificativa": "O ministro José Guimarães (SRI) disse: \"Cabe agora o Senado explicar as razões dessa desaprovação. Nós, evidentemente, aceitamos o resultado com a maior serenidade possível\".",
+     "fonte": "https://www.gazetadopovo.com.br/republica/eleicoes-lula-em-baixa-e-stf-em-crise-explicam-derrota-de-messias-no-senado/"
+    },
+    {
+     "partido": "Oposição (PL)",
+     "orientacao": "Contrária",
+     "justificativa": "O líder da oposição, Rogério Marinho (PL-RN), declarou depois da votação que \"outros senadores que fazem parte, entre aspas, da base do governo, votaram de forma contrária\". Segundo a Gazeta do Povo, a oposição contava cerca de 30 votos contra.",
+     "fonte": "https://www.gazetadopovo.com.br/republica/eleicoes-lula-em-baixa-e-stf-em-crise-explicam-derrota-de-messias-no-senado/"
+    },
+    {
+     "partido": "Presidência do Senado (Davi Alcolumbre, União-AP)",
+     "orientacao": "Não declarada publicamente",
+     "justificativa": "Em Plenário, disse apenas que cumpriu suas \"obrigações regimentais e constitucionais\" e criticou a demora do Executivo em enviar a mensagem. Poder360 e Gazeta do Povo relatam, com base em bastidores, que ele atuou pela rejeição; não há declaração dele nesse sentido.",
+     "fonte": "https://legis.senado.leg.br/dadosabertos/taquigrafia/notas/sessao/550751"
+    }
+   ],
+   "aprovada": false,
+   "placar": {
+    "S": 34,
+    "N": 42,
+    "A": 1,
+    "O": 0
+   },
+   "secreta": true,
+   "proximos": [
+    {
+     "texto": "Matéria arquivada. Comunicações enviadas à Presidência da República (MPSF 86/2026) e ao STF (MPSF 87/2026) em 04/05/2026.",
+     "fonte": "https://www25.senado.leg.br/web/atividade/materias/-/materia/173452"
+    },
+    {
+     "texto": "Lula declarou em maio que pretende \"mandar o Messias outra vez\". Uma nova indicação exigiria todo o rito de novo (mensagem, sabatina na CCJ e votação secreta em Plenário).",
+     "fonte": "https://www.itatiaia.com.br/politica/lula-diz-que-vai-indicar-jorge-messias-novamente-para-o-stf"
+    },
+    {
+     "texto": "Até 26/10/2026 não há nova mensagem de indicação ao STF autuada no Senado: a única MSF de 2026 sobre o STF é a 7/2026.",
+     "fonte": "https://legis.senado.leg.br/dadosabertos/processo?sigla=MSF&ano=2026"
+    }
+   ],
+   "criterio": "Indicação de autoridade de máxima repercussão (STF). Foi a única autoridade rejeitada em 2026, por margem estreita (34 \"sim\" contra 41 necessários), e a primeira rejeição de indicado ao STF desde 1894."
+  },
+  {
+   "id": "c2500080-320",
+   "casa": "camara",
+   "data": "2026-03-04",
+   "proposicao": "PEC 18/2025",
+   "url": "https://www.camara.leg.br/propostas-legislativas/2500080",
+   "titulo": "PEC da Segurança Pública: Susp na Constituição, polícias municipais e verba de bets",
+   "manchete": {
+    "texto": "Câmara aprova PEC da Segurança Pública em 1º turno, sem redução de maioridade penal",
+    "fonte": "https://diariodocomercio.com.br/legislacao/camara-aprova-pec-da-seguranca-publica-em-1o-turno-sem-reducao-de-maioridade-penal/"
+   },
+   "o_que_faz": [
+    {
+     "texto": "Coloca na Constituição o Sistema Único de Segurança Pública (Susp, hoje previsto só na Lei 13.675/2018), com diretrizes de força-tarefa, interoperabilidade e compartilhamento de informações entre União, estados e municípios.",
+     "fonte": "https://www.camara.leg.br/noticias/1250475-saiba-mais-sobre-o-texto-aprovado-da-pec-da-seguranca-publica"
+    },
+    {
+     "texto": "Destina às áreas de segurança (FNSP e Funpen) 10% da arrecadação das bets em 2026, subindo até 30% em 2028, e 10% do superávit do Fundo Social do pré-sal (transição 2027–2029); não aumenta o imposto das casas de apostas, mas reduz o valor repassado a outras destinações atuais (seguridade social, ministérios do Esporte e do Turismo). Os recursos ficam fora da DRU, mas podem ser contingenciados se a arrecadação cair.",
+     "fonte": "https://www.camara.leg.br/noticias/1250434-camara-aprova-pec-da-seguranca-publica-em-2-turno"
+    },
+    {
+     "texto": "Autoriza polícias municipais de natureza civil (sem o limite de 100 mil habitantes), condicionadas a acreditação pelo conselho estadual, capacidade financeira própria e controle externo do Ministério Público; amplia atribuições da PF (crime organizado e milícias interestaduais e crimes ambientais) e da PRF (ferrovias e hidrovias federais).",
+     "fonte": "https://www.camara.leg.br/noticias/1250434-camara-aprova-pec-da-seguranca-publica-em-2-turno"
+    },
+    {
+     "texto": "Prevê que lei crie regime especial para líderes e integrantes de facções e milícias (presídio de segurança máxima, restrição a progressão de regime, saída temporária e liberdade provisória) e suspende direitos políticos durante qualquer prisão provisória.",
+     "fonte": "https://www.camara.leg.br/noticias/1250475-saiba-mais-sobre-o-texto-aprovado-da-pec-da-seguranca-publica"
+    },
+    {
+     "texto": "Permite ao Congresso sustar atos do CNJ e do CNMP que extrapolem o poder regulamentar em segurança pública, direito penal, processual penal e penitenciário. A redução da maioridade penal, que constava de versão anterior, foi retirada do texto votado.",
+     "fonte": "https://www.camara.leg.br/noticias/1250434-camara-aprova-pec-da-seguranca-publica-em-2-turno"
+    }
+   ],
+   "custo": {
+    "texto": "Não foi localizada estimativa de órgão técnico independente (IFI, Consultoria de Orçamento ou TCU) para o texto aprovado. Segundo estimativa do relator feita em conjunto com o Ministério da Fazenda, os novos recursos (bets e Fundo Social) 'podem quadruplicar a verba atual da segurança pública', sem valor em reais publicado. A PEC não cria tributo: redireciona receitas existentes.",
+    "fonte": "https://abcdoabc.com.br/camara-pec-da-seguranca-publica-2-turno/"
+   },
+   "atencao": "A manchete destaca o que saiu do texto (maioridade penal); o texto votado inclui pontos menos noticiados, como a suspensão dos direitos políticos de presos provisórios e o poder do Congresso de sustar atos do CNJ e do CNMP.",
+   "favor": [
+    {
+     "texto": "O texto 'constitucionaliza considerar facções criminosas e milícias inimigos do Estado' e reconhece guardas municipais como polícia, o que evitaria a anulação judicial de apreensões feitas por elas.",
+     "fonte": "https://www.camara.leg.br/noticias/1250352-progressao-de-pena-e-policias-municipais-sao-pontos-polemicos-no-debate-da-pec-da-seguranca-publica/",
+     "quem": "Kim Kataguiri (União-SP)"
+    },
+    {
+     "texto": "'Não tem segurança pública sem financiamento'; estimou R$ 5 bilhões em três anos para o combate à criminalidade.",
+     "fonte": "https://www.camara.leg.br/noticias/1250352-progressao-de-pena-e-policias-municipais-sao-pontos-polemicos-no-debate-da-pec-da-seguranca-publica/",
+     "quem": "José Guimarães (PT-CE), líder do governo"
+    },
+    {
+     "texto": "O relatório 'promove mudança estrutural na segurança pública, reorganiza a execução penal, traz a integração das corporações' e cria financiamento permanente para as forças de segurança.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/81196",
+     "quem": "Eriberto Medeiros (PSB-PE)"
+    },
+    {
+     "texto": "Defendeu a constitucionalização do Susp, a entrada da PF no combate ao crime organizado em todo o país e o poder do Congresso de sustar atos do CNJ e do CNMP que 'extrapolarem'.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/81196",
+     "quem": "Pompeo de Mattos (PDT-RS)"
+    }
+   ],
+   "contra": [
+    {
+     "texto": "'Nós vemos com preocupação as restrições de institutos como progressão de regime e liberdade provisória'; também teme polícias municipais sem controle efetivo.",
+     "fonte": "https://www.camara.leg.br/noticias/1250352-progressao-de-pena-e-policias-municipais-sao-pontos-polemicos-no-debate-da-pec-da-seguranca-publica/",
+     "quem": "Chico Alencar (PSOL-RJ)"
+    },
+    {
+     "texto": "Uma 'saída punitivista e encarceradora' tende a levar 'ao encarceramento da juventude pobre e negra das favelas e periferias'; reconheceu como positivos o Susp e o financiamento.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/81196",
+     "quem": "Tarcísio Motta (PSOL-RJ), pela Federação PSOL-Rede"
+    },
+    {
+     "texto": "Os limites ao poder regulatório do CNJ violariam a separação de Poderes, que é cláusula pétrea.",
+     "fonte": "https://www.camara.leg.br/noticias/1250352-progressao-de-pena-e-policias-municipais-sao-pontos-polemicos-no-debate-da-pec-da-seguranca-publica/",
+     "quem": "Túlio Gadêlha (Rede-PE)"
+    },
+    {
+     "texto": "Criticou a ausência de piso salarial nacional para policiais: 'Cadê o piso nacional, que este Congresso está devendo aos policiais?'",
+     "fonte": "https://www.camara.leg.br/noticias/1250352-progressao-de-pena-e-policias-municipais-sao-pontos-polemicos-no-debate-da-pec-da-seguranca-publica/",
+     "quem": "Cabo Gilberto Silva (PL-PB), líder da oposição (votou \"sim\", com ressalva)"
+    }
+   ],
+   "orientacoes": [
+    {
+     "partido": "Bloco UNIÃO/PP/PSD/REPUBLICANOS/MDB/PSDB-CIDADANIA/PODE",
+     "orientacao": "Sim",
+     "justificativa": "Aluisio Mendes (Republicanos-MA): o texto 'vai ao encontro do grande anseio da população brasileira: mais segurança pública'.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/81196"
+    },
+    {
+     "partido": "PL",
+     "orientacao": "Sim",
+     "justificativa": "Alberto Fraga (PL-DF): 'nós melhoramos o texto que o Governo mandou'; a PEC 'não é o ideal' e ele lamentou a retirada da redução da maioridade penal.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/81196"
+    },
+    {
+     "partido": "Federação PT-PCdoB-PV",
+     "orientacao": "Sim",
+     "justificativa": "Maria do Rosário (PT-RS), no 2º turno: a PEC 'é um marco histórico, pois insere na Constituição o Sistema Único de Segurança Pública'. Não foi localizada fala de orientação da federação no 1º turno.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/81196"
+    },
+    {
+     "partido": "Federação PSOL-REDE",
+     "orientacao": "Não",
+     "justificativa": "Heloísa Helena (Rede-RJ) reconheceu 'alguns avanços', mas criticou a falta de piso nacional para profissionais de segurança; no 2º turno, Tarcísio Motta (PSOL-RJ) citou o risco de encarceramento em massa de jovens pobres e negros.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/81196"
+    },
+    {
+     "partido": "PSB",
+     "orientacao": "Sim",
+     "justificativa": "Eriberto Medeiros (PSB-PE): mudança estrutural, integração das polícias e 'financiamento permanente e novas fontes'.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/81196"
+    },
+    {
+     "partido": "PDT",
+     "orientacao": "Sim",
+     "justificativa": "Pompeo de Mattos (PDT-RS): 'PEC do Parlamento', que constitucionaliza o Susp e integra guardas/polícias municipais às demais forças.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/81196"
+    },
+    {
+     "partido": "NOVO",
+     "orientacao": "Sim",
+     "justificativa": "Luiz Lima (NOVO-RJ), no 2º turno: comemorou a emenda do partido, aceita pelo relator, que suspende os direitos políticos de presos provisórios.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/81196"
+    },
+    {
+     "partido": "Bloco AVANTE/SOLIDARIEDADE/PRD",
+     "orientacao": "Sim",
+     "justificativa": null,
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2500080-320/orientacoes"
+    },
+    {
+     "partido": "Maioria",
+     "orientacao": "Sim",
+     "justificativa": "Arlindo Chinaglia (PT-SP): 'um avanço importante', apesar do 'grande distanciamento da proposta original'; destacou o Estatuto da Vítima.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/81196"
+    },
+    {
+     "partido": "Minoria",
+     "orientacao": "Sim",
+     "justificativa": "Gustavo Gayer (PL-GO): afirmou que o texto original concentraria o poder da segurança pública no Ministério da Justiça e que o substitutivo do relator corrigiu isso.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/81196"
+    },
+    {
+     "partido": "Oposição",
+     "orientacao": "Sim",
+     "justificativa": "Evair Vieira de Melo (PP-ES), no 2º turno: 'A Oposição tem a segurança pública como uma das suas prioridades. Por isso, orienta sim'.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/81196"
+    },
+    {
+     "partido": "Governo",
+     "orientacao": "Sim",
+     "justificativa": "Jack Rocha (PT-ES), no 2º turno: cooperação federativa, Susp na Constituição, fortalecimento da PF e das guardas municipais e proteção às vítimas.",
+     "fonte": "https://escriba.camara.leg.br/escriba-servicosweb/html/81196"
+    }
+   ],
+   "aprovada": true,
+   "placar": {
+    "S": 487,
+    "N": 15,
+    "A": 1,
+    "O": 0
+   },
+   "secreta": false,
+   "proximos": [
+    {
+     "texto": "Enviada ao Senado (PEC 18-C/2025). A CCJ do Senado concluiu a análise em 14/10/2026 sem alterar o texto da Câmara. A votação em Plenário, prevista para 15/10, foi retirada de pauta por impasse sobre a inclusão da redução da maioridade penal (emendas de Camilo Santana, PT-CE, e da oposição) e adiada para depois do 2º turno das eleições. Precisa de 49 votos em dois turnos; se o Senado alterar o mérito, o texto volta à Câmara. Situação na API em 26/10/2026: 'Aguardando Apreciação pelo Senado Federal'.",
+     "fonte": "https://www.jornaldocomercio.com/politica/2026/10/1267387-alcolumbre-adia-pec-da-seguranca-publica-para-depois-da-eleicao.html"
+    }
+   ],
+   "criterio": "PEC (quórum de 3/5), proposta do Executivo com grande repercussão nacional; tema segurança pública; placar amplo, com a Federação PSOL-Rede como única orientação contrária."
+  }
+ ]
+}

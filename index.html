@@ -1,4 +1,4 @@
-<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,viewport-fit=cover"><meta name="description" content="Apuração ao vivo do 2º turno com mapa interativo, teste político em três eixos e informação apartidária sobre candidatos, Congresso e poder."><meta property="og:title" content="Fora da Reta"><meta property="og:description" content="Política não é uma reta. Apuração ao vivo, teste político e informação com fonte, sem idolatria."><meta property="og:url" content="https://foradareta.com.br/"><meta property="og:type" content="website"><meta property="og:image" content="https://foradareta.com.br/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="theme-color" content="#ffffff"><link rel="apple-touch-icon" href="apple-touch-icon.png"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23fff'/%3E%3Cg transform='translate%284 4%29'%3E%3Cpath d='M2.2 15H13M16.6 15H21.8' stroke='%231d1d1f' stroke-width='2.5' stroke-linecap='round' fill='none'/%3E%3Cpath d='M8.2 3V21' stroke='%231d1d1f' stroke-width='1.5' stroke-linecap='round' opacity='.26' fill='none'/%3E%3Ccircle cx='15.2' cy='11.4' r='0.85' fill='%235146e0' opacity='.5'/%3E%3Ccircle cx='16.6' cy='6.9' r='3.5' fill='%235146e0'/%3E%3C/g%3E%3C/svg%3E"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style></head><body><meta charset="utf-8">
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,viewport-fit=cover"><meta name="description" content="Acompanhe a política sem torcida: votações do Congresso explicadas, como votaram seus representantes, promessas do governo, notícias e teste político em três eixos."><meta property="og:title" content="Fora da Reta"><meta property="og:description" content="A eleição acabou. A política, não. Votações explicadas, seus representantes, promessas e notícias, com fonte e sem torcida."><meta property="og:url" content="https://foradareta.com.br/"><meta property="og:type" content="website"><meta property="og:image" content="https://foradareta.com.br/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="theme-color" content="#ffffff"><link rel="apple-touch-icon" href="apple-touch-icon.png"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23fff'/%3E%3Cg transform='translate%284 4%29'%3E%3Cpath d='M2.2 15H13M16.6 15H21.8' stroke='%231d1d1f' stroke-width='2.5' stroke-linecap='round' fill='none'/%3E%3Cpath d='M8.2 3V21' stroke='%231d1d1f' stroke-width='1.5' stroke-linecap='round' opacity='.26' fill='none'/%3E%3Ccircle cx='15.2' cy='11.4' r='0.85' fill='%235146e0' opacity='.5'/%3E%3Ccircle cx='16.6' cy='6.9' r='3.5' fill='%235146e0'/%3E%3C/g%3E%3C/svg%3E"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style></head><body><meta charset="utf-8">
 <title>Fora da Reta</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -609,8 +609,8 @@ details.args { max-width: 760px; margin-left: auto; margin-right: auto; text-ali
 .pbar .small { grid-column: 2 / 4; }
 .pbar .plink { grid-column: 4; grid-row: 1; justify-self: end; }
 .pbar .tab { grid-column: 3; grid-row: 1; justify-self: end; }
-/* menu: em telas m\E9 dias e pequenas, as abas v\E3 o para uma segunda linha centralizada e rol\E1 vel */
-@media (max-width: 1100px) {
+/* menu: em telas pequenas, as abas v\E3 o para uma segunda linha */
+@media (max-width: 600px) {
   header.nav .wrap { flex-wrap: wrap; row-gap: 0; padding-block: 6px 4px; }
   .brand { margin: 0 auto; }
   nav.tabs { margin: 0; width: 100%; justify-content: safe center; padding-bottom: 4px; -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 14px, #000 calc(100% - 14px), transparent 100%); mask-image: linear-gradient(90deg, transparent 0, #000 14px, #000 calc(100% - 14px), transparent 100%); }
@@ -877,6 +877,157 @@ input, select, textarea { font-size: max(16px, 1em); }
 #tlSvg .tlGapT { font-size: 11px; }
 .tlShort { display: none; }
 @media (max-width: 620px) { .tlLong { display: none; } .tlShort { display: inline; } .tlHead { align-items: center; } }
+
+/* ===== Acompanhamento (p\F3 s-elei\E7 \E3 o) ===== */
+.subbar { position: sticky; top: calc(52px + env(safe-area-inset-top, 0px)); z-index: 19; background: var(--glass); -webkit-backdrop-filter: saturate(180%) blur(20px); backdrop-filter: saturate(180%) blur(20px); border-bottom: 1px solid var(--hair); }
+.subbar .subnav { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; padding-block: 8px; justify-content: flex-start; }
+.subbar .subnav::-webkit-scrollbar { display: none; }
+.subbar .subnav a { white-space: nowrap; flex: none; }
+@media (min-width: 900px) { .subbar .subnav { justify-content: center; } }
+nav.tabs a { font-size: 0.86rem; padding: 6px 12px; }
+.you { color: var(--you); }
+.homeHero { text-align: center; padding-block: clamp(44px, 8vw, 96px) 8px; }
+.homeHero .lede { max-width: 34em; margin: 18px auto 0; }
+.ufPick { display: flex; gap: 10px; align-items: center; justify-content: center; flex-wrap: wrap; margin-top: 28px; }
+.ufPick select { min-height: 44px; padding: 0 16px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); font: inherit; font-size: 0.95rem; }
+.hsec { margin-top: clamp(48px, 7vw, 80px); }
+.hsecHead { display: flex; justify-content: space-between; align-items: flex-end; gap: 12px; flex-wrap: wrap; margin-bottom: 16px; }
+.vxGrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 12px; }
+.vxCard { display: grid; gap: 8px; align-content: start; text-align: left; background: var(--bg-alt); border-radius: 22px; padding: 20px 22px; min-width: 0; transition: transform .3s var(--ease); }
+.vxCard:hover { transform: translateY(-2px); }
+.vxCard .eyebrow { font-size: 0.78rem; }
+.vxCard b { font-size: 1.08rem; line-height: 1.3; letter-spacing: -0.015em; }
+.vxHead { font-size: 0.86rem; color: var(--muted); }
+.vxFoot { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-top: 4px; }
+.rchip { display: inline-block; font-size: 0.74rem; font-weight: 700; border-radius: 999px; padding: 2px 10px; background: var(--hair); color: var(--ink); white-space: nowrap; }
+.rchip.ok::before, .rchip.no::before { content: ""; display: inline-block; width: 6px; height: 6px; border-radius: 50%; margin: 0 6px 1px 0; vertical-align: middle; background: var(--ink); }
+.rchip.no::before { background: transparent; box-shadow: inset 0 0 0 1.5px var(--ink); }
+.xtag { display: inline-block; font-size: 0.68rem; font-weight: 700; color: var(--you); background: var(--you-soft); border-radius: 999px; padding: 1px 8px; vertical-align: 1px; }
+.decList { list-style: none; padding: 0; margin: 0; }
+.decList li { border-top: 1px solid var(--hair); }
+.decList li > button, .decList li > div { width: 100%; display: grid; grid-template-columns: 5.6em 4.4em minmax(0, 1fr) auto; gap: 4px 12px; align-items: baseline; text-align: left; padding: 13px 4px; border-radius: 12px; font-size: 0.93rem; }
+.decList li > button:hover { background: var(--bg-alt); }
+.decList .d { color: var(--muted); font-size: 0.84rem; }
+.decList .c { color: var(--muted); font-size: 0.8rem; font-weight: 600; }
+.decList .t { min-width: 0; overflow-wrap: break-word; }
+@media (max-width: 620px) { .decList li > button, .decList li > div { grid-template-columns: auto 1fr auto; } .decList .t { grid-column: 1 / -1; grid-row: 2; } .decList .rchip { grid-column: 3; grid-row: 1; } }
+#homeDecMore, #allMore { margin: 14px auto 0; display: flex; }
+#homeDecMore[hidden], #allMore[hidden], #pTlMore[hidden] { display: none; }
+.pill.small { min-height: 36px; padding: 0 16px; font-size: 0.86rem; }
+.pautaBox { margin-top: 18px; background: var(--bg-alt); border-radius: 20px; padding: 16px 20px; }
+.pautaBox .k { font-size: 0.8rem; font-weight: 700; color: var(--muted); }
+.pautaBox ul { margin: 8px 0 0; padding-left: 18px; font-size: 0.9rem; }
+.pautaBox li + li { margin-top: 4px; }
+#homeNews { margin-top: 0; max-width: none; }
+.hcards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
+.hcard { display: grid; gap: 6px; align-content: start; background: var(--bg-alt); border-radius: 22px; padding: 22px; color: var(--ink); transition: transform .3s var(--ease); }
+.hcard:hover { text-decoration: none; transform: translateY(-2px); }
+.hcard b { font-size: 1.1rem; letter-spacing: -0.015em; line-height: 1.3; }
+/* ficha de vota\E7 \E3 o */
+.vxSheet .vxRes { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin-top: 14px; font-weight: 600; }
+.vxSheet .vxRes + p { margin-top: 6px; }
+.vxTwo { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 18px; }
+@media (max-width: 680px) { .vxTwo { grid-template-columns: 1fr; } }
+.vxBox, .vxArg { background: var(--bg-alt); border-radius: 20px; padding: 16px 18px; min-width: 0; font-size: 0.94rem; }
+.vxBox.cost { margin-top: 12px; }
+.vxBox .k, .vxArg .k { font-size: 0.78rem; font-weight: 700; color: var(--muted); margin-bottom: 6px; text-transform: uppercase; letter-spacing: .04em; }
+.vxBox .q { font-size: 1.05rem; font-weight: 600; }
+.vxBox ul, .vxArg ul { margin: 0; padding-left: 18px; }
+.vxBox li + li, .vxArg li + li { margin-top: 8px; }
+.vxBox a, .vxArg a, .prItem a, .oriT a { overflow-wrap: anywhere; }
+.sheet .vxH { margin-top: 34px; font-size: 1.2rem; }
+.vxAsk { margin-top: 26px; border: 1.5px solid var(--you); border-radius: 22px; padding: 18px 20px; display: grid; gap: 12px; justify-items: start; }
+.vchip { display: inline-block; font-size: 0.74rem; font-weight: 700; border-radius: 999px; padding: 2px 10px; white-space: nowrap; background: var(--hair); color: var(--ink); }
+.vchip.vS { background: var(--cA); color: #fff; }
+.vchip.vN { background: var(--cB); color: #1d1d1f; }
+.repVotes { list-style: none; padding: 0; margin: 10px 0 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 6px; }
+.repVotes button { width: 100%; display: flex; gap: 8px; align-items: center; justify-content: space-between; flex-wrap: wrap; text-align: left; background: var(--bg-alt); border-radius: 14px; padding: 9px 12px; font-size: 0.9rem; }
+.repVotes button > span:first-child { min-width: 0; flex: 1 1 140px; }
+.agree { font-size: 0.72rem; font-weight: 700; width: 100%; }
+.agree.y { color: var(--you); }
+.agree.n { color: var(--muted); }
+.ppBars { display: grid; gap: 7px; margin-top: 12px; }
+.ppRow { display: grid; grid-template-columns: 9.5em minmax(0, 1fr) 11em; gap: 10px; align-items: center; font-size: 0.86rem; }
+.ppRow .pp { font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ppBar { height: 12px; border-radius: 99px; background: var(--hair); overflow: hidden; display: flex; }
+.ppBar i { display: block; height: 100%; }
+.ppBar i.s, .ppLeg i.s { background: var(--cA); }
+.ppBar i.n, .ppLeg i.n { background: var(--cB); }
+@media (max-width: 560px) { .ppRow { grid-template-columns: 6.5em minmax(0, 1fr); } .ppRow > span:last-child { grid-column: 2; } }
+.ppLeg { margin-top: 8px; display: flex; gap: 6px 10px; align-items: center; flex-wrap: wrap; }
+.ppLeg i { display: inline-block; width: 10px; height: 10px; border-radius: 3px; }
+.allVotes { margin-top: 16px; }
+.allVotes summary { cursor: pointer; font-weight: 600; color: var(--you); }
+.allVotes input { width: 100%; min-height: 40px; margin-top: 10px; padding: 0 14px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); font: inherit; font-size: 0.92rem; }
+.oriChips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.oc { display: inline-flex; gap: 6px; align-items: center; background: var(--bg-alt); border-radius: 999px; padding: 4px 6px 4px 12px; font-size: 0.82rem; }
+.oriT td:nth-child(3) { font-size: 0.88rem; }
+.vxFootNote { margin-top: 30px; border-top: 1px solid var(--hair); padding-top: 14px; }
+/* pol\ED ticos */
+.polSec { margin-top: 36px; }
+.polSec > .eyebrow { margin-bottom: 4px; }
+.pcard .ph { flex: none; width: 46px; height: 60px; border-radius: 12px; overflow: hidden; background: var(--hair); }
+.pcard .ph img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.pcard.exec { color: var(--ink); }
+.pcard.exec:hover { text-decoration: none; }
+.pcard.static:hover { transform: none; }
+.pcard.static .ph { display: none; }
+details.eleitos { background: var(--bg-alt); border-radius: 20px; padding: 16px 20px; }
+details.eleitos summary { cursor: pointer; display: grid; gap: 2px; }
+.eleList { list-style: none; padding: 0; margin: 14px 0 10px; columns: 2 260px; column-gap: 24px; font-size: 0.9rem; }
+.eleList li { break-inside: avoid; padding: 3px 0; }
+.eleList button { color: var(--you); font-weight: 600; }
+.pHead { display: flex; gap: 18px; align-items: center; }
+.pHead .ph.big { flex: none; width: 92px; height: 120px; border-radius: 18px; overflow: hidden; background: var(--hair); }
+.pHead .ph.big img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.pHead h2.h3 { font-size: clamp(1.5rem, 4vw, 2.1rem); margin-top: 4px; }
+.pStats { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 10px; margin-top: 22px; }
+.pStats > div { background: var(--bg-alt); border-radius: 18px; padding: 14px 16px; }
+.pStats .k { font-size: 0.78rem; font-weight: 600; color: var(--muted); }
+.pStats .v { font-size: 1.7rem; font-weight: 800; letter-spacing: -0.03em; }
+.pStats .s { font-size: 0.76rem; color: var(--muted); }
+.tlSeg { margin-top: 10px; flex-wrap: wrap; }
+.tl { list-style: none; padding: 0; margin: 14px 0 0; }
+.tl > li { display: grid; grid-template-columns: 5.6em minmax(0, 1fr); gap: 12px; border-top: 1px solid var(--hair); padding: 10px 0; align-items: baseline; }
+.tl .d { font-size: 0.82rem; color: var(--muted); }
+.tlItem { display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; text-align: left; color: var(--ink); font-size: 0.92rem; min-width: 0; }
+a.tlItem:hover { text-decoration: none; }
+button.tlItem:hover .tt, a.tlItem:hover .tt { text-decoration: underline; }
+.tlItem .tk { font-size: 0.72rem; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; min-width: 6.6em; }
+.tlItem .tt { flex: 1 1 220px; min-width: 0; overflow-wrap: break-word; }
+#pTlMore { margin: 12px auto 0; display: flex; }
+/* promessas */
+.prStats { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-top: 28px; }
+.prStats > div { background: var(--bg-alt); border-radius: 18px; padding: 12px 20px; text-align: center; min-width: 120px; }
+.prStats .v { font-size: 1.8rem; font-weight: 800; letter-spacing: -0.03em; }
+.prStats .k { font-size: 0.8rem; color: var(--muted); font-weight: 600; }
+#prSeg { flex-wrap: wrap; justify-content: center; }
+.prTema { margin-top: 44px; }
+.prItem { border-top: 1px solid var(--hair); padding: 14px 0; display: grid; gap: 6px; }
+.prTop { display: flex; gap: 12px; justify-content: space-between; align-items: baseline; }
+.prTop b { font-weight: 600; }
+.prItem .q { color: var(--muted); font-style: italic; }
+.sit { flex: none; font-size: 0.72rem; font-weight: 700; border-radius: 999px; padding: 2px 10px; background: var(--hair); white-space: nowrap; }
+.sit.em_andamento, .sit.parcial { background: var(--you-soft); color: var(--you); }
+.sit.cumprida { background: var(--pill); color: var(--pill-ink); }
+@media (max-width: 560px) { .prTop { flex-direction: column; gap: 4px; } }
+.vxList { margin: 10px 0 0; padding-left: 18px; font-size: 0.94rem; }
+.vxList li + li { margin-top: 6px; }
+button.lnk { color: var(--you); text-align: left; }
+button.lnk:hover { text-decoration: underline; }
+.vxAtt { margin-top: 16px; border-left: 3px solid var(--you); padding: 4px 0 4px 14px; font-size: 0.96rem; }
+.decList .t .sub { display: block; font-size: 0.8rem; color: var(--muted); margin-top: 2px; }
+.sheet .vxSheet h2.h3, .sheet .pHead h2.h3 { font-size: clamp(1.45rem, 4.6vw, 2.1rem); line-height: 1.15; }
+.sheet .close { box-shadow: 0 0 0 6px var(--bg); }
+@media (max-width: 520px) {
+  nav.tabs { width: 100%; margin-left: 0; justify-content: space-between; }
+  nav.tabs a { padding: 6px 8px; font-size: 0.82rem; }
+  .pStats { grid-template-columns: 1fr 1fr; }
+  .pStats .v { font-size: 1.4rem; }
+  .tlSeg button { padding: 7px 12px; font-size: 0.85rem; }
+}
+@media (max-width: 600px) { .subbar { position: static; } }
+@media (max-width: 380px) { nav.tabs a { padding: 6px 5px; font-size: 0.78rem; } }
 </style>
 
 <header class="nav">
@@ -886,19 +1037,15 @@ input, select, textarea { font-size: max(16px, 1em); }
       <span class="fdrWord"><span class="fdrA">Fora da</span> <span class="fdrB">Reta</span></span>
     </a>
     <nav class="tabs" aria-label="Se&#231;&#245;es">
-      <a href="#apuracao" data-go="apuracao">Apura&#231;&#227;o</a>
-      <a href="#noticias" data-go="noticias">Not&#237;cias</a>
-      <a href="#teste" data-go="teste">Teste</a>
-      <a href="#resultado" data-go="resultado">Resultado</a>
-      <a href="#candidatos" data-go="candidatos">Candidatos</a>
-      <a href="#congresso" data-go="congresso">Congresso</a>
-      <a href="#poder" data-go="poder">Poder</a>
-      <a href="#fenomenos" data-go="fenomenos">Fen&#244;menos</a>
-      <a href="#inicio" data-go="inicio" data-group="aprenda">Aprenda</a>
-      <a href="#checagem" data-go="checagem">Checagem</a>
+      <a href="#inicio" data-go="inicio" data-group="inicio">In&#237;cio</a>
+      <a href="#votacoes" data-go="votacoes" data-group="votacoes">Vota&#231;&#245;es</a>
+      <a href="#politicos" data-go="politicos" data-group="politicos">Pol&#237;ticos</a>
+      <a href="#noticias" data-go="noticias" data-group="noticias">Not&#237;cias</a>
+      <a href="#espectro" data-go="espectro" data-group="aprenda">Aprenda</a>
     </nav>
   </div>
 </header>
+<div class="subbar" id="subbar" hidden><div class="wrap"><nav class="subnav" id="subnav" aria-label="Nesta se&#231;&#227;o"></nav></div></div>
 
 <main>
 <!-- ================= APURA&#199;&#195;O ================= -->
@@ -1053,16 +1200,152 @@ input, select, textarea { font-size: max(16px, 1em); }
   </div>
 </section>
 
-<!-- ================= ENTENDA ================= -->
+<!-- ================= IN&#205;CIO (acompanhe) ================= -->
 <section class="view" id="v-inicio">
-  <div class="wrap"><nav class="subnav" aria-label="Aprenda"><a href="#inicio" data-go="inicio">O espectro</a><a href="#conceitos" data-go="conceitos">Conceitos</a><a href="#glossario" data-go="glossario">Gloss&#225;rio</a><a href="#partidos" data-go="partidos">Partidos</a><a href="#estudo" data-go="estudo">Estudo</a></nav></div>
+  <div class="wrap" style="padding-bottom:96px">
+    <div class="homeHero">
+      <p class="election" id="homePill"><i></i><span>Mandatos 2027&#8211;2030 &#183; acompanhamento cont&#237;nuo</span></p>
+      <h1 class="display">A elei&#231;&#227;o acabou.<br>A pol&#237;tica, n&#227;o.</h1>
+      <p class="lede">O que o Congresso decidiu, como votaram os seus representantes e o motivo de cada lado. Com fonte oficial, sem torcida.</p>
+      <div class="ufPick" id="homeUfBox">
+        <label for="homeUf" class="small muted">Seu estado</label>
+        <select id="homeUf" aria-label="Seu estado"></select>
+        <button class="pill" type="button" data-go="politicos">Ver meus representantes</button>
+      </div>
+    </div>
+
+    <div class="hsec">
+      <div class="hsecHead"><div><p class="eyebrow">Vota&#231;&#245;es explicadas</p><h2 class="h3">O que a manchete n&#227;o conta</h2></div><a class="more" href="#votacoes" data-go="votacoes">Todas</a></div>
+      <div class="vxGrid" id="homeVx"></div>
+    </div>
+
+    <div class="hsec">
+      <div class="hsecHead"><div><p class="eyebrow">&#218;ltimos 14 dias</p><h2 class="h3">O que o plen&#225;rio decidiu</h2></div><span class="small muted" id="semUpd"></span></div>
+      <ol class="decList" id="homeDec"></ol>
+      <button class="pill soft small" type="button" id="homeDecMore" hidden>Mostrar mais</button>
+      <div id="homePauta"></div>
+    </div>
+
+    <div class="hsec">
+      <div class="hsecHead"><div><p class="eyebrow">Not&#237;cias</p><h2 class="h3">Agora</h2></div><a class="more" href="#noticias" data-go="noticias">Todas</a></div>
+      <ol class="nwList nwCompact" id="homeNews"></ol>
+    </div>
+
+    <div class="hsec hcards">
+      <a class="hcard" href="#promessas" data-go="promessas"><span class="eyebrow">Promessas</span><b>O que foi prometido para 2027&#8211;2030</b><span class="muted small" id="homePromN">Do plano de governo registrado no TSE, com a situa&#231;&#227;o de cada item.</span></a>
+      <a class="hcard" href="#teste" data-go="teste"><span class="eyebrow">Teste</span><b>Onde voc&#234; est&#225; no mapa pol&#237;tico</b><span class="muted small">48 afirma&#231;&#245;es, cerca de 10 minutos.</span></a>
+      <a class="hcard" href="#eleicoes" data-go="eleicoes"><span class="eyebrow">Arquivo</span><b>Elei&#231;&#245;es 2026</b><span class="muted small">Resultado final, mapas e candidatos.</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= VOTA&#199;&#213;ES ================= -->
+<section class="view" id="v-votacoes" hidden>
+  <div class="wrap" style="padding-bottom:96px">
+    <div class="pageHead">
+      <p class="eyebrow">Vota&#231;&#245;es</p>
+      <h1 class="h2">Quem votou, como votou e por qu&#234;.</h1>
+      <p class="lede">Um t&#237;tulo bonito pode esconder um texto ruim, e um "n&#227;o" pode ter um motivo. Aqui cada vota&#231;&#227;o importante vem com o que o texto faz, quanto custa, os argumentos dos dois lados e a justificativa de cada partido.</p>
+    </div>
+    <div class="vxGrid" id="vxList" style="margin-top:36px"></div>
+    <div class="sec" style="padding-top:64px">
+      <p class="eyebrow">Dados abertos da C&#226;mara e do Senado</p>
+      <h2 class="h3">Todas as vota&#231;&#245;es nominais</h2>
+      <p class="small muted" id="allNote" style="margin-top:6px"></p>
+      <div class="toolbar">
+        <div class="seg" role="group" aria-label="Casa" id="allCasa"><button type="button" data-ac="" aria-pressed="true">Ambas</button><button type="button" data-ac="camara" aria-pressed="false">C&#226;mara</button><button type="button" data-ac="senado" aria-pressed="false">Senado</button></div>
+        <input id="allSearch" type="search" placeholder="Buscar por tema ou n&#250;mero (ex.: PEC 221, sal&#225;rio m&#237;nimo)" aria-label="Buscar vota&#231;&#227;o">
+      </div>
+      <ol class="decList" id="allList"></ol>
+      <button class="pill soft small" type="button" id="allMore" hidden>Mostrar mais</button>
+    </div>
+  </div>
+</section>
+
+<!-- ================= POL&#205;TICOS ================= -->
+<section class="view" id="v-politicos" hidden>
+  <div class="wrap" style="padding-bottom:96px">
+    <div class="pageHead">
+      <p class="eyebrow">Seus pol&#237;ticos</p>
+      <h1 class="h2">Quem representa voc&#234;.</h1>
+      <p class="lede">Escolha o estado e acompanhe cada um: como votou, o que prop&#244;s, o que disse no plen&#225;rio e o quanto concorda com voc&#234;.</p>
+    </div>
+    <div class="toolbar">
+      <select id="polUf" aria-label="Estado"></select>
+      <input id="polSearch" type="search" placeholder="Buscar qualquer parlamentar pelo nome" aria-label="Buscar parlamentar">
+    </div>
+    <div id="polBody"></div>
+  </div>
+</section>
+
+<!-- ================= PROMESSAS ================= -->
+<section class="view" id="v-promessas" hidden>
+  <div class="wrap" style="padding-bottom:96px">
+    <div class="pageHead">
+      <p class="eyebrow">Promessas &#183; Presid&#234;ncia 2027&#8211;2030</p>
+      <h1 class="h2">O que foi prometido, e o que foi feito.</h1>
+      <p class="lede" id="prIntro">Compromissos concretos do plano de governo registrado no TSE e de falas da campanha. A situa&#231;&#227;o de cada item &#233; atualizada com fonte.</p>
+    </div>
+    <div class="prStats" id="prStats"></div>
+    <div class="toolbar"><div class="seg" role="group" aria-label="Situa&#231;&#227;o" id="prSeg"></div></div>
+    <div id="prList"></div>
+  </div>
+</section>
+
+<!-- ================= ELEI&#199;&#213;ES 2026 (arquivo) ================= -->
+<section class="view" id="v-eleicoes" hidden>
+  <div class="wrap" style="padding-bottom:96px">
+    <div class="pageHead">
+      <p class="eyebrow">Arquivo</p>
+      <h1 class="h2">Elei&#231;&#245;es 2026.</h1>
+      <p class="lede" id="elResumo">O resultado final, os mapas da apura&#231;&#227;o e o perfil de cada candidato a presidente.</p>
+    </div>
+    <div class="hcards" style="margin-top:36px">
+      <a class="hcard" href="#apuracao" data-go="apuracao"><span class="eyebrow">Resultado</span><b>Apura&#231;&#227;o do 2&#186; turno</b><span class="muted small">Presidente e governadores, por estado e munic&#237;pio.</span></a>
+      <a class="hcard" href="#candidatos" data-go="candidatos"><span class="eyebrow">Candidatos</span><b>O que diziam e o que fizeram</b><span class="muted small">Os 12 candidatos a presidente, com fontes.</span></a>
+      <a class="hcard" href="#congresso" data-go="congresso"><span class="eyebrow">Congresso eleito</span><b>A nova C&#226;mara e o novo Senado</b><span class="muted small">Cadeiras por partido para 2027&#8211;2031.</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= M&#201;TODO ================= -->
+<section class="view" id="v-metodo" hidden>
+  <div class="wrap narrow" style="padding-bottom:96px">
+    <div class="pageHead">
+      <p class="eyebrow">M&#233;todo</p>
+      <h1 class="h2">Como trabalhamos.</h1>
+      <p class="lede">Informar sem torcer. Estas s&#227;o as regras que valem para todas as p&#225;ginas.</p>
+    </div>
+    <div class="prose" style="margin-top:32px">
+      <h3>1. Mesmo formato para todos</h3>
+      <p>Todo pol&#237;tico e todo partido aparece com a mesma estrutura, os mesmos campos e o mesmo n&#237;vel de detalhe. Ningu&#233;m ganha uma ficha mais longa ou mais curta por simpatia.</p>
+      <h3>2. Os dois lados, na melhor vers&#227;o de cada um</h3>
+      <p>Nas vota&#231;&#245;es explicadas, os argumentos a favor e contra s&#227;o escritos como os pr&#243;prios defensores os apresentaram, atribu&#237;dos a quem os disse e com a fonte.</p>
+      <h3>3. Nunca inventamos o motivo de ningu&#233;m</h3>
+      <p>A justificativa de um voto s&#243; aparece quando existe registro: discurso em plen&#225;rio, encaminhamento do l&#237;der do partido, declara&#231;&#227;o de voto ou nota oficial. Quando n&#227;o h&#225; registro, a p&#225;gina diz "sem justificativa registrada".</p>
+      <h3>4. Crit&#233;rio objetivo para escolher o que explicar</h3>
+      <p>Escolhemos vota&#231;&#245;es por crit&#233;rios fixos: propostas de emenda &#224; Constitui&#231;&#227;o, medidas provis&#243;rias, leis complementares, projetos com urg&#234;ncia e grande repercuss&#227;o e placares apertados. Todas as vota&#231;&#245;es nominais, explicadas ou n&#227;o, aparecem na lista completa.</p>
+      <h3>5. Fato, argumento e an&#225;lise separados</h3>
+      <p>O resultado e os votos v&#234;m dos dados abertos da C&#226;mara e do Senado, atualizados automaticamente. Os resumos s&#227;o escritos a partir das fontes indicadas em cada item e marcados como resumo. Estimativas de custo v&#234;m de &#243;rg&#227;os t&#233;cnicos, com o nome de quem estimou.</p>
+      <h3>6. Fontes prim&#225;rias primeiro</h3>
+      <p>C&#226;mara, Senado, TSE, Di&#225;rio Oficial e &#243;rg&#227;os t&#233;cnicos v&#234;m antes da imprensa. Quando usamos imprensa, procuramos ve&#237;culos de linhas editoriais diferentes. N&#227;o usamos Wikip&#233;dia.</p>
+      <h3>7. Erros s&#227;o corrigidos &#224; vista</h3>
+      <p>Quando algo estiver errado, corrigimos e registramos a data da corre&#231;&#227;o no pr&#243;prio item.</p>
+      <h3>O que os n&#250;meros querem dizer</h3>
+      <p><b>Vota&#231;&#245;es nominais</b>: quantas vezes o parlamentar registrou voto em vota&#231;&#245;es nominais de plen&#225;rio desde fevereiro de 2025. N&#227;o medimos presen&#231;a, porque licen&#231;as e miss&#245;es oficiais n&#227;o aparecem de forma uniforme nos dados. <b>Com o governo</b>: em quantas vota&#231;&#245;es votou igual &#224; orienta&#231;&#227;o do l&#237;der do governo, quando houve orienta&#231;&#227;o. <b>Com o pr&#243;prio partido</b>: a mesma conta com a orienta&#231;&#227;o do l&#237;der do partido ou da federa&#231;&#227;o. <b>Concorda com voc&#234;</b>: nas vota&#231;&#245;es explicadas em que voc&#234; respondeu "sim" ou "n&#227;o", em quantas o parlamentar votou igual. Absten&#231;&#245;es e aus&#234;ncias n&#227;o entram na conta.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ENTENDA ================= -->
+<section class="view" id="v-espectro" hidden>
   <div class="hero wrap">
-    <p class="election" id="electionPill"><i></i><span>Elei&#231;&#245;es 2026 &#183; 2&#186; turno em 25 de outubro</span></p>
+    <p class="election" id="electionPill"><i></i><span>O espectro pol&#237;tico</span></p>
     <h1 class="display">Pol&#237;tica n&#227;o &#233; uma reta.</h1>
     <p class="lede">Ou voc&#234; &#233; de esquerda ou &#233; de direita. Ou &#233; Lula ou &#233; Bolsonaro. A polariza&#231;&#227;o encaixa as pessoas em duas caixas a partir de uma frase. <b>Aqui, cada posi&#231;&#227;o &#233; medida por conceitos e por fatos, e n&#227;o por r&#243;tulos.</b></p>
     <div class="actions">
       <button class="pill" type="button" data-go="teste" id="startBtn">Fazer o teste</button>
-      <button class="pill soft" type="button" data-go="apuracao">Acompanhar a apura&#231;&#227;o</button>
+      <button class="pill soft" type="button" data-go="votacoes">Ver as vota&#231;&#245;es</button>
       <a class="more" href="#entenda" id="learnLink">Entender o espectro</a>
     </div>
     <div class="heroStage">
@@ -1225,8 +1508,8 @@ input, select, textarea { font-size: max(16px, 1em); }
     <p class="nwStatus" id="nwStatus"><i></i><span>Carregando&#8230;</span></p>
     <div class="nwFilters">
       <div class="seg" role="group" aria-label="Assunto" id="nwTopic">
-        <button type="button" data-nwt="e" aria-pressed="true">Elei&#231;&#245;es</button>
-        <button type="button" data-nwt="p" aria-pressed="false">Toda a pol&#237;tica</button>
+        <button type="button" data-nwt="p" aria-pressed="true">Toda a pol&#237;tica</button>
+        <button type="button" data-nwt="e" aria-pressed="false">Elei&#231;&#245;es</button>
       </div>
       <div class="nwSources" id="nwSources" role="group" aria-label="Ve&#237;culo"></div>
     </div>
@@ -1401,7 +1684,6 @@ input, select, textarea { font-size: max(16px, 1em); }
 <!-- ================= PARTIDOS ================= -->
 <section class="view" id="v-partidos" hidden>
   <div class="wrap">
-    <nav class="subnav" aria-label="Aprenda"><a href="#inicio" data-go="inicio">O espectro</a><a href="#conceitos" data-go="conceitos">Conceitos</a><a href="#glossario" data-go="glossario">Gloss&#225;rio</a><a href="#partidos" data-go="partidos">Partidos</a><a href="#estudo" data-go="estudo">Estudo</a></nav>
     <div class="pageHead">
       <p class="eyebrow">Congresso</p>
       <h1 class="h2">Os partidos.</h1>
@@ -1414,7 +1696,6 @@ input, select, textarea { font-size: max(16px, 1em); }
 <!-- ================= CONCEITOS ================= -->
 <section class="view" id="v-conceitos" hidden>
   <div class="wrap" style="padding-bottom:80px">
-    <nav class="subnav" aria-label="Aprenda"><a href="#inicio" data-go="inicio">O espectro</a><a href="#conceitos" data-go="conceitos">Conceitos</a><a href="#glossario" data-go="glossario">Gloss&#225;rio</a><a href="#partidos" data-go="partidos">Partidos</a><a href="#estudo" data-go="estudo">Estudo</a></nav>
     <div class="pageHead">
       <p class="eyebrow">Conceitos</p>
       <h1 class="h2">As palavras certas para cada coisa.</h1>
@@ -1484,7 +1765,6 @@ input, select, textarea { font-size: max(16px, 1em); }
 <!-- ================= ESTUDO ================= -->
 <section class="view" id="v-estudo" hidden>
   <div class="wrap">
-    <nav class="subnav" aria-label="Aprenda"><a href="#inicio" data-go="inicio">O espectro</a><a href="#conceitos" data-go="conceitos">Conceitos</a><a href="#glossario" data-go="glossario">Gloss&#225;rio</a><a href="#partidos" data-go="partidos">Partidos</a><a href="#estudo" data-go="estudo">Estudo</a></nav>
     <div class="pageHead">
       <p class="eyebrow">Estudo</p>
       <h1 class="h2">O que a pesquisa diz sobre esquerda e direita no Brasil.</h1>
@@ -1576,7 +1856,6 @@ input, select, textarea { font-size: max(16px, 1em); }
 <!-- ================= GLOSS&#193;RIO ================= -->
 <section class="view" id="v-glossario" hidden>
   <div class="wrap" style="padding-bottom:96px">
-    <nav class="subnav" aria-label="Aprenda"><a href="#inicio" data-go="inicio">O espectro</a><a href="#conceitos" data-go="conceitos">Conceitos</a><a href="#glossario" data-go="glossario">Gloss&#225;rio</a><a href="#partidos" data-go="partidos">Partidos</a><a href="#estudo" data-go="estudo">Estudo</a></nav>
     <div class="pageHead">
       <p class="eyebrow">Gloss&#225;rio</p>
       <h1 class="h2">As palavras da pol&#237;tica, sem juridiqu&#234;s.</h1>
@@ -1631,6 +1910,7 @@ input, select, textarea { font-size: max(16px, 1em); }
   <div class="wrap">
     <p id="footUpdated">Dados atualizados em &#8212;</p>
     <p>Fora da Reta n&#227;o tem v&#237;nculo com partidos, candidatos ou campanhas. As posi&#231;&#245;es atribu&#237;das a candidatos e partidos s&#227;o leituras de fontes p&#250;blicas indicadas em cada item e podem conter erros. Suas respostas ficam apenas no seu navegador. O site conta visitas de forma an&#244;nima, sem cookies e sem identificar ningu&#233;m.</p>
+    <p><a href="#metodo" data-go="metodo">M&#233;todo e imparcialidade</a> &#183; <a href="#checagem" data-go="checagem">Como checar uma informa&#231;&#227;o</a></p>
   </div>
 </footer>
 
@@ -1639,7 +1919,16 @@ input, select, textarea { font-size: max(16px, 1em); }
   "use strict";
   var D = null, Q = [], answers = {}, imp = {}, cur = 0, busy = false;
   var SHARE_BASE = /foradareta\.com\.br$|github\.io$/.test(location.hostname) ? location.origin + location.pathname : "https://foradareta.com.br/";
-  var VIEWS = ["apuracao", "noticias", "congresso", "poder", "fenomenos", "glossario", "inicio", "teste", "resultado", "candidatos", "partidos", "conceitos", "estudo", "checagem"];
+  var VIEWS = ["inicio", "votacoes", "politicos", "promessas", "noticias", "espectro", "apuracao", "congresso", "poder", "fenomenos", "glossario", "teste", "resultado", "candidatos", "partidos", "conceitos", "estudo", "checagem", "eleicoes", "metodo"];
+  // menu enxuto: 5 abas; cada aba agrupa suas p\u00e1ginas num submenu
+  var GROUPS = {
+    inicio: { views: ["inicio"] },
+    votacoes: { views: ["votacoes"] },
+    politicos: { views: ["politicos", "promessas", "congresso", "poder"], sub: [["politicos", "Seus representantes"], ["promessas", "Promessas"], ["poder", "Conex\u00f5es de poder"]] },
+    noticias: { views: ["noticias"] },
+    aprenda: { views: ["espectro", "teste", "resultado", "conceitos", "glossario", "partidos", "fenomenos", "estudo", "checagem", "eleicoes", "apuracao", "candidatos", "metodo"], sub: [["teste", "Teste"], ["espectro", "O espectro"], ["conceitos", "Conceitos"], ["glossario", "Gloss\u00e1rio"], ["partidos", "Partidos"], ["fenomenos", "Fen\u00f4menos"], ["checagem", "Checagem"], ["eleicoes", "Elei\u00e7\u00f5es 2026"]] }
+  };
+  function groupOf(v) { for (var g in GROUPS) if (GROUPS[g].views.indexOf(v) >= 0) return g; return "inicio"; }
   var CONF_W = { alta: 1, media: 0.75, "m\u00e9dia": 0.75, baixa: 0.5 };
   var LIKERT = { "-2": "Discorda totalmente", "-1": "Discorda", "0": "Neutro", "1": "Concorda", "2": "Concorda totalmente" };
   var LIKERT_EU = { "-2": "Discordo totalmente", "-1": "Discordo", "0": "Neutro", "1": "Concordo", "2": "Concordo totalmente" };
@@ -1819,14 +2108,19 @@ input, select, textarea { font-size: max(16px, 1em); }
   function show(view, keepScroll) {
     if (VIEWS.indexOf(view) < 0) view = "inicio";
     VIEWS.forEach(function (v) { var el = $("v-" + v); var on = v === view; if (on && el.hidden) { el.hidden = false; el.style.animation = "none"; void el.offsetWidth; el.style.animation = ""; } else el.hidden = !on; });
-    var APR = ["inicio", "conceitos", "glossario", "partidos", "estudo"];
-    document.querySelectorAll("nav.tabs a").forEach(function (a) { a.setAttribute("aria-current", (a.dataset.go === view || (a.dataset.group === "aprenda" && APR.indexOf(view) >= 0)) ? "page" : "false"); });
-    document.querySelectorAll("nav.subnav a").forEach(function (a) { a.setAttribute("aria-current", a.dataset.go === view ? "page" : "false"); });
+    var grp = groupOf(view), G = GROUPS[grp];
+    document.querySelectorAll("nav.tabs a").forEach(function (a) { a.setAttribute("aria-current", a.dataset.group === grp ? "page" : "false"); });
+    $("subbar").hidden = !G.sub;
+    if (G.sub) {
+      var subCur = view === "resultado" ? "teste" : (view === "apuracao" || view === "candidatos") ? "eleicoes" : view === "estudo" ? "espectro" : view === "congresso" ? "politicos" : view;
+      $("subnav").innerHTML = G.sub.map(function (it) { return '<a href="#' + it[0] + '" data-go="' + it[0] + '" aria-current="' + (it[0] === subCur ? "page" : "false") + '">' + it[1] + "</a>"; }).join("");
+    }
     if (view === "resultado") renderResult();
     if (view === "teste") renderQ();
     if (view === "candidatos") renderCandGrid();
     if (view === "partidos") renderParties();
-    if (view === "inicio") drawGapChart();
+    if (view === "espectro") drawGapChart();
+    if (ACP && ACP[view]) ACP[view]();
     if (view === "apuracao") { AP.init(HOT); AP.render(); }
     if (view === "noticias") NW.show();
     if (view === "congresso") renderCongresso();
@@ -2637,7 +2931,7 @@ input, select, textarea { font-size: max(16px, 1em); }
 
   /* ---------- not\u00edcias em tempo real (manchetes coletadas dos feeds p\u00fablicos a cada poucos minutos) ---------- */
   var NW = (function () {
-    var S = { data: null, topic: "e", src: null, seen: null, timer: null, shownAt: 0 };
+    var S = { data: null, topic: "p", src: null, seen: null, timer: null, shownAt: 0 };
     try { S.seen = localStorage.getItem("fdr.nwSeen"); } catch (e) {}
     function quando(iso) {
       var d = new Date(iso), m = Math.round((Date.now() - d.getTime()) / 60000);
@@ -3561,7 +3855,7 @@ input, select, textarea { font-size: max(16px, 1em); }
     }
     var fastBusy = false;
     function fastCheck() {
-      if (fastBusy || A.direct === false || !A.started || Date.now() < START - 60000 || Date.now() < (A.backoff || 0)) return;
+      if (ARQ || fastBusy || A.direct === false || !A.started || Date.now() < START - 60000 || Date.now() < (A.backoff || 0)) return;
       fastBusy = true;
       // no modo governador, confere tamb\u00e9m o arquivo do estado escolhido
       var gUf = govMode() ? A.gov : null;
@@ -3571,12 +3865,14 @@ input, select, textarea { font-size: max(16px, 1em); }
         if (!cur || b.s.a !== cur.s.a || b.ht !== cur.ht || (g && gc && (g.s.a !== gc.s.a || g.ht !== gc.ht))) return pull();
       }).catch(function () {}).then(function () { fastBusy = false; });
     }
+    // depois do 2\u00ba turno a p\u00e1gina vira arquivo: l\u00ea s\u00f3 o resultado final publicado junto do site
+    var ARQ = Date.now() > Date.UTC(2026, 9, 26, 12);
     function pullFile() { return fetch("apuracao.json?t=" + Date.now(), { cache: "no-store" }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }); }
     function pull() {
       // se a leitura direta falhou, tenta de novo depois de 1 min (n\u00e3o fica preso no arquivo de reserva)
       if (A.direct === false && Date.now() - (A.directFail || 0) > 60000 && Date.now() >= (A.backoff || 0)) A.direct = undefined;
       if (Date.now() < (A.backoff || 0) && A.live && A.live.direto) return Promise.resolve();
-      var src = A.direct === false ? pullFile() : pullDirect().then(function (j) { A.direct = true; return j; }, function () { A.direct = false; A.directFail = Date.now(); return pullFile(); });
+      var src = ARQ || A.direct === false ? pullFile() : pullDirect().then(function (j) { A.direct = true; return j; }, function () { A.direct = false; A.directFail = Date.now(); return pullFile(); });
       A.lastCheck = Date.now();
       return src.then(function (j) {
         // o hist\u00f3rico publicado junto do site (mais completo) prevalece quando existir
@@ -3602,11 +3898,383 @@ input, select, textarea { font-size: max(16px, 1em); }
       // busca na hora todos os estados e os governadores. Mesmo sem mudan\u00e7a, faz a leitura completa a cada 60 s.
       // Se o TSE pedir calma (erro 429), espera 45 s antes de voltar a consultar.
       setInterval(function () { if (!document.hidden) fastCheck(); }, 5000);
-      setInterval(function () { if (!document.hidden) pull(); }, 60000);
-      document.addEventListener("visibilitychange", function () { if (!document.hidden) pull(); });
+      setInterval(function () { if (!document.hidden && !ARQ) pull(); }, 60000);
+      document.addEventListener("visibilitychange", function () { if (!document.hidden && !ARQ) pull(); });
       setInterval(renderHeader, 30000);
     }
     return { init: function (h) { init(h); setTab(A.tab); }, render: render, state: function () { return { turno: A.turnoAuto ? null : A.turno, mode: A.mode, uf: A.uf, aptab: A.tab, gov: A.gov }; } };
+  })();
+
+  /* ---------------- acompanhamento: in\u00edcio, vota\u00e7\u00f5es, pol\u00edticos, promessas ---------------- */
+  var ACP = (function () {
+    var P = {}, DEEP = location.hash;
+    var VLBL = { S: "Sim", N: "N\u00e3o", A: "Absten\u00e7\u00e3o", O: "Obstru\u00e7\u00e3o", P: "Presidiu", X: "N\u00e3o votou" };
+    var CASA = { camara: "C\u00e2mara", senado: "Senado" };
+    var UFS = Object.keys(UFN2).sort(function (a, b) { return UFN2[a].localeCompare(UFN2[b]); });
+    var MERITO = /Requerimento|Destaque|adiamento|Encerramento|retirada de pauta|Reda\u00e7\u00e3o Final|pressupostos/i;
+
+    function J(u) { return fetch(u, { cache: "no-cache" }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }); }
+    function get(k, u, fallback) {
+      if (!P[k]) P[k] = J(u).catch(function () { P[k] = null; return fallback; });
+      return P[k];
+    }
+    function idx() { return get("idx", "pol/index.json", { votacoes: [] }); }
+    function parl() { return get("parl", "pol/parlamentares.json", { c: [], s: [] }); }
+    function sem() { return get("sem", "pol/semana.json", { decisoes: [], pauta: [] }); }
+    function exp() { return get("exp", "explicadas.json", { fichas: [] }); }
+    function prom() { return get("prom", "promessas.json", { itens: [] }); }
+    function eleitos() { return get("ele", "pol/eleitos2026.json", { por_uf: {} }); }
+    function vfile(vid) { return get("v" + vid, "pol/v/" + vid + ".json", { votos: [] }); }
+    function pfile(pid) { return get("p" + pid, "pol/p/" + pid + ".json", null); }
+
+    function uf() { var u = load("fdr.uf"); return u && UFN2[u] ? u : null; }
+    function setUf(u) { store("fdr.uf", u); }
+    function ufOptions(sel, withBlank) {
+      if (sel.options.length) { sel.value = uf() || ""; return; }
+      sel.innerHTML = (withBlank ? '<option value="">Escolha\u2026</option>' : "") + UFS.map(function (u) { return '<option value="' + u + '">' + UFN2[u] + "</option>"; }).join("");
+      sel.value = uf() || (withBlank ? "" : "sp");
+    }
+    function answers() { return load("fdr.vi") || {}; }
+    function dataBR(s) { if (!s) return ""; var p = String(s).slice(0, 10).split("-"); return p.length === 3 ? p[2] + "/" + p[1] + "/" + p[0] : s; }
+    function placarTxt(p) { if (!p) return ""; var t = p.S + " sim \u00b7 " + p.N + " n\u00e3o"; if (p.A) t += " \u00b7 " + p.A + " abst."; if (p.O) t += " \u00b7 " + p.O + " obstr."; return t; }
+    function resChip(aprov) { return aprov == null ? "" : '<span class="rchip ' + (aprov ? "ok" : "no") + '">' + (aprov ? "Aprovada" : "Rejeitada") + "</span>"; }
+    function vchip(c) { return '<span class="vchip v' + c + '">' + VLBL[c] + "</span>"; }
+    function photo(pid) {
+      var n = String(pid).slice(1);
+      return pid[0] === "c" ? "https://www.camara.leg.br/internet/deputado/bandep/" + n + ".jpg" : "https://legis.senado.leg.br/senadores/fotos-oficiais/" + n;
+    }
+    function perfilUrl(pid) {
+      var n = String(pid).slice(1);
+      return pid[0] === "c" ? "https://www.camara.leg.br/deputados/" + n : "https://www25.senado.leg.br/web/senadores/senador/-/perfil/" + n;
+    }
+    function propUrl(v) {
+      if (!v.prop || !v.prop.id) return null;
+      return v.casa === "camara" ? "https://www.camara.leg.br/propostas-legislativas/" + v.prop.id : "https://www25.senado.leg.br/web/atividade/materias/-/materia/" + v.prop.id;
+    }
+    function titleOf(v, f) {
+      if (f) return f.titulo;
+      var s = v.prop ? v.prop.sigla + ": " + (v.prop.ementa || "") : v.desc;
+      return s.length > 170 ? s.slice(0, 169).replace(/\s\S*$/, "") + "\u2026" : s;
+    }
+    function fichaOf(E, vid) { return (E.fichas || []).filter(function (f) { return f.id === vid; })[0] || null; }
+    function srcA(u, label) { return u ? " " + link(u, label) : ""; }
+    // partido do parlamentar dentro da sigla do bloco ("Fdr PT-PCdoB-PV" cont\u00e9m PT)
+    function oriDoPartido(ori, partido) {
+      if (!ori || !partido) return null;
+      var P1 = String(partido).toUpperCase();
+      for (var k in ori) {
+        var toks = k.toUpperCase().replace(/^(FDR|BL)\s+/, "").split(/[^A-Z0-9\u00c7\u00c3\u00d5\u00c1\u00c9\u00cd\u00d3\u00da\u00c2\u00ca\u00d4]+/);
+        if (k.toUpperCase() === P1 || toks.indexOf(P1) >= 0) return ori[k];
+      }
+      return null;
+    }
+    function oriCod(t) { t = (t || "").toLowerCase(); return t.indexOf("sim") === 0 ? "S" : t.indexOf("n\u00e3o") === 0 || t.indexOf("nao") === 0 ? "N" : t.indexOf("obstr") === 0 ? "O" : t.indexOf("abst") === 0 ? "A" : null; }
+
+    /* ---------- cart\u00f5es ---------- */
+    function vxCard(f, V) {
+      var v = V[f.id] || {}, a = answers()[f.id];
+      return '<button class="vxCard" type="button" data-vot="' + esc(f.id) + '"><span class="eyebrow">' + esc(CASA[f.casa] || "") + " \u00b7 " + esc(dataBR(f.data)) + " \u00b7 " + esc(f.proposicao || "") + "</span>" +
+        "<b>" + esc(f.titulo) + "</b>" +
+        (f.manchete && f.manchete.texto ? '<span class="vxHead">Manchete: \u201c' + esc(f.manchete.texto) + "\u201d</span>" : "") +
+        '<span class="vxFoot">' + resChip(v.aprov != null ? v.aprov : f.aprovada) + ((v.placar || f.placar) ? '<span class="small muted tab">' + placarTxt(v.placar || f.placar) + "</span>" : "") + (a && a !== "?" ? '<span class="small you">Voc\u00ea: ' + VLBL[a].toLowerCase() + "</span>" : "") + "</span></button>";
+    }
+    function decItem(d, E) {
+      var f = d.vid ? fichaOf(E, d.vid) : null;
+      var tag = f ? '<span class="xtag">Explicada</span>' : "";
+      // o que \u00e9 a proposta (ementa) em primeiro lugar; a descri\u00e7\u00e3o t\u00e9cnica da vota\u00e7\u00e3o fica embaixo, menor
+      var em = d.prop && d.prop.ementa ? curtoJ(d.prop.ementa, 190) : null;
+      var body = '<span class="d tab">' + dataBR(d.data) + '</span><span class="c">' + esc(CASA[d.casa]) + '</span><span class="t">' + (d.prop && d.prop.sigla ? "<b>" + esc(d.prop.sigla) + "</b> " : "") + esc(f ? f.titulo : em || d.desc) + " " + tag + (!f && em && d.desc ? '<span class="sub">' + esc(curtoJ(d.desc, 160)) + "</span>" : "") + "</span>" + resChip(d.aprov);
+      return d.vid ? '<li><button type="button" data-vot="' + esc(d.vid) + '">' + body + "</button></li>" : "<li><div>" + body + "</div></li>";
+    }
+
+    /* ---------- in\u00edcio ---------- */
+    var homeDecAll = false;
+    function inicio() {
+      if (DEEP) { var m = DEEP.match(/^#(votacao|pessoa)-([cs][\w-]+)$/); DEEP = null; if (m) { if (m[1] === "votacao") { show("votacoes"); openVot(m[2]); } else { show("politicos"); openPessoa(m[2]); } return; } }
+      ufOptions($("homeUf"), true);
+      // a p\u00e1gina inicial n\u00e3o carrega a lista completa de vota\u00e7\u00f5es (arquivo grande): a ficha j\u00e1 traz o placar
+      exp().then(function (E) {
+        var V = {};
+        var fs = (E.fichas || []).slice().sort(function (a, b) { return String(b.data).localeCompare(String(a.data)); }).slice(0, 3);
+        $("homeVx").innerHTML = fs.length ? fs.map(function (f) { return vxCard(f, V); }).join("") : '<p class="muted small">As primeiras vota\u00e7\u00f5es explicadas aparecem aqui em breve.</p>';
+      });
+      Promise.all([sem(), exp()]).then(function (r) {
+        var S = r[0], E = r[1], ds = S.decisoes || [];
+        $("semUpd").textContent = S.atualizado ? "Atualizado em " + dataBR(S.atualizado) : "";
+        $("homeDec").innerHTML = ds.length ? ds.slice(0, homeDecAll ? 40 : 6).map(function (d) { return decItem(d, E); }).join("") : '<li class="muted small">Nenhuma decis\u00e3o de plen\u00e1rio nos \u00faltimos 14 dias.</li>';
+        $("homeDecMore").hidden = homeDecAll || ds.length <= 6;
+        var pa = (S.pauta || []).filter(function (p) { return p.itens && p.itens.length; })[0];
+        $("homePauta").innerHTML = pa ? '<div class="pautaBox"><p class="k">Na pauta da C\u00e2mara \u00b7 ' + esc(dataBR(pa.data)) + " " + esc(pa.data.slice(11, 16)) + '</p><ul>' + pa.itens.slice(0, 6).map(function (i) { return "<li>" + esc(i) + "</li>"; }).join("") + "</ul></div>" : "";
+      });
+      get("news", "noticias.json", { itens: [] }).then(function (N) {
+        $("homeNews").innerHTML = (N.itens || []).slice(0, 6).map(function (x) {
+          return '<li class="nwItem"><a href="' + esc(safeUrl(x.u) || "#") + '" target="_blank" rel="noopener"><span class="nwMeta"><b>' + esc(x.f) + "</b>" + esc(dataBR(x.d)) + " " + esc(String(x.d || "").slice(11, 16) ? new Date(x.d).toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit" }) : "") + '</span><span class="nwTitle">' + esc(x.t) + "</span></a></li>";
+        }).join("") || '<li class="muted small">Sem not\u00edcias no momento.</li>';
+      });
+      prom().then(function (Pr) { var n = (Pr.itens || []).length; if (n) $("homePromN").textContent = n + " compromissos acompanhados, com a situa\u00e7\u00e3o e a fonte de cada um."; });
+    }
+    function curtoJ(s, n) { s = String(s || ""); return s.length <= n ? s : s.slice(0, n - 1).replace(/\s\S*$/, "") + "\u2026"; }
+    function byId(I) { var m = {}; (I.votacoes || []).forEach(function (v) { m[v.id] = v; }); return m; }
+
+    /* ---------- vota\u00e7\u00f5es ---------- */
+    var AL = { casa: "", q: "", n: 30 };
+    function votacoes() {
+      Promise.all([exp(), idx()]).then(function (r) {
+        var E = r[0], I = r[1], V = byId(I);
+        var fs = (E.fichas || []).slice().sort(function (a, b) { return String(b.data).localeCompare(String(a.data)); });
+        $("vxList").innerHTML = fs.map(function (f) { return vxCard(f, V); }).join("") || '<p class="muted">Em prepara\u00e7\u00e3o.</p>';
+        renderAll(I, E);
+      });
+    }
+    function norm(s) { return String(s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, ""); }
+    function renderAll(I, E) {
+      var q = norm(AL.q).replace(/\s+/g, " ").trim();
+      var L = (I.votacoes || []).filter(function (v) {
+        if (AL.casa && v.casa !== AL.casa) return false;
+        if (!q) return true;
+        var f = fichaOf(E, v.id);
+        return norm((v.prop ? v.prop.sigla + " " + v.prop.ementa : "") + " " + v.desc + " " + (f ? f.titulo : "")).replace(/\s+/g, " ").indexOf(q) >= 0;
+      });
+      $("allNote").textContent = (I.votacoes || []).length + " vota\u00e7\u00f5es nominais de plen\u00e1rio desde fevereiro de 2025" + (I.atualizado ? " \u00b7 atualizado em " + dataBR(I.atualizado) : "") + ".";
+      $("allList").innerHTML = L.slice(0, AL.n).map(function (v) {
+        return decItem({ casa: v.casa, data: v.data, desc: v.desc, aprov: v.aprov, vid: v.id, prop: v.prop }, E);
+      }).join("") || '<li class="muted small">Nada encontrado.</li>';
+      $("allMore").hidden = L.length <= AL.n;
+    }
+    $("allCasa").addEventListener("click", function (ev) { var b = ev.target.closest("[data-ac]"); if (!b) return; AL.casa = b.dataset.ac; AL.n = 30; segSet($("allCasa"), "ac", AL.casa); Promise.all([idx(), exp()]).then(function (r) { renderAll(r[0], r[1]); }); });
+    $("allSearch").addEventListener("input", function () { AL.q = this.value; AL.n = 30; Promise.all([idx(), exp()]).then(function (r) { renderAll(r[0], r[1]); }); });
+    $("allMore").addEventListener("click", function () { AL.n += 30; Promise.all([idx(), exp()]).then(function (r) { renderAll(r[0], r[1]); }); });
+    $("homeDecMore").addEventListener("click", function () { homeDecAll = true; inicio(); });
+    $("homeUf").addEventListener("change", function () { if (this.value) setUf(this.value); });
+    document.addEventListener("click", function (ev) {
+      var b = ev.target.closest("[data-vot]"); if (b) { ev.preventDefault(); openVot(b.dataset.vot); return; }
+      var p = ev.target.closest("[data-pes]"); if (p) { ev.preventDefault(); openPessoa(p.dataset.pes); return; }
+      var a = ev.target.closest("[data-vi]"); if (a) { var s = answers(); s[a.dataset.vid] = a.dataset.vi; store("fdr.vi", s); openVot(a.dataset.vid, true); }
+    });
+
+    function porPartido(vs) {
+      var m = {};
+      vs.forEach(function (r) { var k = r[2] || "\u2014"; var o = m[k] || (m[k] = { S: 0, N: 0, out: 0 }); if (r[4] === "S") o.S++; else if (r[4] === "N") o.N++; else o.out++; });
+      return Object.keys(m).map(function (k) { return { p: k, c: m[k], t: m[k].S + m[k].N + m[k].out }; }).sort(function (a, b) { return b.t - a.t; });
+    }
+    function partyBars(vs) {
+      return '<div class="ppBars">' + porPartido(vs).map(function (x) {
+        var t = x.t || 1;
+        return '<div class="ppRow"><span class="pp">' + esc(x.p) + '</span><span class="ppBar"><i class="s" style="width:' + (100 * x.c.S / t).toFixed(1) + '%"></i><i class="n" style="width:' + (100 * x.c.N / t).toFixed(1) + '%"></i></span><span class="small muted tab">' + x.c.S + " sim \u00b7 " + x.c.N + " n\u00e3o" + (x.c.out ? " \u00b7 " + x.c.out + " outro" + (x.c.out > 1 ? "s" : "") : "") + "</span></div>";
+      }).join("") + '</div><p class="small muted ppLeg"><i class="s"></i> Sim <i class="n"></i> N\u00e3o <span>\u201cOutros\u201d: absten\u00e7\u00e3o, obstru\u00e7\u00e3o ou presid\u00eancia da sess\u00e3o.</span></p>';
+    }
+    function myReps(vs, casa, vid) {
+      var u = uf(); if (!u) return '<p class="small muted">Escolha seu estado em <a href="#politicos" data-go="politicos">Pol\u00edticos</a> para ver aqui como votaram os seus representantes.</p>';
+      var mine = vs.filter(function (r) { return String(r[3]).toLowerCase() === u; });
+      var a = answers()[vid];
+      if (!mine.length) return '<p class="small muted">Nenhum parlamentar de ' + esc(UFN2[u]) + " registrou voto nesta vota\u00e7\u00e3o.</p>";
+      return '<p class="small muted">' + esc(UFN2[u]) + " \u00b7 " + mine.length + (casa === "senado" ? " senadores" : " deputados") + ' que registraram voto. <a href="#" data-chuf="1">Trocar estado</a></p><ul class="repVotes">' + mine.sort(function (x, y) { return String(x[1]).localeCompare(String(y[1])); }).map(function (r) {
+        var agree = a === "S" || a === "N" ? (r[4] === a ? '<span class="agree y">igual a voc\u00ea</span>' : r[4] === "S" || r[4] === "N" ? '<span class="agree n">diferente de voc\u00ea</span>' : "") : "";
+        return '<li><button type="button" data-pes="' + (casa === "senado" ? "s" : "c") + r[0] + '"><span>' + esc(r[1]) + ' <span class="muted small">' + esc(r[2] || "") + "</span></span>" + vchip(r[4]) + agree + "</button></li>";
+      }).join("") + "</ul>";
+    }
+    function allVotes(vs, casa) {
+      return '<details class="allVotes"><summary>Ver o voto de cada um (' + vs.length + ')</summary><input type="search" class="avSearch" placeholder="Buscar nome, partido ou UF" aria-label="Buscar parlamentar nesta vota\u00e7\u00e3o"><ul class="repVotes">' +
+        vs.slice().sort(function (x, y) { return String(x[1]).localeCompare(String(y[1])); }).map(function (r) {
+          return '<li data-k="' + esc(norm(r[1] + " " + r[2] + " " + r[3])) + '"><button type="button" data-pes="' + (casa === "senado" ? "s" : "c") + r[0] + '"><span>' + esc(r[1]) + ' <span class="muted small">' + esc((r[2] || "") + "-" + (r[3] || "")) + "</span></span>" + vchip(r[4]) + "</button></li>";
+        }).join("") + "</ul></details>";
+    }
+    function oriBlock(v, f) {
+      var rows = [];
+      if (f && f.orientacoes && f.orientacoes.length) {
+        var nota = f.orientacoes_nota ? '<p class="small muted" style="margin-top:8px">' + esc(f.orientacoes_nota) + "</p>" : "";
+        rows = f.orientacoes.map(function (o) {
+          return "<tr><td><b>" + esc(o.partido) + "</b></td><td>" + (oriCod(o.orientacao) ? vchip(oriCod(o.orientacao)) : esc(o.orientacao || "\u2014")) + "</td><td>" + (o.justificativa ? esc(o.justificativa) + srcA(o.fonte) : '<span class="muted">Sem justificativa registrada.</span>') + "</td></tr>";
+        });
+        return '<div class="scroll"><table class="ptable oriT"><thead><tr><th>Partido ou bloco</th><th>Orientou</th><th>Por qu\u00ea</th></tr></thead><tbody>' + rows.join("") + "</tbody></table></div>" + nota;
+      }
+      var ks = Object.keys(v.ori || {});
+      if (f && f.posicionamentos && f.posicionamentos.length) return '<div class="scroll"><table class="ptable oriT"><thead><tr><th>Quem</th><th>Posi\u00e7\u00e3o</th><th>Por qu\u00ea</th></tr></thead><tbody>' + f.posicionamentos.map(function (o) { return "<tr><td><b>" + esc(o.partido) + "</b></td><td>" + esc(o.orientacao || "\u2014") + "</td><td>" + (o.justificativa ? esc(o.justificativa) + srcA(o.fonte) : '<span class="muted">Sem justificativa registrada.</span>') + "</td></tr>"; }).join("") + '</tbody></table></div><p class="small muted" style="margin-top:8px">' + esc(f.orientacoes_nota || "Declara\u00e7\u00f5es p\u00fablicas, n\u00e3o orienta\u00e7\u00f5es formais de bancada.") + "</p>";
+      if (!ks.length) return '<p class="small muted">' + (v.secreta ? "Em vota\u00e7\u00e3o secreta n\u00e3o h\u00e1 orienta\u00e7\u00e3o de bancada no painel." : "Os l\u00edderes n\u00e3o registraram orienta\u00e7\u00e3o no painel desta vota\u00e7\u00e3o.") + "</p>";
+      return '<div class="oriChips">' + ks.map(function (k) { var c = oriCod(v.ori[k]); return '<span class="oc"><b>' + esc(k) + "</b> " + (c ? vchip(c) : esc(v.ori[k])) + "</span>"; }).join("") + '</div><p class="small muted" style="margin-top:8px">Orienta\u00e7\u00e3o dada pelo l\u00edder de cada partido ou bloco antes da vota\u00e7\u00e3o. A justificativa, quando existe, fica no discurso de encaminhamento, nas notas taquigr\u00e1ficas da sess\u00e3o.</p>';
+    }
+    function openVot(vid, keepScroll) {
+      Promise.all([idx(), exp(), vfile(vid)]).then(function (r) {
+        var V = byId(r[0]), f = fichaOf(r[1], vid), v = V[vid] || (f ? { id: vid, casa: f.casa, data: f.data, prop: { sigla: f.proposicao }, aprov: f.aprovada, placar: f.placar, secreta: f.secreta, ori: {} } : null), vs = (r[2] || {}).votos || [];
+        if (!v) { toast("Vota\u00e7\u00e3o n\u00e3o encontrada."); return; }
+        var a = answers()[vid], u = propUrl(v) || (f && f.url);
+        var h = '<div class="vxSheet"><p class="eyebrow">' + esc(CASA[v.casa]) + " \u00b7 " + esc(dataBR(v.data)) + (v.prop && v.prop.sigla ? " \u00b7 " + esc(v.prop.sigla) : "") + "</p>" +
+          '<h2 class="h3" style="margin-top:6px">' + esc(titleOf(v, f)) + "</h2>" +
+          '<p class="vxRes">' + resChip(v.aprov) + '<span class="tab">' + placarTxt(v.placar) + "</span></p>" + (v.desc ? '<p class="small muted">' + esc(v.desc) + "</p>" : "");
+        if (f) {
+          if (f.atencao) h += '<p class="vxAtt"><b>Ponto de aten\u00e7\u00e3o.</b> ' + esc(f.atencao) + "</p>";
+          h += '<div class="vxTwo">' +
+            (f.manchete && f.manchete.texto ? '<div class="vxBox"><p class="k">A manchete</p><p class="q">\u201c' + esc(f.manchete.texto) + '\u201d</p><p class="small">' + link(f.manchete.fonte) + "</p></div>" : "") +
+            '<div class="vxBox"><p class="k">O que o texto faz</p><ul>' + (f.o_que_faz || []).map(function (x) { return "<li>" + esc(x.texto) + srcA(x.fonte) + "</li>"; }).join("") + "</ul></div></div>" +
+            '<div class="vxBox cost"><p class="k">Quanto custa</p><p>' + (f.custo && f.custo.texto ? esc(f.custo.texto) + srcA(f.custo.fonte) : '<span class="muted">' + esc(f.custo_nota || "N\u00e3o encontramos estimativa de impacto feita por \u00f3rg\u00e3o t\u00e9cnico.") + "</span>") + "</p></div>" +
+            '<h3 class="vxH">Os argumentos</h3><div class="vxTwo">' +
+            '<div class="vxArg"><p class="k">A favor</p><ul>' + (f.favor || []).map(function (x) { return "<li>" + (x.quem ? "<b>" + esc(x.quem) + ":</b> " : "") + esc(x.texto) + srcA(x.fonte) + "</li>"; }).join("") + "</ul></div>" +
+            '<div class="vxArg"><p class="k">Contra</p><ul>' + (f.contra || []).map(function (x) { return "<li>" + (x.quem ? "<b>" + esc(x.quem) + ":</b> " : "") + esc(x.texto) + srcA(x.fonte) + "</li>"; }).join("") + "</ul></div></div>" +
+            (f.argumentos_nota ? '<p class="small muted" style="margin-top:8px">' + esc(f.argumentos_nota) + "</p>" : "") +
+            '<div class="vxAsk"><p><b>E voc\u00ea, votaria como?</b> Depois de ler os dois lados.</p><div class="seg">' + ["S", "N", "?"].map(function (k) { return '<button type="button" data-vi="' + k + '" data-vid="' + esc(vid) + '" aria-pressed="' + (a === k) + '">' + (k === "?" ? "N\u00e3o sei" : VLBL[k]) + "</button>"; }).join("") + '</div><p class="small muted">Sua resposta fica s\u00f3 neste aparelho e serve para mostrar quem votou igual a voc\u00ea.</p></div>';
+        }
+        h += '<h3 class="vxH">Seus representantes</h3>' + (v.secreta ? '<p class="small muted">Vota\u00e7\u00e3o secreta: n\u00e3o h\u00e1 registro de como cada um votou.</p>' : myReps(vs, v.casa, vid)) +
+          '<h3 class="vxH">Como cada partido orientou</h3>' + oriBlock(v, f) +
+          '<h3 class="vxH">Votos por partido</h3>' + (vs.length ? partyBars(vs) + allVotes(vs, v.casa) : '<p class="small muted">' + (v.secreta ? "Vota\u00e7\u00e3o secreta: pela Constitui\u00e7\u00e3o, s\u00f3 o placar total \u00e9 divulgado." : "Votos individuais indispon\u00edveis.") + "</p>");
+        if (f && f.proximos && f.proximos.length) h += '<h3 class="vxH">E agora?</h3><ul class="vxList">' + f.proximos.map(function (x) { return "<li>" + esc(x.texto) + srcA(x.fonte) + "</li>"; }).join("") + "</ul>";
+        if (f && f.relacionadas && f.relacionadas.length) h += '<h3 class="vxH">Outras vota\u00e7\u00f5es desta proposta</h3><ul class="vxList">' + f.relacionadas.map(function (x) { return '<li><button type="button" class="lnk" data-vot="' + esc(x.id) + '">' + esc(x.descricao || x.id) + "</button></li>"; }).join("") + "</ul>";
+        h += '<p class="small muted vxFootNote">' + (f ? "Resumo do Fora da Reta a partir das fontes citadas em cada item" + (f.criterio ? ". Por que esta vota\u00e7\u00e3o: " + esc(f.criterio) : "") + ". " : "Esta vota\u00e7\u00e3o ainda n\u00e3o tem explica\u00e7\u00e3o detalhada. ") +
+          "Votos: dados abertos " + (v.casa === "senado" ? "do Senado Federal" : "da C\u00e2mara dos Deputados") + ". " + (u ? link(u, "Ver a proposta no site oficial") + " \u00b7 " : "") + '<a href="#metodo" data-go="metodo">M\u00e9todo</a></p></div>';
+        var sc = keepScroll && $("sheet") ? $("sheet").scrollTop : 0;
+        openSheet(h);
+        if (sc) $("sheet").scrollTop = sc;
+        try { history.replaceState(null, "", "#votacao-" + vid); } catch (e) {}
+        var s = $("sheet").querySelector(".avSearch");
+        if (s) s.addEventListener("input", function () { var q = norm(s.value); $("sheet").querySelectorAll(".allVotes li").forEach(function (li) { li.hidden = q && li.dataset.k.indexOf(q) < 0; }); });
+        var ch = $("sheet").querySelector("[data-chuf]");
+        if (ch) ch.addEventListener("click", function (ev) { ev.preventDefault(); closeSheet(); show("politicos"); });
+      });
+    }
+
+    /* ---------- pol\u00edticos ---------- */
+    function politicos() {
+      ufOptions($("polUf"), false);
+      if (!uf()) setUf($("polUf").value);
+      renderPol();
+    }
+    function tcase(s) { return String(s || "").toLowerCase().replace(/(^|[\s.(-])(\S)/g, function (m, a, b) { return a + b.toUpperCase(); }).replace(/\b(Da|De|Do|Das|Dos|E)\b/g, function (m) { return m.toLowerCase(); }); }
+    function card(pid, nome, sub, extra) {
+      return '<button class="pcard" type="button" data-pes="' + esc(pid) + '"><span class="ph"><img loading="lazy" alt="" src="' + esc(photo(pid)) + '" onerror="this.style.visibility=\'hidden\'"></span><span><b>' + esc(nome) + '</b><span class="small muted">' + esc(sub) + "</span>" + (extra || "") + "</span></button>";
+    }
+    function concordancia(pids, cb) {
+      var A = answers(), vids = Object.keys(A).filter(function (k) { return A[k] === "S" || A[k] === "N"; });
+      if (!vids.length) return cb(null);
+      Promise.all(vids.map(vfile)).then(function (fs) {
+        var res = {};
+        fs.forEach(function (f, i) {
+          var pre = vids[i][0];
+          (f.votos || []).forEach(function (r) {
+            var pid = pre + r[0]; if (pids.indexOf(pid) < 0 || (r[4] !== "S" && r[4] !== "N")) return;
+            var o = res[pid] || (res[pid] = { a: 0, n: 0 }); o.n++; if (r[4] === A[vids[i]]) o.a++;
+          });
+        });
+        cb(res);
+      });
+    }
+    function renderPol() {
+      var u = uf() || "sp", q = norm($("polSearch").value).trim();
+      Promise.all([parl(), eleitos(), get("cong", "congresso.json", null)]).then(function (r) {
+        var Pl = r[0], El = (r[1].por_uf || {})[u.toUpperCase()] || {}, C = r[2];
+        if (q) {
+          var hits = Pl.c.map(function (x) { return ["c" + x[0], x[1], "Deputado(a) \u00b7 " + x[2] + "-" + x[3]]; }).concat(Pl.s.map(function (x) { return ["s" + x[0], x[1], "Senador(a) \u00b7 " + x[2] + "-" + x[3]]; }))
+            .filter(function (x) { return norm(x[1] + " " + x[2]).indexOf(q) >= 0; }).slice(0, 60);
+          $("polBody").innerHTML = '<div class="pgrid">' + hits.map(function (x) { return card(x[0], x[1], x[2]); }).join("") + "</div>" + (hits.length ? "" : '<p class="muted" style="margin-top:20px">Ningu\u00e9m encontrado com esse nome entre os parlamentares em exerc\u00edcio.</p>');
+          return;
+        }
+        var sens = Pl.s.filter(function (x) { return String(x[3]).toLowerCase() === u; });
+        var deps = Pl.c.filter(function (x) { return String(x[3]).toLowerCase() === u; }).sort(function (a, b) { return a[1].localeCompare(b[1]); });
+        var gov = (El.governador || [])[0];
+        var antes = Date.now() < Date.UTC(2027, 1, 1);
+        var h = '<div class="polSec"><p class="eyebrow">Executivo</p><div class="pgrid">' +
+          '<a class="pcard exec" href="#promessas" data-go="promessas"><span class="ph"><img alt="" src="fotos/280002542548.jpeg" onerror="this.style.visibility=\'hidden\'"></span><span><b>Lula (PT)</b><span class="small muted">Presidente \u00b7 mandato 2027\u20132030</span><span class="small you">Ver as promessas \u203a</span></span></a>' +
+          (gov ? '<div class="pcard exec static"><span class="ph"></span><span><b>' + esc(tcase(gov.nome)) + " (" + esc(gov.partido) + ')</b><span class="small muted">Governador(a) eleito(a) de ' + esc(UFN2[u]) + " \u00b7 " + esc(gov.pct || "") + "% dos votos v\u00e1lidos</span></span></div>" : "") +
+          "</div></div>";
+        h += '<div class="polSec"><p class="eyebrow">Senado \u00b7 ' + sens.length + ' em exerc\u00edcio</p><div class="pgrid" id="polSen">' + sens.map(function (x) { return card("s" + x[0], x[1], x[2] + " \u00b7 Senador(a)", '<span class="small you" data-aff="s' + x[0] + '"></span>'); }).join("") + "</div></div>";
+        h += '<div class="polSec"><p class="eyebrow">C\u00e2mara \u00b7 ' + deps.length + ' deputados em exerc\u00edcio</p><div class="pgrid" id="polDep">' + deps.map(function (x) { return card("c" + x[0], x[1], x[2] + " \u00b7 Deputado(a)", '<span class="small you" data-aff="c' + x[0] + '"></span>'); }).join("") + "</div></div>";
+        if (antes && C) {
+          var ed = (C.deputados || []).filter(function (d) { return d.uf === u; }), es = (C.senadores || []).filter(function (d) { return d.uf === u && d.eleito === 2026; });
+          h += '<details class="polSec eleitos"><summary><span class="eyebrow">Eleitos em 2026 \u00b7 posse em 1\u00ba de fevereiro de 2027</span><span class="small muted">' + ed.length + " deputados e " + es.length + " senadores de " + esc(UFN2[u]) + "</span></summary>" +
+            '<ul class="eleList">' + es.concat(ed).map(function (d) {
+              var pid = d.cid ? "c" + d.cid : null, nm = tcase(d.nm);
+              return "<li>" + (pid ? '<button type="button" data-pes="' + pid + '">' + esc(nm) + "</button>" : esc(nm)) + ' <span class="small muted">' + esc(d.partido) + " \u00b7 " + (d.eleito === 2026 ? "Senado" : "C\u00e2mara") + (pid ? " \u00b7 j\u00e1 \u00e9 deputado(a)" : "") + "</span></li>";
+            }).join("") + '</ul><p class="small muted">Fonte: TSE. Quem j\u00e1 est\u00e1 no Congresso tem a linha do tempo dispon\u00edvel; os demais passam a ter depois da posse.</p></details>';
+        }
+        h += '<p class="small muted" style="margin-top:28px">Dados abertos da C\u00e2mara dos Deputados, do Senado Federal e do TSE, atualizados todos os dias. Toque em um nome para ver a linha do tempo.</p>';
+        $("polBody").innerHTML = h;
+        concordancia(sens.map(function (x) { return "s" + x[0]; }).concat(deps.map(function (x) { return "c" + x[0]; })), function (res) {
+          if (!res) return;
+          document.querySelectorAll("#polBody [data-aff]").forEach(function (el) { var o = res[el.dataset.aff]; if (o && o.n) el.textContent = "Concorda com voc\u00ea em " + o.a + " de " + o.n; });
+        });
+      });
+    }
+    $("polUf").addEventListener("change", function () { setUf(this.value); renderPol(); });
+    $("polSearch").addEventListener("input", renderPol);
+
+    function openPessoa(pid) {
+      Promise.all([pfile(pid), idx(), exp(), parl()]).then(function (r) {
+        var p = r[0], V = byId(r[1]), E = r[2];
+        if (!p) { toast("Ainda n\u00e3o h\u00e1 dados desta pessoa."); return; }
+        var casa = pid[0] === "c" ? "camara" : "senado", A = answers();
+        var gov = { a: 0, n: 0 }, par = { a: 0, n: 0 }, me = { a: 0, n: 0 };
+        (p.votos || []).forEach(function (x) {
+          var v = V[x[0]], c = x[1]; if (!v || (c !== "S" && c !== "N")) return;
+          var g = oriCod((v.ori || {})["Governo"]); if (g === "S" || g === "N") { gov.n++; if (g === c) gov.a++; }
+          var o = oriCod(oriDoPartido(v.ori, x[2])); if (o === "S" || o === "N") { par.n++; if (o === c) par.a++; }
+          if (A[x[0]] === "S" || A[x[0]] === "N") { me.n++; if (A[x[0]] === c) me.a++; }
+        });
+        function pc(o) { return o.n ? Math.round(100 * o.a / o.n) + "%" : "\u2014"; }
+        var stats = '<div class="pStats"><div><p class="k">Vota\u00e7\u00f5es nominais</p><p class="v tab">' + (p.votos || []).length + '</p><p class="s">com voto registrado desde fev/2025</p></div>' +
+          (casa === "camara" ? '<div><p class="k">Com o governo</p><p class="v tab">' + pc(gov) + '</p><p class="s">em ' + gov.n + ' vota\u00e7\u00f5es com orienta\u00e7\u00e3o do governo</p></div><div><p class="k">Com o pr\u00f3prio partido</p><p class="v tab">' + pc(par) + '</p><p class="s">em ' + par.n + " vota\u00e7\u00f5es com orienta\u00e7\u00e3o do partido</p></div>" : "") +
+          '<div><p class="k">Concorda com voc\u00ea</p><p class="v tab">' + (me.n ? me.a + "/" + me.n : "\u2014") + '</p><p class="s">' + (me.n ? "nas vota\u00e7\u00f5es explicadas que voc\u00ea respondeu" : "responda \u00e0s vota\u00e7\u00f5es explicadas para ver") + "</p></div></div>";
+        // linha do tempo: votos de m\u00e9rito, projetos e discursos, mais recentes primeiro
+        var T = [];
+        (p.votos || []).forEach(function (x) {
+          var v = V[x[0]]; if (!v) return;
+          var f = fichaOf(E, x[0]);
+          if (!f && MERITO.test(v.desc)) return;
+          T.push({ d: v.data, k: "v", f: !!f, h: '<button type="button" class="tlItem" data-vot="' + esc(x[0]) + '"><span class="tk">Votou</span>' + vchip(x[1]) + '<span class="tt">' + (v.prop && v.prop.sigla ? "<b>" + esc(v.prop.sigla) + "</b> " : "") + esc(f ? f.titulo : (v.prop && v.prop.ementa) || v.desc) + (f ? ' <span class="xtag">Explicada</span>' : "") + "</span></button>" });
+        });
+        (p.props || []).forEach(function (x) { T.push({ d: x[2], k: "p", h: '<a class="tlItem" href="https://www.camara.leg.br/propostas-legislativas/' + esc(x[0]) + '" target="_blank" rel="noopener"><span class="tk">Apresentou</span><span class="tt"><b>' + esc(x[1]) + "</b> " + esc(x[3]) + "</span></a>" }); });
+        (p.disc || []).forEach(function (x) { T.push({ d: x[0], k: "d", h: '<div class="tlItem"><span class="tk">Discursou</span><span class="tt"><span class="small muted">' + esc(x[1]) + "</span> " + esc(x[2]) + (safeUrl(x[3]) ? " " + link(x[3], "\u00edntegra") : "") + "</span></div>" }); });
+        T.sort(function (a, b) { return String(b.d).localeCompare(String(a.d)); });
+        var flt = '<div class="seg tlSeg" role="group" aria-label="Filtrar linha do tempo"><button type="button" data-tl="" aria-pressed="true">Tudo</button><button type="button" data-tl="v" aria-pressed="false">Votos</button>' + (casa === "camara" ? '<button type="button" data-tl="p" aria-pressed="false">Projetos</button><button type="button" data-tl="d" aria-pressed="false">Discursos</button>' : "") + "</div>";
+        var h = '<div class="pHead"><span class="ph big"><img alt="" src="' + esc(photo(pid)) + '" onerror="this.style.visibility=\'hidden\'"></span><div><p class="eyebrow">' + (casa === "camara" ? "Deputado(a) federal" : "Senador(a)") + (p.ativo ? "" : " \u00b7 fora do cargo") + '</p><h2 class="h3">' + esc(p.nome) + '</h2><p class="muted">' + esc((p.partido || "") + (p.uf ? " \u00b7 " + UFN2[String(p.uf).toLowerCase()] : "")) + "</p><p class=\"small\">" + link(perfilUrl(pid), casa === "camara" ? "Perfil oficial, gastos e presen\u00e7a na C\u00e2mara" : "Perfil oficial no Senado") + "</p></div></div>" +
+          stats + '<h3 class="vxH">Linha do tempo</h3>' + flt + '<ol class="tl" id="pTl"></ol><button class="pill soft small" type="button" id="pTlMore" hidden>Mostrar mais</button>' +
+          '<p class="small muted vxFootNote">Votos de m\u00e9rito em plen\u00e1rio (requerimentos e destaques ficam de fora), projetos apresentados nos \u00faltimos dois anos e resumos oficiais dos discursos, feitos pela C\u00e2mara. "Com o governo" e "com o pr\u00f3prio partido" comparam o voto com a orienta\u00e7\u00e3o dada pelo l\u00edder antes de cada vota\u00e7\u00e3o. <a href="#metodo" data-go="metodo">M\u00e9todo</a></p>';
+        openSheet(h);
+        try { history.replaceState(null, "", "#pessoa-" + pid); } catch (e) {}
+        var st = { k: "", n: 25 };
+        function draw() {
+          var L = T.filter(function (t) { return !st.k || t.k === st.k; });
+          $("pTl").innerHTML = L.slice(0, st.n).map(function (t) { return '<li><span class="d tab">' + dataBR(t.d) + "</span>" + t.h + "</li>"; }).join("") || '<li class="muted small">Nada registrado no per\u00edodo.</li>';
+          $("pTlMore").hidden = L.length <= st.n;
+        }
+        draw();
+        $("sheet").querySelector(".tlSeg").addEventListener("click", function (ev) { var b = ev.target.closest("[data-tl]"); if (!b) return; st.k = b.dataset.tl; st.n = 25; segSet(this, "tl", st.k); draw(); });
+        $("pTlMore").addEventListener("click", function () { st.n += 25; draw(); });
+      });
+    }
+
+    /* ---------- promessas ---------- */
+    var PR = { s: "" };
+    var SIT = { nao_iniciada: "N\u00e3o iniciada", em_andamento: "Em andamento", parcial: "Cumprida em parte", cumprida: "Cumprida", abandonada: "Abandonada" };
+    function promessas() {
+      prom().then(function (D2) {
+        var it = D2.itens || [], c = {};
+        it.forEach(function (x) { c[x.situacao] = (c[x.situacao] || 0) + 1; });
+        var doc = D2.documento || {};
+        if (doc.titulo) $("prIntro").innerHTML = "Compromissos concretos do " + link(doc.url, "programa de governo da chapa Lula-Alckmin") + (doc.registrado_tse ? ", registrado no TSE," : "") + " e de falas da campanha. O novo mandato come\u00e7a em 5 de janeiro de 2027. A situa\u00e7\u00e3o de cada item \u00e9 atualizada com fonte; \"n\u00e3o iniciada\" quer dizer que n\u00e3o encontramos a\u00e7\u00e3o em curso.";
+        $("prStats").innerHTML = Object.keys(SIT).filter(function (k) { return c[k]; }).map(function (k) { return '<div><p class="v tab">' + c[k] + '</p><p class="k">' + SIT[k] + "</p></div>"; }).join("");
+        $("prSeg").innerHTML = '<button type="button" data-ps="" aria-pressed="' + !PR.s + '">Todas (' + it.length + ")</button>" + Object.keys(SIT).filter(function (k) { return c[k]; }).map(function (k) { return '<button type="button" data-ps="' + k + '" aria-pressed="' + (PR.s === k) + '">' + SIT[k] + "</button>"; }).join("");
+        var temas = {};
+        it.filter(function (x) { return !PR.s || x.situacao === PR.s; }).forEach(function (x) { (temas[x.tema] = temas[x.tema] || []).push(x); });
+        $("prList").innerHTML = Object.keys(temas).sort().map(function (t) {
+          return '<div class="prTema"><h2 class="h3">' + esc(t) + "</h2>" + temas[t].map(function (x) {
+            return '<div class="prItem"><div class="prTop"><b>' + esc(x.promessa) + '</b><span class="sit ' + esc(x.situacao) + '">' + esc(SIT[x.situacao] || x.situacao) + "</span></div>" +
+              (x.citacao ? '<p class="q small">\u201c' + esc(x.citacao) + "\u201d</p>" : "") +
+              '<p class="small muted">' + (x.origem === "campanha" ? "Fala de campanha" : "Plano de governo" + (x.pagina ? ", p. " + esc(x.pagina) : "")) + srcA(x.fonte, "fonte") +
+              (x.situacao_texto ? " \u00b7 " + esc(x.situacao_texto) + srcA(x.situacao_fonte, "fonte") : "") + "</p></div>";
+          }).join("") + "</div>";
+        }).join("") || '<p class="muted" style="margin-top:28px">A lista de promessas est\u00e1 sendo preparada.</p>';
+      });
+    }
+    $("prSeg").addEventListener("click", function (ev) { var b = ev.target.closest("[data-ps]"); if (!b) return; PR.s = b.dataset.ps; promessas(); });
+
+    /* ---------- elei\u00e7\u00f5es 2026 (arquivo) ---------- */
+    function eleicoes() {
+      get("apf", "apuracao.json", null).then(function (a) {
+        var b = a && a.br; if (!b || !b.c) return;
+        var c = b.c.slice().sort(function (x, y) { return y.p - x.p; });
+        $("elResumo").textContent = "No 2\u00ba turno, em 25 de outubro de 2026, " + c[0].nm.replace(/\b(\w)(\w*)/g, function (m, x, y) { return x + y.toLowerCase(); }) + " teve " + String(c[0].p.toFixed(2)).replace(".", ",") + "% dos votos v\u00e1lidos e " + c[1].nm.replace(/\b(\w)(\w*)/g, function (m, x, y) { return x + y.toLowerCase(); }) + ", " + String(c[1].p.toFixed(2)).replace(".", ",") + "% (TSE, " + String(b.s.p.toFixed(2)).replace(".", ",") + "% das se\u00e7\u00f5es totalizadas). Aqui ficam o resultado, os mapas e o perfil de cada candidato.";
+      });
+    }
+
+    return { inicio: inicio, votacoes: votacoes, politicos: politicos, promessas: promessas, eleicoes: eleicoes, openVot: openVot, openPessoa: openPessoa };
   })();
 
   /* ---------------- checagens, estudo, status ---------------- */
@@ -3641,7 +4309,7 @@ input, select, textarea { font-size: max(16px, 1em); }
     });
     if (shared) { answers = shared; imp = decode.imp || {}; store("fdr.answers", answers); store("fdr.peso", imp); show("resultado"); return; }
     cur = 0; for (var i = 0; i < Q.length; i++) { if (answers[Q[i].id] == null) { cur = i; break; } cur = Q.length - 1; }
-    var first = HOT.view || (VIEWS.indexOf(h) >= 0 ? h : (D.eleicao && D.eleicao.destaque_apuracao ? "apuracao" : "inicio"));
+    var first = HOT.view || (VIEWS.indexOf(h) >= 0 ? h : "inicio");
     show(first, true);
   }
   // atualiza\u00e7\u00f5es publicadas chegam com a p\u00e1gina recarregada; preserva a aba e o estado escolhido

@@ -1,7 +1,7 @@
 # Fora da Reta
 
-Site apartidário de informação política: apuração ao vivo (dados oficiais do TSE), teste político em três eixos
-(economia, costumes, instituições), candidatos pelo que dizem e pelo que fazem, Congresso eleito, fenômenos políticos e glossário.
+Site apartidário de informação política: votações do Congresso explicadas, como votou cada deputado e senador
+(dados abertos da Câmara e do Senado), promessas do governo, notícias, teste político em três eixos e o arquivo das eleições de 2026.
 
 - Endereço: https://foradareta.com.br
 - Fontes dos resultados: arquivos públicos do Tribunal Superior Eleitoral (resultados.tse.jus.br), lidos diretamente pelo navegador de cada visitante.
