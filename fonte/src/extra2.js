@@ -48,6 +48,30 @@
       }).join("") + "</ol>" +
       (tl.resumo_juridico ? '<div class="gapBox"><p><b>Situação jurídica hoje.</b> ' + esc(tl.resumo_juridico) + "</p></div>" : "");
   }
+  /* ---------- principais ações e "o que disse e o que fez" ---------- */
+  var COH_TIPO = { mudanca: "Mudou de posição", fala_x_ato: "Disse uma coisa, fez outra", regra_para_outros: "Regra para os outros, outra para si", conflito_apontado: "Conflito de interesse apontado" };
+  function cohHTML(k) {
+    var h = "";
+    if ((k.principais || []).length) {
+      h += '<h3>Principais ações</h3><p class="small muted" style="margin-top:6px">O essencial da trajetória, escolhido pelo mesmo critério para todos: leis e decisões que viraram regra, votos decisivos, cargos com efeito amplo e decisões judiciais.</p>' +
+        '<ul class="atos">' + k.principais.slice().sort(function (a, b) { return String(b.data).localeCompare(String(a.data)); }).map(function (a) { return '<li><span class="d">' + fmtDate(a.data) + "</span><span>" + esc(a.texto) + (a.fonte ? ' <span class="small">' + link(a.fonte) + "</span>" : "") + "</span></li>"; }).join("") + "</ul>";
+    }
+    h += '<h3>O que disse e o que fez</h3><p class="small muted" style="margin-top:6px">Casos documentados em que a posição mudou com o tempo ou em que a ação foi em outra direção do discurso. Os dois lados aparecem com data e fonte; quando há explicação do próprio político, ela vem junto. Mudar de ideia não é, por si só, um problema: a conclusão é sua.</p>';
+    if ((k.diz_faz || []).length) {
+      h += '<div class="cohList">' + k.diz_faz.map(function (x) {
+        var d = x.disse || {}, f = x.fez || {};
+        return '<div class="coh"><p class="cohTop"><b>' + esc(x.tema) + '</b><span class="cohT">' + esc(COH_TIPO[x.tipo] || "") + "</span></p>" +
+          '<div class="cohTwo"><div><p class="k">O que disse' + (d.data ? " · " + fmtDate(d.data) : "") + "</p><p>" + esc(d.texto) + "</p>" + (d.contexto ? '<p class="small muted">' + esc(d.contexto) + "</p>" : "") + (d.fonte ? '<p class="small">' + link(d.fonte) + "</p>" : "") + "</div>" +
+          '<div><p class="k">O que fez' + (f.data ? " · " + fmtDate(f.data) : "") + "</p><p>" + esc(f.texto) + "</p>" + (f.fonte ? '<p class="small">' + link(f.fonte) + "</p>" : "") + "</div></div>" +
+          (x.apontado_por ? '<p class="small muted">Apontado por: ' + esc(x.apontado_por) + "</p>" : "") +
+          '<p class="small cohExp">' + (x.explicacao && x.explicacao.texto ? "<b>Explicação:</b> " + esc(x.explicacao.texto) + (x.explicacao.fonte ? " " + link(x.explicacao.fonte) : "") : '<span class="muted">Sem explicação pública registrada.</span>') + "</p></div>";
+      }).join("") + "</div>";
+    } else {
+      h += '<p class="muted" style="margin-top:12px">A pesquisa não encontrou casos bem documentados para este candidato.</p>';
+    }
+    if (k.busca_nota) h += '<p class="small muted" style="margin-top:10px">Como pesquisamos: ' + esc(k.busca_nota) + "</p>";
+    return h;
+  }
   document.addEventListener("click", function (ev) {
     var b = ev.target.closest("[data-tl]"); if (!b) return;
     var box = b.closest(".tlChips"); segSet(box, "tl", b.dataset.tl);

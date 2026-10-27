@@ -675,3 +675,21 @@ button.lnk:hover { text-decoration: underline; }
 }
 @media (max-width: 600px) { .subbar { position: static; } }
 @media (max-width: 380px) { nav.tabs a { padding: 6px 5px; font-size: 0.78rem; } }
+/* candidato: principais ações, o que disse e o que fez, linha do tempo recolhida */
+.cohList { display: grid; gap: 12px; margin-top: 14px; }
+.coh { background: var(--bg-alt); border-radius: 20px; padding: 16px 18px; display: grid; gap: 10px; }
+.cohTop { display: flex; gap: 10px; justify-content: space-between; align-items: baseline; flex-wrap: wrap; }
+.cohT { font-size: 0.74rem; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+.cohTwo { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.cohTwo > div { background: var(--bg); border-radius: 14px; padding: 12px 14px; font-size: 0.93rem; min-width: 0; display: grid; gap: 4px; align-content: start; }
+.cohTwo .k { font-size: 0.74rem; font-weight: 700; color: var(--muted); }
+.cohTwo a, .cohExp a { overflow-wrap: anywhere; }
+@media (max-width: 640px) { .cohTwo { grid-template-columns: 1fr; } }
+details.tlFull { margin-top: 36px; border-top: 1px solid var(--hair); padding-top: 18px; }
+details.tlFull > summary { cursor: pointer; display: grid; gap: 2px; list-style: none; }
+details.tlFull > summary::-webkit-details-marker { display: none; }
+details.tlFull > summary .h { font-size: 1.3rem; font-weight: 700; letter-spacing: -0.02em; }
+details.tlFull > summary .h::after { content: " ›"; color: var(--you); }
+details.tlFull[open] > summary .h::after { content: " ⌄"; }
+details.tlFull > h3:first-of-type { display: none; }
+.compNote { max-width: 62ch; margin: 10px auto 0; text-align: center; } .compNote:empty { display: none; }

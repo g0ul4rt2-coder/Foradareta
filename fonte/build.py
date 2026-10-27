@@ -162,6 +162,11 @@ for p in (sorted(glob.glob(os.path.join(BASE, "linhas", "*.json"))) if os.path.e
         t = json.load(f)
     t["eventos"] = sorted(t.get("eventos", []), key=lambda e: str(e.get("data", "")))
     cont["linhas"][os.path.basename(p)[:-5]] = t
+# "o que disse e o que fez" e principais ações: só entram depois da revisão (arquivo coerencia/AUDITADO)
+cont["coerencia"] = {}
+for p in (sorted(glob.glob(os.path.join(BASE, "coerencia", "*.json"))) if os.path.exists(os.path.join(BASE, "coerencia", "AUDITADO")) else []):
+    with open(p, encoding="utf-8") as f:
+        cont["coerencia"][os.path.basename(p)[:-5]] = json.load(f)
 cont = sem_wiki(cont)
 with open(os.path.join(BASE, "site", "conteudo.json"), "w", encoding="utf-8") as f:
     json.dump(cont, f, ensure_ascii=True, separators=(",", ":"))

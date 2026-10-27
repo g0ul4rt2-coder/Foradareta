@@ -321,8 +321,10 @@
 
   /* ---------------- gráficos ---------------- */
   var S = 560, PAD = 30, PL = S - 2 * PAD;
-  function px(v) { return PAD + (v + 10) / 20 * PL; }
-  function py(v) { return PAD + (10 - v) / 20 * PL; }
+  // valores extremos (±10) ficam um pouco para dentro da borda, para não cobrir os nomes dos eixos
+  function clampV(v) { return Math.max(-9.3, Math.min(9.3, v)); }
+  function px(v) { return PAD + (clampV(v) + 10) / 20 * PL; }
+  function py(v) { return PAD + (10 - clampV(v)) / 20 * PL; }
   function frame(view) {
     var h = [], m = PAD + PL / 2, half = PL / 2, r = 20, ax = axesOf(view), A = AXIS[ax[0]], B = AXIS[ax[1]], ql = QUAD[view];
     h.push('<rect x="' + PAD + '" y="' + PAD + '" width="' + half + '" height="' + half + '" rx="' + r + '" fill="var(--q-tl)"/>');
@@ -344,21 +346,39 @@
     });
     return h;
   }
-  // rótulos sem sobreposição
+  // rótulos sem sobreposição: primeiro bem junto do ponto; se não couber, um pouco mais longe com uma linha ligando
+  // o nome ao ponto. Nome de candidato nunca some; nome de partido pode ficar de fora se não houver espaço.
   function placer() {
     var placed = [];
+    function free(box) {
+      if (box[0] < 2 || box[2] > S - 2 || box[1] < 2 || box[3] > S - 2) return false;
+      return !placed.some(function (b) { return !(box[2] < b[0] || box[0] > b[2] || box[3] < b[1] || box[1] > b[3]); });
+    }
+    function boxOf(o, w) { var x0 = o[2] === "start" ? o[0] : o[2] === "end" ? o[0] - w : o[0] - w / 2; return [x0 - 2, o[1] - 11, x0 + w + 2, o[1] + 3]; }
     return {
       block: function (X, Y, r) { placed.push([X - r, Y - r, X + r, Y + r]); },
-      place: function (X, Y, w) {
-        var opts = [[X + 10, Y + 4, "start"], [X - 10, Y + 4, "end"], [X + 8, Y - 10, "start"], [X + 8, Y + 18, "start"], [X - 8, Y - 10, "end"], [X - 8, Y + 18, "end"], [X + 10, Y + 30, "start"], [X + 10, Y - 22, "start"]];
-        for (var j = 0; j < opts.length; j++) {
-          var o = opts[j], x0 = o[2] === "start" ? o[0] : o[0] - w, box = [x0 - 2, o[1] - 11, x0 + w + 2, o[1] + 3];
-          if (box[0] < 0 || box[2] > S || box[1] < 0 || box[3] > S) continue;
-          if (!placed.some(function (b) { return !(box[2] < b[0] || box[0] > b[2] || box[3] < b[1] || box[1] > b[3]); })) { placed.push(box); return o; }
-        }
-        return null;
+      rect: function (x0, y0, x1, y1) { placed.push([x0, y0, x1, y1]); },
+      place: function (X, Y, w, opt) {
+        opt = opt || {};
+        var opts = [[X + 9, Y + 4, "start"], [X - 9, Y + 4, "end"], [X, Y - 11, "middle"], [X, Y + 19, "middle"], [X + 7, Y - 8, "start"], [X - 7, Y - 8, "end"], [X + 7, Y + 16, "start"], [X - 7, Y + 16, "end"]];
+        if (opt.lead) [24, 36, 50, 66].forEach(function (d) {
+          [[1, 0], [-1, 0], [0, -1], [0, 1], [0.7, -0.7], [-0.7, -0.7], [0.7, 0.7], [-0.7, 0.7]].forEach(function (u) {
+            opts.push([X + u[0] * d, Y + u[1] * d + 4, u[0] > 0.1 ? "start" : u[0] < -0.1 ? "end" : "middle", 1]);
+          });
+        });
+        for (var j = 0; j < opts.length; j++) { var bx = boxOf(opts[j], w); if (free(bx)) { placed.push(bx); return opts[j]; } }
+        if (!opt.force) return null;
+        // sem espaço livre: fica na primeira posição que cabe na tela, mesmo encostando em outro nome
+        for (var k = 0; k < opts.length; k++) { var b2 = boxOf(opts[k], w); if (b2[0] >= 2 && b2[2] <= S - 2 && b2[1] >= 2 && b2[3] <= S - 2) { placed.push(b2); return opts[k]; } }
+        return opts[0];
       }
     };
+  }
+  // linha fina do ponto até o nome, quando o nome ficou afastado
+  function lead(X, Y, o) {
+    if (!o || !o[3]) return "";
+    var tx = o[0], ty = o[1] - 4, dx = tx - X, dy = ty - Y, L = Math.hypot(dx, dy); if (L < 14) return "";
+    return '<line x1="' + (X + dx / L * 7).toFixed(1) + '" y1="' + (Y + dy / L * 7).toFixed(1) + '" x2="' + (tx - dx / L * 3).toFixed(1) + '" y2="' + (ty - dy / L * 3).toFixed(1) + '" stroke="var(--muted)" stroke-width="1" opacity=".7"/>';
   }
   function txt(o, s, size, color) {
     return o ? '<text x="' + o[0].toFixed(1) + '" y="' + o[1].toFixed(1) + '" text-anchor="' + o[2] + '" font-size="' + size + '" font-weight="600" fill="' + color + '" style="paint-order:stroke;stroke:var(--bg);stroke-width:3px;stroke-linejoin:round">' + esc(s) + "</text>" : "";
@@ -388,12 +408,14 @@
           g.push('<circle cx="' + dx.toFixed(1) + '" cy="' + dy.toFixed(1) + '" r="5" fill="var(--bg)" stroke="var(--dot)" stroke-width="1.8"/>');
         }
         g.push('<circle cx="' + X.toFixed(1) + '" cy="' + Y.toFixed(1) + '" r="6.5" fill="var(--dot)"/>');
-        g.push(txt(pl.place(X, Y, nm.length * 6.6), nm, 11.5, "var(--ink)"));
+        var o1 = pl.place(X, Y, nm.length * 6.6, { lead: true, force: true });
+        g.push(lead(X, Y, o1) + txt(o1, nm, 11.5, "var(--ink)"));
         h.push('<g class="cand" style="animation-delay:' + delay + 's"><title>' + esc(r.c.nome_urna + " · o que fez: " + coordText(coords(r.c, "prat")) + (r.d ? " · o que diz: " + coordText(coords(r.c, "disc")) : "")) + "</title>" + g.join("") + "</g>");
       } else {
         var X2 = px(r.d[ax[0]].v), Y2 = py(r.d[ax[1]].v);
         g.push('<circle cx="' + X2.toFixed(1) + '" cy="' + Y2.toFixed(1) + '" r="5.5" fill="var(--bg)" stroke="var(--dot)" stroke-width="2"/>');
-        g.push(txt(pl.place(X2, Y2, nm.length * 6.6), nm, 11.5, "var(--muted)"));
+        var o2 = pl.place(X2, Y2, nm.length * 6.6, { lead: true, force: true });
+        g.push(lead(X2, Y2, o2) + txt(o2, nm, 11.5, "var(--muted)"));
         h.push('<g class="cand" style="animation-delay:' + delay + 's"><title>' + esc(r.c.nome_urna + " · só discurso (sem atos registrados): " + coordText(coords(r.c, "disc"))) + "</title>" + g.join("") + "</g>");
       }
     });
@@ -410,18 +432,37 @@
     return h;
   }
   function youT() { var ax = axesOf(compView); return px(axisScore(answers, ax[0]).v).toFixed(1) + "px," + py(axisScore(answers, ax[1]).v).toFixed(1) + "px"; }
+  // nomes dos eixos e dos quadrantes ficam livres de rótulos
+  function blockFrame(pl) {
+    var m = PAD + PL / 2;
+    pl.rect(m - 70, 2, m + 70, 24); pl.rect(m - 70, S - 22, m + 70, S - 2);
+    pl.rect(PAD + 4, m - 26, PAD + 92, m - 2); pl.rect(S - PAD - 92, m - 26, S - PAD - 4, m - 2);
+    pl.rect(PAD + 8, PAD + 10, PAD + 160, PAD + 26); pl.rect(S - PAD - 160, PAD + 10, S - PAD - 8, PAD + 26);
+    pl.rect(PAD + 8, S - PAD - 24, PAD + 160, S - PAD - 8); pl.rect(S - PAD - 160, S - PAD - 24, S - PAD - 8, S - PAD - 8);
+  }
+  var AXIS_NOTE = { z: "Instituições mede o apoio às regras da democracia: aceitar o resultado das urnas, cumprir decisões judiciais, respeitar a imprensa e a oposição, mudar as coisas dentro das regras. A maioria das pessoas responde a favor dessas regras, e por isso o seu ponto costuma ficar no alto. Candidatos aparecem mais abaixo quando falas ou atos registrados foram na outra direção, como contestar as urnas ou defender ocupações e bloqueios como forma de pressão." };
   function drawCompass(animate) {
-    var h = frame(compView), pl = placer(), m = PAD + PL / 2;
-    if (nAnswered()) pl.block(px(axisScore(answers, compView.charAt(0)).v), py(axisScore(answers, compView.charAt(1)).v), 16);
-    if ($("lgPart").checked) h = h.concat(partyMarks(compView, pl));
-    if ($("lgCand").checked) h = h.concat(candMarks(compView, { gap: $("lgGap").checked }, pl, animate));
+    var h = frame(compView), pl = placer(), m = PAD + PL / 2, ax = axesOf(compView);
+    blockFrame(pl);
+    if (nAnswered()) { var ux = px(axisScore(answers, ax[0]).v), uy = py(axisScore(answers, ax[1]).v); pl.rect(ux - 24, uy - 34, ux + 24, uy + 16); }
+    // candidatos escolhem o lugar do nome antes dos partidos; os partidos são desenhados por baixo
+    var cm = $("lgCand").checked ? candMarks(compView, { gap: $("lgGap").checked }, pl, animate) : [];
+    var pm = $("lgPart").checked ? partyMarks(compView, pl) : [];
+    h = h.concat(pm, cm);
+    var falta = D.candidatos.filter(function (c) { return !okAxes(coords(c, "disc"), ax) && !okAxes(coords(c, "prat"), ax); }).map(function (c) {
+      var k = coords(c, "disc"), sem = ax.filter(function (a) { return k[a].n < 3; }).map(function (a) { return AXIS[a].nome.toLowerCase(); });
+      return shortName(c) + " (" + sem.join(" e ") + ")";
+    });
+    $("compMissing").textContent = falta.length ? "Fora deste gráfico por falta de posições registradas suficientes no eixo: " + falta.join(", ") + "." : "";
+    $("compAxisNote").textContent = ax.indexOf("z") >= 0 ? AXIS_NOTE.z : "";
     if (nAnswered()) h.push('<g id="youG" style="transform:translate(' + (animate ? m + "px," + m + "px" : youT()) + ')"><circle r="22" fill="var(--you)" opacity=".16"/><circle r="10" fill="var(--you)" stroke="var(--bg)" stroke-width="3"/><text y="-18" text-anchor="middle" font-size="13" font-weight="700" fill="var(--you)" style="paint-order:stroke;stroke:var(--bg);stroke-width:4px;stroke-linejoin:round">Você</text></g>');
     $("compass").innerHTML = h.join("");
     if (animate && nAnswered()) requestAnimationFrame(function () { requestAnimationFrame(function () { var g = $("youG"); if (g) g.style.transform = "translate(" + youT() + ")"; }); });
   }
   function drawGapChart() {
     if (!D) return;
-    var pl = placer(), h = frame("xy").concat(candMarks("xy", { gap: true, onlyGap: true }, pl, false));
+    var pl = placer(); blockFrame(pl);
+    var h = frame("xy").concat(candMarks("xy", { gap: true, onlyGap: true }, pl, false));
     $("gapChart").innerHTML = h.join("");
   }
   ["lgCand", "lgPart", "lgGap"].forEach(function (id) { $(id).addEventListener("change", function () { drawCompass(false); }); });
@@ -662,6 +703,7 @@
       '<div class="facts">' + axisFacts(c) + "</div>" +
       '<div class="gapBox"><p>' + esc(c.pratica_resumo || (nPrat(c) ? "" : "Não exerceu cargo com atos registrados nas pautas do teste. A posição vem só do que diz.")) + "</p>" +
       (c.autodeclaracao ? '<p class="small muted"><b>Como se define:</b> ' + esc(c.autodeclaracao) + " A autodeclaração não entra no cálculo.</p>" : "") + "</div>";
+    h = h.replace("<h3>Discurso e prática</h3>", '<div id="cohBox"></div><h3>Discurso e prática</h3>');
     if ((c.atos || []).length) h += '<h3>Atos registrados</h3><ul class="atos">' + c.atos.map(function (a) { return '<li><span class="d">' + esc(a.data || "") + "</span><span>" + esc(a.ato) + (a.fonte ? ' <span class="small">' + link(a.fonte) + "</span>" : "") + "</span></li>"; }).join("") + "</ul>";
     if ((c.propostas || []).length) h += '<h3>Principais propostas</h3><ul class="list">' + c.propostas.map(function (p) { return '<li><span class="badge">' + esc(p.tema) + "</span><div>" + esc(p.texto) + (p.fonte ? ' <span class="small">' + link(p.fonte) + "</span>" : "") + "</div></li>"; }).join("") + "</ul>";
     if (c.plano_governo_url) h += '<p class="small" style="margin-top:10px">' + link(c.plano_governo_url, "Plano de governo no TSE") + "</p>";
@@ -670,7 +712,12 @@
     if ((c.fontes || []).length) h += '<h3>Fontes</h3><ul class="small" style="padding-left:18px;margin-top:10px">' + c.fontes.map(function (u) { return safeUrl(u) ? "<li>" + link(u, u) + "</li>" : ""; }).join("") + "</ul>";
     h += '<div id="tlBox"></div><p class="small muted" style="margin-top:22px">Atualizado em ' + esc(c.atualizado_em || D.atualizado_em) + "</p>";
     openSheet(h);
-    loadConteudo().then(function (d) { var box = $("tlBox"); if (box && d.linhas && d.linhas[c.id]) box.innerHTML = timelineHTML(d.linhas[c.id]); });
+    loadConteudo().then(function (d) {
+      var box = $("tlBox"), cb = $("cohBox"), tl = d.linhas && d.linhas[c.id];
+      if (cb && d.coerencia && d.coerencia[c.id]) cb.innerHTML = cohHTML(d.coerencia[c.id]);
+      // a linha do tempo completa é longa: fica recolhida, depois do resumo das principais ações
+      if (box && tl) box.innerHTML = '<details class="tlFull"><summary><span class="h">Linha do tempo completa</span><span class="small muted">' + (tl.eventos || []).length + " fatos com data e fonte</span></summary>" + timelineHTML(tl) + "</details>";
+    });
   }
   function renderParties() {
     if (!D) return;
