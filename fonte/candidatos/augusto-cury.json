@@ -250,7 +250,7 @@
   "V01": {
    "v": null,
    "conf": "baixa",
-   "base": "DISCURSO: Segundo análise dos planos, o de Cury prevê planejamento reprodutivo 'nos termos da legislação brasileira' e não trata de aborto; sem declaração encontrada.",
+   "base": "DISCURSO: Sem posição localizada no plano registrado no TSE (200 p.), em sabatinas (Globo, CBN/O Globo/Valor, CNN, Folha) nem em entrevistas consultadas; o plano prevê apenas 'planejamento reprodutivo nos termos da legislação brasileira'.",
    "fonte": null,
    "p": null,
    "conf_p": null,
@@ -260,7 +260,7 @@
   "V02": {
    "v": null,
    "conf": "baixa",
-   "base": "DISCURSO: Não encontrei posição do candidato sobre o tema no plano registrado no TSE nem em entrevistas consultadas.",
+   "base": "DISCURSO: Sem posição localizada no plano registrado no TSE (200 p.), em sabatinas (Globo, CBN/O Globo/Valor, CNN, Folha) nem em entrevistas consultadas.",
    "fonte": null,
    "p": null,
    "conf_p": null,
@@ -270,7 +270,7 @@
   "V03": {
    "v": null,
    "conf": "baixa",
-   "base": "DISCURSO: Não encontrei posição do candidato sobre o tema no plano registrado no TSE nem em entrevistas consultadas.",
+   "base": "DISCURSO: Sem posição localizada no plano registrado no TSE (200 p.), em sabatinas (Globo, CBN/O Globo/Valor, CNN, Folha) nem em entrevistas consultadas.",
    "fonte": null,
    "p": null,
    "conf_p": null,
@@ -280,7 +280,7 @@
   "V04": {
    "v": null,
    "conf": "baixa",
-   "base": "DISCURSO: Não encontrei posição do candidato sobre o tema no plano registrado no TSE nem em entrevistas consultadas.",
+   "base": "DISCURSO: Sem posição localizada no plano registrado no TSE (200 p.), em sabatinas (Globo, CBN/O Globo/Valor, CNN, Folha) nem em entrevistas consultadas; o plano trata de combate ao tráfico, não do porte para uso pessoal.",
    "fonte": null,
    "p": null,
    "conf_p": null,
@@ -290,7 +290,7 @@
   "V05": {
    "v": null,
    "conf": "baixa",
-   "base": "DISCURSO: Não encontrei posição do candidato sobre o tema no plano registrado no TSE nem em entrevistas consultadas.",
+   "base": "DISCURSO: Sem posição localizada no plano registrado no TSE (200 p.), em sabatinas (Globo, CBN/O Globo/Valor, CNN, Folha) nem em entrevistas consultadas.",
    "fonte": null,
    "p": null,
    "conf_p": null,
@@ -300,7 +300,7 @@
   "V06": {
    "v": null,
    "conf": "baixa",
-   "base": "DISCURSO: Não encontrei posição do candidato sobre o tema no plano registrado no TSE nem em entrevistas consultadas.",
+   "base": "DISCURSO: Sem posição localizada no plano registrado no TSE (200 p.), em sabatinas (Globo, CBN/O Globo/Valor, CNN, Folha) nem em entrevistas consultadas.",
    "fonte": null,
    "p": null,
    "conf_p": null,
@@ -308,10 +308,10 @@
    "fonte_p": null
   },
   "V07": {
-   "v": null,
-   "conf": "baixa",
-   "base": "DISCURSO: Não encontrei posição do candidato sobre o tema no plano registrado no TSE nem em entrevistas consultadas.",
-   "fonte": null,
+   "v": -1,
+   "conf": "media",
+   "base": "DISCURSO: Em entrevista à Folha (Folhapress, 20/04/2026), 'afirma que respeita a laicidade do Estado'; diz ser 'cristão sem fronteiras' e, em entrevistas anteriores, 'Não defendo uma religião'.",
+   "fonte": "https://jornaldebrasilia.com.br/noticias/brasil/augusto-cury-mira-empreendedores-nega-inspiracao-em-marcal-e-tem-teoria-questionada/",
    "p": null,
    "conf_p": null,
    "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
@@ -320,7 +320,7 @@
   "V08": {
    "v": null,
    "conf": "baixa",
-   "base": "DISCURSO: Não encontrei posição do candidato sobre o tema no plano registrado no TSE nem em entrevistas consultadas.",
+   "base": "DISCURSO: Sem posição localizada no plano registrado no TSE (200 p.), em sabatinas (Globo, CBN/O Globo/Valor, CNN, Folha) nem em entrevistas consultadas.",
    "fonte": null,
    "p": null,
    "conf_p": null,
@@ -328,10 +328,10 @@
    "fonte_p": null
   },
   "V09": {
-   "v": null,
-   "conf": "baixa",
-   "base": "DISCURSO: Não encontrei posição do candidato sobre o tema no plano registrado no TSE nem em entrevistas consultadas.",
-   "fonte": null,
+   "v": -1,
+   "conf": "media",
+   "base": "DISCURSO: À Folha (Folhapress, 20/04/2026): 'Essa história de bandido bom é bandido morto é uma ideia estúpida, não altruísta. O problema não é encarcerar, é encarcerar mal, não chegar antes do crime'. O plano de segurança foca em inteligência, tecnologia e asfixia financeira de facções.",
+   "fonte": "https://jornaldebrasilia.com.br/noticias/brasil/augusto-cury-mira-empreendedores-nega-inspiracao-em-marcal-e-tem-teoria-questionada/",
    "p": null,
    "conf_p": null,
    "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
@@ -360,7 +360,7 @@
   "V12": {
    "v": null,
    "conf": "baixa",
-   "base": "DISCURSO: Plano registrado no TSE não trata de terras indígenas nem do marco temporal.",
+   "base": "DISCURSO: Sem posição localizada no plano registrado no TSE (200 p.), em sabatinas (Globo, CBN/O Globo/Valor, CNN, Folha) nem em entrevistas consultadas; o plano não trata de terras indígenas.",
    "fonte": null,
    "p": null,
    "conf_p": null,
@@ -380,7 +380,7 @@
   "V14": {
    "v": null,
    "conf": "baixa",
-   "base": "DISCURSO: Não encontrei posição do candidato sobre o tema no plano registrado no TSE nem em entrevistas consultadas.",
+   "base": "DISCURSO: Sem posição localizada no plano registrado no TSE (200 p.), em sabatinas (Globo, CBN/O Globo/Valor, CNN, Folha) nem em entrevistas consultadas.",
    "fonte": null,
    "p": null,
    "conf_p": null,
@@ -390,7 +390,7 @@
   "V15": {
    "v": null,
    "conf": "baixa",
-   "base": "DISCURSO: Não encontrei posição do candidato sobre o tema no plano registrado no TSE nem em entrevistas consultadas.",
+   "base": "DISCURSO: Sem posição localizada no plano registrado no TSE (200 p.), em sabatinas (Globo, CBN/O Globo/Valor, CNN, Folha) nem em entrevistas consultadas; o plano critica o 'patrulhamento ideológico' que faz professores temerem cancelamentos, sem propor restrição a opiniões em sala.",
    "fonte": null,
    "p": null,
    "conf_p": null,
@@ -420,7 +420,7 @@
   "V18": {
    "v": null,
    "conf": "baixa",
-   "base": "DISCURSO: Não encontrei posição do candidato sobre o tema no plano registrado no TSE nem em entrevistas consultadas.",
+   "base": "DISCURSO: Sem posição localizada no plano registrado no TSE (200 p.), em sabatinas (Globo, CBN/O Globo/Valor, CNN, Folha) nem em entrevistas consultadas; o plano cita 'a importância da família e das tradições sociais' ao descrever valores da direita, sem definir modelo de família para políticas públicas.",
    "fonte": null,
    "p": null,
    "conf_p": null,
@@ -519,24 +519,73 @@
   },
   "V20": {
    "v": null,
-   "p": null,
    "conf": "baixa",
-   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-   "fonte": null
+   "base": "DISCURSO: Sem posição pontuada: fonte não pôde ser aberta e conferida.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
   },
   "Z09": {
    "v": null,
-   "p": null,
    "conf": "baixa",
-   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-   "fonte": null
+   "base": "DISCURSO: Sem posição localizada no plano registrado no TSE (200 p.), em sabatinas (Globo, CBN/O Globo/Valor, CNN, Folha) nem em entrevistas consultadas; o plano critica movimentos sociais que 'abandonam o diálogo', sem tratar de ocupações ou bloqueios.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
   },
   "Z10": {
-   "v": null,
+   "v": 1,
+   "conf": "media",
+   "base": "DISCURSO: Reconheceu o 1º turno (04/10/2026) e, após o 2º turno, a reeleição de Lula; a eleitores insatisfeitos disse: 'Você respeita as urnas e você questiona juridicamente [...] dentro de todos os ditames [...] da Constituição' (26/10/2026). Não fez declaração explícita sobre a confiabilidade da apuração.",
+   "fonte": "https://spdiario.com.br/noticias/politica/augusto-cury-reconhece-reeleicao-de-lula-critica-quarto-mandato-e-pede-governo-sem-revanchismo.html",
    "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z11": {
+   "v": null,
    "conf": "baixa",
-   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-   "fonte": null
+   "base": "DISCURSO: Sem posição pontuada: não há fala do candidato sobre decretos ou medidas provisórias; o semipresidencialismo que ele propõe não basta para pontuar.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z12": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Plano: 'Sou contra a reeleição, pois considero que ela seja uma das fontes da corrupção' e propõe acabar com ela; após o 2º turno (26/10/2026): 'Considero que um quarto mandato dificulta a renovação das ideias'.",
+   "fonte": "https://planodegoverno2026.com.br/planos/augusto-cury-2890f992.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z13": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição localizada sobre legalidade estrita nas investigações. No debate da Band (23/08/2026) defendeu tratar corrupção como 'crime hediondo' com julgamento em 'no máximo, seis meses'; em sabatina (ago/2026) quis juristas para 'ver se teve vícios nos processos' do 8/1. Nenhuma das falas trata do dilema da afirmação.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z14": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição localizada sobre remoção de perfis. O plano pede 'maior transparência e responsabilidade das plataformas' quanto a conteúdo nocivo a crianças, 'dentro dos parâmetros constitucionais e legais', e critica a 'cultura do cancelamento'.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
   }
  },
  "checagens": [

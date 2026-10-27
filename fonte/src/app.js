@@ -199,7 +199,11 @@
       $("subnav").innerHTML = G.sub.map(function (it) { return '<a href="#' + it[0] + '" data-go="' + it[0] + '" aria-current="' + (it[0] === subCur ? "page" : "false") + '">' + it[1] + "</a>"; }).join("");
     }
     if (view === "resultado") renderResult();
-    if (view === "teste") renderQ();
+    if (view === "teste") {
+      // se a pergunta atual já foi respondida, vai para a primeira que falta (ex.: afirmações novas)
+      if (Q[cur] && answers[Q[cur].id] != null) { for (var qi = 0; qi < Q.length; qi++) if (answers[Q[qi].id] == null) { cur = qi; break; } }
+      renderQ();
+    }
     if (view === "candidatos") renderCandGrid();
     if (view === "partidos") renderParties();
     if (view === "espectro") drawGapChart();
@@ -294,11 +298,14 @@
   // link de resultado: "s" + um caractere por pergunta (0 = sem resposta, 1-5 = resposta, a-e = resposta marcada como importante).
   // Links antigos ("r", 45 perguntas) continuam abrindo.
   var LEGACY_R = ["E01", "E02", "E03", "E04", "E05", "E06", "E07", "E08", "E09", "E10", "E11", "E12", "E13", "E14", "E15", "E16", "E17", "E18", "V01", "V02", "V03", "V04", "V05", "V06", "V07", "V08", "V09", "V10", "V11", "V12", "V13", "V14", "V15", "V16", "V17", "V18", "V19", "Z01", "Z02", "Z03", "Z04", "Z05", "Z06", "Z07", "Z08"];
+  // links compartilhados antes de 27/10/2026 tinham 48 afirmações nesta ordem
+  var LEGACY_S48 = ["E01", "E02", "E03", "E04", "E05", "E06", "E07", "E08", "E09", "E10", "E11", "E12", "E13", "E14", "E15", "E16", "E17", "E18", "V01", "V02", "V03", "V04", "V05", "V06", "V07", "V08", "V09", "V10", "V11", "V12", "V13", "V14", "V15", "V16", "V17", "V18", "V19", "V20", "Z01", "Z02", "Z03", "Z04", "Z05", "Z06", "Z07", "Z08", "Z09", "Z10"];
   function encode() { return "s" + D.perguntas.map(function (q) { var a = answers[q.id]; return a == null ? "0" : imp[q.id] ? "abcde".charAt(a + 2) : String(a + 3); }).join(""); }
   function decode(code) {
     var o = {}, im = {}, ids;
     if (/^r[0-5]+$/.test(code) && code.length === LEGACY_R.length + 1) ids = LEGACY_R;
     else if (/^s[0-5a-e]+$/.test(code) && code.length === D.perguntas.length + 1) ids = D.perguntas.map(function (q) { return q.id; });
+    else if (/^s[0-5a-e]+$/.test(code) && code.length === LEGACY_S48.length + 1) ids = LEGACY_S48;
     else return null;
     ids.forEach(function (id, i) {
       var ch = code.charAt(i + 1), k = "abcde".indexOf(ch);
@@ -586,6 +593,10 @@
     if (!D) return;
     var n = nAnswered();
     drawCompass(true);
+    // quem respondeu antes das afirmações novas vê um convite para completar
+    var faltam = D.perguntas.filter(function (q) { return answers[q.id] == null; });
+    $("newQ").hidden = !(n && faltam.length && faltam.length <= 6);
+    if (!$("newQ").hidden) $("newQ").innerHTML = (faltam.length === 1 ? "Falta 1 afirmação" : "Faltam " + faltam.length + " afirmações") + " para o resultado ficar completo" + (faltam.every(function (q) { return /^Z1[1-4]$/.test(q.id); }) ? " (novas, sobre instituições)" : "") + '. <button type="button" class="lnk" data-go="teste">Responder agora</button>';
     if (!n) {
       $("resEyebrow").textContent = "Seu resultado";
       $("verdict").textContent = "Você ainda não respondeu.";

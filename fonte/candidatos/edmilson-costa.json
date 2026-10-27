@@ -498,25 +498,74 @@
    "fonte_p": null
   },
   "V20": {
-   "v": null,
+   "v": 2,
+   "conf": "media",
+   "base": "DISCURSO: Nota do Comitê Central do PCB de 19/08/2018, após os ataques em Pacaraima (RR), manifesta 'total solidariedade aos imigrantes venezuelanos' e critica a 'falta de uma política de Estado que possa dar condições dignas aos imigrantes e refugiados'. Edmilson é secretário-geral do PCB; nota partidária usada como discurso.",
+   "fonte": "https://pcb.org.br/portal2/20560",
    "p": null,
-   "conf": "baixa",
-   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-   "fonte": null
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
   },
   "Z09": {
-   "v": null,
+   "v": 2,
+   "conf": "media",
+   "base": "DISCURSO: Nota da Comissão Política Nacional do PCB de 24/06/2021 'saúda a ocupação da Usina Cambahyba' pelo MST e conclui 'Só a luta muda a vida'. Em entrevista à Opera Mundi (17/03/2026) Edmilson citou a mobilização indígena que levou à revogação do decreto das hidrovias como exemplo de que 'a mobilização popular consegue produzir mudanças'. Edmilson é secretário-geral do PCB; nota partidária usada como discurso.",
+   "fonte": "https://pcb.org.br/portal2/22132",
    "p": null,
-   "conf": "baixa",
-   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-   "fonte": null
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
   },
   "Z10": {
-   "v": null,
-   "p": null,
+   "v": 1,
    "conf": "baixa",
-   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-   "fonte": null
+   "base": "DISCURSO: Nota da Comissão Política Nacional do PCB de 23/07/2021 trata como 'ameaças de golpe' a insistência do ministro da Defesa 'na questão do voto impresso'. A nota não afirma diretamente a confiabilidade das urnas; o programa de 2026 critica o sistema eleitoral pelo peso do poder econômico, não pela apuração. Edmilson é secretário-geral do PCB; nota partidária usada como discurso.",
+   "fonte": "https://pcb.org.br/portal2/26228",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z11": {
+   "v": null,
+   "conf": null,
+   "base": "DISCURSO: Sem posição localizada sobre decretos e medidas provisórias. Na Opera Mundi (17/03/2026) disse que, com minoria no Congresso, governaria 'com a população mobilizada' e convocaria Constituinte após dois anos; não tratou de decretos.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z12": {
+   "v": null,
+   "conf": null,
+   "base": "DISCURSO: Sem posição localizada sobre terceiro mandato ou reeleição; o programa de 2026 propõe mandatos revogáveis por referendo, sem tratar de limite de mandatos.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z13": {
+   "v": 1,
+   "conf": "media",
+   "base": "DISCURSO: Nota do Comitê Central do PCB de 08/07/2018 diz que 'o cerceamento ao direito de habeas corpus é um grave crime contra as liberdades democráticas' e acusa Sergio Moro de travar 'guerra jurídica contra seus inimigos políticos'. Edmilson é secretário-geral do PCB; nota partidária usada como discurso.",
+   "fonte": "https://pcb.org.br/portal2/20181",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z14": {
+   "v": -1,
+   "conf": "media",
+   "base": "DISCURSO: Nota do Comitê Central do PCB de 09/01/2025 defende 'o controle democrático e social da internet, com a verificação das informações divulgadas em todas as mídias e possibilidade de indiciamento' de quem divulga fake news; o programa de 2026 propõe 'forte regulação das Big Techs e redes sociais'. Edmilson é secretário-geral do PCB; nota partidária usada como discurso.",
+   "fonte": "https://pcb.org.br/portal2/32425",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
   }
  },
  "checagens": [],

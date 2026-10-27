@@ -499,24 +499,73 @@
   },
   "V20": {
    "v": null,
+   "conf": null,
+   "base": "DISCURSO: Sem posição localizada sobre acolhimento de refugiados e imigrantes no programa registrado em 2026 nem em entrevistas; o programa cita refugiados apenas ao tratar de guerras no exterior.",
+   "fonte": null,
    "p": null,
-   "conf": "baixa",
-   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-   "fonte": null
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
   },
   "Z09": {
-   "v": null,
+   "v": 2,
+   "conf": "media",
+   "base": "DISCURSO: Programa registrado em 2026 diz que os povos indígenas do Tapajós 'deram um grande exemplo de resistência e luta' ao derrotar o decreto 12.600/2025 'diante de mais de 30 dias de ocupação' do terminal portuário da Cargill em Santarém (PA), e defende 'a mobilização direta das massas'.",
+   "fonte": "https://planodegoverno2026.com.br/planos/samara-305b3f63.pdf",
    "p": null,
-   "conf": "baixa",
-   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-   "fonte": null
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
   },
   "Z10": {
    "v": null,
+   "conf": null,
+   "base": "DISCURSO: Sem posição localizada sobre urnas eletrônicas ou Justiça Eleitoral; o programa de 2026 critica apenas a influência do poder econômico nas campanhas.",
+   "fonte": null,
    "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z11": {
+   "v": null,
+   "conf": null,
+   "base": "DISCURSO: Sem posição localizada sobre decretos e medidas provisórias; no Café do MyNews (14/08/2026), perguntada sobre governar com Congresso conservador, respondeu com 'mobilização popular contínua'.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z12": {
+   "v": null,
+   "conf": null,
+   "base": "DISCURSO: Sem posição localizada sobre terceiro mandato ou reeleição em plano ou entrevistas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z13": {
+   "v": 0,
    "conf": "baixa",
-   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-   "fonte": null
+   "base": "DISCURSO: Programa registrado em 2026 defende 'prisão nos casos previstos em lei' e cassação de direitos políticos 'após condenação', mas também 'confisco imediato dos bens de sonegadores, corruptos'; no Café do MyNews (14/08/2026) pediu punição rigorosa a acusados de golpe. Posição mista.",
+   "fonte": "https://planodegoverno2026.com.br/planos/samara-305b3f63.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z14": {
+   "v": null,
+   "conf": null,
+   "base": "DISCURSO: Sem posição localizada sobre remoção de perfis; o programa de 2026 propõe 'combater a censura corporativa' e o 'fim do monopólio estrangeiro sobre as redes digitais', sem tratar de remoção de conteúdo.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
   }
  },
  "checagens": [],

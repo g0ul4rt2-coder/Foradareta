@@ -693,3 +693,4 @@ details.tlFull > summary .h::after { content: " ›"; color: var(--you); }
 details.tlFull[open] > summary .h::after { content: " ⌄"; }
 details.tlFull > h3:first-of-type { display: none; }
 .compNote { max-width: 62ch; margin: 10px auto 0; text-align: center; } .compNote:empty { display: none; }
+.newQ { margin: 12px auto 0; max-width: 560px; background: var(--you-soft); color: var(--ink); border-radius: 14px; padding: 10px 14px; }

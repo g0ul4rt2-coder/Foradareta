@@ -494,24 +494,73 @@
   },
   "V20": {
    "v": null,
-   "p": null,
    "conf": "baixa",
-   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-   "fonte": null
+   "base": "DISCURSO: Sem posição localizada no plano registrado no TSE (15 p.) nem em entrevistas consultadas (Poder360, Jornal Nacional, MyNews, Correio Braziliense, Polêmica Paraíba, RepórterMT); o plano não menciona migração (MigraMundo, ago/2026).",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo (preside o DC-MT, sem ato localizado sobre o tema).",
+   "fonte_p": null
   },
   "Z09": {
    "v": null,
-   "p": null,
    "conf": "baixa",
-   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-   "fonte": null
+   "base": "DISCURSO: Sem posição localizada no plano registrado no TSE (15 p.) nem em entrevistas consultadas (Poder360, Jornal Nacional, MyNews, Correio Braziliense, Polêmica Paraíba, RepórterMT).",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo (preside o DC-MT, sem ato localizado sobre o tema).",
+   "fonte_p": null
   },
   "Z10": {
    "v": null,
-   "p": null,
    "conf": "baixa",
-   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-   "fonte": null
+   "base": "DISCURSO: Sem posição localizada no plano registrado no TSE (15 p.) nem em entrevistas consultadas (Poder360, Jornal Nacional, MyNews, Correio Braziliense, Polêmica Paraíba, RepórterMT); ao votar (04/10/2026) criticou pesquisas de véspera como 'boca de urna', sem tratar da apuração.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo (preside o DC-MT, sem ato localizado sobre o tema).",
+   "fonte_p": null
+  },
+  "Z11": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição localizada no plano registrado no TSE (15 p.) nem em entrevistas consultadas (Poder360, Jornal Nacional, MyNews, Correio Braziliense, Polêmica Paraíba, RepórterMT); o plano cita 'respeito à independência dos Poderes e às regras democráticas', sem tratar de decretos ou MPs.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo (preside o DC-MT, sem ato localizado sobre o tema).",
+   "fonte_p": null
+  },
+  "Z12": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição localizada no plano registrado no TSE (15 p.) nem em entrevistas consultadas (Poder360, Jornal Nacional, MyNews, Correio Braziliense, Polêmica Paraíba, RepórterMT).",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo (preside o DC-MT, sem ato localizado sobre o tema).",
+   "fonte_p": null
+  },
+  "Z13": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição localizada no plano registrado no TSE (15 p.) nem em entrevistas consultadas (Poder360, Jornal Nacional, MyNews, Correio Braziliense, Polêmica Paraíba, RepórterMT); defendeu impeachment de ministros ligados ao caso Master e 'devassa geral' (22/09/2026); o plano prevê 'recuperação de ativos com devido processo'. Nenhuma fala trata do dilema da afirmação.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo (preside o DC-MT, sem ato localizado sobre o tema).",
+   "fonte_p": null
+  },
+  "Z14": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição localizada no plano registrado no TSE (15 p.) nem em entrevistas consultadas (Poder360, Jornal Nacional, MyNews, Correio Braziliense, Polêmica Paraíba, RepórterMT).",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo (preside o DC-MT, sem ato localizado sobre o tema).",
+   "fonte_p": null
   }
  },
  "checagens": [],

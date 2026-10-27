@@ -546,6 +546,46 @@
    "conf_p": "baixa",
    "base_p": "PRÁTICA: Sancionou a Lei 10.740 (01/10/2003), que trocou a impressão do voto prevista na Lei 10.408/2002 pelo registro digital do voto. Mas em 2009 sancionou a Lei 12.034, que previa o voto impresso a partir de 2014 (dispositivo depois derrubado pelo STF). Não há registro de que tenha contestado resultado apurado pela Justiça Eleitoral. No geral a prática favorece o sistema, mas é mista e antiga.",
    "fonte_p": "https://www.poder360.com.br/eleicoes/no-passado-politicos-de-oposicao-defendiam-voto-impresso/"
+  },
+  "Z11": {
+   "v": 1,
+   "conf": "media",
+   "base": "DISCURSO: Em 02/07/2025, ao defender o decreto do IOF derrubado pelo Congresso, disse que 'decreto é uma coisa do presidente da República' e que, sem recorrer ao STF, 'eu não governo mais o país'. Em 18/03/2008 afirmou que 'é humanamente impossível você governar se não tiver medida provisória'. Na mesma fala de 2025 disse que o Congresso legisla e ele governa, e que a Justiça resolve divergências; não defendeu governar sem o Congresso.",
+   "fonte": "https://agenciabrasil.ebc.com.br/politica/noticia/2025-07/lula-diz-que-motta-descumpriu-acordo-e-derrubada-do-iof-foi-absurda",
+   "p": 1,
+   "conf_p": "media",
+   "base_p": "PRÁTICA: Depois de o Congresso derrubar o veto à desoneração da folha (Lei 14.784/2023), editou a MP 1.202/2023, que reonerava a folha; 17 frentes parlamentares pediram a devolução da MP (fev/2024). Em 2025, após a derrubada do decreto do IOF pelo Congresso, o governo recorreu ao STF. Também negociou e acatou derrotas no Congresso (ver Z06).",
+   "fonte_p": "https://www.camara.leg.br/noticias/1035179-frentes-parlamentares-cobram-devolucao-de-mp-que-reonera-folha-de-pagamentos/"
+  },
+  "Z12": {
+   "v": 2,
+   "conf": "media",
+   "base": "DISCURSO: Em 05/06/2009, sobre a PEC que permitiria terceiro mandato, disse: 'Não precisa mudar porque eu tenho uma posição definitiva. A alternância de poder é muito importante para o Brasil. Eu já fui oito anos presidente.' Não localizei fala recente dele sobre o tema; em 2026 disputou e venceu a reeleição para um segundo mandato consecutivo, o que a Constituição permite.",
+   "fonte": "https://www.congressoemfoco.com.br/noticia/78078/oposicao-contra-a-pec-do-terceiro-mandato-e-destaque-dos-jornais",
+   "p": 2,
+   "conf_p": "media",
+   "base_p": "PRÁTICA: Não disputou a eleição de 2010, ao fim do segundo mandato consecutivo, e apoiou Dilma Rousseff. A PEC 373/2009 do terceiro mandato foi rejeitada por unanimidade na CCJ da Câmara em 07/07/2009, com parecer contrário do relator José Genoíno (PT-SP).",
+   "fonte_p": "https://www.conjur.com.br/2009-jul-07/ccj-camara-deputados-arquiva-pec-terceiro-mandato//?print=1"
+  },
+  "Z13": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Em 26/06/2024 (entrevista ao UOL), sobre Jair Bolsonaro: 'Que ele tenha direito à presunção de inocência, que ele tenha direito de se defender e que ele seja ouvido' e 'O que eu defendo para ele, eu defendo para mim'. Desde a anulação de suas condenações na Lava Jato (STF, 2021), repete que não teve presunção de inocência.",
+   "fonte": "https://www.infomoney.com.br/politica/lula-diz-que-bolsonaro-tentou-dar-golpe-mas-tem-direito-a-presuncao-de-inocencia/",
+   "p": 1,
+   "conf_p": "media",
+   "base_p": "PRÁTICA: Sancionou a Lei 11.690 (09/06/2008), que reescreveu o art. 157 do CPP: provas ilícitas, e as delas derivadas, são inadmissíveis e devem ser retiradas do processo. Não localizei ato de 2023–2026 específico sobre garantias processuais em investigações de corrupção.",
+   "fonte_p": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11690.htm"
+  },
+  "Z14": {
+   "v": -2,
+   "conf": "media",
+   "base": "DISCURSO: Em 09/01/2025, sobre o fim da checagem de fatos da Meta, disse ser 'extremamente grave as pessoas quererem que a comunicação digital não tenha mesma responsabilidade' da imprensa escrita. O programa de 2026 defende 'regulação democrática das redes sociais e das plataformas digitais' contra desinformação e ódio (ver V11). Não localizei fala dele condicionando remoções a decisão judicial.",
+   "fonte": "https://www.poder360.com.br/poder-tech/extremamente-grave-diz-lula-sobre-fim-da-checagem-de-fatos-da-meta/",
+   "p": -1,
+   "conf_p": "media",
+   "base_p": "PRÁTICA: Sancionou o ECA Digital (Lei 15.211, 17/09/2025), cujo art. 29 obriga plataformas a retirar conteúdo que viole direitos de crianças e adolescentes após notificação da vítima, 'independentemente de ordem judicial'. A AGU do governo defendeu no STF a responsabilização de plataformas sem ordem judicial prévia e o advogado-geral chamou de 'marco civilizatório' a decisão de 26/06/2025 sobre o art. 19 do Marco Civil.",
+   "fonte_p": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15211.htm"
   }
  },
  "checagens": [

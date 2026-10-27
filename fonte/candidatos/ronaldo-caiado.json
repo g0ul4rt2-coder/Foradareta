@@ -518,25 +518,74 @@
    "fonte_p": null
   },
   "V20": {
-   "v": null,
-   "p": null,
+   "v": 0,
    "conf": "baixa",
-   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-   "fonte": null
+   "base": "DISCURSO: O plano de 2026 propõe 'organizar a migração com documentação, integração, segurança e cooperação internacional', sem tratar de refúgio ou acolhida humanitária. Em 18/04/2017, no debate da Lei de Migração, disse que a livre circulação de povos tradicionais nas fronteiras significaria 'escancarar as fronteiras' ao tráfico. Não localizei fala dele sobre venezuelanos, haitianos ou afegãos.",
+   "fonte": "https://www.congressoemfoco.com.br/noticia/40503/senado-aprova-projeto-da-nova-lei-de-migracao-quesegue-para-sancao-presidencial",
+   "p": 0,
+   "conf_p": "baixa",
+   "base_p": "PRÁTICA: Em 18/04/2017 foi um dos 4 senadores que votaram Não aos trechos da Lei de Migração destacados pelo DEM, entre eles 'ou a quem necessite de acolhimento humanitário' (art. 47, §4º); os trechos foram mantidos por 43 a 4. Em sentido oposto, em fev/2025 a Seds de Goiás lançou, com a PF, um programa para facilitar a documentação de imigrantes, refugiados e apátridas.",
+   "fonte_p": "https://legis.senado.leg.br/dadosabertos/votacao?codigoParlamentar=456&dataInicio=2017-04-18&dataFim=2017-04-18"
   },
   "Z09": {
-   "v": null,
-   "p": null,
-   "conf": "baixa",
-   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-   "fonte": null
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Em abr/2024, durante o 'Abril Vermelho' do MST, disse: 'Estamos com força de segurança e inteligência, vamos bloquear ônibus que estão indo para invasão' e que não haveria invasão em Goiás. Em 31/10/2022, sobre os bloqueios de rodovias: 'Eu já tomei as devidas providências e todas as estradas já estão autorizando passagens'.",
+   "fonte": "https://tribunadoplanalto.com.br/nao-vai-ter-invasao-garante-caiado-sobre-mobilizacoes-do-mst-em-goias/",
+   "p": -2,
+   "conf_p": "alta",
+   "base_p": "PRÁTICA: Sancionou a Lei estadual 22.419 (27/11/2023), enviada pelo governo, que manda adotar 'desforço imediato' contra ocupações das faixas de domínio das rodovias, conduzir coercitivamente e indiciar os ocupantes. Em 15/04/2024 a PM impediu ocupação do MST em Vila Boa e cinco líderes foram autuados por esbulho possessório.",
+   "fonte_p": "https://legisla.casacivil.go.gov.br/api/v2/pesquisa/legislacoes/108123/pdf"
   },
   "Z10": {
-   "v": null,
+   "v": 2,
+   "conf": "media",
+   "base": "DISCURSO: Em 22/07/2021 e 07/08/2021 defendeu a urna eletrônica e se opôs ao voto impresso defendido por Jair Bolsonaro ('Defendo o sistema democrático até o último momento da minha vida'). Em 22/07/2026 criticou Flávio Bolsonaro por questionar as urnas a embaixadores: 'Escolheram falar de urna eletrônica!'.",
+   "fonte": "https://ohoje.com/2021/08/07/voto-impresso-caiado-se-pronuncia-pela-1a-vez-sobre-sistema-de-votacao/",
+   "p": 1,
+   "conf_p": "baixa",
+   "base_p": "PRÁTICA: Não localizei seu voto nominal na derrubada do veto ao voto impresso (Congresso, 18/11/2015). Reconheceu o resultado de 2022 em 31/10/2022 e, em 23/02/2023, defendeu 'convivência pacífica e respeitosa ao resultado das urnas'.",
+   "fonte_p": "https://jornaldebrasilia.com.br/noticias/brasil/caiado-aliado-de-bolsonaro-ressalta-convivencia-pacifica-e-respeitosa-com-lula/"
+  },
+  "Z11": {
+   "v": -2,
+   "conf": "media",
+   "base": "DISCURSO: Em 08/09/2015, como líder do DEM no Senado, criticou a intenção de editar MP sobre repatriação de recursos: 'Incompetência em articular sua base não configura como urgência para editarem uma MP' e chamou a medida de 'manobra contra o Legislativo'. O plano de 2026 diz que 'nenhum programa transformador será executado sem cooperação entre os Poderes' e propõe formar maioria no Congresso.",
+   "fonte": "https://congressoemfoco.com.br/noticia/47396/lider-do-dem-diz-que-vai-recorrer-ao-stf-contra-mp-da-repatriacao",
    "p": null,
-   "conf": "baixa",
-   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-   "fonte": null
+   "conf_p": "baixa",
+   "base_p": "PRÁTICA: Sem ato localizado. Como governador aprovou suas reformas pela Alego (ver Z06); não localizei voto nominal dele sobre o rito das MPs nos mandatos de deputado e senador.",
+   "fonte_p": null
+  },
+  "Z12": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: O plano de 2026 promete enviar, no início do mandato, PEC para 'extinguir a reeleição consecutiva para os cargos do Poder Executivo, com aplicação inclusive ao mandato presidencial iniciado em 2027'. Vai além da frase: rejeita também o segundo mandato.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "PRÁTICA: Sem ato localizado sobre terceiro mandato. Disputou e venceu a reeleição para governador em 2022, como a Constituição permite.",
+   "fonte_p": null
+  },
+  "Z13": {
+   "v": 1,
+   "conf": "media",
+   "base": "DISCURSO: O plano de 2026 propõe 'combater a corrupção, o crime organizado e a captura do Estado, ao mesmo tempo em que se preservam o devido processo legal' e diz que 'a firmeza será exercida dentro da Constituição, com devido processo legal'. O mesmo plano propõe execução da pena após 2ª instância para reincidentes.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo",
+   "p": 1,
+   "conf_p": "media",
+   "base_p": "PRÁTICA: Em 26/04/2017 votou Sim ao substitutivo de Roberto Requião ao PLS 85/2017, que define crimes de abuso de autoridade por agentes públicos, inclusive juízes e procuradores; o Senado aprovou por 54 a 19.",
+   "fonte_p": "https://legis.senado.leg.br/dadosabertos/votacao?codigoParlamentar=456&dataInicio=2017-04-26&dataFim=2017-04-26"
+  },
+  "Z14": {
+   "v": 1,
+   "conf": "media",
+   "base": "DISCURSO: O plano de 2026 propõe 'consolidar em lei regras de responsabilidade, devido processo, transparência e recurso' para plataformas e 'preservar os princípios do Marco Civil', cujo art. 19 condicionava a remoção a ordem judicial. Também promete implementar a proteção de crianças, que admite retirada sem ordem judicial. Não localizei fala dele sobre remoção de perfis.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "PRÁTICA: Não localizei voto nominal dele sobre o Marco Civil (2014) nem ato de governo sobre remoção de conteúdo; não votou o PL 2.630/2020, pois já era governador.",
+   "fonte_p": null
   }
  },
  "checagens": [

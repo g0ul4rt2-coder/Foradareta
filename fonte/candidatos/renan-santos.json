@@ -518,25 +518,74 @@
    "fonte_p": null
   },
   "V20": {
-   "v": null,
+   "v": -1,
+   "conf": "media",
+   "base": "DISCURSO: Em 21/05/2026, em vídeo gravado em Brasília com vereador de Pacaraima (RR), defendeu o fechamento da fronteira com a Venezuela: 'fronteira fechada, proteção para vocês e dinheiro rodando no Estado'. O plano (Livro Amarelo) não trata de imigração ou refúgio.",
+   "fonte": "https://www.folhabv.com.br/politica/renan-santos-promete-visitar-roraima-e-defende-fechamento-da-fronteira-vai-acabar-a-sabotagem",
    "p": null,
-   "conf": "baixa",
-   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-   "fonte": null
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; como líder do MBL/Missão não localizei ato específico; votos do deputado Kim Kataguiri não são atribuídos a Renan).",
+   "fonte_p": null
   },
   "Z09": {
-   "v": null,
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Plano (AgroBrasil 2030) põe como 'primeiro pilar' o 'fim das invasões de propriedade rural', com 'instrução às polícias para repressão das invasões' e pena maior para esbulho possessório; propõe tipificar o 'crime de favelização' para quem organiza ocupação ilegal.",
+   "fonte": "https://planodegoverno2026.com.br/planos/renan-santos-f1272756.pdf",
    "p": null,
-   "conf": "baixa",
-   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-   "fonte": null
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; como líder do MBL/Missão não localizei ato específico; votos do deputado Kim Kataguiri não são atribuídos a Renan).",
+   "fonte_p": null
   },
   "Z10": {
-   "v": null,
+   "v": 2,
+   "conf": "media",
+   "base": "DISCURSO: Após o 2º turno (25–26/10/2026): 'Não teve fraude na eleição'; 'Se você acha que a urna foi fraudada, devolve o teu mandato'; pediu que apoiadores não fossem às ruas. Em 25/07/2026 rejeitou que diplomatas dos EUA questionassem as urnas. Criticou a decisão que estendeu a votação até 19h, mas disse que não configura fraude.",
+   "fonte": "https://gcmais.com.br/noticias/2026/10/26/renan-santos-descarta-fraude-eleitoral-e-diz-que-campanha-de-lula-foi-colossal",
    "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; como líder do MBL/Missão não localizei ato específico; votos do deputado Kim Kataguiri não são atribuídos a Renan).",
+   "fonte_p": null
+  },
+  "Z11": {
+   "v": 0,
    "conf": "baixa",
-   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-   "fonte": null
+   "base": "DISCURSO: Posição mista. À GloboNews (05/08/2026) chamou o Congresso de 'fábrica de salsichas', mas disse 'como eu sou um democrata, eu vou ter que compor' e que negociaria a PEC de Transição com parlamentares antes da posse; o plano prevê 'sucessivos decretos de Estado de Defesa' contra facções e ele diz que 'decisão ilegal não se cumpre'. Não localizei posição sobre medidas provisórias.",
+   "fonte": "https://sbtnews.sbt.com.br/noticia/politica/renan-diz-que-governara-mesmo-com-parasitas-do-centrao",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; como líder do MBL/Missão não localizei ato específico; votos do deputado Kim Kataguiri não são atribuídos a Renan).",
+   "fonte_p": null
+  },
+  "Z12": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição localizada no plano (Livro Amarelo, versão registrada) nem em entrevistas consultadas sobre limite de mandatos ou reeleição.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; como líder do MBL/Missão não localizei ato específico; votos do deputado Kim Kataguiri não são atribuídos a Renan).",
+   "fonte_p": null
+  },
+  "Z13": {
+   "v": -1,
+   "conf": "media",
+   "base": "DISCURSO: Plano diz que Bolsonaro 'traiu a direita' 'destruindo a Lava Jato' e critica o 'garantismo penal pós-1988'; em 01/08/2026 chamou a Lava Jato de 'grande obra' de Moro e, em 08/08/2026, disse que dele foi 'a caneta que prendeu o Lula'. Não comentou as anulações da operação por ilegalidade.",
+   "fonte": "https://www.metropoles.com/brasil/em-congresso-renan-santos-chama-moro-de-um-rato-fraco-derrotado",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; como líder do MBL/Missão não localizei ato específico; votos do deputado Kim Kataguiri não são atribuídos a Renan).",
+   "fonte_p": null
+  },
+  "Z14": {
+   "v": 1,
+   "conf": "baixa",
+   "base": "DISCURSO: Plano prevê 'oposição firme a quaisquer propostas de regulação da mídia e da internet que reduzam a margem de liberdade de expressão'. Quando decisão monocrática do TSE (31/08/2026) tirou do ar perfis da campanha, disse 'decisão ilegal não se cumpre'. Não localizei declaração sobre exigir processo judicial com defesa prévia.",
+   "fonte": "https://planodegoverno2026.com.br/planos/renan-santos-f1272756.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; como líder do MBL/Missão não localizei ato específico; votos do deputado Kim Kataguiri não são atribuídos a Renan).",
+   "fonte_p": null
   }
  },
  "checagens": [

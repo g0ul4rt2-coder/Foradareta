@@ -228,20 +228,20 @@
    "fonte_p": null
   },
   "V01": {
-   "v": null,
-   "conf": "baixa",
-   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
-   "fonte": null,
+   "v": 1,
+   "conf": "media",
+   "base": "DISCURSO: No Poder Entrevista do Poder360 (01/09/2026), perguntado sobre o aborto, disse que 'um feto que foi fecundado ontem, anteontem, não é um ser humano' e que 'a partir de um determinado momento é um ser humano sim'; para ele os médicos devem definir esse ponto. Não citou a decisão da mulher.",
+   "fonte": "https://www.youtube.com/watch?v=dYffqonVmjQ",
    "p": null,
    "conf_p": null,
    "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
    "fonte_p": null
   },
   "V02": {
-   "v": null,
+   "v": -1,
    "conf": "baixa",
-   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
-   "fonte": null,
+   "base": "DISCURSO: Plano registrado em 2026 propõe 'controle rigoroso da cadeia de armas e munições legais, com marcação e auditoria de estoque' porque 'parte relevante da arma do crime começou a vida legal'. Não trata de posse e porte pelo cidadão.",
+   "fonte": "https://planodegoverno2026.com.br/planos/wilson-grassi-6fecb19d.pdf",
    "p": null,
    "conf_p": null,
    "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
@@ -249,8 +249,8 @@
   },
   "V03": {
    "v": null,
-   "conf": "baixa",
-   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "conf": null,
+   "base": "DISCURSO: Sem posição localizada sobre maioridade penal em plano, entrevistas (Poder360, Metrópoles, Folha, Sputnik) ou redes.",
    "fonte": null,
    "p": null,
    "conf_p": null,
@@ -258,10 +258,10 @@
    "fonte_p": null
   },
   "V04": {
-   "v": null,
-   "conf": "baixa",
-   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
-   "fonte": null,
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: No Poder Entrevista (01/09/2026) disse ser a favor de que um adulto use maconha em local controlado e que 'deveria comprar isso legalmente'; afirmou que a proibição do comércio de drogas 'é uma das fontes da criminalidade' e, em seguida, 'eu sou a favor da liberação dos, de droga'.",
+   "fonte": "https://www.youtube.com/watch?v=dYffqonVmjQ",
    "p": null,
    "conf_p": null,
    "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
@@ -269,8 +269,8 @@
   },
   "V05": {
    "v": null,
-   "conf": "baixa",
-   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "conf": null,
+   "base": "DISCURSO: Sem posição localizada sobre gênero e diversidade sexual nas escolas; em entrevista à Sputnik (02/10/2026) defendeu ensinar inteligência artificial, educação financeira e direitos dos animais.",
    "fonte": null,
    "p": null,
    "conf_p": null,
@@ -279,8 +279,8 @@
   },
   "V06": {
    "v": null,
-   "conf": "baixa",
-   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "conf": null,
+   "base": "DISCURSO: Sem posição específica sobre casamento entre pessoas do mesmo sexo. No Poder Entrevista (01/09/2026) disse ser 'totalmente de esquerda' em comportamento e '100% a favor' de 'cada um ter o seu comportamento' e do 'respeito às minorias', sem citar o casamento.",
    "fonte": null,
    "p": null,
    "conf_p": null,
@@ -289,8 +289,8 @@
   },
   "V07": {
    "v": null,
-   "conf": "baixa",
-   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "conf": null,
+   "base": "DISCURSO: Sem posição localizada sobre religião nas leis e políticas públicas.",
    "fonte": null,
    "p": null,
    "conf_p": null,
@@ -299,8 +299,8 @@
   },
   "V08": {
    "v": null,
-   "conf": "baixa",
-   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "conf": null,
+   "base": "DISCURSO: Sem posição localizada sobre cotas raciais.",
    "fonte": null,
    "p": null,
    "conf_p": null,
@@ -308,20 +308,20 @@
    "fonte_p": null
   },
   "V09": {
-   "v": null,
-   "conf": "baixa",
-   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
-   "fonte": null,
+   "v": 0,
+   "conf": "media",
+   "base": "DISCURSO: No Poder Entrevista (01/09/2026), perguntado sobre ampliar o excludente de ilicitude, disse que 'a violência só se combate eficazmente de um jeito e não é com mais violência', mas também que 'não acho que a gente tenha que proteger bandido'. O plano mantém 'responsabilidade penal e disciplinar preservada integralmente' no emprego das Forças Armadas. Posição mista.",
+   "fonte": "https://www.youtube.com/watch?v=dYffqonVmjQ",
    "p": null,
    "conf_p": null,
    "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
    "fonte_p": null
   },
   "V10": {
-   "v": null,
-   "conf": "baixa",
-   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
-   "fonte": null,
+   "v": 2,
+   "conf": "media",
+   "base": "DISCURSO: Em entrevista ao Metrópoles (01/09/2026), relatada pela Revista Oeste, defendeu anistia 'ampla, geral e irrestrita' aos envolvidos no 8 de janeiro de 2023. (V10 é do eixo de alinhamento, incluída por estar vazia no arquivo.)",
+   "fonte": "https://revistaoeste.com/politica/candidato-a-presidencia-defende-extincao-de-governos-estaduais/",
    "p": null,
    "conf_p": null,
    "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
@@ -339,8 +339,8 @@
   },
   "V12": {
    "v": null,
-   "conf": "baixa",
-   "base": "DISCURSO: Propõe debater mineração regulada em terras indígenas com consulta prévia; marco temporal não citado.",
+   "conf": null,
+   "base": "DISCURSO: Sem posição sobre o marco temporal. O plano propõe debater regime legal de mineração em terra indígena com consulta prévia e participação econômica dos indígenas.",
    "fonte": null,
    "p": null,
    "conf_p": null,
@@ -349,8 +349,8 @@
   },
   "V13": {
    "v": null,
-   "conf": "baixa",
-   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "conf": null,
+   "base": "DISCURSO: Sem posição localizada sobre priorizar a Amazônia frente ao agronegócio; o plano propõe 'combater o desmatamento ilegal' com rastreabilidade e licenciamento 'com prazo definido'.",
    "fonte": null,
    "p": null,
    "conf_p": null,
@@ -359,8 +359,8 @@
   },
   "V14": {
    "v": null,
-   "conf": "baixa",
-   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "conf": null,
+   "base": "DISCURSO: Sem posição localizada sobre escolas cívico-militares.",
    "fonte": null,
    "p": null,
    "conf_p": null,
@@ -369,8 +369,8 @@
   },
   "V15": {
    "v": null,
-   "conf": "baixa",
-   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "conf": null,
+   "base": "DISCURSO: Sem posição localizada sobre opiniões políticas de professores em sala de aula.",
    "fonte": null,
    "p": null,
    "conf_p": null,
@@ -399,8 +399,8 @@
   },
   "V18": {
    "v": null,
-   "conf": "baixa",
-   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "conf": null,
+   "base": "DISCURSO: Sem posição localizada sobre o modelo de família nas políticas públicas. Na Sputnik (02/10/2026) defendeu 'planejamento familiar' e disse que 'o Bolsa Família não pode ser estímulo para a pessoa ficar tendo filho'.",
    "fonte": null,
    "p": null,
    "conf_p": null,
@@ -499,24 +499,73 @@
   },
   "V20": {
    "v": null,
+   "conf": null,
+   "base": "DISCURSO: Sem posição localizada sobre acolhimento de refugiados e imigrantes. No Poder Entrevista (01/09/2026) disse apenas que 'o venezuelano que tiver dinheiro tem que vir para o Brasil', ao tratar de comércio e turismo.",
+   "fonte": null,
    "p": null,
-   "conf": "baixa",
-   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-   "fonte": null
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
   },
   "Z09": {
    "v": null,
+   "conf": null,
+   "base": "DISCURSO: Sem posição localizada sobre ocupações e bloqueios como forma de pressão.",
+   "fonte": null,
    "p": null,
-   "conf": "baixa",
-   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-   "fonte": null
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
   },
   "Z10": {
    "v": null,
+   "conf": null,
+   "base": "DISCURSO: Sem posição localizada sobre urnas eletrônicas ou Justiça Eleitoral; criticou a escolha do eleitor ('o voto é uma arma que o brasileiro não sabe usar'), não o sistema de votação.",
+   "fonte": null,
    "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z11": {
+   "v": -1,
    "conf": "baixa",
-   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-   "fonte": null
+   "base": "DISCURSO: Plano registrado em 2026 diz que a proposta penitenciária vai a plebiscito e 'não decreto' porque 'decisão desse tamanho tomada por canetada nasce sem legitimidade e morre no primeiro habeas corpus', e que evita 'prometer o que a Presidência não decide sozinha'. Não trata de medidas provisórias.",
+   "fonte": "https://planodegoverno2026.com.br/planos/wilson-grassi-6fecb19d.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z12": {
+   "v": null,
+   "conf": null,
+   "base": "DISCURSO: Sem posição localizada sobre terceiro mandato ou reeleição.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z13": {
+   "v": 1,
+   "conf": "media",
+   "base": "DISCURSO: Plano registrado em 2026: 'Prisão continua dependendo de decisão judicial fundamentada' e garantias individuais 'nem emenda os suprime'. No Poder Entrevista (01/09/2026) disse que o Judiciário 'errou ao prender o Lula' e 'errou de prender o Bolsonaro'.",
+   "fonte": "https://planodegoverno2026.com.br/planos/wilson-grassi-6fecb19d.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z14": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição pontuada: a única fala localizada é sobre a suspensão das redes da própria campanha (\"censura injusta\"), que não indica posição geral sobre o tema.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
   }
  },
  "checagens": [],

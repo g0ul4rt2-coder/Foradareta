@@ -190,5 +190,21 @@
  "Z10": {
   "favor": "Os boletins de cada urna são públicos e conferíveis, e décadas de auditorias e testes nunca encontraram fraude.",
   "contra": "Um sistema sem comprovante em papel depende da confiança em quem o administra; mais formas de auditoria trariam mais segurança."
+ },
+ "Z11": {
+  "favor": "Quando o Congresso demora ou trava, decretos e medidas provisórias permitem agir rápido em temas urgentes que a população cobra do governo que elegeu.",
+  "contra": "Governar por decreto concentra poder no Executivo e esvazia o Congresso, que também representa quem não votou no presidente; a negociação mais lenta faz parte da democracia."
+ },
+ "Z12": {
+  "favor": "Limites de mandato evitam que um governante use a máquina pública para se perpetuar e garantem alternância no poder, mesmo quando ele é popular.",
+  "contra": "Se a maioria quer manter um governante, quem deveria decidir é o eleitor nas urnas; proibir é limitar a escolha do próprio povo."
+ },
+ "Z13": {
+  "favor": "Regras iguais para todos protegem inocentes, e provas obtidas de forma ilegal podem anular processos inteiros, o que acaba ajudando os próprios culpados.",
+  "contra": "Recursos e formalidades em excesso favorecem quem pode pagar bons advogados; o combate à corrupção precisa de mais eficiência, mesmo que isso flexibilize algumas garantias."
+ },
+ "Z14": {
+  "favor": "Só um juiz, depois de ouvir as duas partes, deveria decidir o que pode ser apagado; sem isso, quem tem poder no momento decide o que pode ser dito.",
+  "contra": "Golpes, ataques e mentiras se espalham em horas; esperar o fim de um processo deixa o dano acontecer, e por isso plataformas e autoridades precisam poder agir antes."
  }
 }

@@ -484,25 +484,76 @@
      "fonte_p": null
     },
     "V20": {
-     "v": null,
-     "p": null,
-     "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "v": 2,
+     "conf": "media",
+     "base": "DISCURSO: Programa de governo 2026 da coligação liderada pelo PT (Lula, ago/2026) promete \"política migratória humanista\", \"o acolhimento digno de migrantes e refugiados\" e o \"combate à xenofobia\".",
+     "fonte": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+     "p": 1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: Lei de Migração (PL 2516/2015), destaque do DEM para suprimir as exceções à repatriação (06/12/2016; Sim = manter as exceções): orientou Sim; bancada 23 sim x 0 não. Proxy com teto ±1: a votação trata só das exceções à repatriação e é de 2016.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1594910-125/orientacoes"
     },
     "Z09": {
-     "v": null,
-     "p": null,
-     "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "v": 1,
+     "conf": "media",
+     "base": "DISCURSO: Na CPI do MST (23/05/2023), a presidente do PT, Gleisi Hoffmann, disse que o plano do relator \"já está criminalizando o MST\", e o site do partido reproduziu a defesa das ocupações como forma de \"pressionar o poder público a fazer a reforma agrária\". Não há documento do partido sobre bloqueio de estradas ou ocupação de prédios.",
+     "fonte": "https://pt.org.br/petistas-acusam-bolsonaristas-de-usarem-cpi-para-tentar-criminalizar-o-mst/",
+     "p": 1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: PL 709/2023, que veta programas sociais e cargos públicos a invasores de propriedades (21/05/2024; Sim = sanções): a federação PT-PCdoB-PV orientou Não; bancada 0 sim x 64 não. Proxy com teto ±1: o projeto pune invasores de terra, mas não trata de bloqueio de estradas nem de prédios públicos.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2349493-82/orientacoes"
     },
     "Z10": {
-     "v": null,
-     "p": null,
+     "v": 2,
+     "conf": "alta",
+     "base": "DISCURSO: Em 22/07/2026 a federação do PT (com PCdoB e PV) acionou o TSE contra Flávio Bolsonaro por \"desinformação contra a integridade do sistema eletrônico de votação\" e pediu a remoção de postagens que ligavam a Smartmatic às urnas.",
+     "fonte": "https://diariodocomercio.com.br/legislacao/flavio-bolsonaro-urnas-eletronicas/",
+     "p": 2,
+     "conf_p": "alta",
+     "base_p": "PRÁTICA: PEC 135/2019, voto impresso (10/08/2021; Sim = voto impresso): orientou Não; bancada 0 sim x 51 não. Conduta oficial somada à média (+2): em 22/07/2026 a federação PT-PCdoB-PV acionou o TSE contra Flávio Bolsonaro por desinformação sobre as urnas. O voto impresso pressupõe desconfiança na apuração eletrônica, embora parte dos defensores alegue só auditabilidade.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2220292-229/orientacoes"
+    },
+    "Z11": {
+     "v": 0,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2192300-10/orientacoes",
+     "p": 0,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: urgência do PDL 3/2019, que sustou decreto de Bolsonaro sobre sigilo na LAI (19/02/2019; Sim = sustar): orientou Sim; bancada 40 sim x 0 não; PDL 214/2025, que sustou decreto de Lula que elevou o IOF (25/06/2025; Sim = sustar): bancada 1 sim x 65 não. Proxies com teto ±1, um decreto de Bolsonaro e outro de Lula: a média mostra se o partido limita decretos do presidente com qualquer governo.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2192300-10/orientacoes",
+     "v_copiado_de_p": true
+    },
+    "Z12": {
+     "v": 1,
+     "conf": "baixa",
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/373327-190/orientacoes",
+     "p": 1,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: PEC 182/2007, artigo que acaba com a reeleição no Executivo, 1º turno (27/05/2015; Sim = fim da reeleição): orientou Sim; bancada 59 sim x 3 não. Proxy com teto ±1: o fim da reeleição implica vetar o terceiro mandato, mas a votação é antiga e quase unânime (452 x 19).",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/373327-190/orientacoes",
+     "v_copiado_de_p": true
+    },
+    "Z13": {
+     "v": 1,
+     "conf": "media",
+     "base": "DISCURSO: Resolução do Diretório Nacional (29/03/2021) afirma que a Lava Jato cometeu \"todo tipo de ilegalidades\" contra Lula e que lhe foi negado \"o devido processo legal\". A defesa das garantias aparece ligada ao caso do próprio Lula, não como princípio geral.",
+     "fonte": "https://pt.org.br/resolucao-do-dn-pt-defender-a-vida-e-derrotar-bolsonaro/",
+     "p": 1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: urgência da Lei de Abuso de Autoridade, PL 7596/2017 (14/08/2019; Sim = urgência): orientou Sim; bancada 45 sim x 0 não; emenda das 10 medidas contra a corrupção (PL 4850/2016) que tipifica abuso de autoridade de juízes e procuradores (30/11/2016; Sim = aprovar): orientou Sim; bancada 54 sim x 1 não; PEC 410/2018, prisão após 2ª instância, CCJ (20/11/2019; Sim = admitir): orientou Não; bancada 0 sim x 7 não. Proxies com teto ±1: punir abuso de investigadores conta a favor da frase e a prisão em 2ª instância, contra; a emenda de 2016 foi vista como reação à Lava Jato e a votação da PEC 410 foi em comissão.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2215146-4/orientacoes"
+    },
+    "Z14": {
+     "v": -1,
+     "conf": "media",
+     "base": "DISCURSO: Programa de governo 2026 da coligação liderada pelo PT (ago/2026) defende \"avançar ainda mais na regulação democrática das redes sociais e das plataformas digitais, de modo a impedir que elas difundam desinformação\"; não condiciona a remoção a decisão judicial.",
+     "fonte": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+     "p": -1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: urgência do PL 2630/2020, das Fake News (25/04/2023; Sim = urgência): a federação PT-PCdoB-PV orientou Sim; bancada 64 sim x 0 não. Proxy com teto ±1: o PL 2630 obrigava plataformas a agir sobre conteúdo sem ordem judicial prévia; votar a urgência não é defender remoção sem defesa.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2310837-8/orientacoes"
     }
    },
    "fontes": [
@@ -1073,25 +1124,78 @@
      "fonte_p": null
     },
     "V20": {
-     "v": null,
-     "p": null,
+     "v": 1,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Programa do PSOL (site oficial) critica o \"modelo de capitalismo autoritário, xenofóbico\" da extrema direita; não trata de política migratória ou refúgio.",
+     "fonte": "https://psol50.org.br/partido/programa/",
+     "p": 1,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: Lei de Migração (PL 2516/2015), destaque do DEM para suprimir as exceções à repatriação (06/12/2016; Sim = manter as exceções): orientou Sim; bancada 4 sim x 0 não. Proxy com teto ±1: a votação trata só das exceções à repatriação e é de 2016.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1594910-125/orientacoes"
     },
     "Z09": {
-     "v": null,
-     "p": null,
-     "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "v": 2,
+     "conf": "alta",
+     "base": "DISCURSO: Programa do PSOL (site oficial) diz que o partido apoia os \"métodos de luta\" dos movimentos sociais, \"como greves e ocupações\", e sua \"defesa diante de tentativas de criminalização\". Não menciona bloqueio de estradas.",
+     "fonte": "https://psol50.org.br/partido/programa/",
+     "p": 1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: PL 709/2023, que veta programas sociais e cargos públicos a invasores de propriedades (21/05/2024; Sim = sanções): a federação PSOL-Rede orientou Não; bancada 0 sim x 13 não. Proxy com teto ±1: o projeto pune invasores de terra, mas não trata de bloqueio de estradas nem de prédios públicos.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2349493-82/orientacoes"
     },
     "Z10": {
-     "v": null,
-     "p": null,
+     "v": 2,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2220292-229/orientacoes",
+     "p": 2,
+     "conf_p": "alta",
+     "base_p": "PRÁTICA: PEC 135/2019, voto impresso (10/08/2021; Sim = voto impresso): orientou Não; bancada 0 sim x 8 não. O voto impresso pressupõe desconfiança na apuração eletrônica, embora parte dos defensores alegue só auditabilidade.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2220292-229/orientacoes",
+     "v_copiado_de_p": true
+    },
+    "Z11": {
+     "v": 0,
+     "conf": "baixa",
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2192300-10/orientacoes",
+     "p": 0,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: urgência do PDL 3/2019, que sustou decreto de Bolsonaro sobre sigilo na LAI (19/02/2019; Sim = sustar): orientou Sim; bancada 9 sim x 0 não; PDL 214/2025, que sustou decreto de Lula que elevou o IOF (25/06/2025; Sim = sustar): a federação PSOL-Rede orientou Não; bancada 0 sim x 13 não. Proxies com teto ±1, um decreto de Bolsonaro e outro de Lula: a média mostra se o partido limita decretos do presidente com qualquer governo.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2192300-10/orientacoes",
+     "v_copiado_de_p": true
+    },
+    "Z12": {
+     "v": 1,
+     "conf": "baixa",
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/373327-190/orientacoes",
+     "p": 1,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: PEC 182/2007, artigo que acaba com a reeleição no Executivo, 1º turno (27/05/2015; Sim = fim da reeleição): orientou Sim; bancada 4 sim x 0 não. Proxy com teto ±1: o fim da reeleição implica vetar o terceiro mandato, mas a votação é antiga e quase unânime (452 x 19).",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/373327-190/orientacoes",
+     "v_copiado_de_p": true
+    },
+    "Z13": {
+     "v": 0,
+     "conf": "baixa",
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2215146-4/orientacoes",
+     "p": 0,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: urgência da Lei de Abuso de Autoridade, PL 7596/2017 (14/08/2019; Sim = urgência): orientou Sim; bancada 10 sim x 0 não; emenda das 10 medidas contra a corrupção (PL 4850/2016) que tipifica abuso de autoridade de juízes e procuradores (30/11/2016; Sim = aprovar): orientou Não; bancada 0 sim x 5 não; PEC 410/2018, prisão após 2ª instância, CCJ (20/11/2019; Sim = admitir): orientou Não; bancada 0 sim x 1 não. Proxies com teto ±1: punir abuso de investigadores conta a favor da frase e a prisão em 2ª instância, contra; a emenda de 2016 foi vista como reação à Lava Jato e a votação da PEC 410 foi em comissão.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2215146-4/orientacoes",
+     "v_copiado_de_p": true
+    },
+    "Z14": {
+     "v": -1,
+     "conf": "media",
+     "base": "DISCURSO: Programa do PSOL (site oficial, item 20) defende combater \"o poder das Big Techs\" com \"responsabilização das corporações sobre conteúdos divulgados\"; não condiciona a remoção a decisão judicial.",
+     "fonte": "https://psol50.org.br/partido/programa/",
+     "p": -1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: urgência do PL 2630/2020, das Fake News (25/04/2023; Sim = urgência): a federação PSOL-Rede orientou Sim; bancada 11 sim x 0 não. Proxy com teto ±1: o PL 2630 obrigava plataformas a agir sobre conteúdo sem ordem judicial prévia; votar a urgência não é defender remoção sem defesa.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2310837-8/orientacoes"
     }
    },
    "fontes": [
@@ -1638,25 +1742,80 @@
      "fonte_p": null
     },
     "V20": {
-     "v": null,
-     "p": null,
+     "v": 1,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1594910-125/orientacoes",
+     "p": 1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: Lei de Migração (PL 2516/2015), destaque do DEM para suprimir as exceções à repatriação (06/12/2016; Sim = manter as exceções): orientou Sim; bancada 10 sim x 0 não. Proxy com teto ±1: a votação trata só das exceções à repatriação e é de 2016.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1594910-125/orientacoes",
+     "v_copiado_de_p": true
     },
     "Z09": {
-     "v": null,
-     "p": null,
+     "v": 1,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2349493-82/orientacoes",
+     "p": 1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: PL 709/2023, que veta programas sociais e cargos públicos a invasores de propriedades (21/05/2024; Sim = sanções): a federação PT-PCdoB-PV orientou Não; bancada 0 sim x 7 não. Proxy com teto ±1: o projeto pune invasores de terra, mas não trata de bloqueio de estradas nem de prédios públicos.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2349493-82/orientacoes",
+     "v_copiado_de_p": true
     },
     "Z10": {
-     "v": null,
-     "p": null,
+     "v": 2,
+     "conf": "alta",
+     "base": "DISCURSO: Em 22/07/2026 a Federação Brasil da Esperança (PT, PCdoB e PV) acionou o TSE contra Flávio Bolsonaro por \"desinformação contra a integridade do sistema eletrônico de votação\".",
+     "fonte": "https://diariodocomercio.com.br/legislacao/flavio-bolsonaro-urnas-eletronicas/",
+     "p": 2,
+     "conf_p": "alta",
+     "base_p": "PRÁTICA: PEC 135/2019, voto impresso (10/08/2021; Sim = voto impresso): orientou Não; bancada 0 sim x 8 não. Conduta oficial somada à média (+2): em 22/07/2026 a federação PT-PCdoB-PV acionou o TSE contra Flávio Bolsonaro por desinformação sobre as urnas. O voto impresso pressupõe desconfiança na apuração eletrônica, embora parte dos defensores alegue só auditabilidade.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2220292-229/orientacoes"
+    },
+    "Z11": {
+     "v": 0,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2192300-10/orientacoes",
+     "p": 0,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: urgência do PDL 3/2019, que sustou decreto de Bolsonaro sobre sigilo na LAI (19/02/2019; Sim = sustar): bancada 7 sim x 0 não; PDL 214/2025, que sustou decreto de Lula que elevou o IOF (25/06/2025; Sim = sustar): bancada 0 sim x 8 não. Proxies com teto ±1, um decreto de Bolsonaro e outro de Lula: a média mostra se o partido limita decretos do presidente com qualquer governo.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2192300-10/orientacoes",
+     "v_copiado_de_p": true
+    },
+    "Z12": {
+     "v": 1,
+     "conf": "baixa",
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/373327-190/orientacoes",
+     "p": 1,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: PEC 182/2007, artigo que acaba com a reeleição no Executivo, 1º turno (27/05/2015; Sim = fim da reeleição): orientou Sim; bancada 13 sim x 0 não. Proxy com teto ±1: o fim da reeleição implica vetar o terceiro mandato, mas a votação é antiga e quase unânime (452 x 19).",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/373327-190/orientacoes",
+     "v_copiado_de_p": true
+    },
+    "Z13": {
+     "v": 1,
+     "conf": "baixa",
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2215146-4/orientacoes",
+     "p": 1,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: urgência da Lei de Abuso de Autoridade, PL 7596/2017 (14/08/2019; Sim = urgência): orientou Sim; bancada 8 sim x 0 não; emenda das 10 medidas contra a corrupção (PL 4850/2016) que tipifica abuso de autoridade de juízes e procuradores (30/11/2016; Sim = aprovar): orientou Sim; bancada 7 sim x 0 não; PEC 410/2018, prisão após 2ª instância, CCJ (20/11/2019; Sim = admitir): orientou Não; bancada 0 sim x 1 não. Proxies com teto ±1: punir abuso de investigadores conta a favor da frase e a prisão em 2ª instância, contra; a emenda de 2016 foi vista como reação à Lava Jato e a votação da PEC 410 foi em comissão.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2215146-4/orientacoes",
+     "v_copiado_de_p": true
+    },
+    "Z14": {
+     "v": -1,
+     "conf": "baixa",
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2310837-8/orientacoes",
+     "p": -1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: urgência do PL 2630/2020, das Fake News (25/04/2023; Sim = urgência): a federação PT-PCdoB-PV orientou Sim; bancada 6 sim x 0 não. Proxy com teto ±1: o PL 2630 obrigava plataformas a agir sobre conteúdo sem ordem judicial prévia; votar a urgência não é defender remoção sem defesa.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2310837-8/orientacoes",
+     "v_copiado_de_p": true
     }
    },
    "fontes": [
@@ -2203,25 +2362,80 @@
      "fonte_p": null
     },
     "V20": {
-     "v": null,
-     "p": null,
+     "v": 0,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1594910-125/orientacoes",
+     "p": 0,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: Lei de Migração (PL 2516/2015), destaque do DEM para suprimir as exceções à repatriação (06/12/2016; Sim = manter as exceções): bancada 1 sim x 1 não. Proxy com teto ±1: a votação trata só das exceções à repatriação e é de 2016.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1594910-125/orientacoes",
+     "v_copiado_de_p": true
     },
     "Z09": {
-     "v": null,
-     "p": null,
+     "v": 1,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2349493-82/orientacoes",
+     "p": 1,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: PL 709/2023, que veta programas sociais e cargos públicos a invasores de propriedades (21/05/2024; Sim = sanções): a federação PT-PCdoB-PV orientou Não; bancada 0 sim x 3 não. Proxy com teto ±1: o projeto pune invasores de terra, mas não trata de bloqueio de estradas nem de prédios públicos.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2349493-82/orientacoes",
+     "v_copiado_de_p": true
     },
     "Z10": {
-     "v": null,
-     "p": null,
+     "v": 2,
+     "conf": "media",
+     "base": "DISCURSO: Em 22/07/2026 a Federação Brasil da Esperança (PT, PCdoB e PV) acionou o TSE contra Flávio Bolsonaro por \"desinformação contra a integridade do sistema eletrônico de votação\". Ação da federação, não nota própria do PV.",
+     "fonte": "https://diariodocomercio.com.br/legislacao/flavio-bolsonaro-urnas-eletronicas/",
+     "p": 1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: PEC 135/2019, voto impresso (10/08/2021; Sim = voto impresso): orientou Não; bancada 2 sim x 2 não. Conduta oficial somada à média (+2): em 22/07/2026 a federação PT-PCdoB-PV acionou o TSE contra Flávio Bolsonaro por desinformação sobre as urnas. O voto impresso pressupõe desconfiança na apuração eletrônica, embora parte dos defensores alegue só auditabilidade.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2220292-229/orientacoes"
+    },
+    "Z11": {
+     "v": 0,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2192300-10/orientacoes",
+     "p": 0,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: urgência do PDL 3/2019, que sustou decreto de Bolsonaro sobre sigilo na LAI (19/02/2019; Sim = sustar): bancada 3 sim x 0 não; PDL 214/2025, que sustou decreto de Lula que elevou o IOF (25/06/2025; Sim = sustar): bancada 1 sim x 3 não. Proxies com teto ±1, um decreto de Bolsonaro e outro de Lula: a média mostra se o partido limita decretos do presidente com qualquer governo.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2192300-10/orientacoes",
+     "v_copiado_de_p": true
+    },
+    "Z12": {
+     "v": 1,
+     "conf": "baixa",
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/373327-190/orientacoes",
+     "p": 1,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: PEC 182/2007, artigo que acaba com a reeleição no Executivo, 1º turno (27/05/2015; Sim = fim da reeleição): orientou Sim; bancada 7 sim x 0 não. Proxy com teto ±1: o fim da reeleição implica vetar o terceiro mandato, mas a votação é antiga e quase unânime (452 x 19).",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/373327-190/orientacoes",
+     "v_copiado_de_p": true
+    },
+    "Z13": {
+     "v": 0,
+     "conf": "baixa",
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2215146-4/orientacoes",
+     "p": 0,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: urgência da Lei de Abuso de Autoridade, PL 7596/2017 (14/08/2019; Sim = urgência): bancada 2 sim x 1 não; emenda das 10 medidas contra a corrupção (PL 4850/2016) que tipifica abuso de autoridade de juízes e procuradores (30/11/2016; Sim = aprovar): orientou Não; bancada 1 sim x 4 não; PEC 410/2018, prisão após 2ª instância, CCJ (20/11/2019): sem votos do partido. Proxies com teto ±1: punir abuso de investigadores conta a favor da frase e a prisão em 2ª instância, contra; a emenda de 2016 foi vista como reação à Lava Jato e a votação da PEC 410 foi em comissão.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2215146-4/orientacoes",
+     "v_copiado_de_p": true
+    },
+    "Z14": {
+     "v": -1,
+     "conf": "baixa",
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2310837-8/orientacoes",
+     "p": -1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: urgência do PL 2630/2020, das Fake News (25/04/2023; Sim = urgência): a federação PT-PCdoB-PV orientou Sim; bancada 5 sim x 0 não. Proxy com teto ±1: o PL 2630 obrigava plataformas a agir sobre conteúdo sem ordem judicial prévia; votar a urgência não é defender remoção sem defesa.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2310837-8/orientacoes",
+     "v_copiado_de_p": true
     }
    },
    "fontes": [
@@ -2758,25 +2972,80 @@
      "fonte_p": null
     },
     "V20": {
-     "v": null,
-     "p": null,
+     "v": 1,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1594910-125/orientacoes",
+     "p": 1,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: Lei de Migração (PL 2516/2015), destaque do DEM para suprimir as exceções à repatriação (06/12/2016; Sim = manter as exceções): orientou Sim; bancada 4 sim x 0 não. Proxy com teto ±1: a votação trata só das exceções à repatriação e é de 2016.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1594910-125/orientacoes",
+     "v_copiado_de_p": true
     },
     "Z09": {
-     "v": null,
-     "p": null,
+     "v": 1,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2349493-82/orientacoes",
+     "p": 1,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: PL 709/2023, que veta programas sociais e cargos públicos a invasores de propriedades (21/05/2024; Sim = sanções): a federação PSOL-Rede orientou Não; bancada 0 sim x 1 não. Proxy com teto ±1: o projeto pune invasores de terra, mas não trata de bloqueio de estradas nem de prédios públicos.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2349493-82/orientacoes",
+     "v_copiado_de_p": true
     },
     "Z10": {
-     "v": null,
-     "p": null,
+     "v": 2,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2220292-229/orientacoes",
+     "p": 2,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: PEC 135/2019, voto impresso (10/08/2021; Sim = voto impresso): orientou Não; bancada 0 sim x 1 não. O voto impresso pressupõe desconfiança na apuração eletrônica, embora parte dos defensores alegue só auditabilidade.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2220292-229/orientacoes",
+     "v_copiado_de_p": true
+    },
+    "Z11": {
+     "v": 0,
+     "conf": "baixa",
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2192300-10/orientacoes",
+     "p": 0,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: urgência do PDL 3/2019, que sustou decreto de Bolsonaro sobre sigilo na LAI (19/02/2019; Sim = sustar): orientou Sim; bancada 1 sim x 0 não; PDL 214/2025, que sustou decreto de Lula que elevou o IOF (25/06/2025; Sim = sustar): a federação PSOL-Rede orientou Não; bancada 0 sim x 1 não. Proxies com teto ±1, um decreto de Bolsonaro e outro de Lula: a média mostra se o partido limita decretos do presidente com qualquer governo.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2192300-10/orientacoes",
+     "v_copiado_de_p": true
+    },
+    "Z12": {
+     "v": 2,
+     "conf": "alta",
+     "base": "DISCURSO: Plataforma de atuação da Rede defende o \"fim da reeleição para os cargos do Poder Executivo com ampliação do tempo de mandato para inibir o uso da máquina administrativa para fins eleitorais\".",
+     "fonte": "https://redesustentabilidade.org.br/conheca-a-rede-18/plataforma-de-atuacao/",
+     "p": null,
+     "conf_p": null,
+     "base_p": "PRÁTICA: A Rede obteve registro no TSE em setembro de 2015, depois da votação do fim da reeleição na Câmara (27/05/2015); sem outra votação nominal ou conduta oficial sobre o tema.",
+     "fonte_p": null
+    },
+    "Z13": {
+     "v": 0,
+     "conf": "baixa",
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2215146-4/orientacoes",
+     "p": 0,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: urgência da Lei de Abuso de Autoridade, PL 7596/2017 (14/08/2019; Sim = urgência): bancada 1 sim x 0 não; emenda das 10 medidas contra a corrupção (PL 4850/2016) que tipifica abuso de autoridade de juízes e procuradores (30/11/2016; Sim = aprovar): orientou Não; bancada 0 sim x 4 não; PEC 410/2018, prisão após 2ª instância, CCJ (20/11/2019): sem votos do partido. Proxies com teto ±1: punir abuso de investigadores conta a favor da frase e a prisão em 2ª instância, contra; a emenda de 2016 foi vista como reação à Lava Jato e a votação da PEC 410 foi em comissão.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2215146-4/orientacoes",
+     "v_copiado_de_p": true
+    },
+    "Z14": {
+     "v": -1,
+     "conf": "baixa",
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2310837-8/orientacoes",
+     "p": -1,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: urgência do PL 2630/2020, das Fake News (25/04/2023; Sim = urgência): a federação PSOL-Rede orientou Sim; bancada 1 sim x 0 não. Proxy com teto ±1: o PL 2630 obrigava plataformas a agir sobre conteúdo sem ordem judicial prévia; votar a urgência não é defender remoção sem defesa.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2310837-8/orientacoes",
+     "v_copiado_de_p": true
     }
    },
    "fontes": [
@@ -3306,25 +3575,77 @@
      "fonte_p": null
     },
     "V20": {
-     "v": null,
-     "p": null,
-     "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "v": 2,
+     "conf": "alta",
+     "base": "DISCURSO: Manifesto e Programa do PSB (2022, item 73) defende \"políticas migratórias de acolhimento, assistência, proteção e integração às pessoas refugiadas, solicitantes de asilo, apátridas\".",
+     "fonte": "https://www.autorreformapsb.com.br/wp-content/uploads/2022/07/Manifesto_e_Programa_do_PSB.pdf",
+     "p": 1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: Lei de Migração (PL 2516/2015), destaque do DEM para suprimir as exceções à repatriação (06/12/2016; Sim = manter as exceções): orientou Sim; bancada 17 sim x 0 não. Proxy com teto ±1: a votação trata só das exceções à repatriação e é de 2016.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1594910-125/orientacoes"
     },
     "Z09": {
-     "v": null,
-     "p": null,
+     "v": 1,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2349493-82/orientacoes",
+     "p": 1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: PL 709/2023, que veta programas sociais e cargos públicos a invasores de propriedades (21/05/2024; Sim = sanções): orientou Não; bancada 0 sim x 11 não. Proxy com teto ±1: o projeto pune invasores de terra, mas não trata de bloqueio de estradas nem de prédios públicos.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2349493-82/orientacoes",
+     "v_copiado_de_p": true
     },
     "Z10": {
-     "v": null,
-     "p": null,
+     "v": 0,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Em maio de 2021 o presidente do PSB, Carlos Siqueira, defendeu imprimir o voto para auditar o resultado (\"Não consigo entender por que o voto não é impresso\"); em agosto de 2021 o partido orientou contra a PEC do voto impresso. Posição mista.",
+     "fonte": "https://revistaoeste.com/politica/psb-ve-avanco-do-voto-auditavel-e-passa-a-defender-medida/",
+     "p": 0,
+     "conf_p": "alta",
+     "base_p": "PRÁTICA: PEC 135/2019, voto impresso (10/08/2021; Sim = voto impresso): orientou Não; bancada 11 sim x 17 não. O voto impresso pressupõe desconfiança na apuração eletrônica, embora parte dos defensores alegue só auditabilidade.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2220292-229/orientacoes"
+    },
+    "Z11": {
+     "v": -1,
+     "conf": "baixa",
+     "base": "DISCURSO: Manifesto e Programa do PSB (2022, item 51) defende o parlamentarismo \"como instrumento de fortalecimento da democracia e ampliação do controle das ações dos governos\"; não trata de decretos ou medidas provisórias.",
+     "fonte": "https://www.autorreformapsb.com.br/wp-content/uploads/2022/07/Manifesto_e_Programa_do_PSB.pdf",
+     "p": -1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: urgência do PDL 3/2019, que sustou decreto de Bolsonaro sobre sigilo na LAI (19/02/2019; Sim = sustar): orientou Sim; bancada 27 sim x 0 não; PDL 214/2025, que sustou decreto de Lula que elevou o IOF (25/06/2025; Sim = sustar): bancada 9 sim x 3 não. Proxies com teto ±1, um decreto de Bolsonaro e outro de Lula: a média mostra se o partido limita decretos do presidente com qualquer governo.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2192300-10/orientacoes"
+    },
+    "Z12": {
+     "v": 2,
+     "conf": "alta",
+     "base": "DISCURSO: Manifesto e Programa do PSB (2022, item 57): \"É necessário, no presidencialismo, adotar o fim das reeleições dos cargos executivos, cujos mandatos deverão ter duração de cinco anos.\"",
+     "fonte": "https://www.autorreformapsb.com.br/wp-content/uploads/2022/07/Manifesto_e_Programa_do_PSB.pdf",
+     "p": 1,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: PEC 182/2007, artigo que acaba com a reeleição no Executivo, 1º turno (27/05/2015; Sim = fim da reeleição): orientou Sim; bancada 29 sim x 1 não. Proxy com teto ±1: o fim da reeleição implica vetar o terceiro mandato, mas a votação é antiga e quase unânime (452 x 19).",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/373327-190/orientacoes"
+    },
+    "Z13": {
+     "v": 0,
+     "conf": "baixa",
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2215146-4/orientacoes",
+     "p": 0,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: urgência da Lei de Abuso de Autoridade, PL 7596/2017 (14/08/2019; Sim = urgência): orientou Sim; bancada 26 sim x 2 não; emenda das 10 medidas contra a corrupção (PL 4850/2016) que tipifica abuso de autoridade de juízes e procuradores (30/11/2016; Sim = aprovar): orientou Sim; bancada 16 sim x 12 não; PEC 410/2018, prisão após 2ª instância, CCJ (20/11/2019; Sim = admitir): orientou Liberado; bancada 3 sim x 1 não. Proxies com teto ±1: punir abuso de investigadores conta a favor da frase e a prisão em 2ª instância, contra; a emenda de 2016 foi vista como reação à Lava Jato e a votação da PEC 410 foi em comissão.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2215146-4/orientacoes",
+     "v_copiado_de_p": true
+    },
+    "Z14": {
+     "v": -1,
+     "conf": "baixa",
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2310837-8/orientacoes",
+     "p": -1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: urgência do PL 2630/2020, das Fake News (25/04/2023; Sim = urgência): bancada 14 sim x 0 não. Proxy com teto ±1: o PL 2630 obrigava plataformas a agir sobre conteúdo sem ordem judicial prévia; votar a urgência não é defender remoção sem defesa.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2310837-8/orientacoes",
+     "v_copiado_de_p": true
     }
    },
    "fontes": [
@@ -3901,25 +4222,80 @@
      "fonte_p": null
     },
     "V20": {
-     "v": null,
-     "p": null,
+     "v": 1,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1594910-125/orientacoes",
+     "p": 1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: Lei de Migração (PL 2516/2015), destaque do DEM para suprimir as exceções à repatriação (06/12/2016; Sim = manter as exceções): orientou Sim; bancada 5 sim x 0 não. Proxy com teto ±1: a votação trata só das exceções à repatriação e é de 2016.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1594910-125/orientacoes",
+     "v_copiado_de_p": true
     },
     "Z09": {
-     "v": null,
-     "p": null,
+     "v": 0,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2349493-82/orientacoes",
+     "p": 0,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: PL 709/2023, que veta programas sociais e cargos públicos a invasores de propriedades (21/05/2024; Sim = sanções): bancada 9 sim x 8 não. Proxy com teto ±1: o projeto pune invasores de terra, mas não trata de bloqueio de estradas nem de prédios públicos.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2349493-82/orientacoes",
+     "v_copiado_de_p": true
     },
     "Z10": {
-     "v": null,
-     "p": null,
+     "v": 0,
+     "conf": "media",
+     "base": "DISCURSO: Em maio de 2021 o presidente do PDT, Carlos Lupi, escreveu: \"Sem a impressão do voto, não há possibilidade de recontagem. Sem a recontagem, a fraude impera\"; em agosto de 2021 a direção nacional orientou contra a PEC do voto impresso, e o líder disse que Brizola não punha \"em xeque\" a urna. Posição mista.",
+     "fonte": "https://diariodonordeste.verdesmares.com.br/pontopoder/pdt-contraria-bandeira-historica-e-vai-contra-voto-impresso-por-politizacao-exacerbada-1.3121627",
+     "p": 1,
+     "conf_p": "alta",
+     "base_p": "PRÁTICA: PEC 135/2019, voto impresso (10/08/2021; Sim = voto impresso): orientou Não; bancada 6 sim x 18 não. O voto impresso pressupõe desconfiança na apuração eletrônica, embora parte dos defensores alegue só auditabilidade.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2220292-229/orientacoes"
+    },
+    "Z11": {
+     "v": -1,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2192300-10/orientacoes",
+     "p": -1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: urgência do PDL 3/2019, que sustou decreto de Bolsonaro sobre sigilo na LAI (19/02/2019; Sim = sustar): o bloco PDT-SD-Podemos orientou Sim; bancada 26 sim x 0 não; PDL 214/2025, que sustou decreto de Lula que elevou o IOF (25/06/2025; Sim = sustar): bancada 16 sim x 0 não. Proxies com teto ±1, um decreto de Bolsonaro e outro de Lula: a média mostra se o partido limita decretos do presidente com qualquer governo.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2192300-10/orientacoes",
+     "v_copiado_de_p": true
+    },
+    "Z12": {
+     "v": 1,
+     "conf": "baixa",
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/373327-190/orientacoes",
+     "p": 1,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: PEC 182/2007, artigo que acaba com a reeleição no Executivo, 1º turno (27/05/2015; Sim = fim da reeleição): orientou Sim; bancada 16 sim x 1 não. Proxy com teto ±1: o fim da reeleição implica vetar o terceiro mandato, mas a votação é antiga e quase unânime (452 x 19).",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/373327-190/orientacoes",
+     "v_copiado_de_p": true
+    },
+    "Z13": {
+     "v": 0,
+     "conf": "baixa",
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2215146-4/orientacoes",
+     "p": 0,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: urgência da Lei de Abuso de Autoridade, PL 7596/2017 (14/08/2019; Sim = urgência): orientou Sim; bancada 24 sim x 2 não; emenda das 10 medidas contra a corrupção (PL 4850/2016) que tipifica abuso de autoridade de juízes e procuradores (30/11/2016; Sim = aprovar): orientou Sim; bancada 14 sim x 1 não; PEC 410/2018, prisão após 2ª instância, CCJ (20/11/2019; Sim = admitir): orientou Sim; bancada 4 sim x 0 não. Proxies com teto ±1: punir abuso de investigadores conta a favor da frase e a prisão em 2ª instância, contra; a emenda de 2016 foi vista como reação à Lava Jato e a votação da PEC 410 foi em comissão.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2215146-4/orientacoes",
+     "v_copiado_de_p": true
+    },
+    "Z14": {
+     "v": -1,
+     "conf": "baixa",
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2310837-8/orientacoes",
+     "p": -1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: urgência do PL 2630/2020, das Fake News (25/04/2023; Sim = urgência): bancada 13 sim x 1 não. Proxy com teto ±1: o PL 2630 obrigava plataformas a agir sobre conteúdo sem ordem judicial prévia; votar a urgência não é defender remoção sem defesa.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2310837-8/orientacoes",
+     "v_copiado_de_p": true
     }
    },
    "fontes": [
@@ -4494,25 +4870,80 @@
      "fonte_p": null
     },
     "V20": {
-     "v": null,
-     "p": null,
+     "v": -1,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1594910-125/orientacoes",
+     "p": -1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: Lei de Migração (PL 2516/2015), destaque do DEM para suprimir as exceções à repatriação (06/12/2016; Sim = manter as exceções): orientou Não; bancada 3 sim x 6 não. Proxy com teto ±1: a votação trata só das exceções à repatriação e é de 2016.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1594910-125/orientacoes",
+     "v_copiado_de_p": true
     },
     "Z09": {
-     "v": null,
-     "p": null,
+     "v": -1,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2349493-82/orientacoes",
+     "p": -1,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: PL 709/2023, que veta programas sociais e cargos públicos a invasores de propriedades (21/05/2024; Sim = sanções): bancada 2 sim x 1 não. Proxy com teto ±1: o projeto pune invasores de terra, mas não trata de bloqueio de estradas nem de prédios públicos.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2349493-82/orientacoes",
+     "v_copiado_de_p": true
     },
     "Z10": {
-     "v": null,
-     "p": null,
+     "v": 1,
+     "conf": "media",
+     "base": "DISCURSO: Em 26/06/2021 o presidente do Solidariedade, Paulo Pereira da Silva, esteve entre os 11 presidentes de partido que fecharam posição contra o voto impresso e pela manutenção do sistema eletrônico; não há fala própria dele na reportagem.",
+     "fonte": "https://www.poder360.com.br/brasil/presidentes-de-11-partidos-fecham-posicao-contra-voto-impresso/",
+     "p": 0,
+     "conf_p": "alta",
+     "base_p": "PRÁTICA: PEC 135/2019, voto impresso (10/08/2021; Sim = voto impresso): orientou Não; bancada 5 sim x 7 não. O voto impresso pressupõe desconfiança na apuração eletrônica, embora parte dos defensores alegue só auditabilidade.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2220292-229/orientacoes"
+    },
+    "Z11": {
+     "v": -1,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2192300-10/orientacoes",
+     "p": -1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: urgência do PDL 3/2019, que sustou decreto de Bolsonaro sobre sigilo na LAI (19/02/2019; Sim = sustar): o bloco PDT-SD-Podemos orientou Sim; bancada 11 sim x 1 não; PDL 214/2025, que sustou decreto de Lula que elevou o IOF (25/06/2025; Sim = sustar): bancada 4 sim x 1 não. Proxies com teto ±1, um decreto de Bolsonaro e outro de Lula: a média mostra se o partido limita decretos do presidente com qualquer governo.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2192300-10/orientacoes",
+     "v_copiado_de_p": true
+    },
+    "Z12": {
+     "v": 1,
+     "conf": "baixa",
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/373327-190/orientacoes",
+     "p": 1,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: PEC 182/2007, artigo que acaba com a reeleição no Executivo, 1º turno (27/05/2015; Sim = fim da reeleição): orientou Sim; bancada 15 sim x 1 não. Proxy com teto ±1: o fim da reeleição implica vetar o terceiro mandato, mas a votação é antiga e quase unânime (452 x 19).",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/373327-190/orientacoes",
+     "v_copiado_de_p": true
+    },
+    "Z13": {
+     "v": 0,
+     "conf": "baixa",
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2215146-4/orientacoes",
+     "p": 0,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: urgência da Lei de Abuso de Autoridade, PL 7596/2017 (14/08/2019; Sim = urgência): orientou Sim; bancada 12 sim x 0 não; emenda das 10 medidas contra a corrupção (PL 4850/2016) que tipifica abuso de autoridade de juízes e procuradores (30/11/2016; Sim = aprovar): orientou Sim; bancada 8 sim x 4 não; PEC 410/2018, prisão após 2ª instância, CCJ (20/11/2019; Sim = admitir): orientou Sim; bancada 2 sim x 0 não. Proxies com teto ±1: punir abuso de investigadores conta a favor da frase e a prisão em 2ª instância, contra; a emenda de 2016 foi vista como reação à Lava Jato e a votação da PEC 410 foi em comissão.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2215146-4/orientacoes",
+     "v_copiado_de_p": true
+    },
+    "Z14": {
+     "v": 0,
+     "conf": "baixa",
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2310837-8/orientacoes",
+     "p": 0,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: urgência do PL 2630/2020, das Fake News (25/04/2023; Sim = urgência): bancada 2 sim x 3 não. Proxy com teto ±1: o PL 2630 obrigava plataformas a agir sobre conteúdo sem ordem judicial prévia; votar a urgência não é defender remoção sem defesa.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2310837-8/orientacoes",
+     "v_copiado_de_p": true
     }
    },
    "fontes": [
@@ -5054,25 +5485,79 @@
      "fonte_p": null
     },
     "V20": {
-     "v": null,
-     "p": null,
+     "v": 1,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1594910-125/orientacoes",
+     "p": 1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: Lei de Migração (PL 2516/2015), destaque do DEM para suprimir as exceções à repatriação do § 4º do art. 47 (refugiados, apátridas, menores desacompanhados, quem precisa de acolhimento humanitário) (06/12/2016; Sim = manter as exceções; texto mantido por 207 x 83): o bloco PMDB-PEN liberou; bancada 24 sim x 11 não. Proxy com teto ±1: a votação trata só das exceções à repatriação e é de 2016. Até 2017 o partido se chamava PMDB.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1594910-125/orientacoes",
+     "v_copiado_de_p": true
     },
     "Z09": {
-     "v": null,
-     "p": null,
+     "v": -1,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2349493-82/orientacoes",
+     "p": -1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: PL 709/2023, que veta programas sociais e cargos públicos a invasores de propriedades (21/05/2024; Sim = sanções; aprovado por 336 x 120): o bloco MDB-PSD-Republicanos-Podemos liberou; bancada 31 sim x 4 não. Proxy com teto ±1: o projeto pune invasores de terra, mas não trata de bloqueio de estradas nem de prédios públicos.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2349493-82/orientacoes",
+     "v_copiado_de_p": true
     },
     "Z10": {
-     "v": null,
-     "p": null,
+     "v": 1,
+     "conf": "media",
+     "base": "DISCURSO: Em 26/06/2021, o presidente do MDB, Baleia Rossi, esteve entre os presidentes de 11 partidos que, em reunião, fecharam posição pela manutenção da urna eletrônica e contra a PEC do voto impresso.",
+     "fonte": "https://www.poder360.com.br/eleicoes/presidentes-de-11-partidos-fecham-posicao-contra-voto-impresso/",
+     "p": 0,
+     "conf_p": "alta",
+     "base_p": "PRÁTICA: PEC 135/2019, voto impresso (10/08/2021; Sim = voto impresso; 229 x 218, rejeitada): orientou Não; bancada 15 sim x 10 não. O voto impresso pressupõe desconfiança na apuração eletrônica, embora parte dos defensores alegue só auditabilidade.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2220292-229/orientacoes"
+    },
+    "Z11": {
+     "v": -1,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: O documento político-programático 'Caminhos para o Brasil' (Fundação Ulysses Guimarães/MDB, out/2025) defende 'o respeito às competências constitucionais', 'a harmonia entre os Poderes' e que Executivo e Legislativo resolvam controvérsias em 'esforço comum'; não trata de decretos ou medidas provisórias.",
+     "fonte": "https://static.poder360.com.br/2025/10/FUG-18x26cm-DIGITAL-1.pdf",
+     "p": -1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: urgência do PDL 3/2019, que sustou decreto de Bolsonaro sobre sigilo na LAI (19/02/2019; Sim = sustar; 367 x 57): sem orientação própria registrada; bancada 22 sim x 3 não; PDL 214/2025, que sustou decreto de Lula que elevou o IOF (25/06/2025; Sim = sustar; 383 x 98): sem orientação registrada na API; bancada 41 sim x 2 não. Proxies com teto ±1, um decreto de Bolsonaro e outro de Lula: a média mostra se o partido limita decretos do presidente com qualquer governo.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2192300-10/orientacoes"
+    },
+    "Z12": {
+     "v": 1,
+     "conf": "baixa",
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/373327-190/orientacoes",
+     "p": 1,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: PEC 182/2007, artigo que acaba com a reeleição no Executivo, 1º turno (27/05/2015; Sim = fim da reeleição; 452 x 19): o bloco PMDB-PP-PTB-PSC-PHS-PEN orientou Sim; bancada 57 sim x 3 não. Proxy com teto ±1: o fim da reeleição implica vetar o terceiro mandato, mas a votação é antiga e quase unânime (452 x 19). Até 2017 o partido se chamava PMDB.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/373327-190/orientacoes",
+     "v_copiado_de_p": true
+    },
+    "Z13": {
+     "v": 0,
+     "conf": "baixa",
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2215146-4/orientacoes",
+     "p": 0,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: urgência da Lei de Abuso de Autoridade, PL 7596/2017 (14/08/2019; Sim = urgência; 342 x 83): o bloco PP-MDB-PTB orientou Sim; bancada 23 sim x 1 não; emenda das 10 medidas contra a corrupção (PL 4850/2016) que tipifica abuso de autoridade de juízes e procuradores (30/11/2016; Sim = aprovar; 313 x 132): o bloco PMDB-PEN orientou Sim; bancada 45 sim x 9 não; PEC 410/2018, prisão após 2ª instância, CCJ (20/11/2019; Sim = admitir): orientou Sim; bancada 4 sim x 0 não. Proxies com teto ±1: punir abuso de investigadores conta a favor da frase e a prisão em 2ª instância, contra; a emenda de 2016 foi vista como reação à Lava Jato e a votação da PEC 410 foi em comissão. Até 2017 o partido se chamava PMDB.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2215146-4/orientacoes",
+     "v_copiado_de_p": true
+    },
+    "Z14": {
+     "v": 0,
+     "conf": "baixa",
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2310837-8/orientacoes",
+     "p": 0,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: urgência do PL 2630/2020, das Fake News (25/04/2023; Sim = urgência; 238 x 192): o bloco MDB-PSD-Republicanos-Podemos-PSC orientou Sim; bancada 21 sim x 12 não. Proxy com teto ±1: o PL 2630 obrigava plataformas a agir sobre conteúdo sem ordem judicial prévia; votar a urgência não é defender remoção sem defesa.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2310837-8/orientacoes",
+     "v_copiado_de_p": true
     }
    },
    "fontes": [
@@ -5640,25 +6125,75 @@
      "fonte_p": null
     },
     "V20": {
-     "v": null,
-     "p": null,
+     "v": 1,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1594910-125/orientacoes",
+     "p": 1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: Lei de Migração (PL 2516/2015), destaque do DEM para suprimir as exceções à repatriação do § 4º do art. 47 (refugiados, apátridas, menores desacompanhados, quem precisa de acolhimento humanitário) (06/12/2016; Sim = manter as exceções; texto mantido por 207 x 83): orientou Sim; bancada 23 sim x 3 não. Proxy com teto ±1: a votação trata só das exceções à repatriação e é de 2016.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1594910-125/orientacoes",
+     "v_copiado_de_p": true
     },
     "Z09": {
-     "v": null,
-     "p": null,
+     "v": -1,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Princípios e valores do PSD (manifesto de 2011, site oficial): 'Defendemos a iniciativa e a propriedade privadas'. Não trata de ocupações, bloqueios ou protestos.",
+     "fonte": "https://psd.org.br/principios-e-valores/",
+     "p": -1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: PL 709/2023, que veta programas sociais e cargos públicos a invasores de propriedades (21/05/2024; Sim = sanções; aprovado por 336 x 120): o bloco MDB-PSD-Republicanos-Podemos liberou; bancada 37 sim x 1 não. Proxy com teto ±1: o projeto pune invasores de terra, mas não trata de bloqueio de estradas nem de prédios públicos.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2349493-82/orientacoes"
     },
     "Z10": {
-     "v": null,
-     "p": null,
+     "v": 1,
+     "conf": "media",
+     "base": "DISCURSO: Em 26/06/2021, o presidente do PSD, Gilberto Kassab, esteve entre os presidentes de 11 partidos que, em reunião, fecharam posição pela manutenção da urna eletrônica e contra a PEC do voto impresso. Kassab pediu 'mais transparência às operações de apuração'.",
+     "fonte": "https://www.poder360.com.br/eleicoes/presidentes-de-11-partidos-fecham-posicao-contra-voto-impresso/",
+     "p": -1,
+     "conf_p": "alta",
+     "base_p": "PRÁTICA: PEC 135/2019, voto impresso (10/08/2021; Sim = voto impresso; 229 x 218, rejeitada): orientou Não; bancada 20 sim x 11 não. O voto impresso pressupõe desconfiança na apuração eletrônica, embora parte dos defensores alegue só auditabilidade.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2220292-229/orientacoes"
+    },
+    "Z11": {
+     "v": -1,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Programa de governo 2026 registrado pelo PSD (Caiado, partido isolado): diz que 'nenhum programa transformador será executado sem cooperação entre os Poderes, apoio no Congresso' e propõe 'formar uma maioria orgânica'; não trata de decretos ou medidas provisórias.",
+     "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo",
+     "p": -1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: urgência do PDL 3/2019, que sustou decreto de Bolsonaro sobre sigilo na LAI (19/02/2019; Sim = sustar; 367 x 57): o bloco PSL-PP-PSD liberou; bancada 22 sim x 1 não; PDL 214/2025, que sustou decreto de Lula que elevou o IOF (25/06/2025; Sim = sustar; 383 x 98): sem orientação registrada na API; bancada 27 sim x 1 não. Proxies com teto ±1, um decreto de Bolsonaro e outro de Lula: a média mostra se o partido limita decretos do presidente com qualquer governo.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2192300-10/orientacoes"
+    },
+    "Z12": {
+     "v": 2,
+     "conf": "media",
+     "base": "DISCURSO: Programa de governo 2026 registrado pelo PSD (Caiado, partido isolado): propõe PEC para 'extinguir a reeleição consecutiva para os cargos do Poder Executivo, com aplicação inclusive ao mandato presidencial iniciado em 2027'.",
+     "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo",
+     "p": 1,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: PEC 182/2007, artigo que acaba com a reeleição no Executivo, 1º turno (27/05/2015; Sim = fim da reeleição; 452 x 19): orientou Sim; bancada 30 sim x 0 não. Proxy com teto ±1: o fim da reeleição implica vetar o terceiro mandato, mas a votação é antiga e quase unânime (452 x 19).",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/373327-190/orientacoes"
+    },
+    "Z13": {
+     "v": 1,
+     "conf": "media",
+     "base": "DISCURSO: Programa de governo 2026 registrado pelo PSD (Caiado, partido isolado): 'Combater a corrupção, o crime organizado e a captura do Estado, ao mesmo tempo em que se preservam o devido processo legal'; 'Ordem democrática é autoridade submetida à lei'. Não diz aceitar que culpados escapem.",
+     "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo",
+     "p": 0,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: urgência da Lei de Abuso de Autoridade, PL 7596/2017 (14/08/2019; Sim = urgência; 342 x 83): orientou Sim; bancada 24 sim x 4 não; emenda das 10 medidas contra a corrupção (PL 4850/2016) que tipifica abuso de autoridade de juízes e procuradores (30/11/2016; Sim = aprovar; 313 x 132): orientou Sim; bancada 20 sim x 13 não; PEC 410/2018, prisão após 2ª instância, CCJ (20/11/2019; Sim = admitir): orientou Sim; bancada 5 sim x 0 não. Proxies com teto ±1: punir abuso de investigadores conta a favor da frase e a prisão em 2ª instância, contra; a emenda de 2016 foi vista como reação à Lava Jato e a votação da PEC 410 foi em comissão.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2215146-4/orientacoes"
+    },
+    "Z14": {
+     "v": 1,
+     "conf": "media",
+     "base": "DISCURSO: Princípios do PSD (2011): 'contra qualquer tipo de censura, controle, restrição ou regulamentação da mídia'. Programa de governo 2026 (Caiado): regras para plataformas 'com devido processo, transparência e recurso' e 'preservar os princípios do Marco Civil', cujo art. 19 previa ordem judicial para responsabilizar plataformas.",
+     "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo",
+     "p": 0,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: urgência do PL 2630/2020, das Fake News (25/04/2023; Sim = urgência; 238 x 192): o bloco MDB-PSD-Republicanos-Podemos-PSC orientou Sim; bancada 16 sim x 15 não. Proxy com teto ±1: o PL 2630 obrigava plataformas a agir sobre conteúdo sem ordem judicial prévia; votar a urgência não é defender remoção sem defesa.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2310837-8/orientacoes"
     }
    },
    "fontes": [
@@ -6222,25 +6757,77 @@
      "fonte_p": null
     },
     "V20": {
-     "v": null,
-     "p": null,
+     "v": -1,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1594910-125/orientacoes",
+     "p": -1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: Lei de Migração (PL 2516/2015), destaque do DEM para suprimir as exceções à repatriação do § 4º do art. 47 (refugiados, apátridas, menores desacompanhados, quem precisa de acolhimento humanitário) (06/12/2016; Sim = manter as exceções; texto mantido por 207 x 83): DEM orientou Não; o bloco PTN-PTdoB-PSL orientou Sim; bancada 2 sim x 17 não. Proxy com teto ±1: a votação trata só das exceções à repatriação e é de 2016. Até 2021 a conta soma DEM e PSL (fundidos em 2022); boa parte da bancada bolsonarista do PSL migrou para o PL em 2022.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1594910-125/orientacoes",
+     "v_copiado_de_p": true
     },
     "Z09": {
-     "v": null,
-     "p": null,
-     "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "v": -1,
+     "conf": "media",
+     "base": "DISCURSO: Manifesto do União Brasil (44 princípios): 'Respeito ao direito de propriedade', que inclui entre as 'cláusulas pétreas' (princípio 22), e 'Garantia do direito de ir e vir, da livre circulação dos cidadãos' (princípio 19). Não trata expressamente de ocupações ou bloqueios.",
+     "fonte": "https://uniaobrasil.org.br/wp-content/uploads/2024/08/BOOK-148x210mm-Manifesto_Uniao_BRASIL.pdf",
+     "p": -1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: PL 709/2023, que veta programas sociais e cargos públicos a invasores de propriedades (21/05/2024; Sim = sanções; aprovado por 336 x 120): o bloco União-PP-federação PSDB/Cidadania orientou Sim; bancada 50 sim x 2 não. Proxy com teto ±1: o projeto pune invasores de terra, mas não trata de bloqueio de estradas nem de prédios públicos.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2349493-82/orientacoes"
     },
     "Z10": {
-     "v": null,
-     "p": null,
+     "v": 1,
+     "conf": "media",
+     "base": "DISCURSO: Em 26/06/2021, os presidentes do DEM, ACM Neto, e do PSL, Luciano Bivar (partidos que se fundiram no União Brasil em 2022), estiveram entre os presidentes de 11 partidos que, em reunião, fecharam posição pela manutenção da urna eletrônica e contra a PEC do voto impresso. ACM Neto disse que a mudança poderia pôr em xeque o sistema eleitoral.",
+     "fonte": "https://www.poder360.com.br/eleicoes/presidentes-de-11-partidos-fecham-posicao-contra-voto-impresso/",
+     "p": -1,
+     "conf_p": "alta",
+     "base_p": "PRÁTICA: PEC 135/2019, voto impresso (10/08/2021; Sim = voto impresso; 229 x 218, rejeitada): DEM orientou Não e PSL orientou Sim; bancada 58 sim x 14 não. O voto impresso pressupõe desconfiança na apuração eletrônica, embora parte dos defensores alegue só auditabilidade. Até 2021 a conta soma DEM e PSL (fundidos em 2022); boa parte da bancada bolsonarista do PSL migrou para o PL em 2022.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2220292-229/orientacoes"
+    },
+    "Z11": {
+     "v": 0,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2192300-10/orientacoes",
+     "p": 0,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: urgência do PDL 3/2019, que sustou decreto de Bolsonaro sobre sigilo na LAI (19/02/2019; Sim = sustar; 367 x 57): o bloco PSL-PP-PSD liberou (DEM sem orientação própria registrada); bancada 22 sim x 50 não; PDL 214/2025, que sustou decreto de Lula que elevou o IOF (25/06/2025; Sim = sustar; 383 x 98): sem orientação registrada na API; bancada 58 sim x 0 não. Proxies com teto ±1, um decreto de Bolsonaro e outro de Lula: a média mostra se o partido limita decretos do presidente com qualquer governo. Até 2021 a conta soma DEM e PSL (fundidos em 2022); boa parte da bancada bolsonarista do PSL migrou para o PL em 2022.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2192300-10/orientacoes",
+     "v_copiado_de_p": true
+    },
+    "Z12": {
+     "v": 1,
+     "conf": "baixa",
+     "base": "DISCURSO: Manifesto do União Brasil: 'Defesa intransigente da democracia', que garante que 'seja assegurada a alternância do poder' (princípio 1). Não trata de reeleição ou de limite de mandatos.",
+     "fonte": "https://uniaobrasil.org.br/wp-content/uploads/2024/08/BOOK-148x210mm-Manifesto_Uniao_BRASIL.pdf",
+     "p": 1,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: PEC 182/2007, artigo que acaba com a reeleição no Executivo, 1º turno (27/05/2015; Sim = fim da reeleição; 452 x 19): DEM orientou Sim; bancada 16 sim x 5 não. Proxy com teto ±1: o fim da reeleição implica vetar o terceiro mandato, mas a votação é antiga e quase unânime (452 x 19). Até 2021 a conta soma DEM e PSL (fundidos em 2022); boa parte da bancada bolsonarista do PSL migrou para o PL em 2022.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/373327-190/orientacoes"
+    },
+    "Z13": {
+     "v": 1,
+     "conf": "baixa",
+     "base": "DISCURSO: Manifesto do União Brasil cita como conquista 'um regime jurídico assentado no princípio das garantias individuais' e defende combater o crime 'sem sacrifício das liberdades fundamentais' (princípio 19). Não trata de investigações de corrupção.",
+     "fonte": "https://uniaobrasil.org.br/wp-content/uploads/2024/08/BOOK-148x210mm-Manifesto_Uniao_BRASIL.pdf",
+     "p": 0,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: urgência da Lei de Abuso de Autoridade, PL 7596/2017 (14/08/2019; Sim = urgência; 342 x 83): DEM orientou Sim e PSL liberou; bancada 26 sim x 41 não; emenda das 10 medidas contra a corrupção (PL 4850/2016) que tipifica abuso de autoridade de juízes e procuradores (30/11/2016; Sim = aprovar; 313 x 132): DEM liberou; o bloco PTN-PTdoB-PSL orientou Sim; bancada 19 sim x 7 não; PEC 410/2018, prisão após 2ª instância, CCJ (20/11/2019; Sim = admitir): DEM e PSL orientaram Sim; bancada 10 sim x 1 não. Proxies com teto ±1: punir abuso de investigadores conta a favor da frase e a prisão em 2ª instância, contra; a emenda de 2016 foi vista como reação à Lava Jato e a votação da PEC 410 foi em comissão. Até 2021 a conta soma DEM e PSL (fundidos em 2022); boa parte da bancada bolsonarista do PSL migrou para o PL em 2022.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2215146-4/orientacoes"
+    },
+    "Z14": {
+     "v": 0,
+     "conf": "baixa",
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2310837-8/orientacoes",
+     "p": 0,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: urgência do PL 2630/2020, das Fake News (25/04/2023; Sim = urgência; 238 x 192): o bloco União-PP-federação PSDB/Cidadania orientou Sim; bancada 19 sim x 28 não. Proxy com teto ±1: o PL 2630 obrigava plataformas a agir sobre conteúdo sem ordem judicial prévia; votar a urgência não é defender remoção sem defesa.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2310837-8/orientacoes",
+     "v_copiado_de_p": true
     }
    },
    "fontes": [
@@ -6853,25 +7440,80 @@
      "fonte_p": null
     },
     "V20": {
-     "v": null,
-     "p": null,
+     "v": -1,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1594910-125/orientacoes",
+     "p": -1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: Lei de Migração (PL 2516/2015), destaque do DEM para suprimir as exceções à repatriação do § 4º do art. 47 (refugiados, apátridas, menores desacompanhados, quem precisa de acolhimento humanitário) (06/12/2016; Sim = manter as exceções; texto mantido por 207 x 83): o bloco PP-PTB-PSC liberou; bancada 9 sim x 21 não. Proxy com teto ±1: a votação trata só das exceções à repatriação e é de 2016.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1594910-125/orientacoes",
+     "v_copiado_de_p": true
     },
     "Z09": {
-     "v": null,
-     "p": null,
+     "v": -1,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2349493-82/orientacoes",
+     "p": -1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: PL 709/2023, que veta programas sociais e cargos públicos a invasores de propriedades (21/05/2024; Sim = sanções; aprovado por 336 x 120): o bloco União-PP-federação PSDB/Cidadania orientou Sim; bancada 44 sim x 0 não. Proxy com teto ±1: o projeto pune invasores de terra, mas não trata de bloqueio de estradas nem de prédios públicos.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2349493-82/orientacoes",
+     "v_copiado_de_p": true
     },
     "Z10": {
-     "v": null,
-     "p": null,
+     "v": 1,
+     "conf": "media",
+     "base": "DISCURSO: Em 26/06/2021, o presidente do PP, Ciro Nogueira, esteve entre os presidentes de 11 partidos que, em reunião, fecharam posição pela manutenção da urna eletrônica e contra a PEC do voto impresso. Em nov/2022 o partido, coligado ao PL, pediu ao TSE para não responder pela multa da ação do PL contra as urnas (Folha de S.Paulo, 25/11/2022).",
+     "fonte": "https://www.poder360.com.br/eleicoes/presidentes-de-11-partidos-fecham-posicao-contra-voto-impresso/",
+     "p": 0,
+     "conf_p": "alta",
+     "base_p": "PRÁTICA: PEC 135/2019, voto impresso (10/08/2021; Sim = voto impresso; 229 x 218, rejeitada): liberou; bancada 16 sim x 13 não. O voto impresso pressupõe desconfiança na apuração eletrônica, embora parte dos defensores alegue só auditabilidade.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2220292-229/orientacoes"
+    },
+    "Z11": {
+     "v": -1,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2192300-10/orientacoes",
+     "p": -1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: urgência do PDL 3/2019, que sustou decreto de Bolsonaro sobre sigilo na LAI (19/02/2019; Sim = sustar; 367 x 57): o bloco PSL-PP-PSD liberou; bancada 25 sim x 1 não; PDL 214/2025, que sustou decreto de Lula que elevou o IOF (25/06/2025; Sim = sustar; 383 x 98): sem orientação registrada na API; bancada 48 sim x 0 não. Proxies com teto ±1, um decreto de Bolsonaro e outro de Lula: a média mostra se o partido limita decretos do presidente com qualquer governo.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2192300-10/orientacoes",
+     "v_copiado_de_p": true
+    },
+    "Z12": {
+     "v": 1,
+     "conf": "baixa",
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/373327-190/orientacoes",
+     "p": 1,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: PEC 182/2007, artigo que acaba com a reeleição no Executivo, 1º turno (27/05/2015; Sim = fim da reeleição; 452 x 19): o bloco PMDB-PP-PTB-PSC-PHS-PEN orientou Sim; bancada 34 sim x 0 não. Proxy com teto ±1: o fim da reeleição implica vetar o terceiro mandato, mas a votação é antiga e quase unânime (452 x 19).",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/373327-190/orientacoes",
+     "v_copiado_de_p": true
+    },
+    "Z13": {
+     "v": 0,
+     "conf": "baixa",
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2215146-4/orientacoes",
+     "p": 0,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: urgência da Lei de Abuso de Autoridade, PL 7596/2017 (14/08/2019; Sim = urgência; 342 x 83): o bloco PP-MDB-PTB orientou Sim; bancada 29 sim x 1 não; emenda das 10 medidas contra a corrupção (PL 4850/2016) que tipifica abuso de autoridade de juízes e procuradores (30/11/2016; Sim = aprovar; 313 x 132): o bloco PP-PTB-PSC orientou Sim; bancada 35 sim x 7 não; PEC 410/2018, prisão após 2ª instância, CCJ (20/11/2019; Sim = admitir): sem orientação registrada; bancada 5 sim x 0 não. Proxies com teto ±1: punir abuso de investigadores conta a favor da frase e a prisão em 2ª instância, contra; a emenda de 2016 foi vista como reação à Lava Jato e a votação da PEC 410 foi em comissão.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2215146-4/orientacoes",
+     "v_copiado_de_p": true
+    },
+    "Z14": {
+     "v": 0,
+     "conf": "baixa",
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2310837-8/orientacoes",
+     "p": 0,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: urgência do PL 2630/2020, das Fake News (25/04/2023; Sim = urgência; 238 x 192): o bloco União-PP-federação PSDB/Cidadania orientou Sim; bancada 17 sim x 21 não. Proxy com teto ±1: o PL 2630 obrigava plataformas a agir sobre conteúdo sem ordem judicial prévia; votar a urgência não é defender remoção sem defesa.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2310837-8/orientacoes",
+     "v_copiado_de_p": true
     }
    },
    "fontes": [
@@ -7450,25 +8092,78 @@
      "fonte_p": null
     },
     "V20": {
-     "v": null,
-     "p": null,
+     "v": 1,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1594910-125/orientacoes",
+     "p": 1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: Lei de Migração (PL 2516/2015), destaque do DEM para suprimir as exceções à repatriação do § 4º do art. 47 (refugiados, apátridas, menores desacompanhados, quem precisa de acolhimento humanitário) (06/12/2016; Sim = manter as exceções; texto mantido por 207 x 83): PRB orientou Sim; bancada 6 sim x 2 não. Proxy com teto ±1: a votação trata só das exceções à repatriação e é de 2016. Até 2019 o partido se chamava PRB.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1594910-125/orientacoes",
+     "v_copiado_de_p": true
     },
     "Z09": {
-     "v": null,
-     "p": null,
+     "v": -1,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2349493-82/orientacoes",
+     "p": -1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: PL 709/2023, que veta programas sociais e cargos públicos a invasores de propriedades (21/05/2024; Sim = sanções; aprovado por 336 x 120): o bloco MDB-PSD-Republicanos-Podemos liberou; bancada 38 sim x 0 não. Proxy com teto ±1: o projeto pune invasores de terra, mas não trata de bloqueio de estradas nem de prédios públicos.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2349493-82/orientacoes",
+     "v_copiado_de_p": true
     },
     "Z10": {
-     "v": null,
-     "p": null,
+     "v": 1,
+     "conf": "media",
+     "base": "DISCURSO: Em 26/06/2021, o presidente do Republicanos, Marcos Pereira, esteve entre os presidentes de 11 partidos que, em reunião, fecharam posição pela manutenção da urna eletrônica e contra a PEC do voto impresso. Em nov/2022 o partido, coligado ao PL, pediu ao TSE para não responder pela multa da ação do PL contra as urnas (Folha de S.Paulo, 25/11/2022).",
+     "fonte": "https://www.poder360.com.br/eleicoes/presidentes-de-11-partidos-fecham-posicao-contra-voto-impresso/",
+     "p": -2,
+     "conf_p": "alta",
+     "base_p": "PRÁTICA: PEC 135/2019, voto impresso (10/08/2021; Sim = voto impresso; 229 x 218, rejeitada): orientou Sim; bancada 26 sim x 3 não. O voto impresso pressupõe desconfiança na apuração eletrônica, embora parte dos defensores alegue só auditabilidade.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2220292-229/orientacoes"
+    },
+    "Z11": {
+     "v": -1,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2192300-10/orientacoes",
+     "p": -1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: urgência do PDL 3/2019, que sustou decreto de Bolsonaro sobre sigilo na LAI (19/02/2019; Sim = sustar; 367 x 57): sem orientação própria registrada; bancada 27 sim x 0 não; PDL 214/2025, que sustou decreto de Lula que elevou o IOF (25/06/2025; Sim = sustar; 383 x 98): sem orientação registrada na API; bancada 42 sim x 0 não. Proxies com teto ±1, um decreto de Bolsonaro e outro de Lula: a média mostra se o partido limita decretos do presidente com qualquer governo. Até 2019 o partido se chamava PRB.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2192300-10/orientacoes",
+     "v_copiado_de_p": true
+    },
+    "Z12": {
+     "v": 2,
+     "conf": "baixa",
+     "base": "DISCURSO: Levantamento do Estadão/Broadcast publicado em 15/09/2020 registrou o Republicanos como favorável ao fim da reeleição no Executivo (posição informada pelo partido, sem porta-voz citado). Fim da reeleição implica vetar o terceiro mandato.",
+     "fonte": "https://www.em.com.br/app/noticia/politica/2020/09/15/interna_politica,1185559/amp.html",
+     "p": 1,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: PEC 182/2007, artigo que acaba com a reeleição no Executivo, 1º turno (27/05/2015; Sim = fim da reeleição; 452 x 19): o bloco PRB-PTN-PMN-PRP-PSDC-PRTB-PTC-PSL-PTdoB orientou Sim; bancada 20 sim x 0 não. Proxy com teto ±1: o fim da reeleição implica vetar o terceiro mandato, mas a votação é antiga e quase unânime (452 x 19). Até 2019 o partido se chamava PRB.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/373327-190/orientacoes"
+    },
+    "Z13": {
+     "v": 0,
+     "conf": "baixa",
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2215146-4/orientacoes",
+     "p": 0,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: urgência da Lei de Abuso de Autoridade, PL 7596/2017 (14/08/2019; Sim = urgência; 342 x 83): PRB orientou Sim; bancada 30 sim x 0 não; emenda das 10 medidas contra a corrupção (PL 4850/2016) que tipifica abuso de autoridade de juízes e procuradores (30/11/2016; Sim = aprovar; 313 x 132): PRB orientou Sim; bancada 19 sim x 1 não; PEC 410/2018, prisão após 2ª instância, CCJ (20/11/2019; Sim = admitir): orientou Sim; bancada 4 sim x 0 não. Proxies com teto ±1: punir abuso de investigadores conta a favor da frase e a prisão em 2ª instância, contra; a emenda de 2016 foi vista como reação à Lava Jato e a votação da PEC 410 foi em comissão. Até 2019 o partido se chamava PRB.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2215146-4/orientacoes",
+     "v_copiado_de_p": true
+    },
+    "Z14": {
+     "v": 1,
+     "conf": "baixa",
+     "base": "DISCURSO: Em 29/04/2023 o presidente nacional, Marcos Pereira, orientou a bancada a votar contra o PL 2630/2020, chamado por críticos de 'PL da Censura', depois de o relator recusar mudanças pedidas pelo partido (Gazeta do Povo, 04/05/2023). O partido não tratou de decisão judicial como condição para remoção.",
+     "fonte": "https://www.gazetadopovo.com.br/republica/pressao-bases-contra-pl-fake-news-republicanos-distancia-governo-lula/",
+     "p": 0,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: urgência do PL 2630/2020, das Fake News (25/04/2023; Sim = urgência; 238 x 192): o bloco MDB-PSD-Republicanos-Podemos-PSC orientou Sim; bancada 28 sim x 8 não. Proxy com teto ±1: o PL 2630 obrigava plataformas a agir sobre conteúdo sem ordem judicial prévia; votar a urgência não é defender remoção sem defesa. Conduta: em 29/04/2023 o presidente do partido, Marcos Pereira, orientou a bancada a votar contra o mérito do PL 2630 (Gazeta do Povo, 04/05/2023); a votação foi retirada de pauta em 02/05/2023. Urgência (−1) e orientação contra o mérito (+1) dão média 0.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2310837-8/orientacoes"
     }
    },
    "fontes": [
@@ -8044,25 +8739,75 @@
      "fonte_p": null
     },
     "V20": {
-     "v": null,
-     "p": null,
+     "v": 0,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1594910-125/orientacoes",
+     "p": 0,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: Lei de Migração (PL 2516/2015), destaque do DEM para suprimir as exceções à repatriação do § 4º do art. 47 (refugiados, apátridas, menores desacompanhados, quem precisa de acolhimento humanitário) (06/12/2016; Sim = manter as exceções; texto mantido por 207 x 83): PR liberou; bancada 12 sim x 11 não. Proxy com teto ±1: a votação trata só das exceções à repatriação e é de 2016. Votos até 2021 são da bancada do PR/PL anterior à filiação de Bolsonaro (30/11/2021).",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1594910-125/orientacoes",
+     "v_copiado_de_p": true
     },
     "Z09": {
-     "v": null,
-     "p": null,
-     "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "v": -1,
+     "conf": "media",
+     "base": "DISCURSO: Programa de governo 2026 registrado pelo PL (Flávio Bolsonaro, sem coligação): promete segurança jurídica 'irreversível e sem margem para relativizações do direito de propriedade' e combate à 'ocupação ilegal de áreas públicas' (no contexto ambiental). Não trata de bloqueio de estradas.",
+     "fonte": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+     "p": -1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: PL 709/2023, que veta programas sociais e cargos públicos a invasores de propriedades (21/05/2024; Sim = sanções; aprovado por 336 x 120): orientou Sim; bancada 89 sim x 1 não. Proxy com teto ±1: o projeto pune invasores de terra, mas não trata de bloqueio de estradas nem de prédios públicos.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2349493-82/orientacoes"
     },
     "Z10": {
-     "v": null,
-     "p": null,
+     "v": -1,
+     "conf": "media",
+     "base": "DISCURSO: Em 21/07/2026 o candidato do partido a presidente, Flávio Bolsonaro, disse a 42 embaixadores que as urnas brasileiras têm a mesma origem das máquinas da Smartmatic, argumento já desmentido pelo TSE. Em sentido oposto, em 26/06/2021 o presidente do PL, Valdemar Costa Neto, estava entre os 11 presidentes de partido que fecharam posição contra o voto impresso.",
+     "fonte": "https://www.itatiaia.com.br/politica/zema-diz-que-confia-nas-urnas-mas-defende-comprovante-escrito/",
+     "p": -1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: Conduta oficial: em nov/2022 o PL pediu ao TSE que invalidasse votos de cerca de 279 mil urnas do 2º turno; o TSE rejeitou o pedido em 23/11/2022 e multou o partido em R$ 22,9 milhões por litigância de má-fé (UOL, 23/11/2022). Votação: PEC 135/2019, voto impresso (10/08/2021; Sim = voto impresso): orientou Não; bancada 11 sim x 23 não, bancada anterior à filiação de Bolsonaro (30/11/2021) e à chegada dos deputados do PSL. Conduta (−2) e voto (+1) dão média −0,5; registrou-se −1 porque a conduta é posterior e da direção atual do partido (no Z01 a conduta também prevaleceu).",
+     "fonte_p": "https://noticias.uol.com.br/politica/ultimas-noticias/2022/11/23/moraes-decisao-relatorio-golpista-pl.htm"
+    },
+    "Z11": {
+     "v": -1,
+     "conf": "media",
+     "base": "DISCURSO: Programa de governo 2026 registrado pelo PL (Flávio Bolsonaro): o capítulo 'Brasil que cumpre a Constituição' critica quando 'uma canetada substitui a lei votada pelos representantes do povo' e defende o 'equilíbrio entre os Poderes'; o alvo principal do texto é o STF.",
+     "fonte": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+     "p": -1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: urgência do PDL 3/2019, que sustou decreto de Bolsonaro sobre sigilo na LAI (19/02/2019; Sim = sustar; 367 x 57): sem orientação própria registrada; bancada 27 sim x 0 não; PDL 214/2025, que sustou decreto de Lula que elevou o IOF (25/06/2025; Sim = sustar; 383 x 98): sem orientação registrada na API; bancada 88 sim x 0 não. Proxies com teto ±1, um decreto de Bolsonaro e outro de Lula: a média mostra se o partido limita decretos do presidente com qualquer governo. Votos até 2021 são da bancada do PR/PL anterior à filiação de Bolsonaro (30/11/2021).",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2192300-10/orientacoes"
+    },
+    "Z12": {
+     "v": 2,
+     "conf": "media",
+     "base": "DISCURSO: Programa de governo 2026 registrado pelo PL (Flávio Bolsonaro): 'propomos o fim da reeleição para o cargo de Presidente da República', citando PEC do próprio candidato no Senado.",
+     "fonte": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+     "p": 1,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: PEC 182/2007, artigo que acaba com a reeleição no Executivo, 1º turno (27/05/2015; Sim = fim da reeleição; 452 x 19): PR orientou Sim; bancada 30 sim x 0 não. Proxy com teto ±1: o fim da reeleição implica vetar o terceiro mandato, mas a votação é antiga e quase unânime (452 x 19). Votos até 2021 são da bancada do PR/PL anterior à filiação de Bolsonaro (30/11/2021).",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/373327-190/orientacoes"
+    },
+    "Z13": {
+     "v": 0,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Programa de governo 2026 registrado pelo PL (Flávio Bolsonaro): diz que 'crime se combate na Justiça, com regras claras e direito de defesa' (no capítulo sobre censura) e elogia a Lava Jato por ter encontrado 'o maior esquema de corrupção da história'. Não trata de garantias em investigações de corrupção; posição mista.",
+     "fonte": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+     "p": 0,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: urgência da Lei de Abuso de Autoridade, PL 7596/2017 (14/08/2019; Sim = urgência; 342 x 83): orientou Sim; bancada 24 sim x 5 não; emenda das 10 medidas contra a corrupção (PL 4850/2016) que tipifica abuso de autoridade de juízes e procuradores (30/11/2016; Sim = aprovar; 313 x 132): PR orientou Sim; bancada 29 sim x 4 não; PEC 410/2018, prisão após 2ª instância, CCJ (20/11/2019; Sim = admitir): orientou Sim; bancada 3 sim x 0 não. Proxies com teto ±1: punir abuso de investigadores conta a favor da frase e a prisão em 2ª instância, contra; a emenda de 2016 foi vista como reação à Lava Jato e a votação da PEC 410 foi em comissão. Votos até 2021 são da bancada do PR/PL anterior à filiação de Bolsonaro (30/11/2021).",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2215146-4/orientacoes"
+    },
+    "Z14": {
+     "v": 2,
+     "conf": "media",
+     "base": "DISCURSO: Programa de governo 2026 registrado pelo PL (Flávio Bolsonaro): promete um 'Tesouraço na Censura', acabar com estruturas que funcionem como 'Ministério da Verdade' e revogar atos do governo 'para silenciar seus críticos'; 'Crime se combate na Justiça, com regras claras e direito de defesa'.",
+     "fonte": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+     "p": 1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: urgência do PL 2630/2020, das Fake News (25/04/2023; Sim = urgência; 238 x 192): orientou Não; bancada 6 sim x 79 não. Proxy com teto ±1: o PL 2630 obrigava plataformas a agir sobre conteúdo sem ordem judicial prévia; votar a urgência não é defender remoção sem defesa.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2310837-8/orientacoes"
     }
    },
    "fontes": [
@@ -8635,25 +9380,76 @@
      "fonte_p": null
     },
     "V20": {
-     "v": null,
+     "v": 1,
+     "conf": "media",
+     "base": "DISCURSO: Programa de governo 2026 registrado pelo Novo (Zema, chapa pura): 'Adotar uma política de vistos e imigração de um país aberto ao mundo' e 'abrir caminhos legais à imigração de talentos e profissionais qualificados'. Não trata de refugiados nem de acolhida humanitária.",
+     "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema",
      "p": null,
-     "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "conf_p": null,
+     "base_p": "PRÁTICA: O Novo não tinha deputados na data da votação de referência (primeira bancada eleita em 2018) e não foi localizada votação nominal posterior sobre o tema.",
+     "fonte_p": null
     },
     "Z09": {
-     "v": null,
-     "p": null,
-     "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "v": -2,
+     "conf": "media",
+     "base": "DISCURSO: Programa de governo 2026 registrado pelo Novo (Zema): diz que 'a ação de invasores' inibe o investimento no campo e propõe 'proteção efetiva do Estado contra invasões', com ampliação do porte de arma do produtor rural em sua propriedade.",
+     "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema",
+     "p": -1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: PL 709/2023, que veta programas sociais e cargos públicos a invasores de propriedades (21/05/2024; Sim = sanções; aprovado por 336 x 120): orientou Sim; bancada 3 sim x 0 não. Proxy com teto ±1: o projeto pune invasores de terra, mas não trata de bloqueio de estradas nem de prédios públicos.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2349493-82/orientacoes"
     },
     "Z10": {
-     "v": null,
-     "p": null,
+     "v": 1,
+     "conf": "media",
+     "base": "DISCURSO: Em 22/07/2026 o candidato do Novo, Romeu Zema, disse: 'Fui eleito e reeleito pela urna eletrônica e considero o sistema confiável', mas defendeu comprovante impresso em uma amostra de urnas para conferência.",
+     "fonte": "https://www.itatiaia.com.br/politica/zema-diz-que-confia-nas-urnas-mas-defende-comprovante-escrito/",
+     "p": 0,
+     "conf_p": "alta",
+     "base_p": "PRÁTICA: PEC 135/2019, voto impresso (10/08/2021; Sim = voto impresso; 229 x 218, rejeitada): liberou; bancada 5 sim x 3 não. O voto impresso pressupõe desconfiança na apuração eletrônica, embora parte dos defensores alegue só auditabilidade.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2220292-229/orientacoes"
+    },
+    "Z11": {
+     "v": -1,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2192300-10/orientacoes",
+     "p": -1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: urgência do PDL 3/2019, que sustou decreto de Bolsonaro sobre sigilo na LAI (19/02/2019; Sim = sustar; 367 x 57): orientou Sim; bancada 8 sim x 0 não; PDL 214/2025, que sustou decreto de Lula que elevou o IOF (25/06/2025; Sim = sustar; 383 x 98): sem orientação registrada na API; bancada 5 sim x 0 não. Proxies com teto ±1, um decreto de Bolsonaro e outro de Lula: a média mostra se o partido limita decretos do presidente com qualquer governo.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2192300-10/orientacoes",
+     "v_copiado_de_p": true
+    },
+    "Z12": {
+     "v": 1,
+     "conf": "media",
+     "base": "DISCURSO: Estatuto do Novo (resumo oficial, 2023): 'é vedado ao filiado eleito para cargo no Poder Legislativo que se candidate a mais de uma reeleição consecutiva', regra apresentada como 'limitação ao carreirismo político'. A regra vale para o Legislativo; não há posição sobre o Executivo.",
+     "fonte": "https://static.poder360.com.br/2023/09/Estatuo-Partido-Novo.pdf",
+     "p": null,
+     "conf_p": null,
+     "base_p": "PRÁTICA: O Novo não tinha deputados na data da votação de referência (primeira bancada eleita em 2018) e não foi localizada votação nominal posterior sobre o tema.",
+     "fonte_p": null
+    },
+    "Z13": {
+     "v": -1,
+     "conf": "baixa",
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2215146-4/orientacoes",
+     "p": -1,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: urgência da Lei de Abuso de Autoridade, PL 7596/2017 (14/08/2019; Sim = urgência; 342 x 83): orientou Não; bancada 0 sim x 8 não; PEC 410/2018, prisão após 2ª instância, CCJ (20/11/2019; Sim = admitir): orientou Sim; bancada 1 sim x 0 não. Proxies com teto ±1: punir abuso de investigadores conta a favor da frase e a prisão em 2ª instância, contra; a emenda de 2016 foi vista como reação à Lava Jato e a votação da PEC 410 foi em comissão. Conduta: em 15/08/2019 a bancada do Novo anunciou ação no STF para refazer por votação nominal a aprovação simbólica da Lei de Abuso de Autoridade (Congresso em Foco).",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2215146-4/orientacoes",
+     "v_copiado_de_p": true
+    },
+    "Z14": {
+     "v": 1,
+     "conf": "media",
+     "base": "DISCURSO: Programa de governo 2026 registrado pelo Novo (Zema): propõe 'vedar a exclusão de perfis e a moderação de opiniões pelas plataformas, inclusive por determinação judicial', com retratação e indenização no lugar da remoção, e tipificar como abuso de autoridade a 'remoção arbitrária de conteúdo'. Vai além da frase: rejeita até a remoção por ordem judicial.",
+     "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema",
+     "p": 1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: urgência do PL 2630/2020, das Fake News (25/04/2023; Sim = urgência; 238 x 192): orientou Não; bancada 0 sim x 3 não. Proxy com teto ±1: o PL 2630 obrigava plataformas a agir sobre conteúdo sem ordem judicial prévia; votar a urgência não é defender remoção sem defesa.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2310837-8/orientacoes"
     }
    },
    "fontes": [
@@ -9197,25 +9993,79 @@
      "fonte_p": null
     },
     "V20": {
-     "v": null,
-     "p": null,
+     "v": 1,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1594910-125/orientacoes",
+     "p": 1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: Lei de Migração (PL 2516/2015), destaque do DEM para suprimir as exceções à repatriação do § 4º do art. 47 (refugiados, apátridas, menores desacompanhados, quem precisa de acolhimento humanitário) (06/12/2016; Sim = manter as exceções; texto mantido por 207 x 83): o bloco PTN-PTdoB-PSL orientou Sim; bancada 8 sim x 2 não. Proxy com teto ±1: a votação trata só das exceções à repatriação e é de 2016. Em 2015–2016 o partido se chamava PTN.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1594910-125/orientacoes",
+     "v_copiado_de_p": true
     },
     "Z09": {
-     "v": null,
-     "p": null,
+     "v": -1,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2349493-82/orientacoes",
+     "p": -1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: PL 709/2023, que veta programas sociais e cargos públicos a invasores de propriedades (21/05/2024; Sim = sanções; aprovado por 336 x 120): o bloco MDB-PSD-Republicanos-Podemos liberou; bancada 13 sim x 0 não. Proxy com teto ±1: o projeto pune invasores de terra, mas não trata de bloqueio de estradas nem de prédios públicos.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2349493-82/orientacoes",
+     "v_copiado_de_p": true
     },
     "Z10": {
-     "v": null,
-     "p": null,
+     "v": -1,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2220292-229/orientacoes",
+     "p": -1,
+     "conf_p": "alta",
+     "base_p": "PRÁTICA: PEC 135/2019, voto impresso (10/08/2021; Sim = voto impresso; 229 x 218, rejeitada): orientou Sim; bancada 6 sim x 2 não. O voto impresso pressupõe desconfiança na apuração eletrônica, embora parte dos defensores alegue só auditabilidade.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2220292-229/orientacoes",
+     "v_copiado_de_p": true
+    },
+    "Z11": {
+     "v": -1,
+     "conf": "baixa",
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2192300-10/orientacoes",
+     "p": -1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: urgência do PDL 3/2019, que sustou decreto de Bolsonaro sobre sigilo na LAI (19/02/2019; Sim = sustar; 367 x 57): o bloco PDT-SD-Podemos orientou Sim; bancada 9 sim x 0 não; PDL 214/2025, que sustou decreto de Lula que elevou o IOF (25/06/2025; Sim = sustar; 383 x 98): sem orientação registrada na API; bancada 15 sim x 0 não. Proxies com teto ±1, um decreto de Bolsonaro e outro de Lula: a média mostra se o partido limita decretos do presidente com qualquer governo.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2192300-10/orientacoes",
+     "v_copiado_de_p": true
+    },
+    "Z12": {
+     "v": 2,
+     "conf": "baixa",
+     "base": "DISCURSO: Levantamento do Estadão/Broadcast publicado em 15/09/2020: o líder do Podemos na Câmara, Léo Moraes, declarou-se a favor do fim da reeleição no Executivo, com validade a partir de 2026. Fim da reeleição implica vetar o terceiro mandato.",
+     "fonte": "https://www.em.com.br/app/noticia/politica/2020/09/15/interna_politica,1185559/amp.html",
+     "p": 1,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: PEC 182/2007, artigo que acaba com a reeleição no Executivo, 1º turno (27/05/2015; Sim = fim da reeleição; 452 x 19): o bloco PRB-PTN-PMN-PRP-PSDC-PRTB-PTC-PSL-PTdoB orientou Sim; bancada 4 sim x 0 não. Proxy com teto ±1: o fim da reeleição implica vetar o terceiro mandato, mas a votação é antiga e quase unânime (452 x 19). Em 2015–2016 o partido se chamava PTN.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/373327-190/orientacoes"
+    },
+    "Z13": {
+     "v": -1,
+     "conf": "media",
+     "base": "DISCURSO: Informativo do Podemos na Câmara (nov/2019): a presidente nacional, Renata Abreu, disse que a exigência do trânsito em julgado 'está sendo garantia de impunidade' e que 'ao derrubar a 2ª instância, fica aberto o caminho para a impunidade', defendendo mudar a Constituição para prender após a 2ª instância.",
+     "fonte": "https://podemos.org.br/__l5e/assets-v1/6f2238f1-ce33-44a4-8ba4-393aa6e1f825/2019-11-Informativo-Podemos-Camara.pdf",
+     "p": 0,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: urgência da Lei de Abuso de Autoridade, PL 7596/2017 (14/08/2019; Sim = urgência; 342 x 83): liberou; bancada 5 sim x 5 não; emenda das 10 medidas contra a corrupção (PL 4850/2016) que tipifica abuso de autoridade de juízes e procuradores (30/11/2016; Sim = aprovar; 313 x 132): o bloco PTN-PTdoB-PSL orientou Sim; bancada 10 sim x 3 não; PEC 410/2018, prisão após 2ª instância, CCJ (20/11/2019; Sim = admitir): orientou Sim; bancada 1 sim x 0 não. Proxies com teto ±1: punir abuso de investigadores conta a favor da frase e a prisão em 2ª instância, contra; a emenda de 2016 foi vista como reação à Lava Jato e a votação da PEC 410 foi em comissão. Em 2015–2016 o partido se chamava PTN.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2215146-4/orientacoes"
+    },
+    "Z14": {
+     "v": 1,
+     "conf": "baixa",
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2310837-8/orientacoes",
+     "p": 1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: urgência do PL 2630/2020, das Fake News (25/04/2023; Sim = urgência; 238 x 192): o bloco MDB-PSD-Republicanos-Podemos-PSC orientou Sim; bancada 1 sim x 9 não. Proxy com teto ±1: o PL 2630 obrigava plataformas a agir sobre conteúdo sem ordem judicial prévia; votar a urgência não é defender remoção sem defesa.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2310837-8/orientacoes",
+     "v_copiado_de_p": true
     }
    },
    "fontes": [
@@ -9755,25 +10605,78 @@
      "fonte_p": null
     },
     "V20": {
-     "v": null,
-     "p": null,
+     "v": 1,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1594910-125/orientacoes",
+     "p": 1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: Lei de Migração (PL 2516/2015), destaque do DEM para suprimir as exceções à repatriação do § 4º do art. 47 (refugiados, apátridas, menores desacompanhados, quem precisa de acolhimento humanitário) (06/12/2016; Sim = manter as exceções; texto mantido por 207 x 83): orientou Sim; bancada 36 sim x 0 não. Proxy com teto ±1: a votação trata só das exceções à repatriação e é de 2016.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1594910-125/orientacoes",
+     "v_copiado_de_p": true
     },
     "Z09": {
-     "v": null,
-     "p": null,
+     "v": -1,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2349493-82/orientacoes",
+     "p": -1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: PL 709/2023, que veta programas sociais e cargos públicos a invasores de propriedades (21/05/2024; Sim = sanções; aprovado por 336 x 120): o bloco União-PP-federação PSDB/Cidadania orientou Sim; bancada 10 sim x 2 não. Proxy com teto ±1: o projeto pune invasores de terra, mas não trata de bloqueio de estradas nem de prédios públicos.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2349493-82/orientacoes",
+     "v_copiado_de_p": true
     },
     "Z10": {
-     "v": null,
-     "p": null,
+     "v": 1,
+     "conf": "media",
+     "base": "DISCURSO: Em 26/06/2021, o presidente do PSDB, Bruno Araújo, esteve entre os presidentes de 11 partidos que, em reunião, fecharam posição pela manutenção da urna eletrônica e contra a PEC do voto impresso. Araújo falou em 'proteção à confiança do sistema de votação e apuração eletrônica brasileira'.",
+     "fonte": "https://www.poder360.com.br/eleicoes/presidentes-de-11-partidos-fecham-posicao-contra-voto-impresso/",
+     "p": 0,
+     "conf_p": "alta",
+     "base_p": "PRÁTICA: PEC 135/2019, voto impresso (10/08/2021; Sim = voto impresso; 229 x 218, rejeitada): orientou Não; bancada 14 sim x 12 não. O voto impresso pressupõe desconfiança na apuração eletrônica, embora parte dos defensores alegue só auditabilidade.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2220292-229/orientacoes"
+    },
+    "Z11": {
+     "v": -1,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Programa do PSDB (página oficial): tópico 'Medidas provisórias sem abuso'. O texto completo do tópico não está disponível na página.",
+     "fonte": "https://www.psdb.org.br/conheca/programa/",
+     "p": -1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: urgência do PDL 3/2019, que sustou decreto de Bolsonaro sobre sigilo na LAI (19/02/2019; Sim = sustar; 367 x 57): sem orientação própria registrada; bancada 28 sim x 0 não; PDL 214/2025, que sustou decreto de Lula que elevou o IOF (25/06/2025; Sim = sustar; 383 x 98): sem orientação registrada na API; bancada 13 sim x 0 não. Proxies com teto ±1, um decreto de Bolsonaro e outro de Lula: a média mostra se o partido limita decretos do presidente com qualquer governo.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2192300-10/orientacoes"
+    },
+    "Z12": {
+     "v": 2,
+     "conf": "baixa",
+     "base": "DISCURSO: Em 07/10/2014 o candidato do PSDB a presidente, Aécio Neves, disse ser 'a favor de mandato de cinco anos, sem reeleição' e que 'a proposta de mandato de cinco anos já está em nossas diretrizes'. Fonte antiga; não localizada posição mais recente do partido.",
+     "fonte": "https://www.gazetadopovo.com.br/vida-publica/eleicoes/2014/aecio-diz-ser-a-favor-de-mandato-de-5-anos-sem-reeleicao-eem1x5d6dlh3s2da4agy89bny",
+     "p": 1,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: PEC 182/2007, artigo que acaba com a reeleição no Executivo, 1º turno (27/05/2015; Sim = fim da reeleição; 452 x 19): orientou Sim; bancada 45 sim x 1 não. Proxy com teto ±1: o fim da reeleição implica vetar o terceiro mandato, mas a votação é antiga e quase unânime (452 x 19).",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/373327-190/orientacoes"
+    },
+    "Z13": {
+     "v": 0,
+     "conf": "baixa",
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2215146-4/orientacoes",
+     "p": 0,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: urgência da Lei de Abuso de Autoridade, PL 7596/2017 (14/08/2019; Sim = urgência; 342 x 83): orientou Sim; bancada 22 sim x 1 não; emenda das 10 medidas contra a corrupção (PL 4850/2016) que tipifica abuso de autoridade de juízes e procuradores (30/11/2016; Sim = aprovar; 313 x 132): liberou; bancada 10 sim x 32 não; PEC 410/2018, prisão após 2ª instância, CCJ (20/11/2019; Sim = admitir): orientou Sim; bancada 4 sim x 0 não. Proxies com teto ±1: punir abuso de investigadores conta a favor da frase e a prisão em 2ª instância, contra; a emenda de 2016 foi vista como reação à Lava Jato e a votação da PEC 410 foi em comissão.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2215146-4/orientacoes",
+     "v_copiado_de_p": true
+    },
+    "Z14": {
+     "v": 0,
+     "conf": "baixa",
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2310837-8/orientacoes",
+     "p": 0,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: urgência do PL 2630/2020, das Fake News (25/04/2023; Sim = urgência; 238 x 192): o bloco União-PP-federação PSDB/Cidadania orientou Sim; bancada 7 sim x 4 não. Proxy com teto ±1: o PL 2630 obrigava plataformas a agir sobre conteúdo sem ordem judicial prévia; votar a urgência não é defender remoção sem defesa.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2310837-8/orientacoes",
+     "v_copiado_de_p": true
     }
    },
    "fontes": [
@@ -10355,25 +11258,80 @@
      "fonte_p": null
     },
     "V20": {
-     "v": null,
-     "p": null,
+     "v": 1,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1594910-125/orientacoes",
+     "p": 1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: Lei de Migração (PL 2516/2015), destaque do DEM para suprimir as exceções à repatriação (06/12/2016; Sim = manter as exceções): orientou Sim; bancada 7 sim x 0 não. Proxy com teto ±1: a votação trata só das exceções à repatriação e é de 2016.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1594910-125/orientacoes",
+     "v_copiado_de_p": true
     },
     "Z09": {
-     "v": null,
-     "p": null,
+     "v": -1,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2349493-82/orientacoes",
+     "p": -1,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: PL 709/2023, que veta programas sociais e cargos públicos a invasores de propriedades (21/05/2024; Sim = sanções): o bloco União-PP-federação PSDB-Cidadania orientou Sim; bancada 2 sim x 0 não. Proxy com teto ±1: o projeto pune invasores de terra, mas não trata de bloqueio de estradas nem de prédios públicos.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2349493-82/orientacoes",
+     "v_copiado_de_p": true
     },
     "Z10": {
-     "v": null,
-     "p": null,
+     "v": 2,
+     "conf": "media",
+     "base": "DISCURSO: Em 26/06/2021 o presidente do Cidadania, Roberto Freire, uniu-se a 10 presidentes de partido contra o voto impresso e disse: \"Somos a favor da manutenção do sistema atual\"; para ele, quem quer mudar está querendo \"perturbar\".",
+     "fonte": "https://www.poder360.com.br/brasil/presidentes-de-11-partidos-fecham-posicao-contra-voto-impresso/",
+     "p": 0,
+     "conf_p": "alta",
+     "base_p": "PRÁTICA: PEC 135/2019, voto impresso (10/08/2021; Sim = voto impresso): orientou Não; bancada 3 sim x 5 não. O voto impresso pressupõe desconfiança na apuração eletrônica, embora parte dos defensores alegue só auditabilidade.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2220292-229/orientacoes"
+    },
+    "Z11": {
+     "v": -1,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2192300-10/orientacoes",
+     "p": -1,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: urgência do PDL 3/2019, que sustou decreto de Bolsonaro sobre sigilo na LAI (19/02/2019; Sim = sustar): orientou Sim; bancada 7 sim x 0 não; PDL 214/2025, que sustou decreto de Lula que elevou o IOF (25/06/2025; Sim = sustar): bancada 4 sim x 0 não. Proxies com teto ±1, um decreto de Bolsonaro e outro de Lula: a média mostra se o partido limita decretos do presidente com qualquer governo.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2192300-10/orientacoes",
+     "v_copiado_de_p": true
+    },
+    "Z12": {
+     "v": 1,
+     "conf": "baixa",
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/373327-190/orientacoes",
+     "p": 1,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: PEC 182/2007, artigo que acaba com a reeleição no Executivo, 1º turno (27/05/2015; Sim = fim da reeleição): orientou Sim; bancada 10 sim x 1 não. Proxy com teto ±1: o fim da reeleição implica vetar o terceiro mandato, mas a votação é antiga e quase unânime (452 x 19).",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/373327-190/orientacoes",
+     "v_copiado_de_p": true
+    },
+    "Z13": {
+     "v": -1,
+     "conf": "baixa",
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2215146-4/orientacoes",
+     "p": -1,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: urgência da Lei de Abuso de Autoridade, PL 7596/2017 (14/08/2019; Sim = urgência): orientou Não; bancada 1 sim x 7 não; emenda das 10 medidas contra a corrupção (PL 4850/2016) que tipifica abuso de autoridade de juízes e procuradores (30/11/2016; Sim = aprovar): orientou Não; bancada 1 sim x 7 não; PEC 410/2018, prisão após 2ª instância, CCJ (20/11/2019; Sim = admitir): orientou Sim; bancada 1 sim x 0 não. Proxies com teto ±1: punir abuso de investigadores conta a favor da frase e a prisão em 2ª instância, contra; a emenda de 2016 foi vista como reação à Lava Jato e a votação da PEC 410 foi em comissão.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2215146-4/orientacoes",
+     "v_copiado_de_p": true
+    },
+    "Z14": {
+     "v": 1,
+     "conf": "baixa",
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2310837-8/orientacoes",
+     "p": 1,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: urgência do PL 2630/2020, das Fake News (25/04/2023; Sim = urgência): o bloco União-PP-federação PSDB-Cidadania orientou Sim; bancada 0 sim x 3 não. Proxy com teto ±1: o PL 2630 obrigava plataformas a agir sobre conteúdo sem ordem judicial prévia; votar a urgência não é defender remoção sem defesa.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2310837-8/orientacoes",
+     "v_copiado_de_p": true
     }
    },
    "fontes": [
@@ -10904,25 +11862,79 @@
      "fonte_p": null
     },
     "V20": {
-     "v": null,
-     "p": null,
+     "v": 1,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1594910-125/orientacoes",
+     "p": 1,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: Lei de Migração (PL 2516/2015), destaque do DEM para suprimir as exceções à repatriação (06/12/2016; Sim = manter as exceções): o bloco PTN-PTdoB-PSL orientou Sim; bancada 3 sim x 0 não. Proxy com teto ±1: a votação trata só das exceções à repatriação e é de 2016.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1594910-125/orientacoes",
+     "v_copiado_de_p": true
     },
     "Z09": {
-     "v": null,
-     "p": null,
+     "v": -1,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2349493-82/orientacoes",
+     "p": -1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: PL 709/2023, que veta programas sociais e cargos públicos a invasores de propriedades (21/05/2024; Sim = sanções): bancada 4 sim x 2 não. Proxy com teto ±1: o projeto pune invasores de terra, mas não trata de bloqueio de estradas nem de prédios públicos.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2349493-82/orientacoes",
+     "v_copiado_de_p": true
     },
     "Z10": {
-     "v": null,
-     "p": null,
+     "v": 1,
+     "conf": "media",
+     "base": "DISCURSO: Em 26/06/2021 o presidente do Avante, Luis Tibé, esteve entre os 11 presidentes de partido que fecharam posição contra o voto impresso e pela manutenção do sistema eletrônico; não há fala própria dele na reportagem.",
+     "fonte": "https://www.poder360.com.br/brasil/presidentes-de-11-partidos-fecham-posicao-contra-voto-impresso/",
+     "p": 1,
+     "conf_p": "alta",
+     "base_p": "PRÁTICA: PEC 135/2019, voto impresso (10/08/2021; Sim = voto impresso): orientou Não; bancada 2 sim x 4 não. O voto impresso pressupõe desconfiança na apuração eletrônica, embora parte dos defensores alegue só auditabilidade.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2220292-229/orientacoes"
+    },
+    "Z11": {
+     "v": -1,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2192300-10/orientacoes",
+     "p": -1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: urgência do PDL 3/2019, que sustou decreto de Bolsonaro sobre sigilo na LAI (19/02/2019; Sim = sustar): bancada 5 sim x 1 não; PDL 214/2025, que sustou decreto de Lula que elevou o IOF (25/06/2025; Sim = sustar): bancada 6 sim x 1 não. Proxies com teto ±1, um decreto de Bolsonaro e outro de Lula: a média mostra se o partido limita decretos do presidente com qualquer governo.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2192300-10/orientacoes",
+     "v_copiado_de_p": true
+    },
+    "Z12": {
+     "v": 2,
+     "conf": "media",
+     "base": "DISCURSO: Plano de governo 2026 da coligação Avante/Agir (Augusto Cury): \"Sou contra a reeleição, pois considero que ela seja uma das fontes da corrupção\"; critica \"a busca pela autoperpetuação no poder\".",
+     "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/escritor-augusto-cury-propostas-de-governo",
+     "p": 1,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: PEC 182/2007, artigo que acaba com a reeleição no Executivo, 1º turno (27/05/2015; Sim = fim da reeleição): o bloco PRB-PTN-PMN-PRP-PSDC-PRTB-PTC-PSL-PTdoB orientou Sim; bancada 2 sim x 0 não. Proxy com teto ±1: o fim da reeleição implica vetar o terceiro mandato, mas a votação é antiga e quase unânime (452 x 19).",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/373327-190/orientacoes"
+    },
+    "Z13": {
+     "v": 1,
+     "conf": "baixa",
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2215146-4/orientacoes",
+     "p": 1,
+     "conf_p": "baixa",
+     "base_p": "PRÁTICA: urgência da Lei de Abuso de Autoridade, PL 7596/2017 (14/08/2019; Sim = urgência): orientou Sim; bancada 7 sim x 0 não; emenda das 10 medidas contra a corrupção (PL 4850/2016) que tipifica abuso de autoridade de juízes e procuradores (30/11/2016; Sim = aprovar): o bloco PTN-PTdoB-PSL orientou Sim; bancada 3 sim x 1 não; PEC 410/2018, prisão após 2ª instância, CCJ (20/11/2019): sem votos do partido. Proxies com teto ±1: punir abuso de investigadores conta a favor da frase e a prisão em 2ª instância, contra; a emenda de 2016 foi vista como reação à Lava Jato e a votação da PEC 410 foi em comissão.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2215146-4/orientacoes",
+     "v_copiado_de_p": true
+    },
+    "Z14": {
+     "v": -1,
+     "conf": "baixa",
+     "base": "DISCURSO: Sem posição localizada no programa, estatuto ou notas oficiais consultados; v repete a prática (bancada) por falta de outra fonte.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2310837-8/orientacoes",
+     "p": -1,
+     "conf_p": "média",
+     "base_p": "PRÁTICA: urgência do PL 2630/2020, das Fake News (25/04/2023; Sim = urgência): bancada 4 sim x 2 não. Proxy com teto ±1: o PL 2630 obrigava plataformas a agir sobre conteúdo sem ordem judicial prévia; votar a urgência não é defender remoção sem defesa.",
+     "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2310837-8/orientacoes",
+     "v_copiado_de_p": true
     }
    },
    "fontes": [
@@ -11441,24 +12453,73 @@
     },
     "V20": {
      "v": null,
+     "conf": null,
+     "base": "DISCURSO: Sem posição localizada no plano de governo de Renan Santos (Livro Amarelo), que não trata de imigração ou refúgio, nem em falas do candidato ou notas do partido.",
+     "fonte": null,
      "p": null,
-     "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "conf_p": null,
+     "base_p": "PRÁTICA: O Missão foi registrado pelo TSE em 04/11/2025 e não tinha bancada nas votações usadas (2015–2025); não foi localizada conduta oficial do partido sobre o tema.",
+     "fonte_p": null
     },
     "Z09": {
-     "v": null,
+     "v": -2,
+     "conf": "media",
+     "base": "DISCURSO: Plano de governo de Renan Santos (Missão): o 'primeiro pilar' do agro é 'o fim das invasões de propriedade rural', com 'instrução às polícias para repressão das invasões' e endurecimento da 'legislação penal sobre esbulho possessório'.",
+     "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/renan-santos-propostas-de-governo",
      "p": null,
-     "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "conf_p": null,
+     "base_p": "PRÁTICA: O Missão foi registrado pelo TSE em 04/11/2025 e não tinha bancada nas votações usadas (2015–2025); não foi localizada conduta oficial do partido sobre o tema.",
+     "fonte_p": null
     },
     "Z10": {
-     "v": null,
+     "v": 1,
+     "conf": "media",
+     "base": "DISCURSO: Em 25/07/2026 Renan Santos, presidente do Missão e candidato, rebateu plano de diplomatas dos EUA de questionar as urnas ('com que direito vêm aqui interferir na nossa?') e pediu a convocação dos embaixadores.",
+     "fonte": "https://www.cnnbrasil.com.br/blogs/daniel-rittner/eleicoes/renan-santos-governo-trump-tenta-aprontar-e-ajudar-flavio/",
      "p": null,
+     "conf_p": null,
+     "base_p": "PRÁTICA: O Missão foi registrado pelo TSE em 04/11/2025 e não tinha bancada nas votações usadas (2015–2025); não foi localizada conduta oficial do partido sobre o tema.",
+     "fonte_p": null
+    },
+    "Z11": {
+     "v": 0,
      "conf": "baixa",
-     "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-     "fonte": null
+     "base": "DISCURSO: Plano de Renan Santos prevê 'sucessivos decretos de Estado de Defesa' em áreas dominadas por facções; ao mesmo tempo, em 05/08/2026 Renan disse que, 'como democrata', vai 'compor' com o Congresso e aprovar suas propostas por PEC (SBT News). Posição mista.",
+     "fonte": "https://sbtnews.sbt.com.br/noticia/politica/renan-diz-que-governara-mesmo-com-parasitas-do-centrao",
+     "p": null,
+     "conf_p": null,
+     "base_p": "PRÁTICA: O Missão foi registrado pelo TSE em 04/11/2025 e não tinha bancada nas votações usadas (2015–2025); não foi localizada conduta oficial do partido sobre o tema.",
+     "fonte_p": null
+    },
+    "Z12": {
+     "v": null,
+     "conf": null,
+     "base": "DISCURSO: Sem posição localizada no plano de governo de Renan Santos (Livro Amarelo) nem em falas do candidato sobre reeleição ou terceiro mandato.",
+     "fonte": null,
+     "p": null,
+     "conf_p": null,
+     "base_p": "PRÁTICA: O Missão foi registrado pelo TSE em 04/11/2025 e não tinha bancada nas votações usadas (2015–2025); não foi localizada conduta oficial do partido sobre o tema.",
+     "fonte_p": null
+    },
+    "Z13": {
+     "v": -2,
+     "conf": "media",
+     "base": "DISCURSO: Plano de Renan Santos (Missão) propõe agir 'na contramão do garantismo penal' e adotar o 'Direito Penal do Inimigo' contra facções, e acusa Bolsonaro de ter traído a direita 'destruindo a Lava Jato'.",
+     "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/renan-santos-propostas-de-governo",
+     "p": null,
+     "conf_p": null,
+     "base_p": "PRÁTICA: O Missão foi registrado pelo TSE em 04/11/2025 e não tinha bancada nas votações usadas (2015–2025); não foi localizada conduta oficial do partido sobre o tema.",
+     "fonte_p": null
+    },
+    "Z14": {
+     "v": 1,
+     "conf": "media",
+     "base": "DISCURSO: Plano de Renan Santos (Missão): 'Oposição firme a quaisquer propostas de regulação da mídia e da internet que reduzam a margem de liberdade de expressão no Brasil'. Não trata de decisão judicial para remoção.",
+     "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/renan-santos-propostas-de-governo",
+     "p": null,
+     "conf_p": null,
+     "base_p": "PRÁTICA: O Missão foi registrado pelo TSE em 04/11/2025 e não tinha bancada nas votações usadas (2015–2025); não foi localizada conduta oficial do partido sobre o tema.",
+     "fonte_p": null
     }
    },
    "fontes": [

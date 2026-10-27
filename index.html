@@ -1046,6 +1046,7 @@ details.tlFull > summary .h::after { content: " \203A "; color: var(--you); }
 details.tlFull[open] > summary .h::after { content: " \2304 "; }
 details.tlFull > h3:first-of-type { display: none; }
 .compNote { max-width: 62ch; margin: 10px auto 0; text-align: center; } .compNote:empty { display: none; }
+.newQ { margin: 12px auto 0; max-width: 560px; background: var(--you-soft); color: var(--ink); border-radius: 14px; padding: 10px 14px; }
 </style>
 
 <header class="nav">
@@ -1251,7 +1252,7 @@ details.tlFull > h3:first-of-type { display: none; }
 
     <div class="hsec hcards">
       <a class="hcard" href="#promessas" data-go="promessas"><span class="eyebrow">Promessas</span><b>O que foi prometido para 2027&#8211;2030</b><span class="muted small" id="homePromN">Do plano de governo registrado no TSE, com a situa&#231;&#227;o de cada item.</span></a>
-      <a class="hcard" href="#teste" data-go="teste"><span class="eyebrow">Teste</span><b>Onde voc&#234; est&#225; no mapa pol&#237;tico</b><span class="muted small">48 afirma&#231;&#245;es, cerca de 10 minutos.</span></a>
+      <a class="hcard" href="#teste" data-go="teste"><span class="eyebrow">Teste</span><b>Onde voc&#234; est&#225; no mapa pol&#237;tico</b><span class="muted small">52 afirma&#231;&#245;es, cerca de 12 minutos.</span></a>
       <a class="hcard" href="#eleicoes" data-go="eleicoes"><span class="eyebrow">Arquivo</span><b>Elei&#231;&#245;es 2026</b><span class="muted small">Resultado final, mapas e candidatos.</span></a>
     </div>
   </div>
@@ -1503,13 +1504,13 @@ details.tlFull > h3:first-of-type { display: none; }
         <p class="lede">Pesquisas sobre polariza&#231;&#227;o afetiva mostram que, no Brasil, cresceu mais a <b>antipatia por quem est&#225; do outro lado</b> do que a dist&#226;ncia real entre as ideias. Conhecer as pr&#243;prias posi&#231;&#245;es, pauta por pauta, &#233; um bom ant&#237;doto.</p>
       </div>
       <div class="facts3">
-        <div class="reveal"><p class="big" id="nPerg">45</p><p>afirma&#231;&#245;es sobre economia, costumes, seguran&#231;a, meio ambiente e democracia.</p></div>
+        <div class="reveal"><p class="big" id="nPerg">52</p><p>afirma&#231;&#245;es sobre economia, costumes, seguran&#231;a, meio ambiente e democracia.</p></div>
         <div class="reveal"><p class="big">3</p><p>eixos independentes, cada um com base conceitual e autores citados.</p></div>
         <div class="reveal"><p class="big" id="nCandBig">12</p><p>candidatos a presidente e 20 partidos, com o que dizem e o que fazem, e a fonte de cada posi&#231;&#227;o.</p></div>
       </div>
       <div class="center reveal" style="margin-top:56px">
         <button class="pill" type="button" data-go="teste">Fazer o teste</button>
-        <p class="small muted" style="margin-top:14px">Cerca de 10 minutos. Suas respostas ficam s&#243; neste aparelho.</p>
+        <p class="small muted" style="margin-top:14px">Cerca de 12 minutos. Suas respostas ficam s&#243; neste aparelho.</p>
       </div>
     </div>
   </div>
@@ -1597,6 +1598,7 @@ details.tlFull > h3:first-of-type { display: none; }
       <p class="eyebrow" id="resEyebrow">Seu resultado</p>
       <h1 class="display verdict" id="verdict">Seu ponto no mapa</h1>
       <p class="zline" id="zline"></p>
+      <p class="newQ small" id="newQ" hidden></p>
       <p class="lede" id="verdictSub"></p>
       <div class="viewSeg">
         <div class="seg" role="group" aria-label="Eixos do gr&#225;fico">
@@ -2136,7 +2138,11 @@ details.tlFull > h3:first-of-type { display: none; }
       $("subnav").innerHTML = G.sub.map(function (it) { return '<a href="#' + it[0] + '" data-go="' + it[0] + '" aria-current="' + (it[0] === subCur ? "page" : "false") + '">' + it[1] + "</a>"; }).join("");
     }
     if (view === "resultado") renderResult();
-    if (view === "teste") renderQ();
+    if (view === "teste") {
+      // se a pergunta atual j\u00e1 foi respondida, vai para a primeira que falta (ex.: afirma\u00e7\u00f5es novas)
+      if (Q[cur] && answers[Q[cur].id] != null) { for (var qi = 0; qi < Q.length; qi++) if (answers[Q[qi].id] == null) { cur = qi; break; } }
+      renderQ();
+    }
     if (view === "candidatos") renderCandGrid();
     if (view === "partidos") renderParties();
     if (view === "espectro") drawGapChart();
@@ -2231,11 +2237,14 @@ details.tlFull > h3:first-of-type { display: none; }
   // link de resultado: "s" + um caractere por pergunta (0 = sem resposta, 1-5 = resposta, a-e = resposta marcada como importante).
   // Links antigos ("r", 45 perguntas) continuam abrindo.
   var LEGACY_R = ["E01", "E02", "E03", "E04", "E05", "E06", "E07", "E08", "E09", "E10", "E11", "E12", "E13", "E14", "E15", "E16", "E17", "E18", "V01", "V02", "V03", "V04", "V05", "V06", "V07", "V08", "V09", "V10", "V11", "V12", "V13", "V14", "V15", "V16", "V17", "V18", "V19", "Z01", "Z02", "Z03", "Z04", "Z05", "Z06", "Z07", "Z08"];
+  // links compartilhados antes de 27/10/2026 tinham 48 afirma\u00e7\u00f5es nesta ordem
+  var LEGACY_S48 = ["E01", "E02", "E03", "E04", "E05", "E06", "E07", "E08", "E09", "E10", "E11", "E12", "E13", "E14", "E15", "E16", "E17", "E18", "V01", "V02", "V03", "V04", "V05", "V06", "V07", "V08", "V09", "V10", "V11", "V12", "V13", "V14", "V15", "V16", "V17", "V18", "V19", "V20", "Z01", "Z02", "Z03", "Z04", "Z05", "Z06", "Z07", "Z08", "Z09", "Z10"];
   function encode() { return "s" + D.perguntas.map(function (q) { var a = answers[q.id]; return a == null ? "0" : imp[q.id] ? "abcde".charAt(a + 2) : String(a + 3); }).join(""); }
   function decode(code) {
     var o = {}, im = {}, ids;
     if (/^r[0-5]+$/.test(code) && code.length === LEGACY_R.length + 1) ids = LEGACY_R;
     else if (/^s[0-5a-e]+$/.test(code) && code.length === D.perguntas.length + 1) ids = D.perguntas.map(function (q) { return q.id; });
+    else if (/^s[0-5a-e]+$/.test(code) && code.length === LEGACY_S48.length + 1) ids = LEGACY_S48;
     else return null;
     ids.forEach(function (id, i) {
       var ch = code.charAt(i + 1), k = "abcde".indexOf(ch);
@@ -2523,6 +2532,10 @@ details.tlFull > h3:first-of-type { display: none; }
     if (!D) return;
     var n = nAnswered();
     drawCompass(true);
+    // quem respondeu antes das afirma\u00e7\u00f5es novas v\u00ea um convite para completar
+    var faltam = D.perguntas.filter(function (q) { return answers[q.id] == null; });
+    $("newQ").hidden = !(n && faltam.length && faltam.length <= 6);
+    if (!$("newQ").hidden) $("newQ").innerHTML = (faltam.length === 1 ? "Falta 1 afirma\u00e7\u00e3o" : "Faltam " + faltam.length + " afirma\u00e7\u00f5es") + " para o resultado ficar completo" + (faltam.every(function (q) { return /^Z1[1-4]$/.test(q.id); }) ? " (novas, sobre institui\u00e7\u00f5es)" : "") + '. <button type="button" class="lnk" data-go="teste">Responder agora</button>';
     if (!n) {
       $("resEyebrow").textContent = "Seu resultado";
       $("verdict").textContent = "Voc\u00ea ainda n\u00e3o respondeu.";

@@ -336,6 +336,34 @@
    "dir": 1,
    "tema": "Urnas",
    "texto": "As urnas eletrônicas e a Justiça Eleitoral são confiáveis para contar os votos."
+  },
+  {
+   "id": "Z11",
+   "eixo": "z",
+   "dir": -1,
+   "tema": "Decretos",
+   "texto": "Quando o Congresso trava pautas importantes, o presidente deveria poder governar mais por decretos e medidas provisórias."
+  },
+  {
+   "id": "Z12",
+   "eixo": "z",
+   "dir": 1,
+   "tema": "Limite de mandatos",
+   "texto": "Nenhum presidente deveria poder disputar um terceiro mandato seguido, mesmo com grande apoio popular."
+  },
+  {
+   "id": "Z13",
+   "eixo": "z",
+   "dir": 1,
+   "tema": "Corrupção e lei",
+   "texto": "Mesmo no combate à corrupção, investigações e prisões devem seguir estritamente a lei, ainda que alguns culpados acabem escapando."
+  },
+  {
+   "id": "Z14",
+   "eixo": "z",
+   "dir": 1,
+   "tema": "Redes e direito de defesa",
+   "texto": "Perfis e publicações só deveriam ser removidos das redes por decisão judicial, depois de o acusado ter direito de se defender."
   }
  ]
 }

@@ -546,6 +546,46 @@
    "conf_p": "media",
    "base_p": "PRÁTICA: Em jul/2026 reuniu embaixadores em Brasília, pediu observadores estrangeiros e repetiu a ligação falsa entre as urnas e a Smartmatic; o PT o acionou no TSE por isso. No dia da eleição de 2018 havia compartilhado vídeo manipulado de urna que 'autocompletava' o voto em Haddad, desmentido por TSE e TRE-MG, e depois apagou. Não encontrei projeto de voto impresso de autoria dele, nem o voto nominal dele na CCJ (20/08/2025).",
    "fonte_p": "https://www.moneytimes.com.br/flavio-diz-confiar-no-sistema-eleitoral-mas-nao-explica-informacao-falsa-dada-a-embaixadores-gaep/"
+  },
+  "Z11": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição localizada em plano de governo, entrevistas ou discursos sobre o presidente governar por decretos ou medidas provisórias quando o Congresso trava pautas. O plano de 2026 fala genericamente em 'cada Poder dentro de seus limites' e propõe mudanças por PEC (ver Z06 e Z07).",
+   "fonte": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+   "p": 1,
+   "conf_p": "baixa",
+   "base_p": "PRÁTICA: Em 18/06/2019 votou Não ao PDL 233/2019, que sustava o Decreto 9.785/2019 de Jair Bolsonaro sobre armas, editado por decreto e não por lei; o Senado aprovou a sustação por 47 a 28. Em 12/06/2019 votou Sim à PEC 91/2019, que alterou o rito das medidas provisórias, aprovada sem votos contrários (57 a 0).",
+   "fonte_p": "https://legis.senado.leg.br/dadosabertos/votacao?codigoParlamentar=5894&dataInicio=2019-06-18&dataFim=2019-06-18"
+  },
+  "Z12": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: O plano de governo de 2026 propõe 'o fim da reeleição para o cargo de Presidente da República' e cita PEC de autoria dele já protocolada no Senado. A proposta vai além da frase: veda também o segundo mandato consecutivo.",
+   "fonte": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+   "p": 2,
+   "conf_p": "alta",
+   "base_p": "PRÁTICA: É o primeiro autor da PEC 4/2026, apresentada em 02/03/2026, que torna o Presidente da República inelegível para o período subsequente; a matéria segue em tramitação.",
+   "fonte_p": "https://legis.senado.leg.br/dadosabertos/processo?sigla=PEC&numero=4&ano=2026"
+  },
+  "Z13": {
+   "v": 0,
+   "conf": "media",
+   "base": "DISCURSO: Em 01/08/2025 disse que o processo de Moraes contra Jair Bolsonaro é 'viciado e integralmente maculado', sem devido processo, e escreveu: 'Por muito menos, mas muuuuuuito menos, Lula foi descondenado, mas contra Bolsonaro vale tudo!'. O plano de 2026 elogia a Lava Jato. Pontuado como neutro: cobra garantias processuais para aliados e critica a anulação, por razões processuais, das condenações de Lula.",
+   "fonte": "https://www.infomoney.com.br/?p=2969227",
+   "p": 1,
+   "conf_p": "media",
+   "base_p": "PRÁTICA: Em 24/09/2019 votou pela derrubada de cinco vetos de Jair Bolsonaro à Lei de Abuso de Autoridade, contra a orientação do PSL, incluindo o trecho que pune agente que negue acesso à investigação preliminar. Em 26/06/2019 votou Sim no PLC 27/2017 (pacote anticorrupção com crimes de abuso de autoridade de juízes e membros do MP), aprovado por 48 a 24.",
+   "fonte_p": "https://jovempan.com.br/?p=161743"
+  },
+  "Z14": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: O plano de 2026 propõe o 'Tesouraço na Censura', para extinguir estruturas estatais que 'vigiem, rotulem ou punam' o que as pessoas dizem, e afirma: 'Crime se combate na Justiça, com regras claras e direito de defesa. O que o governo não pode fazer é transformar a crítica em delito.'",
+   "fonte": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+   "p": 1,
+   "conf_p": "media",
+   "base_p": "PRÁTICA: Em 30/06/2020 votou Não ao substitutivo do PL 2.630/2020 (Fake News) no Senado e Não ao art. 10 (rastreabilidade de mensagens). Quando quis tirar conteúdo do ar, recorreu à Justiça: em 04/09/2020 obteve liminar que proibiu a TV Globo de exibir documentos da investigação contra ele (ver Z04).",
+   "fonte_p": "https://www25.senado.leg.br/web/atividade/materias/-/materia/141944"
   }
  },
  "checagens": [

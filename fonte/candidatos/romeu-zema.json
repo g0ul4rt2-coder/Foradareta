@@ -518,25 +518,74 @@
    "fonte_p": null
   },
   "V20": {
-   "v": null,
-   "p": null,
+   "v": 1,
    "conf": "baixa",
-   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-   "fonte": null
+   "base": "DISCURSO: O plano de 2026 propõe 'uma política de vistos e imigração de um país aberto ao mundo', com 'caminhos legais à imigração de talentos e profissionais qualificados', 'reafirmando a tradição brasileira de ser um país aberto ao mundo'. Não trata de refugiados, da Operação Acolhida nem de vistos humanitários, e não localizei fala dele sobre venezuelanos, haitianos ou afegãos.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema",
+   "p": 1,
+   "conf_p": "baixa",
+   "base_p": "PRÁTICA: Em dez/2021 a Sedese concluiu a primeira etapa do I Plano Estadual de Políticas para Refugiados, Migrantes, Apátridas e Retornados de Minas, com apoio do ACNUR e da OIM. O comitê estadual do tema (Comitrate) ficou inativo de 2018 a 2024, quando o governo iniciou sua recomposição.",
+   "fonte_p": "https://www.agenciaminas.mg.gov.br/noticia/plano-estadual-para-refugiados-tem-primeira-etapa-de-trabalho-concluida"
   },
   "Z09": {
-   "v": null,
-   "p": null,
-   "conf": "baixa",
-   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-   "fonte": null
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Em 10/06/2026 disse que 'o STF é o maior aliado de bandidos e invasores de terras', que 'Comigo, o MST acaba' e que 'Aqui em Minas, no meu governo, não tivemos uma invasão sequer'. O plano promete 'proteção efetiva do Estado contra invasões'. Em 01/11/2022, sobre os bloqueios de rodovias: 'A eleição já acabou, temos que assegurar o direito de todos de ir e vir.'",
+   "fonte": "https://www.poder360.com.br/poder-justica/stf-e-o-maior-aliado-de-bandidos-e-invasores-de-terra-diz-zema/",
+   "p": -2,
+   "conf_p": "media",
+   "base_p": "PRÁTICA: Em 01/11/2022 determinou às forças de segurança de Minas que desobstruíssem 'qualquer via ou estrada interditada por manifestações'. Em mar/2024 o MST deixou, após acordo e com escolta da PM, a fazenda ocupada em Lagoa Santa; Zema comemorou e se disse 'defensor da propriedade privada' (Itatiaia, 20/03/2024).",
+   "fonte_p": "https://www.opovo.com.br/eleicoes-2022/2022/11/01/governadores-ordenam-desobstrucao-de-rodovias-bloqueadas.html"
   },
   "Z10": {
-   "v": null,
-   "p": null,
+   "v": 1,
+   "conf": "alta",
+   "base": "DISCURSO: Em 22/07/2026 disse: 'Fui eleito e reeleito pela urna eletrônica e considero o sistema confiável', mas defendeu imprimir o voto em uma amostra de urnas 'para confirmar o digital com o físico'. Pontuado como concordância parcial: confia no sistema, mas pede complemento impresso.",
+   "fonte": "https://www.itatiaia.com.br/politica/zema-diz-que-confia-nas-urnas-mas-defende-comprovante-escrito/",
+   "p": 1,
+   "conf_p": "baixa",
+   "base_p": "PRÁTICA: Não localizei ato dele sobre o sistema de votação. Na noite do 2º turno de 2022 (30/10) reconheceu o resultado: 'Com o resultado da eleição nacional, desejo sucesso ao presidente eleito', e não o contestou.",
+   "fonte_p": "https://diariodocomercio.com.br/economia/zema-deseja-sucesso-a-presidente-eleito-mas-cobra-minas-entre-prioridades/"
+  },
+  "Z11": {
+   "v": -1,
    "conf": "baixa",
-   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-   "fonte": null
+   "base": "DISCURSO: Em 29/05/2025 pediu à Câmara que suspendesse o decreto do governo Lula que elevou o IOF: 'Alguém precisa frear essas barbeiragens' e 'Para ontem'. O plano de 2026 não propõe governar por decretos ou MPs e trata as reformas por emenda constitucional e lei. Não localizei fala geral dele sobre o tema.",
+   "fonte": "https://www.gazetadopovo.com.br/republica/zema-critica-haddad-por-barbeiragens-no-iof-e-pede-acao-do-congresso/",
+   "p": 1,
+   "conf_p": "media",
+   "base_p": "PRÁTICA: Como governador, instituiu o teto de gastos de Minas por decreto (Decreto 48.886, 28/08/2024) sem que a ALMG votasse o projeto de lei complementar sobre o tema; a oposição tentou anular o decreto. Em 2022, sem aval da ALMG para o RRF, obteve no STF autorização para aderir (ver Z07).",
+   "fonte_p": "https://ofator.com.br/informacao/oposicao-a-zema-na-almg-quer-anular-decreto-de-teto-de-gastos/"
+  },
+  "Z12": {
+   "v": 2,
+   "conf": "media",
+   "base": "DISCURSO: Em 20/04/2026 defendeu eleições 'a cada cinco anos ou a cada seis anos, e sem reeleição', porque o governante 'acaba tentando aprovar medida para se reeleger'. Em 04/08/2026 (sabatina O Antagonista/G4): 'Não tenho plano de reeleição' e 'Não me importo em ser presidente de um mandato'. A posição vai além da frase: rejeita também o segundo mandato.",
+   "fonte": "https://jovempannewscampinas.com.br/noticias/politica/romeu-zema-defende-fim-da-reeleicao-e-sugere-mandatos-mais-longos-para-cargos-executivos.html",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "PRÁTICA: Sem ato localizado sobre terceiro mandato. Disputou e venceu a reeleição para governador em 2022, como a Constituição permite; não exerceu mandato legislativo.",
+   "fonte_p": null
+  },
+  "Z13": {
+   "v": 0,
+   "conf": "baixa",
+   "base": "DISCURSO: O plano de 2026 promete 'garantir que a Justiça investigue e prenda os políticos corruptos', limitar o foro privilegiado, endurecer penas e tornar automática a investigação de enriquecimento incompatível, sem tratar de garantias processuais. Em ago/2026, sobre o 8 de janeiro, disse que 'planejar não é crime'. Pontuado como neutro: não localizei fala sobre a troca entre legalidade estrita e punição na frase.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "PRÁTICA: Sem ato localizado. Como governador não editou norma sobre investigações e não exerceu mandato legislativo.",
+   "fonte_p": null
+  },
+  "Z14": {
+   "v": 2,
+   "conf": "media",
+   "base": "DISCURSO: O plano de 2026 propõe 'vedar a exclusão de perfis e a moderação de opiniões pelas plataformas, inclusive por determinação judicial', substituindo-as por procedimentos administrativos e judiciais com direito a retratação e indenização, e tipificar como abuso de autoridade a 'remoção arbitrária de conteúdo'. Vai além da frase: rejeita a remoção até por decisão judicial.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "PRÁTICA: Não localizei ato do governo Zema (lei, decreto ou veto) sobre remoção de conteúdo; ele não exerceu mandato legislativo.",
+   "fonte_p": null
   }
  },
  "checagens": [

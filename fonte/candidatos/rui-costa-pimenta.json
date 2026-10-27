@@ -499,24 +499,73 @@
   },
   "V20": {
    "v": null,
+   "conf": null,
+   "base": "DISCURSO: Sem posição localizada sobre acolhimento de refugiados e imigrantes. O programa de 2026 só propõe 'validação imediata de todos os diplomas de médicos brasileiros e estrangeiros residentes no País'.",
+   "fonte": null,
    "p": null,
-   "conf": "baixa",
-   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-   "fonte": null
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
   },
   "Z09": {
-   "v": null,
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Programa registrado em 2026: 'Ocupar o latifúndio para garantir terra para quem nela more e trabalhe', 'barrar com greves e ocupações as privatizações dos Correios' e 'Proibição de despejos e desocupações'.",
+   "fonte": "https://planodegoverno2026.com.br/planos/rui-costa-pimenta-05642e1c.pdf",
    "p": null,
-   "conf": "baixa",
-   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-   "fonte": null
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
   },
   "Z10": {
-   "v": null,
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Em entrevista publicada em 03/09/2026 disse sobre as urnas eletrônicas: 'Nunca fui a favor', 'tudo isso é facilmente penetrável' e, sobre o sistema eleitoral, 'Não confio'; defendeu 'o voto tradicional, em urna'.",
+   "fonte": "https://www.metropoles.com/colunas/grande-angular/comunista-candidato-a-presidencia-diz-nao-confiar-nas-urnas-inauditavel",
    "p": null,
-   "conf": "baixa",
-   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-   "fonte": null
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z11": {
+   "v": null,
+   "conf": null,
+   "base": "DISCURSO: Sem posição localizada sobre decretos e medidas provisórias; o programa de 2026 propõe 'governo das organizações operárias e camponesas', sem tratar de decretos.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z12": {
+   "v": null,
+   "conf": null,
+   "base": "DISCURSO: Sem posição localizada sobre terceiro mandato ou reeleição em plano, entrevistas ou textos do PCO.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z13": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Em entrevista ao Poder360 (21/08/2026) chamou de 'irregulares' o processo do Mensalão, a Lava Jato contra Lula e o processo contra Bolsonaro, e disse que 'os direitos das pessoas têm que ser respeitados' independentemente de quem seja o investigado.",
+   "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/ha-um-abuso-flagrante-na-atuacao-do-stf-diz-rui-costa-pimenta/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z14": {
+   "v": 1,
+   "conf": "media",
+   "base": "DISCURSO: Em 10/07/2022 chamou de arbitrário o bloqueio das contas do PCO por decisão do STF 'sem julgamento' e disse que opiniões devem ser julgadas pela 'opinião pública, não a polícia, não o judiciário'; o programa de 2026 pede 'fim de todo tipo de censura'. Concorda com a exigência de processo, mas rejeita também a remoção judicial de opiniões.",
+   "fonte": "https://www.oliberal.com/politica/presidente-do-pco-defende-democracia-e-liberdade-irrestritas-1.559754",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
   }
  },
  "checagens": [],

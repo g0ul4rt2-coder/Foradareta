@@ -498,25 +498,74 @@
    "fonte_p": null
   },
   "V20": {
-   "v": null,
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Programa registrado em 2026 tem seção 'Imigrantes': 'Basta de xenofobia e superexploração!', 'Direito imediato à nacionalidade: legalização dos papéis de haitianos, bolivianos, venezuelanos, cubanos, angolanos e todos os africanos'.",
+   "fonte": "https://planodegoverno2026.com.br/planos/hertz-dias-762b5f88.pdf",
    "p": null,
-   "conf": "baixa",
-   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-   "fonte": null
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
   },
   "Z09": {
-   "v": null,
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Programa registrado em 2026: 'Enquanto morar for um privilégio, ocupar é um direito!' e diz que a organização popular se prepara 'nas greves, ocupações, piquetes'; afirma que 'a mobilização direta deve ser prioritária em relação à ação institucional'.",
+   "fonte": "https://planodegoverno2026.com.br/planos/hertz-dias-762b5f88.pdf",
    "p": null,
-   "conf": "baixa",
-   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-   "fonte": null
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
   },
   "Z10": {
-   "v": null,
-   "p": null,
+   "v": 1,
    "conf": "baixa",
-   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
-   "fonte": null
+   "base": "DISCURSO: Texto do PSTU de 21/07/2022 diz que Bolsonaro, 'com o papo de urnas eletrônicas inseguras, tenta transformar sua provável derrota em vitória' e que é ele 'quem está atacando as eleições'. O texto não afirma diretamente a confiabilidade das urnas. Hertz Dias é dirigente nacional do PSTU (O Imparcial, 01/07/2026); texto partidário usado como discurso.",
+   "fonte": "https://www.pstu.org.br/bolsonaro-golpista-imita-trump-e-ameaca-as-eleicoes/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z11": {
+   "v": null,
+   "conf": null,
+   "base": "DISCURSO: Sem posição localizada sobre decretos e medidas provisórias. O programa de 2026 diz que um governo dos trabalhadores deve apoiar-se 'na mobilização direta' e não 'no Congresso inimigo do povo', sem tratar de decretos.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z12": {
+   "v": null,
+   "conf": null,
+   "base": "DISCURSO: Sem posição localizada sobre terceiro mandato ou reeleição em plano, entrevistas ou textos do PSTU.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z13": {
+   "v": 0,
+   "conf": "media",
+   "base": "DISCURSO: Texto de Mariucha Fontana no site do PSTU (17/09/2019) diz que o julgamento de Lula 'não foi imparcial' e lhe dá 'direito a outro julgamento', mas reafirma ser 'a favor da prisão de TODOS os corruptos e corruptores'. O programa de 2026 propõe 'investigação e punição de corruptos e corruptores, com confisco dos bens'. Posição mista. Hertz Dias é dirigente nacional do PSTU (O Imparcial, 01/07/2026); texto partidário usado como discurso.",
+   "fonte": "https://www.pstu.org.br/vaza-jato-lava-jato-e-a-injustica-burguesa/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z14": {
+   "v": 1,
+   "conf": "media",
+   "base": "DISCURSO: O PSTU chamou de 'censura' o bloqueio das redes do PCO por Alexandre de Moraes no inquérito das fake news (03/06/2022) e, em 10/05/2023, criticou o PL 2630 por dar às Big Techs o papel de moderar conteúdo: 'ficaríamos todos reféns da possibilidade de exclusão ou banimento'. Defende investigar e punir quem produz fake news. Hertz Dias é dirigente nacional do PSTU (O Imparcial, 01/07/2026); texto partidário usado como discurso.",
+   "fonte": "https://www.pstu.org.br/nao-a-censura-do-stf-contra-o-pco/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
   }
  },
  "checagens": [],
