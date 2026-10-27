@@ -1,0 +1,798 @@
+[
+  {
+    "id": "pobres-direita",
+    "pergunta": "Por que muitos pobres votam na direita?",
+    "resumo": "Lula vence entre os mais pobres, mas cerca de 4 em cada 10 eleitores com renda familiar de até 2 salários mínimos escolheram Flávio Bolsonaro na última pesquisa Datafolha antes do 2º turno de 2026. Na faixa logo acima, de 2 a 5 salários, Flávio lidera. As pesquisas mostram que essas pessoas têm razões concretas: segurança, valores de família e fé, desejo de subir na vida pelo próprio esforço, desconfiança do Estado e da corrupção.",
+    "explicacao": [
+      "Primeiro, um fato que muita gente esquece: os mais pobres nem sempre votaram no PT. Em 1989, segundo Gethin e Morgan, eles tendiam mais a candidatos conservadores. André Singer mostra que só em 2006 houve uma virada forte dos mais pobres para Lula. Antes disso, segundo Singer, a esquerda representava 'desordem' para boa parte desse eleitorado.",
+      "\"Pobre\" também não é um grupo só. Quem ganha até 1 salário mínimo aprova mais Lula do que quem ganha de 2 a 5 salários. Trabalhadores com carteira assinada aprovam menos do que os informais. Na pesquisa da Fundação Perseu Abramo citada abaixo, quem está subindo na vida diz precisar de estabilidade e rejeita riscos de ruptura e de 'caos'.",
+      "Numa pesquisa qualitativa feita em 2016–2017 nas periferias de São Paulo pela Fundação Perseu Abramo (ligada ao próprio PT), com ex-eleitores do partido, os entrevistados valorizavam o esforço pessoal, o mérito e o sonho de abrir o próprio negócio. Para muitos, o grande conflito não era entre ricos e pobres, mas entre o cidadão e um Estado que cobra impostos e devolve serviços ruins.",
+      "Isso não quer dizer rejeição a programas sociais. Os mesmos entrevistados valorizavam Bolsa Família, Prouni e Fies, mas pediam mais fiscalização para que o benefício chegue a quem precisa. Também rejeitavam políticas que parecem 'duvidar' da capacidade individual.",
+      "Fé e família pesam. Na pesquisa da Perseu Abramo, religião e família aparecem como o centro da vida, uma rede de apoio e um guia moral. Esther Solano, que entrevistou ex-eleitores de Lula que migraram para Bolsonaro em 2018, ouviu pedidos de ordem, de alguém que resolva a segurança e de um político visto como honesto e fora do sistema.",
+      "Segurança virou a principal preocupação do país: em pesquisas Quaest de 2025 e 2026, a violência aparece em primeiro lugar. Mas a preocupação não é exclusiva de um lado: numa pesquisa BTG/Nexus de março de 2026, eleitores de Lula citaram segurança até mais do que os de Flávio. Já a corrupção foi citada por 37% dos eleitores de Flávio e 18% dos de Lula.",
+      "Em resumo: muitos eleitores pobres de direita não estão 'contra os próprios interesses'. Eles dão peso maior a interesses que também são deles, como segurança, valores, autonomia e combate à corrupção, do que à promessa de mais Estado."
+    ],
+    "dados": [
+      {
+        "texto": "Datafolha divulgado em 22/10/2026 (votos válidos, 2º turno): entre quem tem renda familiar de até 2 salários mínimos, Lula 58% x Flávio 42%. De 2 a 5 salários: Flávio 58% x Lula 42%. Ensino fundamental: Lula 57% x Flávio 43%. Ensino médio: Flávio 53% x Lula 47%.",
+        "fonte": "https://www.cnnbrasil.com.br/eleicoes/datafolha-veja-como-flavio-e-lula-pontuam-por-renda-genero-e-religiao/"
+      },
+      {
+        "texto": "Datafolha de 13–14/10/2022 (2º turno, votos totais): até 2 salários mínimos, Lula 58% x Bolsonaro 36%. De 2 a 5 salários, Bolsonaro 53% x Lula 41%.",
+        "fonte": "https://static.poder360.com.br/2022/10/Datafolha-2o-turno.pdf"
+      },
+      {
+        "texto": "BTG/Nexus, março de 2026: aprovavam o trabalho de Lula 61% de quem ganha até 1 salário mínimo, 50% de quem ganha de 1 a 2, 37% de quem ganha de 2 a 5. Entre trabalhadores formais, 36%; entre informais, 47%.",
+        "fonte": "https://static.poder360.com.br/2026/03/BTG-Nexus-presidente-mar2026.pdf"
+      },
+      {
+        "texto": "BTG/Nexus, março de 2026 (até duas respostas): corrupção foi citada como principal problema por 37% dos eleitores de Flávio e 18% dos de Lula; segurança, por 28% dos eleitores de Lula e 20% dos de Flávio; impostos, por 10% dos de Flávio e 3% dos de Lula.",
+        "fonte": "https://static.poder360.com.br/2026/03/BTG-Nexus-presidente-mar2026.pdf"
+      },
+      {
+        "texto": "Quaest (29/05 a 01/06/2025, 2.004 entrevistas): 30% apontaram a violência como maior problema do país, em primeiro lugar. Em agosto de 2023, eram 10%.",
+        "fonte": "https://www.gazetadopovo.com.br/brasil/violencia-maior-preocupacao-brasil-antecipa-debate-eleitoral/"
+      },
+      {
+        "texto": "Gethin e Morgan (2021), com pesquisas Datafolha de 1989 a 2018: em 1989, o apoio ao PT era maior no décimo mais rico; a inversão ocorreu em 2006. Entre 2002 e 2014, a renda dos 50% mais pobres cresceu quase o dobro da média, e o crescimento foi menor entre os percentis 70 e 99, uma 'classe média espremida'.",
+        "fonte": "https://wid.world/document/democracy-and-the-politicization-of-inequality-in-brazil"
+      }
+    ],
+    "vozes": [
+      {
+        "quem": "Homem, 30 anos, branco, faixa de renda de 2 a 5 salários mínimos, periferia de São Paulo (Fundação Perseu Abramo, 2017)",
+        "texto": "\"Você tem que ter fé e tem que fazer um esforço para alcançar. [...] Se você não tem o esforço e não se ajuda, Deus não vai te ajudar, não vai cair do céu.\""
+      },
+      {
+        "quem": "Mulher, 46 anos, branca, faixa de renda de 2 a 5 salários mínimos, periferia de São Paulo (Fundação Perseu Abramo, 2017)",
+        "texto": "\"Eu queria um negócio de vender batata frita, a casa da batata frita... Eu gostaria de começar por aí, não trabalhar pros outros, mas pra mim mesma!\""
+      },
+      {
+        "quem": "Mulher, 30 anos, branca, faixa de renda de 2 a 5 salários mínimos, periferia de São Paulo, falando da política (Fundação Perseu Abramo, 2017)",
+        "texto": "\"Tem que jogar tudo no lixo e fazer tudo de novo, porque está tudo contaminado, tudo estragado!\""
+      }
+    ],
+    "mitos": [
+      {
+        "mito": "Pobre que vota na direita foi enganado ou não sabe o que faz.",
+        "fato": "As pesquisas qualitativas mostram razões claras e coerentes: segurança, fé, família, mérito, desconfiança do Estado e da corrupção. Elas também mostram que essas pessoas valorizam programas sociais. O peso que cada um dá a essas questões é uma escolha legítima."
+      },
+      {
+        "mito": "Os pobres sempre votaram na esquerda.",
+        "fato": "Em 1989 os mais pobres tendiam mais a candidatos conservadores, e de 1994 a 2002 a renda quase não separava o voto. A grande virada dos mais pobres para o PT só veio em 2006 (Gethin e Morgan; Singer)."
+      },
+      {
+        "mito": "Só eleitor de direita se preocupa com segurança.",
+        "fato": "A violência é a maior preocupação do país nas pesquisas Quaest. Numa pesquisa BTG/Nexus de 2026, eleitores de Lula citaram segurança como problema com mais frequência (28%) do que os de Flávio (20%)."
+      }
+    ],
+    "para_aproximar": "Em vez de perguntar \"como você vota contra você mesmo?\", pergunte o que pesa mais na vida da pessoa: segurança, emprego, fé, o negócio próprio. Quase sempre há um ponto em comum, como o desejo de um Estado que funcione e de um bairro mais seguro.",
+    "fontes": [
+      {
+        "titulo": "Os sentidos do lulismo: reforma gradual e pacto conservador",
+        "autor": "André Singer",
+        "ano": "2012",
+        "url": "https://www.companhiadasletras.com.br/9788535921588-os-sentidos-do-lulismo-4981/p"
+      },
+      {
+        "titulo": "Democracy and the Politicization of Inequality in Brazil, 1989-2018 (World Inequality Lab, Working Paper 2021/07)",
+        "autor": "Amory Gethin e Marc Morgan",
+        "ano": "2021",
+        "url": "https://wid.world/document/democracy-and-the-politicization-of-inequality-in-brazil"
+      },
+      {
+        "titulo": "Percepções e valores políticos nas periferias de São Paulo (pesquisa qualitativa)",
+        "autor": "Fundação Perseu Abramo",
+        "ano": "2017",
+        "url": "https://fpabramo.org.br/wp-content/uploads/2017/05/16-Pesquisa-Periferia-FPA-040420172.pdf"
+      },
+      {
+        "titulo": "Por que há ex-eleitores de Lula que votam em Bolsonaro? Entrevista com Esther Solano (original: DW Brasil)",
+        "autor": "Esther Solano, entrevistada por Bruno Lupion (IHU/DW)",
+        "ano": "2018",
+        "url": "https://ihu.unisinos.br/categorias/583372-por-que-ha-ex-eleitores-de-lula-que-votam-em-bolsonaro-entrevista-com-esther-solano"
+      },
+      {
+        "titulo": "Datafolha: veja como Flávio e Lula pontuam por renda, gênero e religião (pesquisa divulgada em 22/10/2026, registro BR-09709/2026)",
+        "autor": "CNN Brasil / Datafolha",
+        "ano": "2026",
+        "url": "https://www.cnnbrasil.com.br/eleicoes/datafolha-veja-como-flavio-e-lula-pontuam-por-renda-genero-e-religiao/"
+      },
+      {
+        "titulo": "Eleições 2022 – 2º turno – 14/10/2022 (relatório Datafolha, registro BR-01682/2022)",
+        "autor": "Datafolha (Folha de S.Paulo e TV Globo)",
+        "ano": "2022",
+        "url": "https://static.poder360.com.br/2022/10/Datafolha-2o-turno.pdf"
+      },
+      {
+        "titulo": "Pesquisa de opinião – Eleições 2026 – Presidente, 1ª rodada (campo 27 a 29/03/2026, registro BR-07875/2026)",
+        "autor": "BTG Pactual / Nexus",
+        "ano": "2026",
+        "url": "https://static.poder360.com.br/2026/03/BTG-Nexus-presidente-mar2026.pdf"
+      },
+      {
+        "titulo": "Violência é a maior preocupação do brasileiro e antecipa debate eleitoral de 2026 (pesquisa Quaest)",
+        "autor": "Aiuri Rebello (Gazeta do Povo)",
+        "ano": "2025",
+        "url": "https://www.gazetadopovo.com.br/brasil/violencia-maior-preocupacao-brasil-antecipa-debate-eleitoral/"
+      }
+    ]
+  },
+  {
+    "id": "ricos-esquerda",
+    "pergunta": "Por que muitas pessoas de alta renda e escolaridade votam na esquerda?",
+    "resumo": "A maioria dos eleitores de renda mais alta escolhe a direita, mas uma parte grande, cerca de 4 em cada 10, vota em Lula, segundo o Datafolha de outubro de 2026. Os estudos apontam três razões principais: a origem do PT na classe média escolarizada, o peso de valores ligados a direitos e à vida laica, e o voto para barrar o adversário, mais comum entre quem tem diploma.",
+    "explicacao": [
+      "No Brasil de hoje, renda e diploma puxam o voto para a direita, ao contrário do que ocorre em boa parte da Europa e dos EUA, onde os mais escolarizados tendem à esquerda. Mesmo assim, a minoria de esquerda nesses grupos é grande: no Datafolha de 22/10/2026, Lula tinha 46% dos votos válidos entre quem tem ensino superior e 42% entre quem ganha mais de 5 salários mínimos.",
+      "Parte disso é história. Segundo Gethin e Morgan, o PT nasceu como partido de eleitores jovens, urbanos, escolarizados e de renda mais alta, além de sindicalistas e intelectuais de São Paulo. Em 1989, cerca de 62% dos eleitores com curso superior votaram em Lula, e em 1994 e 1998 o PT ainda era mais apoiado pelos mais escolarizados.",
+      "Outra parte vem de valores e de religião. Em 2022, a vantagem de Lula entre eleitores sem religião foi grande o bastante para compensar a desvantagem entre os religiosos, segundo cálculo do demógrafo José Eustáquio Diniz Alves. Na pesquisa BTG/Nexus de março de 2026, as pessoas sem religião eram as que mais concordavam com a frase \"sou anti-Bolsonaro\", e quem tem ensino superior concordou mais com ela do que quem tem ensino médio. Gethin e Morgan lembram que, na Europa e nos EUA, os diplomados passaram a apoiar cada vez mais partidos social-democratas, socialistas e verdes desde os anos 1970.",
+      "Há também o voto 'contra'. No Datafolha de outubro de 2022, 22% dos eleitores com curso superior disseram que o objetivo principal do voto era derrotar o adversário do seu candidato. Entre quem tinha só o ensino fundamental, eram 11%. Entre os eleitores de Lula como um todo, 20% votavam principalmente para derrotar Bolsonaro.",
+      "Uma ressalva: não encontramos uma pesquisa qualitativa publicada, com falas, feita só com eleitores de alta renda de esquerda. Por isso, as razões acima vêm de dados de pesquisa quantitativa e de estudos históricos, não de entrevistas em profundidade.",
+      "O movimento inverso também existe. André Singer registra que, depois do caso do mensalão, a classe média tradicional se afastou de Lula em 2006. Ou seja, alta renda e esquerda já andaram mais juntas no passado e se separaram com o tempo."
+    ],
+    "dados": [
+      {
+        "texto": "Datafolha divulgado em 22/10/2026 (votos válidos): ensino superior, Flávio 54% x Lula 46%; renda acima de 5 salários mínimos, Flávio 58% x Lula 42%.",
+        "fonte": "https://www.cnnbrasil.com.br/eleicoes/datafolha-veja-como-flavio-e-lula-pontuam-por-renda-genero-e-religiao/"
+      },
+      {
+        "texto": "Datafolha de 13–14/10/2022: entre quem tinha renda familiar de 5 a 10 salários mínimos, Bolsonaro 52% x Lula 40% (votos totais).",
+        "fonte": "https://static.poder360.com.br/2022/10/Datafolha-2o-turno.pdf"
+      },
+      {
+        "texto": "Datafolha de 13–14/10/2022: votavam principalmente para derrotar o adversário de seu candidato 11% dos eleitores com ensino fundamental, 17% com ensino médio e 22% com ensino superior. Entre eleitores de Lula, 20%; entre os de Bolsonaro, 13%.",
+        "fonte": "https://static.poder360.com.br/2022/10/Datafolha-2o-turno.pdf"
+      },
+      {
+        "texto": "BTG/Nexus, março de 2026 (escala de 0 a 10): concordância média com \"sou anti-Bolsonaro\" de 5,6 entre quem tem ensino superior, 4,4 no ensino médio e 6,2 entre pessoas sem religião.",
+        "fonte": "https://static.poder360.com.br/2026/03/BTG-Nexus-presidente-mar2026.pdf"
+      },
+      {
+        "texto": "Gethin e Morgan (2021): em 1989, cerca de 62% dos eleitores com ensino superior votaram em Lula, contra 42% dos analfabetos ou com só o primário; em 2018, mais de 63% dos eleitores com ensino superior votaram em Bolsonaro.",
+        "fonte": "https://wid.world/document/democracy-and-the-politicization-of-inequality-in-brazil"
+      }
+    ],
+    "mitos": [
+      {
+        "mito": "Rico de esquerda é hipócrita.",
+        "fato": "As pesquisas mostram que o voto não segue só o bolso. Valores (religião, direitos, instituições), trajetória familiar e rejeição ao adversário pesam. O mesmo vale para o eleitor pobre de direita."
+      },
+      {
+        "mito": "Quem tem diploma vota na esquerda.",
+        "fato": "No Brasil, a maioria dos eleitores com ensino superior votou em Bolsonaro em 2018 e em Flávio no Datafolha de outubro de 2026 (54%). Gethin e Morgan mostram que isso é o oposto do padrão de vários países ricos."
+      },
+      {
+        "mito": "O PT sempre foi partido dos pobres.",
+        "fato": "Até o início dos anos 2000, o PT era mais forte entre eleitores escolarizados e urbanos do Sul e do Sudeste. A mudança para uma base mais pobre e nordestina veio com o governo Lula (Gethin e Morgan)."
+      }
+    ],
+    "para_aproximar": "Pergunte quais valores ou medos pesam mais no voto da pessoa, em vez de supor que ela vota contra o próprio bolso. Muita gente de esquerda e de direita concorda que renda não é a única coisa que importa na hora de votar.",
+    "fontes": [
+      {
+        "titulo": "Democracy and the Politicization of Inequality in Brazil, 1989-2018 (World Inequality Lab, Working Paper 2021/07)",
+        "autor": "Amory Gethin e Marc Morgan",
+        "ano": "2021",
+        "url": "https://wid.world/document/democracy-and-the-politicization-of-inequality-in-brazil"
+      },
+      {
+        "titulo": "Datafolha: veja como Flávio e Lula pontuam por renda, gênero e religião (pesquisa divulgada em 22/10/2026, registro BR-09709/2026)",
+        "autor": "CNN Brasil / Datafolha",
+        "ano": "2026",
+        "url": "https://www.cnnbrasil.com.br/eleicoes/datafolha-veja-como-flavio-e-lula-pontuam-por-renda-genero-e-religiao/"
+      },
+      {
+        "titulo": "Eleições 2022 – 2º turno – 14/10/2022 (relatório Datafolha, registro BR-01682/2022)",
+        "autor": "Datafolha (Folha de S.Paulo e TV Globo)",
+        "ano": "2022",
+        "url": "https://static.poder360.com.br/2022/10/Datafolha-2o-turno.pdf"
+      },
+      {
+        "titulo": "Pesquisa de opinião – Eleições 2026 – Presidente, 1ª rodada (campo 27 a 29/03/2026, registro BR-07875/2026)",
+        "autor": "BTG Pactual / Nexus",
+        "ano": "2026",
+        "url": "https://static.poder360.com.br/2026/03/BTG-Nexus-presidente-mar2026.pdf"
+      },
+      {
+        "titulo": "Os sentidos do lulismo: reforma gradual e pacto conservador",
+        "autor": "André Singer",
+        "ano": "2012",
+        "url": "https://www.companhiadasletras.com.br/9788535921588-os-sentidos-do-lulismo-4981/p"
+      },
+      {
+        "titulo": "O eleitorado sem religião foi o fiel da balança da vitória de Lula",
+        "autor": "José Eustáquio Diniz Alves (IHU)",
+        "ano": "2022",
+        "url": "https://www.ihu.unisinos.br/623503-o-eleitorado-sem-religiao-foi-o-fiel-da-balanca-da-vitoria-de-lula-artigo-de-jose-eustaquio-diniz-alves"
+      }
+    ]
+  },
+  {
+    "id": "raca-voto",
+    "pergunta": "Por que muitos negros votam na direita e muitos na esquerda?",
+    "resumo": "Eleitores pretos votam mais em Lula, mas os pardos estão divididos quase ao meio, e milhões de negros votam na direita. Os estudos mostram que raça pesa no voto, mas pesa menos do que no exterior. Renda, região e principalmente religião puxam o voto negro para lados diferentes.",
+    "explicacao": [
+      "\"Negros\" no IBGE são pretos e pardos, mais da metade da população. No Datafolha de 22/10/2026, Lula tinha 61% dos votos válidos entre pretos. Entre pardos, o placar era 51% para Flávio e 49% para Lula, um empate técnico. Ou seja, não existe um 'voto negro' único.",
+      "Raça tem efeito próprio, mas moderado. Gethin e Morgan calcularam que, em 2018, a diferença de voto no PT entre não brancos e brancos era de 17 pontos. Quando se compara gente com a mesma renda, escolaridade, idade e região, a diferença cai para cerca de 10 pontos. Nos EUA ou na França, as diferenças entre grupos étnicos são bem maiores.",
+      "Uma razão é histórica: no Brasil, a política se organizou mais por região e por classe do que por raça. Outra é que pretos e pardos estão em pressões cruzadas. São mais pobres em média, o que aproxima de Lula. E são mais evangélicos em média, o que aproxima da direita. No Datafolha de 2022, 31% dos pardos e 30% dos pretos eram evangélicos, contra 22% dos brancos.",
+      "Para muitos eleitores negros, a igreja é rede de apoio, lugar de convivência e guia moral. Na pesquisa da Fundação Perseu Abramo nas periferias de São Paulo, entrevistados negros falaram de Deus, família, esforço e do sonho do negócio próprio. Os entrevistados valorizavam oportunidades, mas parte rejeitava políticas que parecem 'duvidar' da capacidade individual, como as cotas.",
+      "Do outro lado, a cientista política Gladys Mitchell-Walthour mostra que negros que sentem que seu destino está ligado ao de outros negros apoiam mais políticas como as cotas nas universidades. O jornalista Maurício Pestana, ex-secretário de Igualdade Racial de São Paulo, lembra que as cotas foram implantadas nos governos do PT e que a crise econômica atinge mais a população negra.",
+      "Os próprios eleitores erram sobre isso. Samuels, Mello e Zucco mostram que os brasileiros acham que petistas e antipetistas se encaixam em estereótipos mais do que de fato se encaixam. E, quanto maior o estereótipo, maior a distância e a hostilidade em relação ao outro lado."
+    ],
+    "dados": [
+      {
+        "texto": "Datafolha divulgado em 22/10/2026 (votos válidos): pretos, Lula 61% x Flávio 39%; pardos, Flávio 51% x Lula 49%; brancos, Flávio 55% x Lula 45%.",
+        "fonte": "https://www.cnnbrasil.com.br/eleicoes/datafolha-veja-como-flavio-e-lula-pontuam-por-renda-genero-e-religiao/"
+      },
+      {
+        "texto": "Datafolha de 13–14/10/2022 (votos totais): pretos, Lula 59% x Bolsonaro 34%; pardos, Lula 52% x Bolsonaro 42%; brancos, Bolsonaro 51% x Lula 42%.",
+        "fonte": "https://static.poder360.com.br/2022/10/Datafolha-2o-turno.pdf"
+      },
+      {
+        "texto": "Perfil da amostra do Datafolha de 13–14/10/2022: eram evangélicos 31% dos pardos, 30% dos pretos e 22% dos brancos. Tinham renda familiar de até 2 salários mínimos 60% dos pretos, 53% dos pardos e 40% dos brancos.",
+        "fonte": "https://static.poder360.com.br/2022/10/Datafolha-2o-turno.pdf"
+      },
+      {
+        "texto": "Gethin e Morgan (2021): em 2018, votaram no PT 34% dos brancos, 50% dos pardos e 57% dos pretos. A diferença entre não brancos e brancos (17 pontos) cai para cerca de 10 pontos com controles de renda, escolaridade, idade, gênero, ocupação, local e região.",
+        "fonte": "https://wid.world/document/democracy-and-the-politicization-of-inequality-in-brazil"
+      },
+      {
+        "texto": "Censo 2022 (IBGE): os evangélicos são 26,9% da população com 10 anos ou mais; pardos são o maior grupo entre eles (49,1%).",
+        "fonte": "https://www.congressoemfoco.com.br/noticia/109200/censo-2022-1-em-4-brasileiros-e-evangelico-catolicos-caem-para-56-7"
+      }
+    ],
+    "vozes": [
+      {
+        "quem": "Homem negro, 30 anos, faixa de renda de 2 a 5 salários mínimos, periferia de São Paulo (Fundação Perseu Abramo, 2017)",
+        "texto": "\"A gente pensa assim: sou um cara ambicioso, estou com a faca e o queijo na mão, no caso esse empreendimento aí tem tudo para dar certo, por que não tentar?\""
+      },
+      {
+        "quem": "Homem negro, 50 anos, periferia de São Paulo (Fundação Perseu Abramo, 2017)",
+        "texto": "\"Se você não tiver essas duas coisas (Deus e Família) conciliadas, ao mesmo tempo, não dá muito certo não. [...] Você tem que ter essa estrutura, essa fé.\""
+      },
+      {
+        "quem": "Mulher negra, 41 anos, faixa de renda de 2 a 5 salários mínimos, periferia de São Paulo (Fundação Perseu Abramo, 2017)",
+        "texto": "\"Eu acho que você está pagando você pode exigir e em escola pública você vai exigir de quem?\""
+      }
+    ],
+    "mitos": [
+      {
+        "mito": "Negro de direita é exceção ou 'traidor da raça'.",
+        "fato": "No Datafolha de outubro de 2026, 39% dos pretos e 51% dos pardos escolheram Flávio. São milhões de pessoas, com razões ligadas a fé, segurança, trabalho e valores, como qualquer outro eleitor."
+      },
+      {
+        "mito": "A raça decide o voto no Brasil.",
+        "fato": "A raça tem efeito próprio, mas moderado: cerca de 10 pontos de diferença quando se comparam pessoas de mesma renda, escolaridade e região (Gethin e Morgan). Região, renda e religião pesam tanto ou mais."
+      },
+      {
+        "mito": "Todo petista é negro e pobre, e todo antipetista é branco e rico.",
+        "fato": "Samuels, Mello e Zucco (pesquisa com 5.400 adultos em 2022) mostram que 90% dos brasileiros superestimam a presença de grupos 'típicos' entre petistas, e 93% fazem o mesmo com antipetistas."
+      }
+    ],
+    "para_aproximar": "Evite tratar a cor da pele de alguém como explicação do voto dele. Pergunte pela história da pessoa: o bairro, a igreja, o trabalho. Ali costumam estar as razões reais, e também os pontos em comum.",
+    "fontes": [
+      {
+        "titulo": "Datafolha: veja como Flávio e Lula pontuam por renda, gênero e religião (pesquisa divulgada em 22/10/2026, registro BR-09709/2026)",
+        "autor": "CNN Brasil / Datafolha",
+        "ano": "2026",
+        "url": "https://www.cnnbrasil.com.br/eleicoes/datafolha-veja-como-flavio-e-lula-pontuam-por-renda-genero-e-religiao/"
+      },
+      {
+        "titulo": "Eleições 2022 – 2º turno – 14/10/2022 (relatório Datafolha, registro BR-01682/2022)",
+        "autor": "Datafolha (Folha de S.Paulo e TV Globo)",
+        "ano": "2022",
+        "url": "https://static.poder360.com.br/2022/10/Datafolha-2o-turno.pdf"
+      },
+      {
+        "titulo": "Democracy and the Politicization of Inequality in Brazil, 1989-2018 (World Inequality Lab, Working Paper 2021/07)",
+        "autor": "Amory Gethin e Marc Morgan",
+        "ano": "2021",
+        "url": "https://wid.world/document/democracy-and-the-politicization-of-inequality-in-brazil"
+      },
+      {
+        "titulo": "Censo 2022: 1 em 4 brasileiros é evangélico; católicos caem para 56,7%",
+        "autor": "Congresso em Foco (dados do IBGE)",
+        "ano": "2025",
+        "url": "https://www.congressoemfoco.com.br/noticia/109200/censo-2022-1-em-4-brasileiros-e-evangelico-catolicos-caem-para-56-7"
+      },
+      {
+        "titulo": "Percepções e valores políticos nas periferias de São Paulo (pesquisa qualitativa)",
+        "autor": "Fundação Perseu Abramo",
+        "ano": "2017",
+        "url": "https://fpabramo.org.br/wp-content/uploads/2017/05/16-Pesquisa-Periferia-FPA-040420172.pdf"
+      },
+      {
+        "titulo": "The Politics of Blackness: Racial Identity and Political Behavior in Contemporary Brazil (Cambridge University Press, 2017) – apresentação do livro",
+        "autor": "Gladys L. Mitchell-Walthour (UWM)",
+        "ano": "2017",
+        "url": "https://uwm.edu/news/?p=66001"
+      },
+      {
+        "titulo": "Partisan Stereotyping and Polarization in Brazil (Latin American Politics and Society, v. 66, n. 2)",
+        "autor": "David Samuels, Fernando Mello e Cesar Zucco",
+        "ano": "2024",
+        "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2F11FF3E4FB1C4B37069FA05515F29DA/S1531426X23000389a.pdf/partisan-stereotyping-and-polarization-in-brazil.pdf"
+      },
+      {
+        "titulo": "Raça, classe e religião nas eleições de 2022 (coluna)",
+        "autor": "Maurício Pestana (CNN Brasil)",
+        "ano": "2022",
+        "url": "https://www.cnnbrasil.com.br/politica/raca-classe-e-religiao-nas-eleicoes-de-2022/"
+      }
+    ]
+  },
+  {
+    "id": "evangelicos",
+    "pergunta": "Por que os evangélicos se tornaram decisivos?",
+    "resumo": "Os evangélicos já são mais de um quarto da população e votam de forma bem mais concentrada do que o resto do país: cerca de 7 em cada 10 escolhem a direita. Com uma eleição decidida por poucos pontos, essa diferença pesa muito. Os estudos explicam o fenômeno pelo crescimento das igrejas nas periferias, pelo papel social delas e pela agenda de família e costumes.",
+    "explicacao": [
+      "Primeiro, o tamanho: segundo o Censo 2022, os evangélicos passaram de 21,6% para 26,9% da população em doze anos. Eles são mais numerosos no Norte e no Centro-Oeste. O sociólogo Ricardo Mariano descreve um 'cinturão evangélico' nas periferias, onde, diz ele, sindicatos, partidos e poder público pouco chegam.",
+      "Segundo, o que a igreja faz na vida das pessoas. O antropólogo Juliano Spyer, autor de 'O povo de Deus', descreve as igrejas como um 'estado de bem-estar social informal': ajudam quem perde o emprego, quem tem filho envolvido com drogas e famílias com violência doméstica, e oferecem saída para quem quer deixar o crime.",
+      "Terceiro, os valores. Família, fé e comportamento moral são centrais para esses eleitores. O antropólogo Ronaldo de Almeida mostra que, desde os protestos de 2013, 'uma parcela considerável' dos evangélicos, em graus variados, participa da chamada 'onda conservadora', que junta agendas de economia, segurança, moral e costumes. Não se trata, portanto, de todos os evangélicos.",
+      "A aliança com a direita é recente. Mariano lembra que a Igreja Universal apoiou Lula de 2002 até perto de 2016 e que o PRB, hoje Republicanos, apoiou os governos do PT. Em 2006, a campanha de Lula priorizou o voto evangélico. O afastamento cresceu a partir de 2013 e se consolidou com Bolsonaro. Jairo Nicolau, ao analisar 2018, mostra que religião e escolaridade nunca tinham separado tanto o voto. Gethin e Morgan medem: a diferença de voto no PT entre protestantes e o resto do eleitorado subiu de cerca de 5 pontos em 2014 para 17 em 2018.",
+      "O voto evangélico não é um bloco fechado. Esther Solano entrevistou pentecostais em 2022 e encontrou um 'pentecostalismo oscilante'. A crise econômica e a condução da pandemia aproximaram parte deles de Lula. Já o medo de mudanças em temas de família, como o aborto, e a sensação de falta de representação na campanha petista os puxaram de volta para Bolsonaro.",
+      "Também não é um voto 'mandado'. Na pesquisa da Fundação Perseu Abramo, os fiéis disseram que não seguem cegamente o líder religioso e desconfiam de pedidos de dinheiro exagerados. O voto em candidatos da igreja parecia guiado mais pela proximidade e pela confiança na pessoa do que por ideologia."
+    ],
+    "dados": [
+      {
+        "texto": "Censo 2022 (IBGE): evangélicos são 26,9% da população com 10 anos ou mais (47,4 milhões), contra 21,6% em 2010. Católicos caíram de 65,1% para 56,7%; sem religião subiram de 7,9% para 9,3%. Norte tem 36,8% de evangélicos e Centro-Oeste, 31,4%.",
+        "fonte": "https://www.congressoemfoco.com.br/noticia/109200/censo-2022-1-em-4-brasileiros-e-evangelico-catolicos-caem-para-56-7"
+      },
+      {
+        "texto": "Datafolha divulgado em 22/10/2026 (votos válidos): evangélicos, Flávio 73% x Lula 27%; católicos, Lula 59% x Flávio 41%.",
+        "fonte": "https://www.cnnbrasil.com.br/eleicoes/datafolha-veja-como-flavio-e-lula-pontuam-por-renda-genero-e-religiao/"
+      },
+      {
+        "texto": "Datafolha de 13–14/10/2022 (votos totais): evangélicos, Bolsonaro 65% x Lula 31%; católicos, Lula 57% x Bolsonaro 37%. Os evangélicos eram 27% da amostra.",
+        "fonte": "https://static.poder360.com.br/2022/10/Datafolha-2o-turno.pdf"
+      },
+      {
+        "texto": "Gethin e Morgan (2021): entre 2014 e 2018, a diferença de apoio ao PT entre protestantes e outros grupos religiosos passou de cerca de 5 para 17 pontos, mesmo com controles socioeconômicos.",
+        "fonte": "https://wid.world/document/democracy-and-the-politicization-of-inequality-in-brazil"
+      },
+      {
+        "texto": "BTG/Nexus, março de 2026: aprovavam o trabalho de Lula 31% dos evangélicos e 51% dos católicos. Na escala de 0 a 10, a concordância média dos evangélicos com \"sou anti-Lula/anti-PT\" foi 6,3, a mais alta entre os grupos religiosos.",
+        "fonte": "https://static.poder360.com.br/2026/03/BTG-Nexus-presidente-mar2026.pdf"
+      }
+    ],
+    "vozes": [
+      {
+        "quem": "Mulher, 36 anos, branca, renda de até 2 salários mínimos, periferia de São Paulo (Fundação Perseu Abramo, 2017)",
+        "texto": "\"Votei em alguns pastores, [porque] eu acho que eles não roubariam.\""
+      },
+      {
+        "quem": "Homem, 41 anos, branco, faixa de renda de 2 a 5 salários mínimos, periferia de São Paulo (Fundação Perseu Abramo, 2017)",
+        "texto": "\"[...] lá na igreja é a verdadeira família [...] se você estiver precisando de uma cesta básica todo mundo corre.\""
+      },
+      {
+        "quem": "Mulher, 32 anos, branca, renda de até 2 salários mínimos, periferia de São Paulo (Fundação Perseu Abramo, 2017)",
+        "texto": "\"Fico mais tranquila, porque a pastora me ajuda a vigiar o facebook da minha filha.\""
+      }
+    ],
+    "mitos": [
+      {
+        "mito": "Evangélico vota em quem o pastor manda.",
+        "fato": "Spyer relata que, numa pesquisa na Marcha para Jesus, a maioria não seguia o candidato indicado pelos líderes. A Perseu Abramo não encontrou fiéis 'acríticos'. E Solano mostrou pentecostais oscilando entre Lula e Bolsonaro em 2022."
+      },
+      {
+        "mito": "Os evangélicos sempre foram de direita.",
+        "fato": "A Igreja Universal apoiou Lula de 2002 até perto de 2016, e o partido ligado a ela apoiou os governos do PT (Mariano). A distância entre evangélicos e o PT disparou entre 2014 e 2018 (Gethin e Morgan)."
+      },
+      {
+        "mito": "Evangélico é tudo igual.",
+        "fato": "No Datafolha de 2022, metade dos evangélicos (49%) se disse pentecostal, 18% protestantes históricos, 8% neopentecostais e 21% deram outras respostas. Mariano lembra que a bancada evangélica só age como bloco coeso em pautas morais."
+      }
+    ],
+    "para_aproximar": "Comece pelo que a igreja faz pela pessoa, como apoio, comunidade e proteção da família, e não pelo que você acha que o pastor diz. Quem não é religioso pode concordar com muitos desses valores e respeitar os demais.",
+    "fontes": [
+      {
+        "titulo": "Censo 2022: 1 em 4 brasileiros é evangélico; católicos caem para 56,7%",
+        "autor": "Congresso em Foco (dados do IBGE)",
+        "ano": "2025",
+        "url": "https://www.congressoemfoco.com.br/noticia/109200/censo-2022-1-em-4-brasileiros-e-evangelico-catolicos-caem-para-56-7"
+      },
+      {
+        "titulo": "O barulho dos evangélicos. Entrevista com Ricardo Mariano (original: O Estado de S. Paulo)",
+        "autor": "Ricardo Mariano, entrevistado por Vicente Vilardaga (IHU)",
+        "ano": "2017",
+        "url": "https://ihu.unisinos.br/categorias/573620-o-barulho-dos-evangelicos-entrevista-com-ricardo-mariano"
+      },
+      {
+        "titulo": "Líderes religiosos são flexíveis na política, diz pesquisador",
+        "autor": "Poder360 (entrevista com Ricardo Mariano)",
+        "ano": "2022",
+        "url": "https://www.poder360.com.br/poderdata/lideres-religiosos-sao-flexiveis-na-politica-diz-pesquisador/"
+      },
+      {
+        "titulo": "Igrejas evangélicas são estado de bem-estar social informal (entrevista de Juliano Spyer, autor de O povo de Deus, à DW Brasil)",
+        "autor": "Juliano Spyer, entrevistado por Bruno Lupion (IHU/DW)",
+        "ano": "2020",
+        "url": "https://www.ihu.unisinos.br/?id=603625"
+      },
+      {
+        "titulo": "The broken wave: Evangelicals and conservatism in the Brazilian crisis (HAU, v. 10, n. 1; versão de artigo publicado em Novos Estudos Cebrap, 2019)",
+        "autor": "Ronaldo de Almeida",
+        "ano": "2020",
+        "url": "http://www.haujournal.org/index.php/hau/article/view/1409"
+      },
+      {
+        "titulo": "Esther Solano: o que separa e aproxima Lula e Bolsonaro de evangélicos 'oscilantes'? (original: Rede Brasil Atual)",
+        "autor": "Tiago Pereira (IHU/RBA)",
+        "ano": "2022",
+        "url": "https://www.ihu.unisinos.br/621628"
+      },
+      {
+        "titulo": "Percepções e valores políticos nas periferias de São Paulo (pesquisa qualitativa)",
+        "autor": "Fundação Perseu Abramo",
+        "ano": "2017",
+        "url": "https://fpabramo.org.br/wp-content/uploads/2017/05/16-Pesquisa-Periferia-FPA-040420172.pdf"
+      },
+      {
+        "titulo": "Democracy and the Politicization of Inequality in Brazil, 1989-2018 (World Inequality Lab, Working Paper 2021/07)",
+        "autor": "Amory Gethin e Marc Morgan",
+        "ano": "2021",
+        "url": "https://wid.world/document/democracy-and-the-politicization-of-inequality-in-brazil"
+      },
+      {
+        "titulo": "Afinal, quem votou no presidente da República? (resenha de O Brasil dobrou à direita, de Jairo Nicolau, Zahar, 2020)",
+        "autor": "Andréa Freitas (Revista Pesquisa FAPESP)",
+        "ano": "2021",
+        "url": "https://revistapesquisa.fapesp.br/afinal-quem-votou-no-presidente-da-republica/"
+      },
+      {
+        "titulo": "Datafolha: veja como Flávio e Lula pontuam por renda, gênero e religião (pesquisa divulgada em 22/10/2026, registro BR-09709/2026)",
+        "autor": "CNN Brasil / Datafolha",
+        "ano": "2026",
+        "url": "https://www.cnnbrasil.com.br/eleicoes/datafolha-veja-como-flavio-e-lula-pontuam-por-renda-genero-e-religiao/"
+      },
+      {
+        "titulo": "Eleições 2022 – 2º turno – 14/10/2022 (relatório Datafolha, registro BR-01682/2022)",
+        "autor": "Datafolha (Folha de S.Paulo e TV Globo)",
+        "ano": "2022",
+        "url": "https://static.poder360.com.br/2022/10/Datafolha-2o-turno.pdf"
+      },
+      {
+        "titulo": "Pesquisa de opinião – Eleições 2026 – Presidente, 1ª rodada (campo 27 a 29/03/2026, registro BR-07875/2026)",
+        "autor": "BTG Pactual / Nexus",
+        "ano": "2026",
+        "url": "https://static.poder360.com.br/2026/03/BTG-Nexus-presidente-mar2026.pdf"
+      }
+    ]
+  },
+  {
+    "id": "nordeste",
+    "pergunta": "Por que o Nordeste vota majoritariamente no PT?",
+    "resumo": "No 1º turno de 2026, Lula teve cerca de 21,5 milhões de votos no Nordeste, mais que o dobro dos 10,4 milhões de Flávio. Mas a região votou em Collor e em FHC nos anos 1990. A virada veio a partir de 2002–2006, e os estudos a ligam à melhora de vida dos mais pobres nos governos Lula, aos programas sociais, à identificação com Lula e a alianças locais.",
+    "explicacao": [
+      "O Nordeste nem sempre foi do PT. Votou em peso em Collor em 1989 e em Fernando Henrique em 1994 e 1998. Pesquisadores ouvidos pelo O POVO lembram que a região era vista como conservadora e votava em partidos de centro-direita. Em 1989, segundo Gethin e Morgan, o Nordeste dava menos votos a Lula do que o Sul e o Sudeste.",
+      "A mudança aconteceu no primeiro governo Lula. Cesar Zucco mostra que, em 2006, a base de Lula migrou das regiões mais ricas para as mais pobres. Ele explica isso em boa parte pelo Bolsa Família e por um padrão antigo: no Brasil, o candidato do governo costuma ir melhor nas regiões menos desenvolvidas.",
+      "Não foi só o programa. Entre 2002 e 2014, a renda dos 50% mais pobres, muitos deles nordestinos, cresceu quase o dobro da média nacional, segundo Gethin e Morgan. Houve também aumentos do salário mínimo e investimentos. André Singer chama esse movimento de 'lulismo': a adesão dos mais pobres a um governo que combinou estabilidade econômica com políticas de distribuição de renda.",
+      "Há ainda a identificação e a memória. Lula é nordestino, e o cientista político Alex Ribeiro (UFBA) diz que o eleitor da região reconhece políticas públicas que a beneficiaram e que mudanças de voto são lentas. O voto também passa por alianças locais: segundo Gethin e Morgan, o PT usou a Presidência para crescer em eleições estaduais e municipais no Nordeste, o que depois reforçou o voto em seus candidatos a presidente.",
+      "O voto nordestino não é automático. Mesmo sem um Lula candidato, a região deu vitória a Dilma e a Haddad. Mas em 2026 Flávio teve mais de 10 milhões de votos no Nordeste, cerca de 1 em cada 3. E a violência é hoje a maior preocupação dos nordestinos, um tema em que a direita costuma ganhar espaço."
+    ],
+    "dados": [
+      {
+        "texto": "1º turno de 2026, considerando só os votos dos dois finalistas: Nordeste, Lula 67,39% (21,49 milhões) x Flávio 32,61% (10,40 milhões). Na Bahia, Lula teve 5,66 milhões e Flávio, 2,44 milhões.",
+        "fonte": "https://www.congressoemfoco.com.br/noticia/122894/flavio-vence-em-quatro-regioes-lula-domina-nordeste"
+      },
+      {
+        "texto": "2º turno de 2022: Lula teve 69,34% dos votos válidos no Nordeste e venceu nos nove estados; Bolsonaro venceu em apenas 20 dos 1.793 municípios da região.",
+        "fonte": "https://www.congressoemfoco.com.br/noticia/10863/bolsonaro-vence-em-apenas-20-dos-1793-municipios-do-nordeste-confira-quais"
+      },
+      {
+        "texto": "Datafolha divulgado em 22/10/2026 (votos válidos): Nordeste, Lula 68% x Flávio 32%.",
+        "fonte": "https://www.cnnbrasil.com.br/eleicoes/datafolha-veja-como-flavio-e-lula-pontuam-por-renda-genero-e-religiao/"
+      },
+      {
+        "texto": "Gethin e Morgan (2021): em 1989, cerca de 52% dos eleitores do Sul e do Sudeste votaram em Lula, contra 43% no Nordeste. O PT teve 75% do eleitorado nordestino em 2006 e não caiu muito abaixo de 65% depois. Em 2018, mesmo comparando pessoas de mesma renda e escolaridade, morar no Nordeste aumentava em cerca de 20 pontos a chance de votar no PT.",
+        "fonte": "https://wid.world/document/democracy-and-the-politicization-of-inequality-in-brazil"
+      },
+      {
+        "texto": "Genial/Quaest (5 a 9/02/2026, 2.004 entrevistas): 35% dos nordestinos apontaram a violência como principal problema do país, à frente de questões sociais e saúde (17% cada).",
+        "fonte": "https://oimparcial.com.br/noticias/2026/02/violencia-e-a-principal-preocupacao-dos-nordestinos-aponta-quaest/"
+      },
+      {
+        "texto": "BTG/Nexus, março de 2026: 57% aprovavam o trabalho de Lula no Nordeste, contra 30% no Sul. Na escala de 0 a 10, a concordância média dos nordestinos com \"sou anti-Bolsonaro\" foi 4,7, menor que a com \"sou anti-Lula\" (5,2). É um indício de que, ali, pesa mais a avaliação de Lula do que a rejeição ao adversário.",
+        "fonte": "https://static.poder360.com.br/2026/03/BTG-Nexus-presidente-mar2026.pdf"
+      }
+    ],
+    "mitos": [
+      {
+        "mito": "O Nordeste sempre foi de esquerda.",
+        "fato": "A região votou em Collor (1989) e em FHC (1994 e 1998). A primeira vitória de Lula em estados nordestinos foi em 2002, e o domínio do PT começou em 2006."
+      },
+      {
+        "mito": "O nordestino vota no PT só por causa do Bolsa Família.",
+        "fato": "Zucco (2013) mostra que transferências de renda ajudam o candidato do governo no curto prazo, de qualquer partido, inclusive o PSDB em 2002, e não criam lealdade partidária duradoura. Gethin e Morgan, citando outros estudos, apontam que o apoio também veio de eleitores pobres que não recebiam o benefício, e da melhora geral de renda."
+      },
+      {
+        "mito": "Todo nordestino vota em Lula.",
+        "fato": "Flávio teve 10,4 milhões de votos na região no 1º turno de 2026, cerca de um terço."
+      }
+    ],
+    "para_aproximar": "Pergunte a um eleitor nordestino o que mudou na vida da família dele nos últimos 20 anos. A resposta costuma explicar o voto melhor do que qualquer rótulo, e lembra que todos votam pensando na própria vida.",
+    "fontes": [
+      {
+        "titulo": "The President's 'New' Constituency: Lula and the Pragmatic Vote in Brazil's 2006 Presidential Elections (Journal of Latin American Studies, v. 40, n. 1)",
+        "autor": "Cesar Zucco",
+        "ano": "2008",
+        "url": "https://www.cambridge.org/core/journals/journal-of-latin-american-studies/article/abs/presidents-new-constituency-lula-and-the-pragmatic-vote-in-brazils-2006-presidential-elections/77CEF303DEFB36ABB1D572832F706B0D"
+      },
+      {
+        "titulo": "When Payouts Pay Off: Conditional Cash Transfers and Voting Behavior in Brazil 2002–10 (American Journal of Political Science, v. 57, n. 4)",
+        "autor": "Cesar Zucco",
+        "ano": "2013",
+        "url": "https://ideas.repec.org/a/wly/amposc/v57y2013i4p810-822.html"
+      },
+      {
+        "titulo": "Democracy and the Politicization of Inequality in Brazil, 1989-2018 (World Inequality Lab, Working Paper 2021/07)",
+        "autor": "Amory Gethin e Marc Morgan",
+        "ano": "2021",
+        "url": "https://wid.world/document/democracy-and-the-politicization-of-inequality-in-brazil"
+      },
+      {
+        "titulo": "Os sentidos do lulismo: reforma gradual e pacto conservador",
+        "autor": "André Singer",
+        "ano": "2012",
+        "url": "https://www.companhiadasletras.com.br/9788535921588-os-sentidos-do-lulismo-4981/p"
+      },
+      {
+        "titulo": "Nordeste é de esquerda e Sul é de direita? Há poucas décadas, era bem diferente",
+        "autor": "Ludmyla Barros (O POVO+)",
+        "ano": "2026",
+        "url": "https://mais.opovo.com.br/jornal/politica/2026/07/02/nordeste-e-de-esquerda-e-sul-e-de-direita-ha-poucas-decadas-era-bem-diferente.html"
+      },
+      {
+        "titulo": "Bolsonaro vence em apenas 20 dos 1.793 municípios do Nordeste",
+        "autor": "Congresso em Foco",
+        "ano": "2022",
+        "url": "https://www.congressoemfoco.com.br/noticia/10863/bolsonaro-vence-em-apenas-20-dos-1793-municipios-do-nordeste-confira-quais"
+      },
+      {
+        "titulo": "Flávio vence em quatro regiões; Lula domina Nordeste",
+        "autor": "Congresso em Foco",
+        "ano": "2026",
+        "url": "https://www.congressoemfoco.com.br/noticia/122894/flavio-vence-em-quatro-regioes-lula-domina-nordeste"
+      },
+      {
+        "titulo": "Datafolha: veja como Flávio e Lula pontuam por renda, gênero e religião (pesquisa divulgada em 22/10/2026, registro BR-09709/2026)",
+        "autor": "CNN Brasil / Datafolha",
+        "ano": "2026",
+        "url": "https://www.cnnbrasil.com.br/eleicoes/datafolha-veja-como-flavio-e-lula-pontuam-por-renda-genero-e-religiao/"
+      },
+      {
+        "titulo": "Violência é a principal preocupação dos nordestinos, aponta Quaest",
+        "autor": "O Imparcial (dados Genial/Quaest)",
+        "ano": "2026",
+        "url": "https://oimparcial.com.br/noticias/2026/02/violencia-e-a-principal-preocupacao-dos-nordestinos-aponta-quaest/"
+      },
+      {
+        "titulo": "Pesquisa de opinião – Eleições 2026 – Presidente, 1ª rodada (campo 27 a 29/03/2026, registro BR-07875/2026)",
+        "autor": "BTG Pactual / Nexus",
+        "ano": "2026",
+        "url": "https://static.poder360.com.br/2026/03/BTG-Nexus-presidente-mar2026.pdf"
+      }
+    ]
+  },
+  {
+    "id": "sul-agro",
+    "pergunta": "Por que o Sul, o Centro-Oeste e o agronegócio votam mais à direita?",
+    "resumo": "No 1º turno de 2026, Flávio Bolsonaro teve cerca de 66% dos votos dos dois finalistas no Sul e 63% no Centro-Oeste. Mas o Sul já deu vitória a Lula em 2002. Os estudos e reportagens apontam uma mistura de fatores: rejeição ao PT, valorização do trabalho por conta própria, desconfiança do Estado, peso de evangélicos no Centro-Oeste e, no campo, a defesa da propriedade e a aliança das entidades do agro com a direita.",
+    "explicacao": [
+      "O Sul não foi sempre de direita. Em 2002, Lula foi o mais votado no 1º turno nos três estados; em Santa Catarina teve 64% no 2º turno. Desde 2006, porém, os três estados dão maioria ao adversário do PT no 2º turno. Gethin e Morgan mostram que o voto no PT no Sul e no Sudeste caiu de cerca de 60% em 2002 para cerca de 35% em 2018.",
+      "Uma razão citada é a rejeição ao PT, que ganhou força com os casos de corrupção e a crise econômica dos anos 2010. Numa pesquisa BTG/Nexus de 2026, o Sul teve a maior média de concordância com \"sou anti-Lula/anti-PT\" e a menor com \"sou anti-Bolsonaro\". Moradores e políticos de Santa Catarina ouvidos pela Gazeta do Povo falam de uma cultura de \"não depender e nem esperar que o Estado faça algo\", de pequenos negócios e de herança de imigrantes.",
+      "Outra razão é econômica. Santa Catarina lidera o ranking de empreendedorismo do Sebrae, segundo a mesma reportagem, e o cientista político Elton Gomes (UFPI) associa o alto desenvolvimento do estado a uma dependência menor de programas sociais. Em todo o país, eleitores de Flávio citam impostos como problema mais do que os de Lula (10% x 3%, BTG/Nexus). Gethin e Morgan, porém, notam que no Brasil a ocupação em si pesa pouco no voto: as diferenças vêm mais de renda, escolaridade e lugar.",
+      "No Centro-Oeste e no Norte, a religião também conta: são as regiões com maior proporção de evangélicos, segundo o Censo 2022.",
+      "No agronegócio, entram a defesa da propriedade e a segurança no campo. Para Xico Graziano, agrônomo e ex-deputado, a força de Bolsonaro no agro nasceu da reação dos produtores a invasões de terra. Essa é a opinião dele, não um dado de pesquisa. A Frente Parlamentar da Agropecuária apoiou Bolsonaro em 2018 e em 2022; no 2º turno de 2022, declarou apoio citando custos de produção e o apoio do governo ao agro.",
+      "O agro não é um bloco único. O antropólogo Caio Pompeia identifica mais de 80 entidades, com interesses diferentes, que mantiveram relações próximas com governos de vários partidos, de FHC a Bolsonaro. No primeiro governo Lula, por exemplo, o presidente da Associação Brasileira de Agribusiness (Abag) foi nomeado ministro da Agricultura. As divergências internas aparecem em temas como meio ambiente, clima e reforma agrária."
+    ],
+    "dados": [
+      {
+        "texto": "1º turno de 2026, considerando só os votos dos dois finalistas: Sul, Flávio 65,76% x Lula 34,24%; Centro-Oeste, Flávio 63,40% x Lula 36,60%; Sudeste, Flávio 56,41% x Lula 43,59%; Norte, Flávio 52,40% x Lula 47,60%.",
+        "fonte": "https://www.congressoemfoco.com.br/noticia/122894/flavio-vence-em-quatro-regioes-lula-domina-nordeste"
+      },
+      {
+        "texto": "Santa Catarina, 2º turno presidencial: Lula 64,14% em 2002; Alckmin 54,53% em 2006; Serra 56,61% em 2010; Aécio 64,59% em 2014; Bolsonaro 75,92% em 2018 e 69,27% em 2022.",
+        "fonte": "https://www.gazetadopovo.com.br/republica/antipetismo-em-santa-catarina-consolidou-preferencia-por-bolsonaro/"
+      },
+      {
+        "texto": "1º turno de 2022: Bolsonaro venceu Lula em 77 dos 100 municípios com maior valor da produção agrícola, mas Lula venceu em 23. Em Sorriso (MT), Bolsonaro teve 70,16%; em Riachão das Neves (BA), Lula teve 77,14%.",
+        "fonte": "https://abcdoabc.com.br/bolsonaro-domina-votacao-em-77-dos-100-municipios-mais-ricos-do-agronegocio/"
+      },
+      {
+        "texto": "Datafolha divulgado em 22/10/2026 (votos válidos): Sul, Flávio 64% x Lula 36%; Centro-Oeste/Norte, Flávio 56% x Lula 44%.",
+        "fonte": "https://www.cnnbrasil.com.br/eleicoes/datafolha-veja-como-flavio-e-lula-pontuam-por-renda-genero-e-religiao/"
+      },
+      {
+        "texto": "BTG/Nexus, março de 2026 (escala de 0 a 10): no Sul, concordância média de 6,2 com \"sou anti-Lula/anti-PT\" e de 3,8 com \"sou anti-Bolsonaro\"; aprovação de Lula de 30%, a menor entre as regiões.",
+        "fonte": "https://static.poder360.com.br/2026/03/BTG-Nexus-presidente-mar2026.pdf"
+      },
+      {
+        "texto": "Censo 2022: proporção de evangélicos de 36,8% no Norte e 31,4% no Centro-Oeste, as maiores do país (média nacional: 26,9%).",
+        "fonte": "https://www.congressoemfoco.com.br/noticia/109200/censo-2022-1-em-4-brasileiros-e-evangelico-catolicos-caem-para-56-7"
+      }
+    ],
+    "mitos": [
+      {
+        "mito": "O Sul sempre foi de direita.",
+        "fato": "Lula foi o mais votado no 1º turno nos três estados do Sul em 2002 e teve 64% no 2º turno em Santa Catarina. Brizola também foi o mais votado em Santa Catarina em 1989 (O POVO)."
+      },
+      {
+        "mito": "Todo o agro vota na direita.",
+        "fato": "Lula venceu em 23 dos 100 municípios mais ricos do agronegócio em 2022. E as entidades do setor têm divergências internas, segundo Caio Pompeia."
+      },
+      {
+        "mito": "O voto do Sul é só herança de imigrantes europeus.",
+        "fato": "Essa é uma explicação dada por moradores, mas não basta: a mesma população votou em Lula em 2002. A mudança acompanhou a crise do PT e a polarização dos últimos 20 anos."
+      }
+    ],
+    "para_aproximar": "Para entender o eleitor do Sul ou do campo, pergunte sobre o trabalho dele: impostos, custo de produção, segurança na propriedade. Para ele entender quem pensa diferente, vale lembrar que o Nordeste também vota pensando no que mudou na própria vida.",
+    "fontes": [
+      {
+        "titulo": "Democracy and the Politicization of Inequality in Brazil, 1989-2018 (World Inequality Lab, Working Paper 2021/07)",
+        "autor": "Amory Gethin e Marc Morgan",
+        "ano": "2021",
+        "url": "https://wid.world/document/democracy-and-the-politicization-of-inequality-in-brazil"
+      },
+      {
+        "titulo": "Nordeste é de esquerda e Sul é de direita? Há poucas décadas, era bem diferente",
+        "autor": "Ludmyla Barros (O POVO+)",
+        "ano": "2026",
+        "url": "https://mais.opovo.com.br/jornal/politica/2026/07/02/nordeste-e-de-esquerda-e-sul-e-de-direita-ha-poucas-decadas-era-bem-diferente.html"
+      },
+      {
+        "titulo": "Antipetismo em Santa Catarina consolidou preferência por Bolsonaro",
+        "autor": "Vinícius Sales (Gazeta do Povo)",
+        "ano": "2024",
+        "url": "https://www.gazetadopovo.com.br/republica/antipetismo-em-santa-catarina-consolidou-preferencia-por-bolsonaro/"
+      },
+      {
+        "titulo": "Flávio vence em quatro regiões; Lula domina Nordeste",
+        "autor": "Congresso em Foco",
+        "ano": "2026",
+        "url": "https://www.congressoemfoco.com.br/noticia/122894/flavio-vence-em-quatro-regioes-lula-domina-nordeste"
+      },
+      {
+        "titulo": "Datafolha: veja como Flávio e Lula pontuam por renda, gênero e religião (pesquisa divulgada em 22/10/2026, registro BR-09709/2026)",
+        "autor": "CNN Brasil / Datafolha",
+        "ano": "2026",
+        "url": "https://www.cnnbrasil.com.br/eleicoes/datafolha-veja-como-flavio-e-lula-pontuam-por-renda-genero-e-religiao/"
+      },
+      {
+        "titulo": "Pesquisa de opinião – Eleições 2026 – Presidente, 1ª rodada (campo 27 a 29/03/2026, registro BR-07875/2026)",
+        "autor": "BTG Pactual / Nexus",
+        "ano": "2026",
+        "url": "https://static.poder360.com.br/2026/03/BTG-Nexus-presidente-mar2026.pdf"
+      },
+      {
+        "titulo": "Censo 2022: 1 em 4 brasileiros é evangélico; católicos caem para 56,7%",
+        "autor": "Congresso em Foco (dados do IBGE)",
+        "ano": "2025",
+        "url": "https://www.congressoemfoco.com.br/noticia/109200/censo-2022-1-em-4-brasileiros-e-evangelico-catolicos-caem-para-56-7"
+      },
+      {
+        "titulo": "Bolsonaro domina votação em 77 dos 100 municípios mais ricos do agronegócio (levantamento com dados do IBGE e do TSE)",
+        "autor": "ABCdoABC / Estadão Conteúdo",
+        "ano": "2022",
+        "url": "https://abcdoabc.com.br/bolsonaro-domina-votacao-em-77-dos-100-municipios-mais-ricos-do-agronegocio/"
+      },
+      {
+        "titulo": "Bancada do agro confirma apoio a Bolsonaro no 2º turno",
+        "autor": "Poder360",
+        "ano": "2022",
+        "url": "https://www.poder360.com.br/eleicoes/bancada-do-agro-confirma-apoio-a-bolsonaro-no-2o-turno/"
+      },
+      {
+        "titulo": "Resenha de Formação política do agronegócio, de Caio Pompeia (Elefante, 2021), no Anuário Antropológico, v. 47, n. 2",
+        "autor": "Raisa Ramos de Pina",
+        "ano": "2022",
+        "url": "https://doi.org/10.4000/aa.9730"
+      },
+      {
+        "titulo": "Quem criou a força de Bolsonaro no agro foi o banditismo (coluna de opinião)",
+        "autor": "Xico Graziano (Poder360)",
+        "ano": "2018",
+        "url": "https://www.poder360.com.br/opiniao/quem-criou-a-forca-de-bolsonaro-no-agro-foi-o-banditismo-diz-xico-graziano/"
+      },
+      {
+        "titulo": "Resenha de Partisans, Antipartisans, and Nonpartisans: Voting Behavior in Brazil (Samuels e Zucco, Cambridge University Press, 2018)",
+        "autor": "João V. Guedes-Neto (Revista Latinoamericana de Opinión Pública)",
+        "ano": "2021",
+        "url": "https://revistas.usal.es/index.php/1852-9003/article/view/26331"
+      }
+    ]
+  },
+  {
+    "id": "voto-contra",
+    "pergunta": "Antipetismo e antibolsonarismo: por que tanta gente vota contra alguém?",
+    "resumo": "No Brasil, muita gente sabe melhor de quem não gosta do que de quem gosta. A ciência política mostra que a rejeição ao PT virou uma identidade política forte, mesmo sem um partido do outro lado, e o antibolsonarismo tem papel parecido. Em 2026, quase metade do eleitorado diz que não votaria em Lula, e pouco menos em Flávio.",
+    "explicacao": [
+      "Os cientistas políticos David Samuels e Cesar Zucco mostram que, no Brasil, o PT foi por décadas o único partido com uma base grande de simpatizantes. Por isso, ser contra o PT virou também uma identidade. Eles resumem: a rejeição a um grupo pode funcionar como um repelente, mesmo sem um ímã do outro lado.",
+      "A maioria dos antipetistas não se identifica com nenhum outro partido. Eles são 'antipartidários puros'. Segundo os autores, renda, escolaridade e ideologia ajudam pouco a prever quem vira petista ou antipetista. Pesa mais a forma como a pessoa se relaciona com a política, por exemplo, se participa de associações e movimentos.",
+      "O antipetismo cresceu. Em 2014, 21% dos brasileiros eram antipetistas; numa pesquisa de 2022, eram 29%, contra 24% de petistas. Os motivos citados pelos próprios eleitores incluem corrupção, crise econômica e valores. Do outro lado, críticas à condução da pandemia e à relação de Bolsonaro com as instituições apareceram até entre evangélicos pentecostais ouvidos por Esther Solano em 2022.",
+      "Identidades fortes mudam a forma como vemos fatos. Experimentos de Samuels e Zucco mostram que petistas, tucanos e antipetistas seguem as pistas do próprio lado, às vezes até contra os fatos. E um estudo de 2024 mostra que quem imagina o outro lado como um estereótipo, todo rico ou todo pobre, todo evangélico ou todo sem religião, sente mais distância e hostilidade.",
+      "Mesmo assim, o voto 'só contra' é minoria. Em 2022, 80% dos eleitores de Lula ou Bolsonaro disseram votar porque achavam seu candidato o melhor. O voto principalmente para derrotar o adversário foi de 20% entre eleitores de Lula e 13% entre os de Bolsonaro.",
+      "E há um grupo grande no meio. Na pesquisa BTG/Nexus de março de 2026, 23% não se identificavam nem com o antilulismo nem com o antibolsonarismo, e 8% rejeitavam os dois. Numa disputa apertada, esse grupo pesa muito."
+    ],
+    "dados": [
+      {
+        "texto": "Datafolha (13–14/10/2026, 2.520 entrevistas): 46% não votariam em Lula de jeito nenhum no 2º turno; 44% não votariam em Flávio Bolsonaro.",
+        "fonte": "https://timesbrasil.com.br/brasil/decisao-2026-flavio-bolsonaro-e-rejeitado-por-44-e-lula-por-46-aponta-datafolha/"
+      },
+      {
+        "texto": "Datafolha (13–14/10/2022): 48% rejeitavam só Bolsonaro, 42% só Lula, 3% os dois e 6% nenhum. 80% dos eleitores dos dois diziam votar por achar seu candidato o melhor; 17%, para derrotar o adversário (20% entre eleitores de Lula, 13% entre os de Bolsonaro).",
+        "fonte": "https://static.poder360.com.br/2022/10/Datafolha-2o-turno.pdf"
+      },
+      {
+        "texto": "BTG/Nexus, março de 2026: 27% \"bolsonaristas convictos\", 21% \"lulistas convictos\", 23% não polarizados, 8% anti-Lula e anti-Bolsonaro ao mesmo tempo, 8% com Bolsonaro como alternativa e 5% com Lula como alternativa.",
+        "fonte": "https://static.poder360.com.br/2026/03/BTG-Nexus-presidente-mar2026.pdf"
+      },
+      {
+        "texto": "Samuels, Mello e Zucco (pesquisa nacional com 5.400 adultos, início de 2022): 24% se identificavam como petistas, 29% como antipetistas e 47% como não partidários. Em 2014, os antipetistas eram 21%. 90% dos entrevistados superestimaram a presença de grupos 'típicos' entre petistas; 93%, entre antipetistas.",
+        "fonte": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2F11FF3E4FB1C4B37069FA05515F29DA/S1531426X23000389a.pdf/partisan-stereotyping-and-polarization-in-brazil.pdf"
+      },
+      {
+        "texto": "Samuels e Zucco (2018): a fatia de petistas foi de 0% em 1980 para cerca de 30% uma geração depois; o PSDB nunca passou de 5% de simpatizantes.",
+        "fonte": "https://www.cambridge.org/core/books/partisans-antipartisans-and-nonpartisans/partisanship-and-antipartisanship-in-brazil/29955682A8E8400F7F49A4728885C7A6"
+      }
+    ],
+    "mitos": [
+      {
+        "mito": "Quem vota contra alguém não tem opinião própria.",
+        "fato": "Para Samuels e Zucco, a rejeição a um partido é uma identidade política real, forte o bastante para prever o voto. E a maioria dos eleitores de Lula e de Bolsonaro em 2022 disse votar porque achava seu candidato o melhor."
+      },
+      {
+        "mito": "O Brasil está dividido em duas metades iguais e fechadas.",
+        "fato": "Na BTG/Nexus de março de 2026, cerca de 3 em cada 10 eleitores não eram convictos de nenhum lado: 23% não polarizados e 8% rejeitando ambos."
+      },
+      {
+        "mito": "Eu sei como é o eleitor do outro lado.",
+        "fato": "Quase todos os brasileiros erram o perfil do outro lado e imaginam que ele é mais 'típico' do que é. Quanto maior o erro, maior a hostilidade (Samuels, Mello e Zucco, 2024)."
+      }
+    ],
+    "para_aproximar": "Antes de discutir, pergunte o que a pessoa teme no candidato que ela rejeita. Muitas vezes o medo é parecido dos dois lados, como corrupção, violência ou perder direitos, e reconhecer isso diminui a distância.",
+    "fontes": [
+      {
+        "titulo": "Resenha de Partisans, Antipartisans, and Nonpartisans: Voting Behavior in Brazil (Samuels e Zucco, Cambridge University Press, 2018)",
+        "autor": "João V. Guedes-Neto (Revista Latinoamericana de Opinión Pública)",
+        "ano": "2021",
+        "url": "https://revistas.usal.es/index.php/1852-9003/article/view/26331"
+      },
+      {
+        "titulo": "Partisanship and Antipartisanship in Brazil (cap. 2 de Partisans, Antipartisans, and Nonpartisans)",
+        "autor": "David Samuels e Cesar Zucco",
+        "ano": "2018",
+        "url": "https://www.cambridge.org/core/books/partisans-antipartisans-and-nonpartisans/partisanship-and-antipartisanship-in-brazil/29955682A8E8400F7F49A4728885C7A6"
+      },
+      {
+        "titulo": "Partisan Stereotyping and Polarization in Brazil (Latin American Politics and Society, v. 66, n. 2)",
+        "autor": "David Samuels, Fernando Mello e Cesar Zucco",
+        "ano": "2024",
+        "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2F11FF3E4FB1C4B37069FA05515F29DA/S1531426X23000389a.pdf/partisan-stereotyping-and-polarization-in-brazil.pdf"
+      },
+      {
+        "titulo": "Eleições 2022 – 2º turno – 14/10/2022 (relatório Datafolha, registro BR-01682/2022)",
+        "autor": "Datafolha (Folha de S.Paulo e TV Globo)",
+        "ano": "2022",
+        "url": "https://static.poder360.com.br/2022/10/Datafolha-2o-turno.pdf"
+      },
+      {
+        "titulo": "Decisão 2026: Flávio Bolsonaro é rejeitado por 44% e Lula por 46%, aponta Datafolha",
+        "autor": "Times Brasil / CNBC",
+        "ano": "2026",
+        "url": "https://timesbrasil.com.br/brasil/decisao-2026-flavio-bolsonaro-e-rejeitado-por-44-e-lula-por-46-aponta-datafolha/"
+      },
+      {
+        "titulo": "Pesquisa de opinião – Eleições 2026 – Presidente, 1ª rodada (campo 27 a 29/03/2026, registro BR-07875/2026)",
+        "autor": "BTG Pactual / Nexus",
+        "ano": "2026",
+        "url": "https://static.poder360.com.br/2026/03/BTG-Nexus-presidente-mar2026.pdf"
+      },
+      {
+        "titulo": "Esther Solano: o que separa e aproxima Lula e Bolsonaro de evangélicos 'oscilantes'? (original: Rede Brasil Atual)",
+        "autor": "Tiago Pereira (IHU/RBA)",
+        "ano": "2022",
+        "url": "https://www.ihu.unisinos.br/621628"
+      }
+    ]
+  }
+]

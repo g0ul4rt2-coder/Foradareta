@@ -1,0 +1,535 @@
+{
+ "id": "wilson-grassi",
+ "nome_urna": "Wilson Grassi",
+ "nome_completo": "Wilson Grassi Junior",
+ "partido": "Democrata",
+ "numero": 35,
+ "vice": "Suêd Haidar Nogueira (Democrata)",
+ "coligacao": "Chapa pura (Democrata), sem coligação",
+ "resultado_1t": {
+  "votos": 16881,
+  "pct": 0.01
+ },
+ "situacao": "Eliminado no 1º turno (11º lugar)",
+ "resumo": "Médico veterinário paulistano, nascido em 1970, que atuou em projetos como o primeiro hospital público para cães e gatos de São Paulo. Disputou eleições para deputado estadual (2006) e vereador (2024) sem se eleger. Em agosto de 2026 teve a campanha digital suspensa cautelarmente pelo ministro Dias Toffoli (TSE) por atraso na declaração de perfis, depois liberada.",
+ "autodeclaracao": "Sem autodeclaração ideológica localizada; programa intitulado 'Brasil em Primeiro Lugar'.",
+ "plano_governo_url": "https://planodegoverno2026.com.br/planos/wilson-grassi-6fecb19d.pdf",
+ "propostas": [
+  {
+   "tema": "Impostos",
+   "texto": "Criar o Imposto Único Federal sobre movimentações bancárias no lugar de nove tributos federais.",
+   "fonte": "https://www.acessa.com/politica/2026/09/340246-wilson-grassi-defende-imposto-unico-e-mais-rigor-contra-faccoes.html"
+  },
+  {
+   "tema": "Impostos",
+   "texto": "Isentar de IR quem ganha até cinco salários mínimos e acabar com a contribuição patronal sobre a folha.",
+   "fonte": "https://www.acessa.com/politica/2026/09/340246-wilson-grassi-defende-imposto-unico-e-mais-rigor-contra-faccoes.html"
+  },
+  {
+   "tema": "Segurança",
+   "texto": "Plebiscito sobre modelo de confinamento de segurança máxima em larga escala, inspirado em El Salvador.",
+   "fonte": "https://www.acessa.com/politica/2026/09/340246-wilson-grassi-defende-imposto-unico-e-mais-rigor-contra-faccoes.html"
+  },
+  {
+   "tema": "Saúde",
+   "texto": "Fila nacional pública e consultável para cirurgias e exames eletivos.",
+   "fonte": "https://www.acessa.com/politica/2026/09/340246-wilson-grassi-defende-imposto-unico-e-mais-rigor-contra-faccoes.html"
+  },
+  {
+   "tema": "Defesa",
+   "texto": "Apoiar a PEC 55/2023, elevando o orçamento da defesa a 2% do PIB.",
+   "fonte": "https://www.acessa.com/politica/2026/09/340246-wilson-grassi-defende-imposto-unico-e-mais-rigor-contra-faccoes.html"
+  },
+  {
+   "tema": "Proteção social",
+   "texto": "Fora do plano: elevar o Bolsa Família a R$ 2 mil, condicionado à perda do direito de voto do beneficiário.",
+   "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/candidato-ao-planalto-quer-criar-meu-botox-minha-vida/"
+  }
+ ],
+ "posicoes": {
+  "E01": {
+   "v": 1,
+   "conf": "baixa",
+   "base": "DISCURSO: Em entrevista à Folha propôs Bolsa Família de R$ 2 mil, condicionado à perda do direito de voto (fora do plano).",
+   "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/candidato-ao-planalto-quer-criar-meu-botox-minha-vida/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E02": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E03": {
+   "v": -1,
+   "conf": "baixa",
+   "base": "DISCURSO: Propõe imposto único de 2% sobre movimentações bancárias, não progressivo; isenta IR até 5 salários mínimos.",
+   "fonte": "https://agorarn.com.br/?p=2397266",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E04": {
+   "v": 0,
+   "conf": "baixa",
+   "base": "DISCURSO: Propõe fim das emendas e corte de despesas de parlamentares, mas também Bolsa Família de R$ 2 mil.",
+   "fonte": "https://agorarn.com.br/?p=2397266",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E05": {
+   "v": -1,
+   "conf": "baixa",
+   "base": "DISCURSO: Defende extinguir a CLT e a Justiça do Trabalho (fora do plano); 6x1 não citada.",
+   "fonte": "https://agorarn.com.br/?p=2397266",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E06": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem menção a trabalhadores de aplicativo no plano ou nas entrevistas consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E07": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E08": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E09": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E10": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Plano propõe expandir Saúde da Família e fila pública nacional; gestão privada não tratada.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E11": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E12": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E13": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E14": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Propõe condicionar Bolsa Família à perda do voto, condição que não equivale a contrapartida de trabalho ou prazo de saída.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E15": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E16": {
+   "v": 2,
+   "conf": "media",
+   "base": "DISCURSO: Plano propõe imposto único, fim da contribuição patronal sobre folha e menos burocracia.",
+   "fonte": "https://www.acessa.com/politica/2026/09/340246-wilson-grassi-defende-imposto-unico-e-mais-rigor-contra-faccoes.html",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E17": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E18": {
+   "v": -1,
+   "conf": "baixa",
+   "base": "DISCURSO: Defende extinguir a CLT e a Justiça do Trabalho; sindicatos não citados.",
+   "fonte": "https://agorarn.com.br/?p=2397266",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V01": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V02": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V03": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V04": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V05": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V06": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V07": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V08": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V09": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V10": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V11": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V12": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Propõe debater mineração regulada em terras indígenas com consulta prévia; marco temporal não citado.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V13": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V14": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V15": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V16": {
+   "v": 1,
+   "conf": "media",
+   "base": "DISCURSO: Plano propõe ampliar presídios federais de segurança máxima e plebiscito sobre confinamento em larga escala.",
+   "fonte": "https://www.acessa.com/politica/2026/09/340246-wilson-grassi-defende-imposto-unico-e-mais-rigor-contra-faccoes.html",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V17": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V18": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V19": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z01": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada sobre aceitação de resultados.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z02": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Plano prevê apoio logístico das Forças Armadas na segurança; não trata de intervenção militar.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z03": {
+   "v": -1,
+   "conf": "baixa",
+   "base": "DISCURSO: Plano: 'Prisão continua dependendo de decisão judicial fundamentada' e diz que medida tomada 'por canetada nasce sem legitimidade e morre no primeiro habeas corpus'.",
+   "fonte": "https://planodegoverno2026.com.br/planos/wilson-grassi-6fecb19d.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z04": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada sobre imprensa.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z05": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z06": {
+   "v": 1,
+   "conf": "media",
+   "base": "DISCURSO: Plano: 'Nenhuma promessa sem instrumento identificado. Se a medida depende de emenda constitucional, isso está dito. Se depende do Congresso, também'; propõe plebiscito por decreto legislativo (CF, art. 49, XV).",
+   "fonte": "https://planodegoverno2026.com.br/planos/wilson-grassi-6fecb19d.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z07": {
+   "v": -2,
+   "conf": "media",
+   "base": "DISCURSO: Plano: 'evitamos prometer o que a Presidência não decide sozinha' e reconhece que 'o Presidente da República não convoca plebiscito'.",
+   "fonte": "https://planodegoverno2026.com.br/planos/wilson-grassi-6fecb19d.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z08": {
+   "v": 1,
+   "conf": "baixa",
+   "base": "DISCURSO: Plano cita alertas da CIDH (ago/2025) e da Anistia Internacional sobre prisões arbitrárias e tortura em El Salvador e rejeita 'o regime de exceção que acompanhou aquela política'; não trata de eleições em outros países.",
+   "fonte": "https://planodegoverno2026.com.br/planos/wilson-grassi-6fecb19d.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V20": {
+   "v": null,
+   "p": null,
+   "conf": "baixa",
+   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
+   "fonte": null
+  },
+  "Z09": {
+   "v": null,
+   "p": null,
+   "conf": "baixa",
+   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
+   "fonte": null
+  },
+  "Z10": {
+   "v": null,
+   "p": null,
+   "conf": "baixa",
+   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
+   "fonte": null
+  }
+ },
+ "checagens": [],
+ "fontes": [
+  "https://www.acessa.com/politica/2026/09/340246-wilson-grassi-defende-imposto-unico-e-mais-rigor-contra-faccoes.html",
+  "https://www.poder360.com.br/poder-eleicoes-2026/candidato-ao-planalto-quer-criar-meu-botox-minha-vida/",
+  "https://agorarn.com.br/?p=2397266",
+  "https://jovempan.com.br/?p=278345",
+  "https://www.cnnbrasil.com.br/eleicoes/toffoli-suspende-campanha-de-wilson-grassi/",
+  "https://agenciabrasil.ebc.com.br/justica/noticia/2026-08/toffoli-suspende-campanha-digital-de-grassi-presidencia",
+  "https://planodegoverno2026.com.br/planos/wilson-grassi-6fecb19d.pdf"
+ ],
+ "atualizado_em": "2026-10-25",
+ "pratica_resumo": "Nunca exerceu mandato eletivo nem cargo executivo; disputou vagas de deputado estadual (2006) e vereador (2024) sem se eleger. Sem votos ou atos de governo, não há nota de prática. Contexto: em 30/08/2026 o TSE suspendeu cautelarmente sua campanha digital por atraso na declaração de perfis; não localizei registro de descumprimento.",
+ "atos": []
+}

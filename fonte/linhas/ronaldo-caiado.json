@@ -1,0 +1,340 @@
+{
+ "id": "ronaldo-caiado",
+ "nome": "Ronaldo Caiado",
+ "eventos": [
+  {
+   "data": "1949-09-25",
+   "tipo": "origem",
+   "titulo": "Nasce em Anápolis (GO)",
+   "texto": "Ronaldo Ramos Caiado nasce em Anápolis, Goiás.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/456"
+  },
+  {
+   "data": "1972",
+   "tipo": "carreira",
+   "titulo": "Forma-se em Medicina",
+   "texto": "Forma-se na Escola de Medicina e Cirurgia do Rio de Janeiro (atual UNIRIO), onde cursa Medicina de 1968 a 1974. Em 1979 conclui mestrado em Medicina na UFRJ.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://www.camara.leg.br/deputados/74813/biografia"
+  },
+  {
+   "data": "1985",
+   "tipo": "carreira",
+   "titulo": "Funda a UDR",
+   "texto": "Funda, em maio de 1985, a União Democrática Ruralista (UDR), entidade de produtores rurais contrária à reforma agrária nos moldes então propostos. É o primeiro presidente da UDR, até 1989.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-tematico/uniao-democratica-ruralista-udr"
+  },
+  {
+   "data": "1989",
+   "tipo": "eleicao",
+   "titulo": "Primeira disputa: Presidência",
+   "texto": "Candidato a presidente pelo PSD (partido da época, já extinto), termina em 10º lugar, com cerca de 0,7% dos votos.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://dadosabertos.tse.jus.br/dataset/resultados-1989"
+  },
+  {
+   "data": "1990",
+   "tipo": "eleicao",
+   "titulo": "Eleito deputado federal",
+   "texto": "Eleito deputado federal por Goiás com 98.256 votos, para o mandato de 1991 a 1995.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://dadosabertos.tse.jus.br/dataset/resultados-1990"
+  },
+  {
+   "data": "1998",
+   "tipo": "eleicao",
+   "titulo": "Volta à Câmara por 16 anos",
+   "texto": "Eleito de novo deputado federal; reeleito em 2002, 2006 e 2010. Fica no PFL até 2007, quando o partido muda o nome para DEM.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://www.camara.leg.br/deputados/74813/biografia"
+  },
+  {
+   "data": "2014",
+   "tipo": "eleicao",
+   "titulo": "Eleito senador",
+   "texto": "Eleito senador por Goiás com 47,57% dos votos, pelo DEM, para o mandato iniciado em 2015.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://dadosabertos.tse.jus.br/dataset/resultados-2014"
+  },
+  {
+   "data": "2015-12-01",
+   "tipo": "decisao",
+   "titulo": "STF rejeita queixa-crime de Lula contra Caiado",
+   "texto": "Em fevereiro de 2015, Caiado escreveu que Lula tinha 'postura de bandido'. Lula entrou com queixa-crime por calúnia, injúria e difamação. A 1ª Turma do STF rejeitou a ação por 3 a 1: o relator, Edson Fachin, entendeu que as falas estavam ligadas à atividade parlamentar e protegidas pela imunidade.",
+   "status": "Queixa-crime rejeitada (imunidade parlamentar); caso encerrado",
+   "pessoas": [
+    "lula",
+    "edson-fachin"
+   ],
+   "fonte": "https://www.congressoemfoco.com.br/noticia/47053/stf-rejeita-queixa-crime-de-lula-contra-caiado"
+  },
+  {
+   "data": "2018-08",
+   "tipo": "decisao",
+   "titulo": "Multa por propaganda antecipada",
+   "texto": "O TRE-GO manteve condenação de Caiado a multa de R$ 5 mil (valor mínimo da lei) por pedir votos, em abril de 2018, antes do período permitido, em evento em Morrinhos. O senador Wilder Morais, beneficiado pelo pedido, foi absolvido.",
+   "status": "Condenado a multa eleitoral; recurso negado pelo TRE-GO",
+   "pessoas": [
+    "wilder-morais"
+   ],
+   "fonte": "https://www.jornalopcao.com.br/ultimas-noticias/justica-nega-recurso-e-mantem-condenacao-de-caiado-por-propaganda-eleitoral-antecipada-134434/"
+  },
+  {
+   "data": "2018-10-07",
+   "tipo": "eleicao",
+   "titulo": "Eleito governador no 1º turno",
+   "texto": "Eleito governador de Goiás no 1º turno, com 59,73% dos votos válidos. Deixa o Senado em 1º de janeiro de 2019.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://dadosabertos.tse.jus.br/dataset/resultados-2018"
+  },
+  {
+   "data": "2019-01-01",
+   "tipo": "cargo",
+   "titulo": "Assume o governo de Goiás",
+   "texto": "Toma posse como governador. No início, é aliado próximo do presidente Jair Bolsonaro.",
+   "status": null,
+   "pessoas": [
+    "jair-bolsonaro"
+   ],
+   "fonte": "https://agenciabrasil.ebc.com.br/politica/noticia/2019-01/caiado-assume-governo-de-goias-prometendo-cortar-na-carne"
+  },
+  {
+   "data": "2020-03-25",
+   "tipo": "ruptura",
+   "titulo": "Rompe com Bolsonaro na pandemia",
+   "texto": "Um dia depois do pronunciamento em que Bolsonaro chamou a covid-19 de 'gripezinha', Caiado anuncia que as orientações do presidente não valeriam em Goiás e que seguiria a OMS e os técnicos do Ministério da Saúde.",
+   "status": null,
+   "pessoas": [
+    "jair-bolsonaro"
+   ],
+   "fonte": "https://www.congressoemfoco.com.br/temas/economia/caiado-rompe-com-bolsonaro-e-presidente-se-isola-de-governadores/"
+  },
+  {
+   "data": "2021-12-24",
+   "tipo": "governo",
+   "titulo": "Goiás entra no Regime de Recuperação Fiscal",
+   "texto": "Bolsonaro homologa a adesão de Goiás ao Regime de Recuperação Fiscal (programa federal para estados endividados), com elogios a Caiado, sinal de reaproximação.",
+   "status": null,
+   "pessoas": [
+    "jair-bolsonaro"
+   ],
+   "fonte": "https://www.maisgoias.com.br/cidades/bolsonaro-assina-adesao-de-goias-ao-rrf-com-elogios-a-caiado/"
+  },
+  {
+   "data": "2022-10-02",
+   "tipo": "eleicao",
+   "titulo": "Reeleito no 1º turno",
+   "texto": "Reeleito governador no 1º turno, com 51,81% dos votos, pelo União Brasil. Na disputa presidencial, apoia Jair Bolsonaro.",
+   "status": null,
+   "pessoas": [
+    "jair-bolsonaro"
+   ],
+   "fonte": "https://www.poder360.com.br/eleicoes/ronaldo-caiado-e-reeleito-governador-de-goias/"
+  },
+  {
+   "data": "2024-12",
+   "tipo": "condenacao",
+   "titulo": "Juíza declara Caiado inelegível",
+   "texto": "A juíza Maria Umbelina Zorzetti (1ª Zona Eleitoral de Goiânia) condena Caiado por abuso de poder político na eleição municipal de 2024: jantares e eventos no Palácio das Esmeraldas, sede do governo, a favor da campanha de Sandro Mabel a prefeito. Pena: oito anos de inelegibilidade. A ação foi movida pelo candidato derrotado Fred Rodrigues (PL).",
+   "status": "Condenação de 1ª instância revertida pelo TRE-GO em 08/04/2025",
+   "pessoas": [
+    "sandro-mabel",
+    "fred-rodrigues"
+   ],
+   "fonte": "https://www.cnnbrasil.com.br/politica/tre-go-tem-maioria-para-manter-caiado-elegivel/"
+  },
+  {
+   "data": "2025-04-04",
+   "tipo": "eleicao",
+   "titulo": "Lança pré-candidatura a presidente",
+   "texto": "Lança oficialmente, no início de abril de 2025, a pré-candidatura à Presidência, apresentando-se como alternativa da direita moderada.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://agenciabrasil.ebc.com.br/justica/noticia/2025-04/tre-go-afasta-inelegibilidade-de-governador-ronaldo-caiado"
+  },
+  {
+   "data": "2025-04-08",
+   "tipo": "decisao",
+   "titulo": "TRE-GO afasta inelegibilidade e mantém multa",
+   "texto": "Por unanimidade, o TRE-GO entende que houve conduta proibida (uso de servidores e do palácio), mas sem gravidade suficiente para configurar abuso de poder. Troca a inelegibilidade por multa de R$ 60 mil para Caiado (R$ 40 mil para Mabel). O próprio Ministério Público Eleitoral achava as punições excessivas.",
+   "status": "Inelegibilidade afastada; multa de R$ 60 mil mantida",
+   "pessoas": [
+    "sandro-mabel"
+   ],
+   "fonte": "https://www.cnnbrasil.com.br/politica/tre-go-tem-maioria-para-manter-caiado-elegivel/"
+  },
+  {
+   "data": "2025-04-14",
+   "tipo": "decisao",
+   "titulo": "PL desiste de recorrer ao TSE",
+   "texto": "Termina o prazo de recurso sem que o PL leve o caso ao TSE. O autor da ação, Fred Rodrigues, disse que o partido atendeu a um pedido de Caiado e preferiu 'focar a energia em outras batalhas'.",
+   "status": "Sem recurso ao TSE; prevalece a decisão do TRE-GO (multa, sem inelegibilidade)",
+   "pessoas": [
+    "fred-rodrigues"
+   ],
+   "fonte": "https://tribunadoplanalto.com.br/pl-decide-nao-recorrer-ao-tse-contra-caiado-e-mabel/"
+  },
+  {
+   "data": "2025-10-10",
+   "tipo": "decisao",
+   "titulo": "Moraes suspende leis do Fundeinfra",
+   "texto": "A pedido do PT, o ministro Alexandre de Moraes suspende por liminar leis goianas do Fundeinfra (fundo de infraestrutura pago pelo agro). Caiado diz 'Cumprirei a decisão', mas chama o voto de 'político'.",
+   "status": "Ação contra leis do estado (não contra Caiado); liminar aguardando o plenário do STF",
+   "pessoas": [
+    "alexandre-de-moraes"
+   ],
+   "fonte": "https://ohoje.com/2025/10/11/caiado-critica-moraes-e-cumprira-decisao-stf/"
+  },
+  {
+   "data": "2026-01-27",
+   "tipo": "ruptura",
+   "titulo": "Deixa o União Brasil e entra no PSD",
+   "texto": "Sai do União Brasil, que não endossou sua candidatura, e filia-se ao PSD de Gilberto Kassab. Em 2015, Caiado chamara Kassab de 'cafetão do Palácio do Planalto'.",
+   "status": null,
+   "pessoas": [
+    "gilberto-kassab"
+   ],
+   "fonte": "https://www.infomoney.com.br/politica/recem-filiado-ao-psd-caiado-ja-insultou-kassab-traira-cafetao-e-mau-carater/amp/"
+  },
+  {
+   "data": "2026-03-30",
+   "tipo": "alianca",
+   "titulo": "PSD escolhe Caiado em vez de Eduardo Leite",
+   "texto": "Kassab anuncia Caiado como pré-candidato do PSD após disputa interna com o governador gaúcho Eduardo Leite; Ratinho Júnior já havia desistido.",
+   "status": null,
+   "pessoas": [
+    "gilberto-kassab",
+    "eduardo-leite",
+    "ratinho-junior"
+   ],
+   "fonte": "https://exame.com/brasil/eleicoes-2026-quem-e-ronaldo-caiado-pre-candidato-a-presidencia/"
+  },
+  {
+   "data": "2026-03-31",
+   "tipo": "cargo",
+   "titulo": "Deixa o governo de Goiás",
+   "texto": "Encerra o mandato de governador para disputar a Presidência; o vice Daniel Vilela assume.",
+   "status": null,
+   "pessoas": [
+    "daniel-vilela"
+   ],
+   "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/daniel-vilela-e-eleito-governador-de-goias-no-1o-turno/"
+  },
+  {
+   "data": "2026-06-27",
+   "tipo": "processo",
+   "titulo": "MP de Goiás processa Caiado por escolta de 51 PMs",
+   "texto": "O Ministério Público de Goiás move ação de improbidade contra Caiado, a ex-primeira-dama Gracinha Caiado e o chefe da Casa Militar. Questiona portaria de 01/04/2026 que deu a Caiado e familiares escolta de 51 policiais militares (cerca de R$ 797,5 mil por mês em salários). Pede ressarcimento e condenação por improbidade.",
+   "status": "Alvo de ação de improbidade em andamento; sem julgamento de mérito",
+   "pessoas": [
+    "gracinha-caiado"
+   ],
+   "fonte": "https://brasildefato.com.br/2026/06/27/ronaldo-caiado-entra-na-mira-do-mp-de-goias-por-uso-de-policiais-como-segurancas-particulares"
+  },
+  {
+   "data": "2026-07-06",
+   "tipo": "decisao",
+   "titulo": "Liminar reduz escolta de 51 para 4 PMs",
+   "texto": "O juiz da 2ª Vara da Fazenda Pública de Goiás limita a escolta a quatro policiais, sob multa diária de R$ 10 mil. A Procuradoria-Geral do Estado defende que a proteção tem base na Constituição estadual e 'não constitui benefício pessoal', citando riscos ligados ao exercício do cargo.",
+   "status": "Decisão provisória (liminar); ação de improbidade sem sentença",
+   "pessoas": [],
+   "fonte": "https://revistaoeste.com/politica/justica-manda-caiado-reduzir-escolta-de-51-para-quatro-pms/"
+  },
+  {
+   "data": "2026-07-14",
+   "tipo": "processo",
+   "titulo": "Caiado processa Boulos no STF",
+   "texto": "Caiado apresenta queixa-crime por calúnia, difamação e injúria contra o ministro Guilherme Boulos, que em vídeo o ligou a 'escândalo relacionado ao crime organizado' ao citar contratos de R$ 141 milhões do governo com a Fundação Pró-Cerrado, cujo dirigente é investigado em São Paulo. A defesa de Caiado diz que a investigação trata de negócios privados e não o envolve. Relator: André Mendonça.",
+   "status": "Caiado é autor; queixa-crime em análise no STF, sem decisão localizada",
+   "pessoas": [
+    "guilherme-boulos",
+    "andre-mendonca"
+   ],
+   "fonte": "https://www.correiodamanha.com.br/colunistas/paulo-cappelli/2026/07/302342-andre-mendonca-sera-relator-de-acao-de-caiado-contra-boulos-no-stf.html"
+  },
+  {
+   "data": "2026-07-26",
+   "tipo": "eleicao",
+   "titulo": "Candidatura oficializada com Kassab de vice",
+   "texto": "Convenção do PSD oficializa Caiado à Presidência, em chapa pura com Gilberto Kassab como vice e sem alianças nacionais.",
+   "status": null,
+   "pessoas": [
+    "gilberto-kassab"
+   ],
+   "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/kassab-diz-que-nao-tinha-solo-fertil-para-acordo-com-uniao-brasil-e-pp/"
+  },
+  {
+   "data": "2026-07-27",
+   "tipo": "declaracao",
+   "titulo": "Promete indulto a Bolsonaro no 1º dia",
+   "texto": "Diz que, se eleito, assinará no primeiro dia de governo um indulto (perdão da pena) a Jair Bolsonaro, condenado pelo STF, como forma de 'pacificar o país'.",
+   "status": null,
+   "pessoas": [
+    "jair-bolsonaro"
+   ],
+   "fonte": "https://ohoje.com/2026/07/27/vou-assinar-no-primeiro-dia-diz-caiado-ao-prometer-indulto-a-bolsonaro-se-for-presidente/"
+  },
+  {
+   "data": "2026-09-09",
+   "tipo": "decisao",
+   "titulo": "Propaganda sobre 'invasões do PT' é suspensa",
+   "texto": "A pedido da coligação de Lula, o ministro André Mendonça manda tirar do ar a versão de propaganda que dizia que 'o PT começou a invadir a terra de quem plantava'. Para ele, criticar a proximidade PT–MST é permitido, mas não há 'substrato factual' para atribuir as invasões ao partido.",
+   "status": "Propaganda suspensa por decisão provisória; pedido de direito de resposta pendente",
+   "pessoas": [
+    "andre-mendonca",
+    "lula"
+   ],
+   "fonte": "https://acritica.net/eleicoes-2026/mendonca-proibe-propaganda-de-caiado-que-atribuia-invasoes-de-terra-ao-pt/"
+  },
+  {
+   "data": "2026-10-04",
+   "tipo": "eleicao",
+   "titulo": "5º lugar no 1º turno",
+   "texto": "Recebe 2.605.148 votos (2,18%) e fica fora do 2º turno.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://portaldeprefeitura.com.br/bastidores-da-politica/eleicoes-2026-com-100-das-secoes-totalizadas-flavio-tem-4703-e/633498/"
+  },
+  {
+   "data": "2026-10-06",
+   "tipo": "alianca",
+   "titulo": "Apoio 'de corpo inteiro' a Flávio",
+   "texto": "Em Goiânia, ao lado de Flávio Bolsonaro (PL), declara apoio 'integral e de corpo inteiro' no 2º turno e entrega documento com propostas comuns.",
+   "status": null,
+   "pessoas": [
+    "flavio-bolsonaro"
+   ],
+   "fonte": "https://viva.com.br/politica/caiado-declara-apoio-integral-a-flavio-bolsonaro-no-2-turno.html"
+  }
+ ],
+ "resumo_juridico": "Caiado não responde a ação penal conhecida e não tem condenação criminal. Na Justiça Eleitoral, foi multado em 2018 (R$ 5 mil, propaganda antecipada) e, no caso da eleição de Goiânia de 2024, foi declarado inelegível em 1ª instância (dez/2024), mas o TRE-GO, por unanimidade, afastou a inelegibilidade em 08/04/2025 e manteve multa de R$ 60 mil; o PL não recorreu ao TSE. Está em andamento uma ação de improbidade (processo civil, não criminal) do MP de Goiás sobre a escolta de 51 policiais militares: há apenas liminar (06/07/2026) que limitou a escolta a quatro PMs, sem julgamento de mérito; o Estado defende a legalidade da proteção. Como autor, Caiado move queixa-crime contra Guilherme Boulos no STF (sem decisão localizada). Em 2015, a queixa-crime de Lula contra ele foi rejeitada pelo STF por imunidade parlamentar. Em 2026, teve propaganda suspensa pela Justiça Eleitoral. Ações citadas pela imprensa sobre o governo (como a suspensão das leis do Fundeinfra) atingem atos do estado, não a pessoa de Caiado.",
+ "fontes": [
+  "https://www.camara.leg.br/deputados/74813/biografia",
+  "https://www.congressoemfoco.com.br/noticia/47053/stf-rejeita-queixa-crime-de-lula-contra-caiado",
+  "https://www.jornalopcao.com.br/ultimas-noticias/justica-nega-recurso-e-mantem-condenacao-de-caiado-por-propaganda-eleitoral-antecipada-134434/",
+  "https://www.congressoemfoco.com.br/temas/economia/caiado-rompe-com-bolsonaro-e-presidente-se-isola-de-governadores/",
+  "https://www.maisgoias.com.br/cidades/bolsonaro-assina-adesao-de-goias-ao-rrf-com-elogios-a-caiado/",
+  "https://www.cnnbrasil.com.br/politica/tre-go-tem-maioria-para-manter-caiado-elegivel/",
+  "https://tribunadoplanalto.com.br/pl-decide-nao-recorrer-ao-tse-contra-caiado-e-mabel/",
+  "https://ohoje.com/2025/10/11/caiado-critica-moraes-e-cumprira-decisao-stf/",
+  "https://www.infomoney.com.br/politica/recem-filiado-ao-psd-caiado-ja-insultou-kassab-traira-cafetao-e-mau-carater/amp/",
+  "https://brasildefato.com.br/2026/06/27/ronaldo-caiado-entra-na-mira-do-mp-de-goias-por-uso-de-policiais-como-segurancas-particulares",
+  "https://revistaoeste.com/politica/justica-manda-caiado-reduzir-escolta-de-51-para-quatro-pms/",
+  "https://www.correiodamanha.com.br/colunistas/paulo-cappelli/2026/07/302342-andre-mendonca-sera-relator-de-acao-de-caiado-contra-boulos-no-stf.html",
+  "https://www.poder360.com.br/poder-eleicoes-2026/kassab-diz-que-nao-tinha-solo-fertil-para-acordo-com-uniao-brasil-e-pp/",
+  "https://ohoje.com/2026/07/27/vou-assinar-no-primeiro-dia-diz-caiado-ao-prometer-indulto-a-bolsonaro-se-for-presidente/",
+  "https://acritica.net/eleicoes-2026/mendonca-proibe-propaganda-de-caiado-que-atribuia-invasoes-de-terra-ao-pt/",
+  "https://portaldeprefeitura.com.br/bastidores-da-politica/eleicoes-2026-com-100-das-secoes-totalizadas-flavio-tem-4703-e/633498/",
+  "https://viva.com.br/politica/caiado-declara-apoio-integral-a-flavio-bolsonaro-no-2-turno.html"
+ ]
+}

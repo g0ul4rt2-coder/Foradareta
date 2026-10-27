@@ -1,0 +1,652 @@
+{
+ "id": "lula",
+ "nome": "Luiz Inácio Lula da Silva",
+ "eventos": [
+  {
+   "data": "1945-10-27",
+   "tipo": "origem",
+   "titulo": "Nasce em Caetés (PE)",
+   "texto": "Luiz Inácio Lula da Silva nasce em Caetés, então parte de Garanhuns (PE); no registro civil, a data é 6 de outubro. Em dezembro de 1952 a família migra para o litoral paulista; em 1956 ele se muda para a capital. Torneiro mecânico, perde um dedo num acidente de trabalho em 1964.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://dadosabertos.camara.leg.br/api/v2/deputados/139289"
+  },
+  {
+   "data": "1978-05-12",
+   "tipo": "carreira",
+   "titulo": "Começam as greves do ABC",
+   "texto": "Presidente do Sindicato dos Metalúrgicos de São Bernardo e Diadema desde 1975, Lula lidera a primeira greve de metalúrgicos do ABC sob a ditadura, por aumento de salário. Em março de 1979, uma greve geral para cerca de 600 fábricas da região.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://memoriaglobo.globo.com/jornalismo/coberturas/greves-do-abc/noticia/greves-do-abc.ghtml"
+  },
+  {
+   "data": "1980-02-10",
+   "tipo": "carreira",
+   "titulo": "Fundação do PT",
+   "texto": "O Partido dos Trabalhadores é fundado em reunião no Colégio Sion, em São Paulo, com cerca de 400 delegados de 17 estados e do DF. Lula, líder sindical, é o principal dirigente.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://fpabramo.org.br/das-fabricas-e-das-ruas-ha-40-anos-pt-chegava-pra-mudar/"
+  },
+  {
+   "data": "1980-04-19",
+   "tipo": "processo",
+   "titulo": "Preso pela ditadura",
+   "texto": "Durante nova greve, é preso em casa e indiciado na Lei de Segurança Nacional (lei da ditadura contra 'crimes políticos'), com outros dez sindicalistas, e fica preso até 20/05/1980, nos primeiros oito dias incomunicável no Dops. Em 25/02/1981 a 2ª Auditoria Militar condena os sindicalistas, à revelia, a penas de 2 anos a 3 anos e 6 meses; em 16/04/1982 o Superior Tribunal Militar anula todo o processo (9 a 3) e manda o caso para a Justiça comum.",
+   "status": "Condenação de 1981 anulada pelo STM (1982); segundo a Fundação Perseu Abramo, a acusação prescreveria em menos de um mês",
+   "pessoas": [],
+   "fonte": "https://fpabramo.org.br/1980-lula-preso-amanha/"
+  },
+  {
+   "data": "1982-11",
+   "tipo": "eleicao",
+   "titulo": "Perde eleição para governador",
+   "texto": "Na primeira eleição do PT, disputa o governo de São Paulo e fica em 4º lugar, com cerca de 1,1 milhão de votos.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://fpabramo.org.br/1982-a-primeira-eleicao-de-lula-no-marco-do-fim-da-ditadura"
+  },
+  {
+   "data": "1986-11",
+   "tipo": "eleicao",
+   "titulo": "Eleito deputado constituinte",
+   "texto": "É eleito deputado federal por São Paulo com 651 mil votos, a maior votação para o cargo até então, e integra a Assembleia Constituinte que escreve a Constituição de 1988.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://www.camara.leg.br/deputados/139289/biografia"
+  },
+  {
+   "data": "1989-12-17",
+   "tipo": "eleicao",
+   "titulo": "Perde para Collor",
+   "texto": "Na primeira eleição direta para presidente desde 1960, vai ao 2º turno e perde para Fernando Collor por 53% a 47%.",
+   "status": null,
+   "pessoas": [
+    "fernando-collor"
+   ],
+   "fonte": "https://memoriaglobo.globo.com/jornalismo/coberturas/eleicoes-presidenciais-1989/noticia/eleicoes-presidenciais-1989.ghtml"
+  },
+  {
+   "data": "1994-10-03",
+   "tipo": "eleicao",
+   "titulo": "Perde duas vezes para FHC",
+   "texto": "Perde para Fernando Henrique Cardoso no 1º turno em 1994 (54,3% a cerca de 27%) e de novo em 1998 (35,9 milhões de votos contra 21,5 milhões).",
+   "status": null,
+   "pessoas": [
+    "fernando-henrique-cardoso"
+   ],
+   "fonte": "https://dadosabertos.tse.jus.br/dataset/resultados-1998"
+  },
+  {
+   "data": "2002-06",
+   "tipo": "declaracao",
+   "titulo": "Carta ao Povo Brasileiro",
+   "texto": "Em plena campanha, divulga a 'Carta ao Povo Brasileiro', em que se compromete a respeitar contratos e a estabilidade da economia, para reduzir a desconfiança do mercado.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://www1.folha.uol.com.br/folha/brasil/ult96u33908.shtml"
+  },
+  {
+   "data": "2002-06-23",
+   "tipo": "alianca",
+   "titulo": "Aliança com o antigo PL",
+   "texto": "A convenção do PL (Partido Liberal) aprova a chapa com o PT, e o senador e empresário José Alencar (PL-MG) vira vice de Lula. A aliança foi articulada por Valdemar Costa Neto. Esse PL se fundiu com o Prona em 2006, virou PR e voltou a se chamar PL em 2019: é o partido de Flávio Bolsonaro hoje.",
+   "status": null,
+   "pessoas": [
+    "jose-alencar",
+    "valdemar-costa-neto"
+   ],
+   "fonte": "https://www.cnnbrasil.com.br/politica/de-jose-alencar-a-bolsonaro-pl-de-valdemar-costa-neto-se-prepara-para-2022/"
+  },
+  {
+   "data": "2002-10-27",
+   "tipo": "eleicao",
+   "titulo": "Eleito presidente",
+   "texto": "Vence José Serra (PSDB) no 2º turno com 61,27% dos votos válidos. A coligação 'Lula Presidente' reuniu PT, PL, PCdoB, PMN e PCB.",
+   "status": null,
+   "pessoas": [
+    "jose-serra",
+    "jose-alencar"
+   ],
+   "fonte": "https://dadosabertos.tse.jus.br/dataset/resultados-2002"
+  },
+  {
+   "data": "2003-10-20",
+   "tipo": "governo",
+   "titulo": "Criação do Bolsa Família",
+   "texto": "Medida provisória cria o Bolsa Família, que unifica programas do governo FHC (Bolsa Escola, Auxílio-Gás, Bolsa Alimentação). Vira lei em 09/01/2004. Em 2010 atendia cerca de 12,7 milhões de famílias.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://www2.camara.leg.br/legin/fed/lei/2004/lei-10836-9-janeiro-2004-490604-publicacaooriginal-1-pl.html"
+  },
+  {
+   "data": "2005-06-06",
+   "tipo": "escandalo",
+   "titulo": "Estoura o Mensalão",
+   "texto": "O deputado Roberto Jefferson (PTB) diz à Folha de S.Paulo que o PT pagava R$ 30 mil por mês a deputados da base em troca de apoio no Congresso. José Dirceu deixa a Casa Civil em 16/06/2005 (data da saída de Dirceu: fonte Folha de S.Paulo, 17/06/2005).",
+   "status": null,
+   "pessoas": [
+    "roberto-jefferson",
+    "jose-dirceu"
+   ],
+   "fonte": "https://mais.opovo.com.br/jornal/politica/2025/06/06/mensalao-20-anosonde-estao-os-personagens-de-um-dos-maiores-escandalos-do-brasil-ate-entao.html"
+  },
+  {
+   "data": "2005-08-12",
+   "tipo": "declaracao",
+   "titulo": "'Eu me sinto traído'",
+   "texto": "Em pronunciamento, Lula diz se sentir traído por 'práticas inaceitáveis' das quais diz nunca ter tido conhecimento, e afirma que o PT e o governo devem pedir desculpas.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://memoria.ebc.com.br/agenciabrasil//noticia/2005-08-12/address-nation-lula-says-he-was-betrayed-and-begs-forgiveness"
+  },
+  {
+   "data": "2005-11-07",
+   "tipo": "declaracao",
+   "titulo": "Nega que houve mensalão",
+   "texto": "No programa Roda Viva (TV Cultura), afirma ter certeza de que não houve o esquema do mensalão e defende José Dirceu.",
+   "status": null,
+   "pessoas": [
+    "jose-dirceu"
+   ],
+   "fonte": "https://memoria.ebc.com.br/agenciabrasil//noticia/2005-11-08/lula-asserts-tv-mensalao-scheme-did-not-exist"
+  },
+  {
+   "data": "2006-03-30",
+   "tipo": "denuncia",
+   "titulo": "PGR denuncia 40; Lula fica de fora",
+   "texto": "O procurador-geral Antonio Fernando de Souza denuncia 40 pessoas ao STF pelo mensalão, entre elas Dirceu, Genoino e Delúbio (PT) e deputados de PP, PL, PTB e PMDB. A denúncia não inclui Lula.",
+   "status": "Lula não foi denunciado nem réu no Mensalão",
+   "pessoas": [
+    "jose-dirceu",
+    "jose-genoino",
+    "delubio-soares"
+   ],
+   "fonte": "https://www.congressoemfoco.com.br/noticia/98219/mensalao-procurador-geral-denuncia-40-pessoas"
+  },
+  {
+   "data": "2006-10-29",
+   "tipo": "eleicao",
+   "titulo": "Reeleito contra Alckmin",
+   "texto": "É reeleito no 2º turno contra Geraldo Alckmin (PSDB), com 60,83% dos votos válidos.",
+   "status": null,
+   "pessoas": [
+    "geraldo-alckmin"
+   ],
+   "fonte": "https://dadosabertos.tse.jus.br/dataset/resultados-2006"
+  },
+  {
+   "data": "2010-12",
+   "tipo": "governo",
+   "titulo": "Sai com mais de 80% de aprovação",
+   "texto": "Termina o 2º mandato com aprovação pessoal acima de 80% (87% no Ibope de dezembro de 2010). Dilma Rousseff, sua candidata, é eleita para sucedê-lo.",
+   "status": null,
+   "pessoas": [
+    "dilma-rousseff"
+   ],
+   "fonte": "https://g1.globo.com/politica/noticia/2010/12/popularidade-de-lula-bate-recorde-e-chega-87-diz-ibope.html"
+  },
+  {
+   "data": "2013-11-13",
+   "tipo": "condenacao",
+   "titulo": "STF manda executar penas do Mensalão",
+   "texto": "O STF condenou 25 réus na Ação Penal 470 e, em 13/11/2013, decide por 6 a 5 executar as penas. Entre os presos: José Dirceu, José Genoino, Delúbio Soares (PT), Marcos Valério, Roberto Jefferson (PTB) e Valdemar Costa Neto (então PR). Entre 2015 e 2016 o núcleo político recebeu indulto.",
+   "status": "Condenações dos réus transitadas em julgado; penas depois extintas por indulto. Lula não foi réu",
+   "pessoas": [
+    "jose-dirceu",
+    "jose-genoino",
+    "delubio-soares",
+    "roberto-jefferson",
+    "valdemar-costa-neto"
+   ],
+   "fonte": "https://congressoemfoco.com.br/noticia/67440/stf-determina-execucao-imediata-das-penas-do-mensalao"
+  },
+  {
+   "data": "2016",
+   "tipo": "denuncia",
+   "titulo": "Caso Angola (Operação Janus)",
+   "texto": "O MPF no Distrito Federal denunciou Lula, Marcelo Odebrecht e outros por crimes ligados a financiamentos do BNDES para obras da Odebrecht em Angola, entre eles tráfico de influência, corrupção e lavagem de dinheiro. Em delação, Marcelo Odebrecht disse nunca ter tratado diretamente com Lula sobre propina.",
+   "status": "Em 2019 a 10ª Vara Federal do DF absolveu Lula de parte das acusações e manteve o restante; depois, a Justiça Federal do DF trancou ação relacionada por se apoiar em provas da Lava Jato anuladas pelo STF. Não houve condenação. O desfecho definitivo de todos os pontos não foi localizado.",
+   "pessoas": [
+    "marcelo-odebrecht"
+   ],
+   "fonte": "https://www.em.com.br/app/noticia/politica/2019/07/24/interna_politica,1072172/amp.html"
+  },
+  {
+   "data": "2016",
+   "tipo": "processo",
+   "titulo": "Caças Gripen (Operação Zelotes)",
+   "texto": "A Justiça Federal aceitou denúncia do MPF e Lula virou réu, com o filho Luís Cláudio, por tráfico de influência, lavagem de dinheiro e organização criminosa ligados à compra de 36 caças suecos Gripen e a uma medida provisória de incentivo a montadoras. A defesa negou as acusações.",
+   "status": "Em fevereiro de 2022 o ministro Ricardo Lewandowski (STF) trancou a ação penal, acolhendo argumentos da defesa baseados em mensagens da Operação Spoofing. Não houve julgamento de mérito nem absolvição.",
+   "pessoas": [
+    "ricardo-lewandowski"
+   ],
+   "fonte": "https://www.folhape.com.br/politica/lewandowski-suspende-ultima-acao-penal-contra-lula-na-justica/217719/"
+  },
+  {
+   "data": "2016-03",
+   "tipo": "investigacao",
+   "titulo": "Condução coercitiva na Lava Jato",
+   "texto": "Lula foi levado pela Polícia Federal para prestar depoimento, por ordem do então juiz Sergio Moro, numa fase da Lava Jato. Um mês depois, o PT pediu ao STF que declarasse esse tipo de condução incompatível com a Constituição (ADPF 395).",
+   "status": "Em 14/06/2018 o STF decidiu, por maioria, que a condução coercitiva de investigados para interrogatório não é compatível com a Constituição (ADPFs 395 e 444). A decisão é geral e não julgou especificamente o caso de Lula.",
+   "pessoas": [
+    "sergio-moro"
+   ],
+   "fonte": "https://www.tribunapr.com.br/noticias/politica/pt-pede-ao-supremo-que-declare-coercitiva-incompativel-com-a-constituicao/"
+  },
+  {
+   "data": "2016-09-20",
+   "tipo": "denuncia",
+   "titulo": "Vira réu no caso do triplex",
+   "texto": "O MPF denuncia Lula em 14/09/2016 por corrupção e lavagem de dinheiro ligadas a um apartamento triplex no Guarujá (SP) e à OAS. Em 20/09, o juiz Sergio Moro recebe a denúncia e Lula vira réu. Ele nega ser dono do imóvel.",
+   "status": "Réu (2016); condenação depois anulada e caso arquivado por prescrição em 2022",
+   "pessoas": [
+    "sergio-moro"
+   ],
+   "fonte": "https://www.migalhas.com.br/quentes/245955/moro-aceita-denuncia-contra-lula-na-lava-jato"
+  },
+  {
+   "data": "2016-12",
+   "tipo": "denuncia",
+   "titulo": "Terreno do Instituto Lula",
+   "texto": "A Lava Jato em Curitiba acusou Lula de receber vantagem da Odebrecht por meio da compra de um terreno para uma nova sede do Instituto Lula, feita por intermédio de outras empresas. A defesa afirma que o instituto nunca recebeu o terreno e sempre funcionou em sede própria.",
+   "status": "Após o STF anular em 2021 a competência de Curitiba, o caso foi enviado ao DF; em setembro de 2021 o ministro Lewandowski suspendeu os processos relacionados, e parte das acusações corria risco de prescrição. Não houve condenação. O desfecho final não foi localizado.",
+   "pessoas": [
+    "marcelo-odebrecht"
+   ],
+   "fonte": "https://observador.pt/2021/09/15/juiz-suspende-dois-processos-contra-ex-pr-do-brasil-lula-da-silva-na-lava-jato/"
+  },
+  {
+   "data": "2017-07-12",
+   "tipo": "condenacao",
+   "titulo": "Condenado por Moro no triplex",
+   "texto": "Sergio Moro condena Lula em 1ª instância a 9 anos e 6 meses por corrupção passiva e lavagem de dinheiro. A acusação: R$ 3,7 milhões em vantagens da OAS. Moro o absolve no caso do armazenamento do acervo presidencial.",
+   "status": "Condenação anulada pelo STF (2021); caso arquivado por prescrição (2022)",
+   "pessoas": [
+    "sergio-moro"
+   ],
+   "fonte": "https://www.poder360.com.br/eleicoes/lula-e-condenado-a-9-anos-e-6-meses-de-prisao-no-processo-do-triplex/"
+  },
+  {
+   "data": "2018-01-24",
+   "tipo": "condenacao",
+   "titulo": "TRF-4 confirma e aumenta pena",
+   "texto": "A 8ª Turma do TRF-4 mantém a condenação por 3 a 0 e aumenta a pena para 12 anos e 1 mês. A defesa contesta a competência de Moro e diz que Lula nunca recebeu as chaves do imóvel.",
+   "status": "Condenação em 2ª instância, depois anulada pelo STF (2021)",
+   "pessoas": [],
+   "fonte": "https://www.poder360.com.br/justica/por-unanimidade-trf-4-mantem-condenacao-e-aumenta-pena-de-lula-na-lava-jato/"
+  },
+  {
+   "data": "2018-04-07",
+   "tipo": "decisao",
+   "titulo": "Lula se entrega e é preso",
+   "texto": "Depois de o STF negar habeas corpus preventivo (fonte: G1, 07/04/2018), Moro decreta a prisão em 05/04/2018. Lula sai do Sindicato dos Metalúrgicos do ABC e se apresenta à PF; chega preso a Curitiba às 22h30.",
+   "status": "Prisão encerrada em 08/11/2019 (580 dias)",
+   "pessoas": [
+    "sergio-moro"
+   ],
+   "fonte": "https://www.poder360.com.br/justica/lula-deixa-sindicato-em-sao-bernardo-e-apresenta-se-a-pf/"
+  },
+  {
+   "data": "2018-08-31",
+   "tipo": "decisao",
+   "titulo": "TSE barra candidatura",
+   "texto": "Por 6 a 1, o TSE nega o registro da candidatura de Lula com base na Lei da Ficha Limpa, que barra condenados por tribunal colegiado. O PT o substitui por Fernando Haddad, derrotado por Jair Bolsonaro.",
+   "status": "Inelegibilidade deixou de existir com a anulação das condenações em 2021",
+   "pessoas": [
+    "fernando-haddad",
+    "jair-bolsonaro"
+   ],
+   "fonte": "https://www.migalhas.com.br/quentes/286709/tse-indefere-registro-de-candidatura-de-lula"
+  },
+  {
+   "data": "2019-02-06",
+   "tipo": "condenacao",
+   "titulo": "Condenado no caso do sítio de Atibaia",
+   "texto": "A juíza Gabriela Hardt condena Lula a 12 anos e 11 meses por corrupção e lavagem: cerca de R$ 1 milhão em reformas pagas por OAS, Odebrecht e Schahin num sítio registrado em nome de Fernando Bittar. A defesa alega parcialidade e falta de provas. Em 27/11/2019 o TRF-4 mantém a condenação e aumenta a pena para 17 anos, 1 mês e 10 dias.",
+   "status": "Condenado em 1ª e 2ª instância; condenação anulada pelo STF (2021); nova denúncia rejeitada (2021)",
+   "pessoas": [],
+   "fonte": "https://exame.com/brasil/lula-e-condenado-a-12-anos-e-11-meses-de-prisao-pelo-sitio-de-atibaia"
+  },
+  {
+   "data": "2019-04-23",
+   "tipo": "decisao",
+   "titulo": "STJ reduz pena do triplex",
+   "texto": "A 5ª Turma do STJ mantém a condenação, mas reduz a pena por 4 a 0 para 8 anos, 10 meses e 20 dias.",
+   "status": "Condenação em 3ª instância, depois anulada pelo STF (2021)",
+   "pessoas": [],
+   "fonte": "https://www.poder360.com.br/justica/stj-forma-maioria-por-reducao-de-pena-de-lula-no-caso-triplex-do-guaruja/"
+  },
+  {
+   "data": "2019-11-08",
+   "tipo": "decisao",
+   "titulo": "Solto após 580 dias",
+   "texto": "Na véspera, o STF decidiu por 6 a 5 que a pena só pode ser cumprida após o fim de todos os recursos (trânsito em julgado). Com base nisso, a Justiça Federal manda soltar Lula.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://www.poder360.com.br/justica/justica-manda-soltar-lula-advogados-e-pf-discutem-procedimento/"
+  },
+  {
+   "data": "2021-03-08",
+   "tipo": "anulacao",
+   "titulo": "Fachin anula as condenações",
+   "texto": "O ministro Edson Fachin (STF) decide que a 13ª Vara de Curitiba não tinha competência (não era o juízo certo), porque os fatos não se ligavam só à Petrobras. Anula as decisões em quatro ações (triplex, sítio e duas do Instituto Lula) e manda os casos para Brasília. Não houve julgamento sobre culpa ou inocência. Em 15/04/2021 o plenário do STF confirma, por 8 a 3.",
+   "status": "Condenações anuladas por incompetência do juízo; Lula volta a ser elegível",
+   "pessoas": [
+    "edson-fachin"
+   ],
+   "fonte": "https://www.migalhas.com.br/quentes/341380/fachin-anula-as-condenacoes-de-lula-na-lava-jato"
+  },
+  {
+   "data": "2021-06-23",
+   "tipo": "anulacao",
+   "titulo": "STF mantém suspeição de Moro",
+   "texto": "A 2ª Turma do STF havia declarado Moro parcial (suspeito) no caso do triplex em 23/03/2021, por 3 a 2. Em 23/06/2021 o plenário mantém a decisão por 7 a 4, e ficam anulados todos os atos de Moro no caso, inclusive na fase de investigação. Ficaram vencidos Fachin, Barroso, Marco Aurélio e Fux; Fux e Marco Aurélio disseram que as mensagens hackeadas de Moro e procuradores eram prova ilícita.",
+   "status": "Atos de Moro anulados por suspeição (parcialidade)",
+   "pessoas": [
+    "sergio-moro"
+   ],
+   "fonte": "https://noticias.stf.jus.br/postsnoticias/stf-confirma-suspeicao-de-sergio-moro-na-acao-do-triplex-do-guaruja/"
+  },
+  {
+   "data": "2021-08-21",
+   "tipo": "decisao",
+   "titulo": "Rejeitada nova denúncia do sítio",
+   "texto": "A 12ª Vara Federal de Brasília rejeita a denúncia refeita pelo MPF no caso do sítio: as provas eram as mesmas anuladas pelo STF e não havia provas novas. A juíza também declara prescritos os crimes para Lula, que tem mais de 70 anos.",
+   "status": "Denúncia rejeitada; punibilidade extinta por prescrição",
+   "pessoas": [],
+   "fonte": "https://www.poder360.com.br/justica/justica-rejeita-denuncia-contra-lula-em-caso-do-sitio-de-atibaia/"
+  },
+  {
+   "data": "2022-01-27",
+   "tipo": "decisao",
+   "titulo": "Caso do triplex é arquivado",
+   "texto": "A pedido do MPF, a juíza Pollyanna Alves arquiva a ação do triplex por prescrição: o prazo cai pela metade para maiores de 70 anos. Lula não pode mais ser processado por esses fatos.",
+   "status": "Arquivado por prescrição",
+   "pessoas": [],
+   "fonte": "https://www.poder360.com.br/justica/justica-arquiva-caso-do-triplex-contra-lula/"
+  },
+  {
+   "data": "2022-10-30",
+   "tipo": "eleicao",
+   "titulo": "Eleito pela terceira vez",
+   "texto": "Com Geraldo Alckmin (PSB) de vice, vence Jair Bolsonaro no 2º turno por 50,9% (60,3 milhões de votos) a 49,1%.",
+   "status": null,
+   "pessoas": [
+    "geraldo-alckmin",
+    "jair-bolsonaro"
+   ],
+   "fonte": "https://dadosabertos.tse.jus.br/dataset/resultados-2022"
+  },
+  {
+   "data": "2023-01-08",
+   "tipo": "governo",
+   "titulo": "Intervenção federal após o 8 de janeiro",
+   "texto": "Após a invasão das sedes dos Três Poderes, decreta intervenção federal na segurança pública do DF, em vez de usar as Forças Armadas (GLO). O Congresso aprova a medida.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://www.migalhas.com.br/quentes/379678/lula-decreta-intervencao-federal-no-df"
+  },
+  {
+   "data": "2023-08-31",
+   "tipo": "governo",
+   "titulo": "Sanciona o arcabouço fiscal",
+   "texto": "Sanciona a regra fiscal que substitui o teto de gastos: limita o crescimento real da despesa e fixa metas de resultado das contas públicas.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://agenciagov.ebc.com.br/noticias/202308/presidente-lula-sanciona-a-lei-do-novo-arcabouco-fiscal"
+  },
+  {
+   "data": "2025-04-23",
+   "tipo": "escandalo",
+   "titulo": "Fraude nos descontos do INSS",
+   "texto": "A PF e a CGU deflagram a Operação Sem Desconto, sobre descontos não autorizados em aposentadorias e pensões, estimados em R$ 6,3 bilhões entre 2019 e 2024. O presidente do INSS, Alessandro Stefanutto, indicado pelo ministro Carlos Lupi, é afastado pela Justiça e depois demitido por Lula; Lupi também deixa o governo. Os convênios que permitiam os descontos foram ampliados no governo Bolsonaro e continuaram no início do governo Lula.",
+   "status": "Investigação da PF sobre entidades e servidores; as reportagens consultadas não citam Lula como investigado",
+   "pessoas": [
+    "carlos-lupi",
+    "alessandro-stefanutto",
+    "jair-bolsonaro"
+   ],
+   "fonte": "https://www.congressoemfoco.com.br/noticia/108221/crise-no-inss-entenda-escandalo-que-derrubou-ministro-da-previdencia"
+  },
+  {
+   "data": "2025-11-27",
+   "tipo": "governo",
+   "titulo": "Isenção de IR até R$ 5 mil",
+   "texto": "É publicada a lei que isenta do Imposto de Renda quem ganha até R$ 5 mil e cria imposto mínimo para rendas acima de R$ 600 mil por ano.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://www.reformatributaria.com/governo/leia-na-integra-a-lei-do-novo-ir-e-do-imposto-minimo/"
+  },
+  {
+   "data": "2026-01-08",
+   "tipo": "governo",
+   "titulo": "Veta o PL da Dosimetria",
+   "texto": "Veta por inteiro o projeto que reduz penas de condenados pelo 8 de janeiro. O Congresso derruba o veto em 30/04/2026.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://www.congressoemfoco.com.br/noticia/115388/lula-veta-integralmente-pl-da-dosimetria"
+  },
+  {
+   "data": "2026-08-02",
+   "tipo": "eleicao",
+   "titulo": "PT lança Lula à reeleição",
+   "texto": "Convenção em São Paulo oficializa a chapa Lula–Alckmin, a mesma de 2022, com apoio de PSB, PCdoB, PV, PSOL, Rede e PDT.",
+   "status": null,
+   "pessoas": [
+    "geraldo-alckmin"
+   ],
+   "fonte": "https://diariodonordeste.verdesmares.com.br/pontopoder/lula-oficializa-candidatura-pela-reeleicao-a-presidencia-em-convencao-do-pt-1.3781118"
+  },
+  {
+   "data": "2026-08-27",
+   "tipo": "investigacao",
+   "titulo": "Inquéritos sobre o filho viram tema",
+   "texto": "Na entrevista à TV Globo, Lula diz nunca ter visto Roberta Luchsinger, apontada pela PF como sócia oculta de seu filho Fábio Luís (Lulinha); Aos Fatos achou fotos dos dois juntos em 2022. Lulinha é alvo de três inquéritos da PF autorizados pelo STF; nenhum gerou acusação formal.",
+   "status": "Fábio Luís Lula da Silva: investigado (três inquéritos, sem denúncia). As checagens consultadas não indicam Lula como investigado",
+   "pessoas": [],
+   "fonte": "https://www.aosfatos.org/noticias/checamos-entrevista-lula-globo/"
+  },
+  {
+   "data": "2026-10-04",
+   "tipo": "eleicao",
+   "titulo": "Fica em 2º no 1º turno",
+   "texto": "Tem 45,16% dos votos válidos (53,9 milhões), atrás de Flávio Bolsonaro (47,03%). Chama o resultado de 'inesperado' e de 'lição da democracia' (declaração: O Povo, 05/10/2026).",
+   "status": null,
+   "pessoas": [
+    "flavio-bolsonaro"
+   ],
+   "fonte": "https://portaldeprefeitura.com.br/bastidores-da-politica/eleicoes-2026-com-100-das-secoes-totalizadas-flavio-tem-4703-e/633498/"
+  },
+  {
+   "data": "2026-10-08",
+   "tipo": "decisao",
+   "titulo": "TSE manda tirar posts de Lula e Janja",
+   "texto": "Em liminares (decisões provisórias) a pedido da campanha de Flávio, os ministros Nunes Marques e André Mendonça mandam remover vídeos de Lula e de Janja que apresentavam como fato consequências de um governo Flávio, como cortes em programas sociais.",
+   "status": "Liminares, ainda sujeitas ao plenário do TSE",
+   "pessoas": [
+    "nunes-marques",
+    "andre-mendonca",
+    "flavio-bolsonaro"
+   ],
+   "fonte": "https://istoedinheiro.com.br/tse-retirada-posts-lula-aliados-flavio-bolsonaro"
+  }
+ ],
+ "resumo_juridico": "Lula não tem condenação válida nem processo criminal conhecido em andamento. Na Lava Jato, foi condenado no caso do triplex (1ª instância em 2017, TRF-4 em 2018 e STJ em 2019) e no caso do sítio de Atibaia (1ª instância e TRF-4 em 2019), e ficou 580 dias preso. Em 2021 o STF anulou essas condenações porque a 13ª Vara de Curitiba não era o juízo competente (8 a 3) e, no triplex, também porque Sergio Moro foi considerado parcial (7 a 4). Isso não foi uma absolvição: o STF não julgou se ele era culpado. Os casos foram para Brasília, onde o triplex foi arquivado por prescrição (27/01/2022) e a nova denúncia do sítio foi rejeitada (21/08/2021) por usar provas anuladas, sem provas novas, e por prescrição. Em outros processos, foi absolvido no caso da MP das montadoras (Operação Zelotes, 2021) e teve arquivada a investigação sobre a OAS na Costa Rica (10/09/2021). Foi absolvido ainda nos casos de obstrução de justiça (2018) e do 'quadrilhão do PT' (2019), e as ações sobre os caças Gripen e o terreno do Instituto Lula foram suspensas no STF (fonte: G1, 13/07/2018, 04/12/2019 e 02/03/2022); não localizei decisão posterior sobre essas duas. No Mensalão, Lula não foi denunciado. Na ditadura, foi condenado pela Justiça Militar em 1981, e o STM anulou o processo em 1982. A defesa sempre afirmou que as acusações da Lava Jato não tinham provas e eram políticas. Em 2026, seu filho Fábio Luís é alvo de três inquéritos da PF, sem acusação formal. No governo, a fraude nos descontos do INSS (Operação Sem Desconto, abril de 2025) levou à demissão do presidente do INSS e do ministro da Previdência; as reportagens consultadas não citam Lula como investigado.",
+ "fontes": [
+  {
+   "titulo": "Biografia do(a) Deputado(a) Federal Luiz Inácio Lula da Silva",
+   "url": "https://www.camara.leg.br/deputados/139289/biografia",
+   "autor": "Câmara dos Deputados"
+  },
+  {
+   "titulo": "Lula se entrega à PF e é preso para cumprir pena por corrupção e lavagem de dinheiro",
+   "url": "https://g1.globo.com/sp/sao-paulo/noticia/lula-se-entrega-a-pf-para-cumprir-pena-por-corrupcao-e-lavagem-de-dinheiro.ghtml",
+   "autor": "G1",
+   "ano": 2018
+  },
+  {
+   "titulo": "1980: Lula preso amanhã (Fundação Perseu Abramo)",
+   "url": "https://fpabramo.org.br/1980-lula-preso-amanha/"
+  },
+  {
+   "titulo": "Mensalão: procurador-geral denuncia 40 pessoas (Congresso em Foco)",
+   "url": "https://www.congressoemfoco.com.br/noticia/98219/mensalao-procurador-geral-denuncia-40-pessoas"
+  },
+  {
+   "titulo": "STF determina execução imediata das penas do mensalão (Congresso em Foco)",
+   "url": "https://congressoemfoco.com.br/noticia/67440/stf-determina-execucao-imediata-das-penas-do-mensalao"
+  },
+  {
+   "titulo": "STF concede perdão de penas a todo o núcleo político do mensalão (Congresso em Foco)",
+   "url": "https://congressoemfoco.com.br/noticia/46068/stf-concede-perdao-de-penas-a-todo-o-nucleo-politico-do-mensalao"
+  },
+  {
+   "titulo": "Fachin anula as condenações de Lula na Lava Jato (Migalhas)",
+   "url": "https://www.migalhas.com.br/quentes/341380/fachin-anula-as-condenacoes-de-lula-na-lava-jato"
+  },
+  {
+   "titulo": "Decisão de Fachin não 'inocentou' Lula (Estado de Minas / AFP Checamos)",
+   "url": "https://www.em.com.br/app/noticia/internacional/factcheck/2021/03/10/interna_internacional,1245327/decisao-de-fachin-sobre-condenacoes-de-lula-nao-8220-inocentou-8221-o-e.shtml"
+  },
+  {
+   "titulo": "STF confirma suspeição de Sergio Moro (Notícias STF)",
+   "url": "https://noticias.stf.jus.br/postsnoticias/stf-confirma-suspeicao-de-sergio-moro-na-acao-do-triplex-do-guaruja/"
+  },
+  {
+   "titulo": "Justiça arquiva caso do triplex contra Lula (Poder360)",
+   "url": "https://www.poder360.com.br/justica/justica-arquiva-caso-do-triplex-contra-lula/"
+  },
+  {
+   "titulo": "Justiça rejeita denúncia contra Lula em caso do sítio de Atibaia (Poder360)",
+   "url": "https://www.poder360.com.br/justica/justica-rejeita-denuncia-contra-lula-em-caso-do-sitio-de-atibaia/"
+  },
+  {
+   "titulo": "Justiça Federal absolve Lula de suspeita de favorecer montadoras (CNN Brasil)",
+   "url": "https://www.cnnbrasil.com.br/politica/justica-federal-absolve-lula-de-suspeita-de-favorecer-montadoras/"
+  },
+  {
+   "titulo": "Justiça Federal arquiva investigação contra Lula por tráfico de influência para OAS (CNN Brasil)",
+   "url": "https://www.cnnbrasil.com.br/politica/justica-federal-arquiva-investigacao-contra-lula-por-trafico-de-influencia-para-oas/"
+  },
+  {
+   "titulo": "Comitê da ONU conclui que Moro foi parcial (CNN Brasil)",
+   "url": "https://www.cnnbrasil.com.br/politica/comite-da-onu-conclui-que-moro-foi-parcial-em-julgamento-de-lula-e-petista-teve-direitos-politicos-violados/"
+  },
+  {
+   "titulo": "Checamos a entrevista de Lula à Globo (Aos Fatos)",
+   "url": "https://www.aosfatos.org/noticias/checamos-entrevista-lula-globo/"
+  },
+  {
+   "titulo": "Eleições 2026: resultado do 1º turno (Portal de Prefeitura)",
+   "url": "https://portaldeprefeitura.com.br/bastidores-da-politica/eleicoes-2026-com-100-das-secoes-totalizadas-flavio-tem-4703-e/633498/"
+  },
+  {
+   "titulo": "Fundação do PT",
+   "url": "https://fpabramo.org.br/das-fabricas-e-das-ruas-ha-40-anos-pt-chegava-pra-mudar/"
+  },
+  {
+   "titulo": "Aliança com o antigo PL",
+   "url": "https://www.cnnbrasil.com.br/politica/de-jose-alencar-a-bolsonaro-pl-de-valdemar-costa-neto-se-prepara-para-2022/"
+  },
+  {
+   "titulo": "Resultados 2002 - Portal de Dados Abertos do TSE (votação por candidato, município e zona)",
+   "url": "https://dadosabertos.tse.jus.br/dataset/resultados-2002",
+   "autor": "Tribunal Superior Eleitoral",
+   "ano": 2002
+  },
+  {
+   "titulo": "Lei nº 10.836, de 9 de janeiro de 2004 - Publicação Original",
+   "url": "https://www2.camara.leg.br/legin/fed/lei/2004/lei-10836-9-janeiro-2004-490604-publicacaooriginal-1-pl.html",
+   "autor": "Câmara dos Deputados (Legislação Informatizada)",
+   "ano": 2004
+  },
+  {
+   "titulo": "Estoura o Mensalão",
+   "url": "https://mais.opovo.com.br/jornal/politica/2025/06/06/mensalao-20-anosonde-estao-os-personagens-de-um-dos-maiores-escandalos-do-brasil-ate-entao.html"
+  },
+  {
+   "titulo": "'Eu me sinto traído'",
+   "url": "https://memoria.ebc.com.br/agenciabrasil//noticia/2005-08-12/address-nation-lula-says-he-was-betrayed-and-begs-forgiveness"
+  },
+  {
+   "titulo": "Nega que houve mensalão",
+   "url": "https://memoria.ebc.com.br/agenciabrasil//noticia/2005-11-08/lula-asserts-tv-mensalao-scheme-did-not-exist"
+  },
+  {
+   "titulo": "Condenado por Moro no triplex",
+   "url": "https://www.poder360.com.br/eleicoes/lula-e-condenado-a-9-anos-e-6-meses-de-prisao-no-processo-do-triplex/"
+  },
+  {
+   "titulo": "TRF-4 confirma e aumenta pena",
+   "url": "https://www.poder360.com.br/justica/por-unanimidade-trf-4-mantem-condenacao-e-aumenta-pena-de-lula-na-lava-jato/"
+  },
+  {
+   "titulo": "Lula se entrega e é preso",
+   "url": "https://www.poder360.com.br/justica/lula-deixa-sindicato-em-sao-bernardo-e-apresenta-se-a-pf/"
+  },
+  {
+   "titulo": "TSE barra candidatura",
+   "url": "https://www.migalhas.com.br/quentes/286709/tse-indefere-registro-de-candidatura-de-lula"
+  },
+  {
+   "titulo": "Condenado no caso do sítio de Atibaia",
+   "url": "https://exame.com/brasil/lula-e-condenado-a-12-anos-e-11-meses-de-prisao-pelo-sitio-de-atibaia"
+  },
+  {
+   "titulo": "STJ reduz pena do triplex",
+   "url": "https://www.poder360.com.br/justica/stj-forma-maioria-por-reducao-de-pena-de-lula-no-caso-triplex-do-guaruja/"
+  },
+  {
+   "titulo": "Solto após 580 dias",
+   "url": "https://www.poder360.com.br/justica/justica-manda-soltar-lula-advogados-e-pf-discutem-procedimento/"
+  },
+  {
+   "titulo": "Resultados 2022 - Portal de Dados Abertos do TSE (votação por candidato, município e zona)",
+   "url": "https://dadosabertos.tse.jus.br/dataset/resultados-2022",
+   "autor": "Tribunal Superior Eleitoral",
+   "ano": 2022
+  },
+  {
+   "titulo": "Intervenção federal após o 8 de janeiro",
+   "url": "https://www.migalhas.com.br/quentes/379678/lula-decreta-intervencao-federal-no-df"
+  },
+  {
+   "titulo": "Sanciona o arcabouço fiscal",
+   "url": "https://agenciagov.ebc.com.br/noticias/202308/presidente-lula-sanciona-a-lei-do-novo-arcabouco-fiscal"
+  },
+  {
+   "titulo": "Isenção de IR até R$ 5 mil",
+   "url": "https://www.reformatributaria.com/governo/leia-na-integra-a-lei-do-novo-ir-e-do-imposto-minimo/"
+  },
+  {
+   "titulo": "Veta o PL da Dosimetria",
+   "url": "https://www.congressoemfoco.com.br/noticia/115388/lula-veta-integralmente-pl-da-dosimetria"
+  },
+  {
+   "titulo": "PT lança Lula à reeleição",
+   "url": "https://diariodonordeste.verdesmares.com.br/pontopoder/lula-oficializa-candidatura-pela-reeleicao-a-presidencia-em-convencao-do-pt-1.3781118"
+  },
+  {
+   "titulo": "TSE manda tirar posts de Lula e Janja",
+   "url": "https://istoedinheiro.com.br/tse-retirada-posts-lula-aliados-flavio-bolsonaro"
+  },
+  {
+   "titulo": "Crise no INSS: entenda o escândalo (Congresso em Foco)",
+   "url": "https://www.congressoemfoco.com.br/noticia/108221/crise-no-inss-entenda-escandalo-que-derrubou-ministro-da-previdencia"
+  },
+  {
+   "titulo": "Fraude de R$ 6,3 bi: presidente do INSS é afastado (Congresso em Foco)",
+   "url": "https://congressoemfoco.com.br/noticia/107912/fraude-de-r-6-bi-presidente-do-inss-e-afastado-em-operacao-da-pf"
+  },
+  {
+   "titulo": "Moro aceita denúncia contra Lula na Lava Jato (Migalhas)",
+   "url": "https://www.migalhas.com.br/quentes/245955/moro-aceita-denuncia-contra-lula-na-lava-jato"
+  },
+  {
+   "titulo": "Lula fala em 'lição da democracia' (O Povo)",
+   "url": "https://mais.opovo.com.br/jornal/politica/2026/10/05/lula-fala-em-licao-da-democracia-e-considera-resultado-inesperado.html"
+  }
+ ]
+}

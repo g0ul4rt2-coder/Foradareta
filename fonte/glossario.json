@@ -1,0 +1,559 @@
+[
+  {
+    "id": "centrao",
+    "termo": "Centrão",
+    "simples": "Grupo de partidos de centro e centro-direita, sem ideologia muito marcada, que costuma apoiar o governo de turno, seja ele de esquerda ou de direita, em troca de espaço no governo e no Orçamento.",
+    "como_funciona": [
+      "O nome não é oficial: não existe um partido chamado Centrão. É um apelido dado pela imprensa e pelos próprios políticos a um conjunto de legendas com muitos deputados.",
+      "Partidos frequentemente associados ao grupo são PP, Republicanos, União Brasil e PSD, mas a lista muda com o tempo. Por ter muitos votos, o grupo costuma decidir quem preside a Câmara e se os projetos do governo passam ou não.",
+      "Quem defende esse comportamento diz que ele dá estabilidade e evita paralisia. Quem critica diz que ele troca apoio por cargos e verbas. Há uma explicação mais longa na seção sobre poder."
+    ],
+    "exemplo": "Em 1º de fevereiro de 2025, Hugo Motta (Republicanos-PB), indicado pelo antecessor Arthur Lira (PP-AL), foi eleito presidente da Câmara com 444 dos 513 votos, com apoio que ia do PT ao PL.",
+    "por_que_importa": "Quase nenhum presidente consegue aprovar leis sem esse grupo. Saber como ele funciona ajuda a entender por que governos de lados opostos fazem acordos parecidos.",
+    "relacionados": ["fisiologismo", "presidencialismo-de-coalizao", "base-aliada", "emendas-parlamentares"],
+    "fontes": [
+      {"titulo": "Com 444 votos, Hugo Motta é eleito presidente da Câmara (Congresso em Foco, 01/02/2025)", "url": "https://www.congressoemfoco.com.br/area/congresso-nacional/com-444-votos-hugo-motta-e-eleito-presidente-da-camara"},
+      {"titulo": "União Brasil e PP anunciam saída do governo Lula (Poder360, 02/09/2025)", "url": "https://www.poder360.com.br/poder-congresso/uniao-brasil-e-pp-anunciam-saida-do-governo-lula/"}
+    ]
+  },
+  {
+    "id": "fisiologismo",
+    "termo": "Fisiologismo",
+    "simples": "Prática de dar apoio político em troca de vantagens concretas, como cargos, verbas ou nomeações, mais do que por concordar com ideias ou programas.",
+    "como_funciona": [
+      "Um partido ou parlamentar vota com o governo e, em troca, indica ministros, chefes de estatais ou recebe a liberação de verbas para sua região.",
+      "A palavra é usada como crítica. Os envolvidos costumam descrever a mesma coisa como 'participar do governo' ou 'levar recursos para a base eleitoral', o que também é parte legítima da política.",
+      "A linha entre negociação normal e troca indevida é discutida. Quando há dinheiro desviado ou propina, deixa de ser só fisiologismo e passa a ser crime, que precisa ser provado na Justiça."
+    ],
+    "exemplo": "Em 13 de setembro de 2023, os deputados André Fufuca (PP) e Silvio Costa Filho (Republicanos) tomaram posse como ministros do Esporte e de Portos e Aeroportos. Segundo o Correio da Manhã, os cargos fizeram parte de acordos negociados para aprovar o arcabouço fiscal e a reforma tributária.",
+    "por_que_importa": "Ajuda a entender por que partidos mudam de lado com facilidade. Também mostra que esse tipo de acordo aparece em governos de diferentes campos.",
+    "relacionados": ["centrao", "presidencialismo-de-coalizao", "base-aliada"],
+    "fontes": [
+      {"titulo": "Lula dá posse quase secreta aos novos ministros do Centrão (Correio da Manhã, 13/09/2023)", "url": "https://www.correiodamanha.com.br/politica/2023/09/94860-lula-da-posse-quase-secreta-aos-novos-ministros-do-centrao.html"},
+      {"titulo": "Lula confirma Fufuca e Silvio Costa Filho como novos ministros (SBT News, 06/09/2023)", "url": "https://sbtnews.sbt.com.br/noticia/governo/259144-lula-confirma-fufuca-e-silvio-costa-filho-como-novos-ministros"}
+    ]
+  },
+  {
+    "id": "presidencialismo-de-coalizao",
+    "termo": "Presidencialismo de coalizão",
+    "simples": "Forma como o Brasil é governado: o presidente é eleito sozinho, mas, como o Congresso tem muitos partidos, precisa montar uma aliança com vários deles para conseguir aprovar leis.",
+    "como_funciona": [
+      "O termo foi criado pelo cientista político Sérgio Abranches em 1988, durante a volta da democracia.",
+      "Como nenhum partido tem maioria sozinho, o presidente divide ministérios e outros cargos entre partidos aliados. Em troca, espera que eles votem a favor de seus projetos.",
+      "Além dos ministérios, o governo usa o controle da pauta e a liberação de emendas para manter a aliança. Isso vale para presidentes de qualquer orientação."
+    ],
+    "exemplo": "No governo Lula iniciado em 2023, o ministério incluiu partidos como MDB, União Brasil, PSD e Republicanos, além do PT e de aliados de esquerda. Em setembro de 2023, PP e Republicanos ganharam ministérios em meio à negociação do arcabouço fiscal e da reforma tributária.",
+    "por_que_importa": "Explica por que um presidente às vezes governa com partidos que o criticaram na campanha, e por que a relação com o Congresso decide o sucesso de um governo.",
+    "relacionados": ["base-aliada", "centrao", "fisiologismo", "medida-provisoria"],
+    "fontes": [
+      {"titulo": "O que são coalizões partidárias? (Politize!)", "url": "https://www.politize.com.br/coalizoes-partidarias/"},
+      {"titulo": "Lula dá posse quase secreta aos novos ministros do Centrão (Correio da Manhã, 13/09/2023)", "url": "https://www.correiodamanha.com.br/politica/2023/09/94860-lula-da-posse-quase-secreta-aos-novos-ministros-do-centrao.html"}
+    ]
+  },
+  {
+    "id": "base-aliada",
+    "termo": "Base aliada (base do governo)",
+    "simples": "Conjunto de partidos e parlamentares que costumam votar a favor do governo no Congresso.",
+    "como_funciona": [
+      "A base não é fixa. Um partido pode ter ministros e, mesmo assim, ter deputados que votam contra o governo em certos temas.",
+      "Os líderes do governo contam votos antes de cada votação importante. Quando a base falha, o governo perde votações ou precisa adiar projetos.",
+      "O contrário da base é a oposição. Entre as duas existe um grupo grande de parlamentares 'independentes', que decidem caso a caso."
+    ],
+    "exemplo": "Em 2 de setembro de 2025, a federação União Progressista (União Brasil e PP) anunciou que deixaria a base do governo Lula e mandou seus filiados entregarem cargos federais. Em 8 de outubro de 2025, a Câmara retirou de pauta a MP 1303, do governo, por 251 votos a 193, e a medida perdeu a validade.",
+    "por_que_importa": "O tamanho real da base, e não só o número de ministérios, diz se um governo consegue aprovar o que promete.",
+    "relacionados": ["presidencialismo-de-coalizao", "centrao", "medida-provisoria", "federacao-partidaria"],
+    "fontes": [
+      {"titulo": "União Brasil e PP anunciam saída do governo Lula (Poder360, 02/09/2025)", "url": "https://www.poder360.com.br/poder-congresso/uniao-brasil-e-pp-anunciam-saida-do-governo-lula/"},
+      {"titulo": "Câmara retira de pauta a MP sobre tributação de investimentos (Agência Câmara, reproduzida pela Fenacon)", "url": "https://fenacon.org.br/noticias/camara-retira-de-pauta-a-mp-sobre-tributacao-de-investimentos-texto-perdera-validade/"}
+    ]
+  },
+  {
+    "id": "bancadas-tematicas",
+    "termo": "Bancadas temáticas (agro, evangélica, da bala)",
+    "simples": "Grupos de parlamentares de partidos diferentes que se unem para defender um interesse comum, como o agronegócio, pautas religiosas ou a segurança pública.",
+    "como_funciona": [
+      "Formalmente, muitas são 'frentes parlamentares': o parlamentar assina a adesão, e um mesmo deputado pode estar em várias frentes ao mesmo tempo. Por isso os números de membros variam conforme a fonte e a data.",
+      "Bancada ruralista ou do agro: ligada à Frente Parlamentar da Agropecuária (FPA). Em novembro de 2024, a FPA dizia reunir 290 deputados e 50 senadores. Atua em temas como terras, crédito rural e licenciamento ambiental.",
+      "Bancada evangélica: ligada à Frente Parlamentar Evangélica. Em fevereiro de 2025, tinha 219 deputados e 26 senadores signatários. Atua em temas como liberdade religiosa, família, aborto e tributação de templos.",
+      "Bancada da bala: ligada à Frente Parlamentar da Segurança Pública. Em janeiro de 2025, seu presidente, Alberto Fraga (PL-DF), disse que ela tinha 256 dos 513 deputados. Reúne muitos ex-policiais e militares e atua em temas de polícia, armas e penas."
+    ],
+    "exemplo": "Em 14 de dezembro de 2023, o Congresso derrubou o veto de Lula ao marco temporal das terras indígenas (321 a 137 na Câmara e 53 a 19 no Senado), em votação liderada pela bancada do agronegócio. Em janeiro de 2025, a bancada da bala anunciou oposição à PEC da Segurança Pública proposta pelo governo.",
+    "por_que_importa": "Muitas votações não seguem a linha governo contra oposição, e sim interesses de setor. Saber quais bancadas existem ajuda a prever resultados.",
+    "relacionados": ["veto", "pec", "base-aliada", "centrao"],
+    "fontes": [
+      {"titulo": "Agro prevalece e Congresso derruba veto de Lula ao marco temporal (Poder360, 14/12/2023)", "url": "https://www.poder360.com.br/congresso/agro-prevalece-e-congresso-derruba-veto-de-lula-ao-marco-temporal/"},
+      {"titulo": "FPA muda estatuto e Pedro Lupion encaminha reeleição (Poder360, 12/11/2024)", "url": "https://www.poder360.com.br/poder-agro/fpa-muda-estatuto-e-pedro-lupion-encaminha-reeleicao-para-presidente/"},
+      {"titulo": "Mineira vai comandar a Frente Parlamentar Evangélica em 2026 (Itatiaia, 26/02/2025)", "url": "https://www.itatiaia.com.br/colunas/edilene-lopes/politica/mineira-vai-comandar-a-frente-parlamentar-evangelica-do-congresso-em-2026/"},
+      {"titulo": "PEC da Segurança Pública é 'fantasia' e não passa, diz presidente da bancada da bala (SBT News, 16/01/2025)", "url": "https://sbtnews.sbt.com.br/noticia/politica/pec-da-seguranca-publica-e-fantasia-e-nao-passa-no-congresso-diz-presidente-da-bancada-da-bala"}
+    ]
+  },
+  {
+    "id": "emendas-parlamentares",
+    "termo": "Emendas parlamentares (individuais, de bancada e de comissão)",
+    "simples": "Parte do Orçamento federal que deputados e senadores decidem para onde vai, geralmente obras e serviços nas cidades e estados que representam.",
+    "como_funciona": [
+      "Individuais: cada deputado e senador tem uma cota própria. O governo é obrigado a pagar (são 'impositivas').",
+      "De bancada: os parlamentares de um mesmo estado decidem juntos o destino de uma verba. Também são impositivas.",
+      "De comissão: as comissões temáticas da Câmara e do Senado indicam o destino. Não são de pagamento obrigatório, o que dá ao governo margem de negociação.",
+      "Nos últimos anos, o valor das emendas cresceu bastante e virou um dos principais temas da relação entre governo, Congresso e STF, que passou a cobrar mais transparência."
+    ],
+    "exemplo": "O Orçamento de 2026, sancionado em 14 de janeiro de 2026, previu cerca de R$ 61 bilhões em emendas: R$ 26,6 bilhões individuais, R$ 11,2 bilhões de bancada e R$ 12,1 bilhões de comissão, segundo o Jornal de Brasília. Lula vetou quase R$ 400 milhões em emendas.",
+    "por_que_importa": "As emendas levam dinheiro a obras locais, mas também são usadas como moeda na negociação de votos. Por isso a transparência sobre quem indicou e para onde foi o dinheiro é tão discutida.",
+    "relacionados": ["emendas-pix", "orcamento-secreto", "tcu", "fisiologismo"],
+    "fontes": [
+      {"titulo": "Lula sanciona Orçamento de 2026 e veta quase R$ 400 milhões em emendas (Jornal de Brasília, 15/01/2026)", "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/lula-sanciona-orcamento-de-2026-e-veta-quase-r-400-milhoes-em-emendas/"},
+      {"titulo": "Lula sanciona LDO de 2026 com veto a aumento do fundo partidário (SBT News, 01/01/2026)", "url": "https://sbtnews.sbt.com.br/noticia/economia/lula-sanciona-ldo-de-2026-com-veto-a-aumento-do-fundo-partidario"}
+    ]
+  },
+  {
+    "id": "emendas-pix",
+    "termo": "Emendas Pix (transferências especiais)",
+    "simples": "Tipo de emenda individual em que o dinheiro vai direto para a conta da prefeitura ou do estado, sem um projeto ou convênio detalhado antes.",
+    "como_funciona": [
+      "O nome oficial é 'transferência especial'. Foi criada em 2019 por uma emenda à Constituição. O apelido vem da rapidez: o dinheiro chega em semanas, enquanto emendas comuns podem levar anos.",
+      "A vantagem apontada por prefeitos é a agilidade. A crítica é que, por muito tempo, era difícil saber em que o dinheiro foi gasto.",
+      "Desde 2024, decisões do STF passaram a exigir plano de trabalho registrado, conta específica e fiscalização pelo TCU e pela CGU."
+    ],
+    "exemplo": "Em 1º de agosto de 2024, o ministro Flávio Dino, do STF, decidiu na ADI 7688 que as emendas Pix só podem ser pagas se forem transparentes e rastreáveis, com fiscalização do TCU e da CGU, e mandou auditar repasses a ONGs.",
+    "por_que_importa": "É dinheiro público em grande volume chegando às cidades. Saber como acompanhar esse gasto ajuda o eleitor a cobrar seu deputado e seu prefeito.",
+    "relacionados": ["emendas-parlamentares", "orcamento-secreto", "tcu", "stf"],
+    "fontes": [
+      {"titulo": "Emendas Pix devem ser transparentes e rastreáveis, determina Dino (Poder360, 01/08/2024)", "url": "https://www.poder360.com.br/poder-justica/emendas-pix-devem-ser-transparentes-e-rastreaveis-determina-dino/"}
+    ]
+  },
+  {
+    "id": "orcamento-secreto",
+    "termo": "Orçamento secreto (emendas de relator)",
+    "simples": "Apelido dado às 'emendas de relator' (código RP-9), em que grandes valores do Orçamento eram distribuídos sem que o público soubesse qual parlamentar tinha indicado cada gasto.",
+    "como_funciona": [
+      "Formalmente, a verba aparecia em nome do relator do Orçamento. Na prática, era repartida entre parlamentares escolhidos, sem registro público de quem pediu o quê.",
+      "O mecanismo cresceu a partir de 2020 e foi alvo de críticas de órgãos de controle e de parte da imprensa. Defensores diziam que era uma forma legítima de o Congresso decidir parte do Orçamento.",
+      "Depois da decisão do STF, parte desse dinheiro migrou para outros tipos de emenda, como as de comissão, e o debate sobre transparência continuou."
+    ],
+    "exemplo": "Em 19 de dezembro de 2022, o STF declarou as emendas de relator inconstitucionais por 6 votos a 5. Votaram pelo fim Rosa Weber, Fachin, Barroso, Fux, Cármen Lúcia e Lewandowski; os outros cinco ministros queriam manter o modelo com mais transparência.",
+    "por_que_importa": "Mostra como regras do Orçamento podem esconder ou revelar quem decide o gasto público, e por que a transparência é um ponto de disputa entre os Poderes.",
+    "relacionados": ["emendas-parlamentares", "emendas-pix", "stf", "fisiologismo"],
+    "fontes": [
+      {"titulo": "STF forma maioria e considera orçamento secreto inconstitucional (Jovem Pan, 19/12/2022)", "url": "https://jovempan.com.br/noticias/politica/stf-forma-maioria-e-considera-orcamento-secreto-inconstitucional.html"},
+      {"titulo": "Rosa Weber vota para declarar orçamento secreto inconstitucional (CNN Brasil, 14/12/2022)", "url": "https://www.cnnbrasil.com.br/politica/supremo-tribunal-federal-stf-vota-orcamento-secreto/"}
+    ]
+  },
+  {
+    "id": "fundo-eleitoral-e-partidario",
+    "termo": "Fundo eleitoral e fundo partidário",
+    "simples": "Dois fundos de dinheiro público para partidos. O fundo eleitoral paga campanhas e só existe em ano de eleição. O fundo partidário paga o dia a dia dos partidos todos os anos.",
+    "como_funciona": [
+      "Fundo eleitoral (FEFC): criado em 2017, depois que o STF proibiu doações de empresas a campanhas. A divisão segue a lei: 2% iguais para todos os partidos, 35% pelos votos para a Câmara, 48% pelo número de deputados e 15% pelo número de senadores.",
+      "Os partidos precisam cumprir cotas para mulheres e para candidaturas negras na divisão do dinheiro entre seus candidatos.",
+      "Fundo partidário: pago em parcelas mensais pela Justiça Eleitoral. Serve para aluguel, funcionários e atividades dos partidos. Só recebe quem passa na cláusula de barreira."
+    ],
+    "exemplo": "Em 3 de junho de 2026, o TSE divulgou a divisão de cerca de R$ 4,9 bilhões do fundo eleitoral entre 30 partidos. As maiores fatias foram do PL (R$ 881,7 milhões), PT (R$ 615,4 milhões) e União Brasil (R$ 526,2 milhões). O Orçamento de 2026 reservou cerca de R$ 1,4 bilhão para o fundo partidário.",
+    "por_que_importa": "É dinheiro de impostos. Partidos maiores recebem mais, o que influencia quem tem chance de fazer campanha forte.",
+    "relacionados": ["clausula-de-barreira", "federacao-partidaria", "tse", "quociente-eleitoral"],
+    "fontes": [
+      {"titulo": "Veja quanto cada partido receberá do fundo eleitoral para 2026 (Gazeta do Povo, 04/06/2026)", "url": "https://www.gazetadopovo.com.br/eleicoes/2026/veja-quanto-cada-partido-recebera-fundo-eleitoral-para-2026/"},
+      {"titulo": "TSE divulga divisão do fundo nas eleições de 2026 (Radioagência Nacional/EBC, 06/2026)", "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/politica/audio/2026-06/tse-divulga-divisao-de-fundo-partidario-nas-eleicoes-de-2026"},
+      {"titulo": "Lula sanciona LDO de 2026 com veto a aumento do fundo partidário (SBT News, 01/01/2026)", "url": "https://sbtnews.sbt.com.br/noticia/economia/lula-sanciona-ldo-de-2026-com-veto-a-aumento-do-fundo-partidario"}
+    ]
+  },
+  {
+    "id": "federacao-partidaria",
+    "termo": "Federação partidária",
+    "simples": "União de dois ou mais partidos que passam a agir como se fossem um só, em todo o país, por pelo menos quatro anos.",
+    "como_funciona": [
+      "É diferente da antiga coligação, que valia só para uma eleição e podia ter alianças diferentes em cada estado. A federação vale para todas as eleições e em todos os níveis durante o período.",
+      "Na contagem de votos para deputado e vereador, a federação é tratada como um único partido. Isso ajuda legendas menores a alcançar o quociente eleitoral e a cláusula de barreira.",
+      "Quem sai antes de quatro anos é punido: não pode formar nova federação, não pode fazer coligações nas duas eleições seguintes e perde acesso ao fundo partidário no período restante."
+    ],
+    "exemplo": "Para a eleição de 2026, havia cinco federações: União Progressista (União Brasil e PP, desde março de 2026), Renovação Solidária (PRD e Solidariedade, desde dezembro de 2025), Brasil da Esperança (PT, PCdoB e PV), PSDB Cidadania e PSOL-Rede, estas três desde 2022.",
+    "por_que_importa": "Ao votar em um partido federado, o voto pode ajudar a eleger candidatos de outro partido da mesma federação.",
+    "relacionados": ["quociente-eleitoral", "clausula-de-barreira", "fundo-eleitoral-e-partidario"],
+    "fontes": [
+      {"titulo": "Quais são as federações partidárias de 2026 (A Gazeta, 04/08/2026)", "url": "https://www.agazeta.com.br/es/politica/quais-sao-as-federacoes-partidarias-de-2026-0826"}
+    ]
+  },
+  {
+    "id": "clausula-de-barreira",
+    "termo": "Cláusula de barreira (cláusula de desempenho)",
+    "simples": "Regra que exige um mínimo de votos ou de deputados eleitos para o partido ter acesso ao fundo partidário e ao tempo de propaganda gratuita no rádio e na TV.",
+    "como_funciona": [
+      "A regra foi aprovada em 2017 e fica mais dura a cada eleição.",
+      "Em 2026, o partido (ou federação) precisa ter 2,5% dos votos válidos para a Câmara no país, com pelo menos 1,5% em nove estados, ou eleger 13 deputados federais em pelo menos nove estados.",
+      "Quem não alcança não é extinto e pode disputar eleições, mas fica sem fundo partidário e sem propaganda gratuita por quatro anos. Muitos partidos nessa situação acabam se fundindo ou formando federações.",
+      "A partir de 2030, a exigência sobe para 3% dos votos válidos (com 2% em nove estados) ou 15 deputados."
+    ],
+    "exemplo": "Em 5 de outubro de 2026, com dados preliminares do TSE, levantamento do jornal O Globo citado pelo Estado de Minas indicava que 12 partidos poderiam não passar na cláusula, entre eles PDT, Avante, Missão e a federação PSOL-Rede, que teve 4,89% dos votos, mas atingiu o mínimo em só oito estados.",
+    "por_que_importa": "A regra reduz o número de partidos no Congresso. Defensores dizem que facilita governar; críticos dizem que dificulta a vida de partidos pequenos e de ideias minoritárias.",
+    "relacionados": ["federacao-partidaria", "fundo-eleitoral-e-partidario", "quociente-eleitoral"],
+    "fontes": [
+      {"titulo": "Cláusula de barreira: veja as siglas que podem sumir do mapa (Estado de Minas, 05/10/2026)", "url": "https://www.em.com.br/politica/2026/10/7514783-clausula-de-barreira-veja-as-siglas-que-podem-sumir-do-mapa.html"}
+    ]
+  },
+  {
+    "id": "quociente-eleitoral",
+    "termo": "Quociente eleitoral e voto proporcional",
+    "simples": "Sistema usado para eleger deputados e vereadores: as vagas são divididas primeiro entre os partidos, conforme o total de votos de cada um, e só depois entre os candidatos mais votados de cada partido.",
+    "como_funciona": [
+      "Quociente eleitoral: total de votos válidos dividido pelo número de vagas. É quantos votos 'vale' uma cadeira.",
+      "Quociente partidário: votos do partido ou federação divididos pelo quociente eleitoral, desprezando a fração. Dá o número de cadeiras do partido.",
+      "Para ocupar uma dessas cadeiras, o candidato precisa de pelo menos 10% do quociente eleitoral. As vagas que sobram ('sobras') são distribuídas por um cálculo de médias; após decisões do STF, todos os partidos podem disputá-las, e o candidato precisa de 20% do quociente.",
+      "Por isso, um candidato muito votado pode 'puxar' colegas de partido, e alguém com mais votos pode ficar de fora se o partido dele não somou o bastante."
+    ],
+    "exemplo": "Reportagem do O Povo de 23 de julho de 2026 explicou o cálculo com um exemplo: com 450 mil votos válidos e 30 vagas, o quociente é 15 mil; um partido com 90 mil votos fica com 6 cadeiras, e cada eleito precisa de ao menos 1.500 votos próprios.",
+    "por_que_importa": "Ao votar em um deputado, o eleitor também ajuda o partido ou a federação dele. Entender isso evita surpresas com quem acaba eleito.",
+    "relacionados": ["sistema-majoritario", "federacao-partidaria", "clausula-de-barreira"],
+    "fontes": [
+      {"titulo": "Como funciona a eleição para deputado federal? Veja o cálculo de vagas (O Povo, 23/07/2026)", "url": "https://www.opovo.com.br/noticias/politica/eleicoes/2026/07/23/entenda-como-funciona-a-eleicao-para-deputado-federal-no-brasil.html"}
+    ]
+  },
+  {
+    "id": "sistema-majoritario",
+    "termo": "Sistema majoritário",
+    "simples": "Forma de eleição em que vence quem tem mais votos. É usada para presidente, governador, prefeito e senador.",
+    "como_funciona": [
+      "Para senador, basta ter mais votos que os outros; não há segundo turno.",
+      "Para presidente, governador e prefeito de cidades com mais de 200 mil eleitores, é preciso ter mais da metade dos votos válidos. Se ninguém conseguir, há segundo turno.",
+      "Votos brancos e nulos não entram na conta dos votos válidos."
+    ],
+    "exemplo": "Em 4 de outubro de 2026, foram disputadas 54 das 81 cadeiras do Senado, duas por estado. Cada eleitor votou em dois candidatos diferentes, e os dois mais votados em cada estado foram eleitos para mandatos de oito anos.",
+    "por_que_importa": "No sistema majoritário, o voto vai direto para a pessoa; no proporcional, ajuda também o partido. Saber a diferença ajuda a votar com estratégia.",
+    "relacionados": ["segundo-turno", "quociente-eleitoral"],
+    "fontes": [
+      {"titulo": "Dois votos, 54 vagas: veja as disputas pelo Senado em todo o país (Congresso em Foco, 10/2026)", "url": "https://www.congressoemfoco.com.br/noticia/121512/dois-votos-54-vagas-veja-as-disputas-pelo-senado-em-todo-o-pais"}
+    ]
+  },
+  {
+    "id": "segundo-turno",
+    "termo": "Segundo turno",
+    "simples": "Nova votação entre os dois candidatos mais votados quando nenhum deles conseguiu mais da metade dos votos válidos no primeiro turno.",
+    "como_funciona": [
+      "Vale para presidente, governador e prefeito de cidades com mais de 200 mil eleitores.",
+      "No segundo turno, os candidatos que ficaram de fora costumam declarar apoio a um dos finalistas, e partidos fazem novos acordos.",
+      "Quem tiver mais votos válidos no segundo turno vence, mesmo que a diferença seja pequena."
+    ],
+    "exemplo": "No primeiro turno de 4 de outubro de 2026, Flávio Bolsonaro (PL) teve cerca de 47% dos votos válidos e Lula (PT), cerca de 45%. Como nenhum passou de 50%, os dois disputam o segundo turno em 25 de outubro de 2026.",
+    "por_que_importa": "O segundo turno obriga os candidatos a buscar eleitores além do seu grupo fiel, o que pode moderar discursos ou formar novas alianças.",
+    "relacionados": ["sistema-majoritario", "polarizacao", "tse"],
+    "fontes": [
+      {"titulo": "Como o Brasil votou para presidente no 1º turno das eleições 2026 (O Povo, 04/10/2026)", "url": "https://mais.opovo.com.br/reportagens-especiais/resultado-presidente-eleicoes-2026/2026/10/04/como-o-br-votou-para-presidente-no-1-turno-das-eleicoes-2026.html"}
+    ]
+  },
+  {
+    "id": "foro-privilegiado",
+    "termo": "Foro privilegiado (foro por prerrogativa de função)",
+    "simples": "Regra que faz certas autoridades serem julgadas por crimes comuns direto em tribunais superiores, e não por um juiz de primeira instância.",
+    "como_funciona": [
+      "Presidente, vice, ministros de Estado, deputados federais e senadores, entre outros, respondem no STF. Governadores respondem no STJ.",
+      "A ideia original é proteger o cargo de pressões locais. A crítica é que tribunais superiores julgam devagar e que a regra cria tratamento diferente.",
+      "Em 2018, o STF limitou o foro a crimes cometidos no cargo e em razão dele. Em 2025, decidiu que, para esses crimes, o foro continua mesmo depois que a pessoa deixa o cargo."
+    ],
+    "exemplo": "Em março de 2025, o STF decidiu por 7 votos a 4, com relatoria de Gilmar Mendes, que o foro para crimes ligados ao cargo continua após a saída da função. André Mendonça, Fachin, Fux e Cármen Lúcia ficaram vencidos.",
+    "por_que_importa": "Define quem julga políticos e quanto tempo os processos podem levar. Também aparece em propostas como a PEC da Blindagem.",
+    "relacionados": ["stf", "stj", "pgr", "pec"],
+    "fontes": [
+      {"titulo": "STF encerra julgamento e mantém foro privilegiado após saída de cargo (Migalhas, 11/03/2025)", "url": "https://www.migalhas.com.br/quentes/426078/stf-encerra-julgamento-e-mantem-foro-privilegiado-apos-saida-de-cargo"}
+    ]
+  },
+  {
+    "id": "ficha-limpa-e-inelegibilidade",
+    "termo": "Ficha Limpa e inelegibilidade",
+    "simples": "Inelegível é quem está proibido de se candidatar. A Lei da Ficha Limpa, de 2010, ampliou os casos, como condenação por um grupo de juízes (órgão colegiado), mesmo antes do fim de todos os recursos.",
+    "como_funciona": [
+      "A Ficha Limpa nasceu de um projeto de iniciativa popular, com assinaturas de eleitores, e alterou uma lei de 1990 sobre inelegibilidade.",
+      "Também ficam inelegíveis, por exemplo, políticos cassados, quem renunciou para escapar de cassação e quem foi condenado pela Justiça Eleitoral por abuso de poder.",
+      "Em 2025, a Lei Complementar 219 mudou regras: unificou o prazo em 8 anos e fixou um teto de 12 anos para várias condenações. Lula vetou trechos, como a aplicação retroativa. Entidades que criaram a Ficha Limpa criticaram a lei; defensores dizem que ela corrige excessos."
+    ],
+    "exemplo": "Em 30 de junho de 2023, o TSE declarou Jair Bolsonaro inelegível por oito anos, por 5 votos a 2, por abuso de poder político e uso indevido dos meios de comunicação em reunião com embaixadores em julho de 2022. Em 29 de setembro de 2025, foi sancionada com vetos a Lei Complementar 219, que alterou a Ficha Limpa.",
+    "por_que_importa": "Define quem pode aparecer na urna. Mudanças nessa lei afetam políticos de vários partidos ao mesmo tempo.",
+    "relacionados": ["tse", "stf", "veto", "stj"],
+    "fontes": [
+      {"titulo": "Ficha Limpa: entenda o que muda com a nova lei sancionada por Lula (Congresso em Foco, 30/09/2025)", "url": "https://www.congressoemfoco.com.br/noticia/112463/ficha-limpa-entenda-o-que-muda-com-a-nova-lei-sancionada-por-lula"},
+      {"titulo": "Bolsonaro é declarado inelegível por 8 anos pelo TSE (Correio, 30/06/2023)", "url": "https://www.correio24horas.com.br/brasil/bolsonaro-e-declarado-inelegivel-por-8-anos-pelo-tse-0623"}
+    ]
+  },
+  {
+    "id": "pec",
+    "termo": "PEC (Proposta de Emenda à Constituição)",
+    "simples": "Proposta para mudar o texto da Constituição. É mais difícil de aprovar do que uma lei comum.",
+    "como_funciona": [
+      "Precisa ser aprovada em dois turnos de votação em cada Casa, com três quintos dos votos: 308 dos 513 deputados e 49 dos 81 senadores.",
+      "Não passa por sanção nem veto do presidente. Se aprovada, é promulgada pelo próprio Congresso.",
+      "Alguns pontos da Constituição não podem ser abolidos nem por PEC, como o voto direto, secreto e periódico e a separação dos Poderes (as chamadas cláusulas pétreas)."
+    ],
+    "exemplo": "Em setembro de 2025, a Câmara aprovou a chamada PEC da Blindagem, que exigia autorização do Congresso, em voto secreto, para processar parlamentares. Em 24 de setembro de 2025, a CCJ do Senado a rejeitou por unanimidade e a proposta foi arquivada.",
+    "por_que_importa": "Mudanças na Constituição duram muito e mexem nas regras do jogo. Por isso exigem apoio amplo.",
+    "relacionados": ["foro-privilegiado", "reforma-tributaria", "veto", "medida-provisoria"],
+    "fontes": [
+      {"titulo": "Por unanimidade, CCJ do Senado rejeita PEC da Blindagem (CNN Brasil, 24/09/2025)", "url": "https://www.cnnbrasil.com.br/politica/ccj-do-senado-votacao-pec-da-blindagem/"}
+    ]
+  },
+  {
+    "id": "medida-provisoria",
+    "termo": "Medida provisória (MP)",
+    "simples": "Norma que o presidente edita sozinho, com força de lei imediata, em casos que considera urgentes. Depois, o Congresso precisa aprová-la para que continue valendo.",
+    "como_funciona": [
+      "A MP vale por 60 dias, prorrogáveis por mais 60. Se o Congresso não votar nesse prazo, ela perde a validade ('caduca').",
+      "Depois de 45 dias sem votação, ela passa a trancar a pauta da Casa em que estiver.",
+      "O Congresso pode aprovar, mudar ou rejeitar. Deixar uma MP caducar é uma forma de o Congresso dizer não sem votar o mérito."
+    ],
+    "exemplo": "Em 8 de outubro de 2025, a Câmara aprovou por 251 a 193 retirar de pauta a MP 1303, que unificava em 18% a tributação de aplicações financeiras. Sem votação, a MP perdeu a validade à meia-noite daquele dia.",
+    "por_que_importa": "MPs mostram a força do presidente, mas também o poder do Congresso de barrar o governo apenas não votando.",
+    "relacionados": ["veto", "base-aliada", "pec", "presidencialismo-de-coalizao"],
+    "fontes": [
+      {"titulo": "Câmara retira de pauta a MP sobre tributação de investimentos; texto perderá validade (Agência Câmara, via Fenacon)", "url": "https://fenacon.org.br/noticias/camara-retira-de-pauta-a-mp-sobre-tributacao-de-investimentos-texto-perdera-validade/"}
+    ]
+  },
+  {
+    "id": "veto",
+    "termo": "Veto e derrubada de veto",
+    "simples": "Veto é quando o presidente recusa um projeto aprovado pelo Congresso, no todo ou em parte. O Congresso pode derrubar o veto e fazer o texto valer mesmo assim.",
+    "como_funciona": [
+      "O presidente tem 15 dias úteis para sancionar ou vetar. Ele precisa explicar o motivo: inconstitucionalidade ou contrariedade ao interesse público.",
+      "Os vetos são analisados em sessão conjunta de deputados e senadores. Para derrubar, é preciso maioria absoluta nas duas Casas: 257 deputados e 41 senadores.",
+      "Vetos derrubados viram lei e são promulgados. Muitas vezes, governo e Congresso negociam quais vetos manter."
+    ],
+    "exemplo": "Em 27 de novembro de 2025, o Congresso derrubou a maior parte dos vetos de Lula à Lei Geral do Licenciamento Ambiental. Ficaram de fora os vetos sobre o Licenciamento Ambiental Especial, tratado em uma medida provisória.",
+    "por_que_importa": "Mostra que a palavra final sobre uma lei pode ser do Congresso, e não do presidente, quando há ampla maioria.",
+    "relacionados": ["medida-provisoria", "bancadas-tematicas", "base-aliada", "pec"],
+    "fontes": [
+      {"titulo": "Congresso derruba vetos de Lula ao licenciamento ambiental (Agência Câmara, 27/11/2025)", "url": "https://www.camara.leg.br/noticias/1227650-congresso-derruba-vetos-de-lula-ao-licenciamento-ambiental/"}
+    ]
+  },
+  {
+    "id": "cpi",
+    "termo": "CPI (Comissão Parlamentar de Inquérito)",
+    "simples": "Comissão de deputados e/ou senadores criada para investigar um fato específico, com poderes parecidos com os de um juiz para ouvir pessoas e pedir documentos.",
+    "como_funciona": [
+      "Precisa das assinaturas de um terço da Casa, de um fato determinado e de prazo definido. Quando reúne deputados e senadores, chama-se CPMI.",
+      "Pode convocar testemunhas, quebrar sigilos bancário e telefônico e pedir documentos. Não pode condenar ninguém.",
+      "No fim, vota um relatório que pode pedir o indiciamento de pessoas. O documento é enviado ao Ministério Público e à polícia, que decidem se abrem processo."
+    ],
+    "exemplo": "A CPMI do INSS, instalada em 20 de agosto de 2025 para investigar descontos irregulares em aposentadorias, terminou em 28 de março de 2026 sem relatório final: o parecer do relator Alfredo Gaspar (União-AL) foi rejeitado por 19 a 12, e o presidente Carlos Viana (Podemos-MG) encerrou os trabalhos.",
+    "por_que_importa": "CPIs dão visibilidade a problemas, mas também viram palco de disputa entre governo e oposição. O relatório não é sentença.",
+    "relacionados": ["pgr", "delacao-premiada", "base-aliada"],
+    "fontes": [
+      {"titulo": "CPMI do INSS termina sem relatório final (Agência Senado, 28/03/2026)", "url": "https://www12.senado.leg.br/noticias/materias/2026/03/28/cpmi-do-inss-termina-sem-relatorio-final"}
+    ]
+  },
+  {
+    "id": "impeachment",
+    "termo": "Impeachment",
+    "simples": "Processo em que o Congresso pode tirar do cargo o presidente (e outras autoridades) por 'crime de responsabilidade', que é um tipo de infração política e administrativa prevista em lei.",
+    "como_funciona": [
+      "Qualquer cidadão pode apresentar um pedido à Câmara, mas cabe ao presidente da Câmara decidir se ele começa a tramitar.",
+      "A Câmara precisa autorizar o processo com dois terços dos votos (342 deputados). Depois, o Senado julga, em sessão presidida pelo presidente do STF.",
+      "Para condenar, são necessários dois terços dos senadores (54 de 81). A pena é a perda do cargo, e pode haver também a proibição de exercer função pública."
+    ],
+    "exemplo": "Em 31 de agosto de 2016, o Senado aprovou por 61 a 20 o impeachment de Dilma Rousseff, por decretos de crédito sem autorização do Congresso e atrasos de repasses ao Banco do Brasil (as 'pedaladas'). Em votação separada, ela manteve o direito de exercer funções públicas. Dilma e seus defensores contestaram a existência de crime.",
+    "por_que_importa": "É o instrumento mais forte do Congresso contra um presidente. Por ter forte componente político, o debate sobre seu uso divide opiniões.",
+    "relacionados": ["stf", "presidencialismo-de-coalizao", "base-aliada"],
+    "fontes": [
+      {"titulo": "Senado aprova impeachment, mas Dilma continua habilitada para função pública (Migalhas, 31/08/2016)", "url": "https://www.migalhas.com.br/quentes/244901/senado-aprova-impeachment-mas-dilma-continua-habilitada-para-funcao-publica"}
+    ]
+  },
+  {
+    "id": "delacao-premiada",
+    "termo": "Delação premiada (colaboração premiada)",
+    "simples": "Acordo em que um investigado conta o que sabe sobre um crime e entrega provas, em troca de pena menor ou mais branda.",
+    "como_funciona": [
+      "A regra principal está na Lei 12.850, de 2013. O acordo é feito com a polícia ou o Ministério Público e precisa ser homologado (validado) por um juiz.",
+      "A palavra do delator, sozinha, não basta para condenar alguém: precisa ser confirmada por outras provas.",
+      "Se o delator mentir ou esconder fatos, os benefícios podem ser revistos. Defesas de acusados costumam questionar a validade e a voluntariedade dessas delações."
+    ],
+    "exemplo": "Em 11 de setembro de 2025, a Primeira Turma do STF validou a delação do tenente-coronel Mauro Cid no caso da trama golpista e fixou sua pena em dois anos em regime aberto, conforme o acordo. A defesa de Cid considerou o resultado uma vitória e disse que pediria para descontar o tempo em que ele já esteve preso e de tornozeleira.",
+    "por_que_importa": "Delações foram centrais em grandes casos, como a Lava Jato e o processo da trama golpista. Elas aceleram investigações, mas também geram disputas sobre sua confiabilidade.",
+    "relacionados": ["stf", "pgr", "cpi"],
+    "fontes": [
+      {"titulo": "STF mantém benefícios de delação e fixa pena de 2 anos em regime aberto para Mauro Cid (Jovem Pan, 11/09/2025)", "url": "https://jovempan.com.br/politica/stf-mantem-beneficios-de-delacao-e-fixa-pena-de-2-anos-em-regime-aberto-para-mauro-cid/"}
+    ]
+  },
+  {
+    "id": "stf",
+    "termo": "STF (Supremo Tribunal Federal)",
+    "simples": "O tribunal mais alto do país. Decide se leis respeitam a Constituição e julga autoridades com foro, como o presidente e parlamentares.",
+    "como_funciona": [
+      "Tem 11 ministros, indicados pelo presidente da República e aprovados pelo Senado. Ficam no cargo até os 75 anos.",
+      "Julga em plenário (todos) ou em duas Turmas de cinco ministros. Decisões de um ministro sozinho (liminares) costumam ser levadas depois ao colegiado.",
+      "Por decidir temas sensíveis, o STF é alvo de críticas de grupos diferentes em momentos diferentes."
+    ],
+    "exemplo": "Em 15 de abril de 2021, o plenário do STF confirmou por 8 a 3 a anulação das condenações de Lula na Lava Jato, por entender que a Justiça Federal de Curitiba não era competente; a decisão não declarou inocência, e os casos foram enviados a outra Justiça. Em 2025, a Primeira Turma condenou Jair Bolsonaro a 27 anos e 3 meses por tentativa de golpe e outros crimes; os recursos foram rejeitados e o trânsito em julgado foi certificado em 25 de novembro de 2025. Bolsonaro nega os crimes.",
+    "por_que_importa": "Muitas das decisões que mudam a política brasileira passam pelo STF. Saber exatamente o que ele decidiu evita interpretações erradas, como confundir anulação com absolvição.",
+    "relacionados": ["foro-privilegiado", "tse", "stj", "pgr", "orcamento-secreto"],
+    "fontes": [
+      {"titulo": "Plenário do STF anula condenações de Lula na Lava Jato (Poder360, 15/04/2021)", "url": "https://www.poder360.com.br/justica/stf-confirma-anulacao-das-decisoes-da-justica-de-curitiba/"},
+      {"titulo": "STF rejeita recurso e mantém condenação de Bolsonaro na trama golpista (O Povo, 16/11/2025)", "url": "https://www.opovo.com.br/noticias/politica/2025/11/16/stf-rejeita-recurso-e-mantem-condenacao-de-bolsonaro-na-trama-golpista.html"},
+      {"titulo": "STF declara trânsito em julgado de processo de Bolsonaro (Reuters, via Notícias Agrícolas, 25/11/2025)", "url": "https://www.noticiasagricolas.com.br/noticia/411502"}
+    ]
+  },
+  {
+    "id": "tse",
+    "termo": "TSE (Tribunal Superior Eleitoral)",
+    "simples": "Tribunal que organiza as eleições e julga questões eleitorais, como registro de candidaturas, propaganda, abuso de poder e prestação de contas.",
+    "como_funciona": [
+      "Tem sete ministros: três do STF, dois do STJ e dois advogados indicados pelo presidente a partir de lista do STF. Eles têm mandatos de dois anos.",
+      "Organiza as urnas, totaliza os votos, divide o fundo eleitoral e pode cassar mandatos ou declarar candidatos inelegíveis.",
+      "Nos estados, o trabalho é feito pelos Tribunais Regionais Eleitorais (TREs)."
+    ],
+    "exemplo": "Em 9 de junho de 2017, o TSE rejeitou por 4 a 3 a cassação da chapa Dilma-Temer, pedida pelo PSDB. Em 30 de junho de 2023, declarou Jair Bolsonaro inelegível por oito anos, por 5 a 2. Em 3 de junho de 2026, divulgou a divisão do fundo eleitoral de cerca de R$ 4,9 bilhões.",
+    "por_que_importa": "O TSE garante que a eleição aconteça e que as regras valham para todos. Suas decisões podem tirar alguém da disputa.",
+    "relacionados": ["ficha-limpa-e-inelegibilidade", "fundo-eleitoral-e-partidario", "stf", "segundo-turno"],
+    "fontes": [
+      {"titulo": "Por 4 votos a 3, TSE absolve Michel Temer de cassação (JB, 09/06/2017)", "url": "https://www.jb.com.br/pais/noticias/2017/06/09/por-4-votos-a-3-tse-absolve-michel-temer-de-cassacao/"},
+      {"titulo": "Bolsonaro é declarado inelegível por 8 anos pelo TSE (Correio, 30/06/2023)", "url": "https://www.correio24horas.com.br/brasil/bolsonaro-e-declarado-inelegivel-por-8-anos-pelo-tse-0623"},
+      {"titulo": "Veja quanto cada partido receberá do fundo eleitoral para 2026 (Gazeta do Povo, 04/06/2026)", "url": "https://www.gazetadopovo.com.br/eleicoes/2026/veja-quanto-cada-partido-recebera-fundo-eleitoral-para-2026/"}
+    ]
+  },
+  {
+    "id": "stj",
+    "termo": "STJ (Superior Tribunal de Justiça)",
+    "simples": "Tribunal que dá a palavra final sobre a interpretação das leis federais (fora da Constituição) e que julga governadores e outras autoridades por crimes comuns.",
+    "como_funciona": [
+      "Tem pelo menos 33 ministros, nomeados pelo presidente após aprovação do Senado.",
+      "Uniformiza decisões de tribunais de todo o país em temas como direito do consumidor, planos de saúde, impostos e processos criminais.",
+      "Os governadores são julgados pela Corte Especial, formada pelos 15 ministros mais antigos."
+    ],
+    "exemplo": "Em maio de 2026, a Corte Especial do STJ condenou o ex-governador do Acre Gladson Cameli (PP) a 25 anos e 9 meses de prisão por organização criminosa, corrupção, peculato, lavagem de dinheiro e fraude em licitações. Ele havia renunciado em abril para disputar o Senado. A defesa nega as acusações e alega provas inválidas.",
+    "por_que_importa": "Muitas decisões que afetam o dia a dia, como regras de bancos e planos de saúde, saem do STJ, que também julga governadores.",
+    "relacionados": ["stf", "foro-privilegiado", "pgr"],
+    "fontes": [
+      {"titulo": "STJ condena ex-governador do Acre a 25 anos de prisão por corrupção (Congresso em Foco, 07/05/2026)", "url": "https://www.congressoemfoco.com.br/noticia/118668/stj-condena-ex-governador-do-acre-a-25-anos-de-prisao-por-corrupcao"}
+    ]
+  },
+  {
+    "id": "tcu",
+    "termo": "TCU (Tribunal de Contas da União)",
+    "simples": "Órgão que fiscaliza como o governo federal gasta o dinheiro público. Apesar do nome, não faz parte do Poder Judiciário: auxilia o Congresso.",
+    "como_funciona": [
+      "Tem nove ministros: seis escolhidos pelo Congresso e três pelo presidente da República.",
+      "Faz auditorias, pode multar gestores e mandar devolver dinheiro. Todo ano emite um parecer prévio sobre as contas do presidente.",
+      "Quem aprova ou rejeita as contas do presidente, no fim, é o Congresso. O TCU só recomenda."
+    ],
+    "exemplo": "Em 11 de junho de 2025, o TCU aprovou por unanimidade, com ressalvas, as contas do governo Lula de 2024. O relator, Jhonatan de Jesus, apontou como irregular a concessão de benefícios tributários sem cumprir exigências legais.",
+    "por_que_importa": "Pareceres do TCU já embasaram grandes debates políticos, como o das 'pedaladas' que levou ao impeachment de 2016.",
+    "relacionados": ["impeachment", "emendas-pix", "arcabouco-fiscal"],
+    "fontes": [
+      {"titulo": "TCU aprova com ressalvas contas do governo Lula de 2024 (Agência Brasil, 11/06/2025)", "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2025-06/tcu-aprova-com-ressalvas-contas-do-governo-lula-de-2024"}
+    ]
+  },
+  {
+    "id": "pgr",
+    "termo": "PGR (Procuradoria-Geral da República)",
+    "simples": "Chefia do Ministério Público Federal. O procurador-geral é quem pode acusar formalmente (denunciar) autoridades que têm foro no STF, como o presidente e parlamentares.",
+    "como_funciona": [
+      "O procurador-geral é indicado pelo presidente da República, sabatinado e aprovado pelo Senado, para mandato de dois anos, que pode ser renovado.",
+      "Ele pode pedir abertura de investigação, arquivar casos ou apresentar denúncia. Se a denúncia for recebida pelo tribunal, o acusado vira réu.",
+      "Contra um presidente no exercício do cargo, a denúncia por crime comum só segue se a Câmara autorizar, com dois terços dos votos."
+    ],
+    "exemplo": "Em 2 de agosto de 2017, a Câmara barrou por 263 a 227 a denúncia do então PGR Rodrigo Janot contra o presidente Michel Temer por corrupção passiva. Em 18 de fevereiro de 2025, o PGR Paulo Gonet denunciou Jair Bolsonaro e mais 33 pessoas por tentativa de golpe; a denúncia foi recebida e levou à condenação no STF.",
+    "por_que_importa": "A PGR decide se políticos com foro serão ou não acusados. Por isso a escolha do procurador-geral é sempre politicamente sensível.",
+    "relacionados": ["stf", "foro-privilegiado", "delacao-premiada", "impeachment"],
+    "fontes": [
+      {"titulo": "Com ajuda do PT e oposição, Temer enterra denúncia (Poder360, 02/08/2017)", "url": "https://www.poder360.com.br/congresso/com-ajuda-do-pt-e-oposicao-temer-enterra-denuncia-e-sai-fortalecido/"},
+      {"titulo": "Leia a íntegra da denúncia da PGR contra Bolsonaro (Poder360, 18/02/2025)", "url": "https://www.poder360.com.br/poder-integras/leia-a-integra-da-denuncia-da-pgr-contra-bolsonaro/"}
+    ]
+  },
+  {
+    "id": "banco-central-e-selic",
+    "termo": "Banco Central e taxa Selic",
+    "simples": "O Banco Central cuida do valor da moeda e da inflação. Sua principal ferramenta é a Selic, a taxa básica de juros, que influencia todos os outros juros do país.",
+    "como_funciona": [
+      "A Selic é definida pelo Copom, comitê do Banco Central que se reúne a cada cerca de 45 dias.",
+      "Juros mais altos encarecem o crédito, esfriam o consumo e ajudam a segurar a inflação. Juros mais baixos estimulam a economia, mas podem pressionar os preços.",
+      "Desde 2021, o Banco Central tem autonomia por lei: seus diretores têm mandatos fixos e não podem ser demitidos pelo presidente da República por discordar das decisões."
+    ],
+    "exemplo": "A Selic começou 2026 em 15% ao ano, o maior nível desde 2006. A partir de março, o Copom fez cortes de 0,25 ponto; em 16 de setembro de 2026, reduziu a taxa de 14% para 13,75%, o quinto corte seguido.",
+    "por_que_importa": "A Selic afeta o preço do crédito, das prestações e o rendimento de investimentos. É um dos temas mais discutidos entre governo, mercado e oposição.",
+    "relacionados": ["tripe-macroeconomico", "arcabouco-fiscal"],
+    "fontes": [
+      {"titulo": "Estimativa para a Selic no fim de 2026 passa de 13,50% para 13,25% no Focus (DGABC, 13/10/2026)", "url": "https://www.dgabc.com.br/Noticia/4352386/estimativa-para-a-selic-no-fim-de-2026-passa-de-13-50-para-13-25-no-focus-do-bc"},
+      {"titulo": "Selic no fim de 2026 continua em 13,75% pela quinta semana, aponta Focus (Jornal do Comércio, 08/09/2026)", "url": "https://www.jornaldocomercio.com/economia/2026/09/1262567-selic-no-fim-de-2026-continua-em-1375-pela-quinta-semana-seguida-aponta-focus.html"}
+    ]
+  },
+  {
+    "id": "arcabouco-fiscal",
+    "termo": "Arcabouço fiscal",
+    "simples": "Regra criada em 2023 para limitar o crescimento dos gastos do governo federal e fixar metas para as contas públicas. Substituiu o teto de gastos.",
+    "como_funciona": [
+      "Os gastos podem crescer, acima da inflação, até 70% do aumento da arrecadação, sempre dentro de uma faixa entre 0,6% e 2,5% ao ano.",
+      "O governo tem uma meta de resultado primário (receitas menos despesas, sem contar juros), com margem de tolerância. Se não cumprir, o crescimento dos gastos no ano seguinte fica menor (50% da alta da receita).",
+      "Defensores dizem que a regra é mais flexível e realista que o teto. Críticos dizem que depende demais de aumentar a arrecadação."
+    ],
+    "exemplo": "A Lei Complementar 200 foi sancionada em 30 de agosto de 2023 e publicada no dia seguinte. Em 22 de dezembro de 2023, o Congresso derrubou parte dos vetos do presidente à lei.",
+    "por_que_importa": "A regra define quanto o governo pode gastar em saúde, educação, obras e programas sociais, e influencia a confiança do mercado e os juros.",
+    "relacionados": ["tripe-macroeconomico", "banco-central-e-selic", "emendas-parlamentares", "tcu"],
+    "fontes": [
+      {"titulo": "Lei Complementar nº 200 de 30/08/2023 (Senado Federal, Legislação)", "url": "https://legis.senado.leg.br/norma/37553820"},
+      {"titulo": "Arcabouço fiscal: veja o que prevê a nova regra (Congresso em Foco, 30/03/2023)", "url": "https://congressoemfoco.com.br/area/governo/arcabouco-fiscal-veja-o-que-preve-a-nova-regra"}
+    ]
+  },
+  {
+    "id": "reforma-tributaria",
+    "termo": "Reforma tributária (IVA dual)",
+    "simples": "Mudança na cobrança de impostos sobre o consumo. Cinco tributos (PIS, Cofins, IPI, ICMS e ISS) vão ser substituídos por dois: a CBS, federal, e o IBS, de estados e municípios.",
+    "como_funciona": [
+      "O modelo é chamado de IVA dual: um imposto sobre valor agregado dividido em dois. O imposto é cobrado em cada etapa, mas desconta o que já foi pago antes, para evitar cobrança em cascata.",
+      "A reforma também prevê um Imposto Seletivo sobre produtos que fazem mal à saúde ou ao meio ambiente e devolução de imposto (cashback) para famílias de baixa renda em itens como luz e gás.",
+      "A transição é longa: 2026 é ano de teste, só com registro nas notas fiscais; a cobrança começa em 2027 e o modelo novo substitui os tributos antigos a partir de 2033."
+    ],
+    "exemplo": "Em 20 de dezembro de 2023, o Congresso promulgou a Emenda Constitucional 132, da reforma tributária. Desde 1º de agosto de 2026, os campos de CBS e IBS são obrigatórios nas notas fiscais, ainda sem cobrança efetiva.",
+    "por_que_importa": "Muda o preço de quase tudo o que se compra e a forma como estados e municípios arrecadam. Os efeitos aparecem aos poucos até 2033.",
+    "relacionados": ["pec", "arcabouco-fiscal", "presidencialismo-de-coalizao"],
+    "fontes": [
+      {"titulo": "Congresso promulga reforma tributária (Fenacon, com Agência Senado, 20/12/2023)", "url": "https://fenacon.org.br/noticias/materias/2023/12/20/congresso-promulga-reforma-tributaria"},
+      {"titulo": "Reforma tributária 2026 traz novas obrigações e penalidades (Contábeis, 12/06/2026)", "url": "https://www.contabeis.com.br/noticias/77386/reforma-tributaria-2026-traz-novas-obrigacoes-e-penalidades/"}
+    ]
+  },
+  {
+    "id": "tripe-macroeconomico",
+    "termo": "Tripé macroeconômico",
+    "simples": "Os três pilares da política econômica brasileira desde 1999: meta de inflação, câmbio flutuante e meta fiscal (governo buscando economizar para pagar a dívida).",
+    "como_funciona": [
+      "Meta de inflação: o Conselho Monetário Nacional define a meta, e o Banco Central usa a Selic para alcançá-la.",
+      "Câmbio flutuante: o valor do dólar em reais é definido pelo mercado, sem preço fixado pelo governo.",
+      "Meta fiscal: o governo se compromete com um resultado nas contas públicas, hoje definido pelo arcabouço fiscal.",
+      "O tripé foi adotado no segundo mandato de Fernando Henrique Cardoso e mantido, com ajustes, pelos governos seguintes. Há economistas que o defendem e outros que o criticam por levar a juros altos."
+    ],
+    "exemplo": "Em 26 de junho de 2024, um decreto criou a meta de inflação contínua a partir de 2025, substituindo o decreto de 1999. A meta passou a ser descumprida se a inflação acumulada em 12 meses ficar fora da faixa (hoje de 1,5% a 4,5%) por seis meses seguidos.",
+    "por_que_importa": "Ajuda a entender por que a política econômica brasileira tem muitas continuidades entre governos de lados diferentes.",
+    "relacionados": ["banco-central-e-selic", "arcabouco-fiscal"],
+    "fontes": [
+      {"titulo": "Tripé macroeconômico: o que é e qual a sua importância (InfoMoney, 31/08/2023)", "url": "https://www.infomoney.com.br/?p=2228878"},
+      {"titulo": "Decreto nº 3.088, de 21 de junho de 1999 (Câmara dos Deputados, Legislação)", "url": "https://www2.camara.leg.br/legin/fed/decret/1999/decreto-3088-21-junho-1999-370656-normaatualizada-pe.html"},
+      {"titulo": "Governo publica decreto com meta contínua de inflação (Poder360, 26/06/2024)", "url": "https://www.poder360.com.br/economia/governo-publica-decreto-com-meta-continua-de-inflacao/"}
+    ]
+  },
+  {
+    "id": "polarizacao",
+    "termo": "Polarização",
+    "simples": "Situação em que a sociedade se divide em dois grandes campos políticos, com pouco espaço no meio e muita desconfiança de um lado em relação ao outro.",
+    "como_funciona": [
+      "Pesquisadores separam dois tipos: a polarização de ideias (pessoas discordam sobre políticas) e a afetiva (pessoas passam a antipatizar com quem vota diferente).",
+      "No Brasil, o cientista político Felipe Nunes (Quaest) e o jornalista Thomas Traumann usam o termo 'calcificação' para descrever eleitores que quase não mudam de lado de uma eleição para outra.",
+      "Mesmo assim, pesquisas mostram cansaço com a briga permanente e uma parcela de eleitores que se diz independente e decide eleições."
+    ],
+    "exemplo": "Em abril de 2026, Felipe Nunes afirmou que os campos de Lula e de Bolsonaro partiam, cada um, de cerca de um terço do eleitorado, e que cerca de 30% se diziam independentes ou indecisos. No primeiro turno de 4 de outubro de 2026, os dois primeiros colocados somaram cerca de 92% dos votos válidos.",
+    "por_que_importa": "A polarização afetiva dificulta conversas em família e no trabalho. Entender que ela tem causas estudadas ajuda a não tratar quem pensa diferente como inimigo.",
+    "relacionados": ["populismo", "segundo-turno"],
+    "fontes": [
+      {"titulo": "Entrevista com Felipe Nunes, da Quaest (Money Times, 16/04/2026)", "url": "https://www.moneytimes.com.br/entrevista-felipe-nunes-quaest-gaep/"},
+      {"titulo": "Como o Brasil votou para presidente no 1º turno das eleições 2026 (O Povo, 04/10/2026)", "url": "https://mais.opovo.com.br/reportagens-especiais/resultado-presidente-eleicoes-2026/2026/10/04/como-o-br-votou-para-presidente-no-1-turno-das-eleicoes-2026.html"}
+    ]
+  },
+  {
+    "id": "populismo",
+    "termo": "Populismo",
+    "simples": "Estilo ou discurso político que divide a sociedade entre um 'povo puro' e uma 'elite corrupta' e se apresenta como a voz verdadeira do povo contra essa elite.",
+    "como_funciona": [
+      "Na definição do cientista político Cas Mudde, o populismo é uma 'ideologia rasa': não diz qual economia é melhor, por isso se combina com ideias de esquerda ou de direita.",
+      "Pesquisadores usam o termo para líderes dos dois lados do espectro. A palavra também é usada como xingamento no debate público, o que leva alguns estudiosos a criticar seu uso.",
+      "Para medir, grupos de pesquisa analisam discursos e dão notas conforme a presença de ideias como 'nós, o povo, contra eles, a elite'."
+    ],
+    "exemplo": "Em 2019, o projeto Team Populism, em parceria com o jornal britânico The Guardian, publicou a Global Populism Database, que deu notas aos discursos de presidentes e primeiros-ministros de 40 países, entre 2000 e 2018, incluindo o Brasil.",
+    "por_que_importa": "Ajuda a analisar discursos pelo que eles dizem, e não só por quem fala. Assim fica mais fácil avaliar políticos de qualquer lado com o mesmo critério.",
+    "relacionados": ["polarizacao"],
+    "fontes": [
+      {"titulo": "O que é o populismo? (Observador, 11/06/2024)", "url": "https://observador.pt/opiniao/o-que-e-o-populismo/"},
+      {"titulo": "Global Populism Database, seção de dados (Team Populism/BYU)", "url": "https://populism.byu.edu/data-section"}
+    ]
+  }
+]

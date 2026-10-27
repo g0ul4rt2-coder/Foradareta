@@ -1,0 +1,107 @@
+{
+ "id": "wilson-grassi",
+ "nome": "Wilson Grassi",
+ "eventos": [
+  {
+   "data": "1970-03-13",
+   "tipo": "origem",
+   "titulo": "Nasce em São Paulo",
+   "texto": "Wilson Grassi Junior nasce em São Paulo. Começa como office-boy, cursa Medicina Veterinária e abre clínica na zona leste, com programas de castração de cães e gatos.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026"
+  },
+  {
+   "data": "2006",
+   "tipo": "eleicao",
+   "titulo": "Candidato a deputado estadual",
+   "texto": "Pelo PFL, recebe 4.517 votos e não é eleito.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://dadosabertos.tse.jus.br/dataset/resultados-2006"
+  },
+  {
+   "data": "2012",
+   "tipo": "carreira",
+   "titulo": "Hospital público para cães e gatos",
+   "texto": "Participa das discussões sobre o hospital público veterinário do Tatuapé, em São Paulo; foi conselheiro da Anclivepa-SP, associação de clínicos veterinários.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-08/democrata-define-wilson-grassi-junior-candidato-presidencia"
+  },
+  {
+   "data": "2024",
+   "tipo": "eleicao",
+   "titulo": "Candidato a vereador em São Paulo",
+   "texto": "Pelo PRTB, recebe 2.777 votos e não é eleito.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://dadosabertos.tse.jus.br/dataset/resultados-2024"
+  },
+  {
+   "data": "2025-12",
+   "tipo": "alianca",
+   "titulo": "Partido muda de nome para Democrata",
+   "texto": "A Justiça Eleitoral aprova a troca de nome do Partido da Mulher Brasileira (PMB) para Democrata, legenda pela qual ele disputa a Presidência.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-08/democrata-define-wilson-grassi-junior-candidato-presidencia"
+  },
+  {
+   "data": "2026-08-02",
+   "tipo": "eleicao",
+   "titulo": "Candidatura oficializada no Rio",
+   "texto": "Convenção do Democrata, no Rio, oficializa a candidatura e deixa o vice para a Executiva Nacional; depois, Suêd Haidar, fundadora e presidente do partido, é registrada como vice.",
+   "status": null,
+   "pessoas": [
+    "sued-haidar"
+   ],
+   "fonte": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-08/democrata-define-wilson-grassi-junior-candidato-presidencia"
+  },
+  {
+   "data": "2026-08-29",
+   "tipo": "declaracao",
+   "titulo": "Propõe 'Meu Botox, Minha Vida'",
+   "texto": "Em entrevista, propõe aplicação gratuita de toxina botulínica para mulheres de baixa renda, financiada por imposto sobre cosméticos e corte no financiamento de campanhas; diz que a ideia não está no programa porque o partido não permitiria.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/candidato-ao-planalto-quer-criar-meu-botox-minha-vida/"
+  },
+  {
+   "data": "2026-08-30",
+   "tipo": "decisao",
+   "titulo": "TSE suspende campanha digital",
+   "texto": "O ministro Dias Toffoli suspende, por cautela, a propaganda em oito perfis declarados ao TSE 17 dias após o registro, além de repasses do Fundo Eleitoral e participação em debates.",
+   "status": "Medida cautelar; restrições vigoraram de 31/08 a 03/09/2026 e depois foram retiradas",
+   "pessoas": [
+    "dias-toffoli"
+   ],
+   "fonte": "https://www.cnnbrasil.com.br/eleicoes/toffoli-suspende-campanha-de-wilson-grassi/"
+  },
+  {
+   "data": "2026-09-03",
+   "tipo": "decisao",
+   "titulo": "Restrições são retiradas",
+   "texto": "As limitações à campanha digital, ao Fundo Eleitoral e a debates deixam de valer por decisão de Toffoli em 02/09/2026 (fonte: Agência Brasil, 02/09/2026).",
+   "status": "Medida cautelar encerrada; não localizei registro de descumprimento",
+   "pessoas": [],
+   "fonte": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/toffoli-libera-propaganda-digital-do-candidato-presidente-grassi"
+  },
+  {
+   "data": "2026-10-04",
+   "tipo": "eleicao",
+   "titulo": "11º lugar no 1º turno",
+   "texto": "Recebe 16.881 votos (0,01%). No 2º turno, rejeita apoiar Lula e condiciona o apoio a Flávio Bolsonaro à adesão a propostas de proteção animal (fonte: Poder360, 14/10/2026).",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://dadosabertos.tse.jus.br/dataset/resultados-2026"
+  }
+ ],
+ "resumo_juridico": "Não há processos criminais ou de improbidade conhecidos contra Wilson Grassi. O único caso judicial localizado é eleitoral: em 30/08/2026, o ministro Dias Toffoli (TSE) suspendeu por cautela parte da campanha (perfis declarados com atraso, Fundo Eleitoral e debates); as restrições valeram de 31/08 a 03/09/2026 e foram retiradas. Não localizei registro de descumprimento. Nunca exerceu mandato eletivo nem cargo de governo.",
+ "fontes": [
+  "https://agenciabrasil.ebc.com.br/politica/noticia/2026-08/democrata-define-wilson-grassi-junior-candidato-presidencia",
+  "https://dadosabertos.tse.jus.br/dataset/resultados-2026",
+  "https://www.poder360.com.br/poder-eleicoes-2026/candidato-ao-planalto-quer-criar-meu-botox-minha-vida/",
+  "https://www.cnnbrasil.com.br/eleicoes/toffoli-suspende-campanha-de-wilson-grassi/"
+ ]
+}

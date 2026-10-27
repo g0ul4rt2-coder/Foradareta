@@ -1,0 +1,536 @@
+{
+ "id": "clariana-barao",
+ "nome_urna": "Clariana Barão",
+ "nome_completo": "Clariana Zacarkim Barão",
+ "partido": "DC",
+ "numero": 27,
+ "vice": "Fabiana Torquato (DC)",
+ "coligacao": "Chapa pura (DC), sem coligação",
+ "resultado_1t": {
+  "votos": 40043,
+  "pct": 0.03
+ },
+ "situacao": "Eliminada no 1º turno (9º lugar); apoia Flávio Bolsonaro no 2º turno",
+ "resumo": "Advogada de Cuiabá (MT), nascida em 1987, presidente do diretório estadual do DC em Mato Grosso e ex-presidente da Comissão de Solidariedade e Assistência Social da OAB de Várzea Grande. Estreou em eleições em 2026, substituindo Joaquim Barbosa como candidata do DC; foi a primeira vez que o partido não lançou José Maria Eymael.",
+ "autodeclaracao": "Diretrizes baseadas na preservação dos valores cristãos e na defesa da estrutura familiar tradicional (Band); slogan 'Proteger Hoje, Transformar o Amanhã'.",
+ "plano_governo_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/BR/BR/20322002026/280002552484/2026/BR",
+ "propostas": [
+  {
+   "tema": "Mulheres e crianças",
+   "texto": "Criar rede nacional de proteção e resposta à violência contra mulheres e crianças e tornar a primeira infância prioridade nacional.",
+   "fonte": "https://www.acessa.com/politica/2026/09/339917-clariana-barao-prioriza-propostas-de-protecao-a-mulher-e-a-infancia.html"
+  },
+  {
+   "tema": "Economia",
+   "texto": "Simplificação regulatória, digitalização e abertura rápida de empresas, com crédito e compras públicas acessíveis a pequenos negócios.",
+   "fonte": "https://www.acessa.com/politica/2026/09/339917-clariana-barao-prioriza-propostas-de-protecao-a-mulher-e-a-infancia.html"
+  },
+  {
+   "tema": "Infraestrutura",
+   "texto": "Ampliar rodovias, ferrovias, hidrovias, portos e cabotagem via concessões e PPPs.",
+   "fonte": "https://www.acessa.com/politica/2026/09/339917-clariana-barao-prioriza-propostas-de-protecao-a-mulher-e-a-infancia.html"
+  },
+  {
+   "tema": "Segurança",
+   "texto": "Ofensiva contra grandes facções com asfixia financeira e fronteiras integradas com compartilhamento de dados.",
+   "fonte": "https://www.acessa.com/politica/2026/09/339917-clariana-barao-prioriza-propostas-de-protecao-a-mulher-e-a-infancia.html"
+  },
+  {
+   "tema": "Saúde",
+   "texto": "Medicina preventiva com atenção primária resolutiva e atenção à saúde mental e prevenção do suicídio.",
+   "fonte": "https://www.acessa.com/politica/2026/09/339917-clariana-barao-prioriza-propostas-de-protecao-a-mulher-e-a-infancia.html"
+  }
+ ],
+ "posicoes": {
+  "E01": {
+   "v": 1,
+   "conf": "media",
+   "base": "DISCURSO: Ao Poder360 (25/08/2026) disse que 'o principal acerto do governo é a manutenção dos programas de transferência de renda' e que é favorável ao Bolsa Família.",
+   "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/clariana-barao-do-dc-defende-reforma-no-stf-e-fim-da-6-x-1/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E02": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Plano cita concessões e PPPs em infraestrutura, mas não trata de privatizar Petrobras, Correios ou BB.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E03": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Tributação progressiva não tratada nos resumos do plano.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E04": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Plano inclui 'responsabilidade fiscal com foco em resultados', sem tratar de corte de gastos nem de efeito sobre programas sociais; em entrevista apoiou a manutenção do Bolsa Família.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E05": {
+   "v": 1,
+   "conf": "media",
+   "base": "DISCURSO: Ao Poder360 (25/08/2026) disse ser favorável ao fim da escala 6x1: 'entendo que a população merece mais tempo'.",
+   "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/clariana-barao-do-dc-defende-reforma-no-stf-e-fim-da-6-x-1/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E06": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E07": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E08": {
+   "v": 0,
+   "conf": "baixa",
+   "base": "DISCURSO: Plano cita 'crédito produtivo e garantias' a pequenos negócios; sem menção a BNDES ou juros subsidiados.",
+   "fonte": "https://www.acessa.com/politica/2026/09/339917-clariana-barao-prioriza-propostas-de-protecao-a-mulher-e-a-infancia.html",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E09": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E10": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Plano prevê concessões e PPPs em infraestrutura; para saúde e educação não há menção a gestão privada.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E11": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E12": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E13": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E14": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E15": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E16": {
+   "v": 1,
+   "conf": "media",
+   "base": "DISCURSO: Plano propõe simplificação regulatória e abertura rápida de empresas, com apoio a pequenos negócios.",
+   "fonte": "https://www.acessa.com/politica/2026/09/339917-clariana-barao-prioriza-propostas-de-protecao-a-mulher-e-a-infancia.html",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E17": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E18": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V01": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Ao Poder360 disse que a mulher que chega à unidade de saúde após aborto, mesmo clandestino, 'merece ter esse atendimento com dignidade'; não se manifestou sobre legalização. O DC tem diretrizes cristãs.",
+   "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/clariana-barao-do-dc-defende-reforma-no-stf-e-fim-da-6-x-1/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V02": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V03": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V04": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem declaração localizada da candidata sobre drogas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V05": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem declaração localizada sobre gênero na escola; as diretrizes do plano defendem a família tradicional (Band).",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V06": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Defende estrutura familiar tradicional, mas não há declaração sobre casamento civil homoafetivo.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V07": {
+   "v": 1,
+   "conf": "media",
+   "base": "DISCURSO: Diretrizes do plano se baseiam na preservação dos valores cristãos, segundo a Band.",
+   "fonte": "https://www.band.com.br/politica/eleicoes/eleicoes-2026-conheca-o-perfil-e-as-propostas-de-clariana-barao-dc",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V08": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V09": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V10": {
+   "v": -1,
+   "conf": "media",
+   "base": "DISCURSO: Ao Poder360 (25/08/2026) disse não ser favorável à anistia, mas que o STF 'se excedeu muito' nos processos do 8/1 e defendeu revisá-los com pena individualizada.",
+   "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/clariana-barao-do-dc-defende-reforma-no-stf-e-fim-da-6-x-1/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V11": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V12": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V13": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V14": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V15": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V16": {
+   "v": 0,
+   "conf": "baixa",
+   "base": "DISCURSO: Plano foca em asfixia financeira de facções e gestão prisional para reduzir reincidência; não fala em penas.",
+   "fonte": "https://www.acessa.com/politica/2026/09/339917-clariana-barao-prioriza-propostas-de-protecao-a-mulher-e-a-infancia.html",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V17": {
+   "v": 2,
+   "conf": "media",
+   "base": "DISCURSO: Disse que o STF 'tem excedido as suas competências' e deve ser reformado (25/08/2026); defendeu pedir impeachment de ministros ligados ao caso Master (22/09/2026) e falou em 'acobertamento criminoso de ministros'.",
+   "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/clariana-barao-do-dc-defende-reforma-no-stf-e-fim-da-6-x-1/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V18": {
+   "v": 2,
+   "conf": "media",
+   "base": "DISCURSO: Diretrizes defendem a estrutura familiar tradicional, segundo a Band.",
+   "fonte": "https://www.band.com.br/politica/eleicoes/eleicoes-2026-conheca-o-perfil-e-as-propostas-de-clariana-barao-dc",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V19": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada encontrada em plano, entrevistas ou programa partidário.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z01": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Não encontrei declaração sobre aceitação de resultados eleitorais; após o 1º turno declarou apoio a Flávio Bolsonaro (07/10/2026) sem contestar a apuração.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z02": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada sobre intervenção militar.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z03": {
+   "v": -1,
+   "conf": "baixa",
+   "base": "DISCURSO: Programa cita 'respeito à independência dos Poderes e às regras democráticas'; suas críticas ao STF são encaminhadas por reforma e pedidos de impeachment de ministros (22/09/2026).",
+   "fonte": "https://www.acessa.com/politica/2026/09/339917-clariana-barao-prioriza-propostas-de-protecao-a-mulher-e-a-infancia.html",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z04": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada sobre imprensa.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z05": {
+   "v": -1,
+   "conf": "baixa",
+   "base": "DISCURSO: Ao MyNews (02/09/2026) criticou a polarização e defendeu conciliação institucional como 'único caminho' para as reformas (paráfrase do veículo).",
+   "fonte": "https://canalmynews.com.br/cafe-do-mynews/clariana-barao-nao-existe-democracia-sem-as-mulheres/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z06": {
+   "v": 1,
+   "conf": "baixa",
+   "base": "DISCURSO: Diz ter 'uma tendência de valores de direita, mas caminho fora da guerrilha' (Poder360, 25/08/2026) e defende reformas por conciliação institucional.",
+   "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/clariana-barao-do-dc-defende-reforma-no-stf-e-fim-da-6-x-1/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z07": {
+   "v": -1,
+   "conf": "baixa",
+   "base": "DISCURSO: Programa cita respeito à independência dos Poderes; propõe reformar o STF e acabar com a vitaliciedade, sem defender governo sem Congresso ou tribunais.",
+   "fonte": "https://www.acessa.com/politica/2026/09/339917-clariana-barao-prioriza-propostas-de-protecao-a-mulher-e-a-infancia.html",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z08": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Não encontrei posição sobre eleições ou perseguição a opositores em outros países; rejeitou o modelo prisional de El Salvador, onde os presos 'são tratados como lixo'.",
+   "fonte": "https://www.blogbrito.com/post/candidata-do-dc-%C3%A0-presid%C3%AAncia-defende-privatiza%C3%A7%C3%A3o-de-pres%C3%ADdios-e-coopera%C3%A7%C3%A3o-com-os-eua-no-combate-a",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V20": {
+   "v": null,
+   "p": null,
+   "conf": "baixa",
+   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
+   "fonte": null
+  },
+  "Z09": {
+   "v": null,
+   "p": null,
+   "conf": "baixa",
+   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
+   "fonte": null
+  },
+  "Z10": {
+   "v": null,
+   "p": null,
+   "conf": "baixa",
+   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
+   "fonte": null
+  }
+ },
+ "checagens": [],
+ "fontes": [
+  "https://www.acessa.com/politica/2026/09/339917-clariana-barao-prioriza-propostas-de-protecao-a-mulher-e-a-infancia.html",
+  "https://jovempan.com.br/?p=282058",
+  "https://www.poder360.com.br/poder-eleicoes-2026/com-saida-de-barbosa-dc-lanca-clariana-ao-planalto/",
+  "https://m.imirante.com/noticias/brasil/2026/10/07/ipolitica-clariana-barao-apoia-flavio-bolsonaro-eleicoes-2026",
+  "https://www.band.com.br/politica/eleicoes/eleicoes-2026-conheca-o-perfil-e-as-propostas-de-clariana-barao-dc",
+  "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/BR/BR/20322002026/280002552484/2026/BR",
+  "https://agenciabrasil.ebc.com.br/politica/noticia/2026-08/clariana-barao-e-candidata-do-democracia-crista-presidencia",
+  "https://www.poder360.com.br/poder-eleicoes-2026/clariana-barao-do-dc-defende-reforma-no-stf-e-fim-da-6-x-1/",
+  "https://www.polemicaparaiba.com.br/politica/candidata-a-presidencia-clariana-barao-defende-impeachment-de-ministros-do-stf-em-entrevista-ao-polemica-paraiba/",
+  "https://canalmynews.com.br/cafe-do-mynews/clariana-barao-nao-existe-democracia-sem-as-mulheres/",
+  "https://www.blogbrito.com/post/candidata-do-dc-%C3%A0-presid%C3%AAncia-defende-privatiza%C3%A7%C3%A3o-de-pres%C3%ADdios-e-coopera%C3%A7%C3%A3o-com-os-eua-no-combate-a",
+  "https://www.otempo.com.br/eleicoes/2026/presidentes/2026/10/7/clariana-barao-candidata-derrotada-do-dc-a-presidente-declara-apoio-a-flavio-bolsonaro",
+  "https://planodegoverno2026.com.br/planos/clariana-barao-4f3d8031.pdf"
+ ],
+ "atualizado_em": "2026-10-25",
+ "pratica_resumo": "Nunca exerceu mandato eletivo nem cargo público; 2026 foi sua primeira eleição. Presidiu uma comissão da OAB de Várzea Grande e preside o DC em Mato Grosso, funções que não são cargos públicos. Sem atos de governo ou votos, não há nota de prática em nenhuma afirmação. Após o 1º turno declarou apoio a Flávio Bolsonaro (07/10/2026).",
+ "atos": []
+}

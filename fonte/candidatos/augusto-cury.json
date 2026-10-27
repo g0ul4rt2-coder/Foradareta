@@ -1,0 +1,592 @@
+{
+ "id": "augusto-cury",
+ "nome_urna": "Escritor Augusto Cury",
+ "nome_completo": "Augusto Jorge Cury",
+ "partido": "Avante",
+ "numero": 70,
+ "vice": "Júlio Delgado (Avante)",
+ "coligacao": "Brasil dos Nossos Sonhos (Avante, Agir)",
+ "resultado_1t": {
+  "votos": 3448569,
+  "pct": 2.89
+ },
+ "situacao": "Não eleito (3º lugar no 1º turno)",
+ "resumo": "Psiquiatra e escritor, filiou-se ao Avante em 2026 e disputou sua primeira eleição, terminando em 3º lugar. Em 04/10 manteve neutralidade, mas em 08/10/2026 declarou apoio a Flávio Bolsonaro (PL) no 2º turno, condicionado a um termo de compromisso assinado por Flávio (fim da reeleição, telemedicina, micro e pequenas empresas, entre outros); disse não ter pedido cargos.",
+ "autodeclaracao": "Diz não ser de direita nem de esquerda e se apresenta como 'centro moderado', com 'mente capitalista e coração social' (Revista Fórum, 25/08/2026; pronunciamento de 04/10/2026).",
+ "plano_governo_url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/escritor-augusto-cury-propostas-de-governo",
+ "propostas": [
+  {
+   "tema": "Sistema político",
+   "texto": "Adotar o semipresidencialismo, com um primeiro-ministro responsável pela gestão cotidiana, e acabar com a reeleição presidencial.",
+   "fonte": "https://static.poder360.com.br/uploads/2026/10/Pronunciamento-Augusto-Cury-Eleicoes-2026.pdf"
+  },
+  {
+   "tema": "Judiciário",
+   "texto": "Mandato de oito anos para ministros do STF, idade mínima de 50 anos, Corte com nove ministros e fim da indicação pelo presidente.",
+   "fonte": "https://planodegoverno2026.com.br/candidatos/presidente/augusto-cury/"
+  },
+  {
+   "tema": "Economia",
+   "texto": "Perseguir déficit público próximo de zero durante o mandato, com limites de gasto por ministério e auditoria de despesas com inteligência artificial.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/escritor-augusto-cury-propostas-de-governo"
+  },
+  {
+   "tema": "Empreendedorismo",
+   "texto": "Formar 10 milhões de novos microempreendedores e criar o Banco do Empreendedor, com crédito de até R$ 20 mil a juros de 5% a 6% ao ano.",
+   "fonte": "https://planodegoverno2026.com.br/candidatos/presidente/augusto-cury/"
+  },
+  {
+   "tema": "Crédito",
+   "texto": "Dividir o BNDES em dois, criando um banco da pequena e da microempresa para financiar de 10 a 15 milhões de empresas.",
+   "fonte": "https://static.poder360.com.br/uploads/2026/10/Pronunciamento-Augusto-Cury-Eleicoes-2026.pdf"
+  },
+  {
+   "tema": "Proteção social",
+   "texto": "Manter o Bolsa Família sem retirar o benefício, por determinado tempo, de quem assinar carteira ou abrir microempresa.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/escritor-augusto-cury-propostas-de-governo"
+  },
+  {
+   "tema": "Segurança",
+   "texto": "Recriar o Ministério da Segurança Pública e criar o sistema FATO, integrando polícias com IA e reconhecimento facial, e a força municipal FOCO.",
+   "fonte": "https://sbtnews.sbt.com.br/noticia/eleicoes/crime-e-violencia-veja-as-propostas-de-cury-na-integra"
+  },
+  {
+   "tema": "Saúde",
+   "texto": "Telemedicina para resolver cerca de 80% das consultas básicas, com meta de atendimento em até 30 minutos.",
+   "fonte": "https://planodegoverno2026.com.br/candidatos/presidente/augusto-cury/"
+  },
+  {
+   "tema": "Mulheres",
+   "texto": "Programa 'Mulheres Vivas', com botão de emergência georreferenciado e monitoramento eletrônico de agressores por ordem judicial.",
+   "fonte": "https://sbtnews.sbt.com.br/noticia/eleicoes/crime-e-violencia-veja-as-propostas-de-cury-na-integra"
+  },
+  {
+   "tema": "Educação",
+   "texto": "Escola em tempo integral com educação socioemocional, financeira e empreendedorismo, e ensino médio integrado ao técnico.",
+   "fonte": "https://static.poder360.com.br/uploads/2026/10/Pronunciamento-Augusto-Cury-Eleicoes-2026.pdf"
+  }
+ ],
+ "posicoes": {
+  "E01": {
+   "v": 1,
+   "conf": "alta",
+   "base": "DISCURSO: Plano mantém o Bolsa Família e propõe que beneficiário não perca o benefício por um tempo ao assinar carteira ou abrir microempresa; também critica o programa por 'perpetuar' a pobreza.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/escritor-augusto-cury-propostas-de-governo",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E02": {
+   "v": -1,
+   "conf": "media",
+   "base": "DISCURSO: Plano não propõe privatizações; prevê usar lucros de estatais em que a União tem participação para financiar políticas de empreendedorismo.",
+   "fonte": "https://planodegoverno2026.com.br/candidatos/presidente/augusto-cury/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E03": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Não encontrei posição do candidato sobre o tema no plano registrado no TSE nem em entrevistas consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E04": {
+   "v": 1,
+   "conf": "alta",
+   "base": "DISCURSO: Plano fixa meta de 'déficit público próximo de zero' no mandato, limite de gasto por ministério e auditoria de despesas por IA, preservando políticas sociais.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/escritor-augusto-cury-propostas-de-governo",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E05": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Plano registrado no TSE não trata da escala 6x1; não encontrei declaração do candidato sobre o tema.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E06": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Não encontrei posição do candidato sobre o tema no plano registrado no TSE nem em entrevistas consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E07": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Defende juros de 5%–6% em 1–2 anos via 'responsabilidade fiscal rigorosa', mas não encontrei posição sobre a autonomia do Banco Central.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E08": {
+   "v": 1,
+   "conf": "media",
+   "base": "DISCURSO: Pronunciamento propõe dividir o BNDES e criar um banco da pequena e da microempresa para financiar de 10 a 15 milhões de empresas; o plano cria o Banco do Empreendedor com crédito de até R$ 20 mil a 'juros civilizados (5% a 6% ao ano)'. O foco é pequeno negócio, não setores estratégicos.",
+   "fonte": "https://planodegoverno2026.com.br/planos/augusto-cury-2890f992.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E09": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Não encontrei posição do candidato sobre o tema no plano registrado no TSE nem em entrevistas consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E10": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Não encontrei posição do candidato sobre o tema no plano registrado no TSE nem em entrevistas consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E11": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Não encontrei posição do candidato sobre o tema no plano registrado no TSE nem em entrevistas consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E12": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Plano propõe dobrar o comércio exterior com 'Embaixada 4.0', mas não trata de redução de tarifas de importação.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E13": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Não encontrei posição do candidato sobre o tema no plano registrado no TSE nem em entrevistas consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E14": {
+   "v": 0,
+   "conf": "media",
+   "base": "DISCURSO: Vincula o Bolsa Família ao trabalho e ao empreendedorismo, mas por incentivos (não perder o benefício ao formalizar-se), não por contrapartidas rígidas ou prazo de saída.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/escritor-augusto-cury-propostas-de-governo",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E15": {
+   "v": 0,
+   "conf": "media",
+   "base": "DISCURSO: Plano diz que a reforma agrária deve ser tratada 'em parte' como projeto de segurança alimentar e empreendedorismo rural; não propõe ampliar desapropriações.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/escritor-augusto-cury-propostas-de-governo",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E16": {
+   "v": 1,
+   "conf": "media",
+   "base": "DISCURSO: Define-se como 'mente capitalista e coração social'; plano aposta em 10 milhões de microempreendedores e simplificação tributária, mas também cria novos programas.",
+   "fonte": "https://static.poder360.com.br/uploads/2026/10/Pronunciamento-Augusto-Cury-Eleicoes-2026.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E17": {
+   "v": -1,
+   "conf": "media",
+   "base": "DISCURSO: Plano: 'Não se combate o preço dos alimentos atacando quem produz. Combate-se aumentando produtividade, infraestrutura, armazenagem, eficiência'.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/escritor-augusto-cury-propostas-de-governo",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E18": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Não encontrei posição do candidato sobre o tema no plano registrado no TSE nem em entrevistas consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V01": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Segundo análise dos planos, o de Cury prevê planejamento reprodutivo 'nos termos da legislação brasileira' e não trata de aborto; sem declaração encontrada.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V02": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Não encontrei posição do candidato sobre o tema no plano registrado no TSE nem em entrevistas consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V03": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Não encontrei posição do candidato sobre o tema no plano registrado no TSE nem em entrevistas consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V04": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Não encontrei posição do candidato sobre o tema no plano registrado no TSE nem em entrevistas consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V05": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Não encontrei posição do candidato sobre o tema no plano registrado no TSE nem em entrevistas consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V06": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Não encontrei posição do candidato sobre o tema no plano registrado no TSE nem em entrevistas consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V07": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Não encontrei posição do candidato sobre o tema no plano registrado no TSE nem em entrevistas consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V08": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Não encontrei posição do candidato sobre o tema no plano registrado no TSE nem em entrevistas consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V09": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Não encontrei posição do candidato sobre o tema no plano registrado no TSE nem em entrevistas consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V10": {
+   "v": 1,
+   "conf": "alta",
+   "base": "DISCURSO: À CNN Brasil, disse que concederia perdão à maioria dos envolvidos no 8 de janeiro, exceto aos organizadores ('cabeças'); sobre Jair Bolsonaro, disse que precisaria analisar.",
+   "fonte": "https://www.cnnbrasil.com.br/eleicoes/daria-perdao-a-quase-todos-envolvidos-no-8-1-diz-augusto-cury-a-cnn/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V11": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Não encontrei posição do candidato sobre o tema no plano registrado no TSE nem em entrevistas consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V12": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Plano registrado no TSE não trata de terras indígenas nem do marco temporal.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V13": {
+   "v": 0,
+   "conf": "baixa",
+   "base": "DISCURSO: Plano prevê combate a queimadas (Floresta Viva) e mercado de carbono, mas também meta de dobrar a produção de alimentos (de 350 para 700 milhões de t) em dez anos.",
+   "fonte": "https://static.poder360.com.br/uploads/2026/10/Pronunciamento-Augusto-Cury-Eleicoes-2026.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V14": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Não encontrei posição do candidato sobre o tema no plano registrado no TSE nem em entrevistas consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V15": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Não encontrei posição do candidato sobre o tema no plano registrado no TSE nem em entrevistas consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V16": {
+   "v": 1,
+   "conf": "baixa",
+   "base": "DISCURSO: Plano prevê Justiça mais rápida contra a prescrição e reforma prisional; no debate da Band defendeu tratar corrupção como crime hediondo.",
+   "fonte": "https://sbtnews.sbt.com.br/noticia/eleicoes/crime-e-violencia-veja-as-propostas-de-cury-na-integra",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V17": {
+   "v": 1,
+   "conf": "alta",
+   "base": "DISCURSO: Diz que há 'um protagonismo crescente do Supremo Tribunal Federal que, em minha avaliação, tornou-se desproporcional'; propõe, via Congresso, mandato de 8 anos, idade mínima de 50 anos, 9 ministros e fim da indicação pelo presidente.",
+   "fonte": "https://static.poder360.com.br/uploads/2026/10/Pronunciamento-Augusto-Cury-Eleicoes-2026.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V18": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Não encontrei posição do candidato sobre o tema no plano registrado no TSE nem em entrevistas consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V19": {
+   "v": 0,
+   "conf": "media",
+   "base": "DISCURSO: Plano propõe embaixadas com metas comerciais e deslocar ~20% dos diplomatas dos EUA para China, Oriente Médio e outros mercados; cita Israel e China como parceiros técnicos.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/escritor-augusto-cury-propostas-de-governo",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z01": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Na noite do 1º turno (04/10/2026): 'eu só posso respeitar a vontade soberana do povo brasileiro, sem qualquer mágoa'; no pronunciamento cumprimentou 'os dois candidatos que conquistaram, nas urnas, o direito de disputar o segundo turno'.",
+   "fonte": "https://www.gazetadopovo.com.br/eleicoes/2026/augusto-cury-diz-que-deixara-politica-e-descarta-apoio-no-segundo-turno/",
+   "p": 2,
+   "conf_p": "alta",
+   "base_p": "PRÁTICA: reconheceu publicamente o resultado do 1º turno de 2026 no mesmo dia e não contestou a apuração (única eleição que disputou).",
+   "fonte_p": "https://www.gazetadopovo.com.br/eleicoes/2026/augusto-cury-diz-que-deixara-politica-e-descarta-apoio-no-segundo-turno/"
+  },
+  "Z02": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Plano prevê fortalecer as Forças Armadas no controle de fronteiras 'respeitando as competências constitucionais'; não encontrei posição sobre intervenção militar em crises.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z03": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Não encontrei declaração sobre cumprimento de decisões judiciais; propõe reformar o STF por emenda (mandato de 8 anos, 9 ministros).",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z04": {
+   "v": -1,
+   "conf": "baixa",
+   "base": "DISCURSO: Plano trata a liberdade de expressão como 'valor fundamental' e 'pilar central das democracias' e critica algoritmos das plataformas; não trata de punir veículos de imprensa.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/escritor-augusto-cury-propostas-de-governo",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z05": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Pronunciamento (04/10/2026): quer 'superar um modelo político que transforma divergentes em inimigos, adversários em seres a serem destruídos'; plano: 'O opositor deixa de ser alguém com ideias diferentes e passa a ser visto como ameaça moral. Assim nascem os extremismos'.",
+   "fonte": "https://static.poder360.com.br/uploads/2026/10/Pronunciamento-Augusto-Cury-Eleicoes-2026.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z06": {
+   "v": 1,
+   "conf": "media",
+   "base": "DISCURSO: Plano: 'Meu desejo é que este plano provoque uma revolução silenciosa. Não uma revolução armada, mas uma revolução da consciência'; reformas institucionais propostas por emenda constitucional (semipresidencialismo, STF).",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/escritor-augusto-cury-propostas-de-governo",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z07": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Defende fim da reeleição e semipresidencialismo para reduzir 'a excessiva concentração de responsabilidades no Presidente'; critica personalismos ('lulismo e bolsonarismo') e diz que 'todo presidente é apenas um empregado temporário da sociedade'.",
+   "fonte": "https://static.poder360.com.br/uploads/2026/10/Pronunciamento-Augusto-Cury-Eleicoes-2026.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z08": {
+   "v": 1,
+   "conf": "baixa",
+   "base": "DISCURSO: Plano: 'Ditaduras de direita e de esquerda torturaram opositores em nome de projetos supostamente nobres'; pronunciamento inclui o chavismo entre os personalismos latino-americanos. Não encontrei posição sobre eleições na Venezuela ou outros casos.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/escritor-augusto-cury-propostas-de-governo",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V20": {
+   "v": null,
+   "p": null,
+   "conf": "baixa",
+   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
+   "fonte": null
+  },
+  "Z09": {
+   "v": null,
+   "p": null,
+   "conf": "baixa",
+   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
+   "fonte": null
+  },
+  "Z10": {
+   "v": null,
+   "p": null,
+   "conf": "baixa",
+   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
+   "fonte": null
+  }
+ },
+ "checagens": [
+  {
+   "afirmacao": "Augusto Cury declarou apoio a Lula no 2º turno e disse que ele vai 'trucidar' Flávio Bolsonaro.",
+   "veredito": "Falso",
+   "agencia": "Boatos.org",
+   "data": "2026-10-07",
+   "url": "https://www.boatos.org/politica/augusto-cury-declara-apoio-a-lula-e-diz-que-ele-vai-trucidar-flavio-bolsonaro-no-2o-turno.html"
+  },
+  {
+   "afirmacao": "Augusto Cury 'sempre foi de esquerda' e o Avante apoia Lula.",
+   "veredito": "Falso",
+   "agencia": "Boatos.org",
+   "data": "2026-09-01",
+   "url": "https://www.boatos.org/politica/augusto-cury-e-partido-avante-sao-de-esquerda-e-apoiam-lula.html"
+  },
+  {
+   "afirmacao": "Caiado, Zema e Cury retiraram apoio a Flávio Bolsonaro no 2º turno.",
+   "veredito": "Falso",
+   "agencia": "Boatos.org",
+   "data": "2026-10-15",
+   "url": "https://www.boatos.org/politica/caiado-cury-e-zema-retiram-apoio-a-flavio-bolsonaro-no-2o-turno-das-eleicoes.html"
+  },
+  {
+   "afirmacao": "'Quem assina a carteira não vai perder o benefício' (proposta para o Bolsa Família, debate da Band).",
+   "veredito": "Contextualizado (sem selo): a regra já existe — famílias podem receber 50% do benefício por até 12 meses",
+   "agencia": "Aos Fatos",
+   "data": "2026-08-23",
+   "url": "https://www.aosfatos.org/noticias/checamos-debate-presidencial-band/"
+  }
+ ],
+ "fontes": [
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/escritor-augusto-cury-propostas-de-governo",
+  "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017125643",
+  "https://planodegoverno2026.com.br/candidatos/presidente/augusto-cury/",
+  "https://static.poder360.com.br/uploads/2026/10/Pronunciamento-Augusto-Cury-Eleicoes-2026.pdf",
+  "https://www.poder360.com.br/poder-eleicoes-2026/augusto-cury-declara-apoio-a-flavio-bolsonaro-no-2o-turno/",
+  "https://tribunadoplanalto.com.br/derrotados-no-1o-turno-adotam-posicoes-diferentes-para-disputa-entre-lula-e-flavio/",
+  "https://revistaforum.com.br/politica/augusto-cury-e-de-esquerda-ou-direita-entenda-o-posicionamento-do-candidato-a-presidencia/",
+  "https://www.cnnbrasil.com.br/eleicoes/daria-perdao-a-quase-todos-envolvidos-no-8-1-diz-augusto-cury-a-cnn/",
+  "https://www.poder360.com.br/poder-eleicoes/10-dos-12-pre-candidatos-a-presidencia-ja-se-manifestaram-contra-o-stf/",
+  "https://sbtnews.sbt.com.br/noticia/eleicoes/crime-e-violencia-veja-as-propostas-de-cury-na-integra",
+  "https://www.aosfatos.org/noticias/checamos-debate-presidencial-band/",
+  "https://www.ainvestigacao.com/p/plano-de-governo-de-flavio-e-unico-contra-aborto",
+  "https://crusoe.com.br/diario/as-lacunas-do-plano-economico-e-fiscal-de-augusto-cury/",
+  "https://portaldeprefeitura.com.br/bastidores-da-politica/eleicoes-2026-com-100-das-secoes-totalizadas-flavio-tem-4703-e/633498/",
+  "https://www.gazetadopovo.com.br/eleicoes/2026/augusto-cury-diz-que-deixara-politica-e-descarta-apoio-no-segundo-turno/"
+ ],
+ "atualizado_em": "2026-10-25",
+ "pratica_resumo": "Nunca exerceu mandato eletivo nem cargo público; 2026 foi sua primeira eleição. Não há votos, leis ou atos de governo para comparar com o discurso, por isso não há nota de prática, exceto no reconhecimento do resultado do 1º turno (04/10/2026). Em 04/10 disse que deixaria a política e descartou apoiar Lula ou Flávio; em 08/10 declarou apoio a Flávio Bolsonaro mediante termo de compromisso assinado pelo candidato.",
+ "atos": []
+}

@@ -1,0 +1,89 @@
+{
+ "id": "samara-martins",
+ "nome": "Samara Martins",
+ "eventos": [
+  {
+   "data": "1987-08-31",
+   "tipo": "origem",
+   "titulo": "Nasce em Belo Horizonte",
+   "texto": "Samara Martins nasce em Belo Horizonte (MG). Começa a militar ainda na escola, na associação de estudantes secundaristas da Grande BH (AMES-BH).",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-08/samara-martins-e-candidata-do-unidade-popular-ao-pleito-presidencial"
+  },
+  {
+   "data": "2016-06-16",
+   "tipo": "cargo",
+   "titulo": "Vice-presidente nacional da UP",
+   "texto": "Torna-se vice-presidente nacional da Unidade Popular (UP), partido socialista. Também foi diretora de mulheres da UNE e coordena a Frente Negra Revolucionária.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-08/samara-martins-e-candidata-do-unidade-popular-ao-pleito-presidencial"
+  },
+  {
+   "data": "2017",
+   "tipo": "carreira",
+   "titulo": "Dentista do SUS no RN",
+   "texto": "Formada em Odontologia pela UFRN, passa a trabalhar como dentista no SUS no Rio Grande do Norte.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-08/samara-martins-e-candidata-do-unidade-popular-ao-pleito-presidencial"
+  },
+  {
+   "data": "2020",
+   "tipo": "eleicao",
+   "titulo": "Candidata a vereadora em Natal",
+   "texto": "Primeira eleição: recebe 515 votos (0,14%) e não é eleita.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://dadosabertos.tse.jus.br/dataset/resultados-2020"
+  },
+  {
+   "data": "2022",
+   "tipo": "eleicao",
+   "titulo": "Vice na chapa de Léo Péricles",
+   "texto": "Candidata a vice-presidente na chapa de Léo Péricles (UP), a única chapa formada só por pessoas negras naquela eleição; 53.519 votos (0,05%).",
+   "status": null,
+   "pessoas": [
+    "leo-pericles"
+   ],
+   "fonte": "https://dadosabertos.tse.jus.br/dataset/resultados-2022"
+  },
+  {
+   "data": "2026-02",
+   "tipo": "eleicao",
+   "titulo": "UP lança sua pré-candidatura",
+   "texto": "O Diretório Nacional da UP decide lançá-la à Presidência; aos 38 anos, é a única mulher entre os pré-candidatos naquele momento.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://www.cnnbrasil.com.br/eleicoes/quem-e-samara-martins-unica-pre-candidata-mulher-a-presidencia/"
+  },
+  {
+   "data": "2026-07-26",
+   "tipo": "eleicao",
+   "titulo": "Chapa 100% feminina",
+   "texto": "Convenção oficializa a candidatura com a sindicalista Raquel Brício, guarda portuária e cofundadora do Movimento de Mulheres Olga Benário, como vice.",
+   "status": null,
+   "pessoas": [
+    "raquel-bricio"
+   ],
+   "fonte": "https://diariodonordeste.verdesmares.com.br/pontopoder/quem-e-samara-martins-candidata-da-up-a-presidencia-da-republica-em-2026-1.3779598"
+  },
+  {
+   "data": "2026-10-04",
+   "tipo": "eleicao",
+   "titulo": "7º lugar no 1º turno",
+   "texto": "Recebe 122.911 votos (0,10%).",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://dadosabertos.tse.jus.br/dataset/resultados-2026"
+  }
+ ],
+ "resumo_juridico": "Não há processos conhecidos: não localizei inquérito, denúncia, ação judicial ou decisão da Justiça Eleitoral contra Samara Martins. Nunca exerceu mandato eletivo nem cargo de governo.",
+ "fontes": [
+  "https://agenciabrasil.ebc.com.br/politica/noticia/2026-08/samara-martins-e-candidata-do-unidade-popular-ao-pleito-presidencial",
+  "https://www.cnnbrasil.com.br/eleicoes/quem-e-samara-martins-unica-pre-candidata-mulher-a-presidencia/",
+  "https://diariodonordeste.verdesmares.com.br/pontopoder/quem-e-samara-martins-candidata-da-up-a-presidencia-da-republica-em-2026-1.3779598",
+  "https://dadosabertos.tse.jus.br/dataset/resultados-2026"
+ ]
+}

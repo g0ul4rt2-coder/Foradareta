@@ -1,0 +1,538 @@
+{
+ "id": "edmilson-costa",
+ "nome_urna": "Edmilson Costa",
+ "nome_completo": "Edmilson Silva Costa",
+ "partido": "PCB",
+ "numero": 21,
+ "vice": "Cleusa Santos (PCB)",
+ "coligacao": "Chapa pura (PCB), sem coligação",
+ "resultado_1t": {
+  "votos": 22693,
+  "pct": 0.02
+ },
+ "situacao": "Eliminado no 1º turno (10º lugar)",
+ "resumo": "Economista maranhense de 76 anos, doutor pela Unicamp, secretário-geral do PCB desde 2016 e filiado ao partido desde 1970. Foi candidato a prefeito de São Paulo em 2008 e a vice-presidente em 2010, na chapa de Ivan Pinheiro.",
+ "autodeclaracao": "Defende 'poder popular' e transição ao socialismo; chama o PCB de 'o único partido da esquerda revolucionária que tem um programa' (Sputnik/Tribuna do Sertão).",
+ "plano_governo_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017107286",
+ "propostas": [
+  {
+   "tema": "Economia",
+   "texto": "Estatizar o sistema financeiro com um 'Banco dos Trabalhadores' e suspender/auditar a dívida pública.",
+   "fonte": "https://www.poder360.com.br/opiniao/propostas-na-perspectiva-do-socialismo/"
+  },
+  {
+   "tema": "Trabalho",
+   "texto": "Jornada de 30 horas semanais sem redução salarial e fim da escala 6x1.",
+   "fonte": "https://www.poder360.com.br/opiniao/propostas-na-perspectiva-do-socialismo/"
+  },
+  {
+   "tema": "Instituições",
+   "texto": "Extinguir o Senado e criar Parlamento unicameral, com Constituinte metade eleita por organizações populares.",
+   "fonte": "https://www.poder360.com.br/opiniao/propostas-na-perspectiva-do-socialismo/"
+  },
+  {
+   "tema": "Saúde",
+   "texto": "Sistema público integrado com estatização do sistema privado de saúde.",
+   "fonte": "https://www.poder360.com.br/opiniao/propostas-na-perspectiva-do-socialismo/"
+  },
+  {
+   "tema": "Trabalho",
+   "texto": "Garantir a trabalhadores de aplicativos carteira assinada e piso salarial.",
+   "fonte": "https://www.poder360.com.br/opiniao/propostas-na-perspectiva-do-socialismo/"
+  },
+  {
+   "tema": "Política externa",
+   "texto": "Aprofundar laços com o BRICS e solidariedade a Cuba, Irã e Palestina.",
+   "fonte": "https://www.tribunadosertao.com.br/geral/2026/06/25/928731-se-voce-nao-resiste-ao-imperialismo-voce-termina-sendo-subjugado-diz-pre-candidato-do-pcb"
+  }
+ ],
+ "posicoes": {
+  "E01": {
+   "v": 2,
+   "conf": "media",
+   "base": "DISCURSO: Propõe 'lei de responsabilidade social' para garantir recursos a programas sociais.",
+   "fonte": "https://www.poder360.com.br/opiniao/propostas-na-perspectiva-do-socialismo/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E02": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Propõe reincorporar ao patrimônio público as estatais estratégicas privatizadas e estatizar bancos.",
+   "fonte": "https://www.poder360.com.br/opiniao/propostas-na-perspectiva-do-socialismo/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E03": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Propõe reforma tributária progressiva, cobrando mais dos ricos e menos sobre consumo.",
+   "fonte": "https://www.poder360.com.br/opiniao/propostas-na-perspectiva-do-socialismo/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E04": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Propõe revogar a Lei de Responsabilidade Fiscal e suspender pagamento da dívida.",
+   "fonte": "https://www.tribunadosertao.com.br/geral/2026/06/25/928731-se-voce-nao-resiste-ao-imperialismo-voce-termina-sendo-subjugado-diz-pre-candidato-do-pcb",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E05": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Propõe jornada de 30 horas sem redução salarial e fim da escala 6x1.",
+   "fonte": "https://www.poder360.com.br/opiniao/propostas-na-perspectiva-do-socialismo/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E06": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Propõe garantir a trabalhadores de aplicativos direitos, carteira assinada e piso salarial.",
+   "fonte": "https://www.poder360.com.br/opiniao/propostas-na-perspectiva-do-socialismo/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E07": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Propõe revogar a autonomia do Banco Central.",
+   "fonte": "https://www.poder360.com.br/opiniao/propostas-na-perspectiva-do-socialismo/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E08": {
+   "v": 2,
+   "conf": "media",
+   "base": "DISCURSO: Propõe política industrial comandada pelo Estado e Banco dos Trabalhadores para financiar reformas.",
+   "fonte": "https://www.poder360.com.br/opiniao/propostas-na-perspectiva-do-socialismo/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E09": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Propõe elevar o mínimo a cerca de R$ 7.800 em cinco anos, segundo cálculo do Dieese.",
+   "fonte": "https://www.tribunadosertao.com.br/geral/2026/06/25/928731-se-voce-nao-resiste-ao-imperialismo-voce-termina-sendo-subjugado-diz-pre-candidato-do-pcb",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E10": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Propõe estatizar o sistema privado de saúde e integrar universidades privadas ao sistema público.",
+   "fonte": "https://www.tribunadosertao.com.br/geral/2026/06/25/928731-se-voce-nao-resiste-ao-imperialismo-voce-termina-sendo-subjugado-diz-pre-candidato-do-pcb",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E11": {
+   "v": -2,
+   "conf": "media",
+   "base": "DISCURSO: Propõe revogar a reforma da Previdência; capitalização não citada.",
+   "fonte": "https://mais.opovo.com.br/jornal/politica/2026/08/07/candidato-a-presidencia-do-pcb-destaca-propostas.html",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E12": {
+   "v": -2,
+   "conf": "media",
+   "base": "DISCURSO: Propõe ampliar controle estatal sobre câmbio e comércio exterior.",
+   "fonte": "https://www.opovo.com.br/noticias/politica/2026/08/01/amp/pcb-oficializa-candidatura-de-edmilson-costa-a-presidencia.html",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E13": {
+   "v": -2,
+   "conf": "media",
+   "base": "DISCURSO: Propõe colocar setores essenciais e riquezas minerais sob controle público.",
+   "fonte": "https://www.poder360.com.br/opiniao/propostas-na-perspectiva-do-socialismo/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E14": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Contrapartidas em programas sociais não tratadas nas fontes.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E15": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Propõe reforma agrária com expropriação de terras improdutivas, com trabalho escravo ou desmatamento.",
+   "fonte": "https://www.tribunadosertao.com.br/geral/2026/06/25/928731-se-voce-nao-resiste-ao-imperialismo-voce-termina-sendo-subjugado-diz-pre-candidato-do-pcb",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E16": {
+   "v": -2,
+   "conf": "media",
+   "base": "DISCURSO: Programa propõe a 'destruição da ideologia do empreendedorismo e da precarização de direitos'.",
+   "fonte": "https://planodegoverno2026.com.br/planos/edmilson-costa-7bade087.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E17": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Programa: 'controle de preços dos itens da cesta básica' e estoques reguladores da Conab.",
+   "fonte": "https://planodegoverno2026.com.br/planos/edmilson-costa-7bade087.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E18": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Programa: 'taxa negocial seja ampliada para todos os trabalhadores' beneficiados por negociações coletivas e reforma que 'reforce as entidades sindicais'.",
+   "fonte": "https://planodegoverno2026.com.br/planos/edmilson-costa-7bade087.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V01": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Programa: 'Legalização do aborto, com garantia de atendimento na rede pública de saúde'.",
+   "fonte": "https://planodegoverno2026.com.br/planos/edmilson-costa-7bade087.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V02": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada sobre armas para civis; critica os EUA como fornecedor de armas a facções.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V03": {
+   "v": -2,
+   "conf": "media",
+   "base": "DISCURSO: Declarou-se contra a redução da maioridade penal em entrevista à Sputnik.",
+   "fonte": "https://www.tribunadosertao.com.br/geral/2026/06/25/928731-se-voce-nao-resiste-ao-imperialismo-voce-termina-sendo-subjugado-diz-pre-candidato-do-pcb",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V04": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Programa: 'Descriminalização do uso de drogas, com legalização da maconha a curto prazo'.",
+   "fonte": "https://planodegoverno2026.com.br/planos/edmilson-costa-7bade087.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V05": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Programa combate a LGBTfobia, mas não trata de gênero no currículo escolar.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V06": {
+   "v": 1,
+   "conf": "baixa",
+   "base": "DISCURSO: Programa propõe combate à LGBTfobia; casamento civil não é citado.",
+   "fonte": "https://planodegoverno2026.com.br/planos/edmilson-costa-7bade087.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V07": {
+   "v": -1,
+   "conf": "media",
+   "base": "DISCURSO: Programa defende 'educação laica' e liberdade de culto.",
+   "fonte": "https://planodegoverno2026.com.br/planos/edmilson-costa-7bade087.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V08": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Programa propõe ampliação das cotas (54% para a população negra) e cotas para pessoas trans.",
+   "fonte": "https://planodegoverno2026.com.br/planos/edmilson-costa-7bade087.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V09": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Propõe desmilitarizar a segurança pública e criar conselhos populares.",
+   "fonte": "https://www.poder360.com.br/opiniao/propostas-na-perspectiva-do-socialismo/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V10": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Cita o 8 de janeiro como prova de problemas nas Forças Armadas, mas não encontrei declaração sobre anistia.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V11": {
+   "v": 1,
+   "conf": "baixa",
+   "base": "DISCURSO: Propõe democratizar a comunicação, quebrar monopólios e nacionalizar telecom e internet; moderação de conteúdo não citada.",
+   "fonte": "https://www.tribunadosertao.com.br/geral/2026/06/25/928731-se-voce-nao-resiste-ao-imperialismo-voce-termina-sendo-subjugado-diz-pre-candidato-do-pcb",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V12": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Programa: 'Fim do Marco Temporal'.",
+   "fonte": "https://planodegoverno2026.com.br/planos/edmilson-costa-7bade087.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V13": {
+   "v": 2,
+   "conf": "media",
+   "base": "DISCURSO: Propõe 'política radical de proteção ambiental' e expropriação de terras com desmatamento.",
+   "fonte": "https://www.poder360.com.br/opiniao/propostas-na-perspectiva-do-socialismo/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V14": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Programa: 'Fim das escolas cívico-militares'.",
+   "fonte": "https://planodegoverno2026.com.br/planos/edmilson-costa-7bade087.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V15": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Tema não tratado no programa.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V16": {
+   "v": -1,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem menção a endurecer penas; propõe desmilitarização e conselhos populares.",
+   "fonte": "https://www.tribunadosertao.com.br/geral/2026/06/25/928731-se-voce-nao-resiste-ao-imperialismo-voce-termina-sendo-subjugado-diz-pre-candidato-do-pcb",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V17": {
+   "v": 0,
+   "conf": "media",
+   "base": "DISCURSO: Propõe mandatos de 10 anos para tribunais superiores e nova Constituinte, não limitar o STF via Congresso atual.",
+   "fonte": "https://www.tribunadosertao.com.br/geral/2026/06/25/928731-se-voce-nao-resiste-ao-imperialismo-voce-termina-sendo-subjugado-diz-pre-candidato-do-pcb",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V18": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Tema não tratado no programa.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V19": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Defende aprofundar laços com o BRICS para reduzir 'chantagem' dos EUA e solidariedade a Cuba, Irã e Palestina.",
+   "fonte": "https://www.tribunadosertao.com.br/geral/2026/06/25/928731-se-voce-nao-resiste-ao-imperialismo-voce-termina-sendo-subjugado-diz-pre-candidato-do-pcb",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z01": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Programa: 'as eleições burguesas são uma arena limitada de luta' e o sistema é 'viciado, no qual as eleições são definidas pelo poder econômico'; não trata de aceitação de resultados.",
+   "fonte": "https://planodegoverno2026.com.br/planos/edmilson-costa-7bade087.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z02": {
+   "v": -2,
+   "conf": "media",
+   "base": "DISCURSO: Sobre o 8 de janeiro disse: 'Nós vimos ali o quanto de oficiais das Forças Armadas que estavam implicados naquilo' e propõe reformar a formação militar; programa restringe as Forças Armadas ao 'cuidado das fronteiras'.",
+   "fonte": "https://www.tribunadosertao.com.br/geral/2026/06/25/928731-se-voce-nao-resiste-ao-imperialismo-voce-termina-sendo-subjugado-diz-pre-candidato-do-pcb",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z03": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Programa propõe juízes de tribunais com mandatos 'revogáveis pelo Poder Popular', mas não trata de cumprimento de decisões judiciais.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z04": {
+   "v": 1,
+   "conf": "media",
+   "base": "DISCURSO: Programa propõe transformar 'os monopólios privados de comunicações em cooperativas dos trabalhadores' e 'a revisão das concessões de rádio e teledifusão', dizendo que esses veículos 'se comportam como verdadeiros partidos políticos reacionários'; também prevê 'ampla liberdade' para veículos de organizações populares.",
+   "fonte": "https://planodegoverno2026.com.br/planos/edmilson-costa-7bade087.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z05": {
+   "v": 0,
+   "conf": "baixa",
+   "base": "DISCURSO: Programa atribui às candidaturas de Flávio Bolsonaro, Renan Santos, Zema e Caiado uma 'ofensiva reacionária contra as liberdades democráticas' e prega 'combate sem tréguas à ideologia neofascista'; não propõe restringir direitos de adversários.",
+   "fonte": "https://planodegoverno2026.com.br/planos/edmilson-costa-7bade087.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z06": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Programa: 'rejeitamos quaisquer saídas meramente reformistas. Somente a Revolução Socialista... será capaz de realmente resolver os problemas'.",
+   "fonte": "https://planodegoverno2026.com.br/planos/edmilson-costa-7bade087.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z07": {
+   "v": 1,
+   "conf": "media",
+   "base": "DISCURSO: Propõe 'Assembleia Constituinte de Novo Tipo' com metade dos membros escolhida por organizações sociais (ENCLATs), extinção do Senado e Conselhos Populares 'de defesa da nova ordem institucional'; não propõe poder pessoal.",
+   "fonte": "https://planodegoverno2026.com.br/planos/edmilson-costa-7bade087.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z08": {
+   "v": 1,
+   "conf": "baixa",
+   "base": "DISCURSO: O PCB condenou a 'ação golpista e intervencionista do PSUV e do governo Maduro' contra o Partido Comunista da Venezuela (19/07/2023) e chamou a Rússia de país capitalista com 'pretensões expansionistas' (25/02/2022); o programa promete 'ativa solidariedade a Cuba, Palestina, Venezuela, Irã'.",
+   "fonte": "https://pcb.org.br/portal2/30651",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V20": {
+   "v": null,
+   "p": null,
+   "conf": "baixa",
+   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
+   "fonte": null
+  },
+  "Z09": {
+   "v": null,
+   "p": null,
+   "conf": "baixa",
+   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
+   "fonte": null
+  },
+  "Z10": {
+   "v": null,
+   "p": null,
+   "conf": "baixa",
+   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
+   "fonte": null
+  }
+ },
+ "checagens": [],
+ "fontes": [
+  "https://www.poder360.com.br/opiniao/propostas-na-perspectiva-do-socialismo/",
+  "https://mais.opovo.com.br/jornal/politica/2026/08/07/candidato-a-presidencia-do-pcb-destaca-propostas.html",
+  "https://www.tribunadosertao.com.br/geral/2026/06/25/928731-se-voce-nao-resiste-ao-imperialismo-voce-termina-sendo-subjugado-diz-pre-candidato-do-pcb",
+  "https://www.opovo.com.br/noticias/politica/2026/08/01/amp/pcb-oficializa-candidatura-de-edmilson-costa-a-presidencia.html",
+  "https://www.itatiaia.com.br/politica/eleicoes/conheca-a-carreira-politica-de-edmilson-costa-pre-candidato-a-presidencia/",
+  "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017107286",
+  "https://agenciabrasil.ebc.com.br/politica/noticia/2026-08/pcb-traz-edmilson-costa-como-candidato-presidencia",
+  "https://planodegoverno2026.com.br/planos/edmilson-costa-7bade087.pdf",
+  "https://pcb.org.br/portal2/30651",
+  "https://pcb.org.br/portal2/28478"
+ ],
+ "atualizado_em": "2026-10-25",
+ "pratica_resumo": "Nunca exerceu mandato eletivo nem cargo executivo; foi candidato a prefeito de São Paulo (2008) e a vice-presidente (2010) sem se eleger. Sem votos ou atos de governo, não há nota de prática; o eixo z reflete o programa do PCB, que rejeita 'saídas meramente reformistas', defende a Revolução Socialista e uma Constituinte de composição não universal.",
+ "atos": []
+}

@@ -1,0 +1,716 @@
+{
+ "id": "flavio-bolsonaro",
+ "nome_urna": "Flávio Bolsonaro",
+ "nome_completo": "Flávio Nantes Bolsonaro",
+ "partido": "PL",
+ "numero": 22,
+ "vice": "Alfredo Gaspar (PL)",
+ "coligacao": "PL (sem coligação formal; PP, União Brasil e Republicanos ficaram neutros)",
+ "resultado_1t": {
+  "votos": 56104503,
+  "pct": 47.03
+ },
+ "situacao": "2º turno",
+ "resumo": "Senador pelo Rio de Janeiro (PL) desde 2019 e filho mais velho do ex-presidente Jair Bolsonaro. Antes foi deputado estadual no Rio de Janeiro. Lançado pelo PL à Presidência em 2026, terminou o 1º turno em primeiro lugar e disputa o 2º turno contra Lula.",
+ "autodeclaracao": "O plano de governo diz que seus valores 'inegociáveis' são a liberdade, a família, a vida desde a concepção, a propriedade privada, a democracia, a liberdade de expressão e a liberdade religiosa (e 'a fé').",
+ "plano_governo_url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/flavio-bolsonaro",
+ "propostas": [
+  {
+   "tema": "Segurança",
+   "texto": "Declarar PCC, CV, milícias e demais facções organizações narcoterroristas e bloquear seus ativos.",
+   "fonte": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf"
+  },
+  {
+   "tema": "Segurança",
+   "texto": "Construir 5 presídios federais de segurança máxima no modelo de El Salvador (complexo 'TREVA') e criar meio milhão de vagas prisionais em 4 anos.",
+   "fonte": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf"
+  },
+  {
+   "tema": "Segurança",
+   "texto": "Apoiar e sancionar a redução da maioridade penal para 16 anos e acabar com a progressão de regime para crimes hediondos.",
+   "fonte": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf"
+  },
+  {
+   "tema": "Impostos",
+   "texto": "Revisar a reforma tributária para reduzir o IVA e cortar impostos sobre energia elétrica e combustíveis.",
+   "fonte": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf"
+  },
+  {
+   "tema": "Estado",
+   "texto": "'Tesouraço': cortar no mínimo 10 ministérios, cargos comissionados e supersalários, com nova regra fiscal e superávits primários.",
+   "fonte": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf"
+  },
+  {
+   "tema": "Proteção social",
+   "texto": "Manter os programas sociais, com prioridade de beneficiários em qualificação e emprego e retorno sem fila ao benefício após o seguro-desemprego.",
+   "fonte": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf"
+  },
+  {
+   "tema": "Educação",
+   "texto": "Ampliar as escolas cívico-militares, priorizar o método fônico e dar voucher educacional e voucher-creche onde faltar vaga pública.",
+   "fonte": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf"
+  },
+  {
+   "tema": "Judiciário",
+   "texto": "Acabar com a competência criminal originária do STF e limitar decisões monocráticas dos ministros.",
+   "fonte": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf"
+  },
+  {
+   "tema": "Reforma política",
+   "texto": "Acabar com a reeleição para presidente da República.",
+   "fonte": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf"
+  },
+  {
+   "tema": "Política externa",
+   "texto": "Transferir a embaixada do Brasil em Israel para Jerusalém e aderir aos Acordos de Isaac.",
+   "fonte": "https://www.jb.com.br/brasil/politica/2026/06/1060117-apos-prometer-submissao-a-trump-flavio-bolsonaro-diz-que-brasil-vai-se-alinhar-a-israel.html"
+  }
+ ],
+ "posicoes": {
+  "E01": {
+   "v": 1,
+   "conf": "media",
+   "base": "Plano: 'vamos manter os programas sociais existentes'; em 11/10/2026 disse que 'ninguém vai tocar em programas sociais' e que quer ampliá-los.",
+   "fonte": "https://timesbrasil.com.br/eleicoes-2026/flavio-promete-manter-bolsa-familia-e-reajuste-do-minimo-se-eleito/",
+   "p": 1,
+   "conf_p": "media",
+   "base_p": "Votou Sim no auxílio emergencial (PL 1066/2020, 30/03/2020), na PEC 29/2020 (renda básica como direito social, 09/11/2021) e na PEC 1/2022 (30/06/2022); votou Não na PEC 32/2022 da Transição (07/12/2022).",
+   "fonte_p": "https://www25.senado.leg.br/web/atividade/materias/-/materia/144067"
+  },
+  "E02": {
+   "v": 1,
+   "conf": "media",
+   "base": "Plano retoma o Programa Nacional de Desestatização 'com critério, caso a caso'. Em 05/04/2022 se disse defensor da privatização; em 09/10/2026 chamou de 'boataria' privatizar a Petrobras.",
+   "fonte": "https://diariodocomercio.com.br/politica/flavio-bolsonaro-descarta-privatizacao-petrobras/",
+   "p": 1,
+   "conf_p": "media",
+   "base_p": "Votou Sim na desestatização da Eletrobras (MPV 1031/2021, 16-17/06/2021) e no marco do saneamento (PL 4162/2019, 24/06/2020); é autor do PDL 107/2023, que susta decretos de Lula sobre saneamento.",
+   "fonte_p": "https://www25.senado.leg.br/web/atividade/materias/-/materia/146740"
+  },
+  "E03": {
+   "v": -1,
+   "conf": "media",
+   "base": "Plano foca em reduzir impostos e o IVA; não propõe taxar grandes fortunas nem dividendos.",
+   "fonte": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+   "p": -1,
+   "conf_p": "media",
+   "base_p": "Em 05/11/2025 apresentou emenda ao PL 1087/2025 para excluir da nova tributação de dividendos as sociedades de profissionais liberais (o projeto passou em votação simbólica). Votou Não na PEC 45/2019 (reforma tributária, 08/11/2023).",
+   "fonte_p": "https://sbtnews.sbt.com.br/colunas/coluna-do-tulio/flavio-propos-isencao-no-ir-que-beneficiaria-escritorio-dele"
+  },
+  "E04": {
+   "v": 1,
+   "conf": "media",
+   "base": "Plano propõe 'Tesouraço': corte de gastos, superávits primários e nova regra fiscal; ao mesmo tempo promete não cortar programas sociais.",
+   "fonte": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+   "p": 0,
+   "conf_p": "media",
+   "base_p": "Votos mistos: Sim na reforma da Previdência (PEC 6/2019) e na PEC 186/2019 (gatilhos fiscais); Sim na PEC 23/2021 (precatórios) e PEC 1/2022 (gastos fora do teto em 2022); Não no arcabouço (PLP 93/2023) e no pacote de corte de gastos de dez/2024 (PEC 54/2024, PL 4614/2024).",
+   "fonte_p": "https://www25.senado.leg.br/web/atividade/materias/-/materia/166889"
+  },
+  "E05": {
+   "v": 0,
+   "conf": "media",
+   "base": "Chamou a PEC do fim da 6x1 de 'eleitoreira'; diz preferir jornada escolhida pelo trabalhador e compensação às empresas. Plano defende o negociado sobre o legislado.",
+   "fonte": "https://www.opovo.com.br/noticias/economia/2026/10/14/flavio-bolsonaro-muda-voto-sobre-escala-6x1.html",
+   "p": 1,
+   "conf_p": "alta",
+   "base_p": "Votou Sim na PEC 221/2019 (redução da jornada/fim da 6x1) nos dois turnos, em 14/10/2026, durante a campanha do 2º turno.",
+   "fonte_p": "https://www25.senado.leg.br/web/atividade/materias/-/materia/174386"
+  },
+  "E06": {
+   "v": 0,
+   "conf": "baixa",
+   "base": "Plano critica o projeto do governo para aplicativos por priorizar sindicatos, mas promete 'proteção social e previdenciária' a esses trabalhadores; não fala em remuneração mínima.",
+   "fonte": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não há votação nominal dele sobre remuneração mínima de trabalhadores de aplicativo nos dados abertos do Senado (2019–out/2026).",
+   "fonte_p": "https://legis.senado.leg.br/dadosabertos/senador/5894/votacoes"
+  },
+  "E07": {
+   "v": 1,
+   "conf": "media",
+   "base": "Plano diz que os juros caem com contas em ordem e mira a inflação no centro da meta; não propõe mudar a autonomia do BC.",
+   "fonte": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+   "p": 1,
+   "conf_p": "alta",
+   "base_p": "Votou Sim no substitutivo do PLP 19/2019 (autonomia do Banco Central) em 03/11/2020.",
+   "fonte_p": "https://www25.senado.leg.br/web/atividade/materias/-/materia/135147"
+  },
+  "E08": {
+   "v": -1,
+   "conf": "media",
+   "base": "Plano prevê 'limitar o crédito subsidiado com recursos do Tesouro' e BNDES 'exclusivamente para obras em território brasileiro', com foco em PPPs e concessões.",
+   "fonte": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+   "p": 0,
+   "conf_p": "baixa",
+   "base_p": "Votou Sim no Pronampe (PL 1282/2020, crédito subsidiado a pequenas empresas na pandemia, 07/04/2020); é autor do PRS 19/2023, que impõe condições a garantias da União em crédito à exportação.",
+   "fonte_p": "https://www25.senado.leg.br/web/atividade/materias/-/materia/141363"
+  },
+  "E09": {
+   "v": 1,
+   "conf": "media",
+   "base": "Em 11/10/2026 prometeu manter os reajustes do salário mínimo e chamou o aumento dado por Lula de 'merreca'; não detalhou fórmula.",
+   "fonte": "https://timesbrasil.com.br/eleicoes-2026/flavio-promete-manter-bolsa-familia-e-reajuste-do-minimo-se-eleito/",
+   "p": 0,
+   "conf_p": "baixa",
+   "base_p": "Votou Sim na MPV 919/2020 (mínimo de 2020 sem ganho real, 27/05/2020) e Não no PL 4614/2024, que limitou o ganho real do mínimo a 2,5% ao ano (19-20/12/2024).",
+   "fonte_p": "https://www25.senado.leg.br/web/atividade/materias/-/materia/166895"
+  },
+  "E10": {
+   "v": 1,
+   "conf": "media",
+   "base": "Plano propõe voucher-creche e voucher educacional na falta de vaga na rede pública, além de uso intensivo de PPPs e concessões.",
+   "fonte": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não foi encontrada votação nominal ou projeto dele sobre vouchers ou gestão privada de saúde e educação.",
+   "fonte_p": null
+  },
+  "E11": {
+   "v": null,
+   "conf": "baixa",
+   "base": "Plano não trata de capitalização da Previdência; foca em combate a fraudes no INSS e fim da fila.",
+   "fonte": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Votou Sim na PEC 6/2019 (reforma da Previdência, 22/10/2019), mas a capitalização já havia sido retirada do texto na Câmara; não há ato dele sobre o tema.",
+   "fonte_p": "https://www25.senado.leg.br/web/atividade/materias/-/materia/137999"
+  },
+  "E12": {
+   "v": 1,
+   "conf": "media",
+   "base": "Plano propõe retomar adesão à OCDE e 'preparar uma abertura comercial' com acesso a bens de capital e insumos importados, equilibrada com proteção de cadeias críticas.",
+   "fonte": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não foi encontrada votação nominal dele sobre tarifas de importação.",
+   "fonte_p": null
+  },
+  "E13": {
+   "v": 0,
+   "conf": "baixa",
+   "base": "Plano propõe cortar tributos sobre combustíveis, sem controle de preços. Em 2022 pediu à Petrobras 'olhar social' no diesel; em 09/10/2026 criticou subsídio ao diesel do governo Lula como 'eleitoreiro'.",
+   "fonte": "https://www.poder360.com.br/economia/flavio-bolsonaro-quer-petrobras-com-olhar-social-para-o-diesel/",
+   "p": -1,
+   "conf_p": "baixa",
+   "base_p": "Votou Não no fundo de estabilização de preços (PL 1472/2021, 10/03/2022), mas Sim no teto do ICMS sobre combustíveis (PLP 18/2022, 13/06/2022) e na PEC 1/2022 (auxílios contra alta de combustíveis, 30/06/2022).",
+   "fonte_p": "https://www25.senado.leg.br/web/atividade/materias/-/materia/153341"
+  },
+  "E14": {
+   "v": 1,
+   "conf": "baixa",
+   "base": "Plano diz que programa social é 'ponto de partida', com trilha de qualificação e prioridade em emprego para beneficiários, mas garante retorno ao benefício; não fixa prazo de saída.",
+   "fonte": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não foi encontrada votação nominal ou projeto dele sobre contrapartidas ou prazo de saída de programas sociais.",
+   "fonte_p": null
+  },
+  "E15": {
+   "v": -1,
+   "conf": "media",
+   "base": "Plano defende segurança jurídica 'irreversível' do direito de propriedade e titulação de pequenos proprietários; não menciona desapropriação nem reforma agrária.",
+   "fonte": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+   "p": -1,
+   "conf_p": "baixa",
+   "base_p": "Autor principal da PEC 80/2019, que redefine os requisitos da função social da propriedade urbana e rural (arts. 182 e 186), e do PL 2362/2019, que revoga a Reserva Legal 'para garantir o direito constitucional de propriedade'.",
+   "fonte_p": "https://www25.senado.leg.br/web/atividade/materias/-/materia/136894"
+  },
+  "E16": {
+   "v": 2,
+   "conf": "alta",
+   "base": "Plano: 'menos impostos, mais formalidade, mais crescimento'; propõe programa Minha Primeira Empresa, menos burocracia e redução do custo do trabalho formal.",
+   "fonte": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+   "p": 1,
+   "conf_p": "media",
+   "base_p": "Votou Sim no marco legal das startups (PLP 146/2019, 24/02/2021), na MPV 1040/2021 (abertura de empresas, 04/08/2021) e no PLP 108/2021 (teto do MEI, 12/08/2021).",
+   "fonte_p": "https://legis.senado.leg.br/dadosabertos/senador/5894/votacoes"
+  },
+  "E17": {
+   "v": -1,
+   "conf": "media",
+   "base": "Plano aposta em corte de tributos, logística e armazenagem de safras para baratear alimentos; não propõe controle de preços.",
+   "fonte": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+   "p": 1,
+   "conf_p": "baixa",
+   "base_p": "Votou Sim no teto do ICMS sobre combustíveis (PLP 18/2022) e na PEC 1/2022, que ampliou vale-gás e auxílios por causa da alta de combustíveis; votou Não no fundo de estabilização (PL 1472/2021).",
+   "fonte_p": "https://www25.senado.leg.br/web/atividade/materias/-/materia/151585"
+  },
+  "E18": {
+   "v": -2,
+   "conf": "alta",
+   "base": "Plano tem capítulo 'O trabalhador em primeiro lugar, não o sindicato', critica a 'República Sindical' e a tentativa de reverter o fim do imposto sindical.",
+   "fonte": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não foi encontrada votação nominal dele sobre contribuição sindical no Senado.",
+   "fonte_p": null
+  },
+  "V01": {
+   "v": -2,
+   "conf": "alta",
+   "base": "Plano declara como valor 'inegociável' a 'vida desde a concepção'; em entrevista à Record (ago/2026) disse que indicará ao STF pessoas 'contra o aborto'.",
+   "fonte": "https://www.diariodepernambuco.com.br/politica/2026/08/11722638-tv-record-exibe-entrevista-com-flavio-bolsonaro-neste-domingo.html",
+   "p": -2,
+   "conf_p": "alta",
+   "base_p": "Coautor da PEC 49/2023 (direito à vida desde o nascituro no art. 5º) e do PLP 61/2025 (proteção do nascituro como função do Ministério Público).",
+   "fonte_p": "https://www25.senado.leg.br/web/atividade/materias/-/materia/160163"
+  },
+  "V02": {
+   "v": 2,
+   "conf": "alta",
+   "base": "Na sabatina da Globo (16/10/2026) defendeu mudar o Estatuto do Desarmamento para facilitar o acesso do cidadão a armas.",
+   "fonte": "https://www.acessa.com/politica/2026/10/342457-em-sabatina-flavio-nao-explica-propostas-e-faz-acusacoes-sem-provas.html",
+   "p": 2,
+   "conf_p": "alta",
+   "base_p": "Votou Não ao PDL 233/2019 que sustava o decreto de armas (18/06/2019); autor do PL 2734/2021 (porte para advogados) e do PDL 193/2023, que susta o decreto de armas de Lula (Decreto 11.615/2023).",
+   "fonte_p": "https://www25.senado.leg.br/web/atividade/materias/-/materia/158826"
+  },
+  "V03": {
+   "v": 2,
+   "conf": "alta",
+   "base": "Plano: 'vai apoiar e sancionar a redução da maioridade penal de 18 para 16 anos' e punir maiores de 14 anos por crimes graves.",
+   "fonte": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+   "p": 2,
+   "conf_p": "alta",
+   "base_p": "Autor principal da PEC 32/2019, que reduz a maioridade penal para 16 anos (26/03/2019).",
+   "fonte_p": "https://www25.senado.leg.br/web/atividade/materias/-/materia/135977"
+  },
+  "V04": {
+   "v": -2,
+   "conf": "alta",
+   "base": "Em 2024 chamou de 'retrocesso' a decisão do STF que descriminalizou o porte de maconha para uso pessoal.",
+   "fonte": "https://atarde.com.br/politica/brasil/pais-tera-mais-vendedor-de-maconha-do-que-de-avon-diz-senador-1276344",
+   "p": -2,
+   "conf_p": "alta",
+   "base_p": "Coautor da PEC 45/2023 (criminaliza posse e porte de drogas) e votou Sim nela em 16/04/2024.",
+   "fonte_p": "https://www25.senado.leg.br/web/atividade/materias/-/materia/160011"
+  },
+  "V05": {
+   "v": -1,
+   "conf": "baixa",
+   "base": "Plano: educação 'livre de doutrinação', 'quem decide sobre os valores que o filho recebe são os pais'; índice lista 'Escola sem doutrinação'. Não cita gênero diretamente.",
+   "fonte": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+   "p": -1,
+   "conf_p": "baixa",
+   "base_p": "Como deputado estadual, apresentou na Alerj o PL 2974/2014 ('Programa Escola sem Partido'), que limita a atuação do professor em temas morais e políticos; não cita gênero no que foi verificado.",
+   "fonte_p": "https://ihu.unisinos.br/categorias/557506-polemico-projeto-do-escola-sem-partido-tramita-em-5-estados-8-capitais-e-df"
+  },
+  "V06": {
+   "v": null,
+   "conf": "baixa",
+   "base": "Não foi encontrada declaração ou voto dele sobre casamento civil entre pessoas do mesmo sexo; o plano não trata do tema.",
+   "fonte": null,
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não foi encontrado voto ou projeto dele sobre casamento civil entre pessoas do mesmo sexo.",
+   "fonte_p": null
+  },
+  "V07": {
+   "v": 1,
+   "conf": "media",
+   "base": "Plano lista 'a fé' e a 'liberdade religiosa' entre os valores que 'não negociamos'; promete indicar ao STF ministros contra aborto e drogas.",
+   "fonte": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não foi encontrado ato dele que vincule leis a valores religiosos além dos projetos sobre aborto (ver V01).",
+   "fonte_p": null
+  },
+  "V08": {
+   "v": -2,
+   "conf": "media",
+   "base": "Defende que cotas, se existirem, sejam só para pobres, sem recorte racial (Congresso em Foco, 23/05/2024). O plano não trata do tema.",
+   "fonte": "https://congressoemfoco.com.br/noticia/18942/senado-aprova-cotas-para-negros-em-concursos-publicos-e-texto-vai-a-camara",
+   "p": -2,
+   "conf_p": "alta",
+   "base_p": "Emenda dele para eliminar cotas raciais na Lei de Cotas foi rejeitada na CCJ (18/10/2023); em 22/05/2024 votou Sim ao próprio requerimento (RQS 369/2024) para priorizar substitutivo ao PL 1958/2021 (cotas em concursos), rejeitado.",
+   "fonte_p": "https://www.poder360.com.br/congresso/ccj-do-senado-aprova-reformulacao-da-lei-de-cotas/"
+  },
+  "V09": {
+   "v": 2,
+   "conf": "alta",
+   "base": "Plano: 'Bandido armado com fuzil na mão vai ser abatido pelas forças de segurança'; traficante que resistir 'vai ser preso ou vai virar pó'.",
+   "fonte": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+   "p": 2,
+   "conf_p": "alta",
+   "base_p": "Autor do PL 2393/2019 (legítima defesa do agente de segurança) e do PL 4640/2019 (excludente de ilicitude); autor do PDL 29/2025, que susta o Decreto 12.341/2024 (uso da força policial). Na Alerj, propôs em 2005 a Medalha Tiradentes a PM então preso por homicídio.",
+   "fonte_p": "https://www25.senado.leg.br/web/atividade/materias/-/materia/138227"
+  },
+  "V10": {
+   "v": 2,
+   "conf": "alta",
+   "base": "Diz que buscará anistia aos condenados do 8 de janeiro já na transição e, se o Congresso não aprovar, dará indulto.",
+   "fonte": "https://sbtnews.sbt.com.br/noticia/eleicoes/caso-eleito-flavio-pode-soltar-bolsonaro-o-que-diz-a-lei",
+   "p": 2,
+   "conf_p": "alta",
+   "base_p": "Coautor da PEC 70/2023 (anistia aos envolvidos no 8/1 e restauração de direitos políticos de inelegíveis por atos de 2022); votou Sim no PL da Dosimetria (PL 2162/2023) em 17/12/2025.",
+   "fonte_p": "https://www25.senado.leg.br/web/atividade/materias/-/materia/161755"
+  },
+  "V11": {
+   "v": -2,
+   "conf": "alta",
+   "base": "Plano propõe 'Tesouraço na Censura' para extinguir estruturas estatais que 'rotulem' desinformação e revogar atos do governo nessa área.",
+   "fonte": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+   "p": -2,
+   "conf_p": "alta",
+   "base_p": "Votou Não no substitutivo do PL 2630/2020 (Fake News) em 30/06/2020.",
+   "fonte_p": "https://www25.senado.leg.br/web/atividade/materias/-/materia/141944"
+  },
+  "V12": {
+   "v": null,
+   "conf": "baixa",
+   "base": "Não foi encontrada fala própria sobre o marco temporal; o plano de governo não trata do tema.",
+   "fonte": null,
+   "p": -2,
+   "conf_p": "alta",
+   "base_p": "Votou Sim na PEC 48/2023, que inscreve o marco temporal na Constituição, em 09/12/2025; coautor da PEC 36/2024 (atividades produtivas em terras indígenas).",
+   "fonte_p": "https://www25.senado.leg.br/web/atividade/materias/-/materia/160148"
+  },
+  "V13": {
+   "v": -1,
+   "conf": "media",
+   "base": "Plano mira zerar o desmatamento ilegal até 2029, mas 'sem novas obrigações' ao produtor e com licença tácita por decurso de prazo.",
+   "fonte": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+   "p": -2,
+   "conf_p": "alta",
+   "base_p": "Autor do PL 2362/2019, que revoga a Reserva Legal do Código Florestal; votou Sim no PL 2159/2021 (licenciamento ambiental) em 21/05/2025.",
+   "fonte_p": "https://www25.senado.leg.br/web/atividade/materias/-/materia/136371"
+  },
+  "V14": {
+   "v": 2,
+   "conf": "alta",
+   "base": "Plano: 'Vamos ampliar as Escolas Cívico-Militares'.",
+   "fonte": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não foi encontrado voto nominal ou projeto dele sobre escolas cívico-militares.",
+   "fonte_p": null
+  },
+  "V15": {
+   "v": 2,
+   "conf": "alta",
+   "base": "Plano prevê formação de professores 'para ensinar bem, e não para militar em sala de aula' e educação 'livre de doutrinação político-partidária'.",
+   "fonte": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+   "p": 2,
+   "conf_p": "media",
+   "base_p": "Na Alerj apresentou o PL 2974/2014, primeiro projeto com o nome 'Programa Escola sem Partido', redigido a seu pedido por Miguel Nagib.",
+   "fonte_p": "https://www.poder360.com.br/opiniao/por-que-voto-em-flavio-bolsonaro-escolasempartido/"
+  },
+  "V16": {
+   "v": 2,
+   "conf": "alta",
+   "base": "Plano propõe acabar com a progressão de regime para crimes hediondos, cumprimento integral de pena para feminicídio e castração química para estupradores.",
+   "fonte": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+   "p": 2,
+   "conf_p": "alta",
+   "base_p": "Relator em plenário do PL 2253/2022 (fim das 'saidinhas'), aprovado em 20/02/2024; autor do PL 4082/2024 (veda liberdade provisória em crimes hediondos); votou Sim no PL 5582/2025 (antifacção).",
+   "fonte_p": "https://www25.senado.leg.br/web/atividade/materias/-/materia/154451"
+  },
+  "V17": {
+   "v": 2,
+   "conf": "alta",
+   "base": "Plano propõe reforma do Judiciário: fim do foro criminal originário no STF, limite a decisões monocráticas e revisão de ADPFs.",
+   "fonte": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+   "p": 2,
+   "conf_p": "alta",
+   "base_p": "Votou Sim na PEC 8/2021 (limita decisões monocráticas) em 22/11/2023; coautor das PECs 40/2022, 39/2024, 45/2025 e 17/2026 sobre o STF.",
+   "fonte_p": "https://www25.senado.leg.br/web/atividade/materias/-/materia/148030"
+  },
+  "V18": {
+   "v": 0,
+   "conf": "media",
+   "base": "Plano diz que 'a família' é o centro das políticas, mas afirma respeitar 'todos os arranjos familiares'; não define família como pai, mãe e filhos.",
+   "fonte": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não foi encontrado ato dele que defina família em políticas públicas.",
+   "fonte_p": null
+  },
+  "V19": {
+   "v": 1,
+   "conf": "media",
+   "base": "Prometeu levar a embaixada em Israel para Jerusalém e aderir aos Acordos de Isaac (jun/2026); plano fala em pragmatismo e diz que negociará 'da China à União Europeia'.",
+   "fonte": "https://www.jb.com.br/brasil/politica/2026/06/1060117-apos-prometer-submissao-a-trump-flavio-bolsonaro-diz-que-brasil-vai-se-alinhar-a-israel.html",
+   "p": 1,
+   "conf_p": "baixa",
+   "base_p": "Como pré-candidato, reuniu-se com Donald Trump na Casa Branca (26/05/2026) e com Marco Rubio (27/05/2026); não há voto nominal sobre alinhamento externo.",
+   "fonte_p": "https://www.band.com.br/politica/noticias/flavio-bolsonaro-se-reune-com-marco-rubio-durante-visita-aos-estados-unidos-202605271934"
+  },
+  "Z01": {
+   "v": 0,
+   "conf": "media",
+   "base": "Em 02/08/2026: 'Eu vou aceitar, vou concorrer com essas regras', condicionando à expectativa de um TSE 'imparcial', diferente do de 2022. Falas anteriores: em 07/10/2018 publicou e apagou vídeo de urna que 'autocompletaria' o voto em Haddad, que o TRE-MG disse ser falso; em 08/01/2023 escreveu que 'fomos atropelados por um TSE absurdamente parcial'; em 21/07/2026 disse a diplomatas que as urnas brasileiras têm a mesma origem das da Smartmatic, o que a Justiça Eleitoral nega.",
+   "fonte": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/flavio-bolsonaro-diz-que-vai-aceitar-resultado-das-urnas-e-que-tse-e-diferente-de-2022/",
+   "p": 1,
+   "conf_p": "baixa",
+   "base_p": "Em 31/10/2022, dia seguinte ao 2º turno, publicou: 'Vamos erguer a cabeça e não vamos desistir do Brasil! Deus no comando!'; o Congresso em Foco descreveu a mensagem como reconhecimento da derrota do pai; o texto não cita Lula nem o resultado. Não foi localizada ação judicial dele contestando o resultado de 2022. As falas sobre urnas e TSE (2018, 2023, 2026) são discurso e estão em v.",
+   "fonte_p": "https://congressoemfoco.com.br/coluna/10859/bolsonaro-permanece-em-silencio-mas-flavio-reconhece-derrota"
+  },
+  "Z02": {
+   "v": 0,
+   "conf": "baixa",
+   "base": "Não foi encontrada fala dele defendendo intervenção militar. Na sabatina de 16/10/2026 chamou de 'farsa' a narrativa de tentativa de golpe e disse que as Forças Armadas devem se voltar à segurança pública, ao crime organizado e às fronteiras; promete anistia ou indulto aos condenados do 8/1 (ver V10).",
+   "fonte": "https://diariodonordeste.verdesmares.com.br/pontopoder/flavio-sobre-forcas-armadas-faremos-parte-do-escudo-das-americas-e-guerra-contra-narcotrafico-1.3799319",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não há ato dele envolvendo as Forças Armadas. Em 28/08/2026 disse que o ex-comandante da FAB que depôs contra a trama golpista fazia campanha para Lula; o militar chamou a fala de 'leviandade'.",
+   "fonte_p": "https://www.dgabc.com.br/Noticia/4344041/ex-comandante-da-fab-chama-de-leviandade-fala-de-flavio-bolsonaro-sobre-suposto-apoio-a-lula"
+  },
+  "Z03": {
+   "v": -1,
+   "conf": "baixa",
+   "base": "Plano: 'Brasil que cumpre a Constituição' e 'ninguém está acima da Constituição'. Após a condenação do pai pelo STF disse que 'pelo menos três pessoas ali são inimigas de Bolsonaro' e que 'o jogo está só começando' (11/09/2025); em 16/10/2026 chamou de 'farsa' a narrativa de tentativa de golpe; promete indulto se a anistia não passar.",
+   "fonte": "https://www.diariodepernambuco.com.br/politica/2025/09/11695642-flavio-bolsonaro-chama-moraes-de-psicopata-e-defende-anistia-total.html",
+   "p": 1,
+   "conf_p": "baixa",
+   "base_p": "Duas decisões de Moraes apontaram que publicações dele serviram para furar cautelares impostas ao pai (proibição de usar redes, inclusive por terceiros): vídeo de 03/08/2025, que ele apagou ('com a finalidade de omitir a transgressão legal', segundo Moraes); e vídeo com carta do pai (jul/2026), que levou à suspensão das visitas de Flávio por 90 dias (13/07/2026). As cautelares eram dirigidas a Jair Bolsonaro. Ele contesta as duas leituras.",
+   "fonte_p": "https://www.cnnbrasil.com.br/politica/moraes-post-flavio-jair-ato/"
+  },
+  "Z04": {
+   "v": -2,
+   "conf": "media",
+   "base": "Plano: 'nenhum governo pode punir quem pensa diferente dele'; propõe extinguir estruturas estatais que 'vigiem, rotulem ou punam' o que as pessoas dizem ('Tesouraço na Censura').",
+   "fonte": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+   "p": 0,
+   "conf_p": "media",
+   "base_p": "Votou Não no PL 2630/2020 (plataformas, não imprensa). Como parte, obteve em 04/09/2020 liminar da 33ª Vara Cível do Rio que proibiu a TV Globo de exibir documentos da investigação contra ele e, em dez/2020, apresentou notícia-crime que levou a inquérito policial contra William Bonner e Renata Vasconcellos; a juíza do 4º Juizado Especial Criminal trancou o inquérito.",
+   "fonte_p": "https://congressoemfoco.com.br/legislativo/juiza-proibe-globo-de-exibir-documentos-sobre-investigacoes-de-flavio-bolsonaro"
+  },
+  "Z05": {
+   "v": 1,
+   "conf": "media",
+   "base": "Em 11/09/2025 chamou Moraes de 'psicopata' e disse haver no STF 'três pessoas que são inimigas de Bolsonaro'; em 26/09/2023, na CPMI, comparou as prisões do 8/1 a 'moldes nazistas' e câmaras de gás.",
+   "fonte": "https://www.metropoles.com/brasil/flavio-bolsonaro-compara-prisoes-de-vandalos-do-8-1-ao-holocausto",
+   "p": 1,
+   "conf_p": "baixa",
+   "base_p": "Em ago/2026 o TSE mandou remover, por 5 a 2, vídeo dele que ligava Lula ao PCC e ao CV, por associar o adversário a facções 'sem base'. Agências de checagem classificaram como falsas outras acusações dele a Lula em debates (ver checagens).",
+   "fonte_p": "https://bpmoney.com.br/politica/tse-manda-remover-video-de-flavio-bolsonaro-que-liga-lula-ao-pcc-e-cv/"
+  },
+  "Z06": {
+   "v": 1,
+   "conf": "baixa",
+   "base": "Plano promete 'regras que valem para todos e não mudam no meio do jogo' e propõe reformas (Judiciário, fim da reeleição) por PEC, via Congresso.",
+   "fonte": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+   "p": 1,
+   "conf_p": "baixa",
+   "base_p": "Atua por projetos, PECs e votos (ex.: PEC 4/2026, fim da reeleição; PECs sobre o STF) e por recursos judiciais nos casos em que é parte; não foi encontrado ato dele em defesa de ruptura.",
+   "fonte_p": "https://legis.senado.leg.br/dadosabertos/senador/5894/autorias"
+  },
+  "Z07": {
+   "v": -1,
+   "conf": "baixa",
+   "base": "Plano defende 'instituições fortes, cada Poder dentro de seus limites' e 'equilíbrio entre os Poderes', mas quer reduzir atribuições do STF por emenda constitucional.",
+   "fonte": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Nunca exerceu cargo executivo. Suas iniciativas para limitar o STF (PEC 8/2021, PECs 39/2024 e 45/2025) seguem o rito do Congresso; ver V17.",
+   "fonte_p": "https://www25.senado.leg.br/web/atividade/materias/-/materia/148030"
+  },
+  "Z08": {
+   "v": 0,
+   "conf": "baixa",
+   "base": "Chamou a Venezuela de 'regime autoritário' e celebrou a captura de Maduro pelos EUA como 'libertação' (03/01/2026). Elogia o modelo de segurança de Bukele (El Salvador); em nov/2025 visitou o país, reuniu-se com o ministro de Segurança e, segundo a Folha, não tratou das violações de direitos apontadas no país.",
+   "fonte": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/pre-candidatos-a-presidencia-do-brasil-repercutem-ataque-a-venezuela-e-captura-de-maduro/",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Nunca conduziu política externa; não foi localizado voto ou ato dele sobre o tema.",
+   "fonte_p": null
+  },
+  "V20": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Não encontrei fala dele sobre refugiados, Operação Acolhida ou vistos humanitários. Só há menções genéricas a imigrantes: no Senado (14/03/2019, sessão sobre a imigração italiana) disse que 'negar o valor dos imigrantes é negar a própria história de nossas famílias' e negou ser xenófobo. O plano de 2026 chama o Brasil de 'país de imigrantes', motivo de orgulho, mas não traz proposta migratória (MigraMundo). Falas do pai (Jair) não foram atribuídas a ele.",
+   "fonte": "https://migramundo.com/o-que-lula-e-flavio-bolsonaro-tem-a-dizer-ou-mostrar-sobre-migracoes/",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "PRÁTICA: Não encontrei voto nem projeto dele sobre refúgio ou migração. Em 2017 era deputado estadual no RJ (2003–2019) e por isso não votou a Lei de Migração 13.445/2017. A saída do Pacto Global em 2019 foi ato do governo Jair Bolsonaro, e não encontrei manifestação de Flávio sobre ela.",
+   "fonte_p": "https://www12.senado.leg.br/noticias/materias/2017/04/18/projeto-da-nova-lei-de-migracao-segue-para-sancao-presidencial"
+  },
+  "Z09": {
+   "v": -1,
+   "conf": "baixa",
+   "base": "DISCURSO: O plano de governo registrado em ago/2026 promete 'segurança jurídica sólida, irreversível e sem margem para relativizações do direito de propriedade' e combate à 'ocupação ilegal de áreas públicas' (no contexto ambiental). Não encontrei fala dele sobre o MST nem sobre os bloqueios de rodovias de nov/2022 (segundo O Povo, 01/11/2022, ele reconheceu a derrota nas redes). Ressalva: defende anistia aos réus do 8/1 e diz que quem esteve em 'manifestações pacíficas' não deve ser tratado como criminoso (out/2025).",
+   "fonte": "https://static.poder360.com.br/uploads/2026/08/plano-flavio.pdf",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "PRÁTICA: Não encontrei projeto de autoria dele nem voto nominal seu sobre invasões de terra ou bloqueios. Ato documentado mais próximo: em 05/12/2025 pediu que a anistia aos acusados e condenados do 8 de Janeiro fosse aprovada 'ainda este ano', chamando-os de 'inocentes'. Isso é leniência com os réus, não defesa da ocupação como forma de pressão, por isso não pontuado.",
+   "fonte_p": "https://www.poder360.com.br/poder-eleicoes/flavio-bolsonaro-quer-priorizar-agora-projeto-de-anistia-para-o-8-de-janeiro/"
+  },
+  "Z10": {
+   "v": -1,
+   "conf": "alta",
+   "base": "DISCURSO: Em jul/2026, a embaixadores, associou as urnas brasileiras à Smartmatic e a suspeitas de fraude na Venezuela; o TSE desmentiu. Depois, em nota, disse ter 'integral confiança no sistema eleitoral'. Em entrevista à Band (Canal Livre, 02/08/2026) disse 'Eu vou aceitar' o resultado, mas que o TSE de 2022 não foi imparcial, e pediu 'camadas extras de segurança'. Em 09/07/2025 defendeu na CCJ do Senado a emenda do voto impresso ('o problema não é a urna, é o homem'). Questiona as urnas desde 2014 (Folha).",
+   "fonte": "https://www.opovo.com.br/noticias/politica/2026/08/02/amp/flavio-bolsonaro-diz-que-aceitara-o-resultado-das-urnas-mas-critica-tse-por-eleicoes-de-2022.html",
+   "p": -1,
+   "conf_p": "media",
+   "base_p": "PRÁTICA: Em jul/2026 reuniu embaixadores em Brasília, pediu observadores estrangeiros e repetiu a ligação falsa entre as urnas e a Smartmatic; o PT o acionou no TSE por isso. No dia da eleição de 2018 havia compartilhado vídeo manipulado de urna que 'autocompletava' o voto em Haddad, desmentido por TSE e TRE-MG, e depois apagou. Não encontrei projeto de voto impresso de autoria dele, nem o voto nominal dele na CCJ (20/08/2025).",
+   "fonte_p": "https://www.moneytimes.com.br/flavio-diz-confiar-no-sistema-eleitoral-mas-nao-explica-informacao-falsa-dada-a-embaixadores-gaep/"
+  }
+ },
+ "checagens": [
+  {
+   "afirmacao": "Lula gastou R$ 7 bilhões em viagens com Janja (debate da Band).",
+   "veredito": "Falso",
+   "agencia": "Lupa",
+   "data": "2026-10-18",
+   "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/"
+  },
+  {
+   "afirmacao": "A criminalidade explodiu no governo Lula (debate da Band).",
+   "veredito": "Falso",
+   "agencia": "Lupa",
+   "data": "2026-10-18",
+   "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/"
+  },
+  {
+   "afirmacao": "Lula é o 'pai do Tigrinho' (debate da Globo).",
+   "veredito": "Falso",
+   "agencia": "Lupa",
+   "data": "2026-10-23",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+  },
+  {
+   "afirmacao": "Lula defendeu o roubo de celular para tomar cerveja (debate da Globo).",
+   "veredito": "Falso",
+   "agencia": "Lupa",
+   "data": "2026-10-23",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+  },
+  {
+   "afirmacao": "A dívida bruta do governo atingiu R$ 11 trilhões neste ano (debate da Globo).",
+   "veredito": "Verdadeiro",
+   "agencia": "Aos Fatos",
+   "data": "2026-10-23",
+   "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-lula-debate-globo/"
+  },
+  {
+   "afirmacao": "A PF atestou em relatório que não houve dinheiro público no filme 'Dark Horse' (debate da Globo).",
+   "veredito": "Falso",
+   "agencia": "Aos Fatos",
+   "data": "2026-10-23",
+   "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-lula-debate-globo/"
+  }
+ ],
+ "fontes": [
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/flavio-bolsonaro",
+  "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+  "https://www.poder360.com.br/poder-flash/leia-a-integra-do-plano-de-governo-de-flavio-bolsonaro/",
+  "https://legis.senado.leg.br/dadosabertos/senador/5894/votacoes",
+  "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5894",
+  "https://www.opovo.com.br/noticias/economia/2026/10/14/flavio-bolsonaro-muda-voto-sobre-escala-6x1.html",
+  "https://timesbrasil.com.br/eleicoes-2026/flavio-promete-manter-bolsa-familia-e-reajuste-do-minimo-se-eleito/",
+  "https://diariodocomercio.com.br/politica/flavio-bolsonaro-descarta-privatizacao-petrobras/",
+  "https://www.acessa.com/politica/2026/10/342457-em-sabatina-flavio-nao-explica-propostas-e-faz-acusacoes-sem-provas.html",
+  "https://www.diariodepernambuco.com.br/politica/2026/08/11722638-tv-record-exibe-entrevista-com-flavio-bolsonaro-neste-domingo.html",
+  "https://sbtnews.sbt.com.br/noticia/eleicoes/caso-eleito-flavio-pode-soltar-bolsonaro-o-que-diz-a-lei",
+  "https://www.jb.com.br/brasil/politica/2026/06/1060117-apos-prometer-submissao-a-trump-flavio-bolsonaro-diz-que-brasil-vai-se-alinhar-a-israel.html",
+  "https://www.em.com.br/politica/2026/08/7474191-flavio-bolsonaro-anuncia-alfredo-gaspar-como-candidato-a-vice.html",
+  "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
+  "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+  "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-lula-debate-globo/",
+  "https://legis.senado.leg.br/dadosabertos/senador/5894/autorias",
+  "https://jornaldebrasilia.com.br/noticias/politica-e-poder/flavio-bolsonaro-diz-que-vai-aceitar-resultado-das-urnas-e-que-tse-e-diferente-de-2022/",
+  "https://www.poder360.com.br/poder-eleicoes-2026/flavio-diz-que-respeitara-resultado-das-eleicoes/",
+  "https://www.folhape.com.br/politica/flavio-cita-informacao-falsa-sobre-empresa-venezuelana-e-urnas/501831/",
+  "https://www.poder360.com.br/congresso/flavio-bolsonaro-nega-relacao-de-ex-presidente-com-invasao-a-poderes/",
+  "https://www.metropoles.com/brasil/flavio-bolsonaro-compara-prisoes-de-vandalos-do-8-1-ao-holocausto",
+  "https://www.cnnbrasil.com.br/politica/moraes-post-flavio-jair-ato/",
+  "https://diariodonordeste.verdesmares.com.br/pontopoder/alexandre-de-moraes-suspende-visitas-de-flavio-a-bolsonaro-por-90-dias-1.3776823",
+  "https://www.congressoemfoco.com.br/noticia/114102/vigilia-convocada-por-flavio-motivou-prisao-preventiva-de-bolsonaro",
+  "https://congressoemfoco.com.br/legislativo/juiza-proibe-globo-de-exibir-documentos-sobre-investigacoes-de-flavio-bolsonaro",
+  "https://www.poder360.com.br/justica/justica-encerra-inquerito-de-flavio-bolsonaro-contra-bonner-e-renata/",
+  "https://bpmoney.com.br/politica/tse-manda-remover-video-de-flavio-bolsonaro-que-liga-lula-ao-pcc-e-cv/",
+  "https://www.congressoemfoco.com.br/eleicoes/tre-mg-diz-que-e-falso-video-com-urna-que-autocompleta-numero-de-haddad/",
+  "https://exame.com/brasil/ex-pm-estava-preso-quando-recebeu-homenagem-de-flavio-bolsonaro/",
+  "https://www.cnnbrasil.com.br/politica/stj-anula-decisoes-contra-flavio-bolsonaro-no-caso-das-rachadinhas/",
+  "https://www.congressoemfoco.com.br/noticia/11846/justica-arquiva-denuncia-contra-flavio-bolsonaro-por-rachadinhas",
+  "https://www.poder360.com.br/economia/flavio-bolsonaro-quer-petrobras-com-olhar-social-para-o-diesel/",
+  "https://www.poder360.com.br/congresso/ccj-do-senado-aprova-reformulacao-da-lei-de-cotas/",
+  "https://jornaldebrasilia.com.br/noticias/politica-e-poder/pre-candidatos-a-presidencia-do-brasil-repercutem-ataque-a-venezuela-e-captura-de-maduro/",
+  "https://www.bahianoticias.com.br/folha/noticia/406806-flavio-bolsonaro-encontra-ministro-de-bukele-ignora-violacoes-e-diz-que-ha-poucos-presos-no-brasil",
+  "https://diariodonordeste.verdesmares.com.br/pontopoder/flavio-sobre-forcas-armadas-faremos-parte-do-escudo-das-americas-e-guerra-contra-narcotrafico-1.3799319"
+ ],
+ "atualizado_em": "2026-10-25",
+ "pratica_resumo": "Senador desde 2019 e deputado estadual no RJ por quatro mandatos, nunca exerceu cargo executivo; a prática vem de votos nominais, projetos e conduta pública. Em costumes e segurança os atos batem com o discurso (autor da PEC 32/2019 da maioridade penal, coautor da PEC 70/2023 da anistia, relator do fim das 'saidinhas', votos pelo marco temporal e contra o PL 2630/2020). Na economia, o discurso de corte de gastos convive com votos Sim nas PECs 23/2021 e 1/2022 (gastos fora do teto) e Não no arcabouço (2023) e no pacote de corte de dez/2024; em 2022 se dizia a favor de privatizar a Petrobras e em 2026 chamou a ideia de 'boataria'. No eixo democrático, diz em 2026 que aceitará o resultado, mas em 2018, 2023 e jul/2026 fez afirmações sobre urnas e TSE contestadas pela Justiça Eleitoral, e decisões do STF de 2025 e 2026 apontaram que posts dele descumpriram cautelares impostas ao pai.",
+ "atos": [
+  {
+   "data": "2005",
+   "ato": "Na Alerj, propôs (jun/2005) e viu aprovada (ago/2005) a Medalha Tiradentes ao PM Adriano da Nóbrega, então preso por homicídio (absolvido em 2007); entregou a medalha na prisão.",
+   "tema": "Segurança",
+   "fonte": "https://exame.com/brasil/ex-pm-estava-preso-quando-recebeu-homenagem-de-flavio-bolsonaro/"
+  },
+  {
+   "data": "2014",
+   "ato": "Apresentou na Alerj o PL 2974/2014, primeiro projeto com o nome 'Programa Escola sem Partido'.",
+   "tema": "Educação",
+   "fonte": "https://ihu.unisinos.br/categorias/557506-polemico-projeto-do-escola-sem-partido-tramita-em-5-estados-8-capitais-e-df"
+  },
+  {
+   "data": "2018-10-07",
+   "ato": "No dia do 1º turno, publicou vídeo de urna que 'autocompletaria' o voto em Haddad; o TRE-MG disse que o vídeo era falso e ele apagou a publicação.",
+   "tema": "Eleições",
+   "fonte": "https://www.congressoemfoco.com.br/eleicoes/tre-mg-diz-que-e-falso-video-com-urna-que-autocompleta-numero-de-haddad/"
+  },
+  {
+   "data": "2019-10-22",
+   "ato": "Votou Sim, em 2º turno, na reforma da Previdência (PEC 6/2019).",
+   "tema": "Previdência",
+   "fonte": "https://www25.senado.leg.br/web/atividade/materias/-/materia/137999"
+  },
+  {
+   "data": "2020-09-04",
+   "ato": "Obteve liminar da 33ª Vara Cível do Rio que proibiu a TV Globo de exibir documentos da investigação das 'rachadinhas' contra ele.",
+   "tema": "Imprensa",
+   "fonte": "https://congressoemfoco.com.br/legislativo/juiza-proibe-globo-de-exibir-documentos-sobre-investigacoes-de-flavio-bolsonaro"
+  },
+  {
+   "data": "2021-11-09",
+   "ato": "A 5ª Turma do STJ (4 a 1) acolheu recurso dele e anulou decisões e provas do caso das 'rachadinhas' (denúncia do MP-RJ de nov/2020); o TJ-RJ arquivou a denúncia em 16/05/2022.",
+   "tema": "Justiça",
+   "fonte": "https://www.cnnbrasil.com.br/politica/stj-anula-decisoes-contra-flavio-bolsonaro-no-caso-das-rachadinhas/"
+  },
+  {
+   "data": "2022-06-30",
+   "ato": "Votou Sim na PEC 1/2022, que ampliou benefícios sociais e auxílios fora do teto de gastos em ano eleitoral.",
+   "tema": "Contas públicas",
+   "fonte": "https://www25.senado.leg.br/web/atividade/materias/-/materia/151585"
+  },
+  {
+   "data": "2023-01-08",
+   "ato": "No dia da invasão das sedes dos Três Poderes, escreveu a senadores que 'fomos atropelados por um TSE absurdamente parcial' e negou relação do pai com os atos.",
+   "tema": "Democracia",
+   "fonte": "https://www.poder360.com.br/congresso/flavio-bolsonaro-nega-relacao-de-ex-presidente-com-invasao-a-poderes/"
+  },
+  {
+   "data": "2024-12-19",
+   "ato": "Votou Não na PEC 54/2024 e no PL 4614/2024, o pacote de corte de gastos do governo Lula (limite ao ganho real do mínimo, regras do BPC, supersalários).",
+   "tema": "Contas públicas",
+   "fonte": "https://www25.senado.leg.br/web/atividade/materias/-/materia/166895"
+  },
+  {
+   "data": "2025-08-03",
+   "ato": "Publicou e depois apagou vídeo do pai falando a manifestantes; em 04/08/2025 Moraes citou o post como descumprimento de cautelar ao decretar a prisão domiciliar de Jair Bolsonaro.",
+   "tema": "Justiça",
+   "fonte": "https://www.cnnbrasil.com.br/politica/moraes-post-flavio-jair-ato/"
+  },
+  {
+   "data": "2025-12-17",
+   "ato": "Votou Sim no PL 2162/2023 (Dosimetria), que reduz penas de condenados pelo 8 de janeiro.",
+   "tema": "Democracia",
+   "fonte": "https://www25.senado.leg.br/web/atividade/materias/-/materia/172003"
+  },
+  {
+   "data": "2026-07-21",
+   "ato": "Em encontro com diplomatas de cerca de 50 países, disse que urnas brasileiras têm 'a mesma origem' da Smartmatic; o TSE afirma que a empresa nunca forneceu urnas ao Brasil. Em 13/07/2026 Moraes já havia suspendido suas visitas ao pai por 90 dias.",
+   "tema": "Eleições",
+   "fonte": "https://www.folhape.com.br/politica/flavio-cita-informacao-falsa-sobre-empresa-venezuelana-e-urnas/501831/"
+  }
+ ],
+ "contexto": "Atos de parentes citados só como contexto: Jair Bolsonaro foi condenado pela 1ª Turma do STF em set/2025 a 27 anos e 3 meses por tentativa de golpe; Flávio chamou o processo de 'suprema perseguição' e 'farsa' e defende 'anistia ampla, geral e irrestrita, incluindo Bolsonaro'. Sobre Eduardo Bolsonaro, Flávio confirmou em jul/2025 que o irmão pediu ao governo dos EUA sanções contra Moraes, mas negou que ele tenha influído no tarifaço; o próprio Flávio associou a aprovação da anistia ao fim das tarifas (jul/2025).",
+ "contexto_fontes": [
+  "https://www.diariodepernambuco.com.br/politica/2025/09/11695642-flavio-bolsonaro-chama-moraes-de-psicopata-e-defende-anistia-total.html",
+  "https://www.gazetadopovo.com.br/republica/flavio-bolsonaro-diz-que-tarifa-de-trump-tem-motivacao-politica-e-volta-a-defender-anistia/",
+  "https://www.diariodepernambuco.com.br/politica/2025/07/7794167-taxacao-de-trump-e-injusta-com-o-setor-produtivo-admite-flavio-bolsonaro.html"
+ ]
+}

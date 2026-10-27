@@ -1,0 +1,130 @@
+{
+ "id": "rui-costa-pimenta",
+ "nome": "Rui Costa Pimenta",
+ "eventos": [
+  {
+   "data": "1957-06-25",
+   "tipo": "origem",
+   "titulo": "Nasce em São Paulo",
+   "texto": "Rui Costa Pimenta nasce em São Paulo. Forma-se pela Faculdade Cásper Líbero e começa a militar em 1976, durante a ditadura.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026"
+  },
+  {
+   "data": "1980",
+   "tipo": "alianca",
+   "titulo": "Ajuda a fundar o PT",
+   "texto": "Participa da fundação do PT e da tendência trotskista Causa Operária, dentro do partido.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://agenciabrasil.ebc.com.br/politica/noticia/2014-07/rui-costa-pimenta-e-o-candidato-do-partido-da-causa-operaria"
+  },
+  {
+   "data": "1985",
+   "tipo": "cargo",
+   "titulo": "Diretor da CUT",
+   "texto": "É eleito diretor da Central Única dos Trabalhadores na Grande São Paulo.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://agenciabrasil.ebc.com.br/politica/noticia/2014-07/rui-costa-pimenta-e-o-candidato-do-partido-da-causa-operaria"
+  },
+  {
+   "data": "1992",
+   "tipo": "ruptura",
+   "titulo": "Causa Operária rompe com o PT",
+   "texto": "Os militantes da Causa Operária anunciam a ruptura com o PT.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-08/sindicalista-rui-costa-pimenta-concorrera-presidencia-pelo-pco"
+  },
+  {
+   "data": "1995-12-07",
+   "tipo": "cargo",
+   "titulo": "Funda e preside o PCO",
+   "texto": "Lança o Partido da Causa Operária (PCO) e torna-se seu presidente nacional; o registro definitivo vem em 1996.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-08/sindicalista-rui-costa-pimenta-concorrera-presidencia-pelo-pco"
+  },
+  {
+   "data": "2002",
+   "tipo": "eleicao",
+   "titulo": "Candidato a presidente",
+   "texto": "Recebe 38.619 votos (0,05%).",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://dadosabertos.tse.jus.br/dataset/resultados-2002"
+  },
+  {
+   "data": "2006",
+   "tipo": "decisao",
+   "titulo": "TSE barra candidatura",
+   "texto": "O TSE indefere o registro da candidatura presidencial de Rui Costa Pimenta (fonte: TSE, dados de candidaturas de 2006).",
+   "status": "Registro indeferido em 2006",
+   "pessoas": [],
+   "fonte": "https://dadosabertos.tse.jus.br/dataset/candidatos-2006"
+  },
+  {
+   "data": "2014",
+   "tipo": "eleicao",
+   "titulo": "Volta a disputar a Presidência",
+   "texto": "Recebe 12.324 votos (0,01%); em 2010, recebera 12.206. Em 2018 e 2022, o PCO apoia Lula.",
+   "status": null,
+   "pessoas": [
+    "lula"
+   ],
+   "fonte": "https://dadosabertos.tse.jus.br/dataset/resultados-2014"
+  },
+  {
+   "data": "2022-06-02",
+   "tipo": "investigacao",
+   "titulo": "Moraes manda bloquear perfis do PCO",
+   "texto": "No inquérito das fake news, Alexandre de Moraes abre investigação contra o PCO após publicação que o chamou de 'skinhead de toga' e pediu a dissolução do STF; manda bloquear os perfis do partido e ouvir Rui na PF em cinco dias, citando 'relevantes indícios' de uso ilícito de dinheiro público. O PCO reage com críticas ao STF e acusa censura.",
+   "status": "Inquérito contra o partido aberto em 2022; não localizei denúncia, arquivamento ou desfecho",
+   "pessoas": [
+    "alexandre-de-moraes"
+   ],
+   "fonte": "https://www.poder360.com.br/justica/moraes-manda-bloquear-perfis-do-pco-nas-redes-sociais/"
+  },
+  {
+   "data": "2024-02",
+   "tipo": "declaracao",
+   "titulo": "Encontro com líder do Hamas",
+   "texto": "Em viagem de uma delegação do PCO ao Catar, encontra-se com Ismail Haniyeh, então líder político do Hamas. O próprio partido divulgou o encontro.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://causaoperaria.org.br/2024/o-encontro-do-pco-com-o-hamas/"
+  },
+  {
+   "data": "2026-10-04",
+   "tipo": "eleicao",
+   "titulo": "12º lugar no 1º turno",
+   "texto": "Recebe 15.024 votos (0,01%), na disputa oficializada em 01/08/2026 com Antônio Carlos Silva como vice.",
+   "status": null,
+   "pessoas": [
+    "antonio-carlos-silva"
+   ],
+   "fonte": "https://dadosabertos.tse.jus.br/dataset/resultados-2026"
+  },
+  {
+   "data": "2026-10-12",
+   "tipo": "ruptura",
+   "titulo": "PCO orienta voto nulo",
+   "texto": "Depois de apoiar Lula em 2018 e 2022, orienta voto nulo: 'O PT não é alternativa em nenhum sentido'; diz que Flávio Bolsonaro expressa 'tendências reacionárias'.",
+   "status": null,
+   "pessoas": [
+    "lula",
+    "flavio-bolsonaro"
+   ],
+   "fonte": "https://metropoles.com/brasil/pco-orienta-voto-nulo-para-2o-turno-entre-lula-e-flavio"
+  }
+ ],
+ "resumo_juridico": "Rui Costa Pimenta não tem condenação conhecida e não é réu em ação penal conhecida. Em 02/06/2022, Alexandre de Moraes abriu investigação contra o PCO no inquérito das fake news, mandou bloquear os perfis do partido e determinou que Rui depusesse à PF, mencionando indícios de uso ilícito de dinheiro público; não localizei denúncia, arquivamento ou outro desfecho. O PCO classificou a medida como censura. Em 2006, o TSE indeferiu seu registro de candidatura por problema na prestação de contas da campanha de 2002 (decisão eleitoral, não criminal). Nunca exerceu mandato eletivo nem cargo de governo.",
+ "fontes": [
+  "https://agenciabrasil.ebc.com.br/politica/noticia/2026-08/sindicalista-rui-costa-pimenta-concorrera-presidencia-pelo-pco",
+  "https://www.poder360.com.br/justica/moraes-manda-bloquear-perfis-do-pco-nas-redes-sociais/",
+  "https://dadosabertos.tse.jus.br/dataset/resultados-2026",
+  "https://metropoles.com/brasil/pco-orienta-voto-nulo-para-2o-turno-entre-lula-e-flavio"
+ ]
+}

@@ -1,0 +1,702 @@
+{
+ "id": "ronaldo-caiado",
+ "nome_urna": "Ronaldo Caiado",
+ "nome_completo": "Ronaldo Ramos Caiado",
+ "partido": "PSD",
+ "numero": 55,
+ "vice": "Gilberto Kassab (PSD)",
+ "coligacao": "PSD (partido isolado, sem coligação)",
+ "resultado_1t": {
+  "votos": 2605148,
+  "pct": 2.18
+ },
+ "situacao": "Não eleito (5º lugar no 1º turno)",
+ "resumo": "Médico e produtor rural, presidiu a UDR (1986–89), foi deputado federal por Goiás (1991–95 e 1999–2015), senador (2015–19) e governador de Goiás (2019–mar/2026). Em 06/10/2026 declarou apoio 'integral e de corpo inteiro' a Flávio Bolsonaro (PL) no 2º turno.",
+ "autodeclaracao": "Lançou a pré-candidatura como 'alternativa da direita moderada' e se apresenta como nome de centro-direita (Jornal Opção, 2025).",
+ "plano_governo_url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo",
+ "propostas": [
+  {
+   "tema": "Segurança",
+   "texto": "Lei do Terrorismo Doméstico enquadrando facções e milícias, com pena mínima de 45 anos para associação e progressão só após 90% da pena.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo"
+  },
+  {
+   "tema": "Segurança",
+   "texto": "Trabalhar pela aprovação da PEC que reduz a maioridade penal para 16 anos e agravar a punição por furto e roubo de celular.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo"
+  },
+  {
+   "tema": "Contas públicas",
+   "texto": "Publicar um 'Orçamento da Verdade' e fazer as despesas obrigatórias crescerem abaixo do PIB nominal, recuperando superávits primários.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo"
+  },
+  {
+   "tema": "Contas públicas",
+   "texto": "Rever subsídios e benefícios tributários sem resultado e aplicar efetivamente o teto remuneratório contra supersalários.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo"
+  },
+  {
+   "tema": "Proteção social",
+   "texto": "Preservar a transferência de renda, com regra de transição que reduz o benefício gradualmente para quem ingressa no trabalho formal.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo"
+  },
+  {
+   "tema": "Democracia",
+   "texto": "Conceder anistia aos condenados pelo 8 de janeiro e indulto a Jair Bolsonaro.",
+   "fonte": "https://sbtnews.sbt.com.br/noticia/eleicoes/8-1-caiado-promete-anistia-ampla-e-irrestrita-as-envolvidos"
+  },
+  {
+   "tema": "Judiciário",
+   "texto": "Reformar o STF, com novos critérios de escolha e idade mínima de 60 anos para ministros.",
+   "fonte": "https://www.poder360.com.br/poder-eleicoes/10-dos-12-pre-candidatos-a-presidencia-ja-se-manifestaram-contra-o-stf/"
+  },
+  {
+   "tema": "Política externa",
+   "texto": "Consolidar o acordo Mercosul–União Europeia e manter relações com todos os polos 'sem alinhamentos automáticos'.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo"
+  },
+  {
+   "tema": "Energia",
+   "texto": "Petrobras e estatais com governança e sem controle artificial de preços; manter a gratuidade de energia para famílias de baixa renda.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo"
+  },
+  {
+   "tema": "Meio ambiente",
+   "texto": "Combater desmatamento ilegal, grilagem e garimpo ilegal e ampliar o pagamento por serviços ambientais.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo"
+  }
+ ],
+ "posicoes": {
+  "E01": {
+   "v": 1,
+   "conf": "alta",
+   "base": "Plano: 'Transferência de renda continuará sendo direito de quem precisa', com transição gradual para quem ingressa no trabalho formal.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo",
+   "p": 1,
+   "conf_p": "alta",
+   "base_p": "Sancionou a Lei 21.070/2021 (Mães de Goiás: R$ 250/mês a mães em extrema pobreza com filhos pequenos); reajustou para R$ 300 em jan/2025, com cerca de 90 mil beneficiárias ativas.",
+   "fonte_p": "https://www.normasbrasil.com.br/norma/lei-21070-2021-go_418694.html"
+  },
+  "E02": {
+   "v": 0,
+   "conf": "baixa",
+   "base": "Plano não propõe privatizações: diz que 'Petrobras e demais estatais terão governança, eficiência e investimento, sem uso partidário'.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo",
+   "p": 1,
+   "conf_p": "alta",
+   "base_p": "Vendeu a Celg Transmissão em leilão na B3 (14/10/2021, R$ 1,977 bi, à EDP). Em 2019 defendeu IPO de 49% da Saneago, que segue estatal; em 2026 disse que ela não será privatizada.",
+   "fonte_p": "https://www.b3.com.br/pt_br/noticias/leilao-da-celg-t-foi-realizado-na-b3.htm"
+  },
+  "E03": {
+   "v": -1,
+   "conf": "baixa",
+   "base": "Plano promete ajuste 'sem recorrer a aumentos permanentes de carga tributária' e diz que a carga 'já é elevada'; não trata de tributar dividendos ou fortunas.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do candidato (lei, decreto, veto, voto nominal ou política de governo) sobre o tema.",
+   "fonte_p": null
+  },
+  "E04": {
+   "v": 1,
+   "conf": "alta",
+   "base": "Plano propõe que despesas obrigatórias cresçam abaixo do PIB nominal e superávits primários progressivos, 'sem transferir a conta aos mais pobres'.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo",
+   "p": 2,
+   "conf_p": "alta",
+   "base_p": "Como senador votou a favor da PEC do teto (2016). Como governador aderiu ao RRF (homologado em 24/12/2021) e aprovou reforma da Previdência estadual (dez/2019). Em 2003 votou contra a PEC 40 (Previdência de Lula).",
+   "fonte_p": "https://www.tnh1.com.br/noticia/nid/veja-como-votaram-os-senadores-na-aprovacao-da-pec-do-teto-de-gastos/"
+  },
+  "E05": {
+   "v": 0,
+   "conf": "media",
+   "base": "Em ago/2026 disse ser 'a favor' da redução da escala 6x1, mas um dia antes chamou a medida de 'eleitoreira' e disse que deveria ser negociada com empregadores.",
+   "fonte": "https://www.otempo.com.br/eleicoes/2026/presidentes/2026/8/21/apesar-de-afirmar-ser-a-favor-do-fim-da-escala-6x1-caiado-classifica-a-medida-como-eleitoreira",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do candidato (lei, decreto, veto, voto nominal ou política de governo) sobre o tema.",
+   "fonte_p": null
+  },
+  "E06": {
+   "v": null,
+   "conf": "baixa",
+   "base": "Não encontrei posição do candidato sobre o tema no plano registrado no TSE, em entrevistas ou em votações consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do candidato (lei, decreto, veto, voto nominal ou política de governo) sobre o tema.",
+   "fonte_p": null
+  },
+  "E07": {
+   "v": 1,
+   "conf": "alta",
+   "base": "Plano: 'Coordenar políticas fiscal e monetária com respeito à autonomia do Banco Central'.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do candidato (lei, decreto, veto, voto nominal ou política de governo) sobre o tema.",
+   "fonte_p": null
+  },
+  "E08": {
+   "v": 0,
+   "conf": "baixa",
+   "base": "Plano prevê política industrial com uso do BNDES e da Finep, mas critica subsídios mal distribuídos e exige avaliação de benefícios.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do candidato (lei, decreto, veto, voto nominal ou política de governo) sobre o tema.",
+   "fonte_p": null
+  },
+  "E09": {
+   "v": null,
+   "conf": "baixa",
+   "base": "Não encontrei posição do candidato sobre o tema no plano registrado no TSE, em entrevistas ou em votações consultadas.",
+   "fonte": null,
+   "p": 1,
+   "conf_p": "baixa",
+   "base_p": "Em 16/02/2011, como deputado do DEM (oposição), votou a favor das emendas que elevavam o mínimo para R$ 560 e R$ 600, contra os R$ 545 propostos pelo governo Dilma.",
+   "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/491872-61/votos"
+  },
+  "E10": {
+   "v": 0,
+   "conf": "baixa",
+   "base": "Plano preserva 'os princípios do SUS' e fala em remunerar prestadores por 'qualidade e resultado' e em parcerias com o Sistema S; sem proposta explícita de voucher ou OS.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do candidato (lei, decreto, veto, voto nominal ou política de governo) sobre o tema.",
+   "fonte_p": null
+  },
+  "E11": {
+   "v": null,
+   "conf": "baixa",
+   "base": "Não encontrei posição do candidato sobre o tema no plano registrado no TSE, em entrevistas ou em votações consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do candidato (lei, decreto, veto, voto nominal ou política de governo) sobre o tema.",
+   "fonte_p": null
+  },
+  "E12": {
+   "v": 1,
+   "conf": "media",
+   "base": "Plano defende consolidar o acordo Mercosul–União Europeia e ampliar a rede de acordos, com abertura coordenada com política industrial.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do candidato (lei, decreto, veto, voto nominal ou política de governo) sobre o tema.",
+   "fonte_p": null
+  },
+  "E13": {
+   "v": 1,
+   "conf": "media",
+   "base": "Plano: Petrobras sem 'controle artificial de preços'.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do candidato (lei, decreto, veto, voto nominal ou política de governo) sobre o tema.",
+   "fonte_p": null
+  },
+  "E14": {
+   "v": 1,
+   "conf": "media",
+   "base": "Plano: proteção social deve 'romper ciclos de pobreza, não administrar vulnerabilidade indefinidamente', com porta de saída e redução gradual do benefício.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do candidato (lei, decreto, veto, voto nominal ou política de governo) sobre o tema.",
+   "fonte_p": null
+  },
+  "E15": {
+   "v": -1,
+   "conf": "media",
+   "base": "Diz que a UDR, que presidiu (1986–89), 'protege o direito de propriedade'; propaganda de 2026 associava o PT a invasões de terra. Plano não trata de reforma agrária.",
+   "fonte": "https://www.aosfatos.org/noticias/presidenciaveis-distorcem-inventam-fatos-atacar-adversarios/",
+   "p": -1,
+   "conf_p": "media",
+   "base_p": "Em 22/05/2012 votou 'não' à PEC 438/2001 (expropriação, para reforma agrária, de imóveis com trabalho escravo), aprovada por 360 a 29.",
+   "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/36162-204/votos"
+  },
+  "E16": {
+   "v": 1,
+   "conf": "media",
+   "base": "Plano: 'A iniciativa privada será o principal motor da economia'; propõe reduzir tempo e custo para abrir e operar empresas.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo",
+   "p": -1,
+   "conf_p": "alta",
+   "base_p": "Sancionou a Lei 22.460/2023, que elevou o ICMS modal de 17% para 19% a partir de abr/2024, e criou em 2022 a contribuição do Fundeinfra sobre o agro (até 1,65%), cuja revogação propôs em 2026.",
+   "fonte_p": "https://www.substituicaotributaria.com/SST/substituicao-tributaria/noticia/13/12/2023/goias-majora-aliquota-geral-do-icms"
+  },
+  "E17": {
+   "v": -1,
+   "conf": "baixa",
+   "base": "Plano rejeita 'controle artificial de preços' de combustíveis, mas propõe tornar o botijão de gás mais acessível às famílias.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do candidato (lei, decreto, veto, voto nominal ou política de governo) sobre o tema.",
+   "fonte_p": null
+  },
+  "E18": {
+   "v": null,
+   "conf": "baixa",
+   "base": "Não localizei proposta ou fala do candidato sobre financiamento sindical no plano registrado no TSE nem em entrevistas consultadas (o voto de 2017 está em prática).",
+   "fonte": null,
+   "p": -2,
+   "conf_p": "alta",
+   "base_p": "Como senador, votou a favor da reforma trabalhista (jul/2017), que extinguiu a contribuição sindical obrigatória.",
+   "fonte_p": "https://congressoemfoco.com.br/noticias/saiba-como-cada-senador-votou-na-ultima-sessao-da-reforma-trabalhista"
+  },
+  "V01": {
+   "v": -2,
+   "conf": "alta",
+   "base": "Em jul/2026 declarou ser contra o aborto, exceto nos casos permitidos por lei.",
+   "fonte": "https://diariodocomercio.com.br/politica/senado-aborto-zema-caiado/",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do candidato (lei, decreto, veto, voto nominal ou política de governo) sobre o tema.",
+   "fonte_p": null
+  },
+  "V02": {
+   "v": null,
+   "conf": "baixa",
+   "base": "Não encontrei posição do candidato sobre o tema no plano registrado no TSE, em entrevistas ou em votações consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do candidato (lei, decreto, veto, voto nominal ou política de governo) sobre o tema.",
+   "fonte_p": null
+  },
+  "V03": {
+   "v": 2,
+   "conf": "alta",
+   "base": "Plano: 'Trabalhar fortemente pela aprovação da PEC da redução da maioridade penal para 16 (dezesseis) anos'.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do candidato (lei, decreto, veto, voto nominal ou política de governo) sobre o tema.",
+   "fonte_p": null
+  },
+  "V04": {
+   "v": null,
+   "conf": "baixa",
+   "base": "Não encontrei posição do candidato sobre o tema no plano registrado no TSE, em entrevistas ou em votações consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do candidato (lei, decreto, veto, voto nominal ou política de governo) sobre o tema.",
+   "fonte_p": null
+  },
+  "V05": {
+   "v": null,
+   "conf": "baixa",
+   "base": "Não encontrei posição do candidato sobre o tema no plano registrado no TSE, em entrevistas ou em votações consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do candidato (lei, decreto, veto, voto nominal ou política de governo) sobre o tema.",
+   "fonte_p": null
+  },
+  "V06": {
+   "v": null,
+   "conf": "baixa",
+   "base": "Não encontrei posição do candidato sobre o tema no plano registrado no TSE, em entrevistas ou em votações consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do candidato (lei, decreto, veto, voto nominal ou política de governo) sobre o tema.",
+   "fonte_p": null
+  },
+  "V07": {
+   "v": null,
+   "conf": "baixa",
+   "base": "Não encontrei posição do candidato sobre o tema no plano registrado no TSE, em entrevistas ou em votações consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do candidato (lei, decreto, veto, voto nominal ou política de governo) sobre o tema.",
+   "fonte_p": null
+  },
+  "V08": {
+   "v": 0,
+   "conf": "baixa",
+   "base": "Plano: ações focalizadas 'quando a desigualdade estiver comprovada' e aprimorar inclusão em concursos 'respeitando decisões judiciais e mérito'; não fala em extinguir cotas.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do candidato (lei, decreto, veto, voto nominal ou política de governo) sobre o tema.",
+   "fonte_p": null
+  },
+  "V09": {
+   "v": 1,
+   "conf": "media",
+   "base": "Disse que em Goiás 'faccionado só fala com Deus' (jul/2026); o plano, porém, prevê auditoria do uso da força e redução da letalidade policial.",
+   "fonte": "http://www.em.com.br/politica/2026/07/7468223-faccionado-so-fala-com-deus-diz-caiado-sobre-seguranca-publica-em-goias.html",
+   "p": 1,
+   "conf_p": "media",
+   "base_p": "Em 2024, 27% das mortes violentas intencionais em Goiás foram em intervenções policiais (31,6% em 2023), entre as maiores proporções do país; a taxa de homicídios caiu 52,1% de 2018 a 2024 (Anuário FBSP).",
+   "fonte_p": "https://tribunadoplanalto.com.br/homicidios-em-goias-caem-521-nos-ultimos-seis-anos-mas-segue-alta-a-participacao-da-policia-nas-mortes/"
+  },
+  "V10": {
+   "v": 2,
+   "conf": "alta",
+   "base": "Prometeu 'anistia ampla e irrestrita' aos envolvidos no 8 de janeiro e indulto a Jair Bolsonaro como primeiro ato, se eleito.",
+   "fonte": "https://sbtnews.sbt.com.br/noticia/eleicoes/8-1-caiado-promete-anistia-ampla-e-irrestrita-as-envolvidos",
+   "p": -1,
+   "conf_p": "media",
+   "base_p": "Em 09/01/2023 o governo de Goiás afastou cinco servidores que participaram dos atos de 8/1. A defesa de anistia (2025–26) é discurso, sem ato correspondente.",
+   "fonte_p": "https://www.jornalopcao.com.br/seguranca/governo-de-goias-pune-servidores-por-participar-de-atos-terroristas-em-brasilia-456091/"
+  },
+  "V11": {
+   "v": 0,
+   "conf": "baixa",
+   "base": "Plano propõe 'plataformas responsáveis' com regras de responsabilidade e devido processo, preservando o Marco Civil; não trata de remoção de desinformação.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do candidato (lei, decreto, veto, voto nominal ou política de governo) sobre o tema.",
+   "fonte_p": null
+  },
+  "V12": {
+   "v": null,
+   "conf": "baixa",
+   "base": "Não encontrei posição do candidato sobre o tema no plano registrado no TSE, em entrevistas ou em votações consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do candidato (lei, decreto, veto, voto nominal ou política de governo) sobre o tema.",
+   "fonte_p": null
+  },
+  "V13": {
+   "v": -1,
+   "conf": "media",
+   "base": "Plano promete rigor contra desmatamento ilegal e grilagem, mas trata o agronegócio como 'plataforma de liderança global' e a produção como prioridade.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo",
+   "p": -1,
+   "conf_p": "baixa",
+   "base_p": "Em 24/05/2011 votou 'sim' ao texto do Código Florestal (410 a 63) e à Emenda 164 (273 a 182), sobre atividades consolidadas em APPs; em 2012 liderou obstrução ruralista na MP 571.",
+   "fonte_p": "https://dadosabertos.camara.leg.br/api/v2/votacoes/17338-321/votos"
+  },
+  "V14": {
+   "v": 1,
+   "conf": "media",
+   "base": "Na campanha de 2018 disse pretender ampliar colégios militares em regiões de alto risco, mas que 'não se pode transformar todas as escolas de Goiás em militares'.",
+   "fonte": "https://www.jornalopcao.com.br/ultimas-noticias/ampliacao-de-colegios-militares-em-goias-e-tema-de-confronto-entre-caiado-e-eliton-140005/",
+   "p": 2,
+   "conf_p": "alta",
+   "base_p": "Ampliou a rede de colégios da Polícia Militar: 76 unidades em 2023 e 82 em out/2025, em 61 municípios.",
+   "fonte_p": "https://tribunadoplanalto.com.br/goias-abre-10-mil-vagas-em-colegios-militares/"
+  },
+  "V15": {
+   "v": null,
+   "conf": "baixa",
+   "base": "Não encontrei posição do candidato sobre o tema no plano registrado no TSE, em entrevistas ou em votações consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do candidato (lei, decreto, veto, voto nominal ou política de governo) sobre o tema.",
+   "fonte_p": null
+  },
+  "V16": {
+   "v": 2,
+   "conf": "alta",
+   "base": "Plano propõe pena mínima de 45 anos para facção 'terrorista', progressão só após 90% da pena e restrição à saída temporária e à progressão de regime.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do candidato (lei, decreto, veto, voto nominal ou política de governo) sobre o tema.",
+   "fonte_p": null
+  },
+  "V17": {
+   "v": 2,
+   "conf": "alta",
+   "base": "Disse que 'o Supremo tem que ser reformado' e que Moraes 'ultrapassa os limites' ao suspender lei do Congresso; propõe idade mínima de 60 anos para ministros.",
+   "fonte": "https://www.poder360.com.br/poder-justica/caiado-diz-que-moraes-ultrapassa-limites-institucionais/",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do candidato (lei, decreto, veto, voto nominal ou política de governo) sobre o tema.",
+   "fonte_p": null
+  },
+  "V18": {
+   "v": null,
+   "conf": "baixa",
+   "base": "Não encontrei posição do candidato sobre o tema no plano registrado no TSE, em entrevistas ou em votações consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do candidato (lei, decreto, veto, voto nominal ou política de governo) sobre o tema.",
+   "fonte_p": null
+  },
+  "V19": {
+   "v": -1,
+   "conf": "media",
+   "base": "Plano: relações com EUA, UE, Ásia, África e Oriente Médio 'sem alinhamentos automáticos' nem 'falsas escolhas entre polos geopolíticos rivais'.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do candidato (lei, decreto, veto, voto nominal ou política de governo) sobre o tema.",
+   "fonte_p": null
+  },
+  "Z01": {
+   "v": 2,
+   "conf": "alta",
+   "base": "Em coletiva em 31/10/2022 reconheceu a vitória de Lula e prometeu 'relação respeitosa'. Em jul e ago/2021 defendeu as urnas eletrônicas e se opôs ao voto impresso.",
+   "fonte": "https://www.jornalopcao.com.br/segundo-turno/caiado-manterei-relacao-respeitosa-com-presidente-lula-438317/",
+   "p": 2,
+   "conf_p": "media",
+   "base_p": "Reconheceu publicamente o resultado no dia seguinte ao 2º turno de 2022, quando Bolsonaro, seu aliado, ainda não havia se manifestado. Não contestou o resultado.",
+   "fonte_p": "https://www.canalrural.com.br/nacional/brasilia/governadores-de-goias-e-do-df-parabenizam-lula-pela-vitoria/"
+  },
+  "Z02": {
+   "v": -1,
+   "conf": "media",
+   "base": "Plano: Forças Armadas 'submetidas à Constituição e ao poder civil' (e uso contra o crime organizado sem GLO). Promete anistia ao 8/1 e indulto a Bolsonaro, condenado por tentativa de golpe.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo",
+   "p": -1,
+   "conf_p": "media",
+   "base_p": "Em 09/01/2023 o governo afastou servidores que participaram dos atos de 8/1 e Caiado anunciou a desocupação das áreas estaduais do acampamento em frente ao quartel de Goiânia.",
+   "fonte_p": "https://ohoje.com/2023/01/09/acampamento-bolsonarista-e-desmobilizado-em-frente-ao-quartel-de-goiania/"
+  },
+  "Z03": {
+   "v": -2,
+   "conf": "media",
+   "base": "Com leis suspensas por Moraes na ADI 7885 (out/2025), disse 'Cumprirei a decisão', chamando o voto de 'político'.",
+   "fonte": "https://ohoje.com/2025/10/11/caiado-critica-moraes-e-cumprira-decisao-stf/",
+   "p": -2,
+   "conf_p": "media",
+   "base_p": "Após a liminar de Moraes (ADI 7885, out/2025) que suspendeu as Leis 22.940/2024 e 23.291/2025 (obras executadas via Ifag com recursos do Fundeinfra), a Goinfra suspendeu seis obras e a PGE apresentou embargos de declaração em 14/10/2025.",
+   "fonte_p": "https://www.jornalopcao.com.br/ultimas-noticias/fundeinfra-governo-de-goias-deve-entrar-com-recurso-apos-liminar-do-stf-obras-permanecem-temporariamente-suspensas-755109/"
+  },
+  "Z04": {
+   "v": -1,
+   "conf": "media",
+   "base": "Plano: combater a corrupção preservando 'a liberdade de expressão, a imprensa livre e a independência das instituições'; apoio público à cultura sem uso 'para censura ou propaganda partidária'.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato do candidato para punir ou restringir veículos de imprensa, nem registro em sentido contrário.",
+   "fonte_p": null
+  },
+  "Z05": {
+   "v": 1,
+   "conf": "media",
+   "base": "Em 25/02/2015 escreveu 'Lula tem postura de bandido. E bandido frouxo!' e 'Lula e sua turma foram pegos roubando a Petrobras'; em ago/2015 (Roda Viva) disse que bastava extirpar o PT para a crise acabar. O plano de 2026 promete 'governar para todos', sem discriminação partidária.",
+   "fonte": "https://www.congressoemfoco.com.br/noticia/67230/%E2%80%98lula-tem-postura-de-bandido-frouxo%E2%80%9D-diz-caiado",
+   "p": 1,
+   "conf_p": "baixa",
+   "base_p": "Em 09/09/2026 o ministro André Mendonça mandou retirar propaganda de Caiado que atribuía ao PT invasões de terra, por não haver 'substrato factual'. Antes, o STF rejeitara queixa-crime de Lula pelos tuítes de 2015.",
+   "fonte_p": "https://acritica.net/eleicoes-2026/mendonca-proibe-propaganda-de-caiado-que-atribuia-invasoes-de-terra-ao-pt/"
+  },
+  "Z06": {
+   "v": 1,
+   "conf": "media",
+   "base": "Plano: 'Uma mudança eleitoral depende do Congresso e não será imposta unilateralmente'; 'Nenhum programa transformador será executado sem cooperação entre os Poderes'.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo",
+   "p": 1,
+   "conf_p": "media",
+   "base_p": "Aprovou reformas pela Alego: Previdência estadual (dez/2019; 26 a 14 no 1º turno), lei de adesão ao RRF (jun/2021) e leis de troca do RRF pelo Propag (2025).",
+   "fonte_p": "https://ohoje.com/2019/12/20/alego-aprova-pec-da-previdencia-em-1a-votacao/"
+  },
+  "Z07": {
+   "v": -1,
+   "conf": "media",
+   "base": "Plano defende 'cooperação entre os Poderes' e 'maioria orgânica' no Congresso, ao lado de um Executivo que 'voltará a exercer liderança'; propõe fim da reeleição.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo",
+   "p": -1,
+   "conf_p": "baixa",
+   "base_p": "Como governador, aprovou reformas via Alego e cumpriu decisão do STF que criticou (Fundeinfra, 2025).",
+   "fonte_p": "https://ohoje.com/2025/10/11/caiado-critica-moraes-e-cumprira-decisao-stf/"
+  },
+  "Z08": {
+   "v": 0,
+   "conf": "baixa",
+   "base": "Pediu que Lula cancelasse o envio de embaixador à posse de Maduro (jan/2025) e chamou a ação militar dos EUA de 'dia da libertação' (03/01/2026); elogiou resultados de Bukele. Não localizei críticas a governos aliados.",
+   "fonte": "https://ohoje.com/2025/01/10/lula-tem-a-obrigacao-moral-de-cancelar-a-ida-do-embaixador-a-posse-de-maduro-diz-caiado/",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Nunca conduziu política externa; não há ato verificável.",
+   "fonte_p": null
+  },
+  "V20": {
+   "v": null,
+   "p": null,
+   "conf": "baixa",
+   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
+   "fonte": null
+  },
+  "Z09": {
+   "v": null,
+   "p": null,
+   "conf": "baixa",
+   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
+   "fonte": null
+  },
+  "Z10": {
+   "v": null,
+   "p": null,
+   "conf": "baixa",
+   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
+   "fonte": null
+  }
+ },
+ "checagens": [
+  {
+   "afirmacao": "Em Goiás 'acabou a criminalidade nas escolas' (debate da Band).",
+   "veredito": "Falso",
+   "agencia": "Aos Fatos",
+   "data": "2026-08-23",
+   "url": "https://www.aosfatos.org/noticias/checamos-debate-presidencial-band/"
+  },
+  {
+   "afirmacao": "Lula criou o MST.",
+   "veredito": "Falso",
+   "agencia": "Aos Fatos",
+   "data": "2026-08-05",
+   "url": "https://www.aosfatos.org/noticias/presidenciaveis-distorcem-inventam-fatos-atacar-adversarios/"
+  },
+  {
+   "afirmacao": "'A maior parte do território brasileiro está totalmente confiscado pelas facções criminosas' (debate da Band).",
+   "veredito": "Sem selo: não há levantamento nacional que meça território sob controle de facções",
+   "agencia": "Aos Fatos",
+   "data": "2026-08-23",
+   "url": "https://www.aosfatos.org/noticias/checamos-debate-presidencial-band/"
+  },
+  {
+   "afirmacao": "Caiado, Zema e Cury retiraram apoio a Flávio Bolsonaro no 2º turno.",
+   "veredito": "Falso",
+   "agencia": "Boatos.org",
+   "data": "2026-10-15",
+   "url": "https://www.boatos.org/politica/caiado-cury-e-zema-retiram-apoio-a-flavio-bolsonaro-no-2o-turno-das-eleicoes.html"
+  }
+ ],
+ "fontes": [
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo",
+  "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017106566",
+  "https://planodegoverno2026.com.br/candidatos/presidente/ronaldo-caiado/",
+  "https://viva.com.br/politica/caiado-declara-apoio-integral-a-flavio-bolsonaro-no-2-turno.html",
+  "https://tribunadoplanalto.com.br/derrotados-no-1o-turno-adotam-posicoes-diferentes-para-disputa-entre-lula-e-flavio/",
+  "https://sbtnews.sbt.com.br/noticia/eleicoes/8-1-caiado-promete-anistia-ampla-e-irrestrita-as-envolvidos",
+  "https://www.poder360.com.br/poder-justica/caiado-diz-que-moraes-ultrapassa-limites-institucionais/",
+  "https://www.poder360.com.br/poder-eleicoes/10-dos-12-pre-candidatos-a-presidencia-ja-se-manifestaram-contra-o-stf/",
+  "https://diariodocomercio.com.br/politica/senado-aborto-zema-caiado/",
+  "https://www.otempo.com.br/eleicoes/2026/presidentes/2026/8/21/apesar-de-afirmar-ser-a-favor-do-fim-da-escala-6x1-caiado-classifica-a-medida-como-eleitoreira",
+  "https://congressoemfoco.com.br/noticias/saiba-como-cada-senador-votou-na-ultima-sessao-da-reforma-trabalhista",
+  "https://www.tnh1.com.br/noticia/nid/veja-como-votaram-os-senadores-na-aprovacao-da-pec-do-teto-de-gastos/",
+  "https://www.poder360.com.br/poder-eleicoes-2026/ronaldo-caiado-anuncia-apoio-a-flavio-bolsonaro-no-2o-turno/",
+  "https://jornalopcao.com.br/educacao/apos-fim-do-programa-federal-goias-e-mais-4-estados-ainda-investem-em-escola-civico-militar-561243/",
+  "https://www.jornalopcao.com.br/ultimas-noticias/ampliacao-de-colegios-militares-em-goias-e-tema-de-confronto-entre-caiado-e-eliton-140005/",
+  "http://www.em.com.br/politica/2026/07/7468223-faccionado-so-fala-com-deus-diz-caiado-sobre-seguranca-publica-em-goias.html",
+  "https://www.jornalopcao.com.br/ultimas-noticias/em-pontape-definitivo-para-2026-caiado-lanca-pre-candidatura-a-presidente-do-brasil-como-alternativa-da-direita-moderada-695175/",
+  "https://www.aosfatos.org/noticias/checamos-debate-presidencial-band/",
+  "https://www.aosfatos.org/noticias/presidenciaveis-distorcem-inventam-fatos-atacar-adversarios/",
+  "https://portaldeprefeitura.com.br/bastidores-da-politica/eleicoes-2026-com-100-das-secoes-totalizadas-flavio-tem-4703-e/633498/",
+  "https://dadosabertos.camara.leg.br/api/v2/votacoes/36162-204/votos",
+  "https://dadosabertos.camara.leg.br/api/v2/votacoes/17338-321/votos",
+  "https://dadosabertos.camara.leg.br/api/v2/votacoes/491872-61/votos",
+  "https://exame.com/mundo/deputados-aprovam-r-545-para-minimo-e-rejeitam-r-600-do-psdb",
+  "https://www.b3.com.br/pt_br/noticias/leilao-da-celg-t-foi-realizado-na-b3.htm",
+  "https://www.poder360.com.br/economia/caiado-prepara-a-privatizacao-dos-setores-de-saneamento-e-transmissao/",
+  "https://www.maisgoias.com.br/cidades/bolsonaro-assina-adesao-de-goias-ao-rrf-com-elogios-a-caiado/",
+  "https://www.jornalopcao.com.br/ultimas-noticias/goias-ingressa-oficialmente-no-propag-anuncia-caiado-777607/",
+  "https://ohoje.com/2019/12/20/alego-aprova-pec-da-previdencia-em-1a-votacao/",
+  "https://www.substituicaotributaria.com/SST/substituicao-tributaria/noticia/13/12/2023/goias-majora-aliquota-geral-do-icms",
+  "https://www.jornalopcao.com.br/politica/projeto-de-contribuicao-do-agronegocio-e-aprovado-na-assembleia-legislativa-442635/",
+  "https://goias.gov.br/?p=707592",
+  "https://www.normasbrasil.com.br/norma/lei-21070-2021-go_418694.html",
+  "https://goias.gov.br/maes-de-goias-valor-sera-reajustado-para-r-300/",
+  "https://tribunadoplanalto.com.br/goias-abre-10-mil-vagas-em-colegios-militares/",
+  "https://tribunadoplanalto.com.br/homicidios-em-goias-caem-521-nos-ultimos-seis-anos-mas-segue-alta-a-participacao-da-policia-nas-mortes/",
+  "https://www.jornalopcao.com.br/segundo-turno/caiado-manterei-relacao-respeitosa-com-presidente-lula-438317/",
+  "https://www.canalrural.com.br/nacional/brasilia/governadores-de-goias-e-do-df-parabenizam-lula-pela-vitoria/",
+  "https://www.jornalopcao.com.br/seguranca/governo-de-goias-pune-servidores-por-participar-de-atos-terroristas-em-brasilia-456091/",
+  "https://ohoje.com/2023/01/09/acampamento-bolsonarista-e-desmobilizado-em-frente-ao-quartel-de-goiania/",
+  "https://tribunadoplanalto.com.br/?p=60246",
+  "https://ohoje.com/2026/07/27/vou-assinar-no-primeiro-dia-diz-caiado-ao-prometer-indulto-a-bolsonaro-se-for-presidente/",
+  "https://ohoje.com/2025/10/11/caiado-critica-moraes-e-cumprira-decisao-stf/",
+  "https://opopular.com.br/politica/apos-suspens-o-caiado-sobe-o-tom-e-acusa-pt-de-retaliac-o-1.3325629",
+  "https://jovempan.com.br/noticias/caiado-ve-prisao-de-bolsonaro-como-estopim-para-uma-possivel-crise/",
+  "https://ohoje.com/2021/07/22/caiado-se-manifesta-a-favor-do-uso-de-urnas-eletronicas/",
+  "https://www.portaltela.com/noticias/politica/2026/05/04/tres-dos-12-pre-candidatos-a-presidencia-criticam-as-urnas-eletronicas/",
+  "https://ohoje.com/2025/01/10/lula-tem-a-obrigacao-moral-de-cancelar-a-ida-do-embaixador-a-posse-de-maduro-diz-caiado/",
+  "https://ohoje.com/2026/01/03/caiado-apoia-ataque-dos-eua/",
+  "https://www.brasilparalelo.com.br/noticias/caiado-elogia-el-salvador-mas-diz-que-pais-nao-e-exemplo",
+  "https://acritica.net/eleicoes-2026/mendonca-proibe-propaganda-de-caiado-que-atribuia-invasoes-de-terra-ao-pt/",
+  "https://www.congressoemfoco.com.br/noticia/67230/%E2%80%98lula-tem-postura-de-bandido-frouxo%E2%80%9D-diz-caiado"
+ ],
+ "atualizado_em": "2026-10-25",
+ "pratica_resumo": "Como governador (2019–mar/2026), aderiu ao RRF (24/12/2021) e o trocou pelo Propag (24/12/2025), vendeu a Celg T por R$ 1,977 bi (2021) e manteve a Saneago estatal; ao mesmo tempo elevou o ICMS modal de 17% para 19% (2024) e criou a contribuição do Fundeinfra, embora o plano prometa ajuste sem aumento de carga. Criou o Mães de Goiás (R$ 250, depois R$ 300) e ampliou os colégios militares para 82 unidades. Como deputado votou contra a PEC do Trabalho Escravo (2012) e pela Emenda 164 do Código Florestal (2011); como senador, a favor do teto de gastos (2016) e da reforma trabalhista (2017). Reconheceu o resultado de 2022 em 31/10 e cumpriu decisão do STF que criticou; em 2026 promete anistia ao 8/1 e indulto a Bolsonaro e teve propaganda que atribuía invasões de terra ao PT retirada por decisão judicial.",
+ "atos": [
+  {
+   "data": "2011-02-16",
+   "ato": "Votou a favor das emendas que elevavam o salário mínimo de 2011 para R$ 560 e R$ 600 (rejeitadas).",
+   "tema": "Trabalho",
+   "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/491872-61/votos"
+  },
+  {
+   "data": "2011-05-24",
+   "ato": "Votou 'sim' ao texto do novo Código Florestal e à Emenda 164 (atividades consolidadas em APPs).",
+   "tema": "Meio ambiente",
+   "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/17338-321/votos"
+  },
+  {
+   "data": "2012-05-22",
+   "ato": "Votou 'não' à PEC 438/2001 (PEC do Trabalho Escravo), aprovada por 360 a 29.",
+   "tema": "Terra",
+   "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/36162-204/votos"
+  },
+  {
+   "data": "2016-12-13",
+   "ato": "Como senador, votou a favor da PEC do teto de gastos.",
+   "tema": "Contas públicas",
+   "fonte": "https://www.tnh1.com.br/noticia/nid/veja-como-votaram-os-senadores-na-aprovacao-da-pec-do-teto-de-gastos/"
+  },
+  {
+   "data": "2017-07-11",
+   "ato": "Como senador, votou a favor da reforma trabalhista, que extinguiu a contribuição sindical obrigatória.",
+   "tema": "Trabalho",
+   "fonte": "https://congressoemfoco.com.br/noticias/saiba-como-cada-senador-votou-na-ultima-sessao-da-reforma-trabalhista"
+  },
+  {
+   "data": "2019-12-20",
+   "ato": "Alego aprova em 1º turno (26 a 14) a PEC da Previdência estadual enviada pelo governo Caiado, espelhada na reforma federal.",
+   "tema": "Previdência",
+   "fonte": "https://ohoje.com/2019/12/20/alego-aprova-pec-da-previdencia-em-1a-votacao/"
+  },
+  {
+   "data": "2021-08-09",
+   "ato": "Sancionou a Lei 21.070, que cria o programa Mães de Goiás (R$ 250/mês; R$ 300 desde jan/2025).",
+   "tema": "Proteção social",
+   "fonte": "https://www.normasbrasil.com.br/norma/lei-21070-2021-go_418694.html"
+  },
+  {
+   "data": "2021-10-14",
+   "ato": "Leilão de privatização da Celg Transmissão na B3, arrematada pela EDP por R$ 1,977 bilhão.",
+   "tema": "Estatais",
+   "fonte": "https://www.b3.com.br/pt_br/noticias/leilao-da-celg-t-foi-realizado-na-b3.htm"
+  },
+  {
+   "data": "2021-12-24",
+   "ato": "Adesão de Goiás ao Regime de Recuperação Fiscal homologada pelo presidente da República.",
+   "tema": "Contas públicas",
+   "fonte": "https://www.maisgoias.com.br/cidades/bolsonaro-assina-adesao-de-goias-ao-rrf-com-elogios-a-caiado/"
+  },
+  {
+   "data": "2023-01-09",
+   "ato": "Governo de Goiás afasta cinco servidores que participaram dos atos de 8 de janeiro em Brasília.",
+   "tema": "Democracia",
+   "fonte": "https://www.jornalopcao.com.br/seguranca/governo-de-goias-pune-servidores-por-participar-de-atos-terroristas-em-brasilia-456091/"
+  },
+  {
+   "data": "2023-12-12",
+   "ato": "Sancionou a Lei 22.460, que eleva a alíquota modal do ICMS de 17% para 19% a partir de 01/04/2024.",
+   "tema": "Impostos",
+   "fonte": "https://www.substituicaotributaria.com/SST/substituicao-tributaria/noticia/13/12/2023/goias-majora-aliquota-geral-do-icms"
+  },
+  {
+   "data": "2025-12-24",
+   "ato": "Goiás sai do RRF e ingressa no Propag, refinanciando R$ 20,87 bi em 30 anos após amortizar cerca de R$ 3,6 bi.",
+   "tema": "Contas públicas",
+   "fonte": "https://www.jornalopcao.com.br/ultimas-noticias/goias-ingressa-oficialmente-no-propag-anuncia-caiado-777607/"
+  }
+ ]
+}

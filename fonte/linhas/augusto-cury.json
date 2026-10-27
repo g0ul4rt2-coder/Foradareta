@@ -1,0 +1,148 @@
+{
+ "id": "augusto-cury",
+ "nome": "Augusto Cury",
+ "eventos": [
+  {
+   "data": "1958-10-02",
+   "tipo": "origem",
+   "titulo": "Nasce em Colina (SP)",
+   "texto": "Augusto Jorge Cury nasce em Colina, interior de São Paulo, filho de Salomão Jorge Cury e Ana Regina Brait Cury.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://revista.istoe.com.br/142655_omaiorvendedordelivrosdobrasil"
+  },
+  {
+   "data": "1998",
+   "tipo": "carreira",
+   "titulo": "Publica 'Inteligência Multifocal'",
+   "texto": "Lança o livro que apresenta sua Teoria da Inteligência Multifocal e inicia a carreira de escritor.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://revista.istoe.com.br/142655_omaiorvendedordelivrosdobrasil"
+  },
+  {
+   "data": "2011-06-17",
+   "tipo": "carreira",
+   "titulo": "Apontado como maior vendedor de livros",
+   "texto": "A revista IstoÉ o descreve como o maior vendedor de livros do Brasil no período; em 2017 a Forbes registra mais de 30 milhões de exemplares vendidos no país.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://revista.istoe.com.br/142655_omaiorvendedordelivrosdobrasil"
+  },
+  {
+   "data": "2020",
+   "tipo": "declaracao",
+   "titulo": "Folha questiona acreditação da FCU",
+   "texto": "Reportagem da Folha informa que a universidade americana onde fez o doutorado não tinha, naquele momento, acreditação de qualidade relevante nos EUA. Em 2024 a FCU obteve status de pré-acreditação (ABHE) (fontes: Folha de S.Paulo, 07/03/2020; Florida Christian University).",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://www1.folha.uol.com.br/educacao/2020/03/mec-faz-acordo-com-faculdade-de-coaching-religioso-dos-eua.shtml"
+  },
+  {
+   "data": "2026",
+   "tipo": "alianca",
+   "titulo": "Proposta de chapa com Zema não avança",
+   "texto": "Cury propõe uma chapa conjunta com Romeu Zema (Novo), mas as negociações não avançam e cada um mantém candidatura própria.",
+   "status": null,
+   "pessoas": [
+    "romeu-zema"
+   ],
+   "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/augusto-cury-anuncia-julio-delgado-como-vice-na-disputa-presidencial/"
+  },
+  {
+   "data": "2026-04-05",
+   "tipo": "alianca",
+   "titulo": "Avante lança sua pré-candidatura",
+   "texto": "Filiado ao Avante em 2026, tem a pré-candidatura à Presidência anunciada pelo partido, em sua primeira disputa eleitoral.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://www.congressoemfoco.com.br/noticia/117846/avante-anuncia-augusto-cury-como-pre-candidato-a-presidencia"
+  },
+  {
+   "data": "2026-04-20",
+   "tipo": "declaracao",
+   "titulo": "Psiquiatras contestam sua teoria",
+   "texto": "Folha publica consulta a psiquiatras segundo os quais a Teoria da Inteligência Multifocal não tem validação científica estabelecida; Cury respondeu que aspectos do seu trabalho têm respaldo científico (fonte: Folha de S.Paulo, 20/04/2026).",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://www1.folha.uol.com.br/poder/2026/04/augusto-cury-mira-empreendedores-nega-inspiracao-em-marcal-e-tem-teoria-questionada.shtml"
+  },
+  {
+   "data": "2026-08-03",
+   "tipo": "eleicao",
+   "titulo": "Avante oficializa a candidatura",
+   "texto": "Convenção do Avante, na Assembleia Legislativa de São Paulo, confirma Cury. Dois dias depois, o ex-deputado Júlio Delgado é anunciado como vice.",
+   "status": null,
+   "pessoas": [
+    "julio-delgado"
+   ],
+   "fonte": "https://www.cnnbrasil.com.br/eleicoes/cury-anuncia-julio-delgado-para-vice-a-presidencia/"
+  },
+  {
+   "data": "2026-08-14",
+   "tipo": "carreira",
+   "titulo": "Declara R$ 242 milhões em bens",
+   "texto": "Informa ao TSE patrimônio de R$ 242,28 milhões.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://sbtnews.sbt.com.br/noticia/politica/escritor-augusto-cury-declara-r-242-milhoes-em-bens-ao-tse"
+  },
+  {
+   "data": "2026-08-23",
+   "tipo": "declaracao",
+   "titulo": "Nega uso de tráfego artificial",
+   "texto": "Após o primeiro debate, seu nome cresce nas redes e surgem suspeitas de tráfego artificial, que ele nega (fonte: CNN Brasil, 28/08/2026).",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://www.cnnbrasil.com.br/blogs/jussara-soares/eleicoes/adversarios-monitoram-crescimento-incomum-de-cury-nas-redes/"
+  },
+  {
+   "data": "2026-08-29",
+   "tipo": "declaracao",
+   "titulo": "Sabatina na TV Globo",
+   "texto": "Na entrevista, defende uso de inteligência artificial na administração federal e menos ministérios; no dia seguinte, diz que a imprensa tirou suas falas de contexto.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://www.correiobraziliense.com.br/politica/2026/08/7490137-com-falas-decoradas-e-poucas-propostas-cury-participa-de-sabatina-na-globo-em-defesa-da-ia.html"
+  },
+  {
+   "data": "2026-10-04",
+   "tipo": "eleicao",
+   "titulo": "3º lugar no 1º turno",
+   "texto": "Recebe 3.448.569 votos (2,89%). Na noite da apuração, diz que deixará a política e descarta apoiar Lula ou Flávio.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://www.gazetadopovo.com.br/eleicoes/2026/augusto-cury-diz-que-deixara-politica-e-descarta-apoio-no-segundo-turno/"
+  },
+  {
+   "data": "2026-10-08",
+   "tipo": "alianca",
+   "titulo": "Apoio condicionado a Flávio",
+   "texto": "Depois de videochamada, declara apoio a Flávio Bolsonaro mediante termo de compromisso assinado por ele (fim da reeleição, educação integral, telemedicina, crédito a microempresas, entre outros). Diz que não participará do governo.",
+   "status": null,
+   "pessoas": [
+    "flavio-bolsonaro"
+   ],
+   "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/augusto-cury-declara-apoio-a-flavio-bolsonaro-no-2o-turno/"
+  },
+  {
+   "data": "2026-10-09",
+   "tipo": "declaracao",
+   "titulo": "Renan Santos critica a adesão",
+   "texto": "Renan Santos (Missão) chama o apoio de 'comédia' e diz que o Avante buscava cargos; Cury havia afirmado não ter pedido cargos.",
+   "status": null,
+   "pessoas": [
+    "renan-santos"
+   ],
+   "fonte": "https://www.dgabc.com.br/Noticia/4351954/renan-santos-critica-declaracao-de-apoio-de-augusto-cury-a-flavio-bolsonaro-comedia"
+  }
+ ],
+ "resumo_juridico": "Não há processos conhecidos contra Augusto Cury: não localizei inquérito, denúncia, ação penal, condenação ou ação de improbidade contra ele, nem decisão da Justiça Eleitoral contra sua campanha em 2026. Nunca exerceu cargo público. Os questionamentos públicos registrados são de outra natureza: a acreditação da universidade americana onde fez doutorado (reportagem de 2020) e a falta de validação científica da sua teoria, segundo psiquiatras ouvidos pela Folha (2026); durante a campanha, negou ter usado tráfego artificial nas redes.",
+ "fontes": [
+  "https://agenciabrasil.ebc.com.br/politica/noticia/2026-08/avante-oficializa-augusto-cury-como-candidato-presidencia",
+  "https://www.poder360.com.br/poder-eleicoes-2026/augusto-cury-anuncia-julio-delgado-como-vice-na-disputa-presidencial/",
+  "https://www.gazetadopovo.com.br/eleicoes/2026/augusto-cury-diz-que-deixara-politica-e-descarta-apoio-no-segundo-turno/",
+  "https://www.poder360.com.br/poder-eleicoes-2026/augusto-cury-declara-apoio-a-flavio-bolsonaro-no-2o-turno/",
+  "https://www.dgabc.com.br/Noticia/4351954/renan-santos-critica-declaracao-de-apoio-de-augusto-cury-a-flavio-bolsonaro-comedia"
+ ]
+}

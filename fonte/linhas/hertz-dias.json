@@ -1,0 +1,102 @@
+{
+ "id": "hertz-dias",
+ "nome": "Hertz Dias",
+ "eventos": [
+  {
+   "data": "1970-10-20",
+   "tipo": "origem",
+   "titulo": "Nasce em São José de Ribamar (MA)",
+   "texto": "Hertz Dias nasce em São José de Ribamar, Maranhão. Forma-se em História, faz mestrado em Educação e vira professor das redes estadual e municipal. É rapper do grupo Gíria Vermelha e cofundador do Movimento Quilombo Urbano, de hip-hop e combate ao racismo.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/02/24/pstu-lanca-pre-candidatura-de-hertz-dias-para-presidente.ghtml"
+  },
+  {
+   "data": "2010",
+   "tipo": "eleicao",
+   "titulo": "Candidato a vice-governador do Maranhão",
+   "texto": "Primeira disputa, pelo PSTU, como candidato a vice-governador; não eleito.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://diariodonordeste.verdesmares.com.br/pontopoder/quem-e-hertz-dias-candidato-a-presidente-da-republica-pelo-pstu-em-2026-1.3781043"
+  },
+  {
+   "data": "2018",
+   "tipo": "eleicao",
+   "titulo": "Vice na chapa de Vera Lúcia",
+   "texto": "Candidato a vice-presidente na chapa de Vera Lúcia (PSTU); não eleito.",
+   "status": null,
+   "pessoas": [
+    "vera-lucia"
+   ],
+   "fonte": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/02/24/pstu-lanca-pre-candidatura-de-hertz-dias-para-presidente.ghtml"
+  },
+  {
+   "data": "2020",
+   "tipo": "eleicao",
+   "titulo": "Candidato a prefeito de São Luís",
+   "texto": "Recebe 2.173 votos (0,42%) e não é eleito.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://g1.globo.com/ma/maranhao/eleicoes/2020/resultado-das-apuracoes/sao-luis.ghtml"
+  },
+  {
+   "data": "2022",
+   "tipo": "eleicao",
+   "titulo": "Candidato a governador do Maranhão",
+   "texto": "Recebe 5.191 votos (0,15%) e não é eleito.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://g1.globo.com/ma/maranhao/eleicoes/2022/apuracao/governador.ghtml"
+  },
+  {
+   "data": "2026-03-02",
+   "tipo": "eleicao",
+   "titulo": "Lança pré-candidatura à Presidência",
+   "texto": "O PSTU anuncia sua pré-candidatura; ele defende o fim da escala 6x1, a ruptura com o capitalismo e critica o governo Lula por 'governar para a burguesia'.",
+   "status": null,
+   "pessoas": [
+    "lula"
+   ],
+   "fonte": "https://oimparcial.com.br/noticias/2026/03/hertz-dias-lanca-pre-candidatura-a-presidencia-e-defende-fim-da-escala-6x1-e-ruptura-com-o-capitalismo/"
+  },
+  {
+   "data": "2026-07-31",
+   "tipo": "eleicao",
+   "titulo": "Convenção confirma a candidatura",
+   "texto": "Convenção do PSTU oficializa a chapa com a professora mineira Vanessa Portugal, sindicalista da CSP-Conlutas, como vice. É sua quinta eleição.",
+   "status": null,
+   "pessoas": [
+    "vanessa-portugal"
+   ],
+   "fonte": "https://diariodonordeste.verdesmares.com.br/pontopoder/quem-e-hertz-dias-candidato-a-presidente-da-republica-pelo-pstu-em-2026-1.3781043"
+  },
+  {
+   "data": "2026-10",
+   "tipo": "alianca",
+   "titulo": "Apoia Lula no 2º turno",
+   "texto": "O PSTU e Hertz Dias anunciam, em 07/10/2026, 'voto crítico' em Lula contra Flávio Bolsonaro no 2º turno, mas sem apoio ao governo Lula (fonte: Estadão Conteúdo, 07/10/2026).",
+   "status": null,
+   "pessoas": [
+    "lula"
+   ],
+   "fonte": "https://www.oliberal.com/politica/pcb-e-pstu-farao-apoio-critico-a-lula-e-ao-pt-no-segundo-turno-1.1178567"
+  },
+  {
+   "data": "2026-10-04",
+   "tipo": "eleicao",
+   "titulo": "8º lugar no 1º turno",
+   "texto": "Recebe 43.103 votos (0,04%).",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://resultados.tse.jus.br/oficial/app/index.html#/eleicao;e=e6257;uf=br;ufbu=br/resultados/cargo/1"
+  }
+ ],
+ "resumo_juridico": "Não há processos conhecidos: não localizei inquérito, denúncia, ação judicial ou decisão da Justiça Eleitoral contra Hertz Dias. Nunca exerceu mandato eletivo nem cargo de governo.",
+ "fontes": [
+  "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/02/24/pstu-lanca-pre-candidatura-de-hertz-dias-para-presidente.ghtml",
+  "https://diariodonordeste.verdesmares.com.br/pontopoder/quem-e-hertz-dias-candidato-a-presidente-da-republica-pelo-pstu-em-2026-1.3781043",
+  "https://oimparcial.com.br/noticias/2026/03/hertz-dias-lanca-pre-candidatura-a-presidencia-e-defende-fim-da-escala-6x1-e-ruptura-com-o-capitalismo/",
+  "https://resultados.tse.jus.br/oficial/app/index.html#/eleicao;e=e6257;uf=br;ufbu=br/resultados/cargo/1"
+ ]
+}

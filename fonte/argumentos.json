@@ -1,0 +1,194 @@
+{
+ "E01": {
+  "favor": "Reduz a pobreza extrema e a fome de forma rápida, e o dinheiro gira no comércio local.",
+  "contra": "Pesa nas contas públicas e, sem porta de saída, pode desestimular a busca por emprego formal."
+ },
+ "E02": {
+  "favor": "Empresas privadas tendem a ser mais eficientes, e a venda reduz dívida e uso político das estatais.",
+  "contra": "Setores estratégicos e serviços em áreas pobres podem ser abandonados quando só o lucro decide."
+ },
+ "E03": {
+  "favor": "No Brasil, quem ganha pouco paga proporcionalmente mais imposto, porque a maior parte vem do consumo.",
+  "contra": "Tributar demais o topo afasta investimento e capital, que pode sair do país."
+ },
+ "E04": {
+  "favor": "Dívida alta empurra os juros para cima, e juros altos travam a economia e penalizam os mais pobres.",
+  "contra": "Cortar no meio de necessidades sociais aprofunda desigualdade; dá para equilibrar arrecadando mais de quem pode."
+ },
+ "E05": {
+  "favor": "Mais descanso melhora saúde, convivência familiar e até produtividade; outros países já reduziram jornada.",
+  "contra": "Aumenta custo de pequenos negócios e pode gerar demissões ou mais informalidade."
+ },
+ "E06": {
+  "favor": "Milhões trabalham sem proteção contra acidente, doença ou velhice; um piso evita a exploração.",
+  "contra": "Regras rígidas podem encarecer o serviço, reduzir vagas e tirar a flexibilidade que muitos valorizam."
+ },
+ "E07": {
+  "favor": "Um BC sem pressão política protege o poder de compra e dá previsibilidade para investir.",
+  "contra": "Juros muito altos travam crédito e emprego; política monetária deveria responder também ao crescimento."
+ },
+ "E08": {
+  "favor": "Países que se industrializaram usaram crédito público para setores estratégicos; o mercado sozinho não financia o longo prazo.",
+  "contra": "Subsídio custa caro ao contribuinte e costuma beneficiar grandes empresas escolhidas pelo governo."
+ },
+ "E09": {
+  "favor": "Aumento real reduz desigualdade e aquece o consumo de quem mais precisa.",
+  "contra": "Encarece a Previdência, que é atrelada ao mínimo, e pode dificultar a contratação formal."
+ },
+ "E10": {
+  "favor": "Parcerias podem entregar mais serviço com o mesmo dinheiro e dão escolha ao cidadão.",
+  "contra": "Abre espaço para lucro em direito básico, piora a fiscalização e enfraquece o SUS e a escola pública."
+ },
+ "E11": {
+  "favor": "Com a população envelhecendo, o modelo atual fica insustentável; cada um teria sua própria reserva.",
+  "contra": "A transição é caríssima e deixa desprotegido quem ganha pouco ou tem trabalho instável."
+ },
+ "E12": {
+  "favor": "Produtos mais baratos para o consumidor, mais concorrência e acesso a tecnologia.",
+  "contra": "Indústria local perde empregos e o país fica mais dependente de importações."
+ },
+ "E13": {
+  "favor": "Preço artificial gera prejuízo nas estatais e desabastecimento; o mercado sinaliza custos reais.",
+  "contra": "Combustível e energia afetam todos os preços; o governo deve amortecer choques externos."
+ },
+ "E14": {
+  "favor": "Contrapartidas como frequência escolar e vacinação geram autonomia e legitimam o gasto.",
+  "contra": "Exigências rígidas excluem justamente os mais vulneráveis, e a pobreza não tem prazo para acabar."
+ },
+ "E15": {
+  "favor": "A concentração de terra é histórica no Brasil, e assentamentos produzem alimentos e empregos.",
+  "contra": "Gera insegurança jurídica no campo; o foco deveria ser título de propriedade e produtividade."
+ },
+ "E16": {
+  "favor": "Burocracia e impostos empurram os pequenos para a informalidade; empreender é a principal saída da pobreza.",
+  "contra": "Sem proteção social, quem está na base não consegue nem começar a empreender."
+ },
+ "E17": {
+  "favor": "Em crise, a alta de alimentos e gás atinge a mesa de quem tem menos; o Estado deve agir.",
+  "contra": "Controle de preços costuma causar escassez e mercado paralelo, como já ocorreu no Brasil e em outros países."
+ },
+ "E18": {
+  "favor": "Trabalhadores organizados negociam salários e condições melhores; sem recurso, os sindicatos enfraquecem.",
+  "contra": "Ninguém deveria ser obrigado a financiar uma entidade da qual não quer participar."
+ },
+ "V01": {
+  "favor": "A mulher deve decidir sobre o próprio corpo; a proibição empurra para abortos inseguros que matam.",
+  "contra": "A vida começa na concepção e deve ser protegida desde então."
+ },
+ "V02": {
+  "favor": "O cidadão tem direito de se defender, especialmente onde o Estado não chega.",
+  "contra": "Mais armas em circulação tende a aumentar mortes, inclusive em brigas e acidentes domésticos."
+ },
+ "V03": {
+  "favor": "Aos 16 o jovem já sabe o que faz, e o crime organizado recruta menores por saber que a pena é branda.",
+  "contra": "O sistema prisional não recupera ninguém; colocar adolescentes nele alimenta as facções."
+ },
+ "V04": {
+  "favor": "A guerra às drogas encarcera jovens pobres e fortalece o tráfico; uso pessoal é questão de saúde.",
+  "contra": "Descriminalizar facilita o consumo e manda a mensagem de que a droga é aceitável."
+ },
+ "V05": {
+  "favor": "Informação reduz preconceito, bullying e violência sexual contra crianças e adolescentes.",
+  "contra": "Esse tema é papel da família, não da escola, e varia conforme os valores de cada casa."
+ },
+ "V06": {
+  "favor": "Casais do mesmo sexo têm os mesmos direitos civis que qualquer cidadão.",
+  "contra": "O casamento, na visão de muitas tradições, é a união entre homem e mulher, e a lei deveria refletir isso."
+ },
+ "V07": {
+  "favor": "A maioria da população é religiosa, e esses valores fazem parte da identidade nacional.",
+  "contra": "O Estado é laico e deve servir a todos, inclusive quem não tem religião ou tem outra fé."
+ },
+ "V08": {
+  "favor": "Corrigem desigualdades históricas e já ampliaram muito o acesso de negros e indígenas ao ensino superior.",
+  "contra": "Critérios deveriam ser só sociais e de renda; raça como critério divide a sociedade."
+ },
+ "V09": {
+  "favor": "Criminosos armados têm mais poder que o Estado em muitas regiões; a polícia precisa de respaldo.",
+  "contra": "O Brasil já tem uma das polícias que mais matam, e as vítimas inocentes são em maioria pobres e negras."
+ },
+ "V10": {
+  "favor": "As penas foram desproporcionais e muitos condenados eram manifestantes sem liderança no ataque.",
+  "contra": "Perdoar um ataque às sedes dos Três Poderes incentiva novas tentativas contra a democracia."
+ },
+ "V11": {
+  "favor": "As plataformas lucram com conteúdo que engana e incita violência; precisam responder por isso.",
+  "contra": "Quem decide o que é desinformação? O risco é de censura e de punir opinião."
+ },
+ "V12": {
+  "favor": "Os direitos dos povos indígenas são anteriores a 1988, e muitos foram expulsos antes dessa data.",
+  "contra": "O marco temporal dá segurança jurídica a produtores que ocupam terras há décadas."
+ },
+ "V13": {
+  "favor": "A floresta regula as chuvas que irrigam o próprio agro, e o desmatamento ameaça o futuro do país.",
+  "contra": "O agronegócio sustenta a economia; o Brasil já preserva mais que a maioria dos países."
+ },
+ "V14": {
+  "favor": "Escolas com disciplina mostram melhora de convivência e segurança em vários estados.",
+  "contra": "Militares não são formados para educar, e o modelo custa mais sem ganho comprovado de aprendizado."
+ },
+ "V15": {
+  "favor": "O aluno é audiência obrigatória e não deve ser exposto a doutrinação de nenhum lado.",
+  "contra": "Ensinar a pensar envolve debater ideias; a regra abriria espaço para perseguir professores."
+ },
+ "V16": {
+  "favor": "A impunidade alimenta o crime, e a sensação de que o crime compensa precisa acabar.",
+  "contra": "O Brasil já tem a terceira maior população carcerária do mundo, e penas maiores não reduziram a violência."
+ },
+ "V17": {
+  "favor": "Ministros não eleitos têm tomado decisões que caberiam ao Congresso e ao voto popular.",
+  "contra": "O Supremo foi essencial para proteger a democracia e os direitos; limitá-lo enfraquece os freios aos outros poderes."
+ },
+ "V18": {
+  "favor": "A família tradicional é a base da sociedade e merece proteção especial do Estado.",
+  "contra": "Há muitos arranjos familiares no Brasil, como mães solo e casais homoafetivos, e todos merecem a mesma proteção."
+ },
+ "V19": {
+  "favor": "EUA e Israel são democracias com valores próximos aos nossos e parceiros em tecnologia e segurança.",
+  "contra": "O Brasil ganha mais sendo independente e negociando com todos; a China é seu maior parceiro comercial."
+ },
+ "Z01": {
+  "favor": "A alternância pacífica de poder só funciona se quem perde reconhece a derrota pelas vias legais.",
+  "contra": "Se houver suspeita séria, aceitar sem contestar seria abrir mão de fiscalizar o processo."
+ },
+ "Z02": {
+  "favor": "Em situações extremas, as Forças Armadas seriam a última garantia contra o caos.",
+  "contra": "A Constituição não dá às Forças Armadas papel de poder moderador; intervenções no Brasil (1964) abriram ditaduras."
+ },
+ "Z03": {
+  "favor": "Juízes não eleitos podem errar e não deveriam ter a palavra final sobre tudo.",
+  "contra": "Se o governo escolhe quais decisões cumprir, deixa de haver Estado de direito para todos."
+ },
+ "Z04": {
+  "favor": "Mentiras na imprensa causam danos reais e precisam de consequência rápida.",
+  "contra": "Dar ao governo o poder de decidir o que é mentira permite calar críticos; o caminho é a Justiça, não o governo."
+ },
+ "Z05": {
+  "favor": "Há grupos políticos que de fato ameaçam o país e precisam ser combatidos sem concessões.",
+  "contra": "Democracia pressupõe adversários legítimos; tratar o outro como inimigo justifica tirar seus direitos."
+ },
+ "Z06": {
+  "favor": "Reformas graduais permitem corrigir erros e preservam o que funciona (ideia central de Burke e Oakeshott).",
+  "contra": "Algumas injustiças são graves demais para esperar; a lentidão protege quem se beneficia do problema."
+ },
+ "Z07": {
+  "favor": "Congresso e tribunais travam mudanças necessárias; um líder com mandato forte resolveria mais rápido.",
+  "contra": "Concentrar poder em uma pessoa é o caminho clássico para o autoritarismo, seja de esquerda ou de direita."
+ },
+ "Z08": {
+  "favor": "Defender a democracia só quando convém aos aliados não é defender a democracia.",
+  "contra": "O Brasil deve respeitar a soberania de outros países e não interferir em assuntos internos."
+ },
+ "V20": {
+  "favor": "Acolher quem foge de crises é um dever humanitário, e imigrantes trabalham, pagam impostos e ajudam a movimentar a economia.",
+  "contra": "Fluxos grandes pressionam saúde, escolas e empregos em cidades que já têm dificuldades; o país deveria controlar mais quem entra."
+ },
+ "Z09": {
+  "favor": "Quando os canais normais não funcionam, a pressão direta é o que faz grupos sem poder serem ouvidos; muitas conquistas vieram assim.",
+  "contra": "Esses métodos atingem direitos de terceiros e trocam a regra comum pela força de quem consegue parar o país, seja qual for a causa."
+ },
+ "Z10": {
+  "favor": "Os boletins de cada urna são públicos e conferíveis, e décadas de auditorias e testes nunca encontraram fraude.",
+  "contra": "Um sistema sem comprovante em papel depende da confiança em quem o administra; mais formas de auditoria trariam mais segurança."
+ }
+}

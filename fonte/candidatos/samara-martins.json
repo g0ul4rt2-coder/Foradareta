@@ -1,0 +1,535 @@
+{
+ "id": "samara-martins",
+ "nome_urna": "Samara",
+ "nome_completo": "Samara Martins",
+ "partido": "UP",
+ "numero": 80,
+ "vice": "Raquel Brício (UP)",
+ "coligacao": "Chapa pura (UP), sem coligação",
+ "resultado_1t": {
+  "votos": 122911,
+  "pct": 0.1
+ },
+ "situacao": "Eliminada no 1º turno (7º lugar)",
+ "resumo": "Dentista do SUS no Rio Grande do Norte, nascida em Belo Horizonte (1987), vice-presidente nacional da Unidade Popular e coordenadora da Frente Negra Revolucionária. Foi candidata a vice-presidente em 2022 na chapa de Léo Péricles. Encabeçou uma das duas chapas 100% femininas de 2026.",
+ "autodeclaracao": "Socialista e anti-imperialista; o programa 'Unidade Popular pelo Socialismo' propõe superar o capitalismo (CNN Brasil; Agência Brasil).",
+ "plano_governo_url": "https://planodegoverno2026.com.br/planos/samara-305b3f63.pdf",
+ "propostas": [
+  {
+   "tema": "Trabalho",
+   "texto": "Dobrar de imediato o salário mínimo e adotar a escala 4x3 para todos os trabalhadores.",
+   "fonte": "https://www.acessa.com/politica/2026/09/340244-samara-martins-propoe-dobrar-salario-minimo-e-instituir-escala-4x3.html"
+  },
+  {
+   "tema": "Economia",
+   "texto": "Suspender o pagamento da dívida pública com auditoria cidadã e nacionalizar os bancos, com fim da autonomia do Banco Central.",
+   "fonte": "https://www.acessa.com/politica/2026/09/340244-samara-martins-propoe-dobrar-salario-minimo-e-instituir-escala-4x3.html"
+  },
+  {
+   "tema": "Estatais",
+   "texto": "Reestatizar Eletrobras, Petrobras e Vale e encerrar novas privatizações e leilões de petróleo.",
+   "fonte": "https://www.diariodepernambuco.com.br/politica/2026/09/11724444-candidata-a-presidencia-samara-martins-quer-instituir-escala-4x3.html"
+  },
+  {
+   "tema": "Impostos",
+   "texto": "Isentar trabalhadores do IR e tributar grandes fortunas, lucros, dividendos e heranças.",
+   "fonte": "https://www.acessa.com/politica/2026/09/340244-samara-martins-propoe-dobrar-salario-minimo-e-instituir-escala-4x3.html"
+  },
+  {
+   "tema": "Segurança",
+   "texto": "Desmilitarizar as polícias, unificando-as sob estrutura civil, preventiva e comunitária.",
+   "fonte": "https://diariodonordeste.verdesmares.com.br/pontopoder/quem-e-samara-martins-candidata-da-up-a-presidencia-da-republica-em-2026-1.3779598"
+  },
+  {
+   "tema": "Educação",
+   "texto": "Destinar pelo menos 10% do PIB à educação pública.",
+   "fonte": "https://diariodonordeste.verdesmares.com.br/pontopoder/quem-e-samara-martins-candidata-da-up-a-presidencia-da-republica-em-2026-1.3779598"
+  }
+ ],
+ "posicoes": {
+  "E01": {
+   "v": 1,
+   "conf": "baixa",
+   "base": "DISCURSO: Plano registrado trata saúde e moradia como direitos, propõe garantia de emprego para todos os adultos aptos e suspender a dívida para redirecionar recursos a políticas sociais; não trata diretamente do Bolsa Família nem de renda mínima.",
+   "fonte": "https://www.acessa.com/politica/2026/09/340244-samara-martins-propoe-dobrar-salario-minimo-e-instituir-escala-4x3.html",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E02": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Plano propõe reestatizar Eletrobras, Petrobras e Vale, nacionalizar bancos e encerrar privatizações.",
+   "fonte": "https://www.diariodepernambuco.com.br/politica/2026/09/11724444-candidata-a-presidencia-samara-martins-quer-instituir-escala-4x3.html",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E03": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Plano propõe tributação progressiva sobre grandes fortunas, lucros, dividendos e heranças.",
+   "fonte": "https://www.acessa.com/politica/2026/09/340244-samara-martins-propoe-dobrar-salario-minimo-e-instituir-escala-4x3.html",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E04": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Propõe suspender o pagamento da dívida pública e ampliar gastos sociais; não há proposta de ajuste fiscal.",
+   "fonte": "https://www.acessa.com/politica/2026/09/340244-samara-martins-propoe-dobrar-salario-minimo-e-instituir-escala-4x3.html",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E05": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Plano propõe fim da 6x1 e escala 4x3 para todos os trabalhadores.",
+   "fonte": "https://www.diariodepernambuco.com.br/politica/2026/09/11724444-candidata-a-presidencia-samara-martins-quer-instituir-escala-4x3.html",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E06": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Programa: 'Regulamentação rigorosa das plataformas, garantindo salário mínimo por hora, seguridade social, transparência algorítmica e liberdade de organização sindical'.",
+   "fonte": "https://planodegoverno2026.com.br/planos/samara-305b3f63.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E07": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Programa: 'Fim da autonomia do Banco Central'.",
+   "fonte": "https://planodegoverno2026.com.br/planos/samara-305b3f63.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E08": {
+   "v": 1,
+   "conf": "media",
+   "base": "DISCURSO: Propõe estatizar o sistema financeiro e reindustrializar o país; não detalha crédito subsidiado do BNDES.",
+   "fonte": "https://www.acessa.com/politica/2026/09/340244-samara-martins-propoe-dobrar-salario-minimo-e-instituir-escala-4x3.html",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E09": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Propõe dobrar o salário mínimo de imediato (R$ 3.242, segundo a Agência Brasil).",
+   "fonte": "https://www.acessa.com/politica/2026/09/340244-samara-martins-propoe-dobrar-salario-minimo-e-instituir-escala-4x3.html",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E10": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Plano trata saúde e educação como direitos 'não mercadorias' e propõe concursos com regime estatutário para a saúde.",
+   "fonte": "https://diariodonordeste.verdesmares.com.br/pontopoder/quem-e-samara-martins-candidata-da-up-a-presidencia-da-republica-em-2026-1.3779598",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E11": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Programa não trata de capitalização da Previdência.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E12": {
+   "v": -1,
+   "conf": "media",
+   "base": "DISCURSO: Plano propõe romper relações de dependência comercial, militar ou financeira com empresas ou Estados estrangeiros e reindustrializar.",
+   "fonte": "https://diariodonordeste.verdesmares.com.br/pontopoder/quem-e-samara-martins-candidata-da-up-a-presidencia-da-republica-em-2026-1.3779598",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E13": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Propõe monopólio público em energia, mineração e combustíveis e fim dos leilões de petróleo.",
+   "fonte": "https://www.acessa.com/politica/2026/09/340244-samara-martins-propoe-dobrar-salario-minimo-e-instituir-escala-4x3.html",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E14": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Programa não trata de contrapartidas em programas sociais.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E15": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Plano propõe ampla reforma agrária e 'nacionalização da terra'.",
+   "fonte": "https://www.diariodepernambuco.com.br/politica/2026/09/11724444-candidata-a-presidencia-samara-martins-quer-instituir-escala-4x3.html",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E16": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Tema não tratado diretamente no programa.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E17": {
+   "v": 1,
+   "conf": "baixa",
+   "base": "DISCURSO: Propõe retirar impostos de itens da cesta básica e de produtos essenciais e reduzir alíquotas de ICMS/IVA para determinados produtos. A menção anterior a 'reportagens que citam controle estatal de preços' não foi confirmada na fonte nem no plano e foi retirada.",
+   "fonte": "https://www.acessa.com/politica/2026/09/340244-samara-martins-propoe-dobrar-salario-minimo-e-instituir-escala-4x3.html",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E18": {
+   "v": 1,
+   "conf": "baixa",
+   "base": "DISCURSO: Plano propõe fortalecer a Justiça do Trabalho; contribuição sindical não citada.",
+   "fonte": "https://www.acessa.com/politica/2026/09/340244-samara-martins-propoe-dobrar-salario-minimo-e-instituir-escala-4x3.html",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V01": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Programa: 'Descriminalização e legalização do aborto, primando pela vida das mulheres'.",
+   "fonte": "https://planodegoverno2026.com.br/planos/samara-305b3f63.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V02": {
+   "v": -1,
+   "conf": "media",
+   "base": "DISCURSO: Programa propõe 'forte fiscalização e controle das armas e munições em controle do governo'.",
+   "fonte": "https://planodegoverno2026.com.br/planos/samara-305b3f63.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V03": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Programa: 'Não à redução da maioridade penal'.",
+   "fonte": "https://planodegoverno2026.com.br/planos/samara-305b3f63.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V04": {
+   "v": 1,
+   "conf": "media",
+   "base": "DISCURSO: Programa: 'Fim da Política de Guerra às Drogas: transição do paradigma penal para o paradigma de saúde pública'; não fala em legalizar a maconha.",
+   "fonte": "https://planodegoverno2026.com.br/planos/samara-305b3f63.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V05": {
+   "v": 1,
+   "conf": "baixa",
+   "base": "DISCURSO: Plano propõe combater LGBTfobia e misoginia; não trata de currículo escolar nos resumos consultados.",
+   "fonte": "https://www.acessa.com/politica/2026/09/340244-samara-martins-propoe-dobrar-salario-minimo-e-instituir-escala-4x3.html",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V06": {
+   "v": 1,
+   "conf": "baixa",
+   "base": "DISCURSO: Programa tem capítulo contra a LGBTfobia; casamento civil não é citado.",
+   "fonte": "https://planodegoverno2026.com.br/planos/samara-305b3f63.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V07": {
+   "v": -2,
+   "conf": "media",
+   "base": "DISCURSO: Programa: 'Garantir a laicidade do Estado em todos aspectos de atuação estatal'.",
+   "fonte": "https://planodegoverno2026.com.br/planos/samara-305b3f63.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V08": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Programa defende manutenção e ampliação das cotas e ações afirmativas.",
+   "fonte": "https://planodegoverno2026.com.br/planos/samara-305b3f63.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V09": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Propõe polícias desmilitarizadas, com foco em direitos humanos, não letalidade e antirracismo.",
+   "fonte": "https://diariodonordeste.verdesmares.com.br/pontopoder/quem-e-samara-martins-candidata-da-up-a-presidencia-da-republica-em-2026-1.3779598",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V10": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Programa: 'o povo é contra a anistia de fascista' e critica o PL da Anistia aos envolvidos no 8 de janeiro.",
+   "fonte": "https://planodegoverno2026.com.br/planos/samara-305b3f63.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V11": {
+   "v": 1,
+   "conf": "baixa",
+   "base": "DISCURSO: Propõe estatizar monopólios de TV e rádio e apoiar mídia comunitária; regulação de redes não citada.",
+   "fonte": "https://www.acessa.com/politica/2026/09/340244-samara-martins-propoe-dobrar-salario-minimo-e-instituir-escala-4x3.html",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V12": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Programa: 'Fim do marco temporal' e demarcação de terras indígenas.",
+   "fonte": "https://planodegoverno2026.com.br/planos/samara-305b3f63.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V13": {
+   "v": 1,
+   "conf": "baixa",
+   "base": "DISCURSO: CNN cita meio ambiente entre os focos da campanha; plano propõe nacionalizar a terra; sem detalhe sobre agro.",
+   "fonte": "https://www.cnnbrasil.com.br/eleicoes/quem-e-samara-martins-unica-pre-candidata-mulher-a-presidencia/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V14": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Programa não trata de escolas cívico-militares.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V15": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Tema não tratado no programa.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V16": {
+   "v": -1,
+   "conf": "baixa",
+   "base": "DISCURSO: Plano propõe reforma do sistema penitenciário com foco em direitos humanos; sem proposta de endurecimento.",
+   "fonte": "https://www.acessa.com/politica/2026/09/340244-samara-martins-propoe-dobrar-salario-minimo-e-instituir-escala-4x3.html",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V17": {
+   "v": 0,
+   "conf": "media",
+   "base": "DISCURSO: Propõe eleição direta de juízes e tribunais superiores, o que não corresponde a limitar o STF via Congresso.",
+   "fonte": "https://www.acessa.com/politica/2026/09/340244-samara-martins-propoe-dobrar-salario-minimo-e-instituir-escala-4x3.html",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V18": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Tema não tratado no programa.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V19": {
+   "v": -2,
+   "conf": "media",
+   "base": "DISCURSO: Campanha se define anti-imperialista; plano propõe romper dependência com Estados estrangeiros.",
+   "fonte": "https://diariodonordeste.verdesmares.com.br/pontopoder/quem-e-samara-martins-candidata-da-up-a-presidencia-da-republica-em-2026-1.3779598",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z01": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Programa defende 'eleições livres da interferência do grande capital' e diz que a liberdade política 'perde força' pelo poder econômico; não trata de aceitação de resultados.",
+   "fonte": "https://planodegoverno2026.com.br/planos/samara-305b3f63.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z02": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Programa registra que após 'a tentativa de golpe de 8 de janeiro de 2023' golpistas, 'entre eles Bolsonaro e membros da cúpula das Forças Armadas', foram presos, e encerra o capítulo com 'Ditadura nunca mais!'.",
+   "fonte": "https://planodegoverno2026.com.br/planos/samara-305b3f63.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z03": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Programa propõe tribunais eleitos pelo povo, mas não trata de cumprimento de decisões judiciais.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z04": {
+   "v": 1,
+   "conf": "media",
+   "base": "DISCURSO: Programa propõe 'socialização de todos os grandes canais de televisão, jornais, rádios e sites', 'estatização dos monopólios de TV e Rádio' sob 'controle do poder popular', dizendo que esses veículos servem 'para enganar e ludibriar o povo'; também defende 'ampla liberdade de expressão'.",
+   "fonte": "https://planodegoverno2026.com.br/planos/samara-305b3f63.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z05": {
+   "v": 0,
+   "conf": "baixa",
+   "base": "DISCURSO: Programa chama Bolsonaro e Trump de 'fascista', diz que 'o povo é contra a anistia de fascista' e propõe 'Julgamento e Punição de Golpistas e Fascistas' e 'punir e desarticular organizações de cunho nazifascista'; não propõe restringir direitos de adversários eleitorais como grupo.",
+   "fonte": "https://planodegoverno2026.com.br/planos/samara-305b3f63.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z06": {
+   "v": -1,
+   "conf": "media",
+   "base": "DISCURSO: Programa 'Unidade Popular pelo Socialismo' abre com citação de Marx sobre 'o triunfo da revolução social' e diz que o objetivo não é administrar desigualdades do capitalismo, mas 'superá-las'; não localizei no plano chamado explícito à ruptura armada.",
+   "fonte": "https://planodegoverno2026.com.br/planos/samara-305b3f63.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z07": {
+   "v": 0,
+   "conf": "baixa",
+   "base": "DISCURSO: Propõe Conselhos Populares com poder orçamentário, plebiscitos e eleição de juízes e tribunais; não propõe governar sem Congresso.",
+   "fonte": "https://planodegoverno2026.com.br/planos/samara-305b3f63.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z08": {
+   "v": 0,
+   "conf": "baixa",
+   "base": "DISCURSO: Programa registra a 'invasão russa' da Ucrânia e critica EUA, China e União Europeia ('Chega de nossas riquezas serem roubadas'), mas trata Maduro como presidente 'sequestrado' em 03/01/2026 sem mencionar a eleição contestada de 2024.",
+   "fonte": "https://planodegoverno2026.com.br/planos/samara-305b3f63.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V20": {
+   "v": null,
+   "p": null,
+   "conf": "baixa",
+   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
+   "fonte": null
+  },
+  "Z09": {
+   "v": null,
+   "p": null,
+   "conf": "baixa",
+   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
+   "fonte": null
+  },
+  "Z10": {
+   "v": null,
+   "p": null,
+   "conf": "baixa",
+   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
+   "fonte": null
+  }
+ },
+ "checagens": [],
+ "fontes": [
+  "https://www.diariodepernambuco.com.br/politica/2026/09/11724444-candidata-a-presidencia-samara-martins-quer-instituir-escala-4x3.html",
+  "https://www.acessa.com/politica/2026/09/340244-samara-martins-propoe-dobrar-salario-minimo-e-instituir-escala-4x3.html",
+  "https://diariodonordeste.verdesmares.com.br/pontopoder/quem-e-samara-martins-candidata-da-up-a-presidencia-da-republica-em-2026-1.3779598",
+  "https://www.cnnbrasil.com.br/eleicoes/quem-e-samara-martins-unica-pre-candidata-mulher-a-presidencia/",
+  "https://portaldeprefeitura.com.br/brasil/pre-candidata-a-presidencia-propoe-acabar-com-a-pm-politicos-usarem-o/619524/",
+  "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
+  "https://planodegoverno2026.com.br/planos/samara-305b3f63.pdf"
+ ],
+ "atualizado_em": "2026-10-25",
+ "pratica_resumo": "Nunca exerceu mandato eletivo nem cargo executivo; é dentista do SUS no Rio Grande do Norte (servidora, não cargo político) e foi candidata a vice-presidente em 2022. Sem votos ou atos de governo, não há nota de prática. O discurso usado aqui vem do programa da UP registrado para 2026.",
+ "atos": []
+}

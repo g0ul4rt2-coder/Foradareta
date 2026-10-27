@@ -1,0 +1,846 @@
+[
+ {
+  "id": "idolatria",
+  "pergunta": "Por que idolatramos políticos?",
+  "resumo": "Para muita gente, apoiar um político vira parte de quem a pessoa é, como torcer por um time. Isso acontece em todos os campos: com Lula, com a família Bolsonaro e com outros líderes. A pesquisa mostra que essa ligação se explica por identidade e pertencimento, e não por falta de inteligência do eleitor.",
+  "explicacao": [
+   "A ciência política chama isso de identidade partidária como identidade social. A pessoa não só concorda com um político: ela se sente parte de um grupo. Lilliana Mason, no livro 'Uncivil Agreement' (2018), mostra que, quando religião, região, classe e estilo de vida se alinham com um lado político, a lealdade ao próprio grupo cresce e a hostilidade ao outro também.",
+   "No Brasil, os partidos são fracos e a lista aberta (em que o eleitor vota no candidato, não só no partido) faz a política girar em torno de pessoas. Por isso a identidade costuma se prender a um líder. André Singer chamou de 'lulismo' o vínculo de parte do eleitorado com a figura de Lula, que vai além do PT. Do outro lado, o bolsonarismo também se organiza em torno de um nome: em 2025, ao anunciar a candidatura de Flávio, o presidente do PL, Valdemar Costa Neto, resumiu, segundo a Al Jazeera: se Bolsonaro falou, está decidido.",
+   "Um sinal dessa força pessoal é a transferência de votos. Em 2010, Dilma Rousseff, que nunca tinha disputado uma eleição, venceu o 2º turno com 56% depois de ser lançada como sucessora de Lula. Em 2026, Jair Bolsonaro, inelegível até 2030 e preso desde novembro de 2025 para cumprir a pena de 27 anos dada pelo STF no caso da trama golpista (ele nega e se diz perseguido), indicou o filho Flávio, que terminou o 1º turno em primeiro lugar.",
+   "O populismo ajuda a entender o 'efeito salvador'. Para Cas Mudde e Cristóbal Rovira Kaltwasser, o populismo divide a sociedade em 'povo puro' contra 'elite corrupta' e diz que o líder expressa a vontade do povo. Ele aparece à esquerda (como Hugo Chávez e Evo Morales) e à direita (como Marine Le Pen). Quando o líder é visto como a voz do povo, criticá-lo parece um ataque ao próprio grupo.",
+   "O 'efeito torcida' faz a gente julgar o mesmo fato de jeito diferente conforme quem o praticou. Escândalos do 'nosso' lado parecem perseguição; os do outro lado parecem prova de caráter. Os estudos de polarização afetiva (Iyengar e colegas) mostram que esse viés aparece nos dois grandes partidos dos EUA e afeta até decisões fora da política.",
+   "Muitas vezes o voto é menos amor a um e mais medo do outro. No Datafolha de 13 e 14 de outubro de 2026, 17% dos eleitores de Flávio disseram votar para não dar um quarto mandato a Lula, e 12% dos eleitores de Lula disseram votar para não ver Flávio no Planalto. Samuels e Zucco mostram que, desde os anos 1980, boa parte do eleitorado se define a favor ou contra o PT: o 'anti' também é identidade.",
+   "O que a pesquisa sugere para evitar a idolatria: julgar políticas e resultados, não pessoas; aplicar ao próprio lado a mesma régua usada para o outro; lembrar que todo político depende de alianças e erra. Um grande experimento publicado na Science em 2024 mostrou que conhecer pessoas comuns do outro lado e lembrar de identidades em comum reduz a hostilidade. Mudde e Kaltwasser alertam que tratar o eleitor do populista como ignorante também reforça o populismo."
+  ],
+  "dados": [
+   {
+    "texto": "Datafolha (13 e 14/10/2026, 2.520 entrevistas): 17% dos eleitores de Flávio Bolsonaro dizem que o motivo do voto é não dar um quarto mandato a Lula; 12% dos eleitores de Lula dizem que não querem ver Flávio no Planalto. No total, 78% dizem votar no melhor candidato e 14% votam para derrotar o adversário.",
+    "fonte": "https://static.poder360.com.br/uploads/2026/10/datafolha-2oturno-outubro.pdf"
+   },
+   {
+    "texto": "Datafolha (6 a 8/10/2026): 25% dos eleitores de Flávio dizem votar nele para derrotar Lula; 46% não votariam em Lula de jeito nenhum e 43% rejeitam Flávio.",
+    "fonte": "https://www.brasildefato.com.br/2026/10/08/datafolha-segundo-turno-flavio-bolsonaro-49-lula-45/"
+   },
+   {
+    "texto": "Datafolha (20 a 22/10/2026): 94% dos eleitores dizem que já decidiram o voto no 2º turno; só 6% admitem mudar.",
+    "fonte": "https://www.congressoemfoco.com.br/noticia/123536/datafolha-flavio-bolsonaro-e-lula-aparecem-empatados-com-50"
+   },
+   {
+    "texto": "1º turno de 2026: Flávio Bolsonaro teve 47,03% dos votos válidos e Lula, 45,16%. Flávio foi indicado candidato pelo pai, Jair Bolsonaro, que está inelegível até 2030.",
+    "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/bolsonarismo-vira-a-diferenca-sobre-lula-em-relacao-a-2022/"
+   },
+   {
+    "texto": "Em 2010, Dilma Rousseff, ex-ministra da Casa Civil de Lula e sem eleição anterior no currículo, venceu o 2º turno com 56,05% dos votos válidos.",
+    "fonte": "https://www.camara.leg.br/noticias/143566-brasil-elege-em-2o-turno-dilma-rousseff-para-presidente/"
+   },
+   {
+    "texto": "Samuels e Zucco (2018): pouco depois da redemocratização, mais da metade dos eleitores já tinha sentimento forte a favor ou contra um partido, e esse sentimento girava sobretudo em torno do PT (petismo e antipetismo).",
+    "fonte": "https://experts.umn.edu/en/publications/partisans-antipartisans-and-nonpartisans-voting-behavior-in-brazi/"
+   }
+  ],
+  "vozes": [
+   {
+    "quem": "Eleitores de Flávio Bolsonaro (Datafolha, 13–14/10/2026)",
+    "texto": "17% dizem que o principal motivo do voto é impedir um quarto mandato de Lula."
+   },
+   {
+    "quem": "Eleitores de Lula (Datafolha, 13–14/10/2026)",
+    "texto": "12% dizem que o principal motivo do voto é não querer Flávio Bolsonaro no Palácio do Planalto."
+   }
+  ],
+  "mitos": [
+   {
+    "mito": "Só o outro lado idolatra o seu líder.",
+    "fato": "Os mecanismos de identidade de grupo, transferência de votos e voto contra aparecem nos dois campos. Lula elegeu uma sucessora estreante em 2010; Jair Bolsonaro, inelegível, indicou o filho em 2026."
+   },
+   {
+    "mito": "Quem idolatra político é burro ou mal informado.",
+    "fato": "A pesquisa mostra que a lealdade a um lado tem a ver com pertencimento e identidade social, e atinge também pessoas muito informadas. Os mais engajados costumam ser os mais polarizados (Ortellado, Moretto e Zeine, 2022)."
+   },
+   {
+    "mito": "Todo voto é declaração de amor ao candidato.",
+    "fato": "Uma parte do voto é para barrar o adversário: 17% dos eleitores de Flávio e 12% dos de Lula citam isso como motivo principal (Datafolha, outubro de 2026)."
+   }
+  ],
+  "para_aproximar": "Em vez de atacar o líder de quem pensa diferente, pergunte o que a pessoa espera que ele resolva. Quase sempre a resposta (emprego, segurança, respeito) é algo que você também quer.",
+  "fontes": [
+   {
+    "titulo": "Uncivil Agreement: How Politics Became Our Identity",
+    "autor": "Lilliana Mason (University of Chicago Press)",
+    "ano": "2018",
+    "url": "https://press.uchicago.edu/ucp/books/book/chicago/U/bo27527354.html"
+   },
+   {
+    "titulo": "Populism: A Very Short Introduction (ficha no ISSI/UC Berkeley)",
+    "autor": "Cas Mudde e Cristóbal Rovira Kaltwasser",
+    "ano": "2017",
+    "url": "https://issi.berkeley.edu/publications/populism-very-short-introduction"
+   },
+   {
+    "titulo": "Resenha de 'Populism: A Very Short Introduction' (LSE USAPP)",
+    "autor": "LSE US Centre (resenha)",
+    "ano": "2017",
+    "url": "https://blogs.lse.ac.uk/usappblog/2017/07/20/book-review-populism-a-very-short-introduction-by-cas-mudde-and-cristobal-rovira-kaltwasser"
+   },
+   {
+    "titulo": "The Origins and Consequences of Affective Polarization in the United States (Annual Review of Political Science, 22)",
+    "autor": "Shanto Iyengar, Yphtach Lelkes, Matthew Levendusky, Neil Malhotra e Sean Westwood",
+    "ano": "2019",
+    "url": "https://www.gsb.stanford.edu/faculty-research/publications/origins-consequences-affective-polarization-united-states"
+   },
+   {
+    "titulo": "Partisans, Antipartisans, and Nonpartisans: Voting Behavior in Brazil",
+    "autor": "David Samuels e Cesar Zucco (Cambridge University Press)",
+    "ano": "2018",
+    "url": "https://experts.umn.edu/en/publications/partisans-antipartisans-and-nonpartisans-voting-behavior-in-brazi/"
+   },
+   {
+    "titulo": "Raízes sociais e ideológicas do lulismo (André Singer, Novos Estudos CEBRAP nº 85)",
+    "autor": "Novos Estudos CEBRAP / SciELO",
+    "ano": 2009,
+    "url": "https://scielo.br/j/nec/a/gLqzRSkjs3C8gFgwCQDNWjK/?lang=pt"
+   },
+   {
+    "titulo": "Megastudy testing 25 treatments to reduce anti-democratic attitudes and partisan animosity (Science) – nota da Cornell",
+    "autor": "Jan Voelkel e outros",
+    "ano": "2024",
+    "url": "https://news.cornell.edu/node/329591"
+   },
+   {
+    "titulo": "Datafolha: Flávio Bolsonaro tem 51% e Lula, 49% dos votos válidos (Folha de S.Paulo, 15/10/2026, cópia em PDF no Poder360)",
+    "autor": "Igor Gielow / Datafolha",
+    "ano": "2026",
+    "url": "https://static.poder360.com.br/uploads/2026/10/datafolha-2oturno-outubro.pdf"
+   },
+   {
+    "titulo": "Datafolha, segundo turno: Flávio Bolsonaro 49%, Lula 45%",
+    "autor": "Brasil de Fato / Datafolha",
+    "ano": "2026",
+    "url": "https://www.brasildefato.com.br/2026/10/08/datafolha-segundo-turno-flavio-bolsonaro-49-lula-45/"
+   },
+   {
+    "titulo": "Datafolha: Flávio Bolsonaro e Lula aparecem empatados com 50%",
+    "autor": "Congresso em Foco / Datafolha",
+    "ano": "2026",
+    "url": "https://www.congressoemfoco.com.br/noticia/123536/datafolha-flavio-bolsonaro-e-lula-aparecem-empatados-com-50"
+   },
+   {
+    "titulo": "Flavio Bolsonaro enters Brazil's 2026 presidential race with father's nod",
+    "autor": "Al Jazeera",
+    "ano": "2025",
+    "url": "https://www.aljazeera.com/news/2025/12/6/flavio-bolsonaro-enters-brazils-2026-presidential-race-with-fathers-nod"
+   },
+   {
+    "titulo": "Brasil elege em 2º turno Dilma Rousseff para presidente",
+    "autor": "Agência Câmara de Notícias",
+    "ano": 2010,
+    "url": "https://www.camara.leg.br/noticias/143566-brasil-elege-em-2o-turno-dilma-rousseff-para-presidente/"
+   },
+   {
+    "titulo": "Bolsonarismo vira a diferença sobre Lula em relação a 2022",
+    "autor": "Poder360",
+    "ano": 2026,
+    "url": "https://www.poder360.com.br/poder-eleicoes-2026/bolsonarismo-vira-a-diferenca-sobre-lula-em-relacao-a-2022/"
+   }
+  ]
+ },
+ {
+  "id": "polarizacao",
+  "pergunta": "Polarização afetiva: por que odiamos quem pensa diferente?",
+  "resumo": "Polarização afetiva é quando o problema não é discordar das ideias do outro, e sim desgostar e desconfiar de quem está do outro lado. No Brasil, a disputa entre petismo e antipetismo e entre lulismo e bolsonarismo criou dois blocos quase do mesmo tamanho. A boa notícia é que pesquisas mostram formas de reduzir essa hostilidade.",
+  "explicacao": [
+   "Existem dois tipos de polarização. A ideológica é a distância entre as opiniões (por exemplo, sobre impostos ou aborto). A afetiva é o sentimento: gostar do próprio grupo e não gostar do outro. Shanto Iyengar e colegas mostraram, em 2012 e 2019, que nos EUA a hostilidade entre partidários cresceu mais rápido do que a distância entre as ideias.",
+   "Por que isso acontece? Porque a política virou identidade social. Lilliana Mason mostra que, quando várias identidades (religião, região, estilo de vida) apontam para o mesmo lado, cada derrota parece uma ameaça ao grupo. Aí as pessoas podem concordar em muitas políticas e, mesmo assim, desconfiar umas das outras.",
+   "No Brasil, Pablo Ortellado, Marcio Moretto e Leonardo Zeine encontraram polarização em temas morais (como direitos LGBT e divórcio) e um aumento das pessoas que se colocam nos extremos da escala esquerda-direita: no Lapop, de 17% em 2010 para 32% em 2017. A polarização afetiva aparece com mais força entre os mais engajados, em torno de identidades como 'petista', 'comunista' e 'defensor do regime militar'.",
+   "Um detalhe importante: a polarização de identidade é maior entre os mais velhos e os menos escolarizados. Em 2018, 45% dos que tinham mais de 55 anos se colocavam nos extremos, contra 25% dos que tinham menos de 25 anos.",
+   "A eleição de 2026 reflete isso. O país chegou ao 2º turno dividido quase ao meio: Datafolha e Quaest de 24 de outubro mostram 51% a 49% nos votos válidos. A rejeição é alta e parecida para os dois: 46% não votariam em Lula e 44% não votariam em Flávio (Datafolha, 13–14/10).",
+   "Parte do ódio vem de percepções erradas. As pessoas costumam achar que o outro lado é mais radical do que realmente é. Um megaestudo publicado na Science em 2024, com mais de 32 mil pessoas nos EUA, testou 25 intervenções: 23 reduziram a hostilidade. As que mais funcionaram mostravam pessoas simpáticas do outro lado ou lembravam identidades em comum. Mas o efeito diminuiu depois de duas semanas, o que mostra que é preciso repetir.",
+   "Polarização não é só ruim: ela também pode aumentar a participação e deixar as escolhas mais claras, como reconhece Mason. O problema começa quando o adversário vira inimigo e a pessoa aceita qualquer coisa do próprio lado para que o outro não vença."
+  ],
+  "dados": [
+   {
+    "texto": "Lapop: a parcela de brasileiros que se coloca nos extremos da escala esquerda-direita subiu de 17% (2010) para 32% (2017). No World Values Survey, de 22% (2006) para 29% (2014).",
+    "fonte": "https://www.redalyc.org/journal/329/32971992003/32971992003.pdf"
+   },
+   {
+    "texto": "Lapop 2018: 45% dos maiores de 55 anos se colocavam nos extremos da escala, contra 25% dos menores de 25 anos; 40% de quem tinha ensino fundamental, contra 28% de quem tinha ensino superior.",
+    "fonte": "https://www.redalyc.org/journal/329/32971992003/32971992003.pdf"
+   },
+   {
+    "texto": "Datafolha (13 e 14/10/2026): 46% dizem que não votariam em Lula de forma alguma, e 44% dizem o mesmo de Flávio Bolsonaro.",
+    "fonte": "https://static.poder360.com.br/uploads/2026/10/datafolha-2oturno-outubro.pdf"
+   },
+   {
+    "texto": "Quaest (divulgada em 24/10/2026): Flávio 51% e Lula 49% dos votos válidos; rejeição de 49% para Flávio e 47% para Lula.",
+    "fonte": "https://www.bandab.com.br/politica/eleicoes-2026/pesquisa-quaest-flavio-bolsonaro-lula-segundo-turno/"
+   },
+   {
+    "texto": "Megaestudo na Science (2024): 23 de 25 intervenções testadas com mais de 32 mil americanos reduziram a hostilidade partidária; só 6 reduziram atitudes antidemocráticas; os efeitos diminuíram bastante após duas semanas.",
+    "fonte": "https://news.cornell.edu/node/329591"
+   }
+  ],
+  "mitos": [
+   {
+    "mito": "Os brasileiros discordam em tudo.",
+    "fato": "As medições mostram polarização real, porém mais concentrada em temas morais e entre pessoas engajadas. Ortellado e colegas notam que, em geral, as medições apontam uma polarização 'concreta, porém modesta e limitada', menor do que a sensação do dia a dia."
+   },
+   {
+    "mito": "Os jovens são os mais radicalizados.",
+    "fato": "Na identificação esquerda-direita, os mais velhos são os que mais se colocam nos extremos: 45% dos maiores de 55 anos contra 25% dos menores de 25 (Lapop 2018)."
+   },
+   {
+    "mito": "Não há nada que se possa fazer contra o ódio político.",
+    "fato": "Experimentos mostram que conhecer histórias de pessoas do outro lado e corrigir estereótipos reduz a hostilidade, ainda que o efeito precise ser renovado."
+   }
+  ],
+  "para_aproximar": "Antes de discutir, tente descrever a posição do outro de um jeito que ele mesmo aceitaria. Muitas vezes vocês vão descobrir que discordam menos do que imaginavam.",
+  "fontes": [
+   {
+    "titulo": "Affect, Not Ideology: A Social Identity Perspective on Polarization (Public Opinion Quarterly, 76/3)",
+    "autor": "Shanto Iyengar, Gaurav Sood e Yphtach Lelkes",
+    "ano": "2012",
+    "url": "https://academic.oup.com/poq/article/76/3/405/1894274"
+   },
+   {
+    "titulo": "The Origins and Consequences of Affective Polarization in the United States (Annual Review of Political Science, 22)",
+    "autor": "Shanto Iyengar, Yphtach Lelkes, Matthew Levendusky, Neil Malhotra e Sean Westwood",
+    "ano": "2019",
+    "url": "https://www.gsb.stanford.edu/faculty-research/publications/origins-consequences-affective-polarization-united-states"
+   },
+   {
+    "titulo": "Uncivil Agreement: How Politics Became Our Identity",
+    "autor": "Lilliana Mason (University of Chicago Press)",
+    "ano": "2018",
+    "url": "https://press.uchicago.edu/ucp/books/book/chicago/U/bo27527354.html"
+   },
+   {
+    "titulo": "Existe polarização política no Brasil? Análise das evidências em duas séries de pesquisas de opinião (Opinião Pública, 28/1)",
+    "autor": "Pablo Ortellado, Marcio Moretto Ribeiro e Leonardo Zeine",
+    "ano": "2022",
+    "url": "https://www.redalyc.org/journal/329/32971992003/32971992003.pdf"
+   },
+   {
+    "titulo": "Partisans, Antipartisans, and Nonpartisans: Voting Behavior in Brazil",
+    "autor": "David Samuels e Cesar Zucco (Cambridge University Press)",
+    "ano": "2018",
+    "url": "https://experts.umn.edu/en/publications/partisans-antipartisans-and-nonpartisans-voting-behavior-in-brazi/"
+   },
+   {
+    "titulo": "Megastudy testing 25 treatments to reduce anti-democratic attitudes and partisan animosity (Science) – nota da Cornell",
+    "autor": "Jan Voelkel e outros",
+    "ano": "2024",
+    "url": "https://news.cornell.edu/node/329591"
+   },
+   {
+    "titulo": "Datafolha: Flávio Bolsonaro tem 51% e Lula, 49% dos votos válidos (Folha de S.Paulo, 15/10/2026, cópia em PDF no Poder360)",
+    "autor": "Igor Gielow / Datafolha",
+    "ano": "2026",
+    "url": "https://static.poder360.com.br/uploads/2026/10/datafolha-2oturno-outubro.pdf"
+   },
+   {
+    "titulo": "Quaest revela disputa acirrada entre Flávio Bolsonaro e Lula",
+    "autor": "Banda B / Genial-Quaest",
+    "ano": "2026",
+    "url": "https://www.bandab.com.br/politica/eleicoes-2026/pesquisa-quaest-flavio-bolsonaro-lula-segundo-turno/"
+   }
+  ]
+ },
+ {
+  "id": "genero",
+  "pergunta": "Por que mulheres e homens votam diferente?",
+  "resumo": "Desde 2018, as mulheres brasileiras votam, em média, mais à esquerda do que os homens. Em 2026, Lula lidera entre as mulheres e Flávio Bolsonaro entre os homens. As explicações envolvem economia, trabalho de cuidado, segurança e a forma como cada campanha fala com cada grupo; e o 'voto feminino' não é um bloco único.",
+  "explicacao": [
+   "A diferença de voto entre homens e mulheres tem nome: 'gender gap'. No Brasil, ela era pequena: em 2014, os eleitorados de Dilma Rousseff e de Marina Silva tinham a mesma composição, 53% de mulheres e 47% de homens. Em 2018 a diferença disparou: na pesquisa Ibope de fim de setembro, Jair Bolsonaro tinha 36% entre os homens e 18% entre as mulheres.",
+   "Em 2026 o padrão continua, com tamanho que varia por instituto. No Datafolha de 13 e 14 de outubro, Lula tinha 49% a 40% entre as mulheres e Flávio, 52% a 40% entre os homens. Na AtlasIntel de 13 a 18 de outubro, a diferença era maior. As mulheres são cerca de 52% do eleitorado, segundo o TSE.",
+   "Uma explicação é econômica. Laura Barros e Manuel Santos Silva mostraram que, na crise de 2014 a 2017, os lugares onde o desemprego atingiu mais setores masculinos deram mais votos a Bolsonaro em 2018; onde a crise atingiu mais setores femininos, aconteceu o contrário. A interpretação deles: parte dos homens que perderam status econômico se identificou com o discurso dele.",
+   "Outra explicação está na vida cotidiana. A cientista política Flávia Biroli (UnB) lembra que as mulheres são mais escolarizadas, mas ganham menos e têm mais dificuldade de conseguir emprego. Elas também fazem a maior parte do trabalho de cuidado: quase o dobro do tempo dos homens, segundo a pesquisadora Ananda Marques. A pesquisa da Fundação Friedrich Ebert (2025) aponta que 65% das jovens priorizam saúde, educação e combate à pobreza.",
+   "A segurança pesa de formas diferentes. Para Beatriz Sanchez (USP), a promessa de 'ordem' pode atrair homens que convivem com a violência desde cedo, mas pode assustar mães negras e pobres cujos filhos são alvo da violência policial na periferia. Ao mesmo tempo, há muitas mulheres que votam na direita, especialmente entre as evangélicas: no Datafolha de 20 a 22/10/2026, Flávio tinha 69% a 26% entre evangélicos.",
+   "A pesquisadora Ananda Marques alerta que 'voto feminino' esconde diferenças de raça, renda, religião, idade e lugar. Uma mulher evangélica do Sul e uma mulher católica do Nordeste podem votar de jeitos opostos. As campanhas sabem disso: a de Flávio criou propostas voltadas às mulheres, como vouchers para creches, e Lula divulgou em outubro uma carta aos evangélicos.",
+   "No mundo, há debate sobre um 'novo abismo de gênero' entre jovens. O jornalista John Burn-Murdoch (Financial Times, 2024) apontou que moças estão ficando mais progressistas e rapazes mais conservadores em vários países. Outros pesquisadores, usando outras bases de dados, não encontraram o mesmo nos EUA. Ou seja: a tendência existe em alguns lugares, mas não é uma regra universal."
+  ],
+  "dados": [
+   {
+    "texto": "Datafolha (13 e 14/10/2026): entre as mulheres (51% da amostra), Lula 49% x Flávio 40%; entre os homens (49%), Flávio 52% x Lula 40%.",
+    "fonte": "https://static.poder360.com.br/uploads/2026/10/datafolha-2oturno-outubro.pdf"
+   },
+   {
+    "texto": "Datafolha (20 a 22/10/2026): mulheres, Lula 49% x Flávio 44%; homens, Flávio 50% x Lula 44%; evangélicos, Flávio 69% x Lula 26%.",
+    "fonte": "https://www.congressoemfoco.com.br/noticia/123536/datafolha-flavio-bolsonaro-e-lula-aparecem-empatados-com-50"
+   },
+   {
+    "texto": "AtlasIntel/Bloomberg (13 a 18/10/2026, 4.998 entrevistas): homens, Flávio 61,7% x Lula 35,0%; mulheres, Lula 58,9% x Flávio 39,2%.",
+    "fonte": "https://www.mixvale.com.br/2026/10/19/pesquisa-atlasintel-mostra-flavio-bolsonaro-com-498-e-lula-com-476-no-segundo-turno-nas-eleicoes-2026/"
+   },
+   {
+    "texto": "Datafolha (junho de 2026, classificação por 16 perguntas): entre as mulheres, 44% à esquerda ou centro-esquerda e 37% à direita ou centro-direita; entre os homens, 50% à direita e 33% à esquerda.",
+    "fonte": "https://outraspalavras.net/estadoemdisputa/tera-o-brasil-embicado-a-direita/"
+   },
+   {
+    "texto": "Datafolha (julho de 2026): Flávio era rejeitado por 50% das mulheres, contra 44% de rejeição a Lula no mesmo grupo. As mulheres são cerca de 52% do eleitorado.",
+    "fonte": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/lula-tem-50-das-intencoes-de-voto-entre-mulheres-e-flavio-40-no-2o-turno-aponta-datafolha/"
+   },
+   {
+    "texto": "Ibope (setembro de 2018): Jair Bolsonaro tinha 36% das intenções de voto entre homens e 18% entre mulheres; 66% de seus eleitores eram homens.",
+    "fonte": "https://istoe.com.br/divisao-de-genero-nunca-foi-tao-acentuada/"
+   },
+   {
+    "texto": "Barros e Santos Silva (Journal of Development Economics): choques de desemprego em setores masculinos aumentaram o voto em Bolsonaro em 2018; choques em setores femininos tiveram efeito oposto.",
+    "fonte": "https://www.lai.fu-berlin.de/disziplinen/oekonomie/news/New_pub_Barros_SantosSilva_2025_JDE.html"
+   }
+  ],
+  "vozes": [
+   {
+    "quem": "Jovens mulheres brasileiras de 15 a 35 anos (pesquisa FES 'Juventudes: um desafio pendente', 2025)",
+    "texto": "65% dizem que suas prioridades são saúde, educação e combate à pobreza."
+   }
+  ],
+  "mitos": [
+   {
+    "mito": "Mulher vota em quem o marido manda.",
+    "fato": "As pesquisas mostram o contrário: desde 2018 as mulheres têm padrão de voto próprio e diferente do dos homens, medido por vários institutos."
+   },
+   {
+    "mito": "Todas as mulheres votam na esquerda.",
+    "fato": "Milhões de mulheres votam na direita. Entre evangélicos, por exemplo, Flávio lidera com folga (69% a 26% no Datafolha de 20–22/10/2026). Religião, renda e região pesam tanto quanto o gênero."
+   },
+   {
+    "mito": "Homens votam na direita por machismo.",
+    "fato": "Estudos apontam fatores como perda de emprego e de status econômico, além de valores e religião. Reduzir tudo a preconceito ignora as razões que os próprios eleitores apresentam."
+   }
+  ],
+  "para_aproximar": "Pergunte a quem vota diferente de você quais problemas pesam mais na rotina dela ou dele. Muitas vezes a diferença de voto vem de experiências de vida diferentes, não de caráter.",
+  "fontes": [
+   {
+    "titulo": "Datafolha: Flávio Bolsonaro tem 51% e Lula, 49% dos votos válidos (Folha de S.Paulo, 15/10/2026, cópia em PDF no Poder360)",
+    "autor": "Igor Gielow / Datafolha",
+    "ano": "2026",
+    "url": "https://static.poder360.com.br/uploads/2026/10/datafolha-2oturno-outubro.pdf"
+   },
+   {
+    "titulo": "Datafolha: Flávio Bolsonaro e Lula aparecem empatados com 50%",
+    "autor": "Congresso em Foco / Datafolha",
+    "ano": "2026",
+    "url": "https://www.congressoemfoco.com.br/noticia/123536/datafolha-flavio-bolsonaro-e-lula-aparecem-empatados-com-50"
+   },
+   {
+    "titulo": "Pesquisa AtlasIntel mostra Flávio Bolsonaro com 49,8% e Lula com 47,6% no segundo turno",
+    "autor": "Mix Vale / AtlasIntel-Bloomberg",
+    "ano": "2026",
+    "url": "https://www.mixvale.com.br/2026/10/19/pesquisa-atlasintel-mostra-flavio-bolsonaro-com-498-e-lula-com-476-no-segundo-turno-nas-eleicoes-2026/"
+   },
+   {
+    "titulo": "Terá o Brasil embicado à direita? (sobre o Datafolha de junho de 2026)",
+    "autor": "Rudá Ricci (Outras Palavras)",
+    "ano": "2026",
+    "url": "https://outraspalavras.net/estadoemdisputa/tera-o-brasil-embicado-a-direita/"
+   },
+   {
+    "titulo": "Lula tem 50% das intenções de voto entre mulheres e Flávio 40% no 2º turno, aponta Datafolha",
+    "autor": "Jornal de Brasília",
+    "ano": "2026",
+    "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/lula-tem-50-das-intencoes-de-voto-entre-mulheres-e-flavio-40-no-2o-turno-aponta-datafolha/"
+   },
+   {
+    "titulo": "Divisão de gênero nunca foi tão acentuada (Estadão Conteúdo)",
+    "autor": "IstoÉ / Estadão Conteúdo",
+    "ano": "2018",
+    "url": "https://istoe.com.br/divisao-de-genero-nunca-foi-tao-acentuada/"
+   },
+   {
+    "titulo": "Economic shocks, gender, and populism: Evidence from Brazil (Journal of Development Economics) – nota da FU Berlin",
+    "autor": "Laura Barros e Manuel Santos Silva",
+    "ano": "2024",
+    "url": "https://www.lai.fu-berlin.de/disziplinen/oekonomie/news/New_pub_Barros_SantosSilva_2025_JDE.html"
+   },
+   {
+    "titulo": "Quem são elas que decidirão a eleição presidencial",
+    "autor": "Ananda Marques (O Povo)",
+    "ano": "2026",
+    "url": "https://mais.opovo.com.br/colunistas/ananda-marques/2026/07/15/quem-sao-elas-que-decidirao-a-eleicao-presidencial.html"
+   },
+   {
+    "titulo": "Juventudes: um desafio pendente",
+    "autor": "Fundação Friedrich Ebert (FES Brasil)",
+    "ano": "2025",
+    "url": "https://brasil.fes.de/detalhe/juventudes-um-desafio-pendente.html"
+   },
+   {
+    "titulo": "Are the Ideologies of Young Women and Young Men in the US Diverging?",
+    "autor": "Berkeley Institute for Young Americans",
+    "ano": "2024",
+    "url": "https://youngamericans.berkeley.edu/2024/02/are-the-ideologies-of-young-women-and-young-men-in-the-us-diverging/"
+   }
+  ]
+ },
+ {
+  "id": "jovens",
+  "pergunta": "Como votam os jovens?",
+  "resumo": "Os jovens de 16 a 24 anos são o grupo que mais muda de ideia. Em 2026 eles desaprovaram o governo Lula, flertaram com candidatos de fora dos dois polos, como Renan Santos, e no 2º turno voltaram a se dividir, com leve vantagem de Lula nas últimas pesquisas. São também menos presos a rótulos de esquerda e direita do que os mais velhos.",
+  "explicacao": [
+   "O peso dos jovens nas urnas está diminuindo. O Brasil envelhece: em 2026, os eleitores com mais de 60 anos são 23,6% do total (eram 21% em 2022), e os de até 18 anos caíram 14,5%, para cerca de 3,75 milhões.",
+   "Os jovens são os menos fiéis a um lado. Em março de 2026, 72,7% dos eleitores de 16 a 24 anos desaprovavam Lula (AtlasIntel). Em maio, Renan Santos, do partido Missão, chegou a 36% nessa faixa. Mesmo assim, ele terminou o 1º turno com 2,24% dos votos no país inteiro: parte dos jovens migrou na reta final.",
+   "No 2º turno, o voto jovem oscilou. No Datafolha de 6 a 8 de outubro, Flávio tinha 50% a 43% entre os de 16 a 24 anos; uma semana depois, o placar se inverteu para Lula, 50% a 43%. A AtlasIntel de 13 a 18 de outubro também deu vantagem a Lula (49,8% a 42,2%). Como os jovens são só 12% da amostra, a margem de erro nesse grupo é maior (6 pontos no Datafolha).",
+   "As preocupações dos jovens explicam parte disso. A pesquisa da Fundação Friedrich Ebert (2025, 2.024 jovens brasileiros de 15 a 35 anos) mostra que pobreza, desemprego e insegurança lideram as preocupações (61%). Reportagem da Reuters cita a frustração com a renda: diplomados ganham menos do que em 2014. Jovens também citam a segurança pública e escândalos como o do Banco Master.",
+   "Os jovens confiam pouco em partidos (57% desconfiam) e 58% concordam que 'um líder forte resolve problemas melhor que partidos ou instituições'. Ao mesmo tempo, 66% dizem que a democracia é a melhor forma de governo. Quanto à ideologia, 44% se colocam no centro, 38% à direita e 18% à esquerda.",
+   "Os jovens se informam muito pelas redes: 57% têm nelas a principal fonte de informação política (FES). Isso dá vantagem a quem se comunica bem nas redes, seja da direita, da esquerda ou de fora dos polos.",
+   "Há diferença entre rapazes e moças: as jovens tendem a se posicionar mais à esquerda e os jovens homens, mais à direita (FES). Mas, ao contrário do que se diz, os jovens são o grupo que menos se coloca nos extremos da escala esquerda-direita: 25% dos menores de 25 anos, contra 45% dos maiores de 55 (Lapop 2018)."
+  ],
+  "dados": [
+   {
+    "texto": "TSE (julho de 2026): eleitores de até 18 anos caíram de 4.177.627 (2022) para 3.751.159 (2026), queda de 14,5%. Os maiores de 60 anos passaram a 37,5 milhões (23,6% do eleitorado de 158,7 milhões).",
+    "fonte": "https://www.itatiaia.com.br/politica/eleicoes/eleitorado-de-ate-18-anos-cai-145-nas-eleicoes-de-2026-aponta-tse/"
+   },
+   {
+    "texto": "Datafolha (13 e 14/10/2026): entre 16 e 24 anos, Lula 50% x Flávio 43%, invertendo o placar da semana anterior; o grupo é 12% da amostra e tem margem de erro de 6 pontos.",
+    "fonte": "https://static.poder360.com.br/uploads/2026/10/datafolha-2oturno-outubro.pdf"
+   },
+   {
+    "texto": "AtlasIntel/Bloomberg (13 a 18/10/2026): 16 a 24 anos, Lula 49,8% x Flávio 42,2%; 25 a 34 anos, Lula 51,5% x Flávio 45,6%.",
+    "fonte": "https://www.mixvale.com.br/2026/10/19/pesquisa-atlasintel-mostra-flavio-bolsonaro-com-498-e-lula-com-476-no-segundo-turno-nas-eleicoes-2026/"
+   },
+   {
+    "texto": "AtlasIntel (março de 2026): 72,7% dos jovens de 16 a 24 anos desaprovavam Lula; 48,3% diziam estar mais preocupados com a reeleição de Lula, 25,6% com a eleição de Flávio e 22,2% com ambos.",
+    "fonte": "https://www.em.com.br/politica/2026/03/7383972-atlasintel-lula-tem-727-de-desaprovacao-entre-jovens-de-16-a-24-anos.html"
+   },
+   {
+    "texto": "AtlasIntel (maio de 2026, citada pela Reuters): Renan Santos (Missão) tinha 36% entre eleitores de 16 a 24 anos.",
+    "fonte": "https://forbes.com.br/geral/2026/06/por-que-alguns-jovens-eleitores-estao-abandonando-lula/"
+   },
+   {
+    "texto": "FES 'Juventudes: um desafio pendente' (2025): 44% dos jovens brasileiros se identificam com o centro, 38% com a direita (17% com a extrema direita) e 18% com a esquerda; 66% acham a democracia a melhor forma de governo; 57% têm as redes como principal fonte de informação política.",
+    "fonte": "https://brasil.fes.de/detalhe/juventudes-um-desafio-pendente.html"
+   },
+   {
+    "texto": "Datafolha (agosto de 2026): entre os eleitores com 60 anos ou mais, Lula tinha 51% x 40% de Flávio no 2º turno.",
+    "fonte": "https://viva.com.br/politica/datafolha-lula-tem-45-das-intencoes-de-voto-e-flavio-tem-32-entre-idosos.html"
+   }
+  ],
+  "vozes": [
+   {
+    "quem": "Jovens de 16 a 24 anos (AtlasIntel, março de 2026)",
+    "texto": "48,3% dizem que o cenário que mais os preocupa é a reeleição de Lula; 25,6% citam a eleição de Flávio Bolsonaro."
+   },
+   {
+    "quem": "Jovens brasileiros de 15 a 35 anos (FES, 2025)",
+    "texto": "Pobreza, desemprego e insegurança são as maiores preocupações para 61%."
+   }
+  ],
+  "mitos": [
+   {
+    "mito": "Jovem é sempre de esquerda.",
+    "fato": "Na pesquisa da FES (2025), 38% dos jovens brasileiros se identificam com a direita e 18% com a esquerda; a maior parte (44%) se diz de centro."
+   },
+   {
+    "mito": "Jovem é sempre de direita agora.",
+    "fato": "No 2º turno de 2026, as pesquisas mais recentes do Datafolha e da AtlasIntel mostraram Lula à frente entre os de 16 a 24 anos. O voto jovem é o que mais oscila."
+   },
+   {
+    "mito": "Os jovens são os mais radicais.",
+    "fato": "Eles são os que menos se colocam nos extremos da escala esquerda-direita (25% contra 45% dos maiores de 55 anos, Lapop 2018)."
+   }
+  ],
+  "para_aproximar": "Com jovens, discutir rótulo ('você é de esquerda ou de direita?') afasta. Falar de problemas concretos, como emprego, renda e segurança, abre conversa.",
+  "fontes": [
+   {
+    "titulo": "Eleitorado de até 18 anos cai 14,5% nas eleições de 2026, aponta TSE",
+    "autor": "Itatiaia / TSE",
+    "ano": "2026",
+    "url": "https://www.itatiaia.com.br/politica/eleicoes/eleitorado-de-ate-18-anos-cai-145-nas-eleicoes-de-2026-aponta-tse/"
+   },
+   {
+    "titulo": "Datafolha: Flávio Bolsonaro tem 51% e Lula, 49% dos votos válidos (Folha de S.Paulo, 15/10/2026, cópia em PDF no Poder360)",
+    "autor": "Igor Gielow / Datafolha",
+    "ano": "2026",
+    "url": "https://static.poder360.com.br/uploads/2026/10/datafolha-2oturno-outubro.pdf"
+   },
+   {
+    "titulo": "Pesquisa AtlasIntel mostra Flávio Bolsonaro com 49,8% e Lula com 47,6% no segundo turno",
+    "autor": "Mix Vale / AtlasIntel-Bloomberg",
+    "ano": "2026",
+    "url": "https://www.mixvale.com.br/2026/10/19/pesquisa-atlasintel-mostra-flavio-bolsonaro-com-498-e-lula-com-476-no-segundo-turno-nas-eleicoes-2026/"
+   },
+   {
+    "titulo": "AtlasIntel: Lula tem 72,7% de desaprovação entre jovens de 16 a 24 anos",
+    "autor": "Estado de Minas / AtlasIntel-Bloomberg",
+    "ano": "2026",
+    "url": "https://www.em.com.br/politica/2026/03/7383972-atlasintel-lula-tem-727-de-desaprovacao-entre-jovens-de-16-a-24-anos.html"
+   },
+   {
+    "titulo": "Por que alguns jovens eleitores estão abandonando Lula",
+    "autor": "Reuters / Forbes Brasil",
+    "ano": "2026",
+    "url": "https://forbes.com.br/geral/2026/06/por-que-alguns-jovens-eleitores-estao-abandonando-lula/"
+   },
+   {
+    "titulo": "Juventudes: um desafio pendente",
+    "autor": "Fundação Friedrich Ebert (FES Brasil)",
+    "ano": "2025",
+    "url": "https://brasil.fes.de/detalhe/juventudes-um-desafio-pendente.html"
+   },
+   {
+    "titulo": "Existe polarização política no Brasil? Análise das evidências em duas séries de pesquisas de opinião (Opinião Pública, 28/1)",
+    "autor": "Pablo Ortellado, Marcio Moretto Ribeiro e Leonardo Zeine",
+    "ano": "2022",
+    "url": "https://www.redalyc.org/journal/329/32971992003/32971992003.pdf"
+   },
+   {
+    "titulo": "Datafolha: Lula tem 45% das intenções de voto e Flávio tem 32% entre idosos",
+    "autor": "Viva / Datafolha",
+    "ano": "2026",
+    "url": "https://viva.com.br/politica/datafolha-lula-tem-45-das-intencoes-de-voto-e-flavio-tem-32-entre-idosos.html"
+   },
+   {
+    "titulo": "Trunfo de Lula, jovens são os que menos pretendem votar no 2º turno",
+    "autor": "Poder360 (PoderData/Aya)",
+    "ano": 2026,
+    "url": "https://www.poder360.com.br/poderdata/trunfo-de-lula-jovens-sao-os-que-menos-pretendem-votar-no-2o-turno-2/"
+   }
+  ]
+ },
+ {
+  "id": "seguranca",
+  "pergunta": "Por que a segurança pública pesa tanto no voto?",
+  "resumo": "A violência é hoje o problema mais citado pelos brasileiros, à frente da saúde e da economia. Isso acontece mesmo com as mortes violentas em queda, porque o número ainda é alto e o medo faz parte da rotina. Eleitores de todos os campos querem segurança; o que muda é o caminho que cada um acredita funcionar.",
+  "explicacao": [
+   "A segurança virou o principal tema do país. No Datafolha de 13 e 14 de outubro de 2026, 20% citaram violência e segurança como o maior problema, à frente de saúde (18%) e economia (15%). Na Quaest de fevereiro, eram 27% no Brasil e 35% no Nordeste, região onde Lula tem mais votos. Ou seja, não é tema de um só campo.",
+   "Os números mostram uma queda real, mas a partir de um patamar alto. Em 2025, o Brasil teve 40.775 mortes violentas intencionais, a menor taxa desde 2012 (19,1 por 100 mil habitantes). Ainda assim, isso dá mais de 100 mortes por dia. E alguns crimes cresceram: os feminicídios subiram 4%, chegando a 1.571, e as mortes por intervenção policial aumentaram 5,4%.",
+   "A violência não atinge todos igualmente. Segundo o Atlas da Violência 2025, 77% das vítimas de homicídio em 2023 eram pessoas negras, e quase metade (47,8%) eram jovens de 15 a 29 anos. Quem mora em bairros mais violentos sente o problema de perto, seja qual for seu voto.",
+   "Segurança é um tema de urgência e emoção. Ela mexe com o medo, o que costuma fazer o eleitor valorizar respostas rápidas e firmes. Na leitura do livro de Mudde e Kaltwasser, uma imprensa que dá muito destaque ao crime alimenta narrativas de 'nós contra eles'. Isso ajuda candidatos que prometem mão dura, mas também pressiona governos de qualquer cor a mostrar resultados.",
+   "As visões em disputa são diferentes. Um lado enfatiza polícia mais forte, penas maiores e operações contra facções. Depois da operação policial no Rio, em 28 de outubro de 2025, com pelo menos 117 mortos segundo a Polícia Civil (outras contagens passam de 120), pesquisas mostraram aprovação da maioria (entre 55% e 70%, conforme o instituto e o recorte). Outro lado enfatiza inteligência, integração entre polícias e combate ao dinheiro do crime. O governo Lula enviou em abril de 2025 a PEC da Segurança, que cria um sistema único entre União, estados e municípios; governadores como Ronaldo Caiado e Eduardo Leite criticaram o texto por, segundo eles, centralizar poder na União.",
+   "Há um detalhe que muitos eleitores não sabem: a maior parte da segurança pública é responsabilidade dos governos estaduais, que comandam as polícias Militar e Civil. Mesmo assim, o tema pesa muito na eleição para presidente, porque o eleitor cobra de quem está no topo."
+  ],
+  "dados": [
+   {
+    "texto": "Datafolha (13 e 14/10/2026, 2.520 entrevistas): violência/segurança é o principal problema do país para 20%; saúde, 18%; economia, 15%; corrupção, 7%.",
+    "fonte": "https://www.oliberal.com/politica/datafolha-20-apontam-violencia-como-principal-problema-do-pais-18-dizem-que-e-a-saude-1.1183063"
+   },
+   {
+    "texto": "Genial/Quaest (5 a 9/02/2026): 27% citam a segurança/violência como principal problema do país; no Nordeste, 35%.",
+    "fonte": "https://oimparcial.com.br/noticias/2026/02/violencia-e-a-principal-preocupacao-dos-nordestinos-aponta-quaest/"
+   },
+   {
+    "texto": "20º Anuário Brasileiro de Segurança Pública (julho de 2026): 40.775 mortes violentas intencionais em 2025 (19,1 por 100 mil), queda de 8,2% e menor taxa da série iniciada em 2012; feminicídios subiram 4% (1.571); mortes por intervenção policial subiram 5,4%.",
+    "fonte": "https://www.infomoney.com.br/?p=3422340"
+   },
+   {
+    "texto": "Atlas da Violência 2025 (Ipea/FBSP): 45.747 homicídios em 2023; 76,97% das vítimas eram negras; 47,8% eram jovens de 15 a 29 anos (21.856 jovens, cerca de 60 por dia).",
+    "fonte": "https://www.poder360.com.br/poder-pesquisas/pessoas-negras-sao-77-dos-homicidios-no-brasil/"
+   },
+   {
+    "texto": "Pesquisas sobre a megaoperação no Rio (28/10/2025): aprovação de 69,6% (Paraná Pesquisas, cidade do Rio), 55,2% (AtlasIntel) e 57% a consideraram um sucesso (Datafolha, capital e região metropolitana).",
+    "fonte": "https://www.poder360.com.br/poder-pesquisas/3-pesquisas-mostram-que-maioria-e-a-favor-de-megaoperacao-no-rio/"
+   },
+   {
+    "texto": "PEC da Segurança Pública (PEC 18/2025), enviada em abril de 2025, propõe incluir o Sistema Único de Segurança Pública na Constituição e ampliar o papel da Polícia Federal contra o crime organizado; governadores do Sul e do Sudeste se opuseram na 'Carta de Florianópolis'.",
+    "fonte": "https://www.aosfatos.org/noticias/pec-da-seguranca-lula-operacao-no-rio/"
+   }
+  ],
+  "mitos": [
+   {
+    "mito": "Segurança é tema só de eleitor de direita.",
+    "fato": "No Nordeste, onde Lula tem mais votos, a violência é a principal preocupação de 35% (Quaest, fevereiro de 2026)."
+   },
+   {
+    "mito": "A violência só aumenta no Brasil.",
+    "fato": "As mortes violentas intencionais caíram para a menor taxa desde 2012 em 2025. Mas o número ainda é alto e alguns crimes, como feminicídios, cresceram."
+   },
+   {
+    "mito": "O presidente comanda a polícia que patrulha a rua.",
+    "fato": "As polícias Militar e Civil são comandadas pelos governadores. O governo federal comanda a Polícia Federal e a Polícia Rodoviária Federal e pode financiar e coordenar ações."
+   }
+  ],
+  "para_aproximar": "Quase todo mundo quer a mesma coisa: viver sem medo. Comece reconhecendo isso e depois compare, com dados, quais medidas reduziram crimes em cada estado.",
+  "fontes": [
+   {
+    "titulo": "Datafolha: 20% apontam violência como principal problema do país; 18% dizem que é a saúde",
+    "autor": "O Liberal / Datafolha",
+    "ano": "2026",
+    "url": "https://www.oliberal.com/politica/datafolha-20-apontam-violencia-como-principal-problema-do-pais-18-dizem-que-e-a-saude-1.1183063"
+   },
+   {
+    "titulo": "Violência é a principal preocupação dos nordestinos, aponta Quaest",
+    "autor": "O Imparcial / Genial-Quaest",
+    "ano": "2026",
+    "url": "https://oimparcial.com.br/noticias/2026/02/violencia-e-a-principal-preocupacao-dos-nordestinos-aponta-quaest/"
+   },
+   {
+    "titulo": "Mortes violentas caem 8,2% no país em 2025; feminicídios aumentam 4% (20º Anuário Brasileiro de Segurança Pública)",
+    "autor": "InfoMoney / Fórum Brasileiro de Segurança Pública",
+    "ano": "2026",
+    "url": "https://www.infomoney.com.br/?p=3422340"
+   },
+   {
+    "titulo": "Pessoas negras são 77% das vítimas de homicídio no Brasil (Atlas da Violência 2025)",
+    "autor": "Poder360 / Ipea e FBSP",
+    "ano": "2025",
+    "url": "https://www.poder360.com.br/poder-pesquisas/pessoas-negras-sao-77-dos-homicidios-no-brasil/"
+   },
+   {
+    "titulo": "3 pesquisas mostram que maioria é a favor de megaoperação no Rio",
+    "autor": "Poder360",
+    "ano": "2025",
+    "url": "https://www.poder360.com.br/poder-pesquisas/3-pesquisas-mostram-que-maioria-e-a-favor-de-megaoperacao-no-rio/"
+   },
+   {
+    "titulo": "PEC da Segurança: o que propõe e onde está a tramitação",
+    "autor": "Aos Fatos",
+    "ano": "2025",
+    "url": "https://www.aosfatos.org/noticias/pec-da-seguranca-lula-operacao-no-rio/"
+   },
+   {
+    "titulo": "Resenha de 'Populism: A Very Short Introduction' (LSE USAPP)",
+    "autor": "LSE US Centre (resenha)",
+    "ano": "2017",
+    "url": "https://blogs.lse.ac.uk/usappblog/2017/07/20/book-review-populism-a-very-short-introduction-by-cas-mudde-and-cristobal-rovira-kaltwasser"
+   }
+  ]
+ },
+ {
+  "id": "redes",
+  "pergunta": "Redes sociais, bolhas e desinformação: como elas mudam o voto?",
+  "resumo": "As redes sociais aceleram a circulação de informação verdadeira e falsa, e os dois campos já foram punidos pela Justiça Eleitoral por espalhar conteúdo enganoso. A ciência mostra que as bolhas existem, mas que mudar o algoritmo, sozinho, não reduz a polarização. O maior efeito parece ser reforçar o que as pessoas já pensam.",
+  "explicacao": [
+   "Bolha é quando a pessoa passa a ver quase só conteúdo de quem pensa igual. Pablo Ortellado e Márcio Moretto, da USP, que monitoraram o debate político no Facebook, encontraram dois circuitos quase separados: 'quem curte e comenta um circuito, não participa do outro'. Quase não havia um campo do meio.",
+   "A desinformação aparece nos dois lados. Ortellado observou que, em momentos quentes, 2 ou 3 das 10 notícias políticas mais compartilhadas eram falsas ou sem verificação, à direita e à esquerda. Em 2018, um levantamento de Ortellado, Fabrício Benevenuto (UFMG) e da agência Lupa em mais de 340 grupos de WhatsApp verificou que, das 50 imagens mais compartilhadas, só 4 (8%) eram totalmente verdadeiras.",
+   "A Justiça Eleitoral mandou remover conteúdos dos dois campos. Em 2022, o TSE tirou do ar uma propaganda do PT que ligava Bolsonaro a canibalismo por 'grave descontextualização', e também mandou remover posts de Flávio e Eduardo Bolsonaro que diziam que Lula fecharia igrejas. Em 2026, suspendeu uma propaganda da campanha de Lula que chamava Flávio de 'denunciado' na 'rachadinha' sem dizer que a denúncia foi arquivada, e mandou Flávio e aliados apagarem um vídeo que atribuía a um ato pró-Lula uma cena gravada no Chile.",
+   "As bolhas mudam o voto? A ciência é cautelosa. Em 2023, estudos feitos com a Meta nos EUA trocaram o algoritmo do Facebook e do Instagram por um feed em ordem cronológica, ou reduziram em um terço o conteúdo de fontes alinhadas. A polarização não mudou de forma significativa em três meses. Só cerca de 20% dos usuários tinham mais de 75% da exposição vinda de fontes que pensam igual. Os autores lembram que o período foi curto e que os efeitos podem ser acumulados ao longo de anos.",
+   "O efeito mais claro das redes é acelerar e reforçar. Um vídeo pode alcançar centenas de milhões de pessoas em dias: em janeiro de 2025, um vídeo do deputado Nikolas Ferreira sobre novas regras de fiscalização do Pix passou de 300 milhões de visualizações, e o governo recuou da norma. O Reuters Institute registrou que circulavam alegações falsas de que o Pix seria taxado. No campo do governo, o deputado André Janones criou em 2026 o canal de WhatsApp 'Exército de Lula', que também virou alvo de disputas no TSE.",
+   "Hoje as redes são a principal fonte de informação política para 57% dos jovens (FES, 2025), e só 42% dos brasileiros dizem confiar na maioria das notícias (Reuters, 2025). Isso cria terreno fértil para conteúdo que confirma o que já acreditamos.",
+   "Como se proteger: desconfiar de conteúdo que dá muita raiva ou alegria; checar a data e a origem; procurar a mesma notícia em veículos com linhas diferentes; e aplicar a mesma desconfiança aos conteúdos que favorecem o seu candidato."
+  ],
+  "dados": [
+   {
+    "texto": "Eleição de 2018: das 50 imagens mais compartilhadas em grupos de WhatsApp monitorados (16/09 a 07/10), só 4 (8%) eram verdadeiras; 8 eram falsas e 56% foram consideradas enganosas no total.",
+    "fonte": "https://tribunademinas.com.br/noticias/politica/17-10-2018/pesquisa-constata-so-8-de-imagens-verdadeiras-em-grupos-de-whatsapp.html?amp=1"
+   },
+   {
+    "texto": "Monitor do Debate Político (USP): em momentos de tensão, 2 ou 3 das 10 notícias mais compartilhadas eram falsas ou sem verificação, nos dois lados.",
+    "fonte": "https://ihu.unisinos.br/564764-a-imprensa-precisa-ser-pautada-pelos-boatos-afirma-pablo-ortellado-pesquisador-que-monitora-noticias-politicas"
+   },
+   {
+    "texto": "TSE, 08/10/2022: ministro Paulo de Tarso Sanseverino suspendeu propaganda do PT que associava Bolsonaro a canibalismo, por 'grave descontextualização' de entrevista de 2016.",
+    "fonte": "https://www.poder360.com.br/eleicoes/tse-manda-pt-tirar-do-ar-video-que-liga-bolsonaro-a-canibalismo/"
+   },
+   {
+    "texto": "TSE, 04/10/2022: o mesmo ministro mandou remover publicações de Flávio e Eduardo Bolsonaro e de outros 24 perfis que diziam que Lula perseguiria cristãos e fecharia igrejas.",
+    "fonte": "https://www.migalhas.com.br/quentes/374713/tse-manda-bolsonaristas-apagarem-fake-news-de-que-lula-persegue-igreja"
+   },
+   {
+    "texto": "TSE, 30/08/2026: a ministra Estela Aranha suspendeu a propaganda 'Currículo de Flávio Bolsonaro', da campanha de Lula, por apresentar como atual uma denúncia que havia sido arquivada sem condenação.",
+    "fonte": "https://sbtnews.sbt.com.br/noticia/politica/tse-manda-retirar-do-ar-propaganda-do-pt-contra-flavio"
+   },
+   {
+    "texto": "TSE, 12/10/2026: o ministro Marco Aurélio Bellizze mandou Flávio Bolsonaro, Carlos Bolsonaro, Nikolas Ferreira, Pablo Marçal e outros apagarem vídeo que atribuía a um ato pró-Lula uma cena gravada no Chile.",
+    "fonte": "https://www.cnnbrasil.com.br/eleicoes/tse-manda-flavio-remover-video-fake-de-consumo-de-drogas-em-ato-pro-lula/"
+   },
+   {
+    "texto": "TSE (outubro de 2026): o ministro André Mendonça mandou remover posts de Pablo Marçal e outros perfis que diziam que Lula jogou a bandeira do Brasil no chão após votar; manteve os que só davam opinião ('amassou', 'desrespeitou'), por serem juízo de valor protegido pela liberdade de expressão.",
+    "fonte": "https://www.oliberal.com/eleicoes/tse-ordena-retirada-de-post-com-informacao-falsa-sobre-lula-e-bandeira-do-brasil-1.1177712"
+   },
+   {
+    "texto": "Estudos Meta/2020 (Science e Nature, 2023): o feed cronológico e a redução de um terço do conteúdo de fontes alinhadas não mudaram de forma significativa a polarização; só cerca de 20,6% dos usuários recebiam mais de 75% do conteúdo de fontes alinhadas.",
+    "fonte": "https://www.techpolicy.press/a-primer-on-the-meta-2020-us-election-research-studies"
+   },
+   {
+    "texto": "Reuters Digital News Report 2025: 42% dos brasileiros confiam na maioria das notícias; 33% compartilham notícias por redes, mensagens ou e-mail; 9% já usam chatbots de IA para se informar.",
+    "fonte": "https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2025/brazil"
+   }
+  ],
+  "mitos": [
+   {
+    "mito": "Fake news é coisa de um lado só.",
+    "fato": "O TSE mandou remover conteúdos enganosos de campanhas e aliados dos dois campos, em 2022 e em 2026."
+   },
+   {
+    "mito": "Basta mudar o algoritmo para acabar com a polarização.",
+    "fato": "Nos experimentos de 2020 com o Facebook e o Instagram, mudar o algoritmo por três meses não alterou de forma significativa a polarização dos usuários."
+   },
+   {
+    "mito": "Eu não estou em bolha nenhuma.",
+    "fato": "A maior parte do conteúdo que as pessoas veem no Facebook vem de amigos, páginas e grupos alinhados com elas, segundo os estudos de 2023. Quase todos vivemos em alguma bolha, maior ou menor."
+   }
+  ],
+  "para_aproximar": "Quando receber algo que confirma tudo o que você pensa sobre o outro lado, faça uma pausa antes de repassar. Se você mostrar que checa até o que favorece seu candidato, ganha credibilidade para conversar com quem pensa diferente.",
+  "fontes": [
+   {
+    "titulo": "'A imprensa precisa ser pautada pelos boatos' – entrevista sobre o Monitor do Debate Político no Meio Digital (USP)",
+    "autor": "Pablo Ortellado (entrevista ao IHU/Sul21)",
+    "ano": "2017",
+    "url": "https://ihu.unisinos.br/564764-a-imprensa-precisa-ser-pautada-pelos-boatos-afirma-pablo-ortellado-pesquisador-que-monitora-noticias-politicas"
+   },
+   {
+    "titulo": "Existe polarização política no Brasil? Análise das evidências em duas séries de pesquisas de opinião (Opinião Pública, 28/1)",
+    "autor": "Pablo Ortellado, Marcio Moretto Ribeiro e Leonardo Zeine",
+    "ano": "2022",
+    "url": "https://www.redalyc.org/journal/329/32971992003/32971992003.pdf"
+   },
+   {
+    "titulo": "Pesquisa constata só 8% de imagens verdadeiras em grupos de WhatsApp",
+    "autor": "Tribuna de Minas",
+    "ano": "2018",
+    "url": "https://tribunademinas.com.br/noticias/politica/17-10-2018/pesquisa-constata-so-8-de-imagens-verdadeiras-em-grupos-de-whatsapp.html?amp=1"
+   },
+   {
+    "titulo": "Social media and polarization: findings from the 2020 Facebook and Instagram Election Study",
+    "autor": "Princeton SPIA",
+    "ano": "2023",
+    "url": "https://spia.princeton.edu/news/social-media-polarization-and-2020-presidential-election"
+   },
+   {
+    "titulo": "A primer on the Meta 2020 US election research studies",
+    "autor": "Tech Policy Press",
+    "ano": "2023",
+    "url": "https://www.techpolicy.press/a-primer-on-the-meta-2020-us-election-research-studies"
+   },
+   {
+    "titulo": "Digital News Report 2025 – Brazil",
+    "autor": "Reuters Institute (Universidade de Oxford)",
+    "ano": "2025",
+    "url": "https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2025/brazil"
+   },
+   {
+    "titulo": "Juventudes: um desafio pendente",
+    "autor": "Fundação Friedrich Ebert (FES Brasil)",
+    "ano": "2025",
+    "url": "https://brasil.fes.de/detalhe/juventudes-um-desafio-pendente.html"
+   },
+   {
+    "titulo": "TSE manda PT tirar do ar vídeo que liga Bolsonaro a canibalismo",
+    "autor": "Poder360",
+    "ano": "2022",
+    "url": "https://www.poder360.com.br/eleicoes/tse-manda-pt-tirar-do-ar-video-que-liga-bolsonaro-a-canibalismo/"
+   },
+   {
+    "titulo": "TSE manda bolsonaristas apagarem fake news de que Lula persegue igreja",
+    "autor": "Migalhas",
+    "ano": "2022",
+    "url": "https://www.migalhas.com.br/quentes/374713/tse-manda-bolsonaristas-apagarem-fake-news-de-que-lula-persegue-igreja"
+   },
+   {
+    "titulo": "TSE manda retirar do ar propaganda do PT contra Flávio",
+    "autor": "SBT News",
+    "ano": "2026",
+    "url": "https://sbtnews.sbt.com.br/noticia/politica/tse-manda-retirar-do-ar-propaganda-do-pt-contra-flavio"
+   },
+   {
+    "titulo": "TSE manda Flávio remover vídeo fake de consumo de drogas em ato pró-Lula",
+    "autor": "CNN Brasil",
+    "ano": "2026",
+    "url": "https://www.cnnbrasil.com.br/eleicoes/tse-manda-flavio-remover-video-fake-de-consumo-de-drogas-em-ato-pro-lula/"
+   },
+   {
+    "titulo": "TSE ordena retirada de post com informação falsa sobre Lula e bandeira do Brasil",
+    "autor": "O Liberal",
+    "ano": "2026",
+    "url": "https://www.oliberal.com/eleicoes/tse-ordena-retirada-de-post-com-informacao-falsa-sobre-lula-e-bandeira-do-brasil-1.1177712"
+   },
+   {
+    "titulo": "Datafolha: Flávio Bolsonaro tem 51% e Lula, 49% dos votos válidos (Folha de S.Paulo, 15/10/2026, cópia em PDF no Poder360)",
+    "autor": "Igor Gielow / Datafolha",
+    "ano": "2026",
+    "url": "https://static.poder360.com.br/uploads/2026/10/datafolha-2oturno-outubro.pdf"
+   }
+  ]
+ },
+ {
+  "id": "congresso-direita",
+  "pergunta": "Por que o Congresso costuma ser mais à direita do que o presidente eleito?",
+  "resumo": "Em 2022, Lula venceu com 50,9%, mas os partidos de esquerda elegeram só cerca de um quarto da Câmara. Isso acontece porque o voto para presidente e o voto para deputado seguem lógicas diferentes. Contam o sistema proporcional com lista aberta, a força local de partidos de centro e de direita (o centrão), as emendas parlamentares e a sobre-representação de estados pequenos.",
+  "explicacao": [
+   "Para presidente, o eleitor escolhe entre dois nomes no 2º turno. Para deputado, escolhe entre centenas de candidatos no sistema proporcional com lista aberta: os votos de todos os candidatos de um partido somam para definir quantas cadeiras ele ganha, e os mais votados ficam com elas. Muita gente vota no presidente por ideologia e no deputado por proximidade local, pela igreja, pela categoria profissional ou por quem trouxe obras para a cidade.",
+   "Os números mostram a diferença. Em 2022, Lula teve 50,9% no 2º turno, mas a federação do PT elegeu 81 deputados, e somando PSOL-Rede, PSB e PDT os partidos de esquerda e centro-esquerda ficaram com cerca de 126 das 513 cadeiras (cerca de 25%). O PL, partido de Bolsonaro, fez a maior bancada, com 99. Em 2026, Lula teve 45,2% no 1º turno e esses mesmos partidos somaram cerca de 124 cadeiras, enquanto o PL chegou a 121.",
+   "Uma grande parte da Câmara é do chamado centrão: partidos sem ideologia muito definida, como PP, União Brasil, PSD, MDB e Republicanos, que costumam apoiar o governo da vez em troca de ministérios, cargos e verbas. Esses partidos apoiaram governos tão diferentes quanto os de FHC, Lula, Dilma (até o impeachment), Temer e Bolsonaro. Eles têm força nos municípios: em 2024, PSD, MDB, PP e União elegeram mais de 3 mil prefeitos, contra 285 da federação do PT. Prefeitos e vereadores ajudam a eleger deputados.",
+   "As emendas parlamentares reforçam esse poder local. São partes do Orçamento federal que deputados e senadores direcionam para obras e serviços nas suas bases. Desde 2015 e 2019, parte delas é obrigatória: o governo tem de pagar. Entre 2020 e 2022, as 'emendas de relator', conhecidas como orçamento secreto, chegaram a cerca de R$ 16 bilhões por ano, até o STF declará-las inconstitucionais em dezembro de 2022. Quem já está no cargo e consegue levar recursos para a cidade tem vantagem para se reeleger.",
+   "A distribuição das cadeiras também pesa. A Constituição garante a cada estado no mínimo 8 e no máximo 70 deputados. Assim, Roraima, Acre e Amapá têm mais deputados do que teriam pela população, e São Paulo tem cerca de 40 a menos. Na tabela de referência (com dados populacionais antigos), um deputado de Roraima representa cerca de 53 mil pessoas; um de São Paulo, cerca de 570 mil. No Senado, cada estado tem 3 senadores, não importa o tamanho.",
+   "O cientista político Sérgio Abranches chamou esse arranjo, em 1988, de 'presidencialismo de coalizão': o presidente é eleito com muitos votos, mas precisa montar alianças com vários partidos para governar. Argelina Figueiredo e Fernando Limongi mostraram que, ainda assim, os líderes partidários e as regras do Congresso dão previsibilidade às votações. Isso vale para qualquer presidente: Bolsonaro também se aproximou do centrão em 2021, ao nomear Ciro Nogueira (PP) para a Casa Civil.",
+   "Por isso, quem vence a eleição para presidente não leva automaticamente o Congresso. Para entender o próximo governo, seja de Lula ou de Flávio, vale olhar a composição da Câmara e do Senado tanto quanto o resultado do 2º turno."
+  ],
+  "dados": [
+   {
+    "texto": "Eleição de 2022: Lula 50,90% x Bolsonaro 49,10% no 2º turno. Na Câmara, PL 99 cadeiras; federação do PT 80; União 59; PP 47; PSD 42; MDB 42; Republicanos 41; PSOL-Rede 14; PSB 14; PDT 17.",
+    "fonte": "https://www.camara.leg.br/internet/agencia/infograficos-html5/tabelasEleicoes/bancadas-partidarias.html"
+   },
+   {
+    "texto": "Eleição de 2026 (Câmara): PL 121; federação do PT 88; União Progressista 87; PSD 43; Republicanos 41; MDB 36; Podemos 27; PSOL-Rede 15; PSB 15; PSDB-Cidadania 11; Novo 10; PDT 6. No Senado, o PL ficou com 28 das 81 cadeiras.",
+    "fonte": "https://www12.senado.leg.br/noticias/materias/2026/10/05/camara-pl-obtem-a-maior-bancada-federacao-pt-pcdob-pv-e-a-segunda-forca"
+   },
+   {
+    "texto": "Eleições municipais de 2024: PSD elegeu 891 prefeitos, MDB 864, PP 752, União Brasil 583, PL 517, Republicanos 440, PSB 312 e o PT 252.",
+    "fonte": "https://www.poder360.com.br/poder-eleicoes/saiba-quantos-prefeitos-cada-partido-elegeu-em-2024-2/"
+   },
+   {
+    "texto": "Emendas individuais obrigatórias (EC 86/2015) somam até 1,2% da receita corrente líquida, metade para a saúde; as de bancada (EC 100/2019), até 1%.",
+    "fonte": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc86.htm"
+   },
+   {
+    "texto": "Orçamento secreto (emendas de relator, RP9): cerca de R$ 16 bilhões em 2021 e valor semelhante em 2022; segundo o Estadão, só 4% foi para parlamentares de oposição; o STF declarou a prática inconstitucional em dezembro de 2022.",
+    "fonte": "https://www.metropoles.com/brasil/com-voto-de-lewandowski-stf-forma-maioria-para-derrubar-orcamento-secreto"
+   }
+  ],
+  "mitos": [
+   {
+    "mito": "Se o presidente ganhou, o país escolheu também o Congresso dele.",
+    "fato": "São votações separadas, com regras diferentes. Em 2022, Lula venceu com 50,9%, mas a esquerda ficou com cerca de um quarto da Câmara."
+   },
+   {
+    "mito": "O centrão é de centro.",
+    "fato": "O nome engana. São partidos de perfis variados, muitos de centro-direita, que costumam apoiar o governo de turno, de esquerda ou de direita, em troca de espaço e recursos."
+   },
+   {
+    "mito": "Todo voto vale o mesmo na Câmara.",
+    "fato": "Por causa do mínimo de 8 e do máximo de 70 deputados por estado, um voto em Roraima pesa muito mais do que um voto em São Paulo na hora de formar a bancada."
+   }
+  ],
+  "para_aproximar": "Em vez de culpar o eleitor do 'outro lado' pelo Congresso que temos, vale lembrar que as regras do sistema produzem esse resultado para qualquer presidente. Discutir as regras une mais do que discutir pessoas.",
+  "fontes": [
+   {
+    "titulo": "Bases institucionais do presidencialismo de coalizão (Limongi e Figueiredo, Lua Nova nº 44)",
+    "autor": "Lua Nova / SciELO",
+    "ano": 1998,
+    "url": "https://www.scielo.br/j/ln/a/7P5HPND88kMJCYSmX3hgrZr/"
+   },
+   {
+    "titulo": "Centrão — verbete temático",
+    "autor": "FGV CPDOC",
+    "ano": null,
+    "url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-tematico/centrao"
+   },
+   {
+    "titulo": "Lei Complementar nº 78, de 30 de dezembro de 1993",
+    "autor": "Presidência da República (Planalto)",
+    "ano": 1993,
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp78.htm"
+   },
+   {
+    "titulo": "Emenda Constitucional nº 86, de 17 de março de 2015",
+    "autor": "Presidência da República (Planalto)",
+    "ano": 2015,
+    "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc86.htm"
+   },
+   {
+    "titulo": "Com voto de Lewandowski, STF forma maioria para derrubar orçamento secreto",
+    "autor": "Metrópoles",
+    "ano": 2022,
+    "url": "https://www.metropoles.com/brasil/com-voto-de-lewandowski-stf-forma-maioria-para-derrubar-orcamento-secreto"
+   },
+   {
+    "titulo": "Saiba quantos prefeitos cada partido elegeu em 2024",
+    "autor": "Poder360",
+    "ano": 2024,
+    "url": "https://www.poder360.com.br/poder-eleicoes/saiba-quantos-prefeitos-cada-partido-elegeu-em-2024-2/"
+   },
+   {
+    "titulo": "TSE conclui totalização de votos pouco depois da meia-noite",
+    "autor": "Agência Brasil",
+    "ano": 2022,
+    "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2022-10/tse-conclui-totalizacao-de-votos-pouco-depois-da-meia-noite"
+   },
+   {
+    "titulo": "Câmara: PL obtém a maior bancada; federação PT-PCdoB-PV é a segunda força",
+    "autor": "Agência Senado",
+    "ano": 2026,
+    "url": "https://www12.senado.leg.br/noticias/materias/2026/10/05/camara-pl-obtem-a-maior-bancada-federacao-pt-pcdob-pv-e-a-segunda-forca"
+   }
+  ]
+ }
+]

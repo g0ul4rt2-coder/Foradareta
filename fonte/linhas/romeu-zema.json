@@ -1,0 +1,348 @@
+{
+ "id": "romeu-zema",
+ "nome": "Romeu Zema",
+ "eventos": [
+  {
+   "data": "1964-10-28",
+   "tipo": "origem",
+   "titulo": "Nasce em Araxá (MG)",
+   "texto": "Romeu Zema Neto nasce em Araxá, Minas Gerais. Forma-se em Administração pela FGV, em São Paulo.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026"
+  },
+  {
+   "data": "1990",
+   "tipo": "carreira",
+   "titulo": "Comanda o Grupo Zema",
+   "texto": "Assume em 1991 o controle das Lojas Zema, braço varejista do Grupo Zema (varejo, combustíveis e outros negócios da família), e deixa o controle do grupo em 2016, quando se afasta.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://www.agenciaminas.mg.gov.br/ckeditor_assets/attachments/18483/perfil_romeu_zema_v.pdf"
+  },
+  {
+   "data": "2018",
+   "tipo": "alianca",
+   "titulo": "Filia-se ao Novo",
+   "texto": "Entra no Partido Novo para disputar o governo de Minas, em sua primeira eleição.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://www.agenciaminas.mg.gov.br/ckeditor_assets/attachments/18483/perfil_romeu_zema_v.pdf"
+  },
+  {
+   "data": "2018-10",
+   "tipo": "alianca",
+   "titulo": "Apoia Bolsonaro no 2º turno",
+   "texto": "Declara apoio a Jair Bolsonaro na disputa presidencial do 2º turno.",
+   "status": null,
+   "pessoas": [
+    "jair-bolsonaro"
+   ],
+   "fonte": "https://tribunademinas.com.br/noticias/politica/10-10-2018/anastasia-e-zema-trocam-farpas-sobre-possivel-apoio-de-pimentel.html"
+  },
+  {
+   "data": "2018-10-07",
+   "tipo": "eleicao",
+   "titulo": "Lidera o 1º turno em Minas",
+   "texto": "Termina o 1º turno em 1º lugar, com 42,73% dos votos válidos, à frente de Antonio Anastasia (PSDB) e do governador Fernando Pimentel (PT).",
+   "status": null,
+   "pessoas": [
+    "antonio-anastasia",
+    "fernando-pimentel"
+   ],
+   "fonte": "https://tribunademinas.com.br/?p=288282"
+  },
+  {
+   "data": "2018-10-28",
+   "tipo": "eleicao",
+   "titulo": "Eleito governador",
+   "texto": "Vence Anastasia no 2º turno com 71,8% dos votos válidos.",
+   "status": null,
+   "pessoas": [
+    "antonio-anastasia"
+   ],
+   "fonte": "https://www.poder360.com.br/eleicoes/romeu-zema-novo-e-eleito-governador-de-minas-gerais/"
+  },
+  {
+   "data": "2019-01-01",
+   "tipo": "cargo",
+   "titulo": "Toma posse em Minas",
+   "texto": "Assume o governo de Minas Gerais, sem nunca ter exercido cargo público, com Paulo Brant como vice.",
+   "status": null,
+   "pessoas": [
+    "paulo-brant"
+   ],
+   "fonte": "https://www.agenciaminas.mg.gov.br/noticia/governador-eleito-romeu-zema-e-empossado-na-assembleia-legislativa-e-da-inicio-a-gestao-do-novo-governo-de-minas-gerais"
+  },
+  {
+   "data": "2020-03",
+   "tipo": "ruptura",
+   "titulo": "Vice deixa o Novo",
+   "texto": "Em meio a atritos entre o Novo e o governo pelo reajuste de 41,7% a policiais e bombeiros, o vice-governador Paulo Brant deixa o partido Novo.",
+   "status": null,
+   "pessoas": [
+    "paulo-brant"
+   ],
+   "fonte": "https://www.em.com.br/app/noticia/politica/2020/03/11/interna_politica,1128079/vice-governador-de-minas-anuncia-saida-do-partido-novo.shtml"
+  },
+  {
+   "data": "2020-09-04",
+   "tipo": "governo",
+   "titulo": "Aprova reforma da Previdência estadual",
+   "texto": "A Assembleia aprova a reforma da Previdência dos servidores proposta pelo governo, com alíquotas de 11% a 16%.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://www.brasildefato.com.br/2020/09/04/reforma-previdenciaria-de-zema-e-aprovada-saiba-o-que-muda"
+  },
+  {
+   "data": "2021-07-16",
+   "tipo": "governo",
+   "titulo": "Fim do parcelamento de salários",
+   "texto": "Anuncia o fim do pagamento parcelado dos salários dos servidores, que vinha desde 2016.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://tribunademinas.com.br/noticias/minas/16-07-2021/governador-romeu-zema-anuncia-o-fim-do-parcelamento-dos-salarios.html?amp=1"
+  },
+  {
+   "data": "2022-10-02",
+   "tipo": "eleicao",
+   "titulo": "Reeleito no 1º turno",
+   "texto": "Reeleito com 56,18% dos votos, contra Alexandre Kalil (PSD). Mateus Simões passa a ser o vice.",
+   "status": null,
+   "pessoas": [
+    "alexandre-kalil",
+    "mateus-simoes"
+   ],
+   "fonte": "https://www.cnnbrasil.com.br/politica/romeu-zema-e-reeleito-governador-de-mg-no-1o-turno-eleicoes-2022/"
+  },
+  {
+   "data": "2023-05-03",
+   "tipo": "governo",
+   "titulo": "Sanciona aumento do próprio salário",
+   "texto": "Sanciona lei que eleva o salário do governador de cerca de R$ 10,5 mil para R$ 41.845 até 2025, com efeito para vice e secretários.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://sbtnews.sbt.com.br/noticia/brasil/246558-governador-de-mg-sanciona-lei-que-reajusta-proprio-salario-em-quase-300"
+  },
+  {
+   "data": "2023-07",
+   "tipo": "investigacao",
+   "titulo": "MP-MG apura obra em estrada até sítio da família",
+   "texto": "O Ministério Público de Minas abre 'notícia de fato' (apuração preliminar) sobre suposto favorecimento pessoal na recuperação, por R$ 41,2 milhões, de 107 km da MG-428, que leva ao sítio da família de Zema em Rifaina (SP). O pedido partiu de deputada de oposição. O governo disse que não se manifestaria.",
+   "status": "Apuração preliminar do MP-MG (pode ser arquivada ou virar ação); não localizei desfecho",
+   "pessoas": [],
+   "fonte": "https://www.folhape.com.br/politica/mp-vai-apurar-suposto-favorecimento-de-zema-em-reforma-de-estrada-que/280090/"
+  },
+  {
+   "data": "2024-03-18",
+   "tipo": "decisao",
+   "titulo": "STF arquiva pedido de investigação",
+   "texto": "O ministro Kassio Nunes Marques arquiva pedido do PSOL-MG para investigar Zema e Nikolas Ferreira por suposto uso de dinheiro público na ida ao ato de Bolsonaro na Paulista. Ele entendeu que esse tipo de pedido deve ir à PGR, não ao STF. A autora disse que recorreria.",
+   "status": "Pedido arquivado (sem abertura de investigação)",
+   "pessoas": [
+    "nunes-marques",
+    "nikolas-ferreira"
+   ],
+   "fonte": "https://www.opovo.com.br/noticias/politica/2024/03/18/kassio-arquiva-pedido-de-investigacao-contra-zema-e-nikolas-por-ida-a-ato-de-bolsonaro.html"
+  },
+  {
+   "data": "2024-05-14",
+   "tipo": "decisao",
+   "titulo": "TSE nega cassação e aplica multa",
+   "texto": "Por unanimidade, o TSE rejeita a cassação pedida pela coligação adversária por abuso de poder em 2022, mas multa Zema em R$ 5 mil porque propaganda institucional ficou disponível em sites oficiais no período proibido. A defesa falou em falha nos sistemas.",
+   "status": "Abuso de poder afastado; multa de R$ 5 mil por conduta vedada",
+   "pessoas": [
+    "mateus-simoes"
+   ],
+   "fonte": "https://sbtnews.sbt.com.br/noticia/justica/tse-multa-zema-por-publicidade-institucional-nas-eleicoes-de-2022"
+  },
+  {
+   "data": "2024-10",
+   "tipo": "decisao",
+   "titulo": "TCE-MG suspende edital de gestão de escolas",
+   "texto": "O Tribunal de Contas do Estado suspende o edital que ampliava o Projeto Somar, de gestão de escolas estaduais por organizações da sociedade civil.",
+   "status": "Decisão administrativa sobre programa do governo, não sobre a pessoa de Zema",
+   "pessoas": [],
+   "fonte": "https://www.brasildefato.com.br/2024/10/31/tce-mg-suspende-edital-do-projeto-somar-que-preve-terceirizacao-da-gestao-de-escolas-publicas"
+  },
+  {
+   "data": "2025-08-16",
+   "tipo": "eleicao",
+   "titulo": "Lança pré-candidatura a presidente",
+   "texto": "Lança em São Paulo a pré-candidatura à Presidência pelo Novo. Em julho, havia se encontrado com Bolsonaro.",
+   "status": null,
+   "pessoas": [
+    "jair-bolsonaro"
+   ],
+   "fonte": "https://www.oliberal.com/politica/zema-se-lanca-a-presidencia-e-diz-que-vai-combater-lulismo-e-perseguicoes-de-moraes-1.1007265"
+  },
+  {
+   "data": "2025-12-31",
+   "tipo": "governo",
+   "titulo": "Adere ao Propag",
+   "texto": "Assina adesão ao Propag, programa federal de renegociação de dívidas, reconhecendo dívida de R$ 179,3 bilhões com a União, a pagar em 30 anos.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://ofator.com.br/informacao/divida-reconhecida-por-minas-em-contrato-com-a-uniao-supera-projecao-feita-sete-meses-antes/"
+  },
+  {
+   "data": "2026-03-20",
+   "tipo": "investigacao",
+   "titulo": "MP-MG apura queda de gastos com chuvas",
+   "texto": "O Ministério Público de Minas abre inquérito sobre a queda de 96% nos pagamentos do estado para resposta às chuvas (de R$ 134,8 mi em 2023 para R$ 5,8 mi em 2025). A manchete fala em 'MP investiga Zema', mas o texto descreve apuração sobre os gastos do governo estadual, aberta após pedido de deputados de oposição, sem detalhar quem é investigado; o governo diz ter gasto mais de R$ 170 mi em prevenção desde 2022.",
+   "status": "Inquérito do MP-MG sobre gastos do governo estadual; a reportagem não detalha se Zema é formalmente investigado; sem conclusão localizada",
+   "pessoas": [],
+   "fonte": "https://oantagonista.com.br/?p=1913293"
+  },
+  {
+   "data": "2026-03-22",
+   "tipo": "cargo",
+   "titulo": "Renuncia ao governo",
+   "texto": "Deixa o governo de Minas para disputar a Presidência. Assume o vice Mateus Simões, já filiado ao PSD.",
+   "status": null,
+   "pessoas": [
+    "mateus-simoes"
+   ],
+   "fonte": "https://sbtnews.sbt.com.br/noticia/politica/zema-renuncia-ao-governo-de-mg-e-mateus-simoes-assume-o-cargo"
+  },
+  {
+   "data": "2026-04-20",
+   "tipo": "investigacao",
+   "titulo": "Gilmar pede investigação de Zema",
+   "texto": "O ministro Gilmar Mendes pede ao STF que Zema seja incluído no inquérito das fake news por compartilhar sátira com bonecos de Gilmar e Dias Toffoli ligada ao caso Banco Master. Alexandre de Moraes pede parecer da PGR antes de decidir.",
+   "status": "Moraes pediu parecer da PGR; não localizei decisão sobre a inclusão de Zema no inquérito. Em 15/05/2026 a PGR denunciou Zema ao STJ por calúnia, pelos mesmos vídeos",
+   "pessoas": [
+    "gilmar-mendes",
+    "alexandre-de-moraes",
+    "dias-toffoli"
+   ],
+   "fonte": "https://tribunademinas.com.br/noticias/politica/21-04-2026/apos-gilmar-mendes-pedir-para-stf-investigar-zema-oposicao-articula-impeachment-do-ministro.html?amp=1"
+  },
+  {
+   "data": "2026-05-13",
+   "tipo": "ruptura",
+   "titulo": "Critica Flávio por mensagens a Vorcaro",
+   "texto": "Diz que ver Flávio Bolsonaro 'cobrando dinheiro do Vorcaro' para um filme sobre o pai é 'imperdoável' e 'um tapa na cara dos brasileiros de bem'. Carlos e Eduardo Bolsonaro reagem nas redes.",
+   "status": null,
+   "pessoas": [
+    "flavio-bolsonaro",
+    "daniel-vorcaro"
+   ],
+   "fonte": "https://www.oliberal.com/politica/zema-ouvir-flavio-cobrando-dinheiro-a-vorcaro-e-imperdoavel-e-um-tapa-na-cara-dos-brasileiros-1.1120964"
+  },
+  {
+   "data": "2026-05-15",
+   "tipo": "denuncia",
+   "titulo": "PGR denuncia Zema por calúnia contra Gilmar",
+   "texto": "O procurador-geral Paulo Gonet denuncia Zema ao STJ por calúnia: para a PGR, os vídeos 'Os intocáveis' passam da crítica e da sátira ao atribuir ao ministro conduta criminosa específica. Zema responde que 'os intocáveis não aceitam críticas' e que não vai 'recuar um milímetro'.",
+   "status": "Denunciado; STJ ainda não decidiu se recebe a denúncia (não é réu)",
+   "pessoas": [
+    "gilmar-mendes",
+    "paulo-gonet"
+   ],
+   "fonte": "https://sbtnews.sbt.com.br/noticia/justica/pgr-denuncia-romeu-zema-por-video-com-criticas-a-ministros-do-stf"
+  },
+  {
+   "data": "2026-06-01",
+   "tipo": "processo",
+   "titulo": "STJ abre prazo para defesa",
+   "texto": "O STJ dá 15 dias para Zema apresentar defesa prévia. Só depois o tribunal decide se aceita a denúncia; se aceitar, ele vira réu.",
+   "status": "Denunciado; aguardando decisão sobre o recebimento da denúncia",
+   "pessoas": [],
+   "fonte": "https://congressoemfoco.com.br/noticia/119336/stj-da-15-dias-para-zema-se-defender-em-acao-por-calunia-contra-gilmar"
+  },
+  {
+   "data": "2026-07-27",
+   "tipo": "eleicao",
+   "titulo": "Novo oficializa a candidatura",
+   "texto": "Convenção nacional do Novo, em Brasília, confirma Zema candidato. Em 04/08, o senador Eduardo Girão (Novo-CE) é anunciado como vice.",
+   "status": null,
+   "pessoas": [
+    "eduardo-girao"
+   ],
+   "fonte": "https://www.em.com.br/politica/2026/08/7473702-eduardo-girao-sera-o-vice-de-zema.html"
+  },
+  {
+   "data": "2026-08-11",
+   "tipo": "declaracao",
+   "titulo": "Fala sobre planejamento do 8 de janeiro",
+   "texto": "Em entrevista, ao comentar acusações sobre o planejamento dos atos de 8 de janeiro, diz que 'uma coisa é executar, outra coisa é idealizar'.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://m.imirante.com/noticias/brasil/2026/08/11/ipolitica-romeu-zema-diz-que-planejar-8-de-janeiro-nao-e-crime"
+  },
+  {
+   "data": "2026-09-23",
+   "tipo": "decisao",
+   "titulo": "TSE manda retirar jingle feito com IA",
+   "texto": "O presidente do TSE, Nunes Marques, manda remover clipe de jingle que mostra Lula e ministros do STF como presos. Para ele, não é deepfake, mas sugere crimes e passa da crítica política. Zema chamou a decisão de 'censura contra uma sátira'.",
+   "status": "Remoção por liminar; decisão enviada ao plenário do TSE para referendo",
+   "pessoas": [
+    "nunes-marques",
+    "lula",
+    "eduardo-girao"
+   ],
+   "fonte": "https://www.dgabc.com.br/Noticia/4348670/tse-manda-zema-retirar-clipe-de-jingle-que-mostra-lula-e-ministros-do-stf-presos"
+  },
+  {
+   "data": "2026-10-04",
+   "tipo": "eleicao",
+   "titulo": "6º lugar no 1º turno",
+   "texto": "Recebe 326.488 votos (0,27%).",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://portaldeprefeitura.com.br/bastidores-da-politica/eleicoes-2026-com-100-das-secoes-totalizadas-flavio-tem-4703-e/633498/"
+  },
+  {
+   "data": "2026-10-05",
+   "tipo": "alianca",
+   "titulo": "Declara voto em Flávio",
+   "texto": "Em vídeo, diz que não ficará 'em cima do muro' e que votará em Flávio Bolsonaro contra o PT: 'O Brasil não aguenta mais quatro anos de Lula'.",
+   "status": null,
+   "pessoas": [
+    "flavio-bolsonaro",
+    "lula"
+   ],
+   "fonte": "https://www.oliberal.com/politica/zema-declara-apoio-a-flavio-bolsonaro-no-segundo-turno-1.1177577"
+  },
+  {
+   "data": "2026-10-21",
+   "tipo": "decisao",
+   "titulo": "TSE manda apagar vídeo de sátira de Lula",
+   "texto": "O ministro André Mendonça manda remover em três horas vídeo de fevereiro com sátira de Lula feita com IA, por ter características de deepfake sem aviso claro de uso de IA. Ele ressalvou que a crítica política em si é protegida. Eventual multa será decidida depois.",
+   "status": "Remoção determinada; eventual multa pendente, após defesa",
+   "pessoas": [
+    "andre-mendonca",
+    "lula"
+   ],
+   "fonte": "https://www.congressoemfoco.com.br/noticia/123472/tse-ve-uso-irregular-de-ia-e-manda-retirar-video-de-zema-sobre-lula"
+  }
+ ],
+ "resumo_juridico": "Zema não é réu em ação penal e não tem condenação criminal. Desde 15/05/2026 está denunciado pela PGR ao STJ por calúnia contra o ministro Gilmar Mendes (vídeos 'Os intocáveis'); em 01/06/2026 o STJ abriu prazo para defesa prévia e, até a última informação localizada, não havia decidido se recebe a denúncia — só se ela for recebida ele se torna réu. Zema diz que se trata de crítica e sátira. Na Justiça Eleitoral, o TSE negou em 2024 a cassação por abuso de poder em 2022, mas aplicou multa de R$ 5 mil por propaganda institucional em período proibido; em 2026, teve dois vídeos de campanha mandados retirar (jingle com IA, em liminar a ser referendada, e vídeo de sátira com IA, com multa ainda a decidir). Um pedido de investigação por uso de verba pública em viagem (2024) foi arquivado pelo STF. Há inquérito do MP-MG sobre a queda dos gastos do governo com chuvas (a manchete diz 'MP investiga Zema', mas a reportagem não detalha se ele é formalmente investigado) e, desde 2023, uma apuração preliminar do MP-MG sobre obra em estrada que leva ao sítio da família; não localizei desfecho de nenhuma das duas. Decisões do TCE-MG suspenderam programas do governo, não atingem a pessoa de Zema.",
+ "fontes": [
+  "https://agenciabrasil.ebc.com.br/politica/noticia/2026-08/mineiro-romeu-zema-concorrera-presidencia-pelo-novo",
+  "https://www.brasildefato.com.br/2020/09/04/reforma-previdenciaria-de-zema-e-aprovada-saiba-o-que-muda",
+  "https://tribunademinas.com.br/noticias/minas/16-07-2021/governador-romeu-zema-anuncia-o-fim-do-parcelamento-dos-salarios.html?amp=1",
+  "https://sbtnews.sbt.com.br/noticia/brasil/246558-governador-de-mg-sanciona-lei-que-reajusta-proprio-salario-em-quase-300",
+  "https://www.opovo.com.br/noticias/politica/2024/03/18/kassio-arquiva-pedido-de-investigacao-contra-zema-e-nikolas-por-ida-a-ato-de-bolsonaro.html",
+  "https://sbtnews.sbt.com.br/noticia/justica/tse-multa-zema-por-publicidade-institucional-nas-eleicoes-de-2022",
+  "https://www.brasildefato.com.br/2024/10/31/tce-mg-suspende-edital-do-projeto-somar-que-preve-terceirizacao-da-gestao-de-escolas-publicas",
+  "https://ofator.com.br/informacao/divida-reconhecida-por-minas-em-contrato-com-a-uniao-supera-projecao-feita-sete-meses-antes/",
+  "https://oantagonista.com.br/?p=1913293",
+  "https://sbtnews.sbt.com.br/noticia/politica/zema-renuncia-ao-governo-de-mg-e-mateus-simoes-assume-o-cargo",
+  "https://tribunademinas.com.br/noticias/politica/21-04-2026/apos-gilmar-mendes-pedir-para-stf-investigar-zema-oposicao-articula-impeachment-do-ministro.html?amp=1",
+  "https://www.oliberal.com/politica/zema-ouvir-flavio-cobrando-dinheiro-a-vorcaro-e-imperdoavel-e-um-tapa-na-cara-dos-brasileiros-1.1120964",
+  "https://sbtnews.sbt.com.br/noticia/justica/pgr-denuncia-romeu-zema-por-video-com-criticas-a-ministros-do-stf",
+  "https://congressoemfoco.com.br/noticia/119336/stj-da-15-dias-para-zema-se-defender-em-acao-por-calunia-contra-gilmar",
+  "https://www.em.com.br/politica/2026/08/7473702-eduardo-girao-sera-o-vice-de-zema.html",
+  "https://m.imirante.com/noticias/brasil/2026/08/11/ipolitica-romeu-zema-diz-que-planejar-8-de-janeiro-nao-e-crime",
+  "https://www.dgabc.com.br/Noticia/4348670/tse-manda-zema-retirar-clipe-de-jingle-que-mostra-lula-e-ministros-do-stf-presos",
+  "https://portaldeprefeitura.com.br/bastidores-da-politica/eleicoes-2026-com-100-das-secoes-totalizadas-flavio-tem-4703-e/633498/",
+  "https://www.oliberal.com/politica/zema-declara-apoio-a-flavio-bolsonaro-no-segundo-turno-1.1177577",
+  "https://www.congressoemfoco.com.br/noticia/123472/tse-ve-uso-irregular-de-ia-e-manda-retirar-video-de-zema-sobre-lula",
+  {
+   "titulo": "MP vai apurar suposto favorecimento de Zema em reforma de estrada (Folha PE)",
+   "url": "https://www.folhape.com.br/politica/mp-vai-apurar-suposto-favorecimento-de-zema-em-reforma-de-estrada-que/280090/"
+  }
+ ]
+}

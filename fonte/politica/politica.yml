@@ -1,0 +1,47 @@
+name: Politica
+
+# Votações, parlamentares e pauta (dados abertos da Câmara e do Senado).
+# Duas vezes por dia atualiza votações e o resumo da semana; às segundas também refaz
+# projetos e discursos de cada deputado (mais demorado).
+on:
+  schedule:
+    - cron: "23 10,22 * * *"
+    - cron: "47 7 * * 1"
+  workflow_dispatch:
+    inputs:
+      perfis:
+        description: "Refazer projetos e discursos de cada deputado"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publicar
+  cancel-in-progress: false
+
+jobs:
+  coletar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - name: Coletar dados abertos
+        run: |
+          ARGS="--out ."
+          if [ "${{ github.event.schedule }}" = "47 7 * * 1" ] || [ "${{ inputs.perfis }}" = "true" ]; then ARGS="$ARGS --perfis"; fi
+          python3 politica/coletar.py $ARGS
+      - name: Publicar se mudou
+        run: |
+          git config user.name "fora-da-reta-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pol
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "politica: dados abertos atualizados"
+          for i in 1 2 3; do
+            if git push; then exit 0; fi
+            git fetch origin main
+            git rebase -X theirs origin/main || { git rebase --abort; exit 1; }
+            sleep 3
+          done

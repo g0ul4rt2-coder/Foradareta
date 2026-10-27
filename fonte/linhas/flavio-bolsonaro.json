@@ -1,0 +1,622 @@
+{
+ "id": "flavio-bolsonaro",
+ "nome": "Flávio Bolsonaro",
+ "eventos": [
+  {
+   "data": "1981-04-30",
+   "tipo": "origem",
+   "titulo": "Nasce em Resende (RJ)",
+   "texto": "Flávio Nantes Bolsonaro nasce em Resende (RJ). É o filho mais velho de Jair Bolsonaro. Formou-se em Direito.",
+   "status": null,
+   "pessoas": [
+    "jair-bolsonaro"
+   ],
+   "fonte": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5894"
+  },
+  {
+   "data": "2002-10",
+   "tipo": "eleicao",
+   "titulo": "Eleito deputado estadual",
+   "texto": "Aos 21 anos, é eleito deputado estadual no Rio de Janeiro e assume em 2003. É reeleito em 2006, 2010 e 2014 e fica na Alerj (Assembleia Legislativa do RJ) até 2019.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2018/noticia/2018/10/07/rj-elege-flavio-bolsonaro-para-o-senado.ghtml"
+  },
+  {
+   "data": "2005",
+   "tipo": "declaracao",
+   "titulo": "Medalha a Adriano da Nóbrega",
+   "texto": "Na Alerj, propõe em junho de 2005 a Medalha Tiradentes, maior honraria da Assembleia, para o PM Adriano da Nóbrega, então preso preventivamente sob acusação de homicídio; o plenário aprova em agosto. Adriano foi condenado em outubro de 2005, a condenação foi anulada pelo TJ-RJ em 2006 e ele foi absolvido em novo julgamento em janeiro de 2007.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://exame.com/brasil/ex-pm-estava-preso-quando-recebeu-homenagem-de-flavio-bolsonaro/"
+  },
+  {
+   "data": "2014",
+   "tipo": "carreira",
+   "titulo": "Primeiro projeto 'Escola sem Partido'",
+   "texto": "Apresenta na Alerj o PL 2974/2014, o primeiro projeto com o nome 'Programa Escola sem Partido'.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://ihu.unisinos.br/categorias/557506-polemico-projeto-do-escola-sem-partido-tramita-em-5-estados-8-capitais-e-df"
+  },
+  {
+   "data": "2016-10",
+   "tipo": "eleicao",
+   "titulo": "Perde eleição para prefeito do Rio",
+   "texto": "Candidato a prefeito do Rio pelo PSC, fica em 4º lugar, com 424 mil votos (14% dos válidos).",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://dadosabertos.tse.jus.br/dataset/resultados-2016"
+  },
+  {
+   "data": "2018-10-07",
+   "tipo": "eleicao",
+   "titulo": "Eleito senador pelo Rio",
+   "texto": "Pelo PSL, é eleito senador com 4.380.418 votos (31,36% dos válidos), no ano em que o pai é eleito presidente; assume em fevereiro de 2019 e vira 3º secretário da Mesa do Senado. No dia da votação, publica vídeo de urna que 'completaria' o voto em Haddad; o TRE-MG diz que era falso e ele apaga.",
+   "status": null,
+   "pessoas": [
+    "jair-bolsonaro"
+   ],
+   "fonte": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2018/noticia/2018/10/07/rj-elege-flavio-bolsonaro-para-o-senado.ghtml"
+  },
+  {
+   "data": "2018-12-06",
+   "tipo": "investigacao",
+   "titulo": "Coaf aponta movimentação de Queiroz",
+   "texto": "Relatório do Coaf (órgão federal que monitora transações suspeitas) aponta R$ 1,24 milhão em movimentação atípica na conta de Fabrício Queiroz, PM e ex-assessor de Flávio na Alerj, entre 2016 e 2017, com depósitos de funcionários do gabinete. Surge a suspeita de 'rachadinha': quando o político fica com parte do salário dos assessores. Queiroz diz ao SBT que o dinheiro vinha de negócios com venda de carros, sem explicar os depósitos de colegas de gabinete.",
+   "status": "Investigado pelo MP-RJ (2018–2022); denúncia de 2020 rejeitada pelo TJ-RJ em 16/05/2022, a pedido do MP, sem julgamento de mérito",
+   "pessoas": [
+    "fabricio-queiroz"
+   ],
+   "fonte": "https://www.metropoles.com/brasil/justica/do-coaf-ao-hospital-entenda-o-caso-queiroz-em-6-capitulos"
+  },
+  {
+   "data": "2019-01-17",
+   "tipo": "decisao",
+   "titulo": "Pede ao STF para parar investigação",
+   "texto": "Já eleito senador, pede ao STF a suspensão da investigação sobre Queiroz, alegando direito a foro no STF. O ministro Luiz Fux, de plantão no recesso, suspende provisoriamente a apuração (decisão divulgada em 17/01/2019). No dia seguinte, a TV Globo divulga dados do Coaf com 48 depósitos de R$ 2 mil na conta de Flávio em 2017. Em 27/09/2019 Gilmar Mendes também suspende a apuração, que só é retomada em novembro de 2019, quando o STF decide que dados da Receita e do Coaf podem ser compartilhados sem autorização judicial prévia (depósitos: Jornal Nacional/G1, 18/01/2019; Gilmar e retomada: G1, 29/11/2019).",
+   "status": "Denúncia de 2020 rejeitada pelo TJ-RJ em 16/05/2022, a pedido do MP, após anulação de provas; sem julgamento de mérito",
+   "pessoas": [
+    "luiz-fux",
+    "gilmar-mendes"
+   ],
+   "fonte": "https://www.em.com.br/app/noticia/politica/2019/01/17/interna_politica,1022239/membros-de-pt-psol-e-mbl-criticam-suspensao-de-investigacao-sobre-que.shtml"
+  },
+  {
+   "data": "2019-10-22",
+   "tipo": "carreira",
+   "titulo": "Vota a favor da reforma da Previdência",
+   "texto": "No Senado, vota Sim, em 2º turno, na reforma da Previdência (PEC 6/2019).",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://www25.senado.leg.br/web/atividade/materias/-/materia/137999"
+  },
+  {
+   "data": "2019-12-18",
+   "tipo": "investigacao",
+   "titulo": "Buscas e loja de chocolates",
+   "texto": "O MP-RJ cumpre 24 mandados de busca. Em documento, aponta Flávio como líder de organização criminosa e Queiroz como operador, que teria recebido cerca de R$ 2 milhões de 13 ex-assessores. Suspeita de lavagem via loja de chocolates (franquia Kopenhagen) e imóveis em Copacabana. Segundo o MP, a mãe e a ex-mulher do ex-PM Adriano da Nóbrega (apontado pelo MP, em outra investigação, como chefe de milícia) foram empregadas no gabinete, e mensagens indicariam que a ex-mulher era funcionária 'fantasma'. A defesa recorre ao STF.",
+   "status": "Denúncia de 2020 rejeitada pelo TJ-RJ em 16/05/2022, a pedido do MP, após anulação de provas; sem julgamento de mérito",
+   "pessoas": [
+    "fabricio-queiroz"
+   ],
+   "fonte": "https://www.terra.com.br/noticias/brasil/politica/flavio-bolsonaro-e-chefe-de-organizacao-criminosa-diz-mp,2309535c86b1d93b6736a65207e1b427c8s8z19s.html"
+  },
+  {
+   "data": "2020-02",
+   "tipo": "investigacao",
+   "titulo": "PF não vê crime em inquérito eleitoral",
+   "texto": "Em outra apuração, da Polícia Federal, sobre negócios com imóveis e a declaração de bens de Flávio na eleição de 2018, a PF conclui, segundo a Folha de S.Paulo, não haver indícios de lavagem de dinheiro ou falsidade ideológica.",
+   "status": "Relatório da PF sem indícios de crime; não localizei denúncia nesse inquérito",
+   "pessoas": [],
+   "fonte": "https://istoe.com.br/pf-nao-ve-indicios-de-participacao-de-flavio-bolsonaro-em-dois-crimes/"
+  },
+  {
+   "data": "2020-06-18",
+   "tipo": "investigacao",
+   "titulo": "Queiroz é preso em Atibaia",
+   "texto": "Fabrício Queiroz é preso numa casa em Atibaia (SP) do advogado Frederick Wassef, que defendia Flávio e a família Bolsonaro. A prisão (Operação Anjo) foi decretada pelo juiz de 1ª instância a pedido do MP-RJ (local em Atibaia: fonte G1, 18/06/2020).",
+   "status": "Prisão depois anulada pelo STJ (09/11/2021)",
+   "pessoas": [
+    "fabricio-queiroz",
+    "frederick-wassef"
+   ],
+   "fonte": "https://www.cnnbrasil.com.br/politica/stj-anula-decisoes-contra-flavio-bolsonaro-no-caso-das-rachadinhas/"
+  },
+  {
+   "data": "2020-09-04",
+   "tipo": "decisao",
+   "titulo": "Liminar proíbe Globo de mostrar documentos",
+   "texto": "Obtém liminar da 33ª Vara Cível do Rio que proíbe a TV Globo de exibir documentos da investigação das rachadinhas. Flávio comemora a decisão e diz não ter 'nada a esconder'; nas redes, críticos chamam a medida de censura.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://congressoemfoco.com.br/legislativo/juiza-proibe-globo-de-exibir-documentos-sobre-investigacoes-de-flavio-bolsonaro"
+  },
+  {
+   "data": "2020-10-19",
+   "tipo": "denuncia",
+   "titulo": "MP-RJ denuncia Flávio e Queiroz",
+   "texto": "O MP-RJ apresenta denúncia (ajuizada em 19/10/2020 e divulgada em 04/11) contra Flávio, Queiroz e mais 15 pessoas por peculato, lavagem de dinheiro, apropriação indébita e organização criminosa, de 2007 a 2018, no gabinete da Alerj. Segundo o MP, o desvio foi de R$ 6,1 milhões, com 12 'assessores fantasmas'. A defesa diz que a denúncia 'não se sustenta' e é 'desprovida de qualquer indício de prova'.",
+   "status": "Denunciado; a denúncia não chegou a ser recebida (ele não virou réu) e foi rejeitada pelo TJ-RJ em 16/05/2022, a pedido do MP, após anulação de provas",
+   "pessoas": [
+    "fabricio-queiroz"
+   ],
+   "fonte": "https://www.congressoemfoco.com.br/corrupcao/mp-denuncia-flavio-bolsonaro-e-queiroz-por-rachadinhas/"
+  },
+  {
+   "data": "2021-02-02",
+   "tipo": "investigacao",
+   "titulo": "Compra mansão em Brasília",
+   "texto": "Registra a compra de uma casa no Lago Sul (Brasília) por R$ 5,97 milhões, com R$ 3,1 milhões financiados pelo BRB, banco do governo do DF. Em 2018 havia declarado R$ 1,74 milhão em bens. A defesa diz que ele e a esposa têm outras rendas (advocacia, empresas, odontologia).",
+   "status": "Sem processo criminal conhecido; ação civil pública de Érika Kokay (PT) contra o financiamento, desfecho não localizado",
+   "pessoas": [],
+   "fonte": "https://www.correiobraziliense.com.br/politica/2022/06/5012206-flavio-bolsonaro-justifica-compra-de-mansao-com-outras-fontes-de-renda.html"
+  },
+  {
+   "data": "2021-11-09",
+   "tipo": "anulacao",
+   "titulo": "STJ anula decisões do caso",
+   "texto": "Por 4 a 1, a 5ª Turma do STJ decide que o juiz de 1ª instância não era competente, porque o caso deveria estar no Órgão Especial do TJ-RJ. Anula as quebras de sigilo bancário, fiscal e telefônico, as buscas e a prisão de Queiroz. Flávio fala em 'investigação ilegal' e 'perseguição'.",
+   "status": "Provas anuladas por incompetência do juízo",
+   "pessoas": [
+    "fabricio-queiroz"
+   ],
+   "fonte": "https://www.cnnbrasil.com.br/politica/stj-anula-decisoes-contra-flavio-bolsonaro-no-caso-das-rachadinhas/"
+  },
+  {
+   "data": "2021-11-30",
+   "tipo": "alianca",
+   "titulo": "Filia-se ao PL com o pai",
+   "texto": "Entra no PL, presidido por Valdemar Costa Neto, mesmo dia em que Jair Bolsonaro se filia ao partido. Antes passou por PP, PSC, PSL, Republicanos e Patriota.",
+   "status": null,
+   "pessoas": [
+    "jair-bolsonaro",
+    "valdemar-costa-neto"
+   ],
+   "fonte": "https://www.cnnbrasil.com.br/blogs/jussara-soares/politica/tse-restabelece-filiacao-de-flavio-ao-pl-e-libera-registro-de-candidatura/"
+  },
+  {
+   "data": "2021-11-30",
+   "tipo": "anulacao",
+   "titulo": "STF anula relatórios do Coaf",
+   "texto": "A 2ª Turma do STF reconhece que Flávio tinha direito a foro no Órgão Especial do TJ-RJ e, em outro recurso, anula 4 relatórios do Coaf pedidos pelo MP-RJ em 2018, porque Flávio só foi incluído formalmente na investigação meses depois. O relator foi Gilmar Mendes; Edson Fachin ficou vencido nos dois julgamentos.",
+   "status": "Provas anuladas (vício na obtenção), sem julgamento sobre culpa",
+   "pessoas": [
+    "gilmar-mendes",
+    "edson-fachin"
+   ],
+   "fonte": "https://www.poder360.com.br/justica/stf-anula-4-relatorios-do-coaf-que-miravam-flavio-no-caso-das-rachadinhas/"
+  },
+  {
+   "data": "2022-05-16",
+   "tipo": "decisao",
+   "titulo": "Rachadinha: denúncia rejeitada",
+   "texto": "A pedido do próprio MP-RJ, o TJ-RJ rejeita a denúncia depois que o STJ (09/11/2021) e o STF (30/11/2021) anularam provas. O MP afirma que 'não há óbice legal à renovação das investigações'.",
+   "status": "Denúncia rejeitada/arquivada sem julgamento de mérito (não houve absolvição); não localizei nova denúncia",
+   "pessoas": [],
+   "fonte": "https://www.congressoemfoco.com.br/noticia/11846/justica-arquiva-denuncia-contra-flavio-bolsonaro-por-rachadinhas"
+  },
+  {
+   "data": "2022-10-31",
+   "tipo": "declaracao",
+   "titulo": "Reconhece a derrota do pai",
+   "texto": "Enquanto Jair Bolsonaro segue em silêncio, Flávio reconhece nas redes a vitória de Lula: 'Vamos erguer a cabeça e não vamos desistir do Brasil!'.",
+   "status": null,
+   "pessoas": [
+    "jair-bolsonaro",
+    "lula"
+   ],
+   "fonte": "https://congressoemfoco.com.br/coluna/10859/bolsonaro-permanece-em-silencio-mas-flavio-reconhece-derrota"
+  },
+  {
+   "data": "2023-01-08",
+   "tipo": "declaracao",
+   "titulo": "Reação ao 8 de janeiro",
+   "texto": "No dia da invasão das sedes dos Três Poderes, escreve a senadores que 'fomos atropelados por um TSE absurdamente parcial' e nega relação do pai com os atos.",
+   "status": null,
+   "pessoas": [
+    "jair-bolsonaro"
+   ],
+   "fonte": "https://www.poder360.com.br/congresso/flavio-bolsonaro-nega-relacao-de-ex-presidente-com-invasao-a-poderes/"
+  },
+  {
+   "data": "2023-05-11",
+   "tipo": "decisao",
+   "titulo": "TSE multa por vídeo contra Lula",
+   "texto": "Por maioria, o TSE multa em R$ 30 mil cada Flávio, Eduardo Bolsonaro, Nikolas Ferreira e Carla Zambelli por compartilharem em 2022 vídeo que ligava o gesto 'faz o L' a drogas, aborto e assassinatos. A defesa disse ser crítica política dura, sem informação falsa.",
+   "status": "Condenado pelo TSE a multa (ação eleitoral, não criminal)",
+   "pessoas": [
+    "eduardo-bolsonaro",
+    "nikolas-ferreira",
+    "carla-zambelli",
+    "lula"
+   ],
+   "fonte": "https://www.cnnbrasil.com.br/politica/tse-multa-em-r-30-mil-nikolas-flavio-eduardo-e-zambelli-por-video-que-associa-lula-a-drogas-e-aborto/"
+  },
+  {
+   "data": "2023-09-26",
+   "tipo": "declaracao",
+   "titulo": "Compara prisões do 8/1 ao Holocausto",
+   "texto": "Na CPMI do 8 de Janeiro, diz que as prisões dos manifestantes 'foram feitas nos moldes nazistas'.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://www.metropoles.com/brasil/flavio-bolsonaro-compara-prisoes-de-vandalos-do-8-1-ao-holocausto"
+  },
+  {
+   "data": "2024-07-15",
+   "tipo": "investigacao",
+   "titulo": "Áudio sobre estratégia no caso Flávio",
+   "texto": "Moraes divulga gravação, achada na operação sobre a 'Abin paralela', de reunião de Jair Bolsonaro, do então diretor da Abin Alexandre Ramagem e de advogadas de Flávio sobre como anular a investigação das rachadinhas mirando auditores da Receita. Bolsonaro diz ali que Flávio seria o 'maior culpado' na Operação Furna da Onça; à época, Flávio não foi alvo dessa operação. Fabio Wajngarten, assessor de Bolsonaro, disse que no áudio ele afirma não buscar favores para ninguém.",
+   "status": "Gravação integra a investigação da PF sobre a 'Abin paralela' (Operação Última Milha)",
+   "pessoas": [
+    "jair-bolsonaro",
+    "alexandre-ramagem",
+    "alexandre-de-moraes"
+   ],
+   "fonte": "https://www.terra.com.br/noticias/brasil/politica/o-maior-culpado-na-furna-da-onca-e-o-flavio-reclamou-bolsonaro,409640e78deae673ab75563e6d682df0qw4cpqim.html"
+  },
+  {
+   "data": "2024-12-19",
+   "tipo": "carreira",
+   "titulo": "Vota contra pacote de corte de gastos",
+   "texto": "Vota Não na PEC 54/2024 e no PL 4614/2024, o pacote de corte de gastos do governo Lula (limite ao ganho real do salário mínimo, regras do BPC).",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://www25.senado.leg.br/web/atividade/materias/-/materia/166895"
+  },
+  {
+   "data": "2025-08-03",
+   "tipo": "decisao",
+   "titulo": "Post citado na domiciliar do pai",
+   "texto": "Publica e apaga vídeo do pai falando a manifestantes. No dia seguinte, Moraes cita o post como descumprimento de medida cautelar ao decretar a prisão domiciliar de Jair Bolsonaro.",
+   "status": null,
+   "pessoas": [
+    "jair-bolsonaro",
+    "alexandre-de-moraes"
+   ],
+   "fonte": "https://www.cnnbrasil.com.br/politica/moraes-post-flavio-jair-ato/"
+  },
+  {
+   "data": "2025-09-11",
+   "tipo": "declaracao",
+   "titulo": "Reação à condenação do pai",
+   "texto": "A 1ª Turma do STF condena Jair Bolsonaro, por 4 a 1, a 27 anos e 3 meses pela trama golpista. Flávio chama Moraes de 'psicopata' e defende anistia que inclua o pai.",
+   "status": null,
+   "pessoas": [
+    "jair-bolsonaro",
+    "alexandre-de-moraes"
+   ],
+   "fonte": "https://www.diariodepernambuco.com.br/politica/2025/09/11695642-flavio-bolsonaro-chama-moraes-de-psicopata-e-defende-anistia-total.html"
+  },
+  {
+   "data": "2025-11-22",
+   "tipo": "decisao",
+   "titulo": "Vigília é motivo da prisão do pai",
+   "texto": "Moraes decreta a prisão preventiva de Jair Bolsonaro e cita como um dos motivos a vigília convocada por Flávio em frente ao condomínio do pai, que poderia gerar tumulto e facilitar fuga.",
+   "status": null,
+   "pessoas": [
+    "jair-bolsonaro",
+    "alexandre-de-moraes"
+   ],
+   "fonte": "https://www.congressoemfoco.com.br/noticia/114102/vigilia-convocada-por-flavio-motivou-prisao-preventiva-de-bolsonaro"
+  },
+  {
+   "data": "2025-12-05",
+   "tipo": "eleicao",
+   "titulo": "Escolhido pelo pai para 2026",
+   "texto": "Anuncia a pré-candidatura à Presidência por indicação de Jair Bolsonaro, que estava preso. Valdemar Costa Neto apoia ('se Bolsonaro falou, está falado'), assim como Michelle e Eduardo Bolsonaro. Tarcísio de Freitas segue candidato à reeleição em SP.",
+   "status": null,
+   "pessoas": [
+    "jair-bolsonaro",
+    "valdemar-costa-neto",
+    "tarcisio-de-freitas",
+    "michelle-bolsonaro",
+    "eduardo-bolsonaro"
+   ],
+   "fonte": "https://www.gazetadopovo.com.br/republica/direita-reage-apos-bolsonaro-indicar-flavio-a-disputa-pela-presidencia/"
+  },
+  {
+   "data": "2025-12-17",
+   "tipo": "carreira",
+   "titulo": "Vota pela Dosimetria",
+   "texto": "Vota Sim no PL 2162/2023 (Dosimetria), que reduz penas de condenados pelo 8 de janeiro.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://www25.senado.leg.br/web/atividade/materias/-/materia/172003"
+  },
+  {
+   "data": "2026-04-15",
+   "tipo": "investigacao",
+   "titulo": "Inquérito por suposta calúnia",
+   "texto": "Moraes manda a PF abrir inquérito sobre suposta calúnia contra Lula, após Flávio escrever que 'Lula será delatado' depois da captura de Maduro. Especialistas ouvidos pela Gazeta do Povo veem crítica política e lembram a imunidade de senador por opiniões.",
+   "status": "Investigado (inquérito no STF); sem denúncia",
+   "pessoas": [
+    "alexandre-de-moraes",
+    "lula"
+   ],
+   "fonte": "https://www.gazetadopovo.com.br/vida-e-cidadania/flavio-bolsonaro-pode-ficar-inelegivel-2026-suposta-calunia/"
+  },
+  {
+   "data": "2026-05-13",
+   "tipo": "escandalo",
+   "titulo": "Pedidos a Vorcaro para filme do pai",
+   "texto": "O Intercept Brasil revela mensagens em que Flávio pede dinheiro a Daniel Vorcaro, dono do Banco Master (liquidado e investigado por fraudes), para o filme 'Dark Horse', sobre Jair Bolsonaro. Primeiro ele nega; depois confirma o pedido e diz ter buscado 'investimento privado', sem vantagem indevida. A produtora disse que Vorcaro pagou R$ 61 milhões de R$ 134 milhões combinados.",
+   "status": "Ver inquérito de jul/2026; sem indiciamento ou denúncia",
+   "pessoas": [
+    "daniel-vorcaro",
+    "eduardo-bolsonaro",
+    "mario-frias"
+   ],
+   "fonte": "https://www.aosfatos.org/noticias/flavio-mentiu-ao-menos-43-vezes-sobre-envolvimento-com-vorcaro/"
+  },
+  {
+   "data": "2026-07-13",
+   "tipo": "decisao",
+   "titulo": "Moraes suspende visitas ao pai",
+   "texto": "O ministro Alexandre de Moraes suspende por 90 dias (até 11/10/2026) as visitas de Flávio ao pai, em prisão domiciliar, depois que Flávio leu em live uma carta atribuída a Jair Bolsonaro que o apontava como 'porta-voz'.",
+   "status": null,
+   "pessoas": [
+    "alexandre-de-moraes",
+    "jair-bolsonaro"
+   ],
+   "fonte": "https://diariodonordeste.verdesmares.com.br/pontopoder/alexandre-de-moraes-suspende-visitas-de-flavio-a-bolsonaro-por-90-dias-1.3776823"
+  },
+  {
+   "data": "2026-07-23",
+   "tipo": "investigacao",
+   "titulo": "STF abre inquérito sobre 'Dark Horse'",
+   "texto": "O ministro André Mendonça autoriza, a pedido da PF e com aval da PGR, inquérito sobre cerca de R$ 61 milhões pagos por Vorcaro ao filme, cobrados por Flávio. Na abertura, o Poder360 informou não haver confirmação de que Flávio fosse formalmente investigado; em setembro, Aos Fatos o descreve como investigado por suspeita de corrupção. Flávio diz que buscou 'investimento privado' e que não houve irregularidade.",
+   "status": "Inquérito no STF (relator André Mendonça); reportagens posteriores (Aos Fatos, set/2026) apontam Flávio como investigado; sem indiciamento ou denúncia",
+   "pessoas": [
+    "andre-mendonca",
+    "daniel-vorcaro"
+   ],
+   "fonte": "https://www.poder360.com.br/poder-justica/mendonca-autoriza-pf-a-investigar-repasses-para-filme-sobre-bolsonaro/"
+  },
+  {
+   "data": "2026-07-25",
+   "tipo": "eleicao",
+   "titulo": "PL oficializa a candidatura",
+   "texto": "Convenção do PL em São Paulo, com Javier Milei, Valdemar e Tarcísio, oficializa a candidatura. Um vídeo feito com inteligência artificial simula Jair Bolsonaro apoiando o filho; o PT aciona TSE e STF, e a defesa de Jair diz que ele não autorizou o uso da imagem.",
+   "status": null,
+   "pessoas": [
+    "valdemar-costa-neto",
+    "tarcisio-de-freitas",
+    "jair-bolsonaro"
+   ],
+   "fonte": "https://g1.globo.com/jornal-nacional/noticia/2026/07/25/pl-oficializa-candidatura-de-flavio-bolsonaro-a-presidencia-em-convencao-em-sp.ghtml"
+  },
+  {
+   "data": "2026-08-05",
+   "tipo": "alianca",
+   "titulo": "Chapa pura com Alfredo Gaspar",
+   "texto": "Anuncia o deputado Alfredo Gaspar (PL-AL), ex-promotor, como vice. O PP fica neutro e Tereza Cristina, preferida para a vaga, não entra; a chapa é só do PL.",
+   "status": null,
+   "pessoas": [
+    "alfredo-gaspar",
+    "tereza-cristina"
+   ],
+   "fonte": "https://www.em.com.br/politica/2026/08/7474191-flavio-bolsonaro-anuncia-alfredo-gaspar-como-candidato-a-vice.html"
+  },
+  {
+   "data": "2026-08-13",
+   "tipo": "decisao",
+   "titulo": "TSE restabelece filiação ao PL",
+   "texto": "O sistema do TSE passa a mostrar Flávio como filiado ao partido Missão, o que travaria o registro. O presidente do TSE, Nunes Marques, restabelece a filiação ao PL, apaga o vínculo e manda a PF investigar quem alterou o cadastro.",
+   "status": null,
+   "pessoas": [
+    "nunes-marques"
+   ],
+   "fonte": "https://www.cnnbrasil.com.br/blogs/jussara-soares/politica/tse-restabelece-filiacao-de-flavio-ao-pl-e-libera-registro-de-candidatura/"
+  },
+  {
+   "data": "2026-08-17",
+   "tipo": "decisao",
+   "titulo": "TSE manda tirar vídeo sobre Lula e facções",
+   "texto": "Por 5 a 2, o TSE manda remover vídeo de Flávio que ligava Lula ao PCC e ao Comando Vermelho, a pedido da federação do PT. Nunes Marques e André Mendonça votaram por manter o vídeo.",
+   "status": "Decisão do plenário do TSE (propaganda eleitoral)",
+   "pessoas": [
+    "lula",
+    "nunes-marques",
+    "andre-mendonca"
+   ],
+   "fonte": "https://bpmoney.com.br/politica/tse-manda-remover-video-de-flavio-bolsonaro-que-liga-lula-ao-pcc-e-cv/"
+  },
+  {
+   "data": "2026-09-12",
+   "tipo": "investigacao",
+   "titulo": "Relatório da PF sobre o fundo do filme",
+   "texto": "Relatório da PF diz que o fundo Havengate, nos EUA, apontado por Flávio como criado para o filme, estava 'inoperante' desde 2020 até receber o primeiro pagamento ligado a Vorcaro, em fevereiro de 2025.",
+   "status": "Inquérito em andamento; sem indiciamento ou denúncia localizados",
+   "pessoas": [
+    "daniel-vorcaro",
+    "eduardo-bolsonaro"
+   ],
+   "fonte": "https://www.poder360.com.br/poder-justica/relatorio-da-pf-sobre-dark-horse-contraria-versao-de-flavio/"
+  },
+  {
+   "data": "2026-10-04",
+   "tipo": "eleicao",
+   "titulo": "Lidera o 1º turno",
+   "texto": "Termina o 1º turno em primeiro lugar, com 47,03% dos votos válidos (56,1 milhões), contra 45,16% de Lula. Disputa o 2º turno em 25/10/2026.",
+   "status": null,
+   "pessoas": [
+    "lula"
+   ],
+   "fonte": "https://portaldeprefeitura.com.br/bastidores-da-politica/eleicoes-2026-com-100-das-secoes-totalizadas-flavio-tem-4703-e/633498/"
+  },
+  {
+   "data": "2026-10-08",
+   "tipo": "decisao",
+   "titulo": "TSE multa Flávio em R$ 5 mil",
+   "texto": "Por unanimidade, o TSE manda Flávio retirar três posts que associam Lula a facções criminosas e, em outro processo sobre o mesmo tema, o multa em R$ 5 mil. No mesmo dia, liminares do TSE a pedido da campanha dele mandam tirar posts de Lula e Janja.",
+   "status": "Condenado pelo TSE a multa (propaganda eleitoral, não criminal)",
+   "pessoas": [
+    "lula",
+    "andre-mendonca"
+   ],
+   "fonte": "https://imirante.com/noticias/brasil/2026/10/09/ipolitica-tse-multa-flavio-bolsonaro-posts-lula-r-5-mil"
+  }
+ ],
+ "resumo_juridico": "Flávio Bolsonaro não tem condenação criminal. Rachadinhas (Alerj): investigado pelo MP-RJ a partir de dezembro de 2018 e denunciado em outubro de 2020 com Fabrício Queiroz e mais 15 pessoas (o MP falava em desvio de R$ 6,1 milhões, organização criminosa e lavagem). A denúncia nunca foi recebida: em 09/11/2021 o STJ anulou as decisões do juiz de 1ª instância por incompetência e, em 30/11/2021, a 2ª Turma do STF anulou 4 relatórios do Coaf; em 16/05/2022 o TJ-RJ rejeitou a denúncia a pedido do MP, que disse ser possível renovar as investigações. Não houve absolvição nem julgamento de mérito, e não localizei nova denúncia. Um inquérito da PF sobre imóveis e a declaração de bens de 2018 concluiu, em fevereiro de 2020, não haver indícios de lavagem ou falsidade. A mansão em Brasília (2021) foi alvo de ação civil pública contra o financiamento do BRB, sem processo criminal conhecido. Hoje ele é investigado em dois inquéritos no STF: um por suposta calúnia contra Lula (aberto em abril de 2026 por ordem de Moraes) e outro sobre o dinheiro de Daniel Vorcaro para o filme 'Dark Horse' (autorizado por André Mendonça em julho de 2026; na abertura não havia confirmação de que Flávio fosse formalmente investigado, e reportagens de setembro o descrevem como investigado), sem indiciamento ou denúncia em nenhum deles. Há também apuração do ministro Flávio Dino sobre emendas destinadas a entidades ligadas à produtora. Na Justiça Eleitoral, foi multado pelo TSE em 2023 (R$ 30 mil) e em outubro de 2026 (R$ 5 mil), e teve vídeos removidos. A defesa nega todas as irregularidades e chama as apurações de perseguição.",
+ "fontes": [
+  {
+   "titulo": "Senador Flávio Bolsonaro - Senado Federal",
+   "url": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5894",
+   "autor": "Senado Federal"
+  },
+  {
+   "titulo": "Caso Fabrício Queiroz: o que é, cronologia dos fatos, envolvidos",
+   "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2019/01/18/caso-fabricio-queiroz-o-que-e-cronologia-dos-fatos-personagens.ghtml",
+   "autor": "G1",
+   "ano": 2019
+  },
+  {
+   "titulo": "Flávio Bolsonaro admite que pediu milhões a Vorcaro para filme do pai: o que se sabe",
+   "url": "https://www.bbc.com/portuguese/articles/clyp4zgr3llo",
+   "autor": "BBC News Brasil",
+   "ano": 2026
+  },
+  {
+   "titulo": "STJ anula decisões contra Flávio no caso das rachadinhas (CNN Brasil)",
+   "url": "https://www.cnnbrasil.com.br/politica/stj-anula-decisoes-contra-flavio-bolsonaro-no-caso-das-rachadinhas/"
+  },
+  {
+   "titulo": "Justiça arquiva denúncia contra Flávio por rachadinhas (Congresso em Foco)",
+   "url": "https://www.congressoemfoco.com.br/noticia/11846/justica-arquiva-denuncia-contra-flavio-bolsonaro-por-rachadinhas"
+  },
+  {
+   "titulo": "MP cita localização de celulares de funcionários fantasmas (CNN Brasil)",
+   "url": "https://www.cnnbrasil.com.br/politica/mp-cita-localizacao-de-celulares-de-funcionarios-fantasmas-de-flavio-bolsonaro/"
+  },
+  {
+   "titulo": "Flávio mentiu ao menos 43 vezes sobre envolvimento com Vorcaro (Aos Fatos)",
+   "url": "https://www.aosfatos.org/noticias/flavio-mentiu-ao-menos-43-vezes-sobre-envolvimento-com-vorcaro/"
+  },
+  {
+   "titulo": "Relatório da PF sobre Dark Horse contraria versão de Flávio (Poder360)",
+   "url": "https://www.poder360.com.br/poder-justica/relatorio-da-pf-sobre-dark-horse-contraria-versao-de-flavio/"
+  },
+  {
+   "titulo": "Flávio Bolsonaro pode ficar inelegível por suposta calúnia? (Gazeta do Povo)",
+   "url": "https://www.gazetadopovo.com.br/vida-e-cidadania/flavio-bolsonaro-pode-ficar-inelegivel-2026-suposta-calunia/"
+  },
+  {
+   "titulo": "Flávio justifica compra de mansão (Correio Braziliense)",
+   "url": "https://www.correiobraziliense.com.br/politica/2022/06/5012206-flavio-bolsonaro-justifica-compra-de-mansao-com-outras-fontes-de-renda.html"
+  },
+  {
+   "titulo": "TSE multa Flávio em R$ 5 mil (Imirante)",
+   "url": "https://imirante.com/noticias/brasil/2026/10/09/ipolitica-tse-multa-flavio-bolsonaro-posts-lula-r-5-mil"
+  },
+  {
+   "titulo": "Medalha a Adriano da Nóbrega",
+   "url": "https://exame.com/brasil/ex-pm-estava-preso-quando-recebeu-homenagem-de-flavio-bolsonaro/"
+  },
+  {
+   "titulo": "Primeiro projeto 'Escola sem Partido'",
+   "url": "https://ihu.unisinos.br/categorias/557506-polemico-projeto-do-escola-sem-partido-tramita-em-5-estados-8-capitais-e-df"
+  },
+  {
+   "titulo": "Vota a favor da reforma da Previdência",
+   "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/137999"
+  },
+  {
+   "titulo": "Buscas e loja de chocolates",
+   "url": "https://www.terra.com.br/noticias/brasil/politica/flavio-bolsonaro-e-chefe-de-organizacao-criminosa-diz-mp,2309535c86b1d93b6736a65207e1b427c8s8z19s.html"
+  },
+  {
+   "titulo": "PF não vê crime em inquérito eleitoral",
+   "url": "https://istoe.com.br/pf-nao-ve-indicios-de-participacao-de-flavio-bolsonaro-em-dois-crimes/"
+  },
+  {
+   "titulo": "Liminar proíbe Globo de mostrar documentos",
+   "url": "https://congressoemfoco.com.br/legislativo/juiza-proibe-globo-de-exibir-documentos-sobre-investigacoes-de-flavio-bolsonaro"
+  },
+  {
+   "titulo": "Filia-se ao PL com o pai",
+   "url": "https://www.cnnbrasil.com.br/blogs/jussara-soares/politica/tse-restabelece-filiacao-de-flavio-ao-pl-e-libera-registro-de-candidatura/"
+  },
+  {
+   "titulo": "Reconhece a derrota do pai",
+   "url": "https://congressoemfoco.com.br/coluna/10859/bolsonaro-permanece-em-silencio-mas-flavio-reconhece-derrota"
+  },
+  {
+   "titulo": "Reação ao 8 de janeiro",
+   "url": "https://www.poder360.com.br/congresso/flavio-bolsonaro-nega-relacao-de-ex-presidente-com-invasao-a-poderes/"
+  },
+  {
+   "titulo": "TSE multa por vídeo contra Lula",
+   "url": "https://www.cnnbrasil.com.br/politica/tse-multa-em-r-30-mil-nikolas-flavio-eduardo-e-zambelli-por-video-que-associa-lula-a-drogas-e-aborto/"
+  },
+  {
+   "titulo": "Compara prisões do 8/1 ao Holocausto",
+   "url": "https://www.metropoles.com/brasil/flavio-bolsonaro-compara-prisoes-de-vandalos-do-8-1-ao-holocausto"
+  },
+  {
+   "titulo": "Áudio sobre estratégia no caso Flávio",
+   "url": "https://www.terra.com.br/noticias/brasil/politica/o-maior-culpado-na-furna-da-onca-e-o-flavio-reclamou-bolsonaro,409640e78deae673ab75563e6d682df0qw4cpqim.html"
+  },
+  {
+   "titulo": "Vota contra pacote de corte de gastos",
+   "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/166895"
+  },
+  {
+   "titulo": "Post citado na domiciliar do pai",
+   "url": "https://www.cnnbrasil.com.br/politica/moraes-post-flavio-jair-ato/"
+  },
+  {
+   "titulo": "Reação à condenação do pai",
+   "url": "https://www.diariodepernambuco.com.br/politica/2025/09/11695642-flavio-bolsonaro-chama-moraes-de-psicopata-e-defende-anistia-total.html"
+  },
+  {
+   "titulo": "Vigília é motivo da prisão do pai",
+   "url": "https://www.congressoemfoco.com.br/noticia/114102/vigilia-convocada-por-flavio-motivou-prisao-preventiva-de-bolsonaro"
+  },
+  {
+   "titulo": "Escolhido pelo pai para 2026",
+   "url": "https://www.gazetadopovo.com.br/republica/direita-reage-apos-bolsonaro-indicar-flavio-a-disputa-pela-presidencia/"
+  },
+  {
+   "titulo": "Vota pela Dosimetria",
+   "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/172003"
+  },
+  {
+   "titulo": "Moraes suspende visitas ao pai",
+   "url": "https://diariodonordeste.verdesmares.com.br/pontopoder/alexandre-de-moraes-suspende-visitas-de-flavio-a-bolsonaro-por-90-dias-1.3776823"
+  },
+  {
+   "titulo": "Chapa pura com Alfredo Gaspar",
+   "url": "https://www.em.com.br/politica/2026/08/7474191-flavio-bolsonaro-anuncia-alfredo-gaspar-como-candidato-a-vice.html"
+  },
+  {
+   "titulo": "TSE manda tirar vídeo sobre Lula e facções",
+   "url": "https://bpmoney.com.br/politica/tse-manda-remover-video-de-flavio-bolsonaro-que-liga-lula-ao-pcc-e-cv/"
+  },
+  {
+   "titulo": "Lidera o 1º turno",
+   "url": "https://portaldeprefeitura.com.br/bastidores-da-politica/eleicoes-2026-com-100-das-secoes-totalizadas-flavio-tem-4703-e/633498/"
+  },
+  {
+   "titulo": "STF anula 4 relatórios do Coaf (Poder360)",
+   "url": "https://www.poder360.com.br/justica/stf-anula-4-relatorios-do-coaf-que-miravam-flavio-no-caso-das-rachadinhas/"
+  },
+  {
+   "titulo": "MP denuncia Flávio Bolsonaro e Queiroz (Congresso em Foco)",
+   "url": "https://www.congressoemfoco.com.br/corrupcao/mp-denuncia-flavio-bolsonaro-e-queiroz-por-rachadinhas/"
+  },
+  {
+   "titulo": "Mendonça autoriza PF a investigar repasses para filme (Poder360)",
+   "url": "https://www.poder360.com.br/poder-justica/mendonca-autoriza-pf-a-investigar-repasses-para-filme-sobre-bolsonaro/"
+  },
+  {
+   "titulo": "Do Coaf ao hospital: entenda o caso Queiroz (Metrópoles)",
+   "url": "https://www.metropoles.com/brasil/justica/do-coaf-ao-hospital-entenda-o-caso-queiroz-em-6-capitulos"
+  },
+  {
+   "titulo": "Suspensão de investigação sobre Queiroz (Estado de Minas)",
+   "url": "https://www.em.com.br/app/noticia/politica/2019/01/17/interna_politica,1022239/membros-de-pt-psol-e-mbl-criticam-suspensao-de-investigacao-sobre-que.shtml"
+  }
+ ]
+}

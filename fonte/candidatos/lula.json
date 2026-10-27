@@ -1,0 +1,721 @@
+{
+ "id": "lula",
+ "nome_urna": "Lula",
+ "nome_completo": "Luiz Inácio Lula da Silva",
+ "partido": "PT",
+ "numero": 13,
+ "vice": "Geraldo Alckmin (PSB)",
+ "coligacao": "Brasil Pronto pra Mais (PT, PSB, PCdoB, PV, PSOL, Rede, PDT)",
+ "resultado_1t": {
+  "votos": 53879538,
+  "pct": 45.16
+ },
+ "situacao": "2º turno",
+ "resumo": "Ex-metalúrgico e líder sindical, fundador do PT (1980), foi deputado federal constituinte e presidente da República de 2003 a 2010. Condenado na Lava Jato, teve as condenações anuladas pelo STF em 2021; eleito em 2022, governa desde 2023 e disputa a reeleição em 2026.",
+ "autodeclaracao": "O estatuto do PT define como objetivo do partido 'construir o socialismo democrático'; o programa de 2026 apresenta a candidatura como frente ampla com partidos de centro e esquerda (fonte: estatuto do PT, pt.org.br).",
+ "plano_governo_url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026-segundo-turno",
+ "propostas": [
+  {
+   "tema": "Trabalho",
+   "texto": "Atuar no Senado pelo fim da escala 6x1 e pela redução da jornada para 40 horas semanais sem redução salarial, nos termos aprovados pela Câmara (PEC promulgada em 16/10/2026).",
+   "fonte": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf"
+  },
+  {
+   "tema": "Trabalho",
+   "texto": "Manter a política de valorização real do salário mínimo, com ganhos acima da inflação para trabalhadores, aposentados e beneficiários do BPC.",
+   "fonte": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf"
+  },
+  {
+   "tema": "Economia",
+   "texto": "Manter o arcabouço fiscal, controlar o crescimento do gasto primário e criar condições para uma redução sustentada dos juros com inflação controlada.",
+   "fonte": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf"
+  },
+  {
+   "tema": "Segurança pública",
+   "texto": "Criar o Ministério da Segurança Pública após a aprovação da PEC da Segurança e manter a política de controle de armas e munições, com mais rastreabilidade e fiscalização de CACs.",
+   "fonte": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf"
+  },
+  {
+   "tema": "Trabalho por plataformas",
+   "texto": "Regular o trabalho mediado por plataformas com remuneração, direitos trabalhistas e previdenciários e transparência algorítmica.",
+   "fonte": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf"
+  },
+  {
+   "tema": "Democracia e internet",
+   "texto": "Avançar na 'regulação democrática das redes sociais e das plataformas digitais' para impedir a difusão de desinformação e campanhas de ódio.",
+   "fonte": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf"
+  },
+  {
+   "tema": "Meio ambiente",
+   "texto": "Alcançar o desmatamento líquido zero até 2030, com planos integrados de controle e prevenção do desmatamento e do fogo.",
+   "fonte": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf"
+  },
+  {
+   "tema": "Energia",
+   "texto": "Petrobras deve ampliar exploração, voltar à distribuição de combustíveis e expandir o refino; governo continuará a mitigar a volatilidade dos preços internacionais.",
+   "fonte": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf"
+  },
+  {
+   "tema": "Educação",
+   "texto": "Dar continuidade e fortalecer o Pé-de-Meia e priorizar a expansão da educação em tempo integral.",
+   "fonte": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf"
+  },
+  {
+   "tema": "Política externa",
+   "texto": "Manter política externa universalista, aprofundar a aproximação com o BRICS e o Sul Global e fortalecer o Mercosul e o Novo Banco de Desenvolvimento.",
+   "fonte": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf"
+  }
+ ],
+ "posicoes": {
+  "E01": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: programa de 2026 mantém a transferência de renda (Bolsa Família) como eixo do combate às desigualdades.",
+   "fonte": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+   "p": 2,
+   "conf_p": "alta",
+   "base_p": "PRÁTICA: sancionou a Lei 14.601/2023 (19/06/2023), que recriou o Bolsa Família em substituição ao Auxílio Brasil.",
+   "fonte_p": "https://www2.camara.leg.br/legin/fed/lei/2023/lei-14601-19-junho-2023-794341-normaatualizada-pl.pdf"
+  },
+  "E02": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: 'enquanto eu for presidente não haverá privatização' dos Correios (dez/2025); programa prevê Petrobras ampliando atuação (refino, distribuição).",
+   "fonte": "https://mercadoeconsumo.com.br/18/12/2025/economia/enquanto-eu-for-presidente-nao-havera-privatizacao-dos-correios-diz-lula/",
+   "p": -2,
+   "conf_p": "alta",
+   "base_p": "PRÁTICA: Decreto 11.478 (06/04/2023) retirou Correios, EBC, Dataprev, Nuclep, Serpro, ABGF e Ceitec do Programa Nacional de Desestatização e revogou qualificações de PPSA e Telebras no PPI.",
+   "fonte_p": "https://planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/d11478.htm"
+  },
+  "E03": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: defende 'taxação dos super-ricos' (exibiu cartaz em jul/2025) e imposto mínimo de 10% sobre quem ganha mais de R$ 1 milhão/ano; imposto sobre grandes fortunas tem pouco destaque.",
+   "fonte": "https://jovempan.com.br/noticias/politica/lula-exibe-cartaz-que-pede-taxacao-dos-super-ricos-em-manifestacao-em-salvador.html",
+   "p": 2,
+   "conf_p": "alta",
+   "base_p": "PRÁTICA: sancionou a Lei 14.754/2023 (fundos exclusivos e offshores) e a Lei 15.270/2025 (isenção de IR até R$ 5 mil, imposto mínimo acima de R$ 600 mil/ano, retenção de 10% sobre dividendos acima de R$ 50 mil/mês). Não enviou projeto de imposto sobre grandes fortunas.",
+   "fonte_p": "https://www.mayerbrown.com/pt/insights/publications/2025/12/enactment-of-law-no-15270-2025-which-establishes-dividend-taxation-expands-the-exemption-threshold-and-introduces-a-minimum-tax-on-high-incomes"
+  },
+  "E04": {
+   "v": -1,
+   "conf": "alta",
+   "base": "DISCURSO: defende o arcabouço e o controle do gasto primário 'sem prejudicar as políticas sociais'; o programa não detalha cortes de despesas.",
+   "fonte": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+   "p": 1,
+   "conf_p": "media",
+   "base_p": "PRÁTICA: sancionou a LC 200/2023 (arcabouço: despesa cresce no máximo 0,6%–2,5% real/ano) e, em dez/2024, propôs e sancionou o pacote de corte (Lei 15.077/2024: ganho real do mínimo limitado ao arcabouço e regras mais rígidas no BPC; EC 135/2024: abono restrito; economia estimada de R$ 70 bi em 2025–26). Déficit primário: 2,1% do PIB em 2023 (com ~R$ 92 bi de precatórios), 0,36% em 2024 e 0,48% em 2025 (meta cumprida após deduções de R$ 48,7 bi).",
+   "fonte_p": "https://www12.senado.leg.br/noticias/materias/2024/12/20/congresso-promulga-emenda-constitucional-do-corte-de-gastos"
+  },
+  "E05": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: defende o fim da 6x1 e jornada de 40h sem redução salarial; chamou a aprovação de 'conquista histórica' e esteve na promulgação.",
+   "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/promulgacao-do-fim-da-6-x-1-tem-ole-ole-ole-ola-lula/",
+   "p": 2,
+   "conf_p": "alta",
+   "base_p": "PRÁTICA: enviou em 14/04/2026, com urgência constitucional, projeto de lei fixando 40h semanais e escala 5x2 sem redução de salário; retirou a urgência em 16/06/2026 após acordo com a Câmara. A PEC do fim da 6x1 foi promulgada pelo Congresso em 16/10/2026 (emenda constitucional não passa por sanção).",
+   "fonte_p": "https://www.metropoles.com/brasil/governo-lula-retira-urgencia-de-projeto-sobre-fim-da-escala-6x1"
+  },
+  "E06": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: programa de 2026 propõe regular o trabalho por plataformas com remuneração, direitos trabalhistas e previdenciários e transparência algorítmica.",
+   "fonte": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+   "p": 2,
+   "conf_p": "media",
+   "base_p": "PRÁTICA: assinou e enviou ao Congresso o PLP 12/2024 (04/03/2024: piso de R$ 32,10/hora e contribuição ao INSS para motoristas); pediu retirada da urgência em abr/2024; o projeto não foi votado.",
+   "fonte_p": "https://canaltech.com.br/governo/entenda-o-plp-122024-que-cria-categoria-para-motoristas-de-apps-281473/"
+  },
+  "E07": {
+   "v": -1,
+   "conf": "media",
+   "base": "DISCURSO: em 2023 chamou de 'irracional' a Selic de 13,75% e disse que Campos Neto 'não entende nada do país'; em 2025 disse dar 'total autonomia' a Galípolo e que ele 'não podia dar cavalo de pau nos juros'.",
+   "fonte": "https://congressoemfoco.com.br/area/governo/lula-critica-campos-neto-por-taxa-de-juros-irracional",
+   "p": 1,
+   "conf_p": "media",
+   "base_p": "PRÁTICA: não propôs revogar a LC 179/2021 (autonomia do BC); indicou Galípolo e diretores pelos mandatos da lei; sob esse comando o Copom subiu a Selic até 15% (18/06/2025), com meta de inflação de 3% mantida.",
+   "fonte_p": "https://www.jb.com.br/economia/2025/06/1055887-copom-eleva-juros-basicos-da-economia-para-15-ao-ano-maior-nivel-desde-julho-de-2006.html"
+  },
+  "E08": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: programa defende que o Estado induza o investimento via infraestrutura, política industrial (Nova Indústria Brasil) e crédito produtivo de bancos públicos.",
+   "fonte": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+   "p": 2,
+   "conf_p": "alta",
+   "base_p": "PRÁTICA: Plano Safra 2025/26 de R$ 516,2 bi para médios e grandes produtores, com R$ 113,8 bi em recursos equalizados (juros subsidiados pelo Tesouro); lançou a Nova Indústria Brasil com crédito do BNDES (2024).",
+   "fonte_p": "https://www.band.com.br/agro/noticias/plano-safra-202526-agronegocio-tera-r-5162-bilhoes-para-financiamento-da-safra-202507011039"
+  },
+  "E09": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: programa de 2026 promete manter a valorização real do salário mínimo para trabalhadores, aposentados e beneficiários do BPC.",
+   "fonte": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+   "p": 2,
+   "conf_p": "alta",
+   "base_p": "PRÁTICA: sancionou a Lei 14.663/2023 (reajuste = INPC + PIB de dois anos antes). Em dez/2024 sancionou a Lei 15.077/2024, que limita o ganho real a 0,6%–2,5% até 2030, ainda acima da inflação.",
+   "fonte_p": "https://www12.senado.leg.br/noticias/materias/2023/08/29/lei-retoma-a-politica-de-valorizacao-do-salario-minimo-e-reajusta-tabela-do-irpf"
+  },
+  "E10": {
+   "v": -1,
+   "conf": "media",
+   "base": "DISCURSO: programa prioriza fortalecer o SUS e a rede pública (institutos federais, tempo integral) e não propõe vouchers ou ampliação de gestão privada.",
+   "fonte": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+   "p": 0,
+   "conf_p": "baixa",
+   "base_p": "PRÁTICA: sancionou em 07/10/2025 o 'Agora Tem Especialistas' (MP 1.301/2025), em que hospitais privados atendem pacientes do SUS em troca de abatimento de dívidas tributárias ou crédito de até R$ 2 bi/ano. Contexto 2003–2010: criou o ProUni (bolsas em faculdades privadas).",
+   "fonte_p": "https://www.poder360.com.br/poder-saude/lula-sanciona-agora-tem-especialistas-para-reduzir-filas-do-sus/"
+  },
+  "E11": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: programa defende a Previdência Social pública, critica a reforma de 2019 e propõe diversificar fontes de custeio; PT se opôs à capitalização em 2019.",
+   "fonte": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+   "p": -1,
+   "conf_p": "baixa",
+   "base_p": "PRÁTICA: não propôs capitalização; também não enviou proposta para revogar a reforma da Previdência de 2019 (EC 103/2019), que segue em vigor. Contexto 2003: aprovou a EC 41/2003, que mudou a previdência dos servidores.",
+   "fonte_p": null
+  },
+  "E12": {
+   "v": -1,
+   "conf": "media",
+   "base": "DISCURSO: defende acordos comerciais, mas subordina o comércio exterior à política industrial e ao 'aprimoramento da defesa comercial'.",
+   "fonte": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+   "p": 0,
+   "conf_p": "media",
+   "base_p": "PRÁTICA: assinou o acordo Mercosul–UE (17/01/2026), ratificado pelo Congresso (DL 14/2026, 17/03/2026); zerou o imposto de importação de 11 alimentos (mar/2025). Em sentido oposto, sancionou em jun/2024 a taxa de 20% sobre compras internacionais de até US$ 50.",
+   "fonte_p": "https://eixos.com.br/internacional/congresso-promulga-acordo-mercosul-ue-governo-espera-vigencia-em-maio/"
+  },
+  "E13": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: programa diz que o governo continuará a 'mitigar a volatilidade dos preços internacionais' dos combustíveis.",
+   "fonte": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+   "p": -2,
+   "conf_p": "alta",
+   "base_p": "PRÁTICA: sob direção indicada pelo governo, a Petrobras substituiu em 16/05/2023 a paridade de importação (PPI) por estratégia própria, com reajustes sem periodicidade fixa; o governo criou o Gás do Povo (Lei 15.348/2026).",
+   "fonte_p": "https://www.cut.org.br/noticias/petrobras-anuncia-fim-da-politica-de-precos-internacionais-fup-comemora-ee28"
+  },
+  "E14": {
+   "v": -1,
+   "conf": "media",
+   "base": "DISCURSO: programa trata a transferência de renda como direito; não defende prazo de saída rígido.",
+   "fonte": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+   "p": -1,
+   "conf_p": "media",
+   "base_p": "PRÁTICA: a Lei 14.601/2023 manteve condicionalidades de saúde e educação, mas criou a 'regra de proteção' (família que supera a renda mantém 50% do benefício por até 24 meses); o Decreto 12.417/2025 passou o prazo a ato ministerial; vetou em dez/2024 trecho que revogava regras de reingresso.",
+   "fonte_p": "https://static.poder360.com.br/2025/03/decreto-12417-2025-bolsa-familia.pdf"
+  },
+  "E15": {
+   "v": 1,
+   "conf": "media",
+   "base": "DISCURSO: programa promete avançar na reforma agrária assentando famílias acampadas.",
+   "fonte": "https://congressoemfoco.com.br/noticia/106771/lula-visita-mst-nesta-sexta-e-anuncia-medidas-de-reforma-agraria",
+   "p": 1,
+   "conf_p": "baixa",
+   "base_p": "PRÁTICA: lançou o Terra da Gente (abr/2024) e assinou decretos de desapropriação. MDA declara 71.414 famílias 'assentadas' em 2024, das quais 38,9 mil são regularizações; o MST afirma que menos de 2 mil famílias foram assentadas em 2023–2024.",
+   "fonte_p": "https://ihu.unisinos.br/648437-governo-diz-ter-assentado-71-mil-familias-em-2024-mas-mst-contesta-dados"
+  },
+  "E16": {
+   "v": -1,
+   "conf": "media",
+   "base": "DISCURSO: cita a criação do MEI e propõe simplificação tributária a pequenos negócios, mas coloca programas sociais e valorização do mínimo no centro do combate à pobreza.",
+   "fonte": "https://aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
+   "p": 0,
+   "conf_p": "baixa",
+   "base_p": "PRÁTICA: apoiou a reforma tributária sobre o consumo (EC 132/2023, que unifica cinco tributos em IBS/CBS), mantendo o Simples; ao mesmo tempo elevou a arrecadação com aumento do IOF por decreto (2025) e novas tributações sobre fundos e altas rendas.",
+   "fonte_p": "https://fenacon.org.br/noticias/materias/2023/12/20/congresso-promulga-reforma-tributaria"
+  },
+  "E17": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: defende subvenções e atuação da Petrobras para não repassar choques externos de preço; promete ampliar o Gás do Povo.",
+   "fonte": "https://eixos.com.br/combustiveis-e-bioenergia/gas-do-povo-como-vai-funcionar-e-quem-tem-direito-ao-novo-vale-gas/",
+   "p": 2,
+   "conf_p": "alta",
+   "base_p": "PRÁTICA: Gecex zerou em 13/03/2025 o imposto de importação de 11 alimentos (carne, café, azeite etc.) para conter preços; criou o Gás do Povo por MP 1.313/2025, convertida na Lei 15.348/2026 (botijão gratuito a famílias do CadÚnico).",
+   "fonte_p": "https://www12.senado.leg.br/noticias/materias/2026/02/19/lei-torna-programa-gas-do-povo-permanente"
+  },
+  "E18": {
+   "v": 1,
+   "conf": "media",
+   "base": "DISCURSO: programa reafirma 'fortalecimento da negociação coletiva'; Lula disse que trabalharia por financiamento dos sindicatos definido em assembleia, 'sem volta do imposto sindical'.",
+   "fonte": "https://exame.com/brasil/lula-diz-que-trabalhara-por-financiamento-dos-sindicatos-sem-volta-de-imposto",
+   "p": 0,
+   "conf_p": "baixa",
+   "base_p": "PRÁTICA: a reforma trabalhista de 2017 (Lei 13.467/2017), que tornou a contribuição sindical facultativa, segue em vigor; não foi localizada lei sancionada em 2023–2026 que crie contribuição negocial.",
+   "fonte_p": null
+  },
+  "V01": {
+   "v": -1,
+   "conf": "media",
+   "base": "DISCURSO: diz ser pessoalmente contra o aborto e que mudança na lei cabe ao Congresso; também o trata como questão de saúde pública.",
+   "fonte": "https://www.congressoemfoco.com.br/noticia/20172/em-podcast-com-recorde-de-audiencia-lula-se-declara-contrario-ao-aborto",
+   "p": 0,
+   "conf_p": "media",
+   "base_p": "PRÁTICA: em jan/2023 o Ministério da Saúde revogou a portaria que obrigava médicos a avisar a polícia em aborto por estupro, e o Brasil deixou o Consenso de Genebra (declaração antiaborto); não propôs mudar o Código Penal.",
+   "fonte_p": "https://jornalopcao.com.br/saude/revogacao-de-portaria-sobre-aborto-nao-muda-a-lei-459138/"
+  },
+  "V02": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: programa promete manter o controle de armas e munições, com mais rastreabilidade e fiscalização de CACs.",
+   "fonte": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+   "p": -2,
+   "conf_p": "alta",
+   "base_p": "PRÁTICA: editou o Decreto 11.615/2023 (21/07/2023), que reduziu armas e munições acessíveis a civis e CACs, voltou a exigir comprovação de necessidade e transferiu o controle dos CACs do Exército para a PF.",
+   "fonte_p": "https://www.migalhas.com.br/quentes/390419/governo-lanca-programa-de-seguranca-e-endurece-regras-de-armas"
+  },
+  "V03": {
+   "v": 1,
+   "conf": "media",
+   "base": "DISCURSO: na sabatina da Globo (15/10/2026) disse apoiar reduzir para 16 anos a idade penal só em crimes hediondos; antes se dizia contra.",
+   "fonte": "https://mais.opovo.com.br/jornal/politica/2026/10/16/lula-defende-reducao-da-maioridade-penal-para-16-anos-em-crimes-hediondos.html",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "PRÁTICA: sem ato verificável a favor; a PEC da Segurança enviada pelo governo não incluía a redução, e a Câmara a aprovou em mar/2026 sem ela.",
+   "fonte_p": "https://www.diariodepernambuco.com.br/politica/2026/03/11709137-camara-aprova-em-1-turno-pec-da-seguranca-publica-sem-reducao-de-maioridade.html"
+  },
+  "V04": {
+   "v": 1,
+   "conf": "baixa",
+   "base": "DISCURSO: em 2024 criticou o STF por decidir o tema, mas disse que é questão 'de saúde pública, não de código penal'.",
+   "fonte": "https://www.infomoney.com.br/politica/stf-nao-tem-de-se-meter-em-tudo-diz-lula-sobre-descriminalizar-porte-de-maconha/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato do Executivo sobre o tema no período.",
+   "fonte_p": null
+  },
+  "V05": {
+   "v": 0,
+   "conf": "baixa",
+   "base": "DISCURSO: programa prevê políticas considerando gênero e orientação sexual; carta aos evangélicos (2022) diz que a escola deve respeitar valores das famílias.",
+   "fonte": "https://www.poder360.com.br/eleicoes/em-carta-aos-evangelicos-lula-defende-liberdade-de-culto/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável específico sobre o tema em sala de aula.",
+   "fonte_p": null
+  },
+  "V06": {
+   "v": 1,
+   "conf": "media",
+   "base": "DISCURSO: programa de 2026 compromete-se com políticas para a população LGBTQIAP+; não há fala específica recente sobre casamento civil.",
+   "fonte": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato do Executivo sobre o tema (a garantia vem do STF/CNJ, 2011–2013).",
+   "fonte_p": null
+  },
+  "V07": {
+   "v": -1,
+   "conf": "media",
+   "base": "DISCURSO: na carta aos evangélicos defendeu liberdade de culto e Estado laico; cita fé pessoal em discursos.",
+   "fonte": "https://www.poder360.com.br/eleicoes/em-carta-aos-evangelicos-lula-defende-liberdade-de-culto/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável que permita classificar.",
+   "fonte_p": null
+  },
+  "V08": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: programa defende manter e ampliar as cotas.",
+   "fonte": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+   "p": 2,
+   "conf_p": "alta",
+   "base_p": "PRÁTICA: sancionou a Lei 14.723/2023 (renovação da Lei de Cotas nas universidades, com quilombolas) e a Lei 15.142/2025 (03/06/2025), que elevou de 20% para 30% a reserva em concursos federais, incluindo indígenas e quilombolas.",
+   "fonte_p": "https://www12.senado.leg.br/radio/1/noticia/2025/06/06/sancionada-lei-que-retoma-e-amplia-cotas-raciais-em-concursos-publicos-federais"
+  },
+  "V09": {
+   "v": -2,
+   "conf": "media",
+   "base": "DISCURSO: programa fala em 'uso legítimo da força', câmeras corporais e proteção de direitos civis.",
+   "fonte": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+   "p": -2,
+   "conf_p": "alta",
+   "base_p": "PRÁTICA: assinou o Decreto 12.341/2024 (23/12/2024), que regulamenta o uso da força por profissionais de segurança, exige nível de força proporcional e cria comitê nacional de monitoramento.",
+   "fonte_p": "https://www2.camara.leg.br/legin/fed/decret/2024/decreto-12341-23-dezembro-2024-796804-norma-pe.html"
+  },
+  "V10": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: anunciou em 18/12/2025 que vetaria a redução de penas do 8/1 e defende punição dos condenados.",
+   "fonte": "https://www.congressoemfoco.com.br/noticia/115388/lula-veta-integralmente-pl-da-dosimetria",
+   "p": -2,
+   "conf_p": "alta",
+   "base_p": "PRÁTICA: vetou integralmente o PL da Dosimetria (PL 2.162/2023) em 08/01/2026; o Congresso derrubou o veto em 30/04/2026 (Câmara 318 x 144; Senado 49 x 24).",
+   "fonte_p": "https://www.congressoemfoco.com.br/noticia/118503/congresso-derruba-veto-de-lula-ao-pl-da-dosimetria"
+  },
+  "V11": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: programa defende 'regulação democrática das redes sociais e das plataformas digitais' contra desinformação e ódio.",
+   "fonte": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+   "p": 2,
+   "conf_p": "media",
+   "base_p": "PRÁTICA: sancionou o ECA Digital (Lei 15.211/2025, set/2025), com obrigações e multas de até R$ 50 mi para plataformas; criou em jan/2023 a Procuradoria Nacional de Defesa da Democracia na AGU, voltada a combater desinformação.",
+   "fonte_p": "https://www.opovo.com.br/noticias/brasil/2025/09/17/lula-sanciona-lei-contra-adultizacao-de-criancas-nas-redes.html"
+  },
+  "V12": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: promete seguir demarcando terras indígenas e rejeita o marco temporal.",
+   "fonte": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+   "p": 2,
+   "conf_p": "alta",
+   "base_p": "PRÁTICA: sancionou a Lei 14.701/2023 com 34 vetos, entre eles o marco temporal (out/2023); o Congresso derrubou 41 de 47 vetos em 14/12/2023.",
+   "fonte_p": "https://monitormercantil.com.br/nova-lei-sobre-terras-indigenas-e-sancionada-com-veto-ao-marco-temporal/"
+  },
+  "V13": {
+   "v": 1,
+   "conf": "media",
+   "base": "DISCURSO: promete desmatamento líquido zero até 2030; ao mesmo tempo diz 'nós vamos explorar' petróleo na Margem Equatorial e defende o agro.",
+   "fonte": "https://www.poder360.com.br/poder-energia/nos-vamos-explorar-diz-lula-sobre-margem-equatorial/",
+   "p": 0,
+   "conf_p": "media",
+   "base_p": "PRÁTICA: desmatamento na Amazônia (Prodes) caiu 30,6% em 2024 e 11,1% em 2025 (5.796 km²); o Ibama licenciou a perfuração da Petrobras no bloco FZA-M-59 na Margem Equatorial (20/10/2025); sancionou a lei de licenciamento com 63 vetos (08/08/2025); Plano Safra recorde.",
+   "fonte_p": "https://www.oliberal.com/variedades/amp/desmatamento-na-amazonia-em-2025-caiu-11-08-em-relacao-a-2024-afirma-prodes-inpe-1.1084212"
+  },
+  "V14": {
+   "v": -1,
+   "conf": "media",
+   "base": "DISCURSO: sobre escolas cívico-militares: 'não é obrigação do MEC', estados que quiserem que paguem.",
+   "fonte": "https://www.itatiaia.com.br/politica/nao-e-obrigacao-do-mec-se-cada-estado-quiser-pagar-que-pague-diz-lula-sobre-fim-de-programa-para-escolas-civico-militares/",
+   "p": -2,
+   "conf_p": "alta",
+   "base_p": "PRÁTICA: o Decreto 11.611/2023 (19/07/2023) revogou o decreto que criou o Programa Nacional das Escolas Cívico-Militares (Pecim).",
+   "fonte_p": "https://www2.camara.leg.br/legin/fed/decret/2023/decreto-11611-19-julho-2023-794456-norma-pe.html"
+  },
+  "V15": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: não foi localizada declaração do candidato sobre o tema.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável.",
+   "fonte_p": null
+  },
+  "V16": {
+   "v": 1,
+   "conf": "alta",
+   "base": "DISCURSO: 'já aumentamos o tempo de cadeia' (debate da Band, out/2026), citando a Lei Antifacção.",
+   "fonte": "https://aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
+   "p": 1,
+   "conf_p": "alta",
+   "base_p": "PRÁTICA: sancionou a Lei Antifacção (Lei 15.358/2026, 24/03/2026: penas de 20 a 40 anos, progressão com até 85% da pena em regime fechado). Em sentido oposto, vetou em 2024 o fim da saída temporária para visita à família (veto derrubado em 28/05/2024).",
+   "fonte_p": "https://www.poder360.com.br/brasil/lula-sanciona-pl-antifaccao-com-veto-e-sem-alcolumbre-no-planalto/"
+  },
+  "V17": {
+   "v": 1,
+   "conf": "baixa",
+   "base": "DISCURSO: defende mandato para ministros do STF e nova forma de escolha ('quando coloca toga, vira Deus', set/2026), dizendo que a decisão cabe ao Congresso; também defendeu o STF após o 8/1.",
+   "fonte": "https://www.poder360.com.br/brasil/lula-defende-mudar-indicacao-ao-stf-quando-coloca-toga-vira-deus/",
+   "p": -1,
+   "conf_p": "baixa",
+   "base_p": "PRÁTICA: não enviou proposta para limitar o STF; em 2025 recorreu ao STF contra a derrubada do decreto do IOF pelo Congresso, e Moraes restabeleceu a maior parte do decreto (16/07/2025).",
+   "fonte_p": "https://forbes.com.br/forbes-money/2025/07/cobranca-de-iof-retorna-parcialmente-apos-decisao-de-moraes/"
+  },
+  "V18": {
+   "v": -1,
+   "conf": "baixa",
+   "base": "DISCURSO: diz que 'família é coisa sagrada' (2022), mas o programa orienta políticas pelas dimensões de gênero, identidade e orientação sexual, sem modelo único.",
+   "fonte": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável.",
+   "fonte_p": null
+  },
+  "V19": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: programa promete 'aprofundar a aproximação geopolítica com o BRICS e o Sul Global'; rebateu tarifas de Trump ao BRICS.",
+   "fonte": "https://www.poder360.com.br/poder-governo/nao-concordamos-com-taxacoes-de-trump-ao-brics-diz-lula/",
+   "p": -2,
+   "conf_p": "media",
+   "base_p": "PRÁTICA: foi a Moscou para o Dia da Vitória e jantou com Putin (maio/2025); condenou na ONU a operação dos EUA que capturou Maduro (jan/2026). Em sentido oposto, votou na ONU pela retirada das tropas russas da Ucrânia (23/02/2023).",
+   "fonte_p": "https://www.infomoney.com.br/?p=2857628"
+  },
+  "Z01": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: após ficar em 2º no 1º turno (04/10/2026), chamou o resultado de 'inesperado' e disse: 'Nós acabamos de ter uma lição da democracia'.",
+   "fonte": "https://mais.opovo.com.br/jornal/politica/2026/10/05/lula-fala-em-licao-da-democracia-e-considera-resultado-inesperado.html",
+   "p": 2,
+   "conf_p": "media",
+   "base_p": "PRÁTICA: reconheceu o resultado do 1º turno de 2026 sem contestar as urnas. Contexto: perdeu as eleições presidenciais de 1989, 1994 e 1998 e disputou as seguintes pelas regras vigentes.",
+   "fonte_p": "https://sbtnews.sbt.com.br/noticia/politica/lula-admite-resultado-inesperado-nao-consigo-entender"
+  },
+  "Z02": {
+   "v": -1,
+   "conf": "media",
+   "base": "DISCURSO: tratou o 8/1 como tentativa de golpe; em 27/10/2023 disse que não decretaria GLO no Rio 'enquanto for presidente' e que não quer as Forças Armadas 'na favela brigando com bandido'; em 01/11/2023, ao assinar GLO em portos e aeroportos, disse 'Por isso estou fazendo esse decreto de GLO'.",
+   "fonte": "https://diariodonordeste.verdesmares.com.br/pontopoder/lula-assina-decreto-para-garantia-de-lei-e-da-ordem-em-portos-e-aeroportos-de-sp-e-de-rj-1.3438110",
+   "p": -1,
+   "conf_p": "media",
+   "base_p": "PRÁTICA: em 08/01/2023 optou por intervenção federal civil na segurança do DF (Decreto 11.377, aprovado pelo Congresso) em vez de GLO. Usou GLO constitucional em portos e aeroportos de RJ e SP (Decreto 11.765, nov/2023–mai/2024) contra crime organizado, sob comando civil.",
+   "fonte_p": "https://www.migalhas.com.br/quentes/379678/lula-decreta-intervencao-federal-no-df"
+  },
+  "Z03": {
+   "v": -2,
+   "conf": "media",
+   "base": "DISCURSO: ao ser preso em 2018 disse 'Vou cumprir o mandado'; criticou a Lava Jato, mas não defende descumprir decisões.",
+   "fonte": "https://www.jb.com.br/pais/noticias/2018/04/07/as-principais-frases-do-discurso-de-lula/",
+   "p": -2,
+   "conf_p": "media",
+   "base_p": "PRÁTICA: em 07/04/2018 (fora do mandato) entregou-se à PF para cumprir a ordem de prisão, depois de não se apresentar até o prazo voluntário fixado por Moro (17h de 06/04); em 2025, na disputa do IOF, recorreu ao STF e acatou a decisão de Moraes, que excluiu a cobrança sobre risco sacado. Não há registro de decisão judicial descumprida pelo governo em 2023–2026.",
+   "fonte_p": "https://www.poder360.com.br/poder-congresso/decisao-sobre-o-iof-indica-perda-para-o-congresso-e-o-planalto/"
+  },
+  "Z04": {
+   "v": -1,
+   "conf": "media",
+   "base": "DISCURSO: defende 'regulação da mídia', mas diz que 'não é censura prévia' e 'quero liberdade de imprensa'; cita direito de resposta e modelos do Reino Unido, EUA e Alemanha (2022).",
+   "fonte": "https://www.poder360.com.br/eleicoes/lula-defende-regulacao-da-midia-nao-e-censura-previa/",
+   "p": 0,
+   "conf_p": "baixa",
+   "base_p": "PRÁTICA: em 2023–2026 não foi localizado ato que puna ou tire do ar veículo de imprensa; criou a Procuradoria de Defesa da Democracia na AGU (jan/2023), criticada por falta de critérios. Contexto 2004: o governo cancelou o visto do correspondente do NYT Larry Rohter (11/05) após reportagem sobre o presidente e recuou em 15/05; enviou o projeto do Conselho Federal de Jornalismo, rejeitado pela Câmara.",
+   "fonte_p": "https://cpj.org/2004/05/brazil-to-expel-new-york-times-correspondent/"
+  },
+  "Z05": {
+   "v": 1,
+   "conf": "media",
+   "base": "DISCURSO: chamou Jair e Eduardo Bolsonaro de 'traidores da pátria' (06/08/2025) e, em 02/06/2026, Flávio e Eduardo de 'traidores' e 'covardes' pelo tarifaço dos EUA; disse que só ficaria bem quando 'f…' Moro (21/03/2023); chamou de 'fascistas' os invasores do 8/1.",
+   "fonte": "https://sbtnews.sbt.com.br/noticia/politica/eduardo-e-jair-bolsonaro-deveriam-enfrentar-outro-julgamento-por-serem-traidores-da-patria-diz-lula",
+   "p": 0,
+   "conf_p": "baixa",
+   "base_p": "PRÁTICA: governa em coalizão que inclui ex-adversários (vice Geraldo Alckmin, que disputou contra ele em 2006); não foram localizados atos administrativos contra opositores; as ações contra Bolsonaro e aliados tramitam no STF e na PGR. Em 08/10/2026 o ministro André Mendonça (TSE) mandou retirar, em liminares a serem submetidas ao plenário, duas publicações de Lula: uma ligava o 'tesouraço' de Flávio a cortes no Pé-de-Meia e na Farmácia Popular; a outra ('Se Flávio vence, você perde') dizia que 'a milícia vai ter um amigo no cargo mais alto da República'. O ministro entendeu que as consequências eram apresentadas como certas sem base factual suficiente.",
+   "fonte_p": "https://istoedinheiro.com.br/tse-retirada-posts-lula-aliados-flavio-bolsonaro"
+  },
+  "Z06": {
+   "v": 1,
+   "conf": "baixa",
+   "base": "DISCURSO: apresenta a candidatura como frente ampla e defende que mudanças como mandatos no STF sejam decididas pelo Congresso.",
+   "fonte": "https://sul21.com.br/?p=285603",
+   "p": 2,
+   "conf_p": "alta",
+   "base_p": "PRÁTICA: as principais mudanças passaram pelo Congresso (EC 132/2023 com transição até 2033; arcabouço; 6x1 por PL e PEC); acatou derrotas como a derrubada de vetos (marco temporal 2023, saidinha 2024, Dosimetria 2026) e a rejeição de Jorge Messias ao STF pelo Senado (29/04/2026).",
+   "fonte_p": "https://www.cnnbrasil.com.br/politica/senado-rejeita-messias-e-impoe-derrota-historica-do-governo-lula/"
+  },
+  "Z07": {
+   "v": -1,
+   "conf": "media",
+   "base": "DISCURSO: não há fala defendendo governar sem Congresso ou tribunais; critica o STF ('vira Deus') e o poder do Congresso, mas propõe mudanças por via legislativa.",
+   "fonte": "https://www.poder360.com.br/brasil/lula-defende-mudar-indicacao-ao-stf-quando-coloca-toga-vira-deus/",
+   "p": -1,
+   "conf_p": "media",
+   "base_p": "PRÁTICA: governou negociando com o Congresso e aceitou derrotas (vetos derrubados, Messias rejeitado). Em 2025 elevou o IOF por decreto (competência do Executivo); o Congresso derrubou o decreto e o governo recorreu ao STF.",
+   "fonte_p": "https://www.poder360.com.br/poder-congresso/decisao-sobre-o-iof-indica-perda-para-o-congresso-e-o-planalto/"
+  },
+  "Z08": {
+   "v": -1,
+   "conf": "media",
+   "base": "DISCURSO: sobre a Venezuela disse que 'o conceito de democracia é relativo' (29/06/2023) e chamou o autoritarismo de 'narrativa'; sobre a morte de Navalny: 'para que a pressa de acusar?' (18/02/2024). Em ago/2024 chamou o governo Maduro de 'regime muito desagradável' com 'viés autoritário', mas não de ditadura.",
+   "fonte": "https://www.poder360.com.br/governo/conceito-de-democracia-e-relativo-diz-lula-sobre-venezuela/",
+   "p": 0,
+   "conf_p": "media",
+   "base_p": "PRÁTICA: não reconheceu a vitória de Maduro em 2024 sem as atas e vetou a Venezuela como parceira do BRICS (out/2024); porém se absteve na OEA (31/07/2024) em resolução que pedia as atas, não assinou declaração de 55 países sobre a Nicarágua na ONU (mar/2023) e foi a Moscou em maio/2025. Expulsou a embaixadora da Nicarágua por reciprocidade (08/08/2024).",
+   "fonte_p": "https://www.gazetadopovo.com.br/mundo/com-abstencao-do-brasil-resolucao-que-cobrava-da-venezuela-divulgacao-de-atas-de-votacao-fracassa-na-oea/"
+  },
+  "V20": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Em 11/09/2024, na Rádio Norte FM, disse que o Brasil continuará recebendo os venezuelanos e pediu que se tratem 'com muito respeito as pessoas que estão vindo para o Brasil por necessidade de sobrevivência'. O plano de governo de 2026 promete 'acolhimento digno de migrantes e refugiados' e combate à xenofobia (MigraMundo).",
+   "fonte": "https://www.correiobraziliense.com.br/politica/2024/09/6939615-lula-diz-que-brasil-acolhera-venezuelanos-com-muito-respeito.html",
+   "p": 1,
+   "conf_p": "alta",
+   "base_p": "PRÁTICA: Em 05/01/2023 o governo anunciou a volta do Brasil ao Pacto Global para Migração da ONU. Manteve a Operação Acolhida e publicou a Política Nacional de Migrações, Refúgio e Apatridia (out/2025). Houve também restrições: a Portaria 42/2023 (22/09/2023) suspendeu ou endureceu o visto humanitário para afegãos; desde 26/08/2024 vale a regra que barra pedidos de refúgio de passageiros em conexão em Guarulhos; e em dez/2025 os vistos humanitários passaram a depender de patrocínio comunitário.",
+   "fonte_p": "https://www.correiobraziliense.com.br/politica/2023/01/amp/5063991-brasil-volta-ao-pacto-para-migracao-da-onu-anuncia-itamaraty.html"
+  },
+  "Z09": {
+   "v": 0,
+   "conf": "media",
+   "base": "DISCURSO: Em 29/05/2025, no Paraná, disse a assentados do MST que eles são 'invasores de busca de dignidade, de busca de respeito, de busca de direito' e rebateu quem os chama de invasores de terra. Em 13/06/2023 (live 'Conversa com o Presidente') havia dito que no seu governo não era mais preciso invadir terras e que a reforma agrária seria feita 'sem barulho nem guerra'. Em 08/01/2023 condenou a invasão dos prédios dos Três Poderes por 'fanáticos fascistas'. Pontuado como neutro: legitima as ocupações de terra do MST, mas condenou a ocupação de prédios públicos em 8/1 e diz que no seu governo não é preciso invadir.",
+   "fonte": "https://www.poder360.com.br/poder-governo/voces-sao-invasores-de-busca-de-dignidade-diz-lula-ao-mst/",
+   "p": 0,
+   "conf_p": "baixa",
+   "base_p": "PRÁTICA: Em 08/01/2023 decretou intervenção federal na segurança do DF (Decreto 11.377/2023) após a invasão dos prédios públicos. Diante das ocupações do MST (Abril Vermelho de 2023 e área da Embrapa em Petrolina, jul/2023), o governo negociou sem reprimir nem endossar; o ministro Alexandre Padilha condenou 'qualquer invasão de terras produtivas' (18/04/2023). Atos que vão nos dois sentidos.",
+   "fonte_p": "https://www2.camara.leg.br/legin/fed/decret/2023/decreto-11377-8-janeiro-2023-793668-publicacaooriginal-166831-pe.html"
+  },
+  "Z10": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Em 17/06/2026, na cúpula do G7 (Évian), defendeu a urna eletrônica e disse não saber 'por que a ONU não adota o sistema eletrônico como orientação aos países'. Em 06/07/2021 chamou o voto impresso de 'voltar para época dos dinossauros'. Fala antiga e diferente: em 2002, como candidato, disse que 'nada é infalível, só Deus' e que não se sabia se a urna podia ser manipulada (Poder360). Pontuado pela posição atual.",
+   "fonte": "https://www.metropoles.com/colunas/igor-gadelha/g7-em-conversa-vazada-lula-defende-que-onu-recomende-urna-eletronica",
+   "p": 1,
+   "conf_p": "baixa",
+   "base_p": "PRÁTICA: Sancionou a Lei 10.740 (01/10/2003), que trocou a impressão do voto prevista na Lei 10.408/2002 pelo registro digital do voto. Mas em 2009 sancionou a Lei 12.034, que previa o voto impresso a partir de 2014 (dispositivo depois derrubado pelo STF). Não há registro de que tenha contestado resultado apurado pela Justiça Eleitoral. No geral a prática favorece o sistema, mas é mista e antiga.",
+   "fonte_p": "https://www.poder360.com.br/eleicoes/no-passado-politicos-de-oposicao-defendiam-voto-impresso/"
+  }
+ },
+ "checagens": [
+  {
+   "afirmacao": "\"Eu não conheço essa moça, nunca vi essa moça na minha vida\" (sobre Roberta Luchsinger), na sabatina da TV Globo.",
+   "veredito": "Falso",
+   "agencia": "Aos Fatos",
+   "data": "2026-08-27",
+   "url": "https://www.aosfatos.org/noticias/checamos-entrevista-lula-globo/"
+  },
+  {
+   "afirmacao": "Lula disse ter aprovado 99% de tudo o que enviou ao Congresso.",
+   "veredito": "Exagerado",
+   "agencia": "Aos Fatos",
+   "data": "2026-10-15",
+   "url": "https://www.aosfatos.org/noticias/checamos-lula-globo-segundo-turno/"
+  },
+  {
+   "afirmacao": "Lula disse ter criado 22 milhões de empregos formais em seus dois primeiros governos.",
+   "veredito": "Impreciso",
+   "agencia": "Aos Fatos",
+   "data": "2026-10-15",
+   "url": "https://www.aosfatos.org/noticias/checamos-lula-globo-segundo-turno/"
+  },
+  {
+   "afirmacao": "\"Depois que eu deixei a presidência ele [o PIB] só voltou a crescer acima de 3% depois que eu voltei\", no debate da Band.",
+   "veredito": "Falso",
+   "agencia": "Aos Fatos",
+   "data": "2026-10-18",
+   "url": "https://aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/"
+  },
+  {
+   "afirmacao": "\"A gente fez essa maior demarcação de terras indígenas nesse país\", no debate da Band.",
+   "veredito": "Falso",
+   "agencia": "Aos Fatos",
+   "data": "2026-10-18",
+   "url": "https://aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/"
+  },
+  {
+   "afirmacao": "Vídeo afirma que Lula gastou R$ 7,35 bilhões em viagens com Janja (afirmação sobre o candidato).",
+   "veredito": "Falso",
+   "agencia": "Lupa",
+   "data": "2026-09-25",
+   "url": "https://www.agencialupa.org/jornalismo/2026/09/25/e-falso-que-lula-gastou-r-735-bilhoes-em-viagens-com-janja/"
+  }
+ ],
+ "fontes": [
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026-segundo-turno",
+  "https://congressoemfoco.com.br/noticia/121121/pt-registra-novo-plano-de-governo-de-lula-no-tse-veja-a-integra",
+  "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+  "https://www.portaltela.com/politica/2026/08/08/plano-de-governo-de-lula-e-alckmin-tem-13-eixos-veja-propostas/",
+  "https://portaldeprefeitura.com.br/bastidores-da-politica/eleicoes-2026-com-100-das-secoes-totalizadas-flavio-tem-4703-e/633498/",
+  "https://www.poder360.com.br/poder-eleicoes-2026/promulgacao-do-fim-da-6-x-1-tem-ole-ole-ole-ola-lula/",
+  "https://www.congressoemfoco.com.br/noticia/118503/congresso-derruba-veto-de-lula-ao-pl-da-dosimetria",
+  "https://mais.opovo.com.br/jornal/politica/2026/10/16/lula-defende-reducao-da-maioridade-penal-para-16-anos-em-crimes-hediondos.html",
+  "https://www.aosfatos.org/noticias/checamos-entrevista-lula-globo/",
+  "https://www.aosfatos.org/noticias/checamos-lula-globo-segundo-turno/",
+  "https://aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
+  "https://www.agencialupa.org/jornalismo/2026/09/25/e-falso-que-lula-gastou-r-735-bilhoes-em-viagens-com-janja/",
+  "https://pt.org.br/wp-content/uploads/2018/03/estatuto-pt-2012-versao-final-alterada-junho-2017.pdf",
+  "https://legis.senado.leg.br/norma/37553820",
+  "https://agenciagov.ebc.com.br/noticias/202308/presidente-lula-sanciona-a-lei-do-novo-arcabouco-fiscal",
+  "https://www12.senado.leg.br/noticias/materias/2024/12/20/congresso-promulga-emenda-constitucional-do-corte-de-gastos",
+  "https://www.opovo.com.br/noticias/economia/2024/12/27/lula-sanciona-projeto-de-lei-do-pacote-fiscal-sobre-bpc-com-dois-vetos.html",
+  "https://www.suno.com.br/noticias/?p=517019",
+  "https://borainvestir.b3.com.br/noticias/deficit-primario-do-governo-central-totaliza-r-617-bilhoes-em-2025/",
+  "https://planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/d11478.htm",
+  "https://www.cut.org.br/noticias/petrobras-anuncia-fim-da-politica-de-precos-internacionais-fup-comemora-ee28",
+  "https://www.jb.com.br/economia/2025/06/1055887-copom-eleva-juros-basicos-da-economia-para-15-ao-ano-maior-nivel-desde-julho-de-2006.html",
+  "https://www.band.com.br/agro/noticias/plano-safra-202526-agronegocio-tera-r-5162-bilhoes-para-financiamento-da-safra-202507011039",
+  "https://www.metropoles.com/brasil/governo-lula-retira-urgencia-de-projeto-sobre-fim-da-escala-6x1",
+  "https://eixos.com.br/internacional/congresso-promulga-acordo-mercosul-ue-governo-espera-vigencia-em-maio/",
+  "https://www.migalhas.com.br/quentes/379678/lula-decreta-intervencao-federal-no-df",
+  "https://diariodonordeste.verdesmares.com.br/pontopoder/lula-assina-decreto-para-garantia-de-lei-e-da-ordem-em-portos-e-aeroportos-de-sp-e-de-rj-1.3438110",
+  "https://www.poder360.com.br/governo/conceito-de-democracia-e-relativo-diz-lula-sobre-venezuela/",
+  "https://www.gazetadopovo.com.br/mundo/com-abstencao-do-brasil-resolucao-que-cobrava-da-venezuela-divulgacao-de-atas-de-votacao-fracassa-na-oea/",
+  "https://www.infomoney.com.br/mundo/brasil-veta-venezuela-como-parceiro-do-brics-regime-de-maduro-diz-que-ato-e-hostil/",
+  "https://www.poder360.com.br/internacional/pra-que-a-pressa-de-acusar-diz-lula-sobre-morte-de-navalny/",
+  "https://sbtnews.sbt.com.br/noticia/politica/lula-diz-que-governo-de-maduro-na-venezuela-nao-e-uma-ditadura-mas-um-regime-desagradavel-e-de-vies-autoritario",
+  "https://cpj.org/2004/05/brazil-to-expel-new-york-times-correspondent/",
+  "https://cpj.org/2004/05/government-drops-threat-to-expel-new-york-times-co/",
+  "https://rsf.org/pt-br/deputados-brasileiros-n%C3%A3o-aprovam-o-projeto-de-lei-sobre-cria%C3%A7%C3%A3o-de-conselhos-de-jornalismo",
+  "https://www.poder360.com.br/eleicoes/lula-defende-regulacao-da-midia-nao-e-censura-previa/",
+  "https://www.poder360.com.br/justica/criticas-a-procuradoria-da-democracia-sao-validas-dizem-especialistas/",
+  "https://sbtnews.sbt.com.br/noticia/politica/eduardo-e-jair-bolsonaro-deveriam-enfrentar-outro-julgamento-por-serem-traidores-da-patria-diz-lula",
+  "https://www.correiodamanha.com.br/politica/2026/06/290632-lula-culpa-eduardo-e-flavio-bolsonaro-por-novo-tarifaco-de-trump.html",
+  "https://www.metropoles.com/brasil/politica-brasil/mourao-sai-em-defesa-de-moro-e-ataca-lula-esta-fodendo-o-pais",
+  "https://forbes.com.br/forbes-money/2025/07/cobranca-de-iof-retorna-parcialmente-apos-decisao-de-moraes/",
+  "https://www.cnnbrasil.com.br/politica/senado-rejeita-messias-e-impoe-derrota-historica-do-governo-lula/",
+  "https://mais.opovo.com.br/jornal/politica/2026/10/05/lula-fala-em-licao-da-democracia-e-considera-resultado-inesperado.html",
+  "https://www.oliberal.com/variedades/amp/desmatamento-na-amazonia-em-2025-caiu-11-08-em-relacao-a-2024-afirma-prodes-inpe-1.1084212",
+  "https://www.camara.leg.br/noticias/1186832-LULA-SANCIONA-NOVO-LICENCIAMENTO-AMBIENTAL-COM-63-VETOS",
+  "https://www.poder360.com.br/brasil/lula-sanciona-pl-antifaccao-com-veto-e-sem-alcolumbre-no-planalto/",
+  "https://www.infomoney.com.br/?p=2857628",
+  "https://www.poder360.com.br/europa-em-guerra/brasil-vota-na-onu-a-favor-de-saida-de-tropas-russas-da-ucrania/"
+ ],
+ "atualizado_em": "2026-10-25",
+ "pratica_resumo": "No discurso, Lula defende mais gasto social, Estado indutor e nenhuma privatização. Na prática, retirou 7 estatais do PND (2023), a Petrobras abandonou o PPI (2023) e o governo criou o Gás do Povo; mas também sancionou o arcabouço fiscal (LC 200/2023) e o pacote de dez/2024, que limitou o ganho real do mínimo a 0,6%–2,5% e restringiu abono e BPC, e manteve a reforma trabalhista de 2017, a previdenciária de 2019 e a autonomia do BC, sob a qual a Selic chegou a 15% (jun/2025). O déficit primário foi de 2,1% do PIB em 2023, 0,36% em 2024 e 0,48% em 2025. No eixo democrático, vetou a redução de penas do 8/1, optou por intervenção federal civil no DF em vez de GLO (mas decretou GLO em portos e aeroportos em nov/2023) e reconheceu o resultado do 1º turno de 2026; na política externa, não reconheceu a eleição de Maduro (2024) e vetou a Venezuela no BRICS, mas se absteve na OEA (31/07/2024), disse que a democracia é 'relativa' (2023) e foi a Moscou (maio/2025).",
+ "atos": [
+  {
+   "data": "2023-01-08",
+   "ato": "Decreto 11.377: intervenção federal civil na segurança pública do DF após os ataques às sedes dos Poderes, em vez de GLO; aprovada pelo Congresso (DL 1/2023).",
+   "tema": "Democracia",
+   "fonte": "https://www.migalhas.com.br/quentes/379678/lula-decreta-intervencao-federal-no-df"
+  },
+  {
+   "data": "2023-04-06",
+   "ato": "Decreto 11.478: retira Correios, EBC, Dataprev, Nuclep, Serpro, ABGF e Ceitec do Programa Nacional de Desestatização.",
+   "tema": "Estatais",
+   "fonte": "https://planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/d11478.htm"
+  },
+  {
+   "data": "2023-05-16",
+   "ato": "Petrobras, sob direção indicada pelo governo, substitui a paridade de importação (PPI) por estratégia comercial própria.",
+   "tema": "Preços de combustíveis",
+   "fonte": "https://www.cut.org.br/noticias/petrobras-anuncia-fim-da-politica-de-precos-internacionais-fup-comemora-ee28"
+  },
+  {
+   "data": "2023-08-28",
+   "ato": "Sanciona a Lei 14.663/2023: valorização do salário mínimo (INPC + PIB de dois anos antes).",
+   "tema": "Trabalho",
+   "fonte": "https://www12.senado.leg.br/noticias/materias/2023/08/29/lei-retoma-a-politica-de-valorizacao-do-salario-minimo-e-reajusta-tabela-do-irpf"
+  },
+  {
+   "data": "2023-08-31",
+   "ato": "Sanciona a LC 200/2023 (arcabouço fiscal): limite de crescimento real da despesa e metas de resultado primário.",
+   "tema": "Contas públicas",
+   "fonte": "https://agenciagov.ebc.com.br/noticias/202308/presidente-lula-sanciona-a-lei-do-novo-arcabouco-fiscal"
+  },
+  {
+   "data": "2023-10-20",
+   "ato": "Sanciona a Lei 14.701/2023 com 34 vetos, entre eles o marco temporal; Congresso derruba 41 de 47 vetos em 14/12/2023.",
+   "tema": "Povos indígenas",
+   "fonte": "https://monitormercantil.com.br/nova-lei-sobre-terras-indigenas-e-sancionada-com-veto-ao-marco-temporal/"
+  },
+  {
+   "data": "2024-12-27",
+   "ato": "Sanciona a Lei 15.077/2024 do pacote de corte de gastos (BPC mais restrito; ganho real do mínimo limitado a 0,6%–2,5%), complementar à EC 135/2024 (abono).",
+   "tema": "Contas públicas",
+   "fonte": "https://www.opovo.com.br/noticias/economia/2024/12/27/lula-sanciona-projeto-de-lei-do-pacote-fiscal-sobre-bpc-com-dois-vetos.html"
+  },
+  {
+   "data": "2024-10",
+   "ato": "Brasil veta a Venezuela (e a Nicarágua) como 'Estados-parceiros' do BRICS na cúpula de Kazan, após não reconhecer a eleição de jul/2024.",
+   "tema": "Política externa",
+   "fonte": "https://www.infomoney.com.br/mundo/brasil-veta-venezuela-como-parceiro-do-brics-regime-de-maduro-diz-que-ato-e-hostil/"
+  },
+  {
+   "data": "2025-08-08",
+   "ato": "Sanciona a Lei 15.190/2025 (licenciamento ambiental) com 63 vetos.",
+   "tema": "Meio ambiente",
+   "fonte": "https://www.camara.leg.br/noticias/1186832-LULA-SANCIONA-NOVO-LICENCIAMENTO-AMBIENTAL-COM-63-VETOS"
+  },
+  {
+   "data": "2025-11-27",
+   "ato": "Lei 15.270/2025 publicada: isenção de IR até R$ 5 mil, imposto mínimo sobre rendas acima de R$ 600 mil/ano e retenção sobre dividendos.",
+   "tema": "Impostos",
+   "fonte": "https://www.reformatributaria.com/governo/leia-na-integra-a-lei-do-novo-ir-e-do-imposto-minimo/"
+  },
+  {
+   "data": "2026-01-08",
+   "ato": "Veta integralmente o PL da Dosimetria (redução de penas do 8/1); veto derrubado pelo Congresso em 30/04/2026.",
+   "tema": "Democracia",
+   "fonte": "https://www.congressoemfoco.com.br/noticia/115388/lula-veta-integralmente-pl-da-dosimetria"
+  },
+  {
+   "data": "2026-03-24",
+   "ato": "Sanciona a Lei Antifacção (Lei 15.358/2026), com penas de 20 a 40 anos e progressão de regime mais lenta, com dois vetos.",
+   "tema": "Segurança pública",
+   "fonte": "https://www.poder360.com.br/brasil/lula-sanciona-pl-antifaccao-com-veto-e-sem-alcolumbre-no-planalto/"
+  }
+ ]
+}

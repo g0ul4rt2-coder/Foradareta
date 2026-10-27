@@ -1,0 +1,39 @@
+name: Noticias
+
+# De hora em hora (o GitHub pode atrasar execuções agendadas): coleta manchetes para noticias.json.
+on:
+  schedule:
+    - cron: "11 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publicar
+  cancel-in-progress: false
+
+jobs:
+  coletar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - name: Coletar manchetes
+        run: python3 noticias/coletar.py noticias.json
+      - name: Publicar se mudou
+        run: |
+          git config user.name "fora-da-reta-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add noticias.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "noticias: coleta automatica"
+          for i in 1 2 3; do
+            if git push; then exit 0; fi
+            git fetch origin main
+            git reset --soft origin/main
+            python3 noticias/coletar.py noticias.json
+            git add noticias.json
+            git commit -m "noticias: coleta automatica" || exit 0
+            sleep 3
+          done

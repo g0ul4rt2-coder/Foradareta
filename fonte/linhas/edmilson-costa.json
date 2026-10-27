@@ -1,0 +1,120 @@
+{
+ "id": "edmilson-costa",
+ "nome": "Edmilson Costa",
+ "eventos": [
+  {
+   "data": "1950-04-08",
+   "tipo": "origem",
+   "titulo": "Nasce em Pedreiras (MA)",
+   "texto": "Edmilson Silva Costa nasce em Pedreiras, Maranhão. Foi dirigente estudantil e diz ter sido perseguido na ditadura militar.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://www1.folha.uol.com.br/folha/especial/2008/eleicoes/prefeitos/sp-sao_paulo-21-1.shtml"
+  },
+  {
+   "data": "1970",
+   "tipo": "alianca",
+   "titulo": "Entra no PCB",
+   "texto": "Filia-se ao Partido Comunista Brasileiro na década de 1970; nos anos 1980 escreve para a 'Voz da Unidade', jornal do partido.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://www.opovo.com.br/noticias/politica/2026/08/01/pcb-oficializa-candidatura-de-edmilson-costa-a-presidencia.html"
+  },
+  {
+   "data": "1974",
+   "tipo": "carreira",
+   "titulo": "Forma-se em Comunicação",
+   "texto": "Gradua-se em Comunicação Social pela UFMA e trabalha como jornalista.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://www.itatiaia.com.br/politica/eleicoes/conheca-a-carreira-politica-de-edmilson-costa-pre-candidato-a-presidencia/"
+  },
+  {
+   "data": "1992",
+   "tipo": "carreira",
+   "titulo": "Doutor em Economia e reorganização do PCB",
+   "texto": "Conclui doutorado em Economia na Unicamp, com tese sobre política salarial no Brasil (1964–1985). No mesmo ano, após o racha do partido, destaca-se na chamada 'Reconstrução Revolucionária' do PCB.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://istoe.com.br/edmilson-costa-pcb-candidato-presidencia-2026"
+  },
+  {
+   "data": "2008",
+   "tipo": "eleicao",
+   "titulo": "Candidato a prefeito de São Paulo",
+   "texto": "Recebe 4.300 votos (0,07%) e não é eleito.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://www.opovo.com.br/noticias/politica/2026/08/01/pcb-oficializa-candidatura-de-edmilson-costa-a-presidencia.html"
+  },
+  {
+   "data": "2010",
+   "tipo": "eleicao",
+   "titulo": "Vice na chapa de Ivan Pinheiro",
+   "texto": "Candidato a vice-presidente com Ivan Pinheiro (PCB); a chapa recebe 39.136 votos (0,04%).",
+   "status": null,
+   "pessoas": [
+    "ivan-pinheiro"
+   ],
+   "fonte": "https://www.opovo.com.br/noticias/politica/2026/08/01/pcb-oficializa-candidatura-de-edmilson-costa-a-presidencia.html"
+  },
+  {
+   "data": "2016-10-17",
+   "tipo": "cargo",
+   "titulo": "Secretário-geral do PCB",
+   "texto": "Sucede Ivan Pinheiro como secretário-geral (principal dirigente) do PCB, cargo que mantém.",
+   "status": null,
+   "pessoas": [
+    "ivan-pinheiro"
+   ],
+   "fonte": "https://pcb.org.br/portal2/12396"
+  },
+  {
+   "data": "2026-02",
+   "tipo": "eleicao",
+   "titulo": "PCB lança pré-candidatura",
+   "texto": "O Comitê Central do PCB lança o nome de Edmilson à Presidência.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://www.itatiaia.com.br/politica/eleicoes/conheca-a-carreira-politica-de-edmilson-costa-pre-candidato-a-presidencia/"
+  },
+  {
+   "data": "2026-08-01",
+   "tipo": "eleicao",
+   "titulo": "Convenção oficializa a chapa",
+   "texto": "Na Câmara Municipal de São Paulo, o PCB confirma a candidatura, com a professora aposentada da UFRJ Cleusa Santos como vice. Propostas incluem estatizar o sistema financeiro e extinguir o Senado.",
+   "status": null,
+   "pessoas": [
+    "cleusa-santos"
+   ],
+   "fonte": "https://www.opovo.com.br/noticias/politica/2026/08/01/amp/pcb-oficializa-candidatura-de-edmilson-costa-a-presidencia.html"
+  },
+  {
+   "data": "2026-10",
+   "tipo": "alianca",
+   "titulo": "Apoia Lula no 2º turno",
+   "texto": "O PCB declara apoio crítico a Lula contra Flávio Bolsonaro no 2º turno; Edmilson Costa diz que a prioridade é derrotar a extrema direita, sem abrir mão das diferenças com o PT (fonte: Estadão Conteúdo, 07/10/2026).",
+   "status": null,
+   "pessoas": [
+    "lula"
+   ],
+   "fonte": "https://www.oliberal.com/politica/pcb-e-pstu-farao-apoio-critico-a-lula-e-ao-pt-no-segundo-turno-1.1178567"
+  },
+  {
+   "data": "2026-10-04",
+   "tipo": "eleicao",
+   "titulo": "10º lugar no 1º turno",
+   "texto": "Recebe 22.693 votos (0,02%).",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://resultados.tse.jus.br/oficial/app/index.html#/eleicao;e=e6257;uf=br;ufbu=br/resultados/cargo/1"
+  }
+ ],
+ "resumo_juridico": "Não há processos conhecidos: não localizei inquérito, denúncia, ação judicial ou decisão da Justiça Eleitoral contra Edmilson Costa. Nunca exerceu mandato eletivo nem cargo de governo.",
+ "fontes": [
+  "https://istoe.com.br/edmilson-costa-pcb-candidato-presidencia-2026",
+  "https://www.itatiaia.com.br/politica/eleicoes/conheca-a-carreira-politica-de-edmilson-costa-pre-candidato-a-presidencia/",
+  "https://www.opovo.com.br/noticias/politica/2026/08/01/amp/pcb-oficializa-candidatura-de-edmilson-costa-a-presidencia.html",
+  "https://resultados.tse.jus.br/oficial/app/index.html#/eleicao;e=e6257;uf=br;ufbu=br/resultados/cargo/1"
+ ]
+}

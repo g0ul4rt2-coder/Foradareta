@@ -1,0 +1,540 @@
+{
+ "id": "hertz-dias",
+ "nome_urna": "Hertz Dias",
+ "nome_completo": "Hertz Dias",
+ "partido": "PSTU",
+ "numero": 16,
+ "vice": "Vanessa Portugal (PSTU)",
+ "coligacao": "Chapa pura (PSTU), sem coligação",
+ "resultado_1t": {
+  "votos": 43103,
+  "pct": 0.04
+ },
+ "situacao": "Eliminado no 1º turno (8º lugar)",
+ "resumo": "Professor de História da rede pública do Maranhão, rapper (Gíria Vermelha) e cofundador do Movimento Quilombo Urbano. Foi vice na chapa de Vera Lúcia (PSTU) em 2018 e candidato a governador do Maranhão em 2022.",
+ "autodeclaracao": "Socialista revolucionário; apresenta o programa como ruptura dos trabalhadores com o capitalismo e alternativa à extrema direita e ao governo Lula (O Imparcial; SBT News).",
+ "plano_governo_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280016998007",
+ "propostas": [
+  {
+   "tema": "Trabalho",
+   "texto": "Fim da escala 6x1 e da pejotização, com jornada de 36 horas semanais sem redução salarial.",
+   "fonte": "https://www.acessa.com/politica/2026/09/340117-fim-da-escala-6x1-e-de-privatizacoes-e-prioridade-de-hertz-dias.html"
+  },
+  {
+   "tema": "Estatais",
+   "texto": "Estatizar empresas de mineração, energia, petróleo e siderurgia para financiar semicondutores e IA.",
+   "fonte": "https://sbtnews.sbt.com.br/noticia/eleicoes/candidato-do-pstu-cita-boicote-ao-partido-e-critica-lula"
+  },
+  {
+   "tema": "Impostos",
+   "texto": "Imposto progressivo sobre fortunas acima de R$ 1 bilhão e fim de benefícios fiscais a grandes empresas.",
+   "fonte": "https://www.acessa.com/politica/2026/09/340117-fim-da-escala-6x1-e-de-privatizacoes-e-prioridade-de-hertz-dias.html"
+  },
+  {
+   "tema": "Segurança",
+   "texto": "Desmilitarizar a PM e adotar câmeras corporais com gravação ininterrupta sob controle civil.",
+   "fonte": "https://diariodonordeste.verdesmares.com.br/pontopoder/quem-e-hertz-dias-candidato-a-presidente-da-republica-pelo-pstu-em-2026-1.3781043"
+  },
+  {
+   "tema": "Saúde",
+   "texto": "Fim da gestão privada da saúde (OS, fundações, PPPs) e SUS 100% estatal.",
+   "fonte": "https://diariodonordeste.verdesmares.com.br/pontopoder/quem-e-hertz-dias-candidato-a-presidente-da-republica-pelo-pstu-em-2026-1.3781043"
+  },
+  {
+   "tema": "Defesa",
+   "texto": "Transformar parte dos reservistas em uma 'reserva popular ativa' para dissuadir intervenção dos EUA.",
+   "fonte": "https://www.brasil247.com/?p=1003680"
+  }
+ ],
+ "posicoes": {
+  "E01": {
+   "v": 2,
+   "conf": "media",
+   "base": "DISCURSO: Plano prevê bolsa de um salário mínimo para desempregados; Bolsa Família não citado diretamente.",
+   "fonte": "https://www.acessa.com/politica/2026/09/340117-fim-da-escala-6x1-e-de-privatizacoes-e-prioridade-de-hertz-dias.html",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E02": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Propõe reestatizar empresas e estatizar, sem indenização, energia, petróleo e mineração.",
+   "fonte": "https://www.brasil247.com/?p=1003680",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E03": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Plano propõe tributação progressiva sobre lucros e imposto sobre fortunas acima de R$ 1 bilhão.",
+   "fonte": "https://www.acessa.com/politica/2026/09/340117-fim-da-escala-6x1-e-de-privatizacoes-e-prioridade-de-hertz-dias.html",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E04": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Critica o arcabouço fiscal por deixar o orçamento sob controle do sistema financeiro; propõe suspender dívida com bancos.",
+   "fonte": "https://oimparcial.com.br/noticias/2026/03/hertz-dias-lanca-pre-candidatura-a-presidencia-e-defende-fim-da-escala-6x1-e-ruptura-com-o-capitalismo/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E05": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Plano propõe fim da 6x1 e jornada de 36 horas sem redução salarial; meta de escala 4x3.",
+   "fonte": "https://www.acessa.com/politica/2026/09/340117-fim-da-escala-6x1-e-de-privatizacoes-e-prioridade-de-hertz-dias.html",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E06": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Plano propõe reconhecer vínculo empregatício de trabalhadores de aplicativo, com previdência, férias e 13º.",
+   "fonte": "https://www.acessa.com/politica/2026/09/340117-fim-da-escala-6x1-e-de-privatizacoes-e-prioridade-de-hertz-dias.html",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E07": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Programa não trata da autonomia do Banco Central; propõe bancos 100% estatais.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E08": {
+   "v": 1,
+   "conf": "media",
+   "base": "DISCURSO: Propõe bancos públicos 100% estatais reestruturados para uma estratégia nacional de desenvolvimento.",
+   "fonte": "https://diariodonordeste.verdesmares.com.br/pontopoder/quem-e-hertz-dias-candidato-a-presidente-da-republica-pelo-pstu-em-2026-1.3781043",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E09": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Propõe aumento geral de salários até o mínimo calculado pelo Dieese.",
+   "fonte": "https://diariodonordeste.verdesmares.com.br/pontopoder/quem-e-hertz-dias-candidato-a-presidente-da-republica-pelo-pstu-em-2026-1.3781043",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E10": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Propõe fim de OS, fundações e PPPs na saúde e de PPPs e terceirizações na educação.",
+   "fonte": "https://diariodonordeste.verdesmares.com.br/pontopoder/quem-e-hertz-dias-candidato-a-presidente-da-republica-pelo-pstu-em-2026-1.3781043",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E11": {
+   "v": -2,
+   "conf": "media",
+   "base": "DISCURSO: Propõe revogar a reforma da Previdência; capitalização não citada.",
+   "fonte": "https://www.acessa.com/politica/2026/09/340117-fim-da-escala-6x1-e-de-privatizacoes-e-prioridade-de-hertz-dias.html",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E12": {
+   "v": -1,
+   "conf": "baixa",
+   "base": "DISCURSO: Programa propõe reindustrialização 'rompendo a dependência das importações'; tarifas não são tratadas diretamente.",
+   "fonte": "https://planodegoverno2026.com.br/planos/hertz-dias-762b5f88.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E13": {
+   "v": -1,
+   "conf": "baixa",
+   "base": "DISCURSO: Propõe estatizar energia, petróleo e mineração; a política de preços não é detalhada.",
+   "fonte": "https://planodegoverno2026.com.br/planos/hertz-dias-762b5f88.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E14": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Programas de transferência com contrapartida não tratados nas fontes consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E15": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Defende ampla reforma agrária e expropriação de terras sem indenização.",
+   "fonte": "https://www.brasil247.com/?p=1003680",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E16": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Tema não tratado diretamente no programa.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E17": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Programa não traz proposta específica de controle de preços.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E18": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Programa não trata de contribuição sindical.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V01": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Plano defende aborto legal, seguro e gratuito pelo SUS.",
+   "fonte": "https://www.acessa.com/politica/2026/09/340117-fim-da-escala-6x1-e-de-privatizacoes-e-prioridade-de-hertz-dias.html",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V02": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem posição documentada sobre armas para civis; plano foca em desmilitarizar a PM.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V03": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Programa: 'Contra a redução da maioridade penal'.",
+   "fonte": "https://planodegoverno2026.com.br/planos/hertz-dias-762b5f88.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V04": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Plano propõe revogar a Lei Antidrogas; em entrevista defendeu descriminalizar o consumo.",
+   "fonte": "https://www.acessa.com/politica/2026/09/340117-fim-da-escala-6x1-e-de-privatizacoes-e-prioridade-de-hertz-dias.html",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V05": {
+   "v": 1,
+   "conf": "media",
+   "base": "DISCURSO: Programa defende 'educação sexual nas escolas' e é contra 'projetos de controle ideológico, como Escola sem Partido'.",
+   "fonte": "https://planodegoverno2026.com.br/planos/hertz-dias-762b5f88.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V06": {
+   "v": 1,
+   "conf": "baixa",
+   "base": "DISCURSO: Programa defende direitos LGBTQIAPN+ e criminalização da LGBTfobia; casamento civil não é citado.",
+   "fonte": "https://planodegoverno2026.com.br/planos/hertz-dias-762b5f88.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V07": {
+   "v": -1,
+   "conf": "media",
+   "base": "DISCURSO: Programa defende aborto legal 'contra qualquer interferência de igrejas'.",
+   "fonte": "https://planodegoverno2026.com.br/planos/hertz-dias-762b5f88.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V08": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Programa: 'Manutenção e ampliação de cotas para negros nas universidades e serviços públicos'.",
+   "fonte": "https://planodegoverno2026.com.br/planos/hertz-dias-762b5f88.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V09": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Propõe desmilitarizar a PM e câmeras corporais com imagens sob controle de órgãos civis.",
+   "fonte": "https://diariodonordeste.verdesmares.com.br/pontopoder/quem-e-hertz-dias-candidato-a-presidente-da-republica-pelo-pstu-em-2026-1.3781043",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V10": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Sem declaração localizada sobre anistia aos condenados do 8 de janeiro.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V11": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Plano cita regulação de apostas online, mas não regulação de redes sociais.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V12": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Plano defende demarcação de terras indígenas e quilombolas; marco temporal não citado.",
+   "fonte": "https://www.acessa.com/politica/2026/09/340117-fim-da-escala-6x1-e-de-privatizacoes-e-prioridade-de-hertz-dias.html",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V13": {
+   "v": 1,
+   "conf": "baixa",
+   "base": "DISCURSO: Citou como exemplo a ocupação indígena em Santarém que antecedeu a revogação do decreto de hidrovias.",
+   "fonte": "https://www.brasil247.com/?p=1003680",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V14": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Programa: 'Não à militarização das escolas'.",
+   "fonte": "https://planodegoverno2026.com.br/planos/hertz-dias-762b5f88.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V15": {
+   "v": -2,
+   "conf": "media",
+   "base": "DISCURSO: Programa é contra 'projetos de controle ideológico, como Escola sem Partido'.",
+   "fonte": "https://planodegoverno2026.com.br/planos/hertz-dias-762b5f88.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V16": {
+   "v": -1,
+   "conf": "baixa",
+   "base": "DISCURSO: Defende reeducação e combate à criminalização das periferias; não propõe endurecer penas.",
+   "fonte": "https://oimparcial.com.br/noticias/2026/03/hertz-dias-lanca-pre-candidatura-a-presidencia-e-defende-fim-da-escala-6x1-e-ruptura-com-o-capitalismo/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V17": {
+   "v": 0,
+   "conf": "media",
+   "base": "DISCURSO: Vê STF e Congresso como 'estruturas inimigas dos trabalhadores' e propõe conselhos populares, não limitar o STF via Congresso.",
+   "fonte": "https://www.gazetadopovo.com.br/ideias/quem-e-o-rapper-e-professor-que-defende-a-revolucao-socialista-no-brasil/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V18": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Tema não tratado no programa.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V19": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Critica a política externa dos EUA e propõe preparar reservistas para dissuadir invasão americana.",
+   "fonte": "https://www.brasil247.com/?p=1003680",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z01": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Programa diz que a disputa eleitoral 'pode ter importância tática', mas 'deve estar subordinada à mobilização, à ação direta'; não trata de aceitação de resultados.",
+   "fonte": "https://planodegoverno2026.com.br/planos/hertz-dias-762b5f88.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z02": {
+   "v": -1,
+   "conf": "baixa",
+   "base": "DISCURSO: Programa critica as 'Forças Armadas que tutelam o regime' e propõe 'disputar a base das Forças Armadas e das polícias' para que 'rompam com os comandos burgueses e se coloquem ao lado do povo'; não trata de intervenção militar para restaurar a ordem.",
+   "fonte": "https://planodegoverno2026.com.br/planos/hertz-dias-762b5f88.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z03": {
+   "v": 1,
+   "conf": "media",
+   "base": "DISCURSO: Programa: um governo dos trabalhadores 'deve apoiar-se prioritariamente na mobilização direta... e não nos acordos com os partidos da burguesia, no Congresso inimigo do povo, no Judiciário'; estatizar a Vale 'significa enfrentar... Judiciário, Congresso'.",
+   "fonte": "https://planodegoverno2026.com.br/planos/hertz-dias-762b5f88.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z04": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Programa critica os 'grandes meios de comunicação', mas não propõe punir ou fechar veículos.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z05": {
+   "v": 1,
+   "conf": "media",
+   "base": "DISCURSO: Programa chama o Congresso de 'inimigo do povo' e defende 'uma ditadura revolucionária do proletariado contra a burguesia'.",
+   "fonte": "https://planodegoverno2026.com.br/planos/hertz-dias-762b5f88.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z06": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Programa: 'Defendemos um Estado operário revolucionário, uma ditadura revolucionária do proletariado'; 'a mobilização direta deve ser prioritária em relação à ação institucional'; prevê 'autodefesa dos trabalhadores'.",
+   "fonte": "https://planodegoverno2026.com.br/planos/hertz-dias-762b5f88.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z07": {
+   "v": 1,
+   "conf": "media",
+   "base": "DISCURSO: Propõe poder baseado em conselhos e organismos 'com representantes eleitos e revogáveis', fora do Congresso e do Judiciário; rejeita poder pessoal e burocrático ('ao contrário do que fez o stalinismo').",
+   "fonte": "https://planodegoverno2026.com.br/planos/hertz-dias-762b5f88.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z08": {
+   "v": 1,
+   "conf": "baixa",
+   "base": "DISCURSO: Posição da LIT-QI, internacional do PSTU, e não fala do candidato: chamou de fraudulentas as eleições de Maduro de 2018 (declaração da UST publicada pelo PSTU em 08/06/2018) e 2024 ('¡No al fraude electoral! ¡Abajo la dictadura de Maduro!', 30/07/2024); o PSTU publicou também apoio à resistência ucraniana. O plano de Hertz não trata do tema.",
+   "fonte": "https://litci.org/es/no-al-fraude-electoral-abajo-la-dictadura-de-maduro-todo-el-apoyo-a-las-movilizaciones/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V20": {
+   "v": null,
+   "p": null,
+   "conf": "baixa",
+   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
+   "fonte": null
+  },
+  "Z09": {
+   "v": null,
+   "p": null,
+   "conf": "baixa",
+   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
+   "fonte": null
+  },
+  "Z10": {
+   "v": null,
+   "p": null,
+   "conf": "baixa",
+   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
+   "fonte": null
+  }
+ },
+ "checagens": [],
+ "fontes": [
+  "https://www.acessa.com/politica/2026/09/340117-fim-da-escala-6x1-e-de-privatizacoes-e-prioridade-de-hertz-dias.html",
+  "https://diariodonordeste.verdesmares.com.br/pontopoder/quem-e-hertz-dias-candidato-a-presidente-da-republica-pelo-pstu-em-2026-1.3781043",
+  "https://www.brasil247.com/?p=1003680",
+  "https://sbtnews.sbt.com.br/noticia/eleicoes/candidato-do-pstu-cita-boicote-ao-partido-e-critica-lula",
+  "https://oimparcial.com.br/noticias/2026/03/hertz-dias-lanca-pre-candidatura-a-presidencia-e-defende-fim-da-escala-6x1-e-ruptura-com-o-capitalismo/",
+  "https://www.gazetadopovo.com.br/ideias/quem-e-o-rapper-e-professor-que-defende-a-revolucao-socialista-no-brasil/",
+  "https://agenciabrasil.ebc.com.br/politica/noticia/2026-08/pstu-tem-o-professor-de-historia-hertz-dias-como-presidenciavel",
+  "https://planodegoverno2026.com.br/planos/hertz-dias-762b5f88.pdf",
+  "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280016998007",
+  "https://www.pstu.org.br/eleicoes-presidenciais-na-venezuela-manobra-politica-fraude-eleitoral-e-abstencao/",
+  "https://litci.org/es/no-al-fraude-electoral-abajo-la-dictadura-de-maduro-todo-el-apoyo-a-las-movilizaciones/",
+  "https://www.pstu.org.br/ucrania-fora-as-tropas-da-russia-na-ucrania-apoio-a-resistencia-do-povo-ucraniano/"
+ ],
+ "atualizado_em": "2026-10-25",
+ "pratica_resumo": "Nunca exerceu mandato eletivo nem cargo executivo; é professor da rede pública do Maranhão (servidor, não cargo político). Disputou a vice-presidência (2018), a prefeitura de São Luís (2020) e o governo do Maranhão (2022) sem se eleger. Sem votos ou atos de governo, não há nota de prática; o eixo z reflete o programa do PSTU, que defende 'ditadura revolucionária do proletariado' e trata as eleições como tática subordinada à mobilização.",
+ "atos": []
+}

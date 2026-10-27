@@ -1,0 +1,541 @@
+{
+ "id": "rui-costa-pimenta",
+ "nome_urna": "Rui Costa Pimenta",
+ "nome_completo": "Rui Costa Pimenta",
+ "partido": "PCO",
+ "numero": 29,
+ "vice": "Antônio Carlos Silva (PCO)",
+ "coligacao": "Chapa pura (PCO), sem coligação",
+ "resultado_1t": {
+  "votos": 15024,
+  "pct": 0.01
+ },
+ "situacao": "Eliminado no 1º turno (12º lugar); PCO orientou voto nulo no 2º turno",
+ "resumo": "Jornalista paulistano nascido em 1957, cofundador do PT e da CUT e presidente nacional do PCO desde sua fundação, em 1995. Já havia sido candidato a presidente em 2002 e 2014 e teve registros barrados em outras disputas. Apresenta o canal Causa Operária TV.",
+ "autodeclaracao": "'Um partido comunista de orientação trotskista'; diz que a candidatura é 'um esforço de propaganda política' (Itatiaia).",
+ "plano_governo_url": "https://planodegoverno2026.com.br/planos/rui-costa-pimenta-05642e1c.pdf",
+ "propostas": [
+  {
+   "tema": "Salário",
+   "texto": "Salário mínimo de pelo menos R$ 7,5 mil e aumento emergencial de 50% nos salários.",
+   "fonte": "https://www.dgabc.com.br/Noticia/4347909/rui-costa-pimenta-quer-ampliar-direitos-trabalhistas-e-verbas-da-saude"
+  },
+  {
+   "tema": "Proteção social",
+   "texto": "Bolsa Família de pelo menos um salário mínimo.",
+   "fonte": "https://www.dgabc.com.br/Noticia/4347909/rui-costa-pimenta-quer-ampliar-direitos-trabalhistas-e-verbas-da-saude"
+  },
+  {
+   "tema": "Economia",
+   "texto": "Cancelar privatizações, acabar com a independência do Banco Central e reduzir em 50% o preço dos combustíveis.",
+   "fonte": "https://www.dgabc.com.br/Noticia/4347909/rui-costa-pimenta-quer-ampliar-direitos-trabalhistas-e-verbas-da-saude"
+  },
+  {
+   "tema": "Educação",
+   "texto": "Estatizar o ensino privado e acabar com os vestibulares.",
+   "fonte": "https://www.dgabc.com.br/Noticia/4347909/rui-costa-pimenta-quer-ampliar-direitos-trabalhistas-e-verbas-da-saude"
+  },
+  {
+   "tema": "Segurança",
+   "texto": "Dissolver a PM e substituí-la por 'polícia de cidadãos' controlada pela população, com armamento popular.",
+   "fonte": "https://sbtnews.sbt.com.br/noticia/politica/rui-costa-pimenta-defende-fim-da-pm-e-legalizacao-de-drogas"
+  },
+  {
+   "tema": "Judiciário",
+   "texto": "Fim do STF e eleição de todos os juízes.",
+   "fonte": "https://pco.org.br/textos-politicos-e-sociais/"
+  }
+ ],
+ "posicoes": {
+  "E01": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Plano propõe Bolsa Família de pelo menos um salário mínimo.",
+   "fonte": "https://www.dgabc.com.br/Noticia/4347909/rui-costa-pimenta-quer-ampliar-direitos-trabalhistas-e-verbas-da-saude",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E02": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Plano propõe cancelar privatizações; programa do PCO chama privatizações de 'ataque imperialista'.",
+   "fonte": "https://www.dgabc.com.br/Noticia/4347909/rui-costa-pimenta-quer-ampliar-direitos-trabalhistas-e-verbas-da-saude",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E03": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Plano propõe impostos sobre grandes fortunas e fim dos impostos sobre consumo e salários.",
+   "fonte": "https://www.dgabc.com.br/Noticia/4347909/rui-costa-pimenta-quer-ampliar-direitos-trabalhistas-e-verbas-da-saude",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E04": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Defende cancelar a dívida pública, o que diz liberar 50% do orçamento, e ampliar gastos sociais.",
+   "fonte": "https://sbtnews.sbt.com.br/noticia/politica/rui-costa-pimenta-defende-fim-da-pm-e-legalizacao-de-drogas",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E05": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Plano propõe jornada de 35 horas semanais; programa defende no máximo 7 horas/dia, 5 dias/semana.",
+   "fonte": "https://www.dgabc.com.br/Noticia/4347909/rui-costa-pimenta-quer-ampliar-direitos-trabalhistas-e-verbas-da-saude",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E06": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Programa não trata de trabalhadores de aplicativo.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E07": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Plano propõe fim da independência do Banco Central.",
+   "fonte": "https://www.dgabc.com.br/Noticia/4347909/rui-costa-pimenta-quer-ampliar-direitos-trabalhistas-e-verbas-da-saude",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E08": {
+   "v": 1,
+   "conf": "baixa",
+   "base": "DISCURSO: Propõe estatizar o sistema financeiro; crédito subsidiado do BNDES não citado.",
+   "fonte": "https://www.dgabc.com.br/Noticia/4347909/rui-costa-pimenta-quer-ampliar-direitos-trabalhistas-e-verbas-da-saude",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E09": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Plano propõe mínimo de pelo menos R$ 7,5 mil e reposição de 100% das perdas salariais.",
+   "fonte": "https://www.dgabc.com.br/Noticia/4347909/rui-costa-pimenta-quer-ampliar-direitos-trabalhistas-e-verbas-da-saude",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E10": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Plano propõe estatizar o ensino privado e ampliar verbas e Mais Médicos na saúde pública.",
+   "fonte": "https://www.dgabc.com.br/Noticia/4347909/rui-costa-pimenta-quer-ampliar-direitos-trabalhistas-e-verbas-da-saude",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E11": {
+   "v": -2,
+   "conf": "media",
+   "base": "DISCURSO: Plano propõe revogar reformas previdenciárias e aposentadoria com 25/30 anos de trabalho.",
+   "fonte": "https://www.dgabc.com.br/Noticia/4347909/rui-costa-pimenta-quer-ampliar-direitos-trabalhistas-e-verbas-da-saude",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E12": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Programa não trata de tarifas de importação.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E13": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Plano propõe reduzir 50% o preço dos combustíveis e acabar com a paridade com o dólar.",
+   "fonte": "https://www.dgabc.com.br/Noticia/4347909/rui-costa-pimenta-quer-ampliar-direitos-trabalhistas-e-verbas-da-saude",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E14": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Contrapartidas em programas sociais não tratadas no plano ou programa consultados.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E15": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Programa: 'Todo latifúndio deve ser confiscado'; plano propõe assentamento imediato de sem-terra.",
+   "fonte": "https://pco.org.br/textos-politicos-e-sociais/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E16": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Tema não tratado diretamente no programa.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E17": {
+   "v": 2,
+   "conf": "media",
+   "base": "DISCURSO: Plano propõe reduzir preço de combustíveis e proibir corte de serviços essenciais a desempregados.",
+   "fonte": "https://www.dgabc.com.br/Noticia/4347909/rui-costa-pimenta-quer-ampliar-direitos-trabalhistas-e-verbas-da-saude",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "E18": {
+   "v": 0,
+   "conf": "baixa",
+   "base": "DISCURSO: Programa defende sindicatos nacionais mais fortes; contribuição sindical não tratada.",
+   "fonte": "https://pco.org.br/textos-politicos-e-sociais/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V01": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: 'Nós somos favoráveis à liberação do aborto'; programa defende aborto legal pela rede pública.",
+   "fonte": "https://www.poder360.com.br/poder-eleicoes/estado-nao-pode-ser-religioso-diz-rui-costa-pimenta-sobre-aborto/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V02": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Diverge da esquerda média: programa 'defende o armamento de toda a população trabalhadora'; plano prevê armas a trabalhadores do campo e indígenas.",
+   "fonte": "https://pco.org.br/textos-politicos-e-sociais/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V03": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Programa: o PCO 'se posicionou absolutamente contra o aumento da maioridade penal'.",
+   "fonte": "https://pco.org.br/textos-politicos-e-sociais/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V04": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Defende legalizar 'não só da maconha, mas das drogas em geral'.",
+   "fonte": "https://www.poder360.com.br/poder-eleicoes/estado-nao-pode-ser-religioso-diz-rui-costa-pimenta-sobre-aborto/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V05": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: sem fonte confiável localizada para a posição de Rui Costa Pimenta sobre gênero na escola.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V06": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Programa: 'O PCO defende os direitos dos homossexuais, incluindo o casamento.'",
+   "fonte": "https://pco.org.br/textos-politicos-e-sociais/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V07": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Programa: 'o Estado é laico e as leis não podem ser conduzidas pela moral ou preceitos religiosos'.",
+   "fonte": "https://pco.org.br/textos-politicos-e-sociais/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V08": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Programa se opõe ao identitarismo, mas não trata de cotas raciais em universidades e concursos.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V09": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Defende extinguir as polícias e substituí-las por organização controlada pela população.",
+   "fonte": "https://sbtnews.sbt.com.br/noticia/politica/rui-costa-pimenta-defende-fim-da-pm-e-legalizacao-de-drogas",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V10": {
+   "v": 1,
+   "conf": "baixa",
+   "base": "DISCURSO: Em live de setembro de 2023 chamou de 'totalmente absurdo' o julgamento dos primeiros réus do 8/1 no STF e disse que não houve tentativa de golpe, mas 'um ato político'; não há declaração explícita sobre anistia.",
+   "fonte": "https://www.itatiaia.com.br/politica/eleicoes/conheca-a-carreira-politica-de-rui-costa-pimenta-pre-candidato-a-presidencia/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V11": {
+   "v": -2,
+   "conf": "media",
+   "base": "DISCURSO: Diverge da esquerda média: programa diz que 'a liberdade de expressão existe ou não existe'; Rui chamou o PL 2630 de armadilha para censura.",
+   "fonte": "https://pco.org.br/textos-politicos-e-sociais/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V12": {
+   "v": 1,
+   "conf": "media",
+   "base": "DISCURSO: Plano propõe demarcar terras indígenas em disputa com latifundiários; marco temporal não citado.",
+   "fonte": "https://www.dgabc.com.br/Noticia/4347909/rui-costa-pimenta-quer-ampliar-direitos-trabalhistas-e-verbas-da-saude",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V13": {
+   "v": 0,
+   "conf": "baixa",
+   "base": "DISCURSO: Programa critica tratar terras indígenas como 'áreas de preservação' e ONGs estrangeiras; prioridade ambiental não tratada.",
+   "fonte": "https://pco.org.br/textos-politicos-e-sociais/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V14": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Programa: 'O PCO defende o fim de qualquer política de militarização das escolas.'",
+   "fonte": "https://pco.org.br/textos-politicos-e-sociais/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V15": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Tema não tratado no programa.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V16": {
+   "v": -2,
+   "conf": "media",
+   "base": "DISCURSO: Programa se opõe a endurecimento penal e chama prisão perpétua de 'forma de tortura permanente'.",
+   "fonte": "https://pco.org.br/textos-politicos-e-sociais/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V17": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Diverge da esquerda média: programa chama o STF de 'tribunal de exceção' e defende sua extinção.",
+   "fonte": "https://pco.org.br/textos-politicos-e-sociais/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V18": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Programa trata a família monogâmica como 'progresso' histórico, mas não propõe política familiar.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V19": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Programa vê o imperialismo como principal inimigo e denuncia 'genocídio' em Gaza; Rui citou a Rússia como exemplo positivo.",
+   "fonte": "https://pco.org.br/textos-politicos-e-sociais/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z01": {
+   "v": -1,
+   "conf": "media",
+   "base": "DISCURSO: Programa: participar das eleições, 'por mais fraudulento que seja' o processo, e critica a crença em 'eleições fraudulentas e controladas pelas alas mais reacionárias do grande capital'; diz que as conquistas 'não virão pelo voto'.",
+   "fonte": "https://planodegoverno2026.com.br/planos/rui-costa-pimenta-05642e1c.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z02": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: O programa diz 'Nenhum apoio aos golpistas e neoliberais' no capítulo sobre alianças partidárias ('Abaixo a política de conciliação'), não sobre as Forças Armadas; propõe dissolver a PM. Não localizei posição sobre intervenção das Forças Armadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z03": {
+   "v": 0,
+   "conf": "baixa",
+   "base": "DISCURSO: Programa: 'Acabar com a ditadura do Judiciário, que atua acima dos demais poderes' e 'Fim do Supremo Tribunal Federal (STF)'; em 2022 o PCO pediu 'Dissolução do STF!' (Poder360). Não localizei declaração sobre descumprir decisões judiciais.",
+   "fonte": "https://planodegoverno2026.com.br/planos/rui-costa-pimenta-05642e1c.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z04": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Programa: 'cancelamento da concessão da Rede Globo (e dos demais grandes meios de comunicação) por crimes contra o País. Estatização das empresas'; o mesmo item pede 'Fim de todo tipo de censura, liberdade irrestrita de expressão'.",
+   "fonte": "https://planodegoverno2026.com.br/planos/rui-costa-pimenta-05642e1c.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z05": {
+   "v": 1,
+   "conf": "media",
+   "base": "DISCURSO: Programa: 'Ruptura da aliança com os partidos golpistas e inimigos das reivindicações dos trabalhadores'; em 2022 o PCO chamou Alexandre de Moraes de 'skinhead de toga'.",
+   "fonte": "https://planodegoverno2026.com.br/planos/rui-costa-pimenta-05642e1c.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z06": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Programa: o lema é 'a defesa da Revolução, do Governo Operário e do Comunismo'; 'as conquistas do povo trabalhador não virão pelo voto'; propõe 'comitês de autodefesa dos trabalhadores'.",
+   "fonte": "https://planodegoverno2026.com.br/planos/rui-costa-pimenta-05642e1c.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z07": {
+   "v": 1,
+   "conf": "media",
+   "base": "DISCURSO: Programa: 'Fim do STF; eleição de todos os juízes e procuradores pelo voto popular e com mandatos revogáveis' e 'governo das organizações operárias e camponesas'.",
+   "fonte": "https://planodegoverno2026.com.br/planos/rui-costa-pimenta-05642e1c.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "Z08": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Nota de 24/02/2022: 'PCO declara apoio total à ação da Rússia na Ucrânia' e diz que a classe operária deve ficar ao lado dos países oprimidos 'independentemente do caráter do regime político'; o programa de 2026 defende 'Cuba, Nicarágua e Venezuela' e a Rússia 'de armas nas mãos'.",
+   "fonte": "https://pco.org.br/wp-content/uploads/2022/08/nota-oficial-ucrania-2.pdf",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável; nunca exerceu mandato eletivo nem cargo executivo.",
+   "fonte_p": null
+  },
+  "V20": {
+   "v": null,
+   "p": null,
+   "conf": "baixa",
+   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
+   "fonte": null
+  },
+  "Z09": {
+   "v": null,
+   "p": null,
+   "conf": "baixa",
+   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
+   "fonte": null
+  },
+  "Z10": {
+   "v": null,
+   "p": null,
+   "conf": "baixa",
+   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
+   "fonte": null
+  }
+ },
+ "checagens": [],
+ "fontes": [
+  "https://www.dgabc.com.br/Noticia/4347909/rui-costa-pimenta-quer-ampliar-direitos-trabalhistas-e-verbas-da-saude",
+  "https://pco.org.br/textos-politicos-e-sociais/",
+  "https://sbtnews.sbt.com.br/noticia/politica/rui-costa-pimenta-defende-fim-da-pm-e-legalizacao-de-drogas",
+  "https://www.poder360.com.br/poder-eleicoes/estado-nao-pode-ser-religioso-diz-rui-costa-pimenta-sobre-aborto/",
+  "https://www.itatiaia.com.br/politica/eleicoes/conheca-a-carreira-politica-de-rui-costa-pimenta-pre-candidato-a-presidencia/",
+  "https://metropoles.com/brasil/pco-orienta-voto-nulo-para-2o-turno-entre-lula-e-flavio",
+  "https://www.poder360.com.br/justica/pco-critica-rigidez-da-pena-do-stf-a-extremistas-do-8-de-janeiro",
+  "https://www.politize.com.br/pco/",
+  "https://www.poder360.com.br/justica/moraes-manda-bloquear-perfis-do-pco-nas-redes-sociais/",
+  "https://agenciabrasil.ebc.com.br/politica/noticia/2026-08/sindicalista-rui-costa-pimenta-concorrera-presidencia-pelo-pco",
+  "https://dadosabertos.tse.jus.br/dataset/resultados-2026",
+  "https://planodegoverno2026.com.br/planos/rui-costa-pimenta-05642e1c.pdf",
+  "https://pco.org.br/wp-content/uploads/2022/08/nota-oficial-ucrania-2.pdf"
+ ],
+ "atualizado_em": "2026-10-25",
+ "pratica_resumo": "Nunca exerceu mandato eletivo nem cargo executivo; preside o PCO desde 1995 e foi candidato a presidente em 2002, 2014 e 2026. Sem votos ou atos de governo, não há nota de prática. Contexto: em 02/06/2022 Alexandre de Moraes mandou bloquear os perfis do PCO no inquérito das fake news e determinou depoimento de Rui à PF; isso é ato contra o partido, não conduta do candidato. O eixo z reflete o programa do PCO para 2026.",
+ "atos": []
+}

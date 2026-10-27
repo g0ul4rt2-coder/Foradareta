@@ -1,0 +1,699 @@
+{
+ "id": "romeu-zema",
+ "nome_urna": "Zema",
+ "nome_completo": "Romeu Zema Neto",
+ "partido": "Novo",
+ "numero": 30,
+ "vice": "Eduardo Girão (Novo)",
+ "coligacao": "Novo (chapa pura, sem coligação)",
+ "resultado_1t": {
+  "votos": 326488,
+  "pct": 0.27
+ },
+ "situacao": "Não eleito (6º lugar no 1º turno)",
+ "resumo": "Empresário do Grupo Zema, foi governador de Minas Gerais por dois mandatos (eleito em 2018 e 2022) e renunciou em 22/03/2026 para disputar a Presidência. Ficou em 6º lugar. Em 05/10/2026 declarou voto e apoio a Flávio Bolsonaro (PL) no 2º turno, citando oposição ao PT; o Novo formalizou a adesão.",
+ "autodeclaracao": "Não localizei autodefinição ideológica literal; o Novo se apresenta como partido liberal e Zema se posiciona como oposição ao PT ('Onde tiver PT no segundo turno, eu estarei contra o PT').",
+ "plano_governo_url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema",
+ "propostas": [
+  {
+   "tema": "Estatais",
+   "texto": "Privatizar todas as empresas estatais e desverticalizar a Petrobras, separando produção, refino, transporte e distribuição.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema"
+  },
+  {
+   "tema": "Contas públicas",
+   "texto": "Choque fiscal com nova reforma da Previdência (incluindo estados, municípios, rural e militar) e idade mínima ajustada à expectativa de vida.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema"
+  },
+  {
+   "tema": "Impostos",
+   "texto": "Fixar metas de redução da carga tributária e reduzir o imposto de renda das empresas ao nível dos países desenvolvidos.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema"
+  },
+  {
+   "tema": "Segurança",
+   "texto": "Classificar facções criminosas como organizações terroristas, com penas maiores e sem progressão de regime.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema"
+  },
+  {
+   "tema": "Segurança",
+   "texto": "Reduzir a maioridade penal para 16 anos ou menos em crimes graves.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema"
+  },
+  {
+   "tema": "Judiciário",
+   "texto": "Retirar do STF matérias penais e tributárias, criar corregedoria independente e limitar o foro privilegiado.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema"
+  },
+  {
+   "tema": "Proteção social",
+   "texto": "Adultos aptos só permanecem no Bolsa Família enquanto buscam emprego ou estudam; prêmio de R$ 5 mil para famílias que saírem do programa.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema"
+  },
+  {
+   "tema": "Trabalho",
+   "texto": "Zerar encargos sobre um salário mínimo na contratação de quem está há mais de um ano na informalidade e acabar com o monopólio sindical.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema"
+  },
+  {
+   "tema": "Política externa",
+   "texto": "Sair do BRICS de forma diplomática, ingressar na OCDE e transformar o Mercosul em zona de livre comércio.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema"
+  },
+  {
+   "tema": "Educação financeira",
+   "texto": "Programa Sócios do Brasil: depósito de R$ 1.000 para cada brasileiro ao nascer, aplicado em fundos de ações e sacável aos 18 anos.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema"
+  }
+ ],
+ "posicoes": {
+  "E01": {
+   "v": 0,
+   "conf": "media",
+   "base": "Plano mantém o Bolsa Família, mas propõe unificar programas, combater fraudes e limitar a permanência de adultos aptos ao trabalho; foco é reduzir gasto.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema",
+   "p": 0,
+   "conf_p": "baixa",
+   "base_p": "A única transferência estadual direta localizada foi o Bolsa Merenda (2020): R$ 50/mês por aluno da rede pública em extrema pobreza, ampliado a 466 mil, criado por lei de autoria da ALMG na pandemia.",
+   "fonte_p": "https://www.agenciaminas.mg.gov.br/noticia/governo-de-minas-inicia-pagamento-do-bolsa-merenda-108003"
+  },
+  "E02": {
+   "v": 2,
+   "conf": "alta",
+   "base": "Plano: 'Privatizar todas as empresas estatais'; em campanha prometeu privatizar Petrobras e Banco do Brasil.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema",
+   "p": 2,
+   "conf_p": "alta",
+   "base_p": "Sancionou em 23/12/2025 a lei que autoriza privatizar a Copasa, após a ALMG aprovar PEC que dispensa referendo (48 a 22); tentou também viabilizar a venda da Cemig, que não avançou.",
+   "fonte_p": "https://www.itatiaia.com.br/politica/privatizacao-da-copasa-zema-sanciona-lei-que-libera-venda-da-estatal"
+  },
+  "E03": {
+   "v": -1,
+   "conf": "media",
+   "base": "Plano propõe metas de redução da carga tributária e cortar o imposto de renda das empresas ao nível de países desenvolvidos; não propõe tributar dividendos ou fortunas.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do governo Zema (lei, decreto, veto ou política de gestão) sobre o tema; ele não exerceu mandato legislativo.",
+   "fonte_p": null
+  },
+  "E04": {
+   "v": 2,
+   "conf": "alta",
+   "base": "Plano propõe 'choque fiscal nos gastos do governo', reforma da Previdência 'definitiva', revisão de despesas obrigatórias e reforma administrativa.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema",
+   "p": 1,
+   "conf_p": "media",
+   "base_p": "Aprovou a reforma da Previdência estadual (2020) e limitou despesas por decreto (Decreto 48.886/2024, no RRF); em 2022 vetou reajustes acima de 10,06%. Em 2023 sancionou alta de 298% no próprio salário.",
+   "fonte_p": "https://ofator.com.br/informacao/oposicao-a-zema-na-almg-quer-anular-decreto-de-teto-de-gastos/"
+  },
+  "E05": {
+   "v": -2,
+   "conf": "alta",
+   "base": "Em sabatina (03/09/2026) chamou o fim da escala 6x1 de 'medida populista' e propôs jornada por hora definida pelo trabalhador.",
+   "fonte": "https://diarioesp.com.br/sao-paulo/2026/09/03/zema-critica-fim-da-escala-6x1-e-propoe-pagamento-por-hora-em-sabatina.html",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do governo Zema (lei, decreto, veto ou política de gestão) sobre o tema; ele não exerceu mandato legislativo.",
+   "fonte_p": null
+  },
+  "E06": {
+   "v": null,
+   "conf": "baixa",
+   "base": "Não encontrei posição do candidato sobre o tema no plano registrado no TSE nem em entrevistas consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do governo Zema (lei, decreto, veto ou política de gestão) sobre o tema; ele não exerceu mandato legislativo.",
+   "fonte_p": null
+  },
+  "E07": {
+   "v": null,
+   "conf": "baixa",
+   "base": "Plano propõe derrubar juros via choque fiscal e superávits, mas não encontrei menção explícita à autonomia do Banco Central.",
+   "fonte": null,
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do governo Zema (lei, decreto, veto ou política de gestão) sobre o tema; ele não exerceu mandato legislativo.",
+   "fonte_p": null
+  },
+  "E08": {
+   "v": -2,
+   "conf": "alta",
+   "base": "Plano: 'Reduzir gradualmente os programas de crédito direcionado, incluindo linhas subsidiadas do BNDES, para setores escolhidos politicamente'.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do governo Zema (lei, decreto, veto ou política de gestão) sobre o tema; ele não exerceu mandato legislativo.",
+   "fonte_p": null
+  },
+  "E09": {
+   "v": null,
+   "conf": "baixa",
+   "base": "Não encontrei posição do candidato sobre o tema no plano registrado no TSE nem em entrevistas consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do governo Zema (lei, decreto, veto ou política de gestão) sobre o tema; ele não exerceu mandato legislativo.",
+   "fonte_p": null
+  },
+  "E10": {
+   "v": 2,
+   "conf": "alta",
+   "base": "Plano: 'Ampliar as parcerias público-privadas em todos os serviços públicos, inclusive saúde e educação'; propõe vouchers para cursos técnicos.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema",
+   "p": 2,
+   "conf_p": "media",
+   "base_p": "Criou o Projeto Somar (gestão de escolas estaduais compartilhada com organizações da sociedade civil, piloto em 2021) e abriu credenciamento para ampliá-lo em 2024; o TCE-MG suspendeu o edital em out/2024.",
+   "fonte_p": "https://www.brasildefato.com.br/2024/10/31/tce-mg-suspende-edital-do-projeto-somar-que-preve-terceirizacao-da-gestao-de-escolas-publicas"
+  },
+  "E11": {
+   "v": null,
+   "conf": "baixa",
+   "base": "Plano propõe reforma da Previdência com idade mínima ajustada à expectativa de vida, mas não menciona capitalização.",
+   "fonte": null,
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do governo Zema (lei, decreto, veto ou política de gestão) sobre o tema; ele não exerceu mandato legislativo.",
+   "fonte_p": null
+  },
+  "E12": {
+   "v": 1,
+   "conf": "alta",
+   "base": "Plano: alinhar gradualmente as tarifas de importação à média dos países em desenvolvimento e transformar o Mercosul em zona de livre comércio.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do governo Zema (lei, decreto, veto ou política de gestão) sobre o tema; ele não exerceu mandato legislativo.",
+   "fonte_p": null
+  },
+  "E13": {
+   "v": 2,
+   "conf": "alta",
+   "base": "Plano: 'Tirar o preço dos combustíveis das mãos da política', seguindo 'referências de mercado' e livres da interferência de governos.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do governo Zema (lei, decreto, veto ou política de gestão) sobre o tema; ele não exerceu mandato legislativo.",
+   "fonte_p": null
+  },
+  "E14": {
+   "v": 2,
+   "conf": "alta",
+   "base": "Plano: adultos aptos só ficam no Bolsa Família enquanto buscam emprego ou se qualificam; prêmio de R$ 5 mil a famílias que deixarem o programa.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do governo Zema (lei, decreto, veto ou política de gestão) sobre o tema; ele não exerceu mandato legislativo.",
+   "fonte_p": null
+  },
+  "E15": {
+   "v": -1,
+   "conf": "media",
+   "base": "Plano prioriza 'defender a propriedade rural', com porte de armas contra invasões; não menciona reforma agrária.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do governo Zema (lei, decreto, veto ou política de gestão) sobre o tema; ele não exerceu mandato legislativo.",
+   "fonte_p": null
+  },
+  "E16": {
+   "v": 2,
+   "conf": "alta",
+   "base": "Plano centrado em reduzir impostos, simplificar abertura e fechamento de empresas e cortar encargos sobre a folha para gerar emprego formal.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do governo Zema (lei, decreto, veto ou política de gestão) sobre o tema; ele não exerceu mandato legislativo.",
+   "fonte_p": null
+  },
+  "E17": {
+   "v": -1,
+   "conf": "media",
+   "base": "Plano defende preços de combustíveis por referências de mercado, sem interferência do governo; não trata de controle de preço de alimentos.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do governo Zema (lei, decreto, veto ou política de gestão) sobre o tema; ele não exerceu mandato legislativo.",
+   "fonte_p": null
+  },
+  "E18": {
+   "v": -2,
+   "conf": "alta",
+   "base": "Plano: 'Encerrar o monopólio sindical, assegurando ao profissional o direito de não se filiar ou contribuir para sindicatos'.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do governo Zema (lei, decreto, veto ou política de gestão) sobre o tema; ele não exerceu mandato legislativo.",
+   "fonte_p": null
+  },
+  "V01": {
+   "v": -2,
+   "conf": "alta",
+   "base": "Carta de princípios ao segmento cristão (09/09/2026) defende a proibição do aborto; vice Eduardo Girão: 'o primeiro direito é a liberdade para nascer'.",
+   "fonte": "https://www.otempo.com.br/eleicoes/2026/presidentes/2026/9/9/em-aceno-a-evangelicos-zema-divulga-carta-de-principios-ao-segmento-cristao",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do governo Zema (lei, decreto, veto ou política de gestão) sobre o tema; ele não exerceu mandato legislativo.",
+   "fonte_p": null
+  },
+  "V02": {
+   "v": 1,
+   "conf": "media",
+   "base": "Plano: garantir o porte de armas em toda a extensão da propriedade rural, 'além da posse estendida já prevista em lei'.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do governo Zema (lei, decreto, veto ou política de gestão) sobre o tema; ele não exerceu mandato legislativo.",
+   "fonte_p": null
+  },
+  "V03": {
+   "v": 2,
+   "conf": "alta",
+   "base": "Plano: 'Reduzir a maioridade penal para 16 anos ou menos', com responsabilização de mais jovens em crimes graves.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do governo Zema (lei, decreto, veto ou política de gestão) sobre o tema; ele não exerceu mandato legislativo.",
+   "fonte_p": null
+  },
+  "V04": {
+   "v": -2,
+   "conf": "alta",
+   "base": "Carta ao segmento cristão se opõe à legalização das drogas e critica a liberação do porte de maconha; diz que o tema cabe ao Congresso, não ao Judiciário.",
+   "fonte": "https://www.otempo.com.br/eleicoes/2026/presidentes/2026/9/9/em-aceno-a-evangelicos-zema-divulga-carta-de-principios-ao-segmento-cristao",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do governo Zema (lei, decreto, veto ou política de gestão) sobre o tema; ele não exerceu mandato legislativo.",
+   "fonte_p": null
+  },
+  "V05": {
+   "v": null,
+   "conf": "baixa",
+   "base": "Não encontrei posição do candidato sobre o tema no plano registrado no TSE nem em entrevistas consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do governo Zema (lei, decreto, veto ou política de gestão) sobre o tema; ele não exerceu mandato legislativo.",
+   "fonte_p": null
+  },
+  "V06": {
+   "v": null,
+   "conf": "baixa",
+   "base": "Não encontrei posição do candidato sobre o tema no plano registrado no TSE nem em entrevistas consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do governo Zema (lei, decreto, veto ou política de gestão) sobre o tema; ele não exerceu mandato legislativo.",
+   "fonte_p": null
+  },
+  "V07": {
+   "v": 1,
+   "conf": "baixa",
+   "base": "Carta de princípios ao segmento cristão cita família, vida e liberdade religiosa como valores que o governo deve proteger.",
+   "fonte": "https://www.otempo.com.br/eleicoes/2026/presidentes/2026/9/9/em-aceno-a-evangelicos-zema-divulga-carta-de-principios-ao-segmento-cristao",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do governo Zema (lei, decreto, veto ou política de gestão) sobre o tema; ele não exerceu mandato legislativo.",
+   "fonte_p": null
+  },
+  "V08": {
+   "v": -2,
+   "conf": "alta",
+   "base": "Critica cotas raciais e promete reverter políticas do PT: 'O Brasil não aguenta mais quatro anos de cotas' (jul/2026).",
+   "fonte": "https://www.gazetadopovo.com.br/eleicoes/2026/zema-critica-cotas-raciais-promete-privatizar-petrobras-e-mira-stf/",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do governo Zema (lei, decreto, veto ou política de gestão) sobre o tema; ele não exerceu mandato legislativo.",
+   "fonte_p": null
+  },
+  "V09": {
+   "v": null,
+   "conf": "baixa",
+   "base": "Plano propõe classificar facções como terroristas e retomar territórios com operações integradas; não trata explicitamente de regras de uso da força.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do governo Zema (lei, decreto, veto ou política de gestão) sobre o tema; ele não exerceu mandato legislativo.",
+   "fonte_p": null
+  },
+  "V10": {
+   "v": 2,
+   "conf": "alta",
+   "base": "Defende indulto a Jair Bolsonaro e aos envolvidos no 8 de janeiro; disse que 'planejar não é crime' (ago/2026) e que dosimetria só serviria se reduzisse penas em 99%.",
+   "fonte": "https://m.imirante.com/noticias/brasil/2026/08/11/ipolitica-romeu-zema-diz-que-planejar-8-de-janeiro-nao-e-crime",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do governo Zema (lei, decreto, veto ou política de gestão) sobre o tema; ele não exerceu mandato legislativo.",
+   "fonte_p": null
+  },
+  "V11": {
+   "v": -2,
+   "conf": "alta",
+   "base": "Plano: 'Vedar a exclusão de perfis e a moderação de opiniões pelas plataformas, inclusive por determinação judicial'.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do governo Zema (lei, decreto, veto ou política de gestão) sobre o tema; ele não exerceu mandato legislativo.",
+   "fonte_p": null
+  },
+  "V12": {
+   "v": null,
+   "conf": "baixa",
+   "base": "Não encontrei posição do candidato sobre o tema no plano registrado no TSE nem em entrevistas consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do governo Zema (lei, decreto, veto ou política de gestão) sobre o tema; ele não exerceu mandato legislativo.",
+   "fonte_p": null
+  },
+  "V13": {
+   "v": -1,
+   "conf": "media",
+   "base": "Plano promete combater grilagem e desmatamento ilegal, mas 'sem penalizar quem produz e investe dentro da lei' e critica a insegurança jurídica no campo.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do governo Zema (lei, decreto, veto ou política de gestão) sobre o tema; ele não exerceu mandato legislativo.",
+   "fonte_p": null
+  },
+  "V14": {
+   "v": 1,
+   "conf": "alta",
+   "base": "Plano propõe dar aos pais mais opções de modelo educacional, incluindo escolas cívico-militares e homeschooling regulamentado.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema",
+   "p": 1,
+   "conf_p": "alta",
+   "base_p": "Manteve as 9 escolas cívico-militares após o fim do programa federal (2023), passou sua gestão ao Corpo de Bombeiros (2024) e abriu consulta a 728 escolas (2025), suspensa pelo TCE-MG.",
+   "fonte_p": "https://jurinews.com.br/destaque-nacional/tce-mg-determina-suspensao-do-programa-de-escolas-civico-militares-em-minas-gerais/"
+  },
+  "V15": {
+   "v": null,
+   "conf": "baixa",
+   "base": "Não encontrei posição do candidato sobre o tema no plano registrado no TSE nem em entrevistas consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do governo Zema (lei, decreto, veto ou política de gestão) sobre o tema; ele não exerceu mandato legislativo.",
+   "fonte_p": null
+  },
+  "V16": {
+   "v": 2,
+   "conf": "alta",
+   "base": "Plano propõe penas mais duras para crimes violentos e substituir o modelo de regimes atual para que o criminoso 'fique efetivamente preso'.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do governo Zema (lei, decreto, veto ou política de gestão) sobre o tema; ele não exerceu mandato legislativo.",
+   "fonte_p": null
+  },
+  "V17": {
+   "v": 2,
+   "conf": "alta",
+   "base": "Plano: 'O STF extrapola suas atribuições constitucionais'; propõe tirar matérias penais e tributárias da Corte, corregedoria externa e investigação obrigatória de ministros.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema",
+   "p": 2,
+   "conf_p": "alta",
+   "base_p": "Em 09/03/2026, ainda governador, protocolou no Senado pedido de impeachment do ministro Alexandre de Moraes.",
+   "fonte_p": "https://www.correiobraziliense.com.br/politica/2026/03/amp/7371479-zema-protocola-pedido-de-impeachment-contra-moraes.html"
+  },
+  "V18": {
+   "v": null,
+   "conf": "baixa",
+   "base": "Carta de princípios ao segmento cristão cita a família entre os valores a proteger; não encontrei definição de modelo familiar.",
+   "fonte": "https://www.otempo.com.br/eleicoes/2026/presidentes/2026/9/9/em-aceno-a-evangelicos-zema-divulga-carta-de-principios-ao-segmento-cristao",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do governo Zema (lei, decreto, veto ou política de gestão) sobre o tema; ele não exerceu mandato legislativo.",
+   "fonte_p": null
+  },
+  "V19": {
+   "v": 2,
+   "conf": "media",
+   "base": "Plano propõe 'Sair do BRICS', ingressar na OCDE, 'alinhar o Brasil às democracias', readerir à IHRA e cooperar com os EUA contra facções.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato verificável do governo Zema (lei, decreto, veto ou política de gestão) sobre o tema; ele não exerceu mandato legislativo.",
+   "fonte_p": null
+  },
+  "Z01": {
+   "v": 2,
+   "conf": "media",
+   "base": "Na noite de 30/10/2022 escreveu: 'Com o resultado da eleição nacional, desejo sucesso ao presidente eleito'. Em jul/2026 disse considerar o sistema confiável e defendeu comprovante impresso como complemento à urna.",
+   "fonte": "https://diariodocomercio.com.br/economia/zema-deseja-sucesso-a-presidente-eleito-mas-cobra-minas-entre-prioridades/",
+   "p": 2,
+   "conf_p": "media",
+   "base_p": "Reconheceu o resultado de 2022 na mesma noite do 2º turno, apesar de ter apoiado Bolsonaro; não contestou o resultado.",
+   "fonte_p": "https://diariodocomercio.com.br/economia/zema-deseja-sucesso-a-presidente-eleito-mas-cobra-minas-entre-prioridades/"
+  },
+  "Z02": {
+   "v": 0,
+   "conf": "baixa",
+   "base": "Não localizei fala sobre intervenção militar. Sobre o 8/1, disse em jan/2023 que houve 'erro da direita radical' e que o governo 'fez vista grossa'; em ago/2026 negou tentativa de golpe e prometeu indulto a Bolsonaro.",
+   "fonte": "https://www.gazetadopovo.com.br/republica/breves/zema-sugere-que-governo-lula-fez-vista-grossa-para-ser-vitima-em-atos-de-vandalismo/",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato do governo Zema relativo aos acampamentos de 2022 ou aos atos de 8/1.",
+   "fonte_p": null
+  },
+  "Z03": {
+   "v": -1,
+   "conf": "baixa",
+   "base": "Não localizei defesa de descumprir decisões. Chamou a ordem do TSE para retirar seu jingle (23/09/2026) de 'censura' e 'ditadura do Judiciário'; o plano propõe vedar por lei remoção de perfis por ordem judicial.",
+   "fonte": "https://www.dgabc.com.br/Noticia/4348670/tse-manda-zema-retirar-clipe-de-jingle-que-mostra-lula-e-ministros-do-stf-presos",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei registro verificável de cumprimento ou descumprimento das ordens judiciais que o atingiram em 2026.",
+   "fonte_p": null
+  },
+  "Z04": {
+   "v": -2,
+   "conf": "alta",
+   "base": "Plano: 'Reforçar na Constituição a proibição absoluta de censura prévia' e 'tipificar como abuso de autoridade qualquer conduta estatal que intimide ou restrinja o jornalismo'.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Não localizei ato do governo Zema para punir ou restringir veículos de imprensa, nem registro em sentido contrário.",
+   "fonte_p": null
+  },
+  "Z05": {
+   "v": 1,
+   "conf": "media",
+   "base": "Jingle (22/08/2026) promete 'acabar com o PT' e mostra Lula como presidiário e ministros do STF numa cela; em 01/09/2026 chamou Moraes de 'projetinho de ditador' e disse que ele deveria ir para a cadeia.",
+   "fonte": "https://www.diariodepernambuco.com.br/politica/2026/08/11721936-em-jingle-zema-fala-em-acabar-com-pt-mostra-ministros-do-stf-na-cadeia-e-virginia-surpresa.html",
+   "p": 1,
+   "conf_p": "media",
+   "base_p": "O TSE mandou retirar o clipe (23/09/2026) por sugerir crimes de Lula e do PT com associações 'fabricadas'; a PGR o denunciou ao STJ (15/05/2026) por calúnia contra Gilmar Mendes em vídeo com bonecos de IA.",
+   "fonte_p": "https://portaldeprefeitura.com.br/bastidores-da-politica/mpf/pgr-denuncia-zema-ao-stj-por-calunia-contra-gilmar-mendes/621654/"
+  },
+  "Z06": {
+   "v": 1,
+   "conf": "baixa",
+   "base": "Plano propõe mudanças por emendas constitucionais e leis, algumas de forma gradual (tarifas, crédito do BNDES), sob o rótulo de 'choque' fiscal e 'Plano Implacável'.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema",
+   "p": 1,
+   "conf_p": "media",
+   "base_p": "Aprovou na ALMG a reforma da Previdência (2020) e a PEC e a lei da Copasa (2025); diante da não votação do RRF pela ALMG, obteve no STF (jul/2022) aval para aderir por decreto.",
+   "fonte_p": "https://www.em.com.br/app/noticia/politica/2022/07/02/interna_politica,1377497/nunes-marques-autoriza-adesao-de-minas-ao-rrf.shtml"
+  },
+  "Z07": {
+   "v": -1,
+   "conf": "baixa",
+   "base": "Plano propõe reduzir competências do STF e 'restabelecer os limites entre os poderes' por reforma, e tornar o Congresso 'mais eficiente'; não propõe governar sem o Congresso.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema",
+   "p": -1,
+   "conf_p": "baixa",
+   "base_p": "Supriu a falta de aval da ALMG com decisão do STF (RRF, 2022) e instituiu teto de gastos por decreto (ago/2024), que a oposição tentou sustar alegando exigir lei complementar. Em sentido oposto, aprovou na ALMG a reforma da Previdência (2020) e a PEC e a lei da Copasa (2025).",
+   "fonte_p": "https://ofator.com.br/informacao/oposicao-a-zema-na-almg-quer-anular-decreto-de-teto-de-gastos/"
+  },
+  "Z08": {
+   "v": 0,
+   "conf": "baixa",
+   "base": "Chamou de 'inaceitável' o envio de embaixadora à posse de Maduro (jan/2025); cita El Salvador de Bukele como modelo de segurança sem comentar críticas da ONU e da HRW. Não localizei críticas a governos aliados.",
+   "fonte": "https://www.folhape.com.br/noticias/governadores-de-direita-e-aliados-criticam-ida-do-governo-brasileiro-a/383623/",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "Nunca conduziu política externa; não há ato verificável.",
+   "fonte_p": null
+  },
+  "V20": {
+   "v": null,
+   "p": null,
+   "conf": "baixa",
+   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
+   "fonte": null
+  },
+  "Z09": {
+   "v": null,
+   "p": null,
+   "conf": "baixa",
+   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
+   "fonte": null
+  },
+  "Z10": {
+   "v": null,
+   "p": null,
+   "conf": "baixa",
+   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
+   "fonte": null
+  }
+ },
+ "checagens": [
+  {
+   "afirmacao": "Condenados do 8 de janeiro receberam mais de 14 anos de prisão apenas por 'escrever em um monumento público com batom' e 'sentar em uma poltrona' (Roda Viva).",
+   "veredito": "Falso",
+   "agencia": "Aos Fatos",
+   "data": "2025-08-26",
+   "url": "https://www.aosfatos.org/noticias/no-roda-viva-zema-usa-desinformacao-para-criticar-stf-e-governos-petistas/"
+  },
+  {
+   "afirmacao": "Não se alinhou politicamente a Jair Bolsonaro nas eleições de 2018 e 2022 (Roda Viva).",
+   "veredito": "Falso",
+   "agencia": "Aos Fatos",
+   "data": "2025-08-26",
+   "url": "https://www.aosfatos.org/noticias/no-roda-viva-zema-usa-desinformacao-para-criticar-stf-e-governos-petistas/"
+  },
+  {
+   "afirmacao": "A arrecadação de Minas Gerais cresceu mais do que a dívida pública do estado durante seu mandato (Roda Viva).",
+   "veredito": "Verdadeiro",
+   "agencia": "Aos Fatos",
+   "data": "2025-08-26",
+   "url": "https://www.aosfatos.org/noticias/no-roda-viva-zema-usa-desinformacao-para-criticar-stf-e-governos-petistas/"
+  },
+  {
+   "afirmacao": "O Brasil foi 'o único país do mundo' a andar para trás em 2015 e 2016.",
+   "veredito": "Enganoso",
+   "agencia": "Aos Fatos",
+   "data": "2026-08-05",
+   "url": "https://www.aosfatos.org/noticias/presidenciaveis-distorcem-inventam-fatos-atacar-adversarios/"
+  },
+  {
+   "afirmacao": "Zema desistiu da candidatura presidencial para apoiar Flávio Bolsonaro no 1º turno.",
+   "veredito": "Falso",
+   "agencia": "Boatos.org",
+   "data": "2026-10-03",
+   "url": "https://www.boatos.org/politica/zema-acabou-de-desistir-da-candidatura-para-apoiar-flavio-bolsonaro.html"
+  }
+ ],
+ "fontes": [
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema",
+  "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280016919931",
+  "https://planodegoverno2026.com.br/candidatos/presidente/zema/",
+  "https://www.oliberal.com/politica/zema-declara-apoio-a-flavio-bolsonaro-no-segundo-turno-1.1177577",
+  "https://tribunadoplanalto.com.br/derrotados-no-1o-turno-adotam-posicoes-diferentes-para-disputa-entre-lula-e-flavio/",
+  "https://www.otempo.com.br/eleicoes/2026/presidentes/2026/9/9/em-aceno-a-evangelicos-zema-divulga-carta-de-principios-ao-segmento-cristao",
+  "https://diarioesp.com.br/sao-paulo/2026/09/03/zema-critica-fim-da-escala-6x1-e-propoe-pagamento-por-hora-em-sabatina.html",
+  "https://www.gazetadopovo.com.br/eleicoes/2026/zema-critica-cotas-raciais-promete-privatizar-petrobras-e-mira-stf/",
+  "https://m.imirante.com/noticias/brasil/2026/08/11/ipolitica-romeu-zema-diz-que-planejar-8-de-janeiro-nao-e-crime",
+  "https://www.cnnbrasil.com.br/politica/dosimetria-anistia-zema/",
+  "https://diariodocomercio.com.br/politica/senado-aborto-zema-caiado/",
+  "https://sbtnews.sbt.com.br/noticia/politica/zema-renuncia-ao-governo-de-mg-e-mateus-simoes-assume-o-cargo",
+  "https://www.em.com.br/politica/2026/08/7473702-eduardo-girao-sera-o-vice-de-zema.html",
+  "https://www.poder360.com.br/poder-eleicoes/10-dos-12-pre-candidatos-a-presidencia-ja-se-manifestaram-contra-o-stf/",
+  "https://www.aosfatos.org/noticias/no-roda-viva-zema-usa-desinformacao-para-criticar-stf-e-governos-petistas/",
+  "https://www.aosfatos.org/noticias/presidenciaveis-distorcem-inventam-fatos-atacar-adversarios/",
+  "https://portaldeprefeitura.com.br/bastidores-da-politica/eleicoes-2026-com-100-das-secoes-totalizadas-flavio-tem-4703-e/633498/",
+  "https://www.agenciaminas.mg.gov.br/noticia/governo-de-minas-inicia-pagamento-do-bolsa-merenda-108003",
+  "https://www.itatiaia.com.br/politica/privatizacao-da-copasa-zema-sanciona-lei-que-libera-venda-da-estatal",
+  "https://ofator.com.br/informacao/oposicao-a-zema-na-almg-quer-anular-decreto-de-teto-de-gastos/",
+  "https://www.brasildefato.com.br/2024/10/31/tce-mg-suspende-edital-do-projeto-somar-que-preve-terceirizacao-da-gestao-de-escolas-publicas",
+  "https://jurinews.com.br/destaque-nacional/tce-mg-determina-suspensao-do-programa-de-escolas-civico-militares-em-minas-gerais/",
+  "https://www.correiobraziliense.com.br/politica/2026/03/amp/7371479-zema-protocola-pedido-de-impeachment-contra-moraes.html",
+  "https://www.brasildefato.com.br/2020/09/04/reforma-previdenciaria-de-zema-e-aprovada-saiba-o-que-muda",
+  "https://tribunademinas.com.br/noticias/minas/16-07-2021/governador-romeu-zema-anuncia-o-fim-do-parcelamento-dos-salarios.html?amp=1",
+  "https://www.brasildefato.com.br/2022/04/06/camara-de-uberlandia-mg-aprova-mocao-de-apoio-aos-trabalhadores-em-educacao-da-rede-estadual/",
+  "https://www.em.com.br/app/noticia/politica/2022/07/02/interna_politica,1377497/nunes-marques-autoriza-adesao-de-minas-ao-rrf.shtml",
+  "https://sbtnews.sbt.com.br/noticia/brasil/246558-governador-de-mg-sanciona-lei-que-reajusta-proprio-salario-em-quase-300",
+  "https://tribunademinas.com.br/noticias/minas/13-07-2023/zema-continuidade-modelo-civico-militar.html?amp=1",
+  "https://www.agenciaminas.mg.gov.br/noticia/governo-de-minas-expande-projeto-somar-para-gestao-compartilhada-em-escolas-estaduais/",
+  "https://ofator.com.br/informacao/divida-reconhecida-por-minas-em-contrato-com-a-uniao-supera-projecao-feita-sete-meses-antes/",
+  "https://www.itatiaia.com.br/politica/pec-que-libera-privatizacao-da-copasa-sem-consulta-popular-e-aprovada-na-almg",
+  "https://diariodocomercio.com.br/economia/zema-deseja-sucesso-a-presidente-eleito-mas-cobra-minas-entre-prioridades/",
+  "https://www.folhape.com.br/politica/zema-defende-voto-impresso-como-complemento-a-urna-eletronica/502104/",
+  "https://www.gazetadopovo.com.br/republica/breves/zema-sugere-que-governo-lula-fez-vista-grossa-para-ser-vitima-em-atos-de-vandalismo/",
+  "https://www.dgabc.com.br/Noticia/4348670/tse-manda-zema-retirar-clipe-de-jingle-que-mostra-lula-e-ministros-do-stf-presos",
+  "https://portaldeprefeitura.com.br/bastidores-da-politica/mpf/pgr-denuncia-zema-ao-stj-por-calunia-contra-gilmar-mendes/621654/",
+  "https://www.diariodepernambuco.com.br/politica/2026/08/11721936-em-jingle-zema-fala-em-acabar-com-pt-mostra-ministros-do-stf-na-cadeia-e-virginia-surpresa.html",
+  "https://www.diariodepernambuco.com.br/politica/2026/09/11722801-romeu-zema-chama-moraes-de-projetinho-de-ditador-e-pede-cadeia-para-ministro-do-stf.html",
+  "https://www.folhape.com.br/noticias/governadores-de-direita-e-aliados-criticam-ida-do-governo-brasileiro-a/383623/",
+  "https://www.dgabc.com.br/Noticia/4317421/zema-cita-el-salvador-e-defende-endurecimento-no-combate-ao-crime-no-brasil",
+  "https://ofator.com.br/?p=32385"
+ ],
+ "atualizado_em": "2026-10-25",
+ "pratica_resumo": "Como governador (2019–mar/2026), sem mandato legislativo anterior, encerrou o parcelamento de salários (ago/2021), aprovou a reforma da Previdência (2020), aderiu ao RRF com aval do STF (2022) e ao Propag (contrato em 31/12/2025, dívida de R$ 179,3 bi) e sancionou a lei que autoriza privatizar a Copasa (23/12/2025); a Cemig não foi vendida. Vetou reajustes acima de 10,06% aos servidores (2022) e, em 2023, sancionou alta de 298% no próprio salário e no do vice e dos secretários. Criou e tentou ampliar a gestão escolar por OSCs (Somar) e manteve as 9 escolas cívico-militares, com tentativa de ampliação; as duas ampliações foram suspensas pelo TCE-MG. Reconheceu o resultado de 2022 na mesma noite; depois relativizou o 8/1, e em 2026 teve jingle retirado pelo TSE e foi denunciado pela PGR por calúnia contra Gilmar Mendes.",
+ "atos": [
+  {
+   "data": "2020",
+   "ato": "Pagou o Bolsa Merenda (R$ 50/mês por aluno em extrema pobreza), transferência emergencial na pandemia, ampliada a 466 mil estudantes.",
+   "tema": "Proteção social",
+   "fonte": "https://www.agenciaminas.mg.gov.br/noticia/governo-de-minas-inicia-pagamento-do-bolsa-merenda-108003"
+  },
+  {
+   "data": "2020-09-04",
+   "ato": "ALMG aprova a reforma da Previdência estadual proposta pelo governo (EC 104/2020; alíquotas de 11% a 16% pela LC 156/2020).",
+   "tema": "Previdência",
+   "fonte": "https://www.brasildefato.com.br/2020/09/04/reforma-previdenciaria-de-zema-e-aprovada-saiba-o-que-muda"
+  },
+  {
+   "data": "2021-07-16",
+   "ato": "Anunciou o fim do parcelamento de salários dos servidores, vigente desde 2016; pagamento integral a partir de ago/2021.",
+   "tema": "Folha",
+   "fonte": "https://tribunademinas.com.br/noticias/minas/16-07-2021/governador-romeu-zema-anuncia-o-fim-do-parcelamento-dos-salarios.html?amp=1"
+  },
+  {
+   "data": "2022-04-04",
+   "ato": "Sancionou recomposição de 10,06% aos servidores e vetou emendas de 33,24% (educação) e 14% (saúde e segurança).",
+   "tema": "Folha",
+   "fonte": "https://www.brasildefato.com.br/2022/04/06/camara-de-uberlandia-mg-aprova-mocao-de-apoio-aos-trabalhadores-em-educacao-da-rede-estadual/"
+  },
+  {
+   "data": "2022-07",
+   "ato": "Obteve no STF (ministro Nunes Marques, depois plenário) autorização para aderir ao RRF por decreto, sem lei da ALMG.",
+   "tema": "Contas públicas",
+   "fonte": "https://www.em.com.br/app/noticia/politica/2022/07/02/interna_politica,1377497/nunes-marques-autoriza-adesao-de-minas-ao-rrf.shtml"
+  },
+  {
+   "data": "2023-05-03",
+   "ato": "Sancionou lei que eleva o salário do governador de cerca de R$ 10,5 mil para R$ 41.845 (até fev/2025), com efeito para vice e secretários.",
+   "tema": "Folha",
+   "fonte": "https://sbtnews.sbt.com.br/noticia/brasil/246558-governador-de-mg-sanciona-lei-que-reajusta-proprio-salario-em-quase-300"
+  },
+  {
+   "data": "2023-07-13",
+   "ato": "Manteve o modelo cívico-militar nas 9 escolas do extinto programa federal (Pecim).",
+   "tema": "Educação",
+   "fonte": "https://tribunademinas.com.br/noticias/minas/13-07-2023/zema-continuidade-modelo-civico-militar.html?amp=1"
+  },
+  {
+   "data": "2024-07",
+   "ato": "Abriu credenciamento de OSCs para expandir o Projeto Somar (gestão compartilhada de escolas); edital suspenso pelo TCE-MG em out/2024.",
+   "tema": "Educação",
+   "fonte": "https://www.agenciaminas.mg.gov.br/noticia/governo-de-minas-expande-projeto-somar-para-gestao-compartilhada-em-escolas-estaduais/"
+  },
+  {
+   "data": "2024-08-28",
+   "ato": "Editou o Decreto 48.886, que limita o crescimento anual das despesas primárias no âmbito do RRF.",
+   "tema": "Contas públicas",
+   "fonte": "https://ofator.com.br/informacao/oposicao-a-zema-na-almg-quer-anular-decreto-de-teto-de-gastos/"
+  },
+  {
+   "data": "2025-12-23",
+   "ato": "Sancionou a lei que autoriza a privatização da Copasa, com golden share do Estado e recursos destinados ao Propag.",
+   "tema": "Estatais",
+   "fonte": "https://www.itatiaia.com.br/politica/privatizacao-da-copasa-zema-sanciona-lei-que-libera-venda-da-estatal"
+  },
+  {
+   "data": "2025-12-31",
+   "ato": "Assinou contrato de adesão ao Propag, reconhecendo dívida de R$ 179,3 bi com a União, a pagar em 30 anos.",
+   "tema": "Contas públicas",
+   "fonte": "https://ofator.com.br/informacao/divida-reconhecida-por-minas-em-contrato-com-a-uniao-supera-projecao-feita-sete-meses-antes/"
+  },
+  {
+   "data": "2026-03-09",
+   "ato": "Protocolou no Senado pedido de impeachment do ministro do STF Alexandre de Moraes.",
+   "tema": "Democracia",
+   "fonte": "https://www.correiobraziliense.com.br/politica/2026/03/amp/7371479-zema-protocola-pedido-de-impeachment-contra-moraes.html"
+  }
+ ]
+}

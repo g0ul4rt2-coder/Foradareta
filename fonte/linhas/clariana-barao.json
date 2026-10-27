@@ -1,0 +1,104 @@
+{
+ "id": "clariana-barao",
+ "nome": "Clariana Barão",
+ "eventos": [
+  {
+   "data": "1987-04-03",
+   "tipo": "origem",
+   "titulo": "Nasce em Cuiabá (MT)",
+   "texto": "Clariana Zacarkim Barão nasce em Cuiabá. Forma-se em Direito pelo Centro Universitário de Várzea Grande (Univag) e atua em direito administrativo e gestão pública.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://jovempan.com.br/?p=282058"
+  },
+  {
+   "data": "2023",
+   "tipo": "carreira",
+   "titulo": "Trabalho assistencial em Várzea Grande",
+   "texto": "É homenageada no prêmio Top Empresarial pelo trabalho assistencial com crianças de comunidades de Várzea Grande. Também presidiu a Comissão de Solidariedade e Assistência Social da OAB local.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://jovempan.com.br/?p=282058"
+  },
+  {
+   "data": "2024",
+   "tipo": "carreira",
+   "titulo": "Voluntários para enchentes no RS",
+   "texto": "Coordena voluntários que ajudaram vítimas das enchentes no Rio Grande do Sul.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://jovempan.com.br/?p=282058"
+  },
+  {
+   "data": "2026",
+   "tipo": "cargo",
+   "titulo": "Preside o DC em Mato Grosso",
+   "texto": "Assume a presidência do diretório estadual do Democracia Cristã (DC) em Mato Grosso (cargo partidário, não público).",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://www.metropoles.com/brasil/dc-lanca-clariana-barao-como-candidata-a-presidencia-da-republica"
+  },
+  {
+   "data": "2026-07-17",
+   "tipo": "alianca",
+   "titulo": "Joaquim Barbosa desiste pelo DC",
+   "texto": "O ex-presidente do STF Joaquim Barbosa, que substituíra Aldo Rebelo como nome do DC, desiste da candidatura; o presidente do partido cita falta de estrutura.",
+   "status": null,
+   "pessoas": [
+    "joaquim-barbosa",
+    "aldo-rebelo"
+   ],
+   "fonte": "https://sbtnews.sbt.com.br/noticia/politica/joaquim-barbosa-desiste-de-disputar-a-presidencia-em-2026"
+  },
+  {
+   "data": "2026-07-24",
+   "tipo": "eleicao",
+   "titulo": "DC lança Clariana ao Planalto",
+   "texto": "O DC anuncia Clariana como candidata; ela diz querer ser 'a voz de milhares de mulheres'. É a primeira vez desde 1995 que o partido não lança José Maria Eymael.",
+   "status": null,
+   "pessoas": [
+    "jose-maria-eymael"
+   ],
+   "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/com-saida-de-barbosa-dc-lanca-clariana-ao-planalto/"
+  },
+  {
+   "data": "2026-08",
+   "tipo": "eleicao",
+   "titulo": "Candidatura oficializada",
+   "texto": "Convenção nacional do DC, em São Paulo, confirma a chapa com Fabiana Torquato como vice.",
+   "status": null,
+   "pessoas": [
+    "fabiana-torquato"
+   ],
+   "fonte": "https://www.metropoles.com/brasil/dc-lanca-clariana-barao-como-candidata-a-presidencia-da-republica"
+  },
+  {
+   "data": "2026-10-04",
+   "tipo": "eleicao",
+   "titulo": "9º lugar no 1º turno",
+   "texto": "Em sua primeira eleição, recebe 40.043 votos (0,03%).",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://www.otempo.com.br/eleicoes/2026/presidentes/2026/10/7/clariana-barao-candidata-derrotada-do-dc-a-presidente-declara-apoio-a-flavio-bolsonaro"
+  },
+  {
+   "data": "2026-10-07",
+   "tipo": "alianca",
+   "titulo": "Declara apoio a Flávio Bolsonaro",
+   "texto": "Em vídeo ao lado de Valdemar Costa Neto (PL), diz que não havia alternativa para o DC além de apoiar Flávio Bolsonaro e cita a proteção a mulheres e crianças.",
+   "status": null,
+   "pessoas": [
+    "flavio-bolsonaro",
+    "valdemar-costa-neto"
+   ],
+   "fonte": "https://www.otempo.com.br/eleicoes/2026/presidentes/2026/10/7/clariana-barao-candidata-derrotada-do-dc-a-presidente-declara-apoio-a-flavio-bolsonaro"
+  }
+ ],
+ "resumo_juridico": "Não há processos conhecidos: não localizei inquérito, denúncia, ação judicial ou decisão da Justiça Eleitoral contra Clariana Barão. Nunca exerceu mandato eletivo nem cargo de governo.",
+ "fontes": [
+  "https://www.metropoles.com/brasil/dc-lanca-clariana-barao-como-candidata-a-presidencia-da-republica",
+  "https://sbtnews.sbt.com.br/noticia/politica/joaquim-barbosa-desiste-de-disputar-a-presidencia-em-2026",
+  "https://www.poder360.com.br/poder-eleicoes-2026/com-saida-de-barbosa-dc-lanca-clariana-ao-planalto/",
+  "https://www.otempo.com.br/eleicoes/2026/presidentes/2026/10/7/clariana-barao-candidata-derrotada-do-dc-a-presidente-declara-apoio-a-flavio-bolsonaro"
+ ]
+}

@@ -1,0 +1,285 @@
+{
+ "id": "renan-santos",
+ "nome": "Renan Santos",
+ "eventos": [
+  {
+   "data": "1984-02-14",
+   "tipo": "origem",
+   "titulo": "Nasce em São Paulo",
+   "texto": "Renan Antônio Ferreira dos Santos nasce em São Paulo e cresce na Mooca. Entra no curso de Direito da USP, mas não se forma.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/07/20/partido-missao-antecipa-convencao.ghtml"
+  },
+  {
+   "data": "2014",
+   "tipo": "carreira",
+   "titulo": "Cofunda o MBL",
+   "texto": "Com Kim Kataguiri e outros, funda o Movimento Brasil Livre (MBL), grupo liberal que ganhou projeção nos protestos contra o governo Dilma Rousseff.",
+   "status": null,
+   "pessoas": [
+    "kim-kataguiri"
+   ],
+   "fonte": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/07/20/partido-missao-antecipa-convencao.ghtml"
+  },
+  {
+   "data": "2015-04-24",
+   "tipo": "carreira",
+   "titulo": "Marcha a pé até Brasília",
+   "texto": "O MBL organiza a 'Marcha pela Liberdade', caminhada de 33 dias de São Paulo a Brasília (até 27/05/2015) pelo impeachment de Dilma Rousseff.",
+   "status": null,
+   "pessoas": [
+    "dilma-rousseff"
+   ],
+   "fonte": "https://www.poder360.com.br/opiniao/a-missao-de-renan-santos/"
+  },
+  {
+   "data": "2016",
+   "tipo": "processo",
+   "titulo": "Reportagens sobre processos das empresas da família",
+   "texto": "Reportagens (UOL em 2016, El País em 2017) apontam dezenas de processos cíveis e trabalhistas contra empresas da família. Renan atribui os processos à crise do setor e diz que eles já existiam antes da aquisição das empresas (fontes: UOL, 08/05/2016, e El País Brasil, 29/09/2017).",
+   "status": "Processos contra empresas, não condenações criminais de Renan; desfecho geral não localizado",
+   "pessoas": [],
+   "fonte": "https://brasil.elpais.com/brasil/2017/09/26/politica/1506462642_201383.html"
+  },
+  {
+   "data": "2018",
+   "tipo": "alianca",
+   "titulo": "MBL apoia Bolsonaro",
+   "texto": "O MBL apoia a candidatura de Jair Bolsonaro à Presidência em 2018.",
+   "status": null,
+   "pessoas": [
+    "jair-bolsonaro"
+   ],
+   "fonte": "https://www.congressoemfoco.com.br/noticia/12715/cupula-do-mbl-se-filia-ao-podemos-oficializando-apoio-a-moro"
+  },
+  {
+   "data": "2019-05",
+   "tipo": "ruptura",
+   "titulo": "MBL rompe com Bolsonaro",
+   "texto": "O MBL rompe com o governo, dizendo que Bolsonaro flertava com ideias autoritárias e usava o Estado em benefício próprio.",
+   "status": null,
+   "pessoas": [
+    "jair-bolsonaro"
+   ],
+   "fonte": "https://www.congressoemfoco.com.br/noticia/12715/cupula-do-mbl-se-filia-ao-podemos-oficializando-apoio-a-moro"
+  },
+  {
+   "data": "2020-07-10",
+   "tipo": "investigacao",
+   "titulo": "Operação Juno Moneta",
+   "texto": "MP-SP, Polícia Civil e Receita fazem operação sobre suposta sonegação de mais de R$ 400 milhões por empresas ligadas à família fundadora do MBL; dois empresários ligados ao movimento são presos. O MBL disse que nenhum dos presos é do movimento.",
+   "status": "Investigação sobre empresas ligadas à família; a reportagem não cita Renan como preso; desfecho não localizado",
+   "pessoas": [],
+   "fonte": "https://istoedinheiro.com.br/mp-ve-confusao-empresarial-entre-mbl-e-mrl-mira-em-sonegacao-e-prende-dois"
+  },
+  {
+   "data": "2020-10-26",
+   "tipo": "denuncia",
+   "titulo": "MP-SP denuncia Renan por tráfico de influência",
+   "texto": "A Promotoria acusa Renan de usar influência política para favorecer a contratação de um empresário, que doaria ao MBL pelo YouTube. Renan chama a denúncia de 'descabida', feita 'em período eleitoral' para 'manchar' sua reputação.",
+   "status": "Denúncia rejeitada em 1ª instância (data não localizada) e, em 24/11/2021, pela 4ª Câmara Criminal do TJ-SP; não houve ação penal",
+   "pessoas": [],
+   "fonte": "https://istoe.com.br/mp-denuncia-lider-do-mbl-e-ex-membro-da-imprensa-oficial-por-trafico-de-influencia/"
+  },
+  {
+   "data": "2020-11-10",
+   "tipo": "condenacao",
+   "titulo": "Condenado a indenizar jornalista da Globo",
+   "texto": "Decisão definitiva da Justiça de SP obriga Renan a pagar R$ 45,4 mil ao jornalista José Roberto Burnier, a quem chamou de 'canalha' e 'esquerdista global de joelhos para o PT'.",
+   "status": "Condenação cível definitiva (fase de cumprimento de sentença)",
+   "pessoas": [
+    "jose-roberto-burnier"
+   ],
+   "fonte": "https://oantagonista.com.br/brasil/lider-do-mbl-tera-de-indenizar-jornalista-da-globo-em-r-45-mil/"
+  },
+  {
+   "data": "2021-09-12",
+   "tipo": "carreira",
+   "titulo": "Ato pelo impeachment de Bolsonaro",
+   "texto": "O MBL faz ato na Avenida Paulista pelo impeachment de Jair Bolsonaro, após os atos de 7 de Setembro.",
+   "status": null,
+   "pessoas": [
+    "jair-bolsonaro"
+   ],
+   "fonte": "https://www.poder360.com.br/brasil/mbl-reune-de-sindicalistas-a-liberais-em-protesto-contra-bolsonaro/"
+  },
+  {
+   "data": "2021-11-24",
+   "tipo": "decisao",
+   "titulo": "TJ-SP mantém rejeição da denúncia",
+   "texto": "A 4ª Câmara Criminal do TJ-SP rejeita o recurso do MP: para o relator, a acusação não mostrou indícios mínimos de crime.",
+   "status": "Denúncia rejeitada; não houve ação penal",
+   "pessoas": [],
+   "fonte": "https://oantagonista.com.br/brasil/tj-sp-rejeita-denuncia-contra-renan-do-mbl-por-trafico-de-influencia/"
+  },
+  {
+   "data": "2022-01-26",
+   "tipo": "alianca",
+   "titulo": "MBL entra no Podemos e apoia Moro",
+   "texto": "Líderes do MBL, como Kim Kataguiri e Arthur do Val, filiam-se ao Podemos e oficializam apoio à pré-candidatura de Sergio Moro.",
+   "status": null,
+   "pessoas": [
+    "sergio-moro",
+    "kim-kataguiri",
+    "arthur-do-val"
+   ],
+   "fonte": "https://www.congressoemfoco.com.br/noticia/12715/cupula-do-mbl-se-filia-ao-podemos-oficializando-apoio-a-moro"
+  },
+  {
+   "data": "2022-03-05",
+   "tipo": "escandalo",
+   "titulo": "Áudios de Arthur do Val na Ucrânia",
+   "texto": "Vazam falas sexistas de Arthur do Val sobre ucranianas, feitas em viagem da qual Renan participou. Arthur desiste de concorrer ao governo de SP; o MBL divulga nota repudiando as falas. A reportagem lembra que, nos atos de setembro de 2021, voltou a circular um vídeo antigo de Renan com fala sobre estupro.",
+   "status": null,
+   "pessoas": [
+    "arthur-do-val",
+    "sergio-moro"
+   ],
+   "fonte": "https://www.congressoemfoco.com.br/noticia/30142/retirada-de-pre-candidatura-de-arthur-do-val-em-sp-impoe-esforco-extra-para-moro"
+  },
+  {
+   "data": "2025-11-04",
+   "tipo": "carreira",
+   "titulo": "TSE aprova o partido Missão",
+   "texto": "O TSE aprova por unanimidade o registro do Missão, 30º partido do país, com 577.999 apoios válidos.",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://www.cnnbrasil.com.br/politica/tse-aprova-registro-do-missao-partido-do-mbl-e-30o-do-pais/"
+  },
+  {
+   "data": "2026-02-09",
+   "tipo": "condenacao",
+   "titulo": "Condenado a indenizar Djamila Ribeiro",
+   "texto": "A 6ª Câmara de Direito Privado do TJ-SP reforma a sentença e condena Renan a pagar R$ 30 mil à filósofa Djamila Ribeiro, a quem chamou de 'jeca' e associou ao crime organizado. Para o tribunal, ele 'extrapolou os limites da liberdade de expressão' (data da notícia).",
+   "status": "Condenado em 2ª instância (ação cível); não localizei informação sobre recurso",
+   "pessoas": [
+    "djamila-ribeiro"
+   ],
+   "fonte": "https://www.cartacapital.com.br/politica/fundador-do-mbl-e-condenado-a-indenizar-djamila-ribeiro-em-r-30-mil/"
+  },
+  {
+   "data": "2026-04-27",
+   "tipo": "decisao",
+   "titulo": "Justiça manda apagar vídeo sobre Wesley Safadão",
+   "texto": "A 15ª Vara Cível de Fortaleza, em decisão provisória, manda Renan apagar vídeo em que chamou o cantor de 'novo ícone da corrupção' por cachês pagos por prefeituras. A decisão atende parcialmente o pedido do cantor, cuja defesa diz que ele nunca foi investigado pelos fatos citados; Renan teve 15 dias para se manifestar. Renan mantém que há 'esquemas de corrupção' em shows pagos por prefeituras.",
+   "status": "Decisão provisória (tutela de urgência); ação cível em andamento",
+   "pessoas": [
+    "wesley-safadao"
+   ],
+   "fonte": "https://diariodonordeste.verdesmares.com.br/entretenimento/e-hit/wesley-safadao-vence-processo-contra-renan-santos-por-acusacoes-nas-redes-1.3760381"
+  },
+  {
+   "data": "2026-07-20",
+   "tipo": "eleicao",
+   "titulo": "Candidatura oficializada",
+   "texto": "Convenção virtual do Missão oficializa Renan à Presidência, com o coronel da reserva Aroldo Medina como vice. O partido antecipou a data citando ameaças de facções.",
+   "status": null,
+   "pessoas": [
+    "aroldo-medina"
+   ],
+   "fonte": "https://viva.com.br/politica/renan-santos-e-o-primeiro-a-oficializar-candidatura-a-presidencia.html"
+  },
+  {
+   "data": "2026-08-24",
+   "tipo": "processo",
+   "titulo": "Ação do MPF por falas sobre indígenas",
+   "texto": "Em ação civil pública do MPF, a Justiça Federal em Santarém (PA) manda Renan e o MBL removerem vídeos considerados ofensivos a indígenas do Baixo Tapajós, sob multa diária de R$ 5 mil. O MPF pede R$ 500 mil por danos morais coletivos e retratação.",
+   "status": "Réu em ação civil pública; decisão de urgência; mérito pendente",
+   "pessoas": [],
+   "fonte": "https://diariodopara.com.br/eleicoes-2026/justica-manda-renan-santos-e-mbl-apagarem-videos-contra-indigenas-do-para/"
+  },
+  {
+   "data": "2026-08-31",
+   "tipo": "decisao",
+   "titulo": "TSE suspende parte da campanha; Renan diz que desobedeceu",
+   "texto": "O ministro Dias Toffoli suspende perfis não declarados a tempo, o Fundo Eleitoral e a ida a debates. Renan diz 'decisão ilegal não se cumpre' e 'eu desobedeci'. No dia seguinte (01/09), Toffoli revê a decisão e libera a campanha.",
+   "status": "Medida cautelar revogada em 01/09/2026; segundo a reportagem, a decisão chegou a tirar do ar os canais do candidato na noite de 31/08, apesar de Renan dizer que desobedeceu; sem processo por descumprimento localizado",
+   "pessoas": [
+    "dias-toffoli"
+   ],
+   "fonte": "https://www.congressoemfoco.com.br/noticia/121878/decisao-ilegal-nao-se-cumpre--diz-renan-sobre-suspensao-de-campanha"
+  },
+  {
+   "data": "2026-09-02",
+   "tipo": "declaracao",
+   "titulo": "Pede impeachment de Moraes e Toffoli",
+   "texto": "Protocola no Senado pedidos de impeachment dos ministros Alexandre de Moraes e Dias Toffoli, citando o caso Banco Master.",
+   "status": null,
+   "pessoas": [
+    "alexandre-de-moraes",
+    "dias-toffoli"
+   ],
+   "fonte": "https://www.poder360.com.br/poder-justica/renan-santos-pede-impeachment-de-moraes-e-toffoli-no-senado/"
+  },
+  {
+   "data": "2026-10-01",
+   "tipo": "decisao",
+   "titulo": "Debate da Globo é cancelado",
+   "texto": "Renan pediu à Justiça para entrar no debate da TV Globo. Nunes Marques (TSE) e Cármen Lúcia (STF) negaram; no dia do debate, Gilmar Mendes determinou sua participação, e Estela Aranha (TSE) proibiu, a pedido de Lula, o púlpito vazio para o petista ausente. A Globo cancelou o debate citando as duas decisões (fontes: CNN Brasil e BBC News Brasil, 01/10/2026).",
+   "status": null,
+   "pessoas": [
+    "gilmar-mendes",
+    "nunes-marques",
+    "carmen-lucia"
+   ],
+   "fonte": "https://www.cnnbrasil.com.br/eleicoes/gilmar-mendes-determina-que-globo-inclua-renan-santos-em-debate/"
+  },
+  {
+   "data": "2026-10-04",
+   "tipo": "eleicao",
+   "titulo": "4º lugar no 1º turno",
+   "texto": "Em sua primeira eleição, recebe 2.675.887 votos (2,24%).",
+   "status": null,
+   "pessoas": [],
+   "fonte": "https://portaldeprefeitura.com.br/bastidores-da-politica/eleicoes-2026-com-100-das-secoes-totalizadas-flavio-tem-4703-e/633498/"
+  },
+  {
+   "data": "2026-10-07",
+   "tipo": "declaracao",
+   "titulo": "Neutro no 2º turno",
+   "texto": "Diz ter 'asco' e 'ojeriza' a Flávio Bolsonaro e não apoia nem ele nem Lula; libera os eleitores do Missão.",
+   "status": null,
+   "pessoas": [
+    "flavio-bolsonaro",
+    "lula"
+   ],
+   "fonte": "https://muitainformacao.com.br/eleicoes/renan-santos-critica-flavio-bolsonaro-e-libera-eleitor-do-missao-no-2o-turno-tenho-ojeriza/"
+  },
+  {
+   "data": "2026-10-09",
+   "tipo": "declaracao",
+   "titulo": "Chama de 'comédia' o apoio de Cury a Flávio",
+   "texto": "Critica em vídeo a adesão de Augusto Cury a Flávio Bolsonaro e diz que o Avante buscava cargos num eventual governo.",
+   "status": null,
+   "pessoas": [
+    "augusto-cury",
+    "flavio-bolsonaro"
+   ],
+   "fonte": "https://www.dgabc.com.br/Noticia/4351954/renan-santos-critica-declaracao-de-apoio-de-augusto-cury-a-flavio-bolsonaro-comedia"
+  }
+ ],
+ "resumo_juridico": "Renan Santos não tem condenação criminal. A única denúncia criminal conhecida (tráfico de influência, MP-SP, 2020) foi rejeitada em 1ª instância e, em nov/2021, pelo TJ-SP, por falta de indícios mínimos; não houve ação penal. Na área cível, tem duas condenações por ofensas: indenização de R$ 45,4 mil ao jornalista José Roberto Burnier (definitiva, 2020) e de R$ 30 mil à filósofa Djamila Ribeiro (TJ-SP, fev/2026; não localizei informação sobre recurso). Responde a ação civil pública do MPF por falas sobre indígenas do Baixo Tapajós (decisão de urgência em 24/08/2026; mérito pendente) e a ação de Wesley Safadão no Ceará (decisão provisória de abr/2026). A suspensão parcial da campanha pelo TSE (31/08/2026) foi revogada no dia seguinte. A Operação Juno Moneta (2020) mirou empresas ligadas à família e empresários próximos ao MBL; as reportagens não indicam Renan como preso ou denunciado nela, e não localizei desfecho. Processos cíveis e trabalhistas contra empresas da família foram noticiados, sem condenação criminal de Renan.",
+ "fontes": [
+  "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/07/20/partido-missao-antecipa-convencao.ghtml",
+  "https://www.poder360.com.br/opiniao/a-missao-de-renan-santos/",
+  "https://www.congressoemfoco.com.br/noticia/12715/cupula-do-mbl-se-filia-ao-podemos-oficializando-apoio-a-moro",
+  "https://istoedinheiro.com.br/mp-ve-confusao-empresarial-entre-mbl-e-mrl-mira-em-sonegacao-e-prende-dois",
+  "https://istoe.com.br/mp-denuncia-lider-do-mbl-e-ex-membro-da-imprensa-oficial-por-trafico-de-influencia/",
+  "https://oantagonista.com.br/brasil/lider-do-mbl-tera-de-indenizar-jornalista-da-globo-em-r-45-mil/",
+  "https://www.poder360.com.br/brasil/mbl-reune-de-sindicalistas-a-liberais-em-protesto-contra-bolsonaro/",
+  "https://oantagonista.com.br/brasil/tj-sp-rejeita-denuncia-contra-renan-do-mbl-por-trafico-de-influencia/",
+  "https://www.congressoemfoco.com.br/noticia/30142/retirada-de-pre-candidatura-de-arthur-do-val-em-sp-impoe-esforco-extra-para-moro",
+  "https://www.cnnbrasil.com.br/politica/tse-aprova-registro-do-missao-partido-do-mbl-e-30o-do-pais/",
+  "https://www.cartacapital.com.br/politica/fundador-do-mbl-e-condenado-a-indenizar-djamila-ribeiro-em-r-30-mil/",
+  "https://diariodonordeste.verdesmares.com.br/entretenimento/e-hit/wesley-safadao-vence-processo-contra-renan-santos-por-acusacoes-nas-redes-1.3760381",
+  "https://viva.com.br/politica/renan-santos-e-o-primeiro-a-oficializar-candidatura-a-presidencia.html",
+  "https://diariodopara.com.br/eleicoes-2026/justica-manda-renan-santos-e-mbl-apagarem-videos-contra-indigenas-do-para/",
+  "https://www.congressoemfoco.com.br/noticia/121878/decisao-ilegal-nao-se-cumpre--diz-renan-sobre-suspensao-de-campanha",
+  "https://www.poder360.com.br/poder-justica/renan-santos-pede-impeachment-de-moraes-e-toffoli-no-senado/",
+  "https://resultados.tse.jus.br/oficial/app/index.html#/eleicao;e=e6257;uf=br;ufbu=br/resultados/cargo/1",
+  "https://portaldeprefeitura.com.br/bastidores-da-politica/eleicoes-2026-com-100-das-secoes-totalizadas-flavio-tem-4703-e/633498/",
+  "https://muitainformacao.com.br/eleicoes/renan-santos-critica-flavio-bolsonaro-e-libera-eleitor-do-missao-no-2o-turno-tenho-ojeriza/",
+  "https://www.dgabc.com.br/Noticia/4351954/renan-santos-critica-declaracao-de-apoio-de-augusto-cury-a-flavio-bolsonaro-comedia"
+ ]
+}

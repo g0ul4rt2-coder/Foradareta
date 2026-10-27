@@ -1,0 +1,662 @@
+{
+ "id": "renan-santos",
+ "nome_urna": "Renan Santos",
+ "nome_completo": "Renan Antônio Ferreira dos Santos",
+ "partido": "Missão",
+ "numero": 14,
+ "vice": "Aroldo Medina, o Coronel Medina (Missão)",
+ "coligacao": "Missão (chapa pura, sem coligação)",
+ "resultado_1t": {
+  "votos": 2675887,
+  "pct": 2.24
+ },
+ "situacao": "Não eleito (4º lugar no 1º turno)",
+ "resumo": "Empresário e ativista, cofundador do MBL (2014) e principal articulador do Partido Missão, disputou sua primeira eleição. Ficou em 4º lugar. Não apoiou ninguém no 2º turno: liberou os eleitores, criticou Lula e Flávio Bolsonaro ('tenho asco ao Flávio Bolsonaro', 07/10/2026) e chamou de 'comédia' o apoio de Cury a Flávio.",
+ "autodeclaracao": "Descreve o Missão como 'um partido de direita altamente pragmático' (fonte: Agência Brasil, 18/08/2026); o Livro Amarelo diz aderir a pilares liberais na economia, mas rejeitar o 'liberalismo vulgarizado' da nova direita.",
+ "plano_governo_url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/renan-santos-propostas-de-governo",
+ "propostas": [
+  {
+   "tema": "Contas públicas",
+   "texto": "Aprovar antes da posse uma PEC de Transição com desindexação de benefícios do salário mínimo, desvinculação dos pisos de saúde e educação e corte de renúncias fiscais.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/renan-santos-propostas-de-governo"
+  },
+  {
+   "tema": "Segurança",
+   "texto": "Declarar 'Guerra ao Crime' e aplicar o Direito Penal do Inimigo a membros de facções, com Lei Antifacção e decretos de Estado de Defesa.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/renan-santos-propostas-de-governo"
+  },
+  {
+   "tema": "Sistema prisional",
+   "texto": "Levar lideranças de facções a superpresídios de segurança máxima em regiões remotas, no modelo do CECOT de El Salvador.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/renan-santos-propostas-de-governo"
+  },
+  {
+   "tema": "Proteção social",
+   "texto": "Substituir o Bolsa Família por 'Frentes Cidadãs' de trabalho remunerado para adultos aptos, mantendo o benefício para quem não pode trabalhar.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/renan-santos-propostas-de-governo"
+  },
+  {
+   "tema": "Educação",
+   "texto": "Abolir as cotas e substituí-las por bolsas por mérito; criar código nacional de conduta do estudante e adotar o método fônico.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/renan-santos-propostas-de-governo"
+  },
+  {
+   "tema": "Pacto federativo",
+   "texto": "Reduzir o número de municípios inviáveis por meio de uma 'Grande Consolidação Municipal' e criar uma Lei de Responsabilidade Gerencial.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/renan-santos-propostas-de-governo"
+  },
+  {
+   "tema": "Agro",
+   "texto": "Plano AgroBrasil 2030: fim das invasões de terra, nenhum novo assentamento até a produtividade dos atuais e soberania em fertilizantes.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/renan-santos-propostas-de-governo"
+  },
+  {
+   "tema": "Desenvolvimento regional",
+   "texto": "Criar Zonas Econômicas Especiais no Nordeste, com regime tributário e regulatório próprio e licenças em até 15 dias.",
+   "fonte": "https://planodegoverno2026.com.br/candidatos/presidente/renan-santos/"
+  },
+  {
+   "tema": "Política externa",
+   "texto": "Posicionar o Brasil como 'Árbitro do Sul Global', com pragmatismo no BRICS+, desdolarização sul-americana e autonomia do ciclo nuclear.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/renan-santos-propostas-de-governo"
+  },
+  {
+   "tema": "Habitação",
+   "texto": "Plano de desfavelização ('A Batalha do Brasil'), com tipificação do 'crime de favelização' para quem organiza ocupações ilegais.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/renan-santos-propostas-de-governo"
+  }
+ ],
+ "posicoes": {
+  "E01": {
+   "v": -1,
+   "conf": "alta",
+   "base": "DISCURSO: Plano propõe substituir o Bolsa Família por 'Frentes Cidadãs' (trabalho remunerado) para adultos aptos; quem não pode trabalhar mantém o benefício.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/renan-santos-propostas-de-governo",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; o deputado federal do Missão é Kim Kataguiri, cujos votos não são atribuídos a Renan).",
+   "fonte_p": null
+  },
+  "E02": {
+   "v": 0,
+   "conf": "media",
+   "base": "DISCURSO: Livro Amarelo critica a ideia de que 'bastava privatizar tudo' e rejeita falar 'vagamente em privatizações'; não propõe privatizar Petrobras, Correios ou BB.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/renan-santos-propostas-de-governo",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; o deputado federal do Missão é Kim Kataguiri, cujos votos não são atribuídos a Renan).",
+   "fonte_p": null
+  },
+  "E03": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Não encontrei posição do candidato sobre o tema no plano (Livro Amarelo) nem em entrevistas consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; o deputado federal do Missão é Kim Kataguiri, cujos votos não são atribuídos a Renan).",
+   "fonte_p": null
+  },
+  "E04": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: 'Remédio amargo': PEC de Transição baseada na PEC do Equilíbrio Fiscal, desindexando benefícios do salário mínimo e desvinculando pisos de saúde e educação.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/renan-santos-propostas-de-governo",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; o deputado federal do Missão é Kim Kataguiri, cujos votos não são atribuídos a Renan).",
+   "fonte_p": null
+  },
+  "E05": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Contra a PEC do fim da escala 6x1, que chamou de 'eleitoreira'; diz que aumentaria informalidade, desemprego e custos de produção.",
+   "fonte": "https://www.moneytimes.com.br/terceiro-colocado-e-terceira-via-como-renan-santos-missao-tenta-se-consolidar-como-opcao-nas-eleicoes-2026-gaep/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; o deputado federal do Missão é Kim Kataguiri, cujos votos não são atribuídos a Renan).",
+   "fonte_p": null
+  },
+  "E06": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Não encontrei posição do candidato sobre o tema no plano (Livro Amarelo) nem em entrevistas consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; o deputado federal do Missão é Kim Kataguiri, cujos votos não são atribuídos a Renan).",
+   "fonte_p": null
+  },
+  "E07": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Não encontrei posição do candidato sobre o tema no plano (Livro Amarelo) nem em entrevistas consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; o deputado federal do Missão é Kim Kataguiri, cujos votos não são atribuídos a Renan).",
+   "fonte_p": null
+  },
+  "E08": {
+   "v": 1,
+   "conf": "media",
+   "base": "DISCURSO: Plano usa linhas do BNDES condicionadas a metas de exportação, consórcio liderado pelo BNDES para terras raras e Zonas Econômicas Especiais.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/renan-santos-propostas-de-governo",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; o deputado federal do Missão é Kim Kataguiri, cujos votos não são atribuídos a Renan).",
+   "fonte_p": null
+  },
+  "E09": {
+   "v": -1,
+   "conf": "media",
+   "base": "DISCURSO: PEC proposta corrige benefícios previdenciários e assistenciais só pela inflação, desvinculando-os do salário mínimo; não trata diretamente do reajuste do mínimo.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/renan-santos-propostas-de-governo",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; o deputado federal do Missão é Kim Kataguiri, cujos votos não são atribuídos a Renan).",
+   "fonte_p": null
+  },
+  "E10": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Não encontrei posição do candidato sobre o tema no plano (Livro Amarelo) nem em entrevistas consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; o deputado federal do Missão é Kim Kataguiri, cujos votos não são atribuídos a Renan).",
+   "fonte_p": null
+  },
+  "E11": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Plano fala em reformar a Previdência, mas não encontrei proposta de capitalização.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; o deputado federal do Missão é Kim Kataguiri, cujos votos não são atribuídos a Renan).",
+   "fonte_p": null
+  },
+  "E12": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Não encontrei posição do candidato sobre o tema no plano (Livro Amarelo) nem em entrevistas consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; o deputado federal do Missão é Kim Kataguiri, cujos votos não são atribuídos a Renan).",
+   "fonte_p": null
+  },
+  "E13": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Não encontrei posição do candidato sobre o tema no plano (Livro Amarelo) nem em entrevistas consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; o deputado federal do Missão é Kim Kataguiri, cujos votos não são atribuídos a Renan).",
+   "fonte_p": null
+  },
+  "E14": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: 'Frentes Cidadãs': trabalho e contrapartida obrigatórios para todo adulto apto sem dever de cuidado; complemento de renda para quem migra ao emprego formal.",
+   "fonte": "https://www.renanpresidente.com.br/caixa-preta/vai-acabar-com-o-bolsa-familia-e-o-pe-de-meia",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; o deputado federal do Missão é Kim Kataguiri, cujos votos não são atribuídos a Renan).",
+   "fonte_p": null
+  },
+  "E15": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Plano: 'O governo da Missão não criará um único novo assentamento' enquanto os existentes não forem produtivos; endurecer pena para esbulho possessório.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/renan-santos-propostas-de-governo",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; o deputado federal do Missão é Kim Kataguiri, cujos votos não são atribuídos a Renan).",
+   "fonte_p": null
+  },
+  "E16": {
+   "v": 1,
+   "conf": "media",
+   "base": "DISCURSO: Plano propõe redução de entraves à iniciativa privada, reforma trabalhista para flexibilizar contratos e redução de impostos após o ajuste fiscal.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/renan-santos-propostas-de-governo",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; o deputado federal do Missão é Kim Kataguiri, cujos votos não são atribuídos a Renan).",
+   "fonte_p": null
+  },
+  "E17": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Não encontrei posição do candidato sobre o tema no plano (Livro Amarelo) nem em entrevistas consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; o deputado federal do Missão é Kim Kataguiri, cujos votos não são atribuídos a Renan).",
+   "fonte_p": null
+  },
+  "E18": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Não encontrei posição do candidato sobre o tema no plano (Livro Amarelo) nem em entrevistas consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; o deputado federal do Missão é Kim Kataguiri, cujos votos não são atribuídos a Renan).",
+   "fonte_p": null
+  },
+  "V01": {
+   "v": -2,
+   "conf": "media",
+   "base": "DISCURSO: Página da campanha: é favorável ao aborto apenas nos casos já previstos em lei (risco de vida, estupro, anencefalia) e não tem proposta de legalização.",
+   "fonte": "https://www.renanpresidente.com.br/caixa-preta/renan-e-a-favor-do-aborto",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; o deputado federal do Missão é Kim Kataguiri, cujos votos não são atribuídos a Renan).",
+   "fonte_p": null
+  },
+  "V02": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Não encontrei proposta sobre posse ou porte de armas por civis; o foco do plano é o combate a facções armadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; o deputado federal do Missão é Kim Kataguiri, cujos votos não são atribuídos a Renan).",
+   "fonte_p": null
+  },
+  "V03": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Não encontrei posição do candidato sobre o tema no plano (Livro Amarelo) nem em entrevistas consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; o deputado federal do Missão é Kim Kataguiri, cujos votos não são atribuídos a Renan).",
+   "fonte_p": null
+  },
+  "V04": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Não encontrei posição do candidato sobre o tema no plano (Livro Amarelo) nem em entrevistas consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; o deputado federal do Missão é Kim Kataguiri, cujos votos não são atribuídos a Renan).",
+   "fonte_p": null
+  },
+  "V05": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Não encontrei posição do candidato sobre o tema no plano (Livro Amarelo) nem em entrevistas consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; o deputado federal do Missão é Kim Kataguiri, cujos votos não são atribuídos a Renan).",
+   "fonte_p": null
+  },
+  "V06": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Não encontrei posição do candidato sobre o tema no plano (Livro Amarelo) nem em entrevistas consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; o deputado federal do Missão é Kim Kataguiri, cujos votos não são atribuídos a Renan).",
+   "fonte_p": null
+  },
+  "V07": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Não encontrei posição do candidato sobre o tema no plano (Livro Amarelo) nem em entrevistas consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; o deputado federal do Missão é Kim Kataguiri, cujos votos não são atribuídos a Renan).",
+   "fonte_p": null
+  },
+  "V08": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Plano: 'Abolir o sistema de cotas na educação brasileira e em geral', substituindo-o por bolsas por mérito.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/renan-santos-propostas-de-governo",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; o deputado federal do Missão é Kim Kataguiri, cujos votos não são atribuídos a Renan).",
+   "fonte_p": null
+  },
+  "V09": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Propõe 'Guerra ao Crime' com Direito Penal do Inimigo, Estado de Defesa em áreas de facção, GLO com 'força pesada' e 'proteção jurídica robusta' a agentes.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/renan-santos-propostas-de-governo",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; o deputado federal do Missão é Kim Kataguiri, cujos votos não são atribuídos a Renan).",
+   "fonte_p": null
+  },
+  "V10": {
+   "v": 1,
+   "conf": "baixa",
+   "base": "DISCURSO: Em 18/11/2025 disse à Itatiaia que os presos do 8 de janeiro 'merecem anistia' e que Bolsonaro deve ser preso. A frase posterior 'Defendemos a dosimetria, não a anistia', antes registrada aqui, não foi localizada em nenhuma das fontes citadas e foi retirada.",
+   "fonte": "https://www.itatiaia.com.br/politica/presidente-do-partido-do-mbl-defende-prisao-para-bolsonaro-e-anistia-para-presos/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; o deputado federal do Missão é Kim Kataguiri, cujos votos não são atribuídos a Renan).",
+   "fonte_p": null
+  },
+  "V11": {
+   "v": -2,
+   "conf": "alta",
+   "base": "DISCURSO: Plano: 'Oposição firme a quaisquer propostas de regulação da mídia e da internet que reduzam a margem de liberdade de expressão'.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/renan-santos-propostas-de-governo",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; o deputado federal do Missão é Kim Kataguiri, cujos votos não são atribuídos a Renan).",
+   "fonte_p": null
+  },
+  "V12": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Plano propõe marco para mineração controlada em terras indígenas, mas não trata do marco temporal.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; o deputado federal do Missão é Kim Kataguiri, cujos votos não são atribuídos a Renan).",
+   "fonte_p": null
+  },
+  "V13": {
+   "v": -1,
+   "conf": "baixa",
+   "base": "DISCURSO: Plano quer 'corrigir a narrativa' escolar que retrata o agro como antagonista da sustentabilidade; site de apoiadores cita exploração da Margem Equatorial.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/renan-santos-propostas-de-governo",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; o deputado federal do Missão é Kim Kataguiri, cujos votos não são atribuídos a Renan).",
+   "fonte_p": null
+  },
+  "V14": {
+   "v": 1,
+   "conf": "alta",
+   "base": "DISCURSO: Plano: transformar escolas em situação crítica 'de acordo com o sistema das escolas civis-militares', como medida provisória contra a violência.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/renan-santos-propostas-de-governo",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; o deputado federal do Missão é Kim Kataguiri, cujos votos não são atribuídos a Renan).",
+   "fonte_p": null
+  },
+  "V15": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Plano prevê 'ordem disciplinar rígida' e auditoria de livros didáticos sobre o agro, mas não trata de opinião política de professores em sala.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; o deputado federal do Missão é Kim Kataguiri, cujos votos não são atribuídos a Renan).",
+   "fonte_p": null
+  },
+  "V16": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Plano propõe aumentar penas para reincidência e roubo de celulares, 'penas desproporcionais' a faccionados e superpresídios no modelo do CECOT salvadorenho.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/renan-santos-propostas-de-governo",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; o deputado federal do Missão é Kim Kataguiri, cujos votos não são atribuídos a Renan).",
+   "fonte_p": null
+  },
+  "V17": {
+   "v": 2,
+   "conf": "media",
+   "base": "DISCURSO: Propõe fim de decisões monocráticas, mandatos fixos e suspensão de ministros pelo Senado; em abr/2026 disse que Moraes e Toffoli deveriam ser presos (caso Master).",
+   "fonte": "https://www.poder360.com.br/poder-eleicoes/10-dos-12-pre-candidatos-a-presidencia-ja-se-manifestaram-contra-o-stf/",
+   "p": 2,
+   "conf_p": "alta",
+   "base_p": "PRÁTICA: protocolou no Senado, em 02/09/2026, pedidos de impeachment dos ministros Alexandre de Moraes e Dias Toffoli (Lei 1.079/1950, art. 39), citando o caso Banco Master; em 01/09 anunciou os pedidos em coletiva e disse que os apresentaria em manifestação na Av. Paulista (DGABC).",
+   "fonte_p": "https://www.poder360.com.br/poder-justica/renan-santos-pede-impeachment-de-moraes-e-toffoli-no-senado/"
+  },
+  "V18": {
+   "v": null,
+   "conf": "baixa",
+   "base": "DISCURSO: Não encontrei posição do candidato sobre o tema no plano (Livro Amarelo) nem em entrevistas consultadas.",
+   "fonte": null,
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; o deputado federal do Missão é Kim Kataguiri, cujos votos não são atribuídos a Renan).",
+   "fonte_p": null
+  },
+  "V19": {
+   "v": -1,
+   "conf": "alta",
+   "base": "DISCURSO: Plano rejeita 'alinhamento ideológico automático com os EUA', defende BRICS pragmático e desdolarização sul-americana; em 07/10 criticou alinhamento 'automático' aos EUA.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/renan-santos-propostas-de-governo",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; o deputado federal do Missão é Kim Kataguiri, cujos votos não são atribuídos a Renan).",
+   "fonte_p": null
+  },
+  "Z01": {
+   "v": 1,
+   "conf": "media",
+   "base": "DISCURSO: Em 25/07/2026 rebateu plano de diplomatas dos EUA de questionar as urnas: 'com que direito vêm aqui interferir na nossa?', e disse que 'não podemos aceitar nenhum tipo de interferência nas nossas eleições'. Após o 1º turno escreveu que o país 'decidiu nessas eleições se comportar da maneira mais infantil e espetacularizada possível' (muitainformacao.com.br, 07/10/2026). O plano descreve a democracia como 'regime formal esvaziado, com eleições compradas'.",
+   "fonte": "https://www.cnnbrasil.com.br/blogs/daniel-rittner/eleicoes/renan-santos-governo-trump-tenta-aprontar-e-ajudar-flavio/",
+   "p": 1,
+   "conf_p": "baixa",
+   "base_p": "PRÁTICA: após o 1º turno de 2026 comentou o resultado sem contestar a apuração: disse que o desempenho do Missão ficou abaixo do esperado e que Flávio Bolsonaro 'já é o próximo presidente da República' (05/10/2026). Não localizei declaração explícita de reconhecimento.",
+   "fonte_p": "https://tribunadoplanalto.com.br/derrotados-no-1o-turno-adotam-posicoes-diferentes-para-disputa-entre-lula-e-flavio/"
+  },
+  "Z02": {
+   "v": 0,
+   "conf": "baixa",
+   "base": "DISCURSO: Plano prevê intervenção federal em estados com controle de facções e 'emprego das Forças Armadas via GLO com autorização para uso de força pesada', instrumentos constitucionais; não defende intervenção militar em crise política. Em 17/08/2026 disse que há 'muito militar vagabundo'.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/renan-santos-propostas-de-governo",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; o deputado federal do Missão é Kim Kataguiri, cujos votos não são atribuídos a Renan).",
+   "fonte_p": null
+  },
+  "Z03": {
+   "v": 2,
+   "conf": "alta",
+   "base": "DISCURSO: Na GloboNews (05/08/2026): 'Se o Supremo Tribunal Federal tomar uma decisão ilegal, decisão ilegal não se cumpre. Ponto'; disse que não cumpriria decisão do STF que contrarie o Congresso e adotou a frase como lema de campanha.",
+   "fonte": "https://www.gazetadopovo.com.br/eleicoes/2026/renan-incorpora-como-lema-de-campanha-slogan-sobre-desobediencia-a-decisoes-do-stf/",
+   "p": null,
+   "conf_p": "baixa",
+   "base_p": "PRÁTICA: após decisão do TSE (Toffoli) que suspendeu perfis não declarados, o Fundo Eleitoral e a participação em debates (efeitos em 31/08/2026), disse 'Eu desobedeci e eu continuarei desobedecendo'. Segundo o Congresso em Foco, a decisão 'chegou a produzir efeitos concretos' (perfis indisponíveis no Brasil) e foi revista pelo próprio ministro em 01/09. Não há registro independente de descumprimento nem de ato do candidato em qualquer sentido; a declaração é discurso (ver v).",
+   "fonte_p": "https://www.congressoemfoco.com.br/noticia/121878/decisao-ilegal-nao-se-cumpre--diz-renan-sobre-suspensao-de-campanha"
+  },
+  "Z04": {
+   "v": -1,
+   "conf": "media",
+   "base": "DISCURSO: Plano: 'Oposição firme a quaisquer propostas de regulação da mídia e da internet que reduzam a margem de liberdade de expressão' e 'estrito compromisso com a liberdade de comunicação'; propõe também um 'Código Unificado de imprensa' com 'estruturas transparentes de responsabilização'.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/renan-santos-propostas-de-governo",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; o deputado federal do Missão é Kim Kataguiri, cujos votos não são atribuídos a Renan).",
+   "fonte_p": null
+  },
+  "Z05": {
+   "v": 1,
+   "conf": "media",
+   "base": "DISCURSO: No lançamento da candidatura (01/08/2026) chamou Lula de 'maldito', Lula e Flávio de 'vagabundos' que 'têm que ir para a lata de lixo da história' e Flávio de 'farsante, fraco e corrompido'; o plano chama o bolsonarismo de 'ajuntamento duvidoso de pilantras e iludidos'.",
+   "fonte": "https://www.em.com.br/politica/2026/08/amp/7472252-renan-santos-mira-ataques-a-flavio-em-evento-do-missao-e-defende-matar-quem-roubar.html",
+   "p": 1,
+   "conf_p": "media",
+   "base_p": "PRÁTICA: o TJ-SP (6ª Câm. de Direito Privado) o condenou a indenizar Djamila Ribeiro em R$ 30 mil por dizer que 'sua agenda é a mesma do crime organizado' (noticiado em 09/02/2026); em 2020 já havia condenação definitiva (R$ 45,4 mil) por chamar o jornalista José Roberto Burnier de 'canalha'.",
+   "fonte_p": "https://www.cartacapital.com.br/politica/fundador-do-mbl-e-condenado-a-indenizar-djamila-ribeiro-em-r-30-mil/"
+  },
+  "Z06": {
+   "v": 0,
+   "conf": "media",
+   "base": "DISCURSO: Plano propõe 'sepultar a Nova República' e um 'Estado Novo, dessa vez democraticamente', 'dentro dos limites da democracia representativa', mas com urgência: PEC de Transição antes da posse e 'Guerra ao Crime' no primeiro dia, por decretos de Estado de Defesa.",
+   "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/renan-santos-propostas-de-governo",
+   "p": 1,
+   "conf_p": "media",
+   "base_p": "PRÁTICA: como líder do MBL e do Missão usou vias institucionais: marcha SP–Brasília de 2015 com pedido de impeachment de Dilma; atos de 2021 pelo impeachment de Bolsonaro; criação do Missão com 577.999 apoios validados (TSE, 04/11/2025); pedidos de impeachment de ministros do STF no Senado (02/09/2026).",
+   "fonte_p": "https://www.cnnbrasil.com.br/politica/tse-aprova-registro-do-missao-partido-do-mbl-e-30o-do-pais/"
+  },
+  "Z07": {
+   "v": 1,
+   "conf": "baixa",
+   "base": "DISCURSO: Diz que 'o Poder que tem suas prerrogativas invadidas pode se insurgir' contra o STF (05/08/2026); o plano prevê 'sucessivos decretos de Estado de Defesa' e um desenho processual 'diante da resistência institucional esperada'. Ao mesmo tempo, condiciona o ajuste fiscal a PECs aprovadas pelo Congresso.",
+   "fonte": "https://www.gazetadopovo.com.br/eleicoes/2026/renan-incorpora-como-lema-de-campanha-slogan-sobre-desobediencia-a-decisoes-do-stf/",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; o deputado federal do Missão é Kim Kataguiri, cujos votos não são atribuídos a Renan).",
+   "fonte_p": null
+  },
+  "Z08": {
+   "v": 0,
+   "conf": "baixa",
+   "base": "DISCURSO: A diplomatas (25/06/2026) disse que, idealmente, caberia ao Brasil, e não aos EUA, prender Nicolás Maduro (relato do deputado Kim Kataguiri à coluna); rejeita ingerência dos EUA no Brasil. O plano adota o CECOT de El Salvador como modelo prisional sem tratar do regime de exceção salvadorenho. Não localizei crítica a governos alinhados a ele.",
+   "fonte": "https://www.metropoles.com/colunas/andreza-matais/renan-santos-para-diplomatas-dos-eua-brasil-deveria-prender-maduro",
+   "p": null,
+   "conf_p": null,
+   "base_p": "PRÁTICA: sem ato verificável sobre o tema (nunca exerceu cargo público; o deputado federal do Missão é Kim Kataguiri, cujos votos não são atribuídos a Renan).",
+   "fonte_p": null
+  },
+  "V20": {
+   "v": null,
+   "p": null,
+   "conf": "baixa",
+   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
+   "fonte": null
+  },
+  "Z09": {
+   "v": null,
+   "p": null,
+   "conf": "baixa",
+   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
+   "fonte": null
+  },
+  "Z10": {
+   "v": null,
+   "p": null,
+   "conf": "baixa",
+   "base": "Pergunta incluída em 25/10/2026; posição ainda não pesquisada.",
+   "fonte": null
+  }
+ },
+ "checagens": [
+  {
+   "afirmacao": "'No governo dele [Lula] as pessoas não estão conseguindo comer mais' (debate da Band).",
+   "veredito": "Falso",
+   "agencia": "Aos Fatos",
+   "data": "2026-08-23",
+   "url": "https://www.aosfatos.org/noticias/checamos-debate-presidencial-band/"
+  },
+  {
+   "afirmacao": "Flávio Bolsonaro 'apoiou a maior parte das nomeações dos ministros do STF' ligados ao PT.",
+   "veredito": "Falso",
+   "agencia": "Aos Fatos",
+   "data": "2026-08-05",
+   "url": "https://www.aosfatos.org/noticias/presidenciaveis-distorcem-inventam-fatos-atacar-adversarios/"
+  },
+  {
+   "afirmacao": "Foto mostra Renan Santos 'fazendo o L' em apoio a Lula no 2º turno.",
+   "veredito": "Falso (imagem gerada por IA)",
+   "agencia": "Aos Fatos",
+   "data": "2026-10-13",
+   "url": "https://www.aosfatos.org/noticias/foto-renan-santos-fazendo-L-ia/"
+  },
+  {
+   "afirmacao": "Renan Santos fez o 'L' e anunciou apoio a Lula no 2º turno.",
+   "veredito": "Falso",
+   "agencia": "Boatos.org",
+   "data": "2026-10-12",
+   "url": "https://www.boatos.org/politica/renan-santos-fez-o-l-e-anunciou-apoio-a-lula-no-segundo-turno-das-eleicoes.html"
+  }
+ ],
+ "fontes": [
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/renan-santos-propostas-de-governo",
+  "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017002789",
+  "https://planodegoverno2026.com.br/candidatos/presidente/renan-santos/",
+  "https://www.renanpresidente.com.br/caixa-preta/renan-e-a-favor-do-aborto",
+  "https://www.renanpresidente.com.br/caixa-preta/vai-acabar-com-o-bolsa-familia-e-o-pe-de-meia",
+  "https://www.moneytimes.com.br/terceiro-colocado-e-terceira-via-como-renan-santos-missao-tenta-se-consolidar-como-opcao-nas-eleicoes-2026-gaep/",
+  "https://muitainformacao.com.br/eleicoes/renan-santos-critica-flavio-bolsonaro-e-libera-eleitor-do-missao-no-2o-turno-tenho-ojeriza/",
+  "https://www.dgabc.com.br/Noticia/4351954/renan-santos-critica-declaracao-de-apoio-de-augusto-cury-a-flavio-bolsonaro-comedia",
+  "https://tribunadoplanalto.com.br/derrotados-no-1o-turno-adotam-posicoes-diferentes-para-disputa-entre-lula-e-flavio/",
+  "https://www.cnnbrasil.com.br/blogs/caio-junqueira/eleicoes/analise-renan-santos-aponta-contra-establishment-mas-poupa-stf/",
+  "https://www.poder360.com.br/poder-eleicoes/10-dos-12-pre-candidatos-a-presidencia-ja-se-manifestaram-contra-o-stf/",
+  "https://www.youtube.com/watch?v=KEUABDeb6K0",
+  "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/renan-descarta-apoio-no-2o-turno-psd-de-caiado-libera-bases-estaduais",
+  "https://viva.com.br/politica/renan-santos-e-o-primeiro-a-oficializar-candidatura-a-presidencia.html",
+  "https://www.aosfatos.org/noticias/checamos-debate-presidencial-band/",
+  "https://www.aosfatos.org/noticias/presidenciaveis-distorcem-inventam-fatos-atacar-adversarios/",
+  "https://portaldeprefeitura.com.br/bastidores-da-politica/eleicoes-2026-com-100-das-secoes-totalizadas-flavio-tem-4703-e/633498/",
+  "https://www.em.com.br/politica/2026/08/amp/7472252-renan-santos-mira-ataques-a-flavio-em-evento-do-missao-e-defende-matar-quem-roubar.html",
+  "https://sbtnews.sbt.com.br/noticia/politica/renan-santos-diz-ao-sbt-que-ha-muito-militar-vagabundo",
+  "https://www.cnnbrasil.com.br/blogs/daniel-rittner/eleicoes/renan-santos-governo-trump-tenta-aprontar-e-ajudar-flavio/",
+  "https://www.metropoles.com/colunas/andreza-matais/renan-santos-para-diplomatas-dos-eua-brasil-deveria-prender-maduro",
+  "https://www.gazetadopovo.com.br/eleicoes/2026/renan-incorpora-como-lema-de-campanha-slogan-sobre-desobediencia-a-decisoes-do-stf/",
+  "https://www.congressoemfoco.com.br/noticia/121878/decisao-ilegal-nao-se-cumpre--diz-renan-sobre-suspensao-de-campanha",
+  "https://trademap.com.br/noticias/news-8258315",
+  "https://www.poder360.com.br/poder-justica/renan-santos-pede-impeachment-de-moraes-e-toffoli-no-senado/",
+  "https://www.dgabc.com.br/Noticia/4344524/renan-santos-vamos-ingressar-com-pedido-de-impeachment-contra-toffoli-e-moraes",
+  "https://apublica.org/2026/08/renan-santos-propostas-para-seguranca-vao-contra-constituicao/",
+  "https://www.itatiaia.com.br/politica/presidente-do-partido-do-mbl-defende-prisao-para-bolsonaro-e-anistia-para-presos/",
+  "https://www.cartacapital.com.br/politica/fundador-do-mbl-e-condenado-a-indenizar-djamila-ribeiro-em-r-30-mil/",
+  "https://oantagonista.com.br/brasil/lider-do-mbl-tera-de-indenizar-jornalista-da-globo-em-r-45-mil/",
+  "https://www.congressoemfoco.com.br/noticia/121392/mpf-move-acao-contra-renan-e-mbl-por-ofensas-a-indigenas-do-para",
+  "https://diariodopara.com.br/eleicoes-2026/justica-manda-renan-santos-e-mbl-apagarem-videos-contra-indigenas-do-para/",
+  "https://www.poder360.com.br/opiniao/a-missao-de-renan-santos/",
+  "https://www.poder360.com.br/brasil/mbl-reune-de-sindicalistas-a-liberais-em-protesto-contra-bolsonaro/",
+  "https://www.cnnbrasil.com.br/politica/tse-aprova-registro-do-missao-partido-do-mbl-e-30o-do-pais/",
+  "https://planodegoverno2026.com.br/planos/renan-santos-f1272756.pdf"
+ ],
+ "atualizado_em": "2026-10-25",
+ "pratica_resumo": "Nunca exerceu mandato nem cargo público; 2026 foi sua primeira eleição. O deputado federal do Missão é Kim Kataguiri, cujos votos não são atribuídos a Renan. A prática documentada é a de líder do MBL e do Missão: marcha SP–Brasília pelo impeachment de Dilma (24/04–27/05/2015), atos de 2021 pelo impeachment de Bolsonaro, criação do Missão (TSE, 04/11/2025) e pedidos de impeachment de Moraes e Toffoli no Senado (02/09/2026), todos por vias legais. No discurso, defende que 'decisão ilegal não se cumpre' (05/08/2026) e disse ter desobedecido decisão do TSE (31/08/2026); a decisão foi revista em 01/09 e não há registro independente de descumprimento. Foi condenado a indenizar Djamila Ribeiro (TJ-SP, R$ 30 mil) e José Roberto Burnier (R$ 45,4 mil) por ofensas e responde a ação civil pública do MPF por falas sobre indígenas do Baixo Tapajós.",
+ "atos": [
+  {
+   "data": "2015-04-24",
+   "ato": "Organizou com o MBL a 'Marcha pela Liberdade', caminhada de 33 dias de São Paulo a Brasília (até 27/05/2015) com acampamento na Esplanada, em defesa do impeachment de Dilma Rousseff.",
+   "tema": "Instituições",
+   "fonte": "https://www.poder360.com.br/opiniao/a-missao-de-renan-santos/"
+  },
+  {
+   "data": "2020-11-10",
+   "ato": "Condenação definitiva da Justiça de SP a indenizar o jornalista José Roberto Burnier (TV Globo) em R$ 45,4 mil por chamá-lo de 'canalha' e 'esquerdista global de joelhos para o PT'.",
+   "tema": "Imprensa",
+   "fonte": "https://oantagonista.com.br/brasil/lider-do-mbl-tera-de-indenizar-jornalista-da-globo-em-r-45-mil/"
+  },
+  {
+   "data": "2021-09-12",
+   "ato": "O MBL, do qual é cofundador e dirigente, realizou ato na Av. Paulista pelo impeachment de Jair Bolsonaro, convocado como resposta aos atos de 7 de Setembro, que o movimento disse terem pedido 'ruptura institucional'.",
+   "tema": "Democracia",
+   "fonte": "https://www.poder360.com.br/brasil/mbl-reune-de-sindicalistas-a-liberais-em-protesto-contra-bolsonaro/"
+  },
+  {
+   "data": "2025-11-04",
+   "ato": "O TSE aprovou por unanimidade o registro do Partido Missão, criado pelo MBL e articulado por Renan, com 577.999 apoios válidos e diretórios em ao menos nove estados.",
+   "tema": "Partidos",
+   "fonte": "https://www.cnnbrasil.com.br/politica/tse-aprova-registro-do-missao-partido-do-mbl-e-30o-do-pais/"
+  },
+  {
+   "data": "2026-02-09",
+   "ato": "TJ-SP reformou sentença e o condenou a indenizar Djamila Ribeiro em R$ 30 mil por chamá-la de 'jeca' e dizer que 'sua agenda é a mesma do crime organizado' (data da notícia).",
+   "tema": "Oposição",
+   "fonte": "https://www.cartacapital.com.br/politica/fundador-do-mbl-e-condenado-a-indenizar-djamila-ribeiro-em-r-30-mil/"
+  },
+  {
+   "data": "2026-08-24",
+   "ato": "Justiça Federal em Santarém determinou, em ação civil pública do MPF (proc. 1021307-48.2026.4.01.3902), que Renan e o MBL removam vídeos com ofensas a indígenas do Baixo Tapajós, sob multa de R$ 5 mil/dia; o MPF pede R$ 500 mil por dano moral coletivo.",
+   "tema": "Povos indígenas",
+   "fonte": "https://diariodopara.com.br/eleicoes-2026/justica-manda-renan-santos-e-mbl-apagarem-videos-contra-indigenas-do-para/"
+  },
+  {
+   "data": "2026-08-31",
+   "ato": "Após decisão do TSE (Toffoli) que suspendeu perfis não declarados, o Fundo Eleitoral e participação em debates, declarou 'Eu desobedeci e eu continuarei desobedecendo'; Toffoli reviu a decisão em 01/09/2026. Não há registro independente de descumprimento.",
+   "tema": "Justiça",
+   "fonte": "https://www.congressoemfoco.com.br/noticia/121878/decisao-ilegal-nao-se-cumpre--diz-renan-sobre-suspensao-de-campanha"
+  },
+  {
+   "data": "2026-09-02",
+   "ato": "Protocolou no Senado pedidos de impeachment dos ministros do STF Alexandre de Moraes e Dias Toffoli, com base no art. 39 da Lei 1.079/1950 e no caso Banco Master.",
+   "tema": "Justiça",
+   "fonte": "https://www.poder360.com.br/poder-justica/renan-santos-pede-impeachment-de-moraes-e-toffoli-no-senado/"
+  }
+ ]
+}

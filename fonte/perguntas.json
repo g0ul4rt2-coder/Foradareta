@@ -1,0 +1,341 @@
+{
+ "_escala": "Resposta: -2 discordo totalmente .. +2 concordo totalmente. 'dir' = para que lado CONCORDAR empurra. x (economia): +1 direita/mercado, -1 esquerda/Estado. y (costumes e ordem, escala GAL-TAN): +1 tradicionalista, -1 progressista. z (democracia e instituições, indicadores de Levitsky & Ziblatt + gradualismo): +1 institucionalista, -1 disposição à ruptura. eixo 'a' = pauta usada só para afinidade, sem posicionar no gráfico.",
+ "perguntas": [
+  {
+   "id": "E01",
+   "eixo": "x",
+   "dir": -1,
+   "tema": "Proteção social",
+   "texto": "O Estado deve garantir uma renda mínima às famílias pobres, como o Bolsa Família, mesmo que isso exija mais gasto público."
+  },
+  {
+   "id": "E02",
+   "eixo": "x",
+   "dir": 1,
+   "tema": "Estatais",
+   "texto": "Empresas estatais como Petrobras, Correios e Banco do Brasil deveriam ser privatizadas."
+  },
+  {
+   "id": "E03",
+   "eixo": "x",
+   "dir": -1,
+   "tema": "Impostos",
+   "texto": "Quem ganha mais deve pagar proporcionalmente mais imposto, inclusive com taxação de lucros, dividendos e grandes fortunas."
+  },
+  {
+   "id": "E04",
+   "eixo": "x",
+   "dir": 1,
+   "tema": "Contas públicas",
+   "texto": "O governo deve cortar gastos para equilibrar as contas públicas, mesmo que isso reduza o ritmo de programas sociais."
+  },
+  {
+   "id": "E05",
+   "eixo": "x",
+   "dir": -1,
+   "tema": "Trabalho",
+   "texto": "O fim da escala 6x1 (seis dias de trabalho para um de folga) deve ser garantido por lei, mesmo com custo para as empresas."
+  },
+  {
+   "id": "E06",
+   "eixo": "x",
+   "dir": -1,
+   "tema": "Trabalho",
+   "texto": "Motoristas e entregadores de aplicativo devem ter por lei remuneração mínima e contribuição previdenciária."
+  },
+  {
+   "id": "E07",
+   "eixo": "x",
+   "dir": 1,
+   "tema": "Juros e inflação",
+   "texto": "O Banco Central deve ser independente do governo e focar no controle da inflação, mesmo que juros altos freiem o crescimento."
+  },
+  {
+   "id": "E08",
+   "eixo": "x",
+   "dir": -1,
+   "tema": "Desenvolvimento",
+   "texto": "O BNDES e os bancos públicos devem financiar setores estratégicos com juros subsidiados para puxar o crescimento."
+  },
+  {
+   "id": "E09",
+   "eixo": "x",
+   "dir": -1,
+   "tema": "Trabalho",
+   "texto": "O salário mínimo deve ter aumento acima da inflação todos os anos."
+  },
+  {
+   "id": "E10",
+   "eixo": "x",
+   "dir": 1,
+   "tema": "Saúde e educação",
+   "texto": "Saúde e educação públicas deveriam abrir mais espaço para gestão privada (vouchers, organizações sociais, parcerias) em vez de ampliar a rede estatal."
+  },
+  {
+   "id": "E11",
+   "eixo": "x",
+   "dir": 1,
+   "tema": "Previdência",
+   "texto": "A Previdência deveria migrar para um modelo de capitalização, em que cada trabalhador poupa para a própria aposentadoria."
+  },
+  {
+   "id": "E12",
+   "eixo": "x",
+   "dir": 1,
+   "tema": "Comércio exterior",
+   "texto": "O Brasil deveria reduzir tarifas de importação e abrir mais a economia, mesmo que parte da indústria nacional perca espaço."
+  },
+  {
+   "id": "E13",
+   "eixo": "x",
+   "dir": 1,
+   "tema": "Estatais",
+   "texto": "Os preços de combustíveis e energia devem seguir o mercado internacional, sem interferência do governo."
+  },
+  {
+   "id": "E14",
+   "eixo": "x",
+   "dir": 1,
+   "tema": "Proteção social",
+   "texto": "Programas sociais devem exigir contrapartidas rígidas e ter prazo de saída para não gerar dependência."
+  },
+  {
+   "id": "E15",
+   "eixo": "x",
+   "dir": -1,
+   "tema": "Terra",
+   "texto": "A reforma agrária, com desapropriação de terras improdutivas, deve ser ampliada."
+  },
+  {
+   "id": "E16",
+   "eixo": "x",
+   "dir": 1,
+   "tema": "Empreendedorismo",
+   "texto": "Menos impostos e menos burocracia para quem empreende ajudam mais os pobres do que novos programas do governo."
+  },
+  {
+   "id": "E17",
+   "eixo": "x",
+   "dir": -1,
+   "tema": "Preços",
+   "texto": "O governo deve intervir para segurar o preço de itens essenciais (alimentos, gás de cozinha) quando houver alta forte."
+  },
+  {
+   "id": "E18",
+   "eixo": "x",
+   "dir": -1,
+   "tema": "Trabalho",
+   "texto": "Sindicatos devem ser fortalecidos, inclusive com uma contribuição para financiar a negociação coletiva."
+  },
+  {
+   "id": "V01",
+   "eixo": "y",
+   "dir": -1,
+   "tema": "Aborto",
+   "texto": "O aborto deveria ser permitido por decisão da mulher nas primeiras semanas de gestação."
+  },
+  {
+   "id": "V02",
+   "eixo": "y",
+   "dir": 1,
+   "tema": "Armas",
+   "texto": "A compra, a posse e o porte de armas pelo cidadão comum devem ser facilitados."
+  },
+  {
+   "id": "V03",
+   "eixo": "y",
+   "dir": 1,
+   "tema": "Segurança",
+   "texto": "A maioridade penal deveria ser reduzida para 16 anos."
+  },
+  {
+   "id": "V04",
+   "eixo": "y",
+   "dir": -1,
+   "tema": "Drogas",
+   "texto": "O porte de maconha para uso pessoal não deveria ser tratado como crime."
+  },
+  {
+   "id": "V05",
+   "eixo": "y",
+   "dir": -1,
+   "tema": "Educação",
+   "texto": "As escolas devem tratar de gênero e diversidade sexual em sala de aula."
+  },
+  {
+   "id": "V06",
+   "eixo": "y",
+   "dir": -1,
+   "tema": "Família",
+   "texto": "O casamento civil entre pessoas do mesmo sexo deve continuar garantido."
+  },
+  {
+   "id": "V07",
+   "eixo": "y",
+   "dir": 1,
+   "tema": "Religião",
+   "texto": "Valores religiosos devem orientar as leis e as políticas públicas."
+  },
+  {
+   "id": "V08",
+   "eixo": "y",
+   "dir": -1,
+   "tema": "Igualdade racial",
+   "texto": "As cotas raciais em universidades e concursos públicos devem ser mantidas."
+  },
+  {
+   "id": "V09",
+   "eixo": "y",
+   "dir": 1,
+   "tema": "Segurança",
+   "texto": "A polícia deveria ter mais liberdade para usar a força contra o crime, mesmo com risco de abusos."
+  },
+  {
+   "id": "V10",
+   "eixo": "a",
+   "dir": 1,
+   "tema": "Democracia",
+   "texto": "Os condenados pelos atos de 8 de janeiro de 2023 deveriam receber anistia."
+  },
+  {
+   "id": "V11",
+   "eixo": "a",
+   "dir": -1,
+   "tema": "Internet",
+   "texto": "As redes sociais devem ser responsabilizadas e obrigadas a remover desinformação e discurso de ódio."
+  },
+  {
+   "id": "V12",
+   "eixo": "y",
+   "dir": -1,
+   "tema": "Povos indígenas",
+   "texto": "A demarcação de terras indígenas deve seguir sem a tese do marco temporal."
+  },
+  {
+   "id": "V13",
+   "eixo": "y",
+   "dir": -1,
+   "tema": "Meio ambiente",
+   "texto": "Proteger a Amazônia deve ter prioridade, mesmo que isso limite a expansão do agronegócio."
+  },
+  {
+   "id": "V14",
+   "eixo": "y",
+   "dir": 1,
+   "tema": "Educação",
+   "texto": "As escolas cívico-militares deveriam ser ampliadas."
+  },
+  {
+   "id": "V15",
+   "eixo": "y",
+   "dir": 1,
+   "tema": "Educação",
+   "texto": "Professores não deveriam expressar opiniões políticas ou ideológicas em sala de aula."
+  },
+  {
+   "id": "V16",
+   "eixo": "y",
+   "dir": 1,
+   "tema": "Segurança",
+   "texto": "Penas para crimes violentos devem ser mais duras e a progressão de regime, mais difícil."
+  },
+  {
+   "id": "V17",
+   "eixo": "a",
+   "dir": 1,
+   "tema": "Democracia",
+   "texto": "O STF tem extrapolado seus poderes e o Congresso deveria limitar sua atuação."
+  },
+  {
+   "id": "V18",
+   "eixo": "y",
+   "dir": 1,
+   "tema": "Família",
+   "texto": "A família formada por pai, mãe e filhos deve ser a referência das políticas públicas para a família."
+  },
+  {
+   "id": "V19",
+   "eixo": "a",
+   "dir": 1,
+   "tema": "Política externa",
+   "texto": "O Brasil deveria se alinhar mais aos Estados Unidos e a Israel do que à China, à Rússia e ao BRICS."
+  },
+  {
+   "id": "V20",
+   "eixo": "y",
+   "dir": -1,
+   "tema": "Imigração",
+   "texto": "O Brasil deve continuar acolhendo refugiados e imigrantes, como venezuelanos, haitianos e afegãos."
+  },
+  {
+   "id": "Z01",
+   "eixo": "z",
+   "dir": 1,
+   "tema": "Eleições",
+   "texto": "Se o candidato que apoio perder, o resultado oficial das urnas deve ser aceito, mesmo que eu desconfie dele."
+  },
+  {
+   "id": "Z02",
+   "eixo": "z",
+   "dir": -1,
+   "tema": "Forças Armadas",
+   "texto": "Em uma crise grave, seria aceitável as Forças Armadas intervirem para restaurar a ordem."
+  },
+  {
+   "id": "Z03",
+   "eixo": "z",
+   "dir": -1,
+   "tema": "Justiça",
+   "texto": "Um governo eleito pode deixar de cumprir decisões judiciais que considera injustas."
+  },
+  {
+   "id": "Z04",
+   "eixo": "z",
+   "dir": -1,
+   "tema": "Imprensa",
+   "texto": "O governo deveria poder punir ou tirar do ar veículos de imprensa que considere mentirosos."
+  },
+  {
+   "id": "Z05",
+   "eixo": "z",
+   "dir": -1,
+   "tema": "Oposição",
+   "texto": "Adversários políticos devem ser tratados como inimigos do país, e não como pessoas com outras ideias."
+  },
+  {
+   "id": "Z06",
+   "eixo": "z",
+   "dir": 1,
+   "tema": "Mudança gradual",
+   "texto": "Mudanças profundas na sociedade devem ser feitas aos poucos e dentro das regras, mesmo que demore mais."
+  },
+  {
+   "id": "Z07",
+   "eixo": "z",
+   "dir": -1,
+   "tema": "Poder pessoal",
+   "texto": "O Brasil precisa de um líder forte que governe sem depender tanto do Congresso e dos tribunais."
+  },
+  {
+   "id": "Z08",
+   "eixo": "z",
+   "dir": 1,
+   "tema": "Democracia lá fora",
+   "texto": "O Brasil deve condenar fraudes eleitorais e perseguição a opositores mesmo quando acontecem em países governados por aliados."
+  },
+  {
+   "id": "Z09",
+   "eixo": "z",
+   "dir": -1,
+   "tema": "Protestos",
+   "texto": "Ocupar terras ou prédios públicos e bloquear estradas são formas legítimas de pressionar o governo quando uma reivindicação não é atendida."
+  },
+  {
+   "id": "Z10",
+   "eixo": "z",
+   "dir": 1,
+   "tema": "Urnas",
+   "texto": "As urnas eletrônicas e a Justiça Eleitoral são confiáveis para contar os votos."
+  }
+ ]
+}
