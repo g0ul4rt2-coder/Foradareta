@@ -1,0 +1,156 @@
+{
+ "id": "romeu-zema",
+ "diz_faz": [
+  {
+   "tema": "Salário do governador",
+   "tipo": "fala_x_ato",
+   "disse": {
+    "texto": "Plano de governo de 2018: \"o salário do governador será reduzido\", como parte de uma \"mudança cultural\" para cortar gastos.",
+    "data": "2018",
+    "contexto": "Plano de governo registrado na campanha ao governo de Minas, citado pela Rádio Itatiaia; na campanha ele também registrou em cartório (27/08/2018) a promessa de não receber salário enquanto houvesse servidores com pagamento atrasado e, ao assumir, anunciou que doaria o salário (Estado de Minas, 03/01/2019)",
+    "fonte": "https://www.itatiaia.com.br/politica/aumento-de-salario-e-isencoes-fiscais-veja-promessas-que-zema-descumpriu/"
+   },
+   "fez": {
+    "texto": "Sancionou lei aprovada pela ALMG que elevou o salário do governador de R$ 10,5 mil para R$ 41.845,49 (alta de 298%, escalonada até fev/2025), com reajustes também para vice e secretários.",
+    "data": "2023-05-03",
+    "fonte": "https://sbtnews.sbt.com.br/noticia/brasil/246558-governador-de-mg-sanciona-lei-que-reajusta-proprio-salario-em-quase-300"
+   },
+   "explicacao": {
+    "texto": "Ao enviar o projeto (mar/2023), argumentou que os salários estavam \"sem reajuste desde 2007\" e que o aumento recompunha perdas da inflação. Em 2026 disse que doou às Apaes tudo o que recebeu como salário de governador.",
+    "fonte": "https://sbtnews.sbt.com.br/noticia/brasil/246558-governador-de-mg-sanciona-lei-que-reajusta-proprio-salario-em-quase-300"
+   },
+   "apontado_por": null
+  },
+  {
+   "tema": "Reajuste das forças de segurança",
+   "tipo": "mudanca",
+   "disse": {
+    "texto": "O governo enviou à ALMG projeto de recomposição de 41,7% para as forças de segurança, em três parcelas (jul/2020, set/2021 e set/2022); segundo o secretário de Governo, era a versão acertada com as categorias.",
+    "data": "2020-02",
+    "contexto": "Projeto do Executivo negociado por mais de um ano com policiais e bombeiros, aprovado pela Assembleia em fevereiro de 2020",
+    "fonte": "https://www.em.com.br/app/noticia/politica/2020/03/11/interna_politica,1127995/governo-de-minas-sanciona-parcialmente-reajuste-salarial-da-seguranca.shtml"
+   },
+   "fez": {
+    "texto": "Sancionou só o primeiro artigo (13% a partir de jul/2020) e vetou o resto, inclusive as parcelas seguintes e a emenda que estendia reajustes a outras categorias.",
+    "data": "2020-03-11",
+    "fonte": "https://www.em.com.br/app/noticia/politica/2020/03/11/interna_politica,1127995/governo-de-minas-sanciona-parcialmente-reajuste-salarial-da-seguranca.shtml"
+   },
+   "explicacao": {
+    "texto": "O governo disse que a aprovação do projeto \"gerou uma apreensão junto ao Ministério da Economia\", que considerava os 41,7% incompatíveis com a adesão ao Regime de Recuperação Fiscal, e citou perda estimada de R$ 548 milhões de ICMS em 2020: \"Sem as medidas propostas no Regime, o Estado estaria em penúria financeira.\"",
+    "fonte": "https://diariodocomercio.com.br/politica/zema-sanciona-reajuste-de-13-para-seguranca/"
+   },
+   "apontado_por": null
+  },
+  {
+   "tema": "Transparência das isenções fiscais",
+   "tipo": "fala_x_ato",
+   "disse": {
+    "texto": "Plano de governo de 2018 criticava que \"algumas empresas e setores recebem mais subsídios que outras\" sem transparência e, segundo a reportagem, prometia enfrentar o sigilo dos benefícios a empresas.",
+    "data": "2018",
+    "contexto": "Plano de governo da campanha ao governo de Minas, citado pela Rádio Itatiaia",
+    "fonte": "https://www.itatiaia.com.br/politica/aumento-de-salario-e-isencoes-fiscais-veja-promessas-que-zema-descumpriu/"
+   },
+   "fez": {
+    "texto": "Perguntado se tiraria o sigilo dos benefícios a empresas, respondeu: \"Da mesma forma que a Coca Cola não revela a fórmula dela.\" A lista de beneficiários só foi divulgada depois da renúncia, pelo sucessor Mateus Simões (jun/2026).",
+    "data": "2026-03-11",
+    "fonte": "https://www.itatiaia.com.br/politica/coca-cola-nao-revela-sua-formula-diz-zema-ao-explicar-sigilo-em-isencoes-fiscais/"
+   },
+   "explicacao": {
+    "texto": "\"Não vamos dar publicidade a isso porque seria extremamente pernicioso para o estado de Minas\"; comparou a divulgação a dar aos concorrentes \"a forma do seu produto\" (mar/2026).",
+    "fonte": "https://www.acessa.com/politica/2026/06/331890-empresa-de-zema-recebeu-beneficio-fiscal-durante-governo-dele-em-minas.html"
+   },
+   "apontado_por": null
+  },
+  {
+   "tema": "Benefício fiscal a empresa da família",
+   "tipo": "conflito_apontado",
+   "disse": {
+    "texto": "\"Na nossa gestão, não criamos nenhum incentivo fiscal, só aplicamos o que já prevalecia anteriormente.\"",
+    "data": "2026-03-11",
+    "contexto": "Declaração à Rádio Itatiaia ao defender o sigilo dos benefícios fiscais",
+    "fonte": "https://www.itatiaia.com.br/politica/coca-cola-nao-revela-sua-formula-diz-zema-ao-explicar-sigilo-em-isencoes-fiscais/"
+   },
+   "fez": {
+    "texto": "Pela planilha divulgada pelo governo de Minas, a Eletrozema (presidida pelo irmão, Romero Zema) recebeu R$ 2,28 milhões em créditos presumidos de ICMS em 2025, com desoneração registrada desde jun/2024, no mandato de Zema.",
+    "data": "2026-06-24",
+    "fonte": "https://www.acessa.com/politica/2026/06/331890-empresa-de-zema-recebeu-beneficio-fiscal-durante-governo-dele-em-minas.html"
+   },
+   "explicacao": {
+    "texto": "Em nota, Zema disse que a empresa tem regime especial desde 2008, antes de ele entrar na política, que os benefícios estavam disponíveis a qualquer empresa que investisse em Minas e que os regimes foram criados em governos anteriores, com aprovação do Confaz.",
+    "fonte": "https://www.acessa.com/politica/2026/06/331890-empresa-de-zema-recebeu-beneficio-fiscal-durante-governo-dele-em-minas.html"
+   },
+   "apontado_por": "Folha de S.Paulo (Folhapress), reportagem de 24/06/2026"
+  },
+  {
+   "tema": "Aliança com Flávio Bolsonaro",
+   "tipo": "mudanca",
+   "disse": {
+    "texto": "\"Flávio Bolsonaro, ver você cobrando dinheiro do Vorcaro é imperdoável. É um tapa na cara dos brasileiros de bem.\" Disse também que não basta criticar as práticas de Lula e do PT e repetir o mesmo comportamento.",
+    "data": "2026-05-13",
+    "contexto": "Publicação nas redes, como pré-candidato, após a revelação de mensagens de Flávio ao banqueiro Daniel Vorcaro pedindo dinheiro para um filme sobre Jair Bolsonaro",
+    "fonte": "https://www.oliberal.com/politica/zema-ouvir-flavio-cobrando-dinheiro-a-vorcaro-e-imperdoavel-e-um-tapa-na-cara-dos-brasileiros-1.1120964"
+   },
+   "fez": {
+    "texto": "Declarou voto em Flávio no 2º turno: \"Voto contra o PT, voto no Flávio Bolsonaro\"; o Novo formalizou a adesão.",
+    "data": "2026-10-05",
+    "fonte": "https://www.oliberal.com/politica/zema-declara-apoio-a-flavio-bolsonaro-no-segundo-turno-1.1177577"
+   },
+   "explicacao": {
+    "texto": "Justificou pela oposição ao PT: \"Eu não vou me omitir, nem ficar em cima do muro neste momento tão importante\" e \"O Brasil não aguenta mais quatro anos de Lula\".",
+    "fonte": "https://www.oliberal.com/politica/zema-declara-apoio-a-flavio-bolsonaro-no-segundo-turno-1.1177577"
+   },
+   "apontado_por": null
+  }
+ ],
+ "principais": [
+  {
+   "data": "2018-10-28",
+   "categoria": "trajetoria",
+   "texto": "Na primeira eleição que disputa, é eleito governador de Minas pelo Novo, com 71,8% dos votos válidos no 2º turno contra Antonio Anastasia (PSDB).",
+   "fonte": "https://www.poder360.com.br/eleicoes/romeu-zema-novo-e-eleito-governador-de-minas-gerais/"
+  },
+  {
+   "data": "2020-09-04",
+   "categoria": "lei",
+   "texto": "A ALMG aprova a reforma da Previdência dos servidores estaduais proposta pelo governo, com alíquotas de contribuição de 11% a 16%.",
+   "fonte": "https://www.brasildefato.com.br/2020/09/04/reforma-previdenciaria-de-zema-e-aprovada-saiba-o-que-muda"
+  },
+  {
+   "data": "2021-07-16",
+   "categoria": "governo",
+   "texto": "Anuncia o fim do parcelamento de salários dos servidores, em vigor desde 2016; o pagamento integral começa em agosto de 2021.",
+   "fonte": "https://tribunademinas.com.br/noticias/minas/16-07-2021/governador-romeu-zema-anuncia-o-fim-do-parcelamento-dos-salarios.html?amp=1"
+  },
+  {
+   "data": "2022-07",
+   "categoria": "justica",
+   "texto": "Obtém no STF (Nunes Marques, depois o plenário) autorização para Minas aderir ao Regime de Recuperação Fiscal por decreto, sem lei da Assembleia.",
+   "fonte": "https://www.em.com.br/app/noticia/politica/2022/07/02/interna_politica,1377497/nunes-marques-autoriza-adesao-de-minas-ao-rrf.shtml"
+  },
+  {
+   "data": "2023-05-03",
+   "categoria": "lei",
+   "texto": "Sanciona lei que eleva o salário do governador de cerca de R$ 10,5 mil para R$ 41.845 até fev/2025 (alta de 298%), com efeito para vice e secretários.",
+   "fonte": "https://sbtnews.sbt.com.br/noticia/brasil/246558-governador-de-mg-sanciona-lei-que-reajusta-proprio-salario-em-quase-300"
+  },
+  {
+   "data": "2025-12-23",
+   "categoria": "lei",
+   "texto": "Sanciona a lei que autoriza a privatização da Copasa, com golden share do Estado e recursos destinados ao Propag.",
+   "fonte": "https://www.itatiaia.com.br/politica/privatizacao-da-copasa-zema-sanciona-lei-que-libera-venda-da-estatal"
+  },
+  {
+   "data": "2025-12-31",
+   "categoria": "governo",
+   "texto": "Assina a adesão ao Propag, reconhecendo dívida de R$ 179,3 bilhões com a União, a pagar em 30 anos.",
+   "fonte": "https://ofator.com.br/informacao/divida-reconhecida-por-minas-em-contrato-com-a-uniao-supera-projecao-feita-sete-meses-antes/"
+  },
+  {
+   "data": "2026-05-15",
+   "categoria": "justica",
+   "texto": "A PGR denuncia Zema ao STJ por calúnia contra o ministro Gilmar Mendes, por vídeos da série 'Os intocáveis'; ele nega crime e diz que 'os intocáveis não aceitam críticas'.",
+   "fonte": "https://sbtnews.sbt.com.br/noticia/justica/pgr-denuncia-romeu-zema-por-video-com-criticas-a-ministros-do-stf"
+  }
+ ],
+ "busca_nota": "Procurados: promessa de não receber salário e de reduzi-lo (2018) x aumento de 2023; veto a reajustes de servidores (ADI no STF contra emendas da ALMG em abr/2022, alegando impacto de R$ 8,68 bi); reajuste de 41,7% da segurança (2020); sigilo das isenções fiscais; ICMS sobre 'supérfluos' (2023) x promessa de não aumentar impostos; privatização da Cemig; posição sobre o 8 de janeiro; obra na MG-428; Eletrozema; apoio a Flávio. Ficaram de fora: ICMS, porque não achei promessa literal de 2018 de não aumentar impostos (a promessa encontrada é da campanha presidencial de 2026, e Zema diz que a alíquota de 2023 recompôs uma cobrança que existiu de 2011 a 2022); Cemig, porque a venda dependia de referendo ou de mudança na Constituição estadual, que a ALMG não aprovou, então não é um ato dele no sentido contrário; 8 de janeiro, porque não achei fala dele de jan/2023 condenando os atos em termos que contrastem com as de 2025–2026. A ADI de 2022 sobre os reajustes não virou caso à parte para não repetir o 'fez' do caso do salário. As promessas do plano de 2018 aparecem como citadas pela Rádio Itatiaia; não consegui abrir o PDF do plano no portal do TSE. No caso da MG-428 não há fala do próprio Zema, só a nota do governo."
+}

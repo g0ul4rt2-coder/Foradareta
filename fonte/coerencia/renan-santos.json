@@ -1,0 +1,93 @@
+{
+  "id": "renan-santos",
+  "diz_faz": [
+    {
+      "tema": "Anistia aos presos do 8 de janeiro",
+      "tipo": "mudanca",
+      "disse": {
+        "texto": "Disse que os presos do 8 de janeiro \"merecem anistia\".",
+        "data": "2025-11-18",
+        "contexto": "Entrevista à Rádio Itatiaia como presidente do partido Missão, na qual também defendeu a prisão de Jair Bolsonaro",
+        "fonte": "https://www.itatiaia.com.br/politica/presidente-do-partido-do-mbl-defende-prisao-para-bolsonaro-e-anistia-para-presos/"
+      },
+      "fez": {
+        "texto": "Como pré-candidato: \"Aquelas pessoas cometeram crimes, o Bolsonaro também cometeu crime\" e \"Tem que haver uma punição, mas a punição tem que ser dosada\"; disse ser contra anistia \"pura e simples\".",
+        "data": "2026-05-21",
+        "fonte": "https://www.cnnbrasil.com.br/eleicoes/renan-santos-quer-restringir-stf-e-vetar-escritorios-ligados-a-ministros/"
+      },
+      "explicacao": null,
+      "apontado_por": null
+    },
+    {
+      "tema": "Prisão de Jair Bolsonaro",
+      "tipo": "mudanca",
+      "disse": {
+        "texto": "\"O Bolsonaro errou muito e tem de pagar por isso. Se cometeu crime, que seja preso.\"",
+        "data": "2025-11-18",
+        "contexto": "Mesma entrevista à Rádio Itatiaia em que disse que os presos do 8 de janeiro merecem anistia",
+        "fonte": "https://www.itatiaia.com.br/politica/presidente-do-partido-do-mbl-defende-prisao-para-bolsonaro-e-anistia-para-presos/"
+      },
+      "fez": {
+        "texto": "Defendeu publicamente prisão domiciliar: \"Essa condição complicada deveria ser alvo de uma ação no STF que o tirasse da cadeia\".",
+        "data": "2026-03-15",
+        "fonte": "https://revistaoeste.com/politica/renan-santos-defende-prisao-domiciliar-para-bolsonaro/"
+      },
+      "explicacao": {
+        "texto": "Atribuiu a posição ao estado de saúde do ex-presidente: \"Jair Bolsonaro está muito doente e o que ele vem passando é quase uma tortura em vida\"; disse não ter \"apreço pela família do Bolsonaro\" nem ser aliado dele.",
+        "fonte": "https://revistaoeste.com/politica/renan-santos-defende-prisao-domiciliar-para-bolsonaro/"
+      },
+      "apontado_por": null
+    }
+  ],
+  "principais": [
+    {
+      "data": "2015-04-24",
+      "categoria": "trajetoria",
+      "texto": "Com o MBL, que cofundou em 2014, organizou a 'Marcha pela Liberdade', caminhada de 33 dias de São Paulo a Brasília pelo impeachment de Dilma Rousseff.",
+      "fonte": "https://www.poder360.com.br/opiniao/a-missao-de-renan-santos/"
+    },
+    {
+      "data": "2021-09-12",
+      "categoria": "trajetoria",
+      "texto": "O MBL, que dirigia, fez ato na Av. Paulista pelo impeachment de Jair Bolsonaro, em resposta aos atos de 7 de Setembro, que o movimento disse pedirem 'ruptura institucional'.",
+      "fonte": "https://www.poder360.com.br/brasil/mbl-reune-de-sindicalistas-a-liberais-em-protesto-contra-bolsonaro/"
+    },
+    {
+      "data": "2021-11-24",
+      "categoria": "justica",
+      "texto": "A 4ª Câmara Criminal do TJ-SP manteve a rejeição da denúncia do MP-SP por tráfico de influência (2020), por falta de indícios mínimos; não houve ação penal.",
+      "fonte": "https://oantagonista.com.br/brasil/tj-sp-rejeita-denuncia-contra-renan-do-mbl-por-trafico-de-influencia/"
+    },
+    {
+      "data": "2025-11-04",
+      "categoria": "trajetoria",
+      "texto": "O TSE aprovou por unanimidade o registro do Partido Missão, criado pelo MBL e articulado por ele, com 577.999 apoios válidos; tornou-se o 30º partido do país.",
+      "fonte": "https://www.cnnbrasil.com.br/politica/tse-aprova-registro-do-missao-partido-do-mbl-e-30o-do-pais/"
+    },
+    {
+      "data": "2026-02-09",
+      "categoria": "justica",
+      "texto": "O TJ-SP reformou sentença e o condenou a indenizar Djamila Ribeiro em R$ 30 mil por chamá-la de 'jeca' e associá-la ao crime organizado (data da notícia).",
+      "fonte": "https://www.cartacapital.com.br/politica/fundador-do-mbl-e-condenado-a-indenizar-djamila-ribeiro-em-r-30-mil/"
+    },
+    {
+      "data": "2026-08-31",
+      "categoria": "justica",
+      "texto": "Decisão de Dias Toffoli (TSE) suspendeu perfis, Fundo Eleitoral e debates da campanha por informação tardia de redes; ele disse ter desobedecido; Toffoli reviu a decisão em 01/09.",
+      "fonte": "https://www.congressoemfoco.com.br/noticia/121878/decisao-ilegal-nao-se-cumpre--diz-renan-sobre-suspensao-de-campanha"
+    },
+    {
+      "data": "2026-09-02",
+      "categoria": "trajetoria",
+      "texto": "Protocolou no Senado pedidos de impeachment dos ministros do STF Alexandre de Moraes e Dias Toffoli, com base na Lei 1.079/1950 e no caso Banco Master.",
+      "fonte": "https://www.poder360.com.br/poder-justica/renan-santos-pede-impeachment-de-moraes-e-toffoli-no-senado/"
+    },
+    {
+      "data": "2026-10-04",
+      "categoria": "trajetoria",
+      "texto": "Em sua primeira eleição, ficou em 4º lugar na disputa presidencial, com 2,67 milhões de votos (2,24% dos válidos); no 2º turno não apoiou Lula nem Flávio Bolsonaro.",
+      "fonte": "https://www.diariodepernambuco.com.br/politica/2026/10/11725891-renan-santos-descarta-apoio-no-2-turno-psd-de-caiado-libera-bases-estaduais.html"
+    }
+  ],
+  "busca_nota": "Renan nunca exerceu cargo público, então não há votos nem atos de governo; buscaram-se falas comparadas no tempo e atos como dirigente do MBL/Missão. Pesquisados: anistia ao 8 de janeiro (Itatiaia nov/2025, CNN mai/2026, sabatina G4/O Antagonista ago/2026), prisão de Bolsonaro, apoio do MBL a Bolsonaro em 2018 e rompimento em 2019, aliança do MBL com Sergio Moro (2021–22) x chamá-lo de 'vassalo' (01/08/2026), elogios antigos a Moraes x pedidos de impeachment (2026), 'decisão ilegal não se cumpre' x recursos à Justiça para entrar no debate da Globo, recusa do Fundo Eleitoral, 2º turno de 2026 e aborto (vídeo de 2010). Ficaram de fora por falta de fala literal dele na época: apoio a Bolsonaro em 2018 (só há registro do apoio do MBL), aliança com Moro (reportagens citam reuniões e o MBL, não frase de Renan) e elogios a Moraes (a Gazeta do Povo, 08/05/2026, cita 'comentários elogiosos', e ele responde que eram 'piadas' da época da prisão de Roberto Jefferson, mas o texto antigo não foi localizado). A frase 'Defendemos a dosimetria, não a anistia' aparece só como título de vídeo; a CartaCapital (25/08/2026) diz que em 04/08/2026 ele rejeitou anistia e indulto, mas a cobertura de O Antagonista da sabatina não traz o trecho, por isso usei a entrevista à CNN de 21/05/2026. A recusa do Fundo Eleitoral (CNN) e a posição de neutralidade no 2º turno se mantiveram, por isso não entram. Não há explicação de Renan para a mudança sobre anistia. A Revista Oeste é a única fonte achada para a fala de 15/03/2026 sobre prisão domiciliar."
+}

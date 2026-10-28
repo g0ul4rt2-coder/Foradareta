@@ -1,0 +1,73 @@
+{
+ "id": "wilson-grassi",
+ "diz_faz": [
+  {
+   "tema": "Financiamento público de campanha (Fundo Eleitoral)",
+   "tipo": "fala_x_ato",
+   "disse": {
+    "texto": "Propôs o programa 'Meu Botox, Minha Vida', a ser bancado por imposto sobre cosméticos e por corte no financiamento público de campanhas.",
+    "data": "2026-08-29",
+    "contexto": "Entrevista à Folha de S.Paulo, relatada pelo Poder360. Ele disse que a proposta não está no programa de governo porque o partido \"não deixaria\".",
+    "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/candidato-ao-planalto-quer-criar-meu-botox-minha-vida/"
+   },
+   "fez": {
+    "texto": "Sua chapa já tinha recebido cerca de R$ 3,3 milhões do Fundo Especial de Financiamento de Campanha (FEFC) quando o TSE suspendeu os repasses (30/08). A campanha recorreu e, em 02/09, Toffoli voltou a liberar os repasses do fundo.",
+    "data": "2026-09-02",
+    "fonte": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/toffoli-libera-propaganda-digital-do-candidato-presidente-grassi"
+   },
+   "explicacao": null,
+   "apontado_por": null
+  }
+ ],
+ "principais": [
+  {
+   "data": "2006",
+   "categoria": "trajetoria",
+   "texto": "Disputa vaga de deputado estadual em São Paulo pelo PFL e recebe 4.517 votos, sem se eleger.",
+   "fonte": "https://dadosabertos.tse.jus.br/dataset/resultados-2006"
+  },
+  {
+   "data": "2015",
+   "categoria": "trajetoria",
+   "texto": "Como conselheiro da associação de clínicos veterinários de pequenos animais, participa da criação do primeiro hospital público para cães e gatos de São Paulo.",
+   "fonte": "https://www.congressoemfoco.com.br/noticia/120990/democrata-antigo-pmb-lanca-candidatura-de-wilson-grassi-ao-planalto"
+  },
+  {
+   "data": "2022",
+   "categoria": "trajetoria",
+   "texto": "Disputa vaga de deputado federal pelo PV e recebe 6.580 votos, sem se eleger.",
+   "fonte": "https://www.congressoemfoco.com.br/noticia/120990/democrata-antigo-pmb-lanca-candidatura-de-wilson-grassi-ao-planalto"
+  },
+  {
+   "data": "2024",
+   "categoria": "trajetoria",
+   "texto": "Disputa vaga de vereador em São Paulo pelo PRTB e recebe 2.777 votos, sem se eleger.",
+   "fonte": "https://dadosabertos.tse.jus.br/dataset/resultados-2024"
+  },
+  {
+   "data": "2026-08-30",
+   "categoria": "justica",
+   "texto": "O ministro Dias Toffoli (TSE) suspende por cautela sua campanha digital, os repasses e o uso do FEFC e a ida a debates: oito perfis foram informados 17 dias após o registro.",
+   "fonte": "https://www.cnnbrasil.com.br/eleicoes/toffoli-suspende-campanha-de-wilson-grassi/"
+  },
+  {
+   "data": "2026-09-02",
+   "categoria": "justica",
+   "texto": "Toffoli revê a decisão após esclarecimentos da defesa e libera a propaganda digital, os repasses do FEFC e a participação em debates.",
+   "fonte": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/toffoli-libera-propaganda-digital-do-candidato-presidente-grassi"
+  },
+  {
+   "data": "2026-10-04",
+   "categoria": "trajetoria",
+   "texto": "Termina o 1º turno da eleição presidencial em 11º lugar, com 16.881 votos (0,01%).",
+   "fonte": "https://dadosabertos.tse.jus.br/dataset/resultados-2026"
+  },
+  {
+   "data": "2026-10-14",
+   "categoria": "trajetoria",
+   "texto": "Descarta apoiar Lula e anuncia apoio a Flávio Bolsonaro (PL) no 2º turno, condicionado ao compromisso público com cinco pautas de proteção animal.",
+   "fonte": "https://www.gazetadopovo.com.br/eleicoes/2026/wilson-grassi-junior-anuncia-apoio-a-flavio-bolsonaro-e-cobra-propostas-para-causa-animal/"
+  }
+ ],
+ "busca_nota": "Grassi nunca teve mandato nem cargo público, então não há votos ou atos oficiais. Busquei: as falas da entrevista à Folha (via Poder360 e Agora RN) frente ao programa registrado; os partidos pelos quais concorreu (PFL em 2006, PV em 2022, PRTB em 2024 e Democrata em 2026), troca de legenda sem fala dele explicando mudança de posição; e o apoio no 2º turno (O Tempo, Gazeta do Povo, CNN), sem fala anterior em outro sentido. O caso do FEFC compara uma proposta dele (reduzir o financiamento público de campanhas) com o uso do fundo pela chapa, que é legal pelas regras atuais. Ele não propôs acabar com o fundo, e não achei explicação dele sobre isso. Não incluí como caso o fato de ter sido candidato pelo PV em 2022, ano em que o partido estava federado ao PT, porque não achei fala dele de apoio a Lula naquele ano. Lacunas: a candidatura a deputado federal em 2022 pelo PV (6.580 votos, segundo o Congresso em Foco) não estava na linha do tempo anterior e não foi conferida nos dados abertos do TSE; a Jovem Pan dá número diferente para 2022. A data do hospital veterinário aparece como 2015 no Congresso em Foco e como 2012 (discussões) na linha do tempo anterior. Não localizei se Flávio Bolsonaro aceitou as condições de Grassi."
+}

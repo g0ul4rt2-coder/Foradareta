@@ -1,0 +1,150 @@
+{
+ "id": "flavio-bolsonaro",
+ "diz_faz": [
+  {
+   "tema": "Fim da escala 6x1 (jornada de trabalho)",
+   "tipo": "mudanca",
+   "disse": {
+    "texto": "Chamou a discussão da PEC do fim da escala 6x1 de 'inoportuna e eleitoreira' e disse que o projeto apresentado pelo governo em ano eleitoral tinha 'interesse nas eleições'.",
+    "data": "2026-05",
+    "contexto": "Fala de maio de 2026, cerca de uma semana antes da aprovação da PEC na Câmara. Depois do 1º turno, ainda chamou a PEC de 'oportunista' e defendeu 'liberdade para o trabalhador escolher a sua jornada de trabalho'.",
+    "fonte": "https://www.opovo.com.br/noticias/economia/2026/10/14/flavio-bolsonaro-muda-voto-sobre-escala-6x1.html"
+   },
+   "fez": {
+    "texto": "Votou Sim na PEC 221/2019 (redução da jornada e dois dias de repouso semanal), nos dois turnos, no Plenário do Senado. Placar de cada turno: 75 a 1. O texto foi promulgado como Emenda Constitucional 141 em 16/10/2026.",
+    "data": "2026-10-14",
+    "fonte": "https://www25.senado.leg.br/web/atividade/materias/-/materia/174386"
+   },
+   "explicacao": {
+    "texto": "Em 13/10/2026 anunciou o voto: 'Estou rodando o Brasil, e a maioria dos trabalhadores brasileiros quer o fim da 6 por 1. Então, vou votar a favor do fim da 6 por 1'. Disse também que defende 'algo ainda melhor', a liberdade de o trabalhador montar sua escala, e que caberia ao governo compensar os empresários.",
+    "fonte": "https://www.opovo.com.br/noticias/economia/2026/10/14/flavio-bolsonaro-muda-voto-sobre-escala-6x1.html"
+   },
+   "apontado_por": null
+  },
+  {
+   "tema": "Privatização da Petrobras",
+   "tipo": "mudanca",
+   "disse": {
+    "texto": "Disse ser defensor da privatização da Petrobras, como opinião pessoal e não do governo: 'quanto menos sob influência política estiverem, melhor para o consumidor'. Reconheceu que não havia clima no Congresso para aprovar a venda.",
+    "data": "2022-04-05",
+    "contexto": "Fala a jornalistas como senador, durante o governo do pai, em meio à troca no comando da Petrobras e à alta do diesel.",
+    "fonte": "https://www.poder360.com.br/economia/flavio-bolsonaro-quer-petrobras-com-olhar-social-para-o-diesel/"
+   },
+   "fez": {
+    "texto": "Como candidato à Presidência, negou que tentaria privatizar a Petrobras e outras estatais se eleito: 'Isso é uma boataria, é uma boataria atrás da outra'.",
+    "data": "2026-10-09",
+    "fonte": "https://diariodocomercio.com.br/politica/flavio-bolsonaro-descarta-privatizacao-petrobras/"
+   },
+   "explicacao": null,
+   "apontado_por": null
+  },
+  {
+   "tema": "Dinheiro de Daniel Vorcaro (Banco Master) para o filme 'Dark Horse'",
+   "tipo": "fala_x_ato",
+   "disse": {
+    "texto": "Questionado pelo repórter do Intercept Brasil sobre o financiamento de Daniel Vorcaro ao filme sobre Jair Bolsonaro, negou a informação e respondeu: 'De onde você tirou isso? É dinheiro privado, dinheiro privado, dinheiro privado'.",
+    "data": "2026-05-13",
+    "contexto": "Abordagem de jornalistas em Brasília, na manhã de 13/05/2026, depois de reunião com o presidente do STF, Edson Fachin.",
+    "fonte": "https://www.diariodepernambuco.com.br/politica/2026/05/11714159-flavio-diz-que-e-mentira-financiamento-de-vorcaro-para-filme-de-bolsonaro-e-dinheiro-privado.html"
+   },
+   "fez": {
+    "texto": "No mesmo dia, em nota e em vídeo, confirmou ter pedido dinheiro a Vorcaro para o filme, 'procurando patrocínio privado para um filme privado', depois que o Intercept publicou mensagens e áudio dele cobrando o banqueiro.",
+    "data": "2026-05-13",
+    "fonte": "https://diariodocomercio.com.br/?p=582046"
+   },
+   "explicacao": {
+    "texto": "Disse que procurou Vorcaro porque as parcelas do patrocínio estavam atrasadas e o filme corria o risco de não ser concluído; afirmou: 'Não ofereci vantagens em troca', e que não recebeu dinheiro nem intermediou negócios com o governo.",
+    "fonte": "https://diariodocomercio.com.br/?p=582046"
+   },
+   "apontado_por": null
+  },
+  {
+   "tema": "Foro privilegiado",
+   "tipo": "regra_para_outros",
+   "disse": {
+    "texto": "'Eu sou contra o foro, mas não é uma escolha minha'; 'O STF é o único órgão que pode falar qual é o foro'.",
+    "data": "2019-01-18",
+    "contexto": "Entrevista à TV Record, já eleito senador, depois de o STF suspender, a pedido dele, a investigação sobre Fabrício Queiroz.",
+    "fonte": "https://www.agazeta.com.br/es/politica/-eu-sou-contra-o-foro-mas-nao-e-uma-escolha-minha--diz-flavio-bolsonaro-0119"
+   },
+   "fez": {
+    "texto": "A 3ª Câmara Criminal do TJ-RJ aceitou, por 2 a 1, habeas corpus da defesa dele e mandou o caso das 'rachadinhas' da 1ª instância para o Órgão Especial do tribunal, reconhecendo foro especial por ele ter sido deputado estadual.",
+    "data": "2020-06-25",
+    "fonte": "https://www.poder360.com.br/justica/flavio-bolsonaro-ganha-foro-especial-em-caso-das-supostas-rachadinhas/"
+   },
+   "explicacao": {
+    "texto": "A defesa disse, em nota, estar 'muito confiante' e que o caso nunca deveria ter começado na 1ª instância, porque Flávio era deputado estadual na época dos fatos.",
+    "fonte": "https://www.poder360.com.br/justica/flavio-bolsonaro-ganha-foro-especial-em-caso-das-supostas-rachadinhas/"
+   },
+   "apontado_por": null
+  },
+  {
+   "tema": "Tributação de dividendos de profissionais liberais",
+   "tipo": "conflito_apontado",
+   "disse": {
+    "texto": "Na justificativa da emenda: 'Não é razoável submeter à nova incidência os rendimentos oriundos do labor pessoal dos profissionais liberais'.",
+    "data": "2025-11-05",
+    "contexto": "Emenda ao PL 1087/2025 (isenção do IR até R$ 5 mil e tributação mínima de altas rendas), que virou a Lei 15.270/2025.",
+    "fonte": "https://sbtnews.sbt.com.br/colunas/coluna-do-tulio/flavio-propos-isencao-no-ir-que-beneficiaria-escritorio-dele"
+   },
+   "fez": {
+    "texto": "Apresentou emenda para excluir da nova tributação os lucros e dividendos de sociedades de profissionais fiscalizadas por conselho de classe. A coluna aponta que a regra poderia beneficiar a Flavio Bolsonaro Sociedade Individual de Advocacia, da qual ele é titular, mas ressalva que o texto era uma regra geral.",
+    "data": "2025-11-05",
+    "fonte": "https://sbtnews.sbt.com.br/colunas/coluna-do-tulio/flavio-propos-isencao-no-ir-que-beneficiaria-escritorio-dele"
+   },
+   "explicacao": null,
+   "apontado_por": "SBT News (Coluna do Túlio, 25/09/2026); procurada, a equipe do senador não havia se manifestado até a publicação"
+  }
+ ],
+ "principais": [
+  {
+   "data": "2018-10-07",
+   "categoria": "trajetoria",
+   "texto": "Eleito senador pelo Rio de Janeiro (PSL) com 4.380.418 votos (31,36% dos válidos), depois de quatro mandatos de deputado estadual na Alerj (2003–2019).",
+   "fonte": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2018/noticia/2018/10/07/rj-elege-flavio-bolsonaro-para-o-senado.ghtml"
+  },
+  {
+   "data": "2019-10-22",
+   "categoria": "voto",
+   "texto": "Votou Sim, em 2º turno no Senado, na reforma da Previdência (PEC 6/2019).",
+   "fonte": "https://www25.senado.leg.br/web/atividade/materias/-/materia/137999"
+  },
+  {
+   "data": "2020-10-19",
+   "categoria": "justica",
+   "texto": "O MP-RJ o denunciou com Fabrício Queiroz e mais 15 pessoas por peculato, lavagem, apropriação indébita e organização criminosa no caso das 'rachadinhas' da Alerj; a defesa negou.",
+   "fonte": "https://www.congressoemfoco.com.br/corrupcao/mp-denuncia-flavio-bolsonaro-e-queiroz-por-rachadinhas/"
+  },
+  {
+   "data": "2021-11-09",
+   "categoria": "justica",
+   "texto": "Por 4 a 1, a 5ª Turma do STJ anulou quebras de sigilo, buscas e outras decisões do caso das 'rachadinhas', por incompetência do juiz de 1ª instância.",
+   "fonte": "https://www.cnnbrasil.com.br/politica/stj-anula-decisoes-contra-flavio-bolsonaro-no-caso-das-rachadinhas/"
+  },
+  {
+   "data": "2022-05-16",
+   "categoria": "justica",
+   "texto": "A pedido do MP-RJ, o TJ-RJ rejeitou a denúncia das 'rachadinhas' após a anulação de provas, sem julgamento de mérito; o MP disse que as investigações poderiam ser renovadas.",
+   "fonte": "https://www.congressoemfoco.com.br/noticia/11846/justica-arquiva-denuncia-contra-flavio-bolsonaro-por-rachadinhas"
+  },
+  {
+   "data": "2024-02-20",
+   "categoria": "lei",
+   "texto": "Relator em Plenário do PL 2253/2022, que extinguiu a 'saidinha' de presos; aprovado por 62 a 2, virou a Lei 14.843/2024, e o Congresso derrubou o veto parcial.",
+   "fonte": "https://www25.senado.leg.br/web/atividade/materias/-/materia/154451"
+  },
+  {
+   "data": "2025-12-17",
+   "categoria": "voto",
+   "texto": "Votou Sim no PL 2162/2023 (Dosimetria), que reduz penas de condenados pelo 8 de janeiro; aprovado por 48 a 25, foi vetado e virou a Lei 15.402/2026 após derrubada do veto.",
+   "fonte": "https://www25.senado.leg.br/web/atividade/materias/-/materia/172003"
+  },
+  {
+   "data": "2026-07-23",
+   "categoria": "justica",
+   "texto": "O ministro André Mendonça (STF) autorizou inquérito da PF sobre cerca de R$ 61 milhões pagos por Daniel Vorcaro ao filme 'Dark Horse', cobrados por Flávio; ele nega irregularidade.",
+   "fonte": "https://www.poder360.com.br/poder-justica/mendonca-autoriza-pf-a-investigar-repasses-para-filme-sobre-bolsonaro/"
+  }
+ ],
+ "busca_nota": "Pesquisados: votos nominais e autorias no Senado (PEC 221/2019, PL 2253/2022, PL 2162/2023, PEC 6/2019, lista nominal da PEC 221/2019 conferida em PDF do Senado), falas sobre 6x1, Petrobras, foro privilegiado, PL 2630/2020, caso Vorcaro/'Dark Horse', emenda ao PL 1087/2025, pacote de corte de gastos de 2024 e subsídio ao diesel de 2026. Ficaram de fora: (a) discurso de corte de gastos x voto Não no pacote de dez/2024 (PEC 54/2024 e PL 4614/2024), porque não achei explicação dele para o voto, e o pacote mexia em BPC e salário mínimo; (b) crítica ao 'uso eleitoreiro' da Petrobras em 09/10/2026 x voto Sim na PEC 1/2022, porque a ligação entre os dois exigiria interpretação; (c) urnas: falas a diplomatas sobre a Smartmatic (21/07/2026) seguidas de nota de 'integral confiança no sistema eleitoral', por limite de 6 casos. A emenda ao PL 1087/2025: a coluna não informa se foi incorporada à lei. O voto no PL das Fake News (Não, 30/06/2020) consta da Agência Senado via Congresso em Foco. Não achei o resultado oficial do 2º turno (25/10/2026) em fonte verificável, por isso ele não entrou nas principais ações."
+}

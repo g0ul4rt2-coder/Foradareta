@@ -1,0 +1,176 @@
+{
+  "id": "ronaldo-caiado",
+  "diz_faz": [
+    {
+      "tema": "Aliança com Gilberto Kassab (PSD)",
+      "tipo": "mudanca",
+      "disse": {
+        "texto": "\"Kassab adota postura de cafetão e acha que deputados são garotas de programa para viabilizar o PL.\" Na mesma época chamou a criação do PSD de \"uma fraude\" e Kassab de \"homem sem posição, de caráter líquido\".",
+        "data": "2015-01",
+        "contexto": "Posts no Twitter (hoje X), quando era senador do DEM e Kassab era ministro das Cidades de Dilma Rousseff e montava o novo PL; publicações de 2012 a 2015 voltaram a circular após a filiação de Caiado ao PSD (InfoMoney, 28/01/2026)",
+        "fonte": "https://www.infomoney.com.br/politica/recem-filiado-ao-psd-caiado-ja-insultou-kassab-traira-cafetao-e-mau-carater/amp/"
+      },
+      "fez": {
+        "texto": "Filiou-se ao PSD, presidido por Kassab, em 27/01/2026; em abril disse que Kassab como vice \"era perfeito, completo em tudo. Maior articulador\", e a convenção de 26/07/2026 oficializou a chapa Caiado–Kassab.",
+        "data": "2026-07-26",
+        "fonte": "https://www.infomoney.com.br/politica/apos-ter-chamado-de-cafetao-do-planalto-caiado-recua-e-diz-kassab-e-o-vice-ideal/"
+      },
+      "explicacao": {
+        "texto": "Questionado, disse que as críticas se deviam à proximidade de Kassab com o PT naquela época, que mantém os posts no ar por ter \"posição firme sobre a conjuntura\" e que agora, ao lado de Kassab, pretende \"tirar o PT do poder\".",
+        "fonte": "https://acritica.net/politica/caiado-kassab-ataques-antigos-chapa-psd/"
+      },
+      "apontado_por": null
+    },
+    {
+      "tema": "Relação com Jair Bolsonaro",
+      "tipo": "mudanca",
+      "disse": {
+        "texto": "\"Fui aliado de primeira hora, durante todo o tempo. Mas não posso admitir que venha agora um presidente lavar as mãos e responsabilizar outras pessoas por um colapso.\" Também criticou a fala sobre \"gripezinha\".",
+        "data": "2020-03-25",
+        "contexto": "Entrevista coletiva em Goiânia, um dia após pronunciamento de Bolsonaro contra o isolamento social na pandemia; anunciou que as orientações do presidente não valeriam em Goiás",
+        "fonte": "https://www.congressoemfoco.com.br/temas/economia/caiado-rompe-com-bolsonaro-e-presidente-se-isola-de-governadores/"
+      },
+      "fez": {
+        "texto": "No Palácio da Alvorada, após o 1º turno de 2022: \"Em nome do povo goiano, venho aqui trazer e declarar apoio à reeleição de vossa excelência\".",
+        "data": "2022-10-06",
+        "fonte": "https://www.poder360.com.br/eleicoes/maioria-do-uniao-brasil-apoia-bolsonaro-diz-caiado/"
+      },
+      "explicacao": {
+        "texto": "Disse que a divergência da pandemia \"é um assunto superado em decorrência da chegada da vacina e dos protocolos que implantei\" e que \"nunca abri mão da vida, do direito à propriedade, da economia de mercado, da liberdade do cidadão\".",
+        "fonte": "https://www.infomoney.com.br/?p=1956654"
+      },
+      "apontado_por": null
+    },
+    {
+      "tema": "ICMS em Goiás",
+      "tipo": "fala_x_ato",
+      "disse": {
+        "texto": "\"Eu desautorizo qualquer aumento de ICMS em Goiás. Aqui não vai ter!\" e \"Em Goiás não aumentamos ICMS há anos!\".",
+        "data": "2021-03-13",
+        "contexto": "Posts no Twitter como governador, em resposta a reportagem da Folha que incluía Goiás entre os estados que elevariam o ICMS sobre o diesel, durante a pandemia",
+        "fonte": "https://www.metropoles.com/brasil/aqui-nao-vai-ter-diz-caiado-sobre-aumento-do-icms-do-diesel-em-go"
+      },
+      "fez": {
+        "texto": "A Alego aprovou em 2ª votação projeto de autoria do governador que elevou a alíquota modal do ICMS de 17% para 19%, em vigor desde 01/04/2024 (Lei 22.460/2023).",
+        "data": "2023-12-06",
+        "fonte": "https://tribunadoplanalto.com.br/?p=33168"
+      },
+      "explicacao": {
+        "texto": "Ao confirmar a intenção (22/11/2023), o governo apresentou o aumento como reação às possíveis perdas de arrecadação com a reforma tributária; a Secretaria da Economia disse que a medida antecipava os efeitos da reforma. O Ministério da Fazenda contestou que a reforma justificasse alta das alíquotas modais.",
+        "fonte": "https://www.infomoney.com.br/politica/caiado-diz-que-pretende-aumentar-aliquota-padrao-do-icms-para-19/"
+      },
+      "apontado_por": null
+    },
+    {
+      "tema": "Contribuição do agro ao Fundeinfra",
+      "tipo": "mudanca",
+      "disse": {
+        "texto": "Anunciou a líderes do agro um projeto com \"uma contribuição sobre os produtos agropecuários\" para um fundo de infraestrutura: \"Não podemos deixar Goiás colapsar nessa hora\".",
+        "data": "2022-11-07",
+        "contexto": "Reunião com entidades do agronegócio, após mudanças federais no ICMS dos combustíveis que, segundo ele, tirariam cerca de R$ 4 bilhões/ano do estado; a Alego aprovou a contribuição (até 1,65% sobre a comercialização) por 22 a 14 em 23/11/2022",
+        "fonte": "https://www.noticiasagricolas.com.br/noticia/332641"
+      },
+      "fez": {
+        "texto": "Na abertura do ano legislativo anunciou projeto para acabar com a cobrança: \"Diante desse cenário, decidimos cancelar a cobrança do Fundeinfra no Estado de Goiás\".",
+        "data": "2026-02-18",
+        "fonte": "https://www.cnnbrasil.com.br/agro/governo-de-goias-propoe-revogar-taxa-do-agro-destinada-ao-fundeinfra/"
+      },
+      "explicacao": {
+        "texto": "Justificou com a falta de seguro rural amplo, perdas climáticas no Centro-Oeste, alta dos custos de produção e queda dos preços das commodities agrícolas.",
+        "fonte": "https://www.cnnbrasil.com.br/agro/governo-de-goias-propoe-revogar-taxa-do-agro-destinada-ao-fundeinfra/"
+      },
+      "apontado_por": null
+    },
+    {
+      "tema": "Punição aos envolvidos no 8 de janeiro",
+      "tipo": "mudanca",
+      "disse": {
+        "texto": "\"O que aconteceu hoje em Brasília é a tentativa da barbárie se sobrepor às nossas instituições democráticas.\" Chamou os atos de inaceitáveis e disse que \"a democracia é soberana e deve ser defendida e respeitada\".",
+        "data": "2023-01-08",
+        "contexto": "Nota do governador no dia da invasão do Congresso, do STF e do Planalto; no dia seguinte o governo de Goiás afastou cinco servidores que participaram dos atos",
+        "fonte": "https://tribunadoplanalto.com.br/?p=21107"
+      },
+      "fez": {
+        "texto": "No Roda Viva, perguntado se a medida incluiria Jair Bolsonaro e réus da trama golpista: \"Anistia ampla, geral e irrestrita\"; em 2026 prometeu enviar o projeto e assinar indulto a Bolsonaro se eleito.",
+        "data": "2025-06-09",
+        "fonte": "https://www.cnnbrasil.com.br/politica/caiado-diz-defender-anistia-ampla-geral-e-irrestrita-incluindo-bolsonaro/"
+      },
+      "explicacao": {
+        "texto": "Apresentou a anistia como forma de pacificar o país: \"Nós precisamos acabar com essa polarização! Ninguém aguenta mais\" (sabatina da TV Globo, 25/08/2026); em 2025 citou a Lei de Anistia de 1979 como precedente.",
+        "fonte": "https://sbtnews.sbt.com.br/noticia/eleicoes/8-1-caiado-promete-anistia-ampla-e-irrestrita-as-envolvidos"
+      },
+      "apontado_por": null
+    },
+    {
+      "tema": "Escolta de 51 PMs após deixar o governo",
+      "tipo": "conflito_apontado",
+      "disse": {
+        "texto": "\"Escolta não é mordomia\"; atribuiu a necessidade de proteção ao combate ao crime organizado em sua gestão.",
+        "data": "2026-06",
+        "contexto": "Resposta anterior à ação do MP, reproduzida em reportagem da Folha de S.Paulo (Folhapress) de 27/06/2026; o gabinete de Caiado não respondeu antes da publicação",
+        "fonte": "https://www.acessa.com/politica/2026/06/332342-ministerio-publico-de-goias-entra-com-acao-contra-uso-de-policiais-como-segurancas-de-caiado.html"
+      },
+      "fez": {
+        "texto": "Após deixar o cargo, passou a ter escolta de 51 PMs (R$ 797,5 mil/mês em salários, segundo a Folha), com portaria da Casa Militar de 01/04/2026 que estendeu a proteção à família; liminar de 06/07/2026 limitou a quatro PMs.",
+        "data": "2026-07-06",
+        "fonte": "https://revistaoeste.com/politica/justica-manda-caiado-reduzir-escolta-de-51-para-quatro-pms/"
+      },
+      "explicacao": {
+        "texto": "A Procuradoria-Geral do Estado sustenta que a proteção tem base na Constituição de Goiás, varia conforme a necessidade operacional e \"não constitui benefício pessoal ou discricionário\". A ação de improbidade não tem julgamento de mérito.",
+        "fonte": "https://revistaoeste.com/politica/justica-manda-caiado-reduzir-escolta-de-51-para-quatro-pms/"
+      },
+      "apontado_por": "Ministério Público de Goiás (ação de improbidade contra Caiado, Gracinha Caiado e o chefe da Casa Militar, noticiada pela Folha de S.Paulo em 27/06/2026)"
+    }
+  ],
+  "principais": [
+    {
+      "data": "2012-05-22",
+      "categoria": "voto",
+      "texto": "Como deputado (DEM-GO), votou 'não' à PEC 438/2001 (PEC do Trabalho Escravo), que permite expropriar imóveis com trabalho escravo; aprovada por 360 a 29.",
+      "fonte": "https://dadosabertos.camara.leg.br/api/v2/votacoes/36162-204/votos"
+    },
+    {
+      "data": "2016-08-31",
+      "categoria": "voto",
+      "texto": "Como senador, votou 'sim' ao impeachment de Dilma Rousseff, aprovado por 61 a 20, e também 'sim' à perda dos direitos políticos dela, rejeitada.",
+      "fonte": "https://www.congressoemfoco.com.br/noticias/como-votaram-os-senadores/"
+    },
+    {
+      "data": "2016-12-13",
+      "categoria": "voto",
+      "texto": "Como senador, votou a favor da PEC do teto de gastos nos dois turnos; a emenda limitou o crescimento das despesas federais à inflação.",
+      "fonte": "https://www.congressoemfoco.com.br/noticias/como-votaram-os-senadores/"
+    },
+    {
+      "data": "2017-07-11",
+      "categoria": "voto",
+      "texto": "Como senador, votou a favor da reforma trabalhista, que extinguiu a contribuição sindical obrigatória e alterou regras da CLT.",
+      "fonte": "https://congressoemfoco.com.br/noticias/saiba-como-cada-senador-votou-na-ultima-sessao-da-reforma-trabalhista"
+    },
+    {
+      "data": "2021-10-14",
+      "categoria": "governo",
+      "texto": "Como governador, privatizou a Celg Transmissão em leilão na B3, arrematada pela EDP por R$ 1,977 bilhão.",
+      "fonte": "https://www.b3.com.br/pt_br/noticias/leilao-da-celg-t-foi-realizado-na-b3.htm"
+    },
+    {
+      "data": "2021-12-24",
+      "categoria": "governo",
+      "texto": "Como governador, teve homologada pelo presidente da República a adesão de Goiás ao Regime de Recuperação Fiscal, programa federal para estados endividados.",
+      "fonte": "https://www.maisgoias.com.br/cidades/bolsonaro-assina-adesao-de-goias-ao-rrf-com-elogios-a-caiado/"
+    },
+    {
+      "data": "2023-12-06",
+      "categoria": "lei",
+      "texto": "A Alego aprovou projeto de sua autoria que elevou o ICMS modal de Goiás de 17% para 19%, em vigor desde 01/04/2024.",
+      "fonte": "https://tribunadoplanalto.com.br/?p=33168"
+    },
+    {
+      "data": "2025-04-08",
+      "categoria": "justica",
+      "texto": "O TRE-GO, por unanimidade, afastou a inelegibilidade de 8 anos imposta em 1ª instância (eleição de Goiânia em 2024) e manteve multa de R$ 60 mil.",
+      "fonte": "https://www.cnnbrasil.com.br/politica/tre-go-tem-maioria-para-manter-caiado-elegivel/"
+    }
+  ],
+  "busca_nota": "Pesquisados: alianças (Kassab, Bolsonaro, União Brasil/PSD), impostos (ICMS 2021 x 2023; Fundeinfra 2022 x 2026; plano de 2026 'sem aumento permanente de carga'), 8 de janeiro e anistia (nota de 2023, Canal Livre nov/2024, Roda Viva jun/2025, sabatina ago/2026), Saneago (IPO de 49% planejado em 2019 x 'não será privatizada' em 2026), escala 6x1 (ago/2026), fim da reeleição, Lula (2015 x 2022) e escolta de PMs. Ficaram de fora: Saneago, porque a venda de ações de 2019 manteria o controle estatal e não fica claro que haja mudança; escala 6x1, porque as falas de 20 e 21/08/2026 tratam de pontos diferentes (apoio à redução e crítica à forma da PEC); fim da reeleição, por não ter achado defesa anterior a 2022 bem documentada; Canal Livre (nov/2024), porque só achei resumo da Band (página bloqueada). Lacunas: a data exata da frase 'escolta não é mordomia' não foi localizada (aparece como declaração anterior a 27/06/2026); não encontrei citação direta de Caiado justificando o aumento do ICMS (só a justificativa do governo); as páginas do Jornal Opção e da Band retornaram bloqueio ao acesso automatizado. Os votos de 2012 e 2016–2017 e os atos de governo vêm do arquivo de contexto e foram reconferidos quando a fonte abriu."
+}

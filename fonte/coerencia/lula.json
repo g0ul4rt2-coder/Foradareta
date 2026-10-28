@@ -1,0 +1,153 @@
+{
+ "id": "lula",
+ "diz_faz": [
+  {
+   "tema": "Reeleição em 2026",
+   "tipo": "mudanca",
+   "disse": {
+    "texto": "\"Eu se eleito serei um presidente de um mandato só.\" Na mesma data, à rádio Nova Brasil FM, repetiu: \"eu sou o presidente de um mandato só\" e disse aos partidos que preparassem um sucessor.",
+    "data": "2022-10-25",
+    "contexto": "Publicação no Twitter/X e entrevista à rádio Nova Brasil FM, na campanha do 2º turno de 2022; segundo a reportagem, ele já havia feito o mesmo compromisso a empresários na Fiesp em agosto de 2022",
+    "fonte": "https://sbtnews.sbt.com.br/noticia/eleicoes/228180-lula-reforca-que-nao-tentara-reeleicao-em-2026-se-for-eleito-neste-ano"
+   },
+   "fez": {
+    "texto": "Convenção do PT em São Paulo oficializou a candidatura de Lula à reeleição, na chapa Lula–Alckmin.",
+    "data": "2026-08-02",
+    "fonte": "https://diariodonordeste.verdesmares.com.br/pontopoder/lula-oficializa-candidatura-pela-reeleicao-a-presidencia-em-convencao-do-pt-1.3781118"
+   },
+   "explicacao": {
+    "texto": "Em entrevista ao podcast de Mano Brown, condicionou a candidatura à saúde e ao combate à extrema direita: \"Se eu estiver tão saudável na eleição como hoje, com a vontade que eu tenho, serei um candidato que pode vencer\" e \"a extrema-direita não vai voltar a governar esse país\" (19/06/2025).",
+    "fonte": "https://www.bloomberglinea.com.br/brasil/lula-diz-que-disputara-reeleicao-se-estiver-saudavel-e-que-vai-vencer-extrema-direita/"
+   },
+   "apontado_por": null
+  },
+  {
+   "tema": "Aborto",
+   "tipo": "mudanca",
+   "disse": {
+    "texto": "Sobre o aborto: \"Na verdade, deveria ser transformado em uma questão de saúde pública e todo mundo ter direito, e não vergonha.\"",
+    "data": "2022-04-05",
+    "contexto": "Debate em evento da Fundação Perseu Abramo, em São Paulo, na pré-campanha",
+    "fonte": "https://www.poder360.com.br/eleicoes/sou-contra-o-aborto-diz-lula-apos-ter-fala-criticada/"
+   },
+   "fez": {
+    "texto": "Na Carta aos Evangélicos, escreveu ser \"pessoalmente contra o aborto\" e que \"este não é um tema a ser decidido pelo Presidente da República e sim pelo Congresso Nacional\".",
+    "data": "2022-10-19",
+    "fonte": "https://www.opovo.com.br/eleicoes-2022/2022/10/19/em-carta-a-evangelicos-lula-critica-uso-eleitoral-da-fe-e-reforca-ser-contra-o-aborto-leia-na-integra.html"
+   },
+   "explicacao": {
+    "texto": "Dois dias depois da fala, à Rádio Jangadeiro (Fortaleza), disse: \"A única coisa que eu deixei de dizer na fala que eu fiz é que eu sou contra o aborto\", e manteve que o tema deve ser tratado como questão de saúde pública (07/04/2022).",
+    "fonte": "https://www.poder360.com.br/eleicoes/sou-contra-o-aborto-diz-lula-apos-ter-fala-criticada/"
+   },
+   "apontado_por": null
+  },
+  {
+   "tema": "Venezuela e regime de Maduro",
+   "tipo": "mudanca",
+   "disse": {
+    "texto": "Chamou de \"narrativa\" as acusações de antidemocracia e autoritarismo contra o governo da Venezuela e disse que Maduro precisava construir a sua própria narrativa.",
+    "data": "2023-05-29",
+    "contexto": "Declaração após receber Nicolás Maduro no Palácio do Planalto, com honras de chefe de Estado, na retomada das relações bilaterais",
+    "fonte": "https://www.poder360.com.br/governo/para-lula-venezuela-nao-ser-uma-democracia-e-narrativa/"
+   },
+   "fez": {
+    "texto": "Após a eleição venezuelana de julho de 2024, disse: \"Eu acho que a Venezuela vive um regime muito desagradável\" e \"É um governo com viés autoritário, mas não é uma ditadura\"; afirmou que só reconheceria o resultado com a divulgação das atas. Em out/2024 o Brasil vetou a Venezuela como parceira do BRICS.",
+    "data": "2024-08-16",
+    "fonte": "https://sbtnews.sbt.com.br/noticia/politica/lula-diz-que-governo-de-maduro-na-venezuela-nao-e-uma-ditadura-mas-um-regime-desagradavel-e-de-vies-autoritario"
+   },
+   "explicacao": null,
+   "apontado_por": null
+  },
+  {
+   "tema": "Salário mínimo",
+   "tipo": "fala_x_ato",
+   "disse": {
+    "texto": "\"Eu garanto que o salário mínimo não será mexido enquanto eu for presidente da República.\"",
+    "data": "2024-06-26",
+    "contexto": "Entrevista ao UOL, em meio à revisão de gastos do governo, ao negar plano de desvincular aposentadorias do salário mínimo",
+    "fonte": "https://www.cartacapital.com.br/?p=435656"
+   },
+   "fez": {
+    "texto": "Sancionou a Lei 15.077/2024, do pacote de corte de gastos, cujo art. 4º limita o ganho real do salário mínimo de 2025 a 2030 ao intervalo de crescimento da despesa do arcabouço fiscal (LC 200/2023), de 0,6% a 2,5% ao ano.",
+    "data": "2024-12-27",
+    "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l15077.htm"
+   },
+   "explicacao": {
+    "texto": "Ao anunciar o pacote em cadeia nacional, o ministro da Fazenda, Fernando Haddad, afirmou que as novas regras manteriam o salário mínimo subindo acima da inflação, de forma sustentável e dentro da regra fiscal (27/11/2024).",
+    "fonte": "https://www.poder360.com.br/poder-economia/haddad-confirma-novo-teto-de-reajuste-do-salario-minimo/"
+   },
+   "apontado_por": null
+  },
+  {
+   "tema": "Indicação do advogado pessoal ao STF",
+   "tipo": "conflito_apontado",
+   "disse": {
+    "texto": "Sobre a possível indicação de Cristiano Zanin, seu advogado na Lava Jato, disse que ele é amigo e companheiro, mas: \"Mas eu nunca indiquei por conta disso.\"",
+    "data": "2023-03-02",
+    "contexto": "Entrevista à BandNews, antes da indicação",
+    "fonte": "https://www.poder360.com.br/governo/lula-diz-que-zanin-sera-excepcional-ministro-do-stf/"
+   },
+   "fez": {
+    "texto": "Indicou Cristiano Zanin para a vaga de Ricardo Lewandowski no STF; o Senado aprovou o nome em 21/06/2023, por 58 votos a 18.",
+    "data": "2023-06-01",
+    "fonte": "https://www.poder360.com.br/congresso/ex-advogado-de-lula-zanin-e-aprovado-como-novo-ministro-do-stf/"
+   },
+   "explicacao": {
+    "texto": "Ao confirmar a escolha: \"todo mundo esperava que eu fosse indicar o Zanin não só pelo papel que ele teve na minha defesa\" e \"ele vai se tornar um dos grandes ministros da Suprema Corte\" (01/06/2023). Em resposta à Transparência Internacional, a presidente do PT, Gleisi Hoffmann, disse que a crítica revela \"má vontade e a oposição política da ONG a Lula e ao PT\".",
+    "fonte": "https://www.poder360.com.br/governo/lula-diz-que-zanin-sera-excepcional-ministro-do-stf/"
+   },
+   "apontado_por": "Transparência Internacional – Brasil, no Índice de Percepção da Corrupção 2023 (jan/2024), classificou como \"preocupante\" e \"polêmica\" a indicação do ex-advogado de Lula ao STF (relato do Poder360: https://www.poder360.com.br/governo/gleisi-critica-piora-do-brasil-em-ranking-de-corrupcao/); o senador Sergio Moro também questionou a imparcialidade"
+  }
+ ],
+ "principais": [
+  {
+   "data": "2004-01-09",
+   "categoria": "lei",
+   "texto": "Sanciona a Lei 10.836/2004, que cria o Bolsa Família ao unificar programas de transferência de renda (a MP é de out/2003); em 2010 o programa atendia cerca de 12,7 milhões de famílias.",
+   "fonte": "https://www2.camara.leg.br/legin/fed/lei/2004/lei-10836-9-janeiro-2004-490604-publicacaooriginal-1-pl.html"
+  },
+  {
+   "data": "2017-07-12",
+   "categoria": "justica",
+   "texto": "É condenado pelo juiz Sergio Moro a 9 anos e 6 meses no caso do triplex; o TRF-4 aumenta a pena em 2018 e ele fica preso de abril de 2018 a novembro de 2019.",
+   "fonte": "https://www.poder360.com.br/eleicoes/lula-e-condenado-a-9-anos-e-6-meses-de-prisao-no-processo-do-triplex/"
+  },
+  {
+   "data": "2021-03-08",
+   "categoria": "justica",
+   "texto": "O ministro Edson Fachin (STF) anula as condenações de Lula na 13ª Vara de Curitiba por incompetência do juízo; em jun/2021 o plenário confirma a suspeição de Moro por 7 a 4.",
+   "fonte": "https://www.migalhas.com.br/quentes/341380/fachin-anula-as-condenacoes-de-lula-na-lava-jato"
+  },
+  {
+   "data": "2023-01-08",
+   "categoria": "governo",
+   "texto": "Após a invasão das sedes dos Três Poderes, decreta intervenção federal na segurança pública do DF (Decreto 11.377), em vez de GLO; o Congresso aprova a medida.",
+   "fonte": "https://www.migalhas.com.br/quentes/379678/lula-decreta-intervencao-federal-no-df"
+  },
+  {
+   "data": "2023-08-31",
+   "categoria": "lei",
+   "texto": "Sanciona a LC 200/2023 (arcabouço fiscal), que substitui o teto de gastos com limite de crescimento real da despesa e metas de resultado primário.",
+   "fonte": "https://agenciagov.ebc.com.br/noticias/202308/presidente-lula-sanciona-a-lei-do-novo-arcabouco-fiscal"
+  },
+  {
+   "data": "2025-11-27",
+   "categoria": "lei",
+   "texto": "É publicada a Lei 15.270/2025: isenção de IR para quem ganha até R$ 5 mil por mês e imposto mínimo para rendas acima de R$ 600 mil por ano.",
+   "fonte": "https://www.reformatributaria.com/governo/leia-na-integra-a-lei-do-novo-ir-e-do-imposto-minimo/"
+  },
+  {
+   "data": "2026-01-08",
+   "categoria": "lei",
+   "texto": "Veta integralmente o PL da Dosimetria, que reduzia penas de condenados pelo 8 de janeiro; o Congresso derruba o veto em 30/04/2026.",
+   "fonte": "https://www.congressoemfoco.com.br/noticia/115388/lula-veta-integralmente-pl-da-dosimetria"
+  },
+  {
+   "data": "2026-10-25",
+   "categoria": "trajetoria",
+   "texto": "É reeleito presidente no 2º turno contra Flávio Bolsonaro (PL), com cerca de 51,8% dos votos válidos, depois de terminar o 1º turno em 2º lugar; será seu quarto mandato.",
+   "fonte": "https://www.bloomberglinea.com.br/brasil/ao-vivo-brasil-vota-no-2-turno-para-escolher-entre-lula-e-flavio-bolsonaro-como-presidente/"
+  }
+ ],
+ "busca_nota": "Procurados: Previdência (PT contra a taxação de inativos no governo FHC x EC 41/2003), mensalão ('traído' em ago/2005 x 'não houve mensalão' em nov/2005), sigilos de 100 anos (promessa de 'revogaço' em 2022 x 1.339 negativas por dados pessoais em 2023, segundo o Estadão), orçamento secreto/emendas de comissão, autonomia do BC e Eletrobras. Ficaram de fora: Previdência, porque não achei fonte de imprensa ou da Câmara com fala literal de Lula contra a taxação antes de 2003 (só artigos jurídicos e opinativos); mensalão, porque as duas falas tratam de coisas diferentes (caixa 2 x compra de votos) e compará-las seria interpretação; sigilos, porque a CGU contestou a leitura de que as 1.339 negativas equivalem a sigilo de 100 anos; emendas, porque não achei fala literal de Lula na campanha. O resultado do 2º turno de 2026 vem de cobertura ao vivo (Bloomberg Línea) com 99,99% das seções apuradas, não da página final do TSE. A nota da Transparência Internacional de jun/2023 sobre Zanin só apareceu em fonte secundária (Revista Oeste); por isso usei o relatório de jan/2024, relatado pelo Poder360."
+}
